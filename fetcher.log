@@ -1855,3 +1855,50 @@
 [2024-04-04 01:21:15] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.0.tar.gz]
 [2024-04-04 01:21:15] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
 [2024-04-04 01:21:15] INFO root fetch - main [MainThread]: Store serial: [22612284]
+[2024-04-04 01:23:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612284]
+[2024-04-04 01:23:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 01:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paas-app-charmer
+[2024-04-04 01:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dazl
+[2024-04-04 01:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: toomanycells
+[2024-04-04 01:23:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panpiper
+[2024-04-04 01:23:24] INFO root fetch - processPackages [panpiper]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 01:23:24] INFO root fetch - processPackages [paas-app-charmer]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-04 01:23:24] INFO root fetch - processPackages [toomanycells]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 01:23:24] INFO root fetch - processPackages [dazl]: New version: [8.0.0b1] Old Version: [8.0.0a4]
+[2024-04-04 01:23:24] INFO root fetch - processPackages [panpiper]: Downloading https://files.pythonhosted.org/packages/3e/20/a640431a78ccb74602940dc470c5235a5279718f34f1f8b60656c8b943ad/panpiper-1.0.1.tar.gz
+[2024-04-04 01:23:24] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/ca/81/f70f552915ba4290240281e89c77a53bf1f92da1924436d856b6c2021228/toomanycells-1.0.8.tar.gz
+[2024-04-04 01:23:24] INFO root fetch - processPackages [dazl]: Downloading https://files.pythonhosted.org/packages/2d/52/c6e81024152faf4bbc363897621b260dd03319a3b9338bfbde793fd90b20/dazl-8.0.0a4.tar.gz
+[2024-04-04 01:23:24] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/0c/2b/8b8ceb1fd49e9a3ba76670a763cb457829e6025a39239950a9f40333748c/paas-app-charmer-0.2.1.tar.gz
+[2024-04-04 01:23:24] WARNING root fetch - processPackages [paas-app-charmer]: Timeout reached during download
+[2024-04-04 01:23:24] WARNING root fetch - processPackages [dazl]: Timeout reached during download
+[2024-04-04 01:23:24] WARNING root fetch - processPackages [panpiper]: Timeout reached during download
+[2024-04-04 01:23:24] INFO root fetch - processPackages [paas-app-charmer]: Downloading https://files.pythonhosted.org/packages/76/c7/c2e61b4bef31ac01f0fd70969aecc0df55f13bcd861d93d8681784b79d2e/paas-app-charmer-1.0.0.tar.gz
+[2024-04-04 01:23:24] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 01:23:24] INFO root fetch - processPackages [dazl]: Downloading https://files.pythonhosted.org/packages/f4/2a/3e59df4335f3b0036ebb9fe3df773e5e332695802dd6766b902ced687675/dazl-8.0.0b1.tar.gz
+[2024-04-04 01:23:25] WARNING root fetch - processPackages [paas-app-charmer]: Timeout reached during download
+[2024-04-04 01:23:25] INFO root fetch - processPackages [paas-app-charmer]: executing diffoscope
+[2024-04-04 01:23:25] INFO root fetch - processPackages [paas-app-charmer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paas-app-charmer-0.2.1.tar.gz tmp/paas-app-charmer-1.0.0.tar.gz --markdown 20240404/p/paas-app-charmer/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 01:23:25] INFO root fetch - processPackages [panpiper]: Downloading https://files.pythonhosted.org/packages/e1/7a/59ede39f33f6f9e60e9fd8290c0d6db9fef8dd63ba3c811ed50d000346b0/panpiper-1.0.2.tar.gz
+[2024-04-04 01:23:25] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/93/e9/abb2d1e3c266cf33e3928261abaf14d2ffadeb4092939f1284586f323858/toomanycells-1.0.9.tar.gz
+[2024-04-04 01:23:25] WARNING root fetch - processPackages [panpiper]: Timeout reached during download
+[2024-04-04 01:23:25] INFO root fetch - processPackages [panpiper]: executing diffoscope
+[2024-04-04 01:23:25] INFO root fetch - processPackages [panpiper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panpiper-1.0.1.tar.gz tmp/panpiper-1.0.2.tar.gz --markdown 20240404/p/panpiper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 01:23:25] WARNING root fetch - processPackages [dazl]: Timeout reached during download
+[2024-04-04 01:23:25] INFO root fetch - processPackages [dazl]: executing diffoscope
+[2024-04-04 01:23:25] INFO root fetch - processPackages [dazl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dazl-8.0.0a4.tar.gz tmp/dazl-8.0.0b1.tar.gz --markdown 20240404/d/dazl/8.0.0a4-8.0.0b1/diff.md --exclude *.pyd
+[2024-04-04 01:23:25] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 01:23:25] INFO root fetch - processPackages [toomanycells]: executing diffoscope
+[2024-04-04 01:23:25] INFO root fetch - processPackages [toomanycells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toomanycells-1.0.8.tar.gz tmp/toomanycells-1.0.9.tar.gz --markdown 20240404/t/toomanycells/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:23:25] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas-app-charmer-0.2.1.tar.gz]
+[2024-04-04 01:23:25] INFO root fetch - processPackages [paas-app-charmer]: Remove: archive file [/home/abi/fetcher/tmp/paas-app-charmer-1.0.0.tar.gz]
+[2024-04-04 01:23:25] INFO root fetch - main [MainThread]: End processing [paas-app-charmer]: success
+[2024-04-04 01:23:25] INFO root fetch - processPackages [panpiper]: Remove: archive file [/home/abi/fetcher/tmp/panpiper-1.0.1.tar.gz]
+[2024-04-04 01:23:25] INFO root fetch - processPackages [panpiper]: Remove: archive file [/home/abi/fetcher/tmp/panpiper-1.0.2.tar.gz]
+[2024-04-04 01:23:25] INFO root fetch - main [MainThread]: End processing [panpiper]: success
+[2024-04-04 01:23:26] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.8.tar.gz]
+[2024-04-04 01:23:26] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
+[2024-04-04 01:23:26] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
+[2024-04-04 01:23:27] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0a4.tar.gz]
+[2024-04-04 01:23:27] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0b1.tar.gz]
+[2024-04-04 01:23:27] INFO root fetch - main [MainThread]: End processing [dazl]: success
+[2024-04-04 01:23:27] INFO root fetch - main [MainThread]: Store serial: [22612296]
