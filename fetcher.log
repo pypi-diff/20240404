@@ -362,3 +362,108 @@
 [2024-04-04 00:13:02] INFO root fetch - processPackages [pandora-avatar]: Remove: archive file [/home/abi/fetcher/tmp/pandora-avatar-0.0.9.tar.gz]
 [2024-04-04 00:13:02] INFO root fetch - main [MainThread]: End processing [pandora-avatar]: success
 [2024-04-04 00:13:02] INFO root fetch - main [MainThread]: Store serial: [22611749]
+[2024-04-04 00:15:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611749]
+[2024-04-04 00:15:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xee
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sun2000_modbus
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cbcmgr
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: springserve
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bare-script
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dawgz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: automagic-rest
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paladium
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tello-ctrl
+[2024-04-04 00:15:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scholarly-publications
+[2024-04-04 00:15:10] WARNING root fetch - processPackages [tello-ctrl]: Skipping, unable to determine old version
+[2024-04-04 00:15:10] INFO root fetch - main [MainThread]: End processing [tello-ctrl] error
+[2024-04-04 00:15:10] INFO root fetch - processPackages [springserve]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [dawgz]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [sun2000_modbus]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [bare-script]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [automagic-rest]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [paladium]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [cbcmgr]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [xee]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [scholarly-publications]: New version: [0.4] Old Version: [0.3]
+[2024-04-04 00:15:10] INFO root fetch - processPackages [springserve]: Downloading https://files.pythonhosted.org/packages/9d/13/877772b204f3491a69b7bc3c570b748c4394019c94c294bab23cadc35444/springserve-0.8.8.tar.gz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [dawgz]: Downloading https://files.pythonhosted.org/packages/1f/31/75c49ed5a7089b2ba3e1176e7bd055d7d8671943bd027aa57f2115616ece/dawgz-0.5.1.tar.gz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/af/06/05c1fdb98333f02b45c4bfbabab7dadc6629664f1f8121044ff7b6c2bc94/paladium-1.0.3.tar.gz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/96/59/8f83edf6892821224c2956fe0e4fdc0e0195ce2fab33465bb9076856431b/cbcmgr-2.2.8.tar.gz
+[2024-04-04 00:15:10] WARNING root fetch - processPackages [dawgz]: Timeout reached during download
+[2024-04-04 00:15:10] INFO root fetch - processPackages [bare-script]: Downloading https://files.pythonhosted.org/packages/58/0a/04dab168191c9dbf9789ea7dd64b58e94093ebe486829204c236024a81b5/bare-script-3.0.8.tar.gz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [sun2000_modbus]: Downloading https://files.pythonhosted.org/packages/84/08/76b324858ee739a64e672446e696b68d7af560c214d5cc4286f09a902e19/sun2000_modbus-2.1.1.tar.gz
+[2024-04-04 00:15:10] WARNING root fetch - processPackages [springserve]: Timeout reached during download
+[2024-04-04 00:15:10] INFO root fetch - processPackages [xee]: Downloading https://files.pythonhosted.org/packages/b0/b1/d7cdf0b4cae1e69cb7cbfbd6b874c9c0bda71460c4d1d2c907789f094f41/xee-0.0.8.tar.gz
+[2024-04-04 00:15:10] INFO root fetch - processPackages [automagic-rest]: Downloading https://files.pythonhosted.org/packages/00/24/8b86d3f9f4f4b3c56e1e2dd810299f682a5e87f05866124ff5f4b8688972/automagic-rest-1.0.0.tar.gz
+[2024-04-04 00:15:10] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:15:10] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [bare-script]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [dawgz]: Downloading https://files.pythonhosted.org/packages/dd/9e/fe6c3dddfbc871acc18625d503b179e22717fd9e53373a441a86c7117af6/dawgz-0.5.2.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [sun2000_modbus]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/5f/69/5bb89038330d01d8240d15cd7918716323089c1e40736e26bca99807435f/scholarly_publications-0.3.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [automagic-rest]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/ad/92/938619b3950d3845b21563947d64beb316dcf7977745a4309da144ecd8be/paladium-1.0.4.tar.gz
+[2024-04-04 00:15:11] INFO root fetch - processPackages [sun2000_modbus]: Downloading https://files.pythonhosted.org/packages/82/92/956ac3fd0303442570030f5419058244062e442ae1d75fe06862975f911d/sun2000_modbus-2.2.0.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [dawgz]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [dawgz]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [dawgz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dawgz-0.5.1.tar.gz tmp/dawgz-0.5.2.tar.gz --markdown 20240404/d/dawgz/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/67/64/457361dba5eba5ba47c78661d68e9e4df76506658db791e9c1a1c1f8c492/cbcmgr-2.2.9.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [xee]: Timeout reached during download
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [scholarly-publications]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [springserve]: Downloading https://files.pythonhosted.org/packages/9c/d6/235403f7090c554fda4b5ebf6f1e1ac71379968d97519febd25ca772201c/springserve-0.8.9.tar.gz
+[2024-04-04 00:15:11] INFO root fetch - processPackages [bare-script]: Downloading https://files.pythonhosted.org/packages/f4/64/cd9d822ea7dbc83e8b2e71da3975b9f135dad676480533351ad51fc1d946/bare-script-3.0.9.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.3.tar.gz tmp/paladium-1.0.4.tar.gz --markdown 20240404/p/paladium/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] INFO root fetch - processPackages [automagic-rest]: Downloading https://files.pythonhosted.org/packages/17/68/3fa81a9041f913f0c3a143544e043582ca9f26ae2f75f803819eb0dd2214/automagic-rest-1.1.0.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [sun2000_modbus]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [sun2000_modbus]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [sun2000_modbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sun2000_modbus-2.1.1.tar.gz tmp/sun2000_modbus-2.2.0.tar.gz --markdown 20240404/s/sun2000_modbus/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-2.2.8.tar.gz tmp/cbcmgr-2.2.9.tar.gz --markdown 20240404/c/cbcmgr/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [springserve]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [springserve]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [springserve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/springserve-0.8.8.tar.gz tmp/springserve-0.8.9.tar.gz --markdown 20240404/s/springserve/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [automagic-rest]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [automagic-rest]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [automagic-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automagic-rest-1.0.0.tar.gz tmp/automagic-rest-1.1.0.tar.gz --markdown 20240404/a/automagic-rest/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [bare-script]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [bare-script]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [bare-script]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bare-script-3.0.8.tar.gz tmp/bare-script-3.0.9.tar.gz --markdown 20240404/b/bare-script/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] INFO root fetch - processPackages [xee]: Downloading https://files.pythonhosted.org/packages/24/23/883c65a21aa73b6b47500cba84cbe613ec8638280c48fed73a93b5e5e5ef/xee-0.0.9.tar.gz
+[2024-04-04 00:15:11] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/f8/3d/9df34f94fad2f76e591ae4ff89c35adb14a456a0102c72e9ed4dfb934dde/scholarly_publications-0.4.tar.gz
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [xee]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [xee]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [xee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xee-0.0.8.tar.gz tmp/xee-0.0.9.tar.gz --markdown 20240404/x/xee/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:15:11] WARNING root fetch - processPackages [scholarly-publications]: Timeout reached during download
+[2024-04-04 00:15:11] INFO root fetch - processPackages [scholarly-publications]: executing diffoscope
+[2024-04-04 00:15:11] INFO root fetch - processPackages [scholarly-publications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scholarly_publications-0.3.tar.gz tmp/scholarly_publications-0.4.tar.gz --markdown 20240404/s/scholarly-publications/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-04 00:15:12] INFO root fetch - processPackages [dawgz]: Remove: archive file [/home/abi/fetcher/tmp/dawgz-0.5.1.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [dawgz]: Remove: archive file [/home/abi/fetcher/tmp/dawgz-0.5.2.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [dawgz]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.3.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.4.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [sun2000_modbus]: Remove: archive file [/home/abi/fetcher/tmp/sun2000_modbus-2.1.1.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [sun2000_modbus]: Remove: archive file [/home/abi/fetcher/tmp/sun2000_modbus-2.2.0.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [sun2000_modbus]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [springserve]: Remove: archive file [/home/abi/fetcher/tmp/springserve-0.8.8.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [springserve]: Remove: archive file [/home/abi/fetcher/tmp/springserve-0.8.9.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [springserve]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [automagic-rest]: Remove: archive file [/home/abi/fetcher/tmp/automagic-rest-1.0.0.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [automagic-rest]: Remove: archive file [/home/abi/fetcher/tmp/automagic-rest-1.1.0.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [automagic-rest]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [bare-script]: Remove: archive file [/home/abi/fetcher/tmp/bare-script-3.0.8.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [bare-script]: Remove: archive file [/home/abi/fetcher/tmp/bare-script-3.0.9.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [bare-script]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.8.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.3.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.4.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [scholarly-publications]: success
+[2024-04-04 00:15:12] INFO root fetch - processPackages [xee]: Remove: archive file [/home/abi/fetcher/tmp/xee-0.0.8.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - processPackages [xee]: Remove: archive file [/home/abi/fetcher/tmp/xee-0.0.9.tar.gz]
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [xee]: success
+[2024-04-04 00:15:12] INFO root fetch - main [MainThread]: Store serial: [22611781]
