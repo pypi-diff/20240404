@@ -1996,3 +1996,281 @@
 [2024-04-04 01:27:51] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
 [2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
 [2024-04-04 01:27:51] INFO root fetch - main [MainThread]: Store serial: [22612319]
+[2024-04-04 01:29:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612319]
+[2024-04-04 01:30:00] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acme
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certbot
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certbot-apache
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certbot-dns-cloudflare
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certbot-dns-digitalocean
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certbot-dns-dnsimple
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certbot-dns-dnsmadeeasy
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certbot-dns-gehirn
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certbot-dns-google
+[2024-04-04 01:30:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certbot-dns-linode
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-linode]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-cloudflare]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-dnsimple]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-gehirn]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-digitalocean]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [acme]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-dns-google]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:00] INFO root fetch - processPackages [certbot-apache]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot]: Downloading https://files.pythonhosted.org/packages/f7/e3/6e20eb27fca5fc4e95d43a53f96d5e8f72565983f9acd64b840c09c3777f/certbot-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-gehirn]: Downloading https://files.pythonhosted.org/packages/64/5d/3fe3e932a46cfb7bf53133d931fb3ce1e6674a08c770b4cee6fd11ca74b0/certbot-dns-gehirn-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-cloudflare]: Downloading https://files.pythonhosted.org/packages/e6/5e/10d502268a08e8e59cd9c68c457527970b1e7f3f6974711c9879d6f89a81/certbot-dns-cloudflare-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-linode]: Downloading https://files.pythonhosted.org/packages/f3/56/30deb5cc4047019ec045a3f8bdeb61a418a5e7c4cc1bac505b1b37062442/certbot-dns-linode-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: Downloading https://files.pythonhosted.org/packages/04/f3/e4667a89a07feb8361e4f36d032e27ff3881d703052679f0d351cda6d80f/certbot-dns-dnsmadeeasy-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsimple]: Downloading https://files.pythonhosted.org/packages/a4/db/311039e06d5d139790a4ec7d349e7c7a8d940bfe5df1a8aacfbf8a698eb4/certbot-dns-dnsimple-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-digitalocean]: Downloading https://files.pythonhosted.org/packages/2a/5f/fab6e8b840db23d8f564f936d2a8bc3902757f9eb9c0131bfc3711b31ba8/certbot-dns-digitalocean-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-apache]: Downloading https://files.pythonhosted.org/packages/04/b5/a3a733a230fc66b3656a0c5183c6c7d2ce449a287626fc293d82f0b486af/certbot-apache-2.8.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-google]: Downloading https://files.pythonhosted.org/packages/64/58/27d62e7e0e805367cba2a10a7530727bde36d46390800b0814f832a52fd2/certbot-dns-google-2.8.0.tar.gz
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-gehirn]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-cloudflare]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [acme]: Downloading https://files.pythonhosted.org/packages/5b/ed/b9a33ae79229fe0ab5602bf1f871805ac204a383f3986ebdfb750fcc34a9/acme-2.8.0.tar.gz
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-dnsmadeeasy]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-dnsimple]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-digitalocean]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-apache]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-linode]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-google]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [acme]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-cloudflare]: Downloading https://files.pythonhosted.org/packages/cd/b4/db80e1ea8f9165ed816f64acce5e7df8beb8689457f1b1872f5b41124ae4/certbot-dns-cloudflare-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot]: Downloading https://files.pythonhosted.org/packages/f3/f8/16e8d798f5ad191be67f7369c83ab9e51da9c35e4bcc310073c37dc4debe/certbot-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-gehirn]: Downloading https://files.pythonhosted.org/packages/65/2f/62fa37bfb3fac60173a22c03db04e25b3126ea6e06dc80169a12eb6b2c25/certbot-dns-gehirn-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: Downloading https://files.pythonhosted.org/packages/84/32/a3f1dbbae38cdd0e68395d92e120a48b71704e1c22be2b0cc9cb0cf4adbe/certbot-dns-dnsmadeeasy-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-digitalocean]: Downloading https://files.pythonhosted.org/packages/3e/62/9ad228af1b5d7e59e5c61162e6f0b86a6123ec0bd2c7dcc0d378e2379b06/certbot-dns-digitalocean-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsimple]: Downloading https://files.pythonhosted.org/packages/32/f9/6e0894df43053e00989ac5a7109928b8cd7d952cb3bd04ab6f89a5a89463/certbot-dns-dnsimple-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-google]: Downloading https://files.pythonhosted.org/packages/4e/82/a26e37fe25925f1d882c4ea7b7d42a7c9c257bc3b99c1d268d74b849bf15/certbot-dns-google-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-linode]: Downloading https://files.pythonhosted.org/packages/dc/bb/2bf20d3f136ec9ca8623d83057f9fbd4ea8ac5af1ffbd9be33815ff10e31/certbot-dns-linode-2.9.0.tar.gz
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-apache]: Downloading https://files.pythonhosted.org/packages/10/6c/0ed888988b0464ed8299a022c7db4f920884a2c9788091f88f5e0a3d0541/certbot-apache-2.9.0.tar.gz
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-cloudflare]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-cloudflare]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-cloudflare-2.8.0.tar.gz tmp/certbot-dns-cloudflare-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-cloudflare/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] INFO root fetch - processPackages [acme]: Downloading https://files.pythonhosted.org/packages/d2/b4/a4a923e7dd24733b522fdd23a7ce5ba6105b5f41acacc8890adedc3ebb4c/acme-2.9.0.tar.gz
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-dnsmadeeasy]: Timeout reached during download
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-gehirn]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-dnsmadeeasy-2.8.0.tar.gz tmp/certbot-dns-dnsmadeeasy-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-dnsmadeeasy/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-gehirn]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-gehirn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-gehirn-2.8.0.tar.gz tmp/certbot-dns-gehirn-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-gehirn/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-dnsimple]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsimple]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-dnsimple-2.8.0.tar.gz tmp/certbot-dns-dnsimple-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-dnsimple/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-digitalocean]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-digitalocean]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-digitalocean-2.8.0.tar.gz tmp/certbot-dns-digitalocean-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-digitalocean/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-2.8.0.tar.gz tmp/certbot-2.9.0.tar.gz --markdown 20240404/c/certbot/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-google]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-google]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-google-2.8.0.tar.gz tmp/certbot-dns-google-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-google/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-dns-linode]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-linode]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-dns-linode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-linode-2.8.0.tar.gz tmp/certbot-dns-linode-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-linode/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [certbot-apache]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-apache]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [certbot-apache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-apache-2.8.0.tar.gz tmp/certbot-apache-2.9.0.tar.gz --markdown 20240404/c/certbot-apache/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:01] WARNING root fetch - processPackages [acme]: Timeout reached during download
+[2024-04-04 01:30:01] INFO root fetch - processPackages [acme]: executing diffoscope
+[2024-04-04 01:30:01] INFO root fetch - processPackages [acme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acme-2.8.0.tar.gz tmp/acme-2.9.0.tar.gz --markdown 20240404/a/acme/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-dnsmadeeasy-2.8.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-dnsmadeeasy-2.9.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-dnsmadeeasy]: Start processing: tap-gainsightpx
+[2024-04-04 01:30:02] INFO root fetch - main [MainThread]: End processing [certbot-dns-dnsmadeeasy]: success
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-digitalocean-2.8.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-digitalocean]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-digitalocean-2.9.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-digitalocean]: Start processing: certbot-dns-luadns
+[2024-04-04 01:30:02] INFO root fetch - main [MainThread]: End processing [certbot-dns-digitalocean]: success
+[2024-04-04 01:30:02] INFO root fetch - processPackages [tap-gainsightpx]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-cloudflare-2.8.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-cloudflare-2.9.0.tar.gz]
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-cloudflare]: Start processing: certbot-dns-nsone
+[2024-04-04 01:30:02] INFO root fetch - main [MainThread]: End processing [certbot-dns-cloudflare]: success
+[2024-04-04 01:30:02] INFO root fetch - processPackages [certbot-dns-luadns]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-google]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-google-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-google]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-google-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-google]: Start processing: certbot-dns-ovh
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot-dns-google]: success
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-nsone]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [tap-gainsightpx]: Downloading https://files.pythonhosted.org/packages/c4/72/56c46492c662db42ecafa4c5fe68664a0f6c01473d0a75bbcc072dc2aa62/tap_gainsightpx-1.0.6.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-gehirn]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-gehirn-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-gehirn]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-gehirn-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-gehirn]: Start processing: certbot-dns-rfc2136
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot-dns-gehirn]: success
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-linode]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-linode-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-linode]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-linode-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-linode]: Start processing: certbot-dns-route53
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot-dns-linode]: success
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-dnsimple-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-rfc2136]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-dnsimple]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-dnsimple-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-dnsimple]: Start processing: certbot-dns-sakuracloud
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot-dns-dnsimple]: success
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [tap-gainsightpx]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-ovh]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [acme]: Remove: archive file [/home/abi/fetcher/tmp/acme-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [acme]: Remove: archive file [/home/abi/fetcher/tmp/acme-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [acme]: Start processing: seidart
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [acme]: success
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-route53]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-sakuracloud]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-luadns]: Downloading https://files.pythonhosted.org/packages/72/ca/e53d19fce1116a0d8921498517f19feec264c417309d3f95a6e966e8461a/certbot-dns-luadns-2.8.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-nsone]: Downloading https://files.pythonhosted.org/packages/bd/71/560cb22c08f596a97aab6a6be9800059ad738659c4693f3719ebeb6512df/certbot-dns-nsone-2.8.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [tap-gainsightpx]: Downloading https://files.pythonhosted.org/packages/e9/16/fe71d27528e4bc28cbfee7ec077f6bb547f252fd01f644b7bfc9f6e01111/tap_gainsightpx-1.0.7.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-apache]: Remove: archive file [/home/abi/fetcher/tmp/certbot-apache-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-apache]: Remove: archive file [/home/abi/fetcher/tmp/certbot-apache-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-apache]: Start processing: certbot-nginx
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot-apache]: success
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-luadns]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-nsone]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-nginx]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-rfc2136]: Downloading https://files.pythonhosted.org/packages/ce/4c/32dda7523ebaa56a5c9baa440fd69b206351ee64cc666e455fb91e6164b8/certbot-dns-rfc2136-2.8.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-ovh]: Downloading https://files.pythonhosted.org/packages/d3/b5/74305acbb742597a5a565ea194e68ff68132517855fc7037ec0972b5ef38/certbot-dns-ovh-2.8.0.tar.gz
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [tap-gainsightpx]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [tap-gainsightpx]: executing diffoscope
+[2024-04-04 01:30:03] INFO root fetch - processPackages [tap-gainsightpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_gainsightpx-1.0.6.tar.gz tmp/tap_gainsightpx-1.0.7.tar.gz --markdown 20240404/t/tap-gainsightpx/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/04/91/8c5e4604f686cfcf615538f8524ebc6fcd6aeeea0f2b6d12531c0a47f891/certbot-dns-route53-2.8.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-sakuracloud]: Downloading https://files.pythonhosted.org/packages/69/64/3cdf92d78ee8b0d025a8ba1ad688d7acb0e07f71465efa5a1d514ed5a0d6/certbot-dns-sakuracloud-2.8.0.tar.gz
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-rfc2136]: Timeout reached during download
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-ovh]: Timeout reached during download
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-sakuracloud]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-luadns]: Downloading https://files.pythonhosted.org/packages/46/b8/5b7a1cf0119bac0d552f2d849bf938d771ceb720d7b0af87eea5efe645e0/certbot-dns-luadns-2.9.0.tar.gz
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-route53]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-nsone]: Downloading https://files.pythonhosted.org/packages/39/27/b847fbac46af276932de5aa406531c6c3bb0937363c662a5e0f4547215e8/certbot-dns-nsone-2.9.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-nginx]: Downloading https://files.pythonhosted.org/packages/24/98/cc27896095a94d99ffb609f07904532b98196bb6554fec41ad4971c8ad91/certbot-nginx-2.8.0.tar.gz
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-luadns]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-luadns]: executing diffoscope
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-luadns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-luadns-2.8.0.tar.gz tmp/certbot-dns-luadns-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-luadns/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot]: Remove: archive file [/home/abi/fetcher/tmp/certbot-2.8.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot]: Remove: archive file [/home/abi/fetcher/tmp/certbot-2.9.0.tar.gz]
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot]: Start processing: iiif-now
+[2024-04-04 01:30:03] INFO root fetch - main [MainThread]: End processing [certbot]: success
+[2024-04-04 01:30:03] WARNING root fetch - processPackages [certbot-dns-nsone]: Timeout reached during download
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-nsone]: executing diffoscope
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-nsone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-nsone-2.8.0.tar.gz tmp/certbot-dns-nsone-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-nsone/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-ovh]: Downloading https://files.pythonhosted.org/packages/a3/b7/b3af8c569c9b0c265d59d19b194a9429398635eab9e2d38bcc5ddb4dfaab/certbot-dns-ovh-2.9.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [certbot-dns-rfc2136]: Downloading https://files.pythonhosted.org/packages/08/0e/f2caed30bc8647bf1c37119f5d864f28cade768c9254b3e105130abd14ca/certbot-dns-rfc2136-2.9.0.tar.gz
+[2024-04-04 01:30:03] INFO root fetch - processPackages [iiif-now]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-sakuracloud]: Downloading https://files.pythonhosted.org/packages/65/d7/5b46b0415922a9065a8644fd48117393dce060a387a6574cba1273fb579c/certbot-dns-sakuracloud-2.9.0.tar.gz
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-nginx]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/d4/ee/40be5539c279b88420de9987a77a5bcd429020ba5b285109a0a88933e776/certbot-dns-route53-2.9.0.tar.gz
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-dns-ovh]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-ovh]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-ovh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-ovh-2.8.0.tar.gz tmp/certbot-dns-ovh-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-ovh/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-dns-rfc2136]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-rfc2136]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-rfc2136]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-rfc2136-2.8.0.tar.gz tmp/certbot-dns-rfc2136-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-rfc2136/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] INFO root fetch - processPackages [tap-gainsightpx]: Remove: archive file [/home/abi/fetcher/tmp/tap_gainsightpx-1.0.6.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [tap-gainsightpx]: Remove: archive file [/home/abi/fetcher/tmp/tap_gainsightpx-1.0.7.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [tap-gainsightpx]: Start processing: camera-ui-python-types
+[2024-04-04 01:30:04] INFO root fetch - main [MainThread]: End processing [tap-gainsightpx]: success
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-dns-sakuracloud]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-sakuracloud]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-sakuracloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-sakuracloud-2.8.0.tar.gz tmp/certbot-dns-sakuracloud-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-sakuracloud/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] INFO root fetch - processPackages [camera-ui-python-types]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-dns-route53]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-route53]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-dns-route53-2.8.0.tar.gz tmp/certbot-dns-route53-2.9.0.tar.gz --markdown 20240404/c/certbot-dns-route53/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] INFO root fetch - processPackages [iiif-now]: Downloading https://files.pythonhosted.org/packages/5b/15/3a9e65aa8c44fc0f9232370e3c66333c13ef2dee4f42b010a6a5920624c3/iiif_now-0.1.2.tar.gz
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-nginx]: Downloading https://files.pythonhosted.org/packages/bc/4b/6d3910df30820f075ffe63b93b597e6ccf2b692ef8f0ecb5419c78149d08/certbot-nginx-2.9.0.tar.gz
+[2024-04-04 01:30:04] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/4d/91/8f66920b92ee71f302a89040cd5bda06874eb3068a8e2783d2727e21e145/camera-ui-python-types-0.1.8.tar.gz
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [certbot-nginx]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-nginx]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-nginx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/certbot-nginx-2.8.0.tar.gz tmp/certbot-nginx-2.9.0.tar.gz --markdown 20240404/c/certbot-nginx/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [iiif-now]: Timeout reached during download
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [camera-ui-python-types]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-nsone]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-nsone-2.8.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-nsone]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-nsone-2.9.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-nsone]: Start processing: Python-Algorithm-pyal
+[2024-04-04 01:30:04] INFO root fetch - main [MainThread]: End processing [certbot-dns-nsone]: success
+[2024-04-04 01:30:04] INFO root fetch - processPackages [iiif-now]: Downloading https://files.pythonhosted.org/packages/53/eb/820592fd732ad22f28ec95564ff0128092bac29d1fdae5a4d9299f14de7b/iiif_now-0.1.3.tar.gz
+[2024-04-04 01:30:04] INFO root fetch - processPackages [Python-Algorithm-pyal]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-luadns]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-luadns-2.8.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-luadns]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-luadns-2.9.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-luadns]: Start processing: iot-devices
+[2024-04-04 01:30:04] INFO root fetch - main [MainThread]: End processing [certbot-dns-luadns]: success
+[2024-04-04 01:30:04] WARNING root fetch - processPackages [iiif-now]: Timeout reached during download
+[2024-04-04 01:30:04] INFO root fetch - processPackages [iiif-now]: executing diffoscope
+[2024-04-04 01:30:04] INFO root fetch - processPackages [iiif-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iiif_now-0.1.2.tar.gz tmp/iiif_now-0.1.3.tar.gz --markdown 20240404/i/iiif-now/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 01:30:04] INFO root fetch - processPackages [Python-Algorithm-pyal]: Downloading https://files.pythonhosted.org/packages/59/12/4871016249fa664a16c5db6a63be5f18fb38f5058604631babc5fea132ab/Python-Algorithm-pyal-1.2.0.tar.gz
+[2024-04-04 01:30:04] INFO root fetch - processPackages [iot-devices]: New version: [0.1.18] Old Version: [0.1.17]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-rfc2136]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-rfc2136-2.8.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-rfc2136]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-rfc2136-2.9.0.tar.gz]
+[2024-04-04 01:30:04] INFO root fetch - processPackages [certbot-dns-rfc2136]: Start processing: trustauthx
+[2024-04-04 01:30:04] INFO root fetch - main [MainThread]: End processing [certbot-dns-rfc2136]: success
+[2024-04-04 01:30:04] INFO root fetch - processPackages [camera-ui-python-types]: Downloading https://files.pythonhosted.org/packages/aa/10/16d19e4d819a9d548f5b24a065fd209324b510898722599b0caf5da342e7/camera-ui-python-types-0.1.9.tar.gz
+[2024-04-04 01:30:05] INFO root fetch - processPackages [trustauthx]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-sakuracloud]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-sakuracloud-2.8.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-sakuracloud]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-sakuracloud-2.9.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-route53-2.8.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-route53-2.9.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-sakuracloud]: Start processing: signpdf2
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [certbot-dns-sakuracloud]: success
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [certbot-dns-route53]: success
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [Python-Algorithm-pyal]: Timeout reached during download
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [camera-ui-python-types]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [camera-ui-python-types]: executing diffoscope
+[2024-04-04 01:30:05] INFO root fetch - processPackages [camera-ui-python-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camera-ui-python-types-0.1.8.tar.gz tmp/camera-ui-python-types-0.1.9.tar.gz --markdown 20240404/c/camera-ui-python-types/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-ovh]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-ovh-2.8.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-dns-ovh]: Remove: archive file [/home/abi/fetcher/tmp/certbot-dns-ovh-2.9.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [certbot-dns-ovh]: success
+[2024-04-04 01:30:05] INFO root fetch - processPackages [trustauthx]: Downloading https://files.pythonhosted.org/packages/a7/78/5f7af54bdbb0403e2b3841bd96956838b052c4afa240f5ebd31aa5818095/trustauthx-0.7.0.tar.gz
+[2024-04-04 01:30:05] INFO root fetch - processPackages [Python-Algorithm-pyal]: Downloading https://files.pythonhosted.org/packages/ac/56/2da193041d889cda91498c3df4ef61ebbdda89f59da7c39e398005e74873/Python-Algorithm-pyal-1.2.1.tar.gz
+[2024-04-04 01:30:05] INFO root fetch - processPackages [signpdf2]: New version: [7.0.0] Old Version: [6.0.0]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iot-devices]: Downloading https://files.pythonhosted.org/packages/93/39/8a5e9c73cd5871c6fcd6b6d67547519472ba88c3272c08422287ec81599e/iot_devices-0.1.17.tar.gz
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [trustauthx]: Timeout reached during download
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [Python-Algorithm-pyal]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [Python-Algorithm-pyal]: executing diffoscope
+[2024-04-04 01:30:05] INFO root fetch - processPackages [Python-Algorithm-pyal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-Algorithm-pyal-1.2.0.tar.gz tmp/Python-Algorithm-pyal-1.2.1.tar.gz --markdown 20240404/P/Python-Algorithm-pyal/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [iot-devices]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [trustauthx]: Downloading https://files.pythonhosted.org/packages/5c/fb/0dd6a0130035533e02b64bcad1cd3e805e0fc310dd8369c8a2b37c1cc147/trustauthx-0.7.1.tar.gz
+[2024-04-04 01:30:05] INFO root fetch - processPackages [signpdf2]: Downloading https://files.pythonhosted.org/packages/89/b4/301fb8f584f55716e934ecf5ab33ac8e95c753ec11b7acacc48b2c134ad4/signpdf2-6.0.0.tar.gz
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-nginx]: Remove: archive file [/home/abi/fetcher/tmp/certbot-nginx-2.8.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [certbot-nginx]: Remove: archive file [/home/abi/fetcher/tmp/certbot-nginx-2.9.0.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [certbot-nginx]: success
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iot-devices]: Downloading https://files.pythonhosted.org/packages/91/b3/8888f2e87154970e3c9408e8ce1ec709d448d0e178817ce316e2f1ea6098/iot_devices-0.1.18.tar.gz
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [trustauthx]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [trustauthx]: executing diffoscope
+[2024-04-04 01:30:05] INFO root fetch - processPackages [trustauthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustauthx-0.7.0.tar.gz tmp/trustauthx-0.7.1.tar.gz --markdown 20240404/t/trustauthx/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iiif-now]: Remove: archive file [/home/abi/fetcher/tmp/iiif_now-0.1.2.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iiif-now]: Remove: archive file [/home/abi/fetcher/tmp/iiif_now-0.1.3.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [iiif-now]: success
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [signpdf2]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.8.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - processPackages [camera-ui-python-types]: Remove: archive file [/home/abi/fetcher/tmp/camera-ui-python-types-0.1.9.tar.gz]
+[2024-04-04 01:30:05] INFO root fetch - main [MainThread]: End processing [camera-ui-python-types]: success
+[2024-04-04 01:30:05] WARNING root fetch - processPackages [iot-devices]: Timeout reached during download
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iot-devices]: executing diffoscope
+[2024-04-04 01:30:05] INFO root fetch - processPackages [iot-devices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iot_devices-0.1.17.tar.gz tmp/iot_devices-0.1.18.tar.gz --markdown 20240404/i/iot-devices/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2024-04-04 01:30:05] INFO root fetch - processPackages [signpdf2]: Downloading https://files.pythonhosted.org/packages/26/d0/6077afa43a3c4bff80d828abe515ee312eaba7c91c45a0175917f7561244/signpdf2-7.0.0.tar.gz
+[2024-04-04 01:30:06] INFO root fetch - processPackages [Python-Algorithm-pyal]: Remove: archive file [/home/abi/fetcher/tmp/Python-Algorithm-pyal-1.2.0.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - processPackages [Python-Algorithm-pyal]: Remove: archive file [/home/abi/fetcher/tmp/Python-Algorithm-pyal-1.2.1.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - main [MainThread]: End processing [Python-Algorithm-pyal]: success
+[2024-04-04 01:30:06] WARNING root fetch - processPackages [signpdf2]: Timeout reached during download
+[2024-04-04 01:30:06] INFO root fetch - processPackages [signpdf2]: executing diffoscope
+[2024-04-04 01:30:06] INFO root fetch - processPackages [signpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signpdf2-6.0.0.tar.gz tmp/signpdf2-7.0.0.tar.gz --markdown 20240404/s/signpdf2/6.0.0-7.0.0/diff.md --exclude *.pyd
+[2024-04-04 01:30:06] INFO root fetch - processPackages [trustauthx]: Remove: archive file [/home/abi/fetcher/tmp/trustauthx-0.7.0.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - processPackages [trustauthx]: Remove: archive file [/home/abi/fetcher/tmp/trustauthx-0.7.1.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - main [MainThread]: End processing [trustauthx]: success
+[2024-04-04 01:30:06] INFO root fetch - processPackages [iot-devices]: Remove: archive file [/home/abi/fetcher/tmp/iot_devices-0.1.17.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - processPackages [iot-devices]: Remove: archive file [/home/abi/fetcher/tmp/iot_devices-0.1.18.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - main [MainThread]: End processing [iot-devices]: success
+[2024-04-04 01:30:06] INFO root fetch - processPackages [signpdf2]: Remove: archive file [/home/abi/fetcher/tmp/signpdf2-6.0.0.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - processPackages [signpdf2]: Remove: archive file [/home/abi/fetcher/tmp/signpdf2-7.0.0.tar.gz]
+[2024-04-04 01:30:06] INFO root fetch - main [MainThread]: End processing [signpdf2]: success
+[2024-04-04 01:30:08] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 01:30:08] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 01:30:08] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 01:30:08] INFO root fetch - main [MainThread]: Store serial: [22612392]
