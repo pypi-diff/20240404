@@ -783,3 +783,42 @@
 [2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.1.tar.gz]
 [2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
 [2024-04-04 00:26:28] INFO root fetch - main [MainThread]: Store serial: [22611884]
+[2024-04-04 00:28:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611884]
+[2024-04-04 00:28:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danielutils
+[2024-04-04 00:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prrr
+[2024-04-04 00:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llmreader
+[2024-04-04 00:28:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scholarly-publications
+[2024-04-04 00:28:37] INFO root fetch - processPackages [scholarly-publications]: New version: [0.5] Old Version: [0.4]
+[2024-04-04 00:28:37] INFO root fetch - processPackages [llmreader]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 00:28:37] INFO root fetch - processPackages [danielutils]: New version: [0.9.72] Old Version: [0.9.71]
+[2024-04-04 00:28:37] WARNING root fetch - processPackages [prrr]: Skipping, unable to determine old version
+[2024-04-04 00:28:37] INFO root fetch - main [MainThread]: End processing [prrr] error
+[2024-04-04 00:28:37] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/f8/3d/9df34f94fad2f76e591ae4ff89c35adb14a456a0102c72e9ed4dfb934dde/scholarly_publications-0.4.tar.gz
+[2024-04-04 00:28:37] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/7a/69/af137e179f0cc68c7e86f55663c6ccbff9726c3afa836d4d777cfaf93f76/llmreader-0.2.2.tar.gz
+[2024-04-04 00:28:37] WARNING root fetch - processPackages [scholarly-publications]: Timeout reached during download
+[2024-04-04 00:28:37] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:28:37] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/0c/a9/be53da64ddd84ec5923cccf1b1ae776b86338836d5ce61e1ac6915a6a6b3/danielutils-0.9.71.tar.gz
+[2024-04-04 00:28:38] INFO root fetch - processPackages [scholarly-publications]: Downloading https://files.pythonhosted.org/packages/23/a2/6603dc4383a4288b99c9eb8fb9cbe820389078db7cb55c2bdd4cca39774d/scholarly_publications-0.5.tar.gz
+[2024-04-04 00:28:38] WARNING root fetch - processPackages [danielutils]: Timeout reached during download
+[2024-04-04 00:28:38] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/82/5e/26866f69b176b8661d0440f847a1172196a295ef3a9d01b11dd0125976a5/llmreader-0.2.3.tar.gz
+[2024-04-04 00:28:38] WARNING root fetch - processPackages [scholarly-publications]: Timeout reached during download
+[2024-04-04 00:28:38] INFO root fetch - processPackages [scholarly-publications]: executing diffoscope
+[2024-04-04 00:28:38] INFO root fetch - processPackages [scholarly-publications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scholarly_publications-0.4.tar.gz tmp/scholarly_publications-0.5.tar.gz --markdown 20240404/s/scholarly-publications/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-04 00:28:38] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:28:38] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-04 00:28:38] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.2.tar.gz tmp/llmreader-0.2.3.tar.gz --markdown 20240404/l/llmreader/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 00:28:38] INFO root fetch - processPackages [danielutils]: Downloading https://files.pythonhosted.org/packages/a3/74/5e2c92ee53d958775c1a90e37f7cba7c0833261a3ba06fa4162d1cf3f248/danielutils-0.9.72.tar.gz
+[2024-04-04 00:28:38] WARNING root fetch - processPackages [danielutils]: Timeout reached during download
+[2024-04-04 00:28:38] INFO root fetch - processPackages [danielutils]: executing diffoscope
+[2024-04-04 00:28:38] INFO root fetch - processPackages [danielutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danielutils-0.9.71.tar.gz tmp/danielutils-0.9.72.tar.gz --markdown 20240404/d/danielutils/0.9.71-0.9.72/diff.md --exclude *.pyd
+[2024-04-04 00:28:38] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.4.tar.gz]
+[2024-04-04 00:28:38] INFO root fetch - processPackages [scholarly-publications]: Remove: archive file [/home/abi/fetcher/tmp/scholarly_publications-0.5.tar.gz]
+[2024-04-04 00:28:38] INFO root fetch - main [MainThread]: End processing [scholarly-publications]: success
+[2024-04-04 00:28:38] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.2.tar.gz]
+[2024-04-04 00:28:38] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.3.tar.gz]
+[2024-04-04 00:28:38] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-04 00:28:39] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.71.tar.gz]
+[2024-04-04 00:28:39] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.72.tar.gz]
+[2024-04-04 00:28:39] INFO root fetch - main [MainThread]: End processing [danielutils]: success
+[2024-04-04 00:28:39] INFO root fetch - main [MainThread]: Store serial: [22611897]
