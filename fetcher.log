@@ -1938,3 +1938,61 @@
 [2024-04-04 01:25:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.2.tar.gz]
 [2024-04-04 01:25:41] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
 [2024-04-04 01:25:41] INFO root fetch - main [MainThread]: Store serial: [22612304]
+[2024-04-04 01:27:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612304]
+[2024-04-04 01:27:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DreamCreator
+[2024-04-04 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: approck-aiogram-utils
+[2024-04-04 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: altscore
+[2024-04-04 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbcmgr
+[2024-04-04 01:27:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Tooldelta
+[2024-04-04 01:27:49] INFO root fetch - processPackages [altscore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 01:27:49] INFO root fetch - processPackages [cbcmgr]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-04 01:27:49] INFO root fetch - processPackages [approck-aiogram-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 01:27:49] INFO root fetch - processPackages [DreamCreator]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 01:27:49] INFO root fetch - processPackages [Tooldelta]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 01:27:50] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-04 01:27:50] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/bf/9f/8f4537e311933198f7eceb106c2572f9ca5b34c1a6b555df0a84b55517e2/tooldelta-0.4.8.tar.gz
+[2024-04-04 01:27:50] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/96/59/8f83edf6892821224c2956fe0e4fdc0e0195ce2fab33465bb9076856431b/cbcmgr-2.2.8.tar.gz
+[2024-04-04 01:27:50] INFO root fetch - processPackages [approck-aiogram-utils]: Downloading https://files.pythonhosted.org/packages/28/e5/579979b4534db96e36005c4898d0af2d1f3589a36f8a9a34e92f46bc5ae9/approck_aiogram_utils-0.1.5.tar.gz
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [altscore]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/41/13/34b5b85813f4aa5638f108cfc77eb1d9515cc4c925ae0b58d27d18290f5a/DreamCreator-0.0.1.tar.gz
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [approck-aiogram-utils]: Timeout reached during download
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/e3/b6/865ff08cbdee5b1522cc15ce8760f46380d0a77722135623bdfa5b3ab9f5/altscore-0.1.99.tar.gz
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [DreamCreator]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [approck-aiogram-utils]: Downloading https://files.pythonhosted.org/packages/9d/2c/ef570673b1512893b6715fa6e16afba886a30b7601a55a6f658374d73ec5/approck_aiogram_utils-0.1.6.tar.gz
+[2024-04-04 01:27:50] INFO root fetch - processPackages [cbcmgr]: Downloading https://files.pythonhosted.org/packages/67/64/457361dba5eba5ba47c78661d68e9e4df76506658db791e9c1a1c1f8c492/cbcmgr-2.2.9.tar.gz
+[2024-04-04 01:27:50] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/1f/f5/f48e66193791d2a764ce152ec99c43ef19351454731d6fe1b69560abc87f/tooldelta-0.4.9.tar.gz
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [altscore]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-04 01:27:50] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.98.tar.gz tmp/altscore-0.1.99.tar.gz --markdown 20240404/a/altscore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 01:27:50] INFO root fetch - processPackages [DreamCreator]: Downloading https://files.pythonhosted.org/packages/10/12/661d0180ffa3ececbf07dd56dc4289f53555fa3ab99fb4f7d2e0d5a6aee8/DreamCreator-0.0.2.tar.gz
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [approck-aiogram-utils]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [approck-aiogram-utils]: executing diffoscope
+[2024-04-04 01:27:50] INFO root fetch - processPackages [approck-aiogram-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/approck_aiogram_utils-0.1.5.tar.gz tmp/approck_aiogram_utils-0.1.6.tar.gz --markdown 20240404/a/approck-aiogram-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-04 01:27:50] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.4.8.tar.gz tmp/tooldelta-0.4.9.tar.gz --markdown 20240404/T/Tooldelta/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [cbcmgr]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [cbcmgr]: executing diffoscope
+[2024-04-04 01:27:50] INFO root fetch - processPackages [cbcmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcmgr-2.2.8.tar.gz tmp/cbcmgr-2.2.9.tar.gz --markdown 20240404/c/cbcmgr/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 01:27:50] WARNING root fetch - processPackages [DreamCreator]: Timeout reached during download
+[2024-04-04 01:27:50] INFO root fetch - processPackages [DreamCreator]: executing diffoscope
+[2024-04-04 01:27:50] INFO root fetch - processPackages [DreamCreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamCreator-0.0.1.tar.gz tmp/DreamCreator-0.0.2.tar.gz --markdown 20240404/D/DreamCreator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 01:27:51] INFO root fetch - processPackages [approck-aiogram-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_aiogram_utils-0.1.5.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - processPackages [approck-aiogram-utils]: Remove: archive file [/home/abi/fetcher/tmp/approck_aiogram_utils-0.1.6.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [approck-aiogram-utils]: success
+[2024-04-04 01:27:51] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.1.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - processPackages [DreamCreator]: Remove: archive file [/home/abi/fetcher/tmp/DreamCreator-0.0.2.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [DreamCreator]: success
+[2024-04-04 01:27:51] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.99.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-04 01:27:51] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.8.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.9.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-04 01:27:51] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.8.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - processPackages [cbcmgr]: Remove: archive file [/home/abi/fetcher/tmp/cbcmgr-2.2.9.tar.gz]
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: End processing [cbcmgr]: success
+[2024-04-04 01:27:51] INFO root fetch - main [MainThread]: Store serial: [22612319]
