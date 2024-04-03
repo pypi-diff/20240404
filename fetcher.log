@@ -1145,3 +1145,46 @@
 [2024-04-04 00:43:55] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip]
 [2024-04-04 00:43:55] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
 [2024-04-04 00:43:55] INFO root fetch - main [MainThread]: Store serial: [22612029]
+[2024-04-04 00:45:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612029]
+[2024-04-04 00:46:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-sagemaker-sql-editor
+[2024-04-04 00:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reservoir-computing
+[2024-04-04 00:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deephaven-plugin-ui
+[2024-04-04 00:46:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dspace-rest-client
+[2024-04-04 00:46:04] INFO root fetch - processPackages [amazon-sagemaker-sql-editor]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-04 00:46:04] INFO root fetch - processPackages [dspace-rest-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 00:46:04] INFO root fetch - processPackages [reservoir-computing]: New version: [0.35.1] Old Version: [0.35]
+[2024-04-04 00:46:04] INFO root fetch - processPackages [deephaven-plugin-ui]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 00:46:04] INFO root fetch - processPackages [amazon-sagemaker-sql-editor]: Downloading https://files.pythonhosted.org/packages/97/29/b0056303b9f8e61cfc32792757f1e12cd8329144353557b89737e0d992d0/amazon_sagemaker_sql_editor-0.1.4.tar.gz
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [amazon-sagemaker-sql-editor]: Timeout reached during download
+[2024-04-04 00:46:04] INFO root fetch - processPackages [reservoir-computing]: Downloading https://files.pythonhosted.org/packages/c1/61/f252d37e3429c0fc796b17d24c680a160e87949ad8ad3b922552961afdc7/reservoir_computing-0.35.tar.gz
+[2024-04-04 00:46:04] INFO root fetch - processPackages [dspace-rest-client]: Downloading https://files.pythonhosted.org/packages/c1/d2/255ca70feb82af798a057204e36d50a826c45e86fd692c7518c3e44f7939/dspace_rest_client-0.1.8-py3-none-any.whl
+[2024-04-04 00:46:04] INFO root fetch - processPackages [deephaven-plugin-ui]: Downloading https://files.pythonhosted.org/packages/51/81/785ef30cf7cd39e77147bc7528add21c3306feb5a21b35d55c442a9b4191/deephaven-plugin-ui-0.8.0.tar.gz
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [dspace-rest-client]: Timeout reached during download
+[2024-04-04 00:46:04] INFO root fetch - processPackages [amazon-sagemaker-sql-editor]: Downloading https://files.pythonhosted.org/packages/09/98/a638341d0c6031afbf2b7768cf4b406088ead87a38a9cedb18a3448d969b/amazon_sagemaker_sql_editor-0.1.5-py3-none-any.whl
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [deephaven-plugin-ui]: Timeout reached during download
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [reservoir-computing]: Timeout reached during download
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [amazon-sagemaker-sql-editor]: Skipping package: exceeds size limit 26406002>=10485760
+[2024-04-04 00:46:04] INFO root fetch - main [MainThread]: End processing [amazon-sagemaker-sql-editor] error
+[2024-04-04 00:46:04] INFO root fetch - processPackages [reservoir-computing]: Downloading https://files.pythonhosted.org/packages/9a/36/3d0cd27399402117a9052af09337a0afd9f8d74d440557dbcd68ebeca798/reservoir_computing-0.35.1.tar.gz
+[2024-04-04 00:46:04] INFO root fetch - processPackages [dspace-rest-client]: Downloading https://files.pythonhosted.org/packages/fe/8d/8cf9ec1ac0d99e50c846a1cfea1b5bb4776163c696d7b1c87bcfe91a9694/dspace_rest_client-0.1.9-py3-none-any.whl
+[2024-04-04 00:46:04] INFO root fetch - processPackages [deephaven-plugin-ui]: Downloading https://files.pythonhosted.org/packages/6d/8c/59f40b751980ba3b09a9d53ad21e046ca18d920dfd91880ea9e8ab09ca78/deephaven-plugin-ui-0.9.0.tar.gz
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [reservoir-computing]: Timeout reached during download
+[2024-04-04 00:46:04] INFO root fetch - processPackages [reservoir-computing]: executing diffoscope
+[2024-04-04 00:46:04] INFO root fetch - processPackages [reservoir-computing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reservoir_computing-0.35.tar.gz tmp/reservoir_computing-0.35.1.tar.gz --markdown 20240404/r/reservoir-computing/0.35-0.35.1/diff.md --exclude *.pyd
+[2024-04-04 00:46:04] WARNING root fetch - processPackages [dspace-rest-client]: Timeout reached during download
+[2024-04-04 00:46:04] INFO root fetch - processPackages [dspace-rest-client]: executing diffoscope
+[2024-04-04 00:46:04] INFO root fetch - processPackages [dspace-rest-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspace_rest_client-0.1.8-py3-none-any.whl.zip tmp/dspace_rest_client-0.1.9-py3-none-any.whl.zip --markdown 20240404/d/dspace-rest-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 00:46:05] WARNING root fetch - processPackages [deephaven-plugin-ui]: Timeout reached during download
+[2024-04-04 00:46:05] INFO root fetch - processPackages [deephaven-plugin-ui]: executing diffoscope
+[2024-04-04 00:46:05] INFO root fetch - processPackages [deephaven-plugin-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephaven-plugin-ui-0.8.0.tar.gz tmp/deephaven-plugin-ui-0.9.0.tar.gz --markdown 20240404/d/deephaven-plugin-ui/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 00:46:05] INFO root fetch - processPackages [reservoir-computing]: Remove: archive file [/home/abi/fetcher/tmp/reservoir_computing-0.35.tar.gz]
+[2024-04-04 00:46:05] INFO root fetch - processPackages [reservoir-computing]: Remove: archive file [/home/abi/fetcher/tmp/reservoir_computing-0.35.1.tar.gz]
+[2024-04-04 00:46:05] INFO root fetch - main [MainThread]: End processing [reservoir-computing]: success
+[2024-04-04 00:46:05] INFO root fetch - processPackages [dspace-rest-client]: Remove: archive file [/home/abi/fetcher/tmp/dspace_rest_client-0.1.8-py3-none-any.whl.zip]
+[2024-04-04 00:46:05] INFO root fetch - processPackages [dspace-rest-client]: Remove: archive file [/home/abi/fetcher/tmp/dspace_rest_client-0.1.9-py3-none-any.whl.zip]
+[2024-04-04 00:46:05] INFO root fetch - main [MainThread]: End processing [dspace-rest-client]: success
+[2024-04-04 00:46:05] INFO root fetch - processPackages [deephaven-plugin-ui]: Remove: archive file [/home/abi/fetcher/tmp/deephaven-plugin-ui-0.8.0.tar.gz]
+[2024-04-04 00:46:05] INFO root fetch - processPackages [deephaven-plugin-ui]: Remove: archive file [/home/abi/fetcher/tmp/deephaven-plugin-ui-0.9.0.tar.gz]
+[2024-04-04 00:46:05] INFO root fetch - main [MainThread]: End processing [deephaven-plugin-ui]: success
+[2024-04-04 00:46:05] INFO root fetch - main [MainThread]: Store serial: [22612040]
