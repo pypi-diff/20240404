@@ -326,3 +326,39 @@
 [2024-04-04 00:10:52] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.44.dev0.tar.gz]
 [2024-04-04 00:10:52] INFO root fetch - main [MainThread]: End processing [pyvista]: success
 [2024-04-04 00:10:52] INFO root fetch - main [MainThread]: Store serial: [22611740]
+[2024-04-04 00:12:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611740]
+[2024-04-04 00:13:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 00:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandora-avatar
+[2024-04-04 00:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casioplot
+[2024-04-04 00:13:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: communex
+[2024-04-04 00:13:00] INFO root fetch - processPackages [pandora-avatar]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:13:00] INFO root fetch - processPackages [communex]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-04 00:13:00] INFO root fetch - processPackages [casioplot]: New version: [3.1.4] Old Version: [3.1.3]
+[2024-04-04 00:13:00] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/b5/76/182f42b23f3c2c07d15c5d9c731725728149bf01725f1eb065d18602aa92/communex-0.1.7.tar.gz
+[2024-04-04 00:13:01] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/ca/c0/2eb87fcc6909e3057a8cfa2c07200131668bcfa6bc93849f95d75ce369b8/casioplot-3.1.3.tar.gz
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [communex]: Timeout reached during download
+[2024-04-04 00:13:01] INFO root fetch - processPackages [pandora-avatar]: Downloading https://files.pythonhosted.org/packages/3b/7d/d3cd6325ac88b13c8bf302c5ed6931a378665e5a5de2b39eb2bf3d51f48d/pandora-avatar-0.0.8.tar.gz
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [pandora-avatar]: Timeout reached during download
+[2024-04-04 00:13:01] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-04-04 00:13:01] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/d0/b9/f0c2115767d6c9fdf0ad7ca81899d9805ac8241e96ef86ae83d137e5b712/casioplot-3.1.4.tar.gz
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [communex]: Timeout reached during download
+[2024-04-04 00:13:01] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-04-04 00:13:01] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.7.tar.gz tmp/communex-0.1.8.tar.gz --markdown 20240404/c/communex/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-04 00:13:01] INFO root fetch - processPackages [pandora-avatar]: Downloading https://files.pythonhosted.org/packages/8c/b2/d60c5fda9e91a05ae4a72ffd31cc45206534be9816d9a0b4e228ecb4ccac/pandora-avatar-0.0.9.tar.gz
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 00:13:01] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-04 00:13:01] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-3.1.3.tar.gz tmp/casioplot-3.1.4.tar.gz --markdown 20240404/c/casioplot/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2024-04-04 00:13:01] WARNING root fetch - processPackages [pandora-avatar]: Timeout reached during download
+[2024-04-04 00:13:01] INFO root fetch - processPackages [pandora-avatar]: executing diffoscope
+[2024-04-04 00:13:01] INFO root fetch - processPackages [pandora-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandora-avatar-0.0.8.tar.gz tmp/pandora-avatar-0.0.9.tar.gz --markdown 20240404/p/pandora-avatar/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:13:02] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.3.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.7.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.4.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-04 00:13:02] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-04-04 00:13:02] INFO root fetch - processPackages [pandora-avatar]: Remove: archive file [/home/abi/fetcher/tmp/pandora-avatar-0.0.8.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - processPackages [pandora-avatar]: Remove: archive file [/home/abi/fetcher/tmp/pandora-avatar-0.0.9.tar.gz]
+[2024-04-04 00:13:02] INFO root fetch - main [MainThread]: End processing [pandora-avatar]: success
+[2024-04-04 00:13:02] INFO root fetch - main [MainThread]: Store serial: [22611749]
