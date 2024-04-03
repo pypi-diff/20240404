@@ -467,3 +467,94 @@
 [2024-04-04 00:15:12] INFO root fetch - processPackages [xee]: Remove: archive file [/home/abi/fetcher/tmp/xee-0.0.9.tar.gz]
 [2024-04-04 00:15:12] INFO root fetch - main [MainThread]: End processing [xee]: success
 [2024-04-04 00:15:12] INFO root fetch - main [MainThread]: Store serial: [22611781]
+[2024-04-04 00:17:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611781]
+[2024-04-04 00:17:21] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siyi-sdk
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luntaiDs
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: financial-datasets
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: akhdefo-functions
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llmreader
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shell-jobrunner
+[2024-04-04 00:17:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leaf-BasedLabs
+[2024-04-04 00:17:21] INFO root fetch - processPackages [siyi-sdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [financial-datasets]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [akhdefo-functions]: New version: [2.4.28] Old Version: [2.4.27]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [luntaiDs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [llmreader]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [leaf-BasedLabs]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [shell-jobrunner]: New version: [2.6.5] Old Version: [2.6.4]
+[2024-04-04 00:17:21] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/e9/ff/8362746ebed60f1133d5d22f9435a993c5cc0c4034ceb131458e39aaccdb/financial_datasets-0.1.1.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [siyi-sdk]: Downloading https://files.pythonhosted.org/packages/7b/36/12a05e2c12076872a4a71fb56501daf548dd32d2df1c4adf93579062a30a/siyi_sdk-0.2.2.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/17/28/36bd6974d2dd43dee76b728d9d1353c39c7a443c75514ce54e82895363fc/llmreader-0.1.0.tar.gz
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [financial-datasets]: Timeout reached during download
+[2024-04-04 00:17:21] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/50/3c/c76213b0fe66e05c894ee9ceaa64cc0fde1f635ff372c7be7c1cd89d06f1/akhdefo_functions-2.4.27-py3-none-any.whl
+[2024-04-04 00:17:21] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/96/9c/8f474f0025793acec510f264abd6be36d97ae50f7578575de409206457b1/luntaiDs-1.0.8.tar.gz
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:17:21] INFO root fetch - processPackages [leaf-BasedLabs]: Downloading https://files.pythonhosted.org/packages/07/73/6168fbeb75a544c1869f5dd429a777ee9860442240910f99160574385864/leaf_BasedLabs-0.0.6.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [shell-jobrunner]: Downloading https://files.pythonhosted.org/packages/41/3e/36834360446ef6977440b6d66673d4d06714d35e40fdf73728b492fd9a81/shell-jobrunner-2.6.4.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-04 00:17:21] INFO root fetch - processPackages [financial-datasets]: Downloading https://files.pythonhosted.org/packages/1f/db/a308a74fa1ae19d5001561c8dbd70809b9f48969aaeecc0fca919e9074c6/financial_datasets-0.1.2.tar.gz
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [leaf-BasedLabs]: Timeout reached during download
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [luntaiDs]: Timeout reached during download
+[2024-04-04 00:17:21] WARNING root fetch - processPackages [akhdefo-functions]: Timeout reached during download
+[2024-04-04 00:17:21] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/46/ba/b0f3f650dc55b27fb62453097fbb5697881f5b5227d5c48c175620d87514/llmreader-0.2.0.tar.gz
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [financial-datasets]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [financial-datasets]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [financial-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financial_datasets-0.1.1.tar.gz tmp/financial_datasets-0.1.2.tar.gz --markdown 20240404/f/financial-datasets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240404/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [shell-jobrunner]: Timeout reached during download
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.1.0.tar.gz tmp/llmreader-0.2.0.tar.gz --markdown 20240404/l/llmreader/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] INFO root fetch - processPackages [akhdefo-functions]: Downloading https://files.pythonhosted.org/packages/6b/41/c98f5a6736625bd8acc4ba9c13a43435dca22ae36d1e5d4579f1ad88fcc1/akhdefo_functions-2.4.28-py3-none-any.whl
+[2024-04-04 00:17:22] INFO root fetch - processPackages [leaf-BasedLabs]: Downloading https://files.pythonhosted.org/packages/9d/a2/923815177f6c7a7d320bcc3aeed05c598b9acf789d9f8882b9ed2863f6e2/leaf_BasedLabs-0.0.7.tar.gz
+[2024-04-04 00:17:22] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/91/ae/dabc2b9fa86d4f393b80d702e362106b4cd31b90fc9b9e288028c7a15020/luntaiDs-1.0.9.tar.gz
+[2024-04-04 00:17:22] INFO root fetch - processPackages [shell-jobrunner]: Downloading https://files.pythonhosted.org/packages/c6/47/73ba83ec95f149dafedd8ba6ab4b599703811f7258393fb0a2793177076f/shell-jobrunner-2.6.5.tar.gz
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [siyi-sdk]: Timeout reached during download
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [akhdefo-functions]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [akhdefo-functions]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [akhdefo-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akhdefo_functions-2.4.27-py3-none-any.whl.zip tmp/akhdefo_functions-2.4.28-py3-none-any.whl.zip --markdown 20240404/a/akhdefo-functions/2.4.27-2.4.28/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [luntaiDs]: Timeout reached during download
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [shell-jobrunner]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [luntaiDs]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [luntaiDs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luntaiDs-1.0.8.tar.gz tmp/luntaiDs-1.0.9.tar.gz --markdown 20240404/l/luntaiDs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] INFO root fetch - processPackages [shell-jobrunner]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [shell-jobrunner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shell-jobrunner-2.6.4.tar.gz tmp/shell-jobrunner-2.6.5.tar.gz --markdown 20240404/s/shell-jobrunner/2.6.4-2.6.5/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] INFO root fetch - processPackages [siyi-sdk]: Downloading https://files.pythonhosted.org/packages/df/0c/41fcb68e02ba7700dd0de71ddc4128fcb27d161263db094ee1473f663569/siyi_sdk-0.2.3.tar.gz
+[2024-04-04 00:17:22] WARNING root fetch - processPackages [leaf-BasedLabs]: Timeout reached during download
+[2024-04-04 00:17:22] INFO root fetch - processPackages [leaf-BasedLabs]: executing diffoscope
+[2024-04-04 00:17:22] INFO root fetch - processPackages [leaf-BasedLabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leaf_BasedLabs-0.0.6.tar.gz tmp/leaf_BasedLabs-0.0.7.tar.gz --markdown 20240404/l/leaf-BasedLabs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 00:17:22] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.1.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - processPackages [financial-datasets]: Remove: archive file [/home/abi/fetcher/tmp/financial_datasets-0.1.2.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - main [MainThread]: End processing [financial-datasets]: success
+[2024-04-04 00:17:22] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.1.0.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.0.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-04 00:17:22] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-04 00:17:22] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-04 00:17:23] INFO root fetch - processPackages [leaf-BasedLabs]: Remove: archive file [/home/abi/fetcher/tmp/leaf_BasedLabs-0.0.6.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - processPackages [leaf-BasedLabs]: Remove: archive file [/home/abi/fetcher/tmp/leaf_BasedLabs-0.0.7.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - main [MainThread]: End processing [leaf-BasedLabs]: success
+[2024-04-04 00:17:23] WARNING root fetch - processPackages [siyi-sdk]: Timeout reached during download
+[2024-04-04 00:17:23] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.8.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.9.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - main [MainThread]: End processing [luntaiDs]: success
+[2024-04-04 00:17:23] INFO root fetch - processPackages [siyi-sdk]: executing diffoscope
+[2024-04-04 00:17:23] INFO root fetch - processPackages [siyi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siyi_sdk-0.2.2.tar.gz tmp/siyi_sdk-0.2.3.tar.gz --markdown 20240404/s/siyi-sdk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 00:17:23] INFO root fetch - processPackages [shell-jobrunner]: Remove: archive file [/home/abi/fetcher/tmp/shell-jobrunner-2.6.4.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - processPackages [shell-jobrunner]: Remove: archive file [/home/abi/fetcher/tmp/shell-jobrunner-2.6.5.tar.gz]
+[2024-04-04 00:17:23] INFO root fetch - main [MainThread]: End processing [shell-jobrunner]: success
+[2024-04-04 00:17:23] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.4.27-py3-none-any.whl.zip]
+[2024-04-04 00:17:23] INFO root fetch - processPackages [akhdefo-functions]: Remove: archive file [/home/abi/fetcher/tmp/akhdefo_functions-2.4.28-py3-none-any.whl.zip]
+[2024-04-04 00:17:23] INFO root fetch - main [MainThread]: End processing [akhdefo-functions]: success
+[2024-04-04 00:17:24] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.2.tar.gz]
+[2024-04-04 00:17:24] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.3.tar.gz]
+[2024-04-04 00:17:24] INFO root fetch - main [MainThread]: End processing [siyi-sdk]: success
+[2024-04-04 00:17:24] INFO root fetch - main [MainThread]: Store serial: [22611804]
