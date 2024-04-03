@@ -1301,3 +1301,28 @@
 [2024-04-04 00:52:44] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
 [2024-04-04 00:52:44] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
 [2024-04-04 00:52:44] INFO root fetch - main [MainThread]: Store serial: [22612068]
+[2024-04-04 00:54:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612068]
+[2024-04-04 00:54:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 00:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seidart
+[2024-04-04 00:54:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-ports
+[2024-04-04 00:54:53] INFO root fetch - processPackages [target-ports]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-04 00:54:53] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:54:53] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/ce/b1/7c65b04473f1671de65def3889d04436e04a0cb1d78dcab8fb109531225e/target-ports-1.0.5.tar.gz
+[2024-04-04 00:54:53] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:54:53] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:54:53] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/57/55/6e3bcb0a7d3f89b9c7babedd59fa210623d0589046abea8471f05133fe98/target-ports-1.0.6.tar.gz
+[2024-04-04 00:54:53] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:54:53] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:54:53] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 00:54:53] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.5.tar.gz tmp/target-ports-1.0.6.tar.gz --markdown 20240404/t/target-ports/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-04 00:54:53] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:54:54] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:54:54] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 00:54:54] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:54:54] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.5.tar.gz]
+[2024-04-04 00:54:54] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.6.tar.gz]
+[2024-04-04 00:54:54] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 00:54:57] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:54:57] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:54:57] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 00:54:57] INFO root fetch - main [MainThread]: Store serial: [22612073]
