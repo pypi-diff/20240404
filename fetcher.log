@@ -1326,3 +1326,17 @@
 [2024-04-04 00:54:57] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2024-04-04 00:54:57] INFO root fetch - main [MainThread]: End processing [seidart]: success
 [2024-04-04 00:54:57] INFO root fetch - main [MainThread]: Store serial: [22612073]
+[2024-04-04 00:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612073]
+[2024-04-04 00:57:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 00:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trufflepig-py
+[2024-04-04 00:57:06] INFO root fetch - processPackages [trufflepig-py]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 00:57:06] INFO root fetch - processPackages [trufflepig-py]: Downloading https://files.pythonhosted.org/packages/f5/af/dc4614daee3a4757e65b2388abd654cb30350027e8cb360f2ac62045870c/trufflepig-py-0.1.1.tar.gz
+[2024-04-04 00:57:07] WARNING root fetch - processPackages [trufflepig-py]: Timeout reached during download
+[2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: Downloading https://files.pythonhosted.org/packages/bb/45/425d72f5ac2e905746add1eb86acc95d69269056adfcb577c103825c110b/trufflepig-py-0.1.2.tar.gz
+[2024-04-04 00:57:07] WARNING root fetch - processPackages [trufflepig-py]: Timeout reached during download
+[2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: executing diffoscope
+[2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trufflepig-py-0.1.1.tar.gz tmp/trufflepig-py-0.1.2.tar.gz --markdown 20240404/t/trufflepig-py/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: Remove: archive file [/home/abi/fetcher/tmp/trufflepig-py-0.1.1.tar.gz]
+[2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: Remove: archive file [/home/abi/fetcher/tmp/trufflepig-py-0.1.2.tar.gz]
+[2024-04-04 00:57:07] INFO root fetch - main [MainThread]: End processing [trufflepig-py]: success
+[2024-04-04 00:57:07] INFO root fetch - main [MainThread]: Store serial: [22612076]
