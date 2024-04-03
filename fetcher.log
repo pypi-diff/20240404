@@ -558,3 +558,83 @@
 [2024-04-04 00:17:24] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.3.tar.gz]
 [2024-04-04 00:17:24] INFO root fetch - main [MainThread]: End processing [siyi-sdk]: success
 [2024-04-04 00:17:24] INFO root fetch - main [MainThread]: Store serial: [22611804]
+[2024-04-04 00:19:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611804]
+[2024-04-04 00:19:33] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sopp
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ahk
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libWiiPy
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dextbird
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmreader
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: h5analysis
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: paladium
+[2024-04-04 00:19:33] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [libWiiPy]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [paladium]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [llmreader]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [sopp]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [dextbird]: New version: [0.4.6] Old Version: [0.4.0a2]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ahk]: New version: [1.6.0] Old Version: [1.5.4]
+[2024-04-04 00:19:33] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/af/06/05c1fdb98333f02b45c4bfbabab7dadc6629664f1f8121044ff7b6c2bc94/paladium-1.0.3.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/46/ba/b0f3f650dc55b27fb62453097fbb5697881f5b5227d5c48c175620d87514/llmreader-0.2.0.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/b2/ea/2b853963277409c723f8e407effb86b884a0b49c9fdd486d05f572c58191/ahk-1.5.4.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [libWiiPy]: Downloading https://files.pythonhosted.org/packages/e1/af/1c2308af6adb44cda44f0107ee29f9f576ac10e5ff08979913c3a930434a/libWiiPy-0.1.0.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [dextbird]: Downloading https://files.pythonhosted.org/packages/a2/69/c36d70b3f153c762731bbe6727a4be246fe65361b91a9d20dcdcf905a58f/dextbird-0.4.0a2-cp39-cp39-musllinux_1_2_x86_64.whl
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:19:33] INFO root fetch - processPackages [sopp]: Downloading https://files.pythonhosted.org/packages/19/b0/9782745deeb1c5b8deb3b73536016dea66a6833e4ab2e7e064f910262699/sopp-0.7.1.tar.gz
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [ahk]: Timeout reached during download
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [h5analysis]: Timeout reached during download
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [libWiiPy]: Timeout reached during download
+[2024-04-04 00:19:33] WARNING root fetch - processPackages [sopp]: Timeout reached during download
+[2024-04-04 00:19:33] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/ad/92/938619b3950d3845b21563947d64beb316dcf7977745a4309da144ecd8be/paladium-1.0.4.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/34/a6/aa4e367e5623c3079e2118e6ce2149ef57a4f2aa95087b6bd3152e859dcd/llmreader-0.2.1.tar.gz
+[2024-04-04 00:19:33] INFO root fetch - processPackages [ahk]: Downloading https://files.pythonhosted.org/packages/a9/a9/d3bb031921c2c08adc0a4678260e03e5d22988fc127a9690ab40e3479927/ahk-1.6.0.tar.gz
+[2024-04-04 00:19:34] INFO root fetch - processPackages [libWiiPy]: Downloading https://files.pythonhosted.org/packages/32/fc/38aa9dec337bf2a4a8c6413e7845db1998305a507bd253461fef8f0b06f9/libWiiPy-0.2.0.tar.gz
+[2024-04-04 00:19:34] INFO root fetch - processPackages [sopp]: Downloading https://files.pythonhosted.org/packages/1a/9c/fcbea427870d7b264aa6cdcc9f51c1a7584c42bdf975af26e68128383ac1/sopp-0.8.0.tar.gz
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.3.tar.gz tmp/paladium-1.0.4.tar.gz --markdown 20240404/p/paladium/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.0.tar.gz tmp/llmreader-0.2.1.tar.gz --markdown 20240404/l/llmreader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [ahk]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [ahk]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [ahk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahk-1.5.4.tar.gz tmp/ahk-1.6.0.tar.gz --markdown 20240404/a/ahk/1.5.4-1.6.0/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [dextbird]: Timeout reached during download
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [libWiiPy]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [libWiiPy]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [libWiiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libWiiPy-0.1.0.tar.gz tmp/libWiiPy-0.2.0.tar.gz --markdown 20240404/l/libWiiPy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [sopp]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [sopp]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [sopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopp-0.7.1.tar.gz tmp/sopp-0.8.0.tar.gz --markdown 20240404/s/sopp/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [h5analysis]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240404/h/h5analysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] INFO root fetch - processPackages [dextbird]: Downloading https://files.pythonhosted.org/packages/46/f1/82d8a1b71a294dce35ae53cc0ad831c05649adc01b0c78450939a88ac883/dextbird-0.4.6.tar.gz
+[2024-04-04 00:19:34] WARNING root fetch - processPackages [dextbird]: Timeout reached during download
+[2024-04-04 00:19:34] INFO root fetch - processPackages [dextbird]: executing diffoscope
+[2024-04-04 00:19:34] INFO root fetch - processPackages [dextbird]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dextbird-0.4.0a2-cp39-cp39-musllinux_1_2_x86_64.whl.zip tmp/dextbird-0.4.6.tar.gz --markdown 20240404/d/dextbird/0.4.0a2-0.4.6/diff.md --exclude *.pyd
+[2024-04-04 00:19:34] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.3.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.4.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:19:34] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.0.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.1.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-04 00:19:34] INFO root fetch - processPackages [libWiiPy]: Remove: archive file [/home/abi/fetcher/tmp/libWiiPy-0.1.0.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - processPackages [libWiiPy]: Remove: archive file [/home/abi/fetcher/tmp/libWiiPy-0.2.0.tar.gz]
+[2024-04-04 00:19:34] INFO root fetch - main [MainThread]: End processing [libWiiPy]: success
+[2024-04-04 00:19:35] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-04 00:19:35] INFO root fetch - processPackages [sopp]: Remove: archive file [/home/abi/fetcher/tmp/sopp-0.7.1.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - processPackages [sopp]: Remove: archive file [/home/abi/fetcher/tmp/sopp-0.8.0.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - main [MainThread]: End processing [sopp]: success
+[2024-04-04 00:19:35] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.5.4.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - processPackages [ahk]: Remove: archive file [/home/abi/fetcher/tmp/ahk-1.6.0.tar.gz]
+[2024-04-04 00:19:35] INFO root fetch - main [MainThread]: End processing [ahk]: success
+[2024-04-04 00:19:38] INFO root fetch - processPackages [dextbird]: Remove: archive file [/home/abi/fetcher/tmp/dextbird-0.4.0a2-cp39-cp39-musllinux_1_2_x86_64.whl.zip]
+[2024-04-04 00:19:38] INFO root fetch - processPackages [dextbird]: Remove: archive file [/home/abi/fetcher/tmp/dextbird-0.4.6.tar.gz]
+[2024-04-04 00:19:38] INFO root fetch - main [MainThread]: End processing [dextbird]: success
+[2024-04-04 00:19:38] INFO root fetch - main [MainThread]: Store serial: [22611835]
