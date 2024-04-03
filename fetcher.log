@@ -1213,3 +1213,61 @@
 [2024-04-04 00:48:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2024-04-04 00:48:21] INFO root fetch - main [MainThread]: End processing [seidart]: success
 [2024-04-04 00:48:21] INFO root fetch - main [MainThread]: Store serial: [22612045]
+[2024-04-04 00:50:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612045]
+[2024-04-04 00:50:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 00:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toomanycells
+[2024-04-04 00:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dropbox-sign
+[2024-04-04 00:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prrr
+[2024-04-04 00:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-radiance
+[2024-04-04 00:50:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circuits
+[2024-04-04 00:50:30] INFO root fetch - processPackages [prrr]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 00:50:30] INFO root fetch - processPackages [dropbox-sign]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-04 00:50:30] INFO root fetch - processPackages [toomanycells]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 00:50:30] INFO root fetch - processPackages [honeybee-radiance]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-04 00:50:30] INFO root fetch - processPackages [circuits]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-04-04 00:50:30] INFO root fetch - processPackages [prrr]: Downloading https://files.pythonhosted.org/packages/cb/c4/2e1a8f8363b206ff2e4f469e9a4d2fe0bb3d06ef471fd936ad26e00970ef/prrr-0.1.1.tar.gz
+[2024-04-04 00:50:31] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/ca/81/f70f552915ba4290240281e89c77a53bf1f92da1924436d856b6c2021228/toomanycells-1.0.8.tar.gz
+[2024-04-04 00:50:31] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/48/ae/cca3e8aac6a72593fde7860cbf91882050c1a465c316efc2e0472bfa36e1/honeybee-radiance-1.9.1.tar.gz
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [prrr]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [dropbox-sign]: Downloading https://files.pythonhosted.org/packages/46/7d/bfaf8c5cd61bf8edd1d989e7f7ee41ad85fee5cf58bff2903a46a77ee77c/dropbox-sign-1.3.0.tar.gz
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [honeybee-radiance]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [circuits]: Downloading https://files.pythonhosted.org/packages/a9/b7/5c0d106542bda8eb0b3f45adde0288ce9128e836e2283e8734a9c21c6003/circuits-3.2.2.tar.gz
+[2024-04-04 00:50:31] INFO root fetch - processPackages [prrr]: Downloading https://files.pythonhosted.org/packages/c7/62/10062a4178c0693c15f78a625cad1cd2def688db7655c88b25cb37396ec7/prrr-0.1.2.tar.gz
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [dropbox-sign]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [honeybee-radiance]: Downloading https://files.pythonhosted.org/packages/50/24/71a3a4863bb39caef68dcd79f1b380133b1f1968426af26bc9c4812376d1/honeybee-radiance-1.9.2.tar.gz
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [prrr]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [prrr]: executing diffoscope
+[2024-04-04 00:50:31] INFO root fetch - processPackages [prrr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prrr-0.1.1.tar.gz tmp/prrr-0.1.2.tar.gz --markdown 20240404/p/prrr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [circuits]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [dropbox-sign]: Downloading https://files.pythonhosted.org/packages/17/5d/75bdd58d849ee62399faab0de30859fdff0a795ba2173bda70a4c21050a7/dropbox-sign-1.4.0.tar.gz
+[2024-04-04 00:50:31] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/93/e9/abb2d1e3c266cf33e3928261abaf14d2ffadeb4092939f1284586f323858/toomanycells-1.0.9.tar.gz
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [honeybee-radiance]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [honeybee-radiance]: executing diffoscope
+[2024-04-04 00:50:31] INFO root fetch - processPackages [honeybee-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-1.9.1.tar.gz tmp/honeybee-radiance-1.9.2.tar.gz --markdown 20240404/h/honeybee-radiance/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-04 00:50:31] INFO root fetch - processPackages [circuits]: Downloading https://files.pythonhosted.org/packages/94/fa/2bb047778e87cd1c517cd6b7b4b9e8ccfbe6fa04146c157b712dc6f92c33/circuits-3.2.3-py2.py3-none-any.whl
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [dropbox-sign]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [dropbox-sign]: executing diffoscope
+[2024-04-04 00:50:31] INFO root fetch - processPackages [dropbox-sign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dropbox-sign-1.3.0.tar.gz tmp/dropbox-sign-1.4.0.tar.gz --markdown 20240404/d/dropbox-sign/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [circuits]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [circuits]: executing diffoscope
+[2024-04-04 00:50:31] INFO root fetch - processPackages [circuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuits-3.2.2.tar.gz tmp/circuits-3.2.3-py2.py3-none-any.whl.zip --markdown 20240404/c/circuits/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2024-04-04 00:50:31] INFO root fetch - processPackages [prrr]: Remove: archive file [/home/abi/fetcher/tmp/prrr-0.1.1.tar.gz]
+[2024-04-04 00:50:31] INFO root fetch - processPackages [prrr]: Remove: archive file [/home/abi/fetcher/tmp/prrr-0.1.2.tar.gz]
+[2024-04-04 00:50:31] INFO root fetch - main [MainThread]: End processing [prrr]: success
+[2024-04-04 00:50:31] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 00:50:31] INFO root fetch - processPackages [toomanycells]: executing diffoscope
+[2024-04-04 00:50:31] INFO root fetch - processPackages [toomanycells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toomanycells-1.0.8.tar.gz tmp/toomanycells-1.0.9.tar.gz --markdown 20240404/t/toomanycells/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:50:32] INFO root fetch - processPackages [circuits]: Remove: archive file [/home/abi/fetcher/tmp/circuits-3.2.2.tar.gz]
+[2024-04-04 00:50:32] INFO root fetch - processPackages [circuits]: Remove: archive file [/home/abi/fetcher/tmp/circuits-3.2.3-py2.py3-none-any.whl.zip]
+[2024-04-04 00:50:32] INFO root fetch - main [MainThread]: End processing [circuits]: success
+[2024-04-04 00:50:32] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.8.tar.gz]
+[2024-04-04 00:50:32] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
+[2024-04-04 00:50:32] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
+[2024-04-04 00:50:33] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.1.tar.gz]
+[2024-04-04 00:50:33] INFO root fetch - processPackages [honeybee-radiance]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-1.9.2.tar.gz]
+[2024-04-04 00:50:33] INFO root fetch - main [MainThread]: End processing [honeybee-radiance]: success
+[2024-04-04 00:50:33] INFO root fetch - processPackages [dropbox-sign]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-sign-1.3.0.tar.gz]
+[2024-04-04 00:50:33] INFO root fetch - processPackages [dropbox-sign]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-sign-1.4.0.tar.gz]
+[2024-04-04 00:50:33] INFO root fetch - main [MainThread]: End processing [dropbox-sign]: success
+[2024-04-04 00:50:33] INFO root fetch - main [MainThread]: Store serial: [22612059]
