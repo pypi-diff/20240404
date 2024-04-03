@@ -1051,3 +1051,36 @@
 [2024-04-04 00:39:34] INFO root fetch - processPackages [llama-index-postprocessor-rankllm-rerank]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_postprocessor_rankllm_rerank-0.1.1.tar.gz]
 [2024-04-04 00:39:34] INFO root fetch - main [MainThread]: End processing [llama-index-postprocessor-rankllm-rerank]: success
 [2024-04-04 00:39:34] INFO root fetch - main [MainThread]: Store serial: [22611967]
+[2024-04-04 00:41:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611967]
+[2024-04-04 00:41:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NNSOM
+[2024-04-04 00:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: listslinked
+[2024-04-04 00:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biaspeech
+[2024-04-04 00:41:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mattsollamatools
+[2024-04-04 00:41:43] WARNING root fetch - processPackages [listslinked]: Skipping, unable to determine old version
+[2024-04-04 00:41:43] INFO root fetch - main [MainThread]: End processing [listslinked] error
+[2024-04-04 00:41:43] INFO root fetch - processPackages [mattsollamatools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:41:43] INFO root fetch - processPackages [biaspeech]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 00:41:43] INFO root fetch - processPackages [NNSOM]: New version: [1.4.1] Old Version: [1.3.9]
+[2024-04-04 00:41:43] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/6c/22/c1c370c656268785ee6b4d6c68cde2dc367f25b5158d98e3f05a63bf31c4/biaspeech-0.0.3.tar.gz
+[2024-04-04 00:41:44] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 17057708>=10485760
+[2024-04-04 00:41:44] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-04 00:41:44] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/65/0b/0ecdd2a0e9d443ada596ac68e9ec8d3c5995575ac1b2a0381720db51ff49/mattsollamatools-0.0.8.tar.gz
+[2024-04-04 00:41:44] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/86/46/ae0e9ee35b53ad0455abb90e957c620d94d70c4cbdb2cdeaa31777d7816a/nnsom-1.3.9.tar.gz
+[2024-04-04 00:41:44] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 00:41:44] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-04 00:41:44] INFO root fetch - processPackages [NNSOM]: Downloading https://files.pythonhosted.org/packages/bb/8e/f03d97dca8d21b38866893b24226cb52305fc3b722444abad05c5f2c2b77/nnsom-1.4.1.tar.gz
+[2024-04-04 00:41:44] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/a7/e0/d0045031e7569aa9abf50ddf3e27f6826973a4970151869beca9ae916a85/mattsollamatools-0.0.9.tar.gz
+[2024-04-04 00:41:44] WARNING root fetch - processPackages [NNSOM]: Timeout reached during download
+[2024-04-04 00:41:44] INFO root fetch - processPackages [NNSOM]: executing diffoscope
+[2024-04-04 00:41:44] INFO root fetch - processPackages [NNSOM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nnsom-1.3.9.tar.gz tmp/nnsom-1.4.1.tar.gz --markdown 20240404/N/NNSOM/1.3.9-1.4.1/diff.md --exclude *.pyd
+[2024-04-04 00:41:44] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 00:41:44] INFO root fetch - processPackages [mattsollamatools]: executing diffoscope
+[2024-04-04 00:41:44] INFO root fetch - processPackages [mattsollamatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattsollamatools-0.0.8.tar.gz tmp/mattsollamatools-0.0.9.tar.gz --markdown 20240404/m/mattsollamatools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:41:45] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.8.tar.gz]
+[2024-04-04 00:41:45] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.9.tar.gz]
+[2024-04-04 00:41:45] INFO root fetch - main [MainThread]: End processing [mattsollamatools]: success
+[2024-04-04 00:41:45] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.3.9.tar.gz]
+[2024-04-04 00:41:45] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.4.1.tar.gz]
+[2024-04-04 00:41:45] INFO root fetch - main [MainThread]: End processing [NNSOM]: success
+[2024-04-04 00:41:45] INFO root fetch - main [MainThread]: Store serial: [22611977]
