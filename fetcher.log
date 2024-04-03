@@ -279,3 +279,50 @@
 [2024-04-04 00:08:39] INFO root fetch - processPackages [pypeec]: Remove: archive file [/home/abi/fetcher/tmp/pypeec-4.9.0.tar.gz]
 [2024-04-04 00:08:39] INFO root fetch - main [MainThread]: End processing [pypeec]: success
 [2024-04-04 00:08:39] INFO root fetch - main [MainThread]: Store serial: [22611726]
+[2024-04-04 00:10:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611726]
+[2024-04-04 00:10:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: romy
+[2024-04-04 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-ports
+[2024-04-04 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyvista
+[2024-04-04 00:10:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paladium
+[2024-04-04 00:10:48] INFO root fetch - processPackages [target-ports]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 00:10:48] INFO root fetch - processPackages [romy]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:10:48] INFO root fetch - processPackages [pyvista]: New version: [0.44.dev0] Old Version: [0.43.5]
+[2024-04-04 00:10:48] INFO root fetch - processPackages [paladium]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-04 00:10:48] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/48/63/b999a2e220f5300c2db07c203acb11ae4a9d162965658947b34efe9593c3/target-ports-1.0.4.tar.gz
+[2024-04-04 00:10:48] INFO root fetch - processPackages [romy]: Downloading https://files.pythonhosted.org/packages/60/0f/e9e3da32cdceb599e447110abed3a4ef07d231ea41f49d13f3225395cd91/romy-0.0.8.tar.gz
+[2024-04-04 00:10:48] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/61/fb/9c211943f3b49bd46825b296da55ee81dd385b676da5579f5638bfa63548/paladium-1.0.2.tar.gz
+[2024-04-04 00:10:48] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/33/77/61f9b7c677ea8ea9cdf334f91e0d0b592711e644e1e2d80763e14e7c2763/pyvista-0.43.5.tar.gz
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [romy]: Timeout reached during download
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:10:49] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/ce/b1/7c65b04473f1671de65def3889d04436e04a0cb1d78dcab8fb109531225e/target-ports-1.0.5.tar.gz
+[2024-04-04 00:10:49] INFO root fetch - processPackages [romy]: Downloading https://files.pythonhosted.org/packages/55/ca/3c906753c56812ea4896805ff5daf980cf7db5b9457bc3ff43d0485ca6c5/romy-0.0.9.tar.gz
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [pyvista]: Timeout reached during download
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:10:49] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 00:10:49] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.4.tar.gz tmp/target-ports-1.0.5.tar.gz --markdown 20240404/t/target-ports/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [romy]: Timeout reached during download
+[2024-04-04 00:10:49] INFO root fetch - processPackages [romy]: executing diffoscope
+[2024-04-04 00:10:49] INFO root fetch - processPackages [romy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/romy-0.0.8.tar.gz tmp/romy-0.0.9.tar.gz --markdown 20240404/r/romy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:10:49] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/af/06/05c1fdb98333f02b45c4bfbabab7dadc6629664f1f8121044ff7b6c2bc94/paladium-1.0.3.tar.gz
+[2024-04-04 00:10:49] INFO root fetch - processPackages [pyvista]: Downloading https://files.pythonhosted.org/packages/65/e0/c0a9c27d38de6b868bc098c7f24f30fd42fe78e84e1c1ab993aa33619ed8/pyvista-0.44.dev0.tar.gz
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:10:49] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:10:49] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.2.tar.gz tmp/paladium-1.0.3.tar.gz --markdown 20240404/p/paladium/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-04 00:10:49] WARNING root fetch - processPackages [pyvista]: Timeout reached during download
+[2024-04-04 00:10:49] INFO root fetch - processPackages [pyvista]: executing diffoscope
+[2024-04-04 00:10:49] INFO root fetch - processPackages [pyvista]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvista-0.43.5.tar.gz tmp/pyvista-0.44.dev0.tar.gz --markdown 20240404/p/pyvista/0.43.5-0.44.dev0/diff.md --exclude *.pyd
+[2024-04-04 00:10:50] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.4.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.5.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 00:10:50] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.2.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - processPackages [romy]: Remove: archive file [/home/abi/fetcher/tmp/romy-0.0.8.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.3.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - processPackages [romy]: Remove: archive file [/home/abi/fetcher/tmp/romy-0.0.9.tar.gz]
+[2024-04-04 00:10:50] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:10:50] INFO root fetch - main [MainThread]: End processing [romy]: success
+[2024-04-04 00:10:52] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.43.5.tar.gz]
+[2024-04-04 00:10:52] INFO root fetch - processPackages [pyvista]: Remove: archive file [/home/abi/fetcher/tmp/pyvista-0.44.dev0.tar.gz]
+[2024-04-04 00:10:52] INFO root fetch - main [MainThread]: End processing [pyvista]: success
+[2024-04-04 00:10:52] INFO root fetch - main [MainThread]: Store serial: [22611740]
