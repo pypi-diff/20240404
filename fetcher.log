@@ -638,3 +638,56 @@
 [2024-04-04 00:19:38] INFO root fetch - processPackages [dextbird]: Remove: archive file [/home/abi/fetcher/tmp/dextbird-0.4.6.tar.gz]
 [2024-04-04 00:19:38] INFO root fetch - main [MainThread]: End processing [dextbird]: success
 [2024-04-04 00:19:38] INFO root fetch - main [MainThread]: Store serial: [22611835]
+[2024-04-04 00:22:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611835]
+[2024-04-04 00:22:06] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyEvALL
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-survey-xlsx
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bananalyzer
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: guia-cli
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llmreader
+[2024-04-04 00:22:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spellbot
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [odoo-addon-survey-xlsx]: Skipping, unable to determine old version
+[2024-04-04 00:22:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-xlsx] error
+[2024-04-04 00:22:07] INFO root fetch - processPackages [bananalyzer]: New version: [0.8.73] Old Version: [0.8.72]
+[2024-04-04 00:22:07] INFO root fetch - processPackages [guia-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:22:07] INFO root fetch - processPackages [llmreader]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [PyEvALL]: Skipping, unable to determine old version
+[2024-04-04 00:22:07] INFO root fetch - main [MainThread]: End processing [PyEvALL] error
+[2024-04-04 00:22:07] INFO root fetch - processPackages [spellbot]: New version: [9.7.0] Old Version: [9.6.0]
+[2024-04-04 00:22:07] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/46/ba/b0f3f650dc55b27fb62453097fbb5697881f5b5227d5c48c175620d87514/llmreader-0.2.0.tar.gz
+[2024-04-04 00:22:07] INFO root fetch - processPackages [guia-cli]: Downloading https://files.pythonhosted.org/packages/dd/08/2552b32c929378266f60191def8938e0648067eca2af50420cd6f738c612/guia_cli-0.0.8.tar.gz
+[2024-04-04 00:22:07] INFO root fetch - processPackages [bananalyzer]: Downloading https://files.pythonhosted.org/packages/be/21/af3b5a036e0e97fa148f739f2ce29c20c2f69c0a86f6af9073766b501dff/bananalyzer-0.8.72.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [guia-cli]: Timeout reached during download
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/bb/8f/7c6a5965d590a40e0b3b3cb13060af533453443abeaf6d14aecd126d140b/spellbot-9.6.0.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [bananalyzer]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/34/a6/aa4e367e5623c3079e2118e6ce2149ef57a4f2aa95087b6bd3152e859dcd/llmreader-0.2.1.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [spellbot]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [bananalyzer]: Downloading https://files.pythonhosted.org/packages/18/11/33baaf9c907858cb2a2da4299b873538e4303440e31de49d771497e4d824/bananalyzer-0.8.73.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-04 00:22:07] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.0.tar.gz tmp/llmreader-0.2.1.tar.gz --markdown 20240404/l/llmreader/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-04 00:22:07] INFO root fetch - processPackages [guia-cli]: Downloading https://files.pythonhosted.org/packages/cd/2f/db22ba42cd5626fe765e32e6f837ff801b399a7eff84841f85cc30e723d7/guia_cli-0.0.9.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [bananalyzer]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [bananalyzer]: executing diffoscope
+[2024-04-04 00:22:07] INFO root fetch - processPackages [bananalyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bananalyzer-0.8.72.tar.gz tmp/bananalyzer-0.8.73.tar.gz --markdown 20240404/b/bananalyzer/0.8.72-0.8.73/diff.md --exclude *.pyd
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [guia-cli]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [guia-cli]: executing diffoscope
+[2024-04-04 00:22:07] INFO root fetch - processPackages [guia-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guia_cli-0.0.8.tar.gz tmp/guia_cli-0.0.9.tar.gz --markdown 20240404/g/guia-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:22:07] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/a6/68/173f1a8698ba9760f0184841d7e89ce10a9fb700484560df249d3b2f1389/spellbot-9.7.0.tar.gz
+[2024-04-04 00:22:07] WARNING root fetch - processPackages [spellbot]: Timeout reached during download
+[2024-04-04 00:22:07] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2024-04-04 00:22:07] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-9.6.0.tar.gz tmp/spellbot-9.7.0.tar.gz --markdown 20240404/s/spellbot/9.6.0-9.7.0/diff.md --exclude *.pyd
+[2024-04-04 00:22:08] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.0.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.1.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-04 00:22:08] INFO root fetch - processPackages [guia-cli]: Remove: archive file [/home/abi/fetcher/tmp/guia_cli-0.0.8.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - processPackages [guia-cli]: Remove: archive file [/home/abi/fetcher/tmp/guia_cli-0.0.9.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - main [MainThread]: End processing [guia-cli]: success
+[2024-04-04 00:22:08] INFO root fetch - processPackages [bananalyzer]: Remove: archive file [/home/abi/fetcher/tmp/bananalyzer-0.8.72.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - processPackages [bananalyzer]: Remove: archive file [/home/abi/fetcher/tmp/bananalyzer-0.8.73.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - main [MainThread]: End processing [bananalyzer]: success
+[2024-04-04 00:22:08] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.6.0.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.7.0.tar.gz]
+[2024-04-04 00:22:08] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2024-04-04 00:22:08] INFO root fetch - main [MainThread]: Store serial: [22611857]
