@@ -1730,3 +1730,28 @@
 [2024-04-04 01:12:32] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
 [2024-04-04 01:12:32] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
 [2024-04-04 01:12:32] INFO root fetch - main [MainThread]: Store serial: [22612212]
+[2024-04-04 01:14:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612212]
+[2024-04-04 01:14:40] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubecoders-amp-api-wrapper
+[2024-04-04 01:14:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyaogmaneo
+[2024-04-04 01:14:41] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: New version: [0.0.40b0] Old Version: [0.0.39b0]
+[2024-04-04 01:14:41] INFO root fetch - processPackages [pyaogmaneo]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-04 01:14:41] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/55/69/7628149cf65932c3d7bf457ec7c8e49b05848dde0ca97e191f480bf721dd/cubecoders_amp_api_wrapper-0.0.39b0.tar.gz
+[2024-04-04 01:14:41] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/2a/15/b78918b3b4689639b9262839ba11614af2f86275057ca11a790fbf97fb65/pyaogmaneo-2.4.0.tar.gz
+[2024-04-04 01:14:41] WARNING root fetch - processPackages [cubecoders-amp-api-wrapper]: Timeout reached during download
+[2024-04-04 01:14:41] WARNING root fetch - processPackages [pyaogmaneo]: Timeout reached during download
+[2024-04-04 01:14:41] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Downloading https://files.pythonhosted.org/packages/12/b4/1aab4848a45b9cea4bf3aad02a4645fe20b62c8510d4c7c70a8053f1ecb5/cubecoders_amp_api_wrapper-0.0.40b0.tar.gz
+[2024-04-04 01:14:41] WARNING root fetch - processPackages [cubecoders-amp-api-wrapper]: Timeout reached during download
+[2024-04-04 01:14:41] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: executing diffoscope
+[2024-04-04 01:14:41] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubecoders_amp_api_wrapper-0.0.39b0.tar.gz tmp/cubecoders_amp_api_wrapper-0.0.40b0.tar.gz --markdown 20240404/c/cubecoders-amp-api-wrapper/0.0.39b0-0.0.40b0/diff.md --exclude *.pyd
+[2024-04-04 01:14:41] INFO root fetch - processPackages [pyaogmaneo]: Downloading https://files.pythonhosted.org/packages/d3/ff/44a015d8f5334073a4a2cbca3c32c179856a51e20293d07e1c1456bd7465/pyaogmaneo-2.4.1-cp312-cp312-musllinux_1_1_aarch64.whl
+[2024-04-04 01:14:42] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.0.39b0.tar.gz]
+[2024-04-04 01:14:42] INFO root fetch - processPackages [cubecoders-amp-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/cubecoders_amp_api_wrapper-0.0.40b0.tar.gz]
+[2024-04-04 01:14:42] INFO root fetch - main [MainThread]: End processing [cubecoders-amp-api-wrapper]: success
+[2024-04-04 01:14:42] WARNING root fetch - processPackages [pyaogmaneo]: Timeout reached during download
+[2024-04-04 01:14:42] INFO root fetch - processPackages [pyaogmaneo]: executing diffoscope
+[2024-04-04 01:14:42] INFO root fetch - processPackages [pyaogmaneo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaogmaneo-2.4.0.tar.gz tmp/pyaogmaneo-2.4.1-cp312-cp312-musllinux_1_1_aarch64.whl.zip --markdown 20240404/p/pyaogmaneo/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2024-04-04 01:14:43] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.0.tar.gz]
+[2024-04-04 01:14:43] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.1-cp312-cp312-musllinux_1_1_aarch64.whl.zip]
+[2024-04-04 01:14:43] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
+[2024-04-04 01:14:43] INFO root fetch - main [MainThread]: Store serial: [22612231]
