@@ -1902,3 +1902,39 @@
 [2024-04-04 01:23:27] INFO root fetch - processPackages [dazl]: Remove: archive file [/home/abi/fetcher/tmp/dazl-8.0.0b1.tar.gz]
 [2024-04-04 01:23:27] INFO root fetch - main [MainThread]: End processing [dazl]: success
 [2024-04-04 01:23:27] INFO root fetch - main [MainThread]: Store serial: [22612296]
+[2024-04-04 01:25:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612296]
+[2024-04-04 01:25:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 01:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiohttp_admin2
+[2024-04-04 01:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lectric-sdk
+[2024-04-04 01:25:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Simba-UW-tf-dev
+[2024-04-04 01:25:36] INFO root fetch - processPackages [lectric-sdk]: New version: [0.0.9] Old Version: [0.0.6a0]
+[2024-04-04 01:25:36] INFO root fetch - processPackages [aiohttp_admin2]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 01:25:36] INFO root fetch - processPackages [Simba-UW-tf-dev]: New version: [1.89.2] Old Version: [1.89.1]
+[2024-04-04 01:25:36] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/9b/58/9810688a95d860bfbdfc64b8d7f2130019c3f4f3eccf23c8f5eb97c48577/aiohttp_admin2-0.0.4.tar.gz
+[2024-04-04 01:25:36] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/aa/c1/3790c0f3f0e8d9d1023f828bcbf38dc9927a2a7fc7be08f447381fe69e74/Simba-UW-tf-dev-1.89.1.tar.gz
+[2024-04-04 01:25:36] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-04 01:25:36] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/43/64/6272ab8629bdcb6480b2746e6e3bb7146ea176e827b6de3de5867b0b94d6/lectric-sdk-0.0.6a0.tar.gz
+[2024-04-04 01:25:36] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/d2/01/ad883c0e4e6affc6c0809e94d54b45538c9dea4b4bf1cbb1f28522dcfc15/aiohttp_admin2-0.0.5.tar.gz
+[2024-04-04 01:25:36] WARNING root fetch - processPackages [lectric-sdk]: Timeout reached during download
+[2024-04-04 01:25:37] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-04 01:25:37] INFO root fetch - processPackages [aiohttp_admin2]: executing diffoscope
+[2024-04-04 01:25:37] INFO root fetch - processPackages [aiohttp_admin2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_admin2-0.0.4.tar.gz tmp/aiohttp_admin2-0.0.5.tar.gz --markdown 20240404/a/aiohttp_admin2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 01:25:37] WARNING root fetch - processPackages [Simba-UW-tf-dev]: Timeout reached during download
+[2024-04-04 01:25:37] INFO root fetch - processPackages [lectric-sdk]: Downloading https://files.pythonhosted.org/packages/7d/f5/c957a796a1873e1f7870cd3cdfbba66a8159c62adb8e5785cb5d9b2dfef0/lectric-sdk-0.0.9.tar.gz
+[2024-04-04 01:25:37] WARNING root fetch - processPackages [lectric-sdk]: Timeout reached during download
+[2024-04-04 01:25:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: Downloading https://files.pythonhosted.org/packages/97/cf/9572d9209816842f987fd86a19e80031831c01659eb3c5393a8f328e26eb/Simba-UW-tf-dev-1.89.2.tar.gz
+[2024-04-04 01:25:37] INFO root fetch - processPackages [lectric-sdk]: executing diffoscope
+[2024-04-04 01:25:37] INFO root fetch - processPackages [lectric-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lectric-sdk-0.0.6a0.tar.gz tmp/lectric-sdk-0.0.9.tar.gz --markdown 20240404/l/lectric-sdk/0.0.6a0-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:25:37] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.4.tar.gz]
+[2024-04-04 01:25:37] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.5.tar.gz]
+[2024-04-04 01:25:37] INFO root fetch - main [MainThread]: End processing [aiohttp_admin2]: success
+[2024-04-04 01:25:37] WARNING root fetch - processPackages [Simba-UW-tf-dev]: Timeout reached during download
+[2024-04-04 01:25:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: executing diffoscope
+[2024-04-04 01:25:37] INFO root fetch - processPackages [Simba-UW-tf-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Simba-UW-tf-dev-1.89.1.tar.gz tmp/Simba-UW-tf-dev-1.89.2.tar.gz --markdown 20240404/S/Simba-UW-tf-dev/1.89.1-1.89.2/diff.md --exclude *.pyd
+[2024-04-04 01:25:37] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.6a0.tar.gz]
+[2024-04-04 01:25:37] INFO root fetch - processPackages [lectric-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lectric-sdk-0.0.9.tar.gz]
+[2024-04-04 01:25:38] INFO root fetch - main [MainThread]: End processing [lectric-sdk]: success
+[2024-04-04 01:25:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.1.tar.gz]
+[2024-04-04 01:25:41] INFO root fetch - processPackages [Simba-UW-tf-dev]: Remove: archive file [/home/abi/fetcher/tmp/Simba-UW-tf-dev-1.89.2.tar.gz]
+[2024-04-04 01:25:41] INFO root fetch - main [MainThread]: End processing [Simba-UW-tf-dev]: success
+[2024-04-04 01:25:41] INFO root fetch - main [MainThread]: Store serial: [22612304]
