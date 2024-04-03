@@ -1755,3 +1755,53 @@
 [2024-04-04 01:14:43] INFO root fetch - processPackages [pyaogmaneo]: Remove: archive file [/home/abi/fetcher/tmp/pyaogmaneo-2.4.1-cp312-cp312-musllinux_1_1_aarch64.whl.zip]
 [2024-04-04 01:14:43] INFO root fetch - main [MainThread]: End processing [pyaogmaneo]: success
 [2024-04-04 01:14:43] INFO root fetch - main [MainThread]: Store serial: [22612231]
+[2024-04-04 01:16:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612231]
+[2024-04-04 01:16:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sharded-google-photos
+[2024-04-04 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: luntaiDs
+[2024-04-04 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: letsreadscraper
+[2024-04-04 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nativesvttk
+[2024-04-04 01:16:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygmtools
+[2024-04-04 01:16:52] INFO root fetch - processPackages [luntaiDs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [letsreadscraper]: Skipping, unable to determine old version
+[2024-04-04 01:16:52] INFO root fetch - main [MainThread]: End processing [letsreadscraper] error
+[2024-04-04 01:16:52] INFO root fetch - processPackages [sharded-google-photos]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-04 01:16:52] INFO root fetch - processPackages [nativesvttk]: New version: [9.0] Old Version: [8.0]
+[2024-04-04 01:16:52] INFO root fetch - processPackages [pygmtools]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-04 01:16:52] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/96/9c/8f474f0025793acec510f264abd6be36d97ae50f7578575de409206457b1/luntaiDs-1.0.8.tar.gz
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [luntaiDs]: Timeout reached during download
+[2024-04-04 01:16:52] INFO root fetch - processPackages [nativesvttk]: Downloading https://files.pythonhosted.org/packages/57/38/ece67a89c96c6da98d467f52df0c5dcaf9d84677b2d454f73235fbb9a99a/nativesvttk-8.0.tar.gz
+[2024-04-04 01:16:52] INFO root fetch - processPackages [sharded-google-photos]: Downloading https://files.pythonhosted.org/packages/fa/db/033635ae74608b8809bf90cd84a8991b987125e2df0a962964a0af304424/sharded_google_photos-0.2.0.tar.gz
+[2024-04-04 01:16:52] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/e3/02/958ea0dac8ca867c91e49d548b248ce361e363b695a0e5e680efbcd0e184/pygmtools-0.5.0.tar.gz
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [nativesvttk]: Timeout reached during download
+[2024-04-04 01:16:52] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/91/ae/dabc2b9fa86d4f393b80d702e362106b4cd31b90fc9b9e288028c7a15020/luntaiDs-1.0.9.tar.gz
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [sharded-google-photos]: Timeout reached during download
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [pygmtools]: Timeout reached during download
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [luntaiDs]: Timeout reached during download
+[2024-04-04 01:16:52] INFO root fetch - processPackages [luntaiDs]: executing diffoscope
+[2024-04-04 01:16:52] INFO root fetch - processPackages [luntaiDs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luntaiDs-1.0.8.tar.gz tmp/luntaiDs-1.0.9.tar.gz --markdown 20240404/l/luntaiDs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:16:52] INFO root fetch - processPackages [sharded-google-photos]: Downloading https://files.pythonhosted.org/packages/e2/9a/2bbe86d083695ac6c694f1558b9f8b4ec369a960094426feca98cc698e8d/sharded_google_photos-0.2.1.tar.gz
+[2024-04-04 01:16:52] INFO root fetch - processPackages [nativesvttk]: Downloading https://files.pythonhosted.org/packages/79/ff/f86a135af5c03017330fae2ca316f6d78f9bbbdfc60ef557ba89066194f5/nativesvttk-9.0.tar.gz
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [sharded-google-photos]: Timeout reached during download
+[2024-04-04 01:16:52] INFO root fetch - processPackages [sharded-google-photos]: executing diffoscope
+[2024-04-04 01:16:52] INFO root fetch - processPackages [sharded-google-photos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharded_google_photos-0.2.0.tar.gz tmp/sharded_google_photos-0.2.1.tar.gz --markdown 20240404/s/sharded-google-photos/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-04 01:16:52] WARNING root fetch - processPackages [nativesvttk]: Timeout reached during download
+[2024-04-04 01:16:52] INFO root fetch - processPackages [nativesvttk]: executing diffoscope
+[2024-04-04 01:16:52] INFO root fetch - processPackages [nativesvttk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nativesvttk-8.0.tar.gz tmp/nativesvttk-9.0.tar.gz --markdown 20240404/n/nativesvttk/8.0-9.0/diff.md --exclude *.pyd
+[2024-04-04 01:16:52] INFO root fetch - processPackages [pygmtools]: Downloading https://files.pythonhosted.org/packages/08/b7/73923b4dd7081d5b858b094a04c072feadc5dfeecb15969e55457b434925/pygmtools-0.5.1.tar.gz
+[2024-04-04 01:16:53] WARNING root fetch - processPackages [pygmtools]: Timeout reached during download
+[2024-04-04 01:16:53] INFO root fetch - processPackages [pygmtools]: executing diffoscope
+[2024-04-04 01:16:53] INFO root fetch - processPackages [pygmtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmtools-0.5.0.tar.gz tmp/pygmtools-0.5.1.tar.gz --markdown 20240404/p/pygmtools/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-04 01:16:53] INFO root fetch - processPackages [sharded-google-photos]: Remove: archive file [/home/abi/fetcher/tmp/sharded_google_photos-0.2.0.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - processPackages [sharded-google-photos]: Remove: archive file [/home/abi/fetcher/tmp/sharded_google_photos-0.2.1.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - main [MainThread]: End processing [sharded-google-photos]: success
+[2024-04-04 01:16:53] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.8.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.9.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - main [MainThread]: End processing [luntaiDs]: success
+[2024-04-04 01:16:53] INFO root fetch - processPackages [nativesvttk]: Remove: archive file [/home/abi/fetcher/tmp/nativesvttk-8.0.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - processPackages [nativesvttk]: Remove: archive file [/home/abi/fetcher/tmp/nativesvttk-9.0.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - main [MainThread]: End processing [nativesvttk]: success
+[2024-04-04 01:16:53] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.5.0.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.5.1.tar.gz]
+[2024-04-04 01:16:53] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
+[2024-04-04 01:16:53] INFO root fetch - main [MainThread]: Store serial: [22612259]
