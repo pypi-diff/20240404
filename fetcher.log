@@ -1188,3 +1188,28 @@
 [2024-04-04 00:46:05] INFO root fetch - processPackages [deephaven-plugin-ui]: Remove: archive file [/home/abi/fetcher/tmp/deephaven-plugin-ui-0.9.0.tar.gz]
 [2024-04-04 00:46:05] INFO root fetch - main [MainThread]: End processing [deephaven-plugin-ui]: success
 [2024-04-04 00:46:05] INFO root fetch - main [MainThread]: Store serial: [22612040]
+[2024-04-04 00:48:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612040]
+[2024-04-04 00:48:14] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 00:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seidart
+[2024-04-04 00:48:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: schema-markdown
+[2024-04-04 00:48:14] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:48:14] INFO root fetch - processPackages [schema-markdown]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-04 00:48:15] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:48:15] INFO root fetch - processPackages [schema-markdown]: Downloading https://files.pythonhosted.org/packages/2a/78/633f6223c3d206ce85656fe566a0d8a58a094a9d76b547e630f7d5dffcb8/schema-markdown-1.2.6.tar.gz
+[2024-04-04 00:48:16] WARNING root fetch - processPackages [schema-markdown]: Timeout reached during download
+[2024-04-04 00:48:16] INFO root fetch - processPackages [schema-markdown]: Downloading https://files.pythonhosted.org/packages/5a/4e/838716efa189d10ab6f87c4ae197a14b71f4465b8b36712161cadb7878cc/schema-markdown-1.2.7.tar.gz
+[2024-04-04 00:48:16] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:48:16] WARNING root fetch - processPackages [schema-markdown]: Timeout reached during download
+[2024-04-04 00:48:16] INFO root fetch - processPackages [schema-markdown]: executing diffoscope
+[2024-04-04 00:48:16] INFO root fetch - processPackages [schema-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schema-markdown-1.2.6.tar.gz tmp/schema-markdown-1.2.7.tar.gz --markdown 20240404/s/schema-markdown/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2024-04-04 00:48:16] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:48:17] INFO root fetch - processPackages [schema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/schema-markdown-1.2.6.tar.gz]
+[2024-04-04 00:48:17] INFO root fetch - processPackages [schema-markdown]: Remove: archive file [/home/abi/fetcher/tmp/schema-markdown-1.2.7.tar.gz]
+[2024-04-04 00:48:17] INFO root fetch - main [MainThread]: End processing [schema-markdown]: success
+[2024-04-04 00:48:17] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:48:17] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 00:48:17] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:48:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:48:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:48:21] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 00:48:21] INFO root fetch - main [MainThread]: Store serial: [22612045]
