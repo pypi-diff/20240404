@@ -2635,3 +2635,28 @@
 [2024-04-04 01:47:45] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.406.tar.gz]
 [2024-04-04 01:47:45] INFO root fetch - main [MainThread]: End processing [chainlo]: success
 [2024-04-04 01:47:45] INFO root fetch - main [MainThread]: Store serial: [22612525]
+[2024-04-04 01:49:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612525]
+[2024-04-04 01:49:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: type-serialize
+[2024-04-04 01:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yt-dlp
+[2024-04-04 01:49:53] INFO root fetch - processPackages [type-serialize]: New version: [1.2.5] Old Version: [1.2.4]
+[2024-04-04 01:49:53] INFO root fetch - processPackages [yt-dlp]: New version: [2024.4.3.233315.dev0] Old Version: [2024.4.1.232704.dev0]
+[2024-04-04 01:49:53] INFO root fetch - processPackages [type-serialize]: Downloading https://files.pythonhosted.org/packages/f8/4b/79f995251bf4bc678b77adee6752b8e3854f57492b4b4f2dd0e468d91679/type_serialize-1.2.4-py3-none-any.whl
+[2024-04-04 01:49:54] WARNING root fetch - processPackages [type-serialize]: Timeout reached during download
+[2024-04-04 01:49:54] INFO root fetch - processPackages [type-serialize]: Downloading https://files.pythonhosted.org/packages/f5/3c/30ce612f300efe9efae8caf4893d9ca5dbc2abb2398a8ee67f383057426c/type_serialize-1.2.5-py3-none-any.whl
+[2024-04-04 01:49:54] WARNING root fetch - processPackages [type-serialize]: Timeout reached during download
+[2024-04-04 01:49:54] INFO root fetch - processPackages [type-serialize]: executing diffoscope
+[2024-04-04 01:49:54] INFO root fetch - processPackages [type-serialize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/type_serialize-1.2.4-py3-none-any.whl.zip tmp/type_serialize-1.2.5-py3-none-any.whl.zip --markdown 20240404/t/type-serialize/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2024-04-04 01:49:54] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/29/7e/936f468700d556d35bc0df1a7cae77aa3e15090cfbc114428a0bb52d2cf0/yt_dlp-2024.4.1.232704.dev0.tar.gz
+[2024-04-04 01:49:54] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-04 01:49:54] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/74/52/68228e16ff6c748229682306118bdd516395e746ff4ed15ca15b590f3298/yt_dlp-2024.4.3.233315.dev0.tar.gz
+[2024-04-04 01:49:54] INFO root fetch - processPackages [type-serialize]: Remove: archive file [/home/abi/fetcher/tmp/type_serialize-1.2.4-py3-none-any.whl.zip]
+[2024-04-04 01:49:54] INFO root fetch - processPackages [type-serialize]: Remove: archive file [/home/abi/fetcher/tmp/type_serialize-1.2.5-py3-none-any.whl.zip]
+[2024-04-04 01:49:55] INFO root fetch - main [MainThread]: End processing [type-serialize]: success
+[2024-04-04 01:49:55] WARNING root fetch - processPackages [yt-dlp]: Timeout reached during download
+[2024-04-04 01:49:55] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2024-04-04 01:49:55] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt_dlp-2024.4.1.232704.dev0.tar.gz tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz --markdown 20240404/y/yt-dlp/2024.4.1.232704.dev0-2024.4.3.233315.dev0/diff.md --exclude *.pyd
+[2024-04-04 01:50:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.1.232704.dev0.tar.gz]
+[2024-04-04 01:50:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz]
+[2024-04-04 01:50:00] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2024-04-04 01:50:00] INFO root fetch - main [MainThread]: Store serial: [22612530]
