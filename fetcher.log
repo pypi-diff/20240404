@@ -1830,3 +1830,28 @@
 [2024-04-04 01:19:04] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.9.tar.gz]
 [2024-04-04 01:19:04] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
 [2024-04-04 01:19:04] INFO root fetch - main [MainThread]: Store serial: [22612271]
+[2024-04-04 01:21:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612271]
+[2024-04-04 01:21:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-jswongf5
+[2024-04-04 01:21:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lockhart-serial
+[2024-04-04 01:21:13] INFO root fetch - processPackages [example-package-jswongf5]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 01:21:13] INFO root fetch - processPackages [lockhart-serial]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-04 01:21:14] INFO root fetch - processPackages [example-package-jswongf5]: Downloading https://files.pythonhosted.org/packages/3d/58/26ab5ca30fef4ff6d0df90807fde29096ff9291dbd8969f7e2fdde27df51/example_package_jswongf5-0.0.1.tar.gz
+[2024-04-04 01:21:14] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/bd/63/ac27f10ded49b3e950fd60045647ead14310b9e4b4a0b009934f2e50b9e9/lockhart-serial-0.0.1.tar.gz
+[2024-04-04 01:21:14] WARNING root fetch - processPackages [example-package-jswongf5]: Timeout reached during download
+[2024-04-04 01:21:14] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-04 01:21:14] INFO root fetch - processPackages [example-package-jswongf5]: Downloading https://files.pythonhosted.org/packages/cf/d3/b9d199b2fb42f8ab839d0b0ce3d1cfe1655e5f080338d991d08a7bb93cc0/example_package_jswongf5-0.0.2.tar.gz
+[2024-04-04 01:21:14] INFO root fetch - processPackages [lockhart-serial]: Downloading https://files.pythonhosted.org/packages/52/78/4ed610e5f2b073e90fe59676dedee8e0ed0f44e0dcde4b244b475f4dbfcc/lockhart-serial-1.0.0.tar.gz
+[2024-04-04 01:21:14] WARNING root fetch - processPackages [example-package-jswongf5]: Timeout reached during download
+[2024-04-04 01:21:14] INFO root fetch - processPackages [example-package-jswongf5]: executing diffoscope
+[2024-04-04 01:21:14] INFO root fetch - processPackages [example-package-jswongf5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_jswongf5-0.0.1.tar.gz tmp/example_package_jswongf5-0.0.2.tar.gz --markdown 20240404/e/example-package-jswongf5/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 01:21:14] WARNING root fetch - processPackages [lockhart-serial]: Timeout reached during download
+[2024-04-04 01:21:14] INFO root fetch - processPackages [lockhart-serial]: executing diffoscope
+[2024-04-04 01:21:14] INFO root fetch - processPackages [lockhart-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lockhart-serial-0.0.1.tar.gz tmp/lockhart-serial-1.0.0.tar.gz --markdown 20240404/l/lockhart-serial/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 01:21:15] INFO root fetch - processPackages [example-package-jswongf5]: Remove: archive file [/home/abi/fetcher/tmp/example_package_jswongf5-0.0.1.tar.gz]
+[2024-04-04 01:21:15] INFO root fetch - processPackages [example-package-jswongf5]: Remove: archive file [/home/abi/fetcher/tmp/example_package_jswongf5-0.0.2.tar.gz]
+[2024-04-04 01:21:15] INFO root fetch - main [MainThread]: End processing [example-package-jswongf5]: success
+[2024-04-04 01:21:15] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-0.0.1.tar.gz]
+[2024-04-04 01:21:15] INFO root fetch - processPackages [lockhart-serial]: Remove: archive file [/home/abi/fetcher/tmp/lockhart-serial-1.0.0.tar.gz]
+[2024-04-04 01:21:15] INFO root fetch - main [MainThread]: End processing [lockhart-serial]: success
+[2024-04-04 01:21:15] INFO root fetch - main [MainThread]: Store serial: [22612284]
