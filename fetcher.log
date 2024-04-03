@@ -722,3 +722,64 @@
 [2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: Remove: archive file [/home/abi/fetcher/tmp/chombopy-1.0.0-py3-none-any.whl.zip]
 [2024-04-04 00:24:18] INFO root fetch - main [MainThread]: End processing [chombopy]: success
 [2024-04-04 00:24:18] INFO root fetch - main [MainThread]: Store serial: [22611865]
+[2024-04-04 00:26:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611865]
+[2024-04-04 00:26:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 00:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paladium
+[2024-04-04 00:26:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellxgene-census
+[2024-04-04 00:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fortiedr
+[2024-04-04 00:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: altscore
+[2024-04-04 00:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: surfkit
+[2024-04-04 00:26:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: holoocean
+[2024-04-04 00:26:27] INFO root fetch - processPackages [paladium]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-04 00:26:27] INFO root fetch - processPackages [surfkit]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 00:26:27] INFO root fetch - processPackages [fortiedr]: New version: [3.5] Old Version: [3.0.0]
+[2024-04-04 00:26:27] INFO root fetch - processPackages [altscore]: New version: [0.1.98] Old Version: [0.1.97]
+[2024-04-04 00:26:27] INFO root fetch - processPackages [cellxgene-census]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [holoocean]: Skipping, unable to determine old version
+[2024-04-04 00:26:27] INFO root fetch - main [MainThread]: End processing [holoocean] error
+[2024-04-04 00:26:27] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/29/ef/f51a8a95dbb756e926f06fbe00dda687cf8f55ded00f289a7b99fca3aed9/paladium-1.0.5.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/25/72/18440b8b10d48049c8950b551b03f985daf250d17824be5b685bb2e5c14b/surfkit-0.1.5.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/b7/f0/5eb3d09f9d74175f600dfc8c978a908a540355544594753c409d8f5865ea/altscore-0.1.97.tar.gz
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [altscore]: Timeout reached during download
+[2024-04-04 00:26:27] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/20/92/9949d07bc372ea3ecf9cb8fb07cde463ca6162f031e19ca237b65c52edbd/fortiedr-3.0.0.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/c9/d5/c28329d99b22dff22a03c58cb4d516d8de72ff01202f4d197b0a2955bcb4/cellxgene_census-1.9.0.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [surfkit]: Downloading https://files.pythonhosted.org/packages/95/22/a0fd5fb97477af1494cbe862871c722328348c5b0b2c677d15205b118c77/surfkit-0.1.6.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/10/bd/25e518d861be4aa99f70a594b7ea269993fa2bbe4f69d4379af07a57c737/paladium-1.0.6.tar.gz
+[2024-04-04 00:26:27] INFO root fetch - processPackages [altscore]: Downloading https://files.pythonhosted.org/packages/5f/a6/fb416592a06e3f048aaf0891b596bd989dcd5841cb33ab09db5bb52d0970/altscore-0.1.98.tar.gz
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [fortiedr]: Timeout reached during download
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [surfkit]: Timeout reached during download
+[2024-04-04 00:26:27] INFO root fetch - processPackages [surfkit]: executing diffoscope
+[2024-04-04 00:26:27] INFO root fetch - processPackages [surfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/surfkit-0.1.5.tar.gz tmp/surfkit-0.1.6.tar.gz --markdown 20240404/s/surfkit/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:26:27] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:26:27] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.5.tar.gz tmp/paladium-1.0.6.tar.gz --markdown 20240404/p/paladium/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [cellxgene-census]: Timeout reached during download
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [altscore]: Timeout reached during download
+[2024-04-04 00:26:27] INFO root fetch - processPackages [altscore]: executing diffoscope
+[2024-04-04 00:26:27] INFO root fetch - processPackages [altscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/altscore-0.1.97.tar.gz tmp/altscore-0.1.98.tar.gz --markdown 20240404/a/altscore/0.1.97-0.1.98/diff.md --exclude *.pyd
+[2024-04-04 00:26:27] INFO root fetch - processPackages [fortiedr]: Downloading https://files.pythonhosted.org/packages/75/9e/08c6a885b4c717a400db606ce3b7e3813bbda2ef5ddd6795ca427b3f06a6/fortiedr-3.5.tar.gz
+[2024-04-04 00:26:27] WARNING root fetch - processPackages [fortiedr]: Timeout reached during download
+[2024-04-04 00:26:27] INFO root fetch - processPackages [fortiedr]: executing diffoscope
+[2024-04-04 00:26:27] INFO root fetch - processPackages [fortiedr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortiedr-3.0.0.tar.gz tmp/fortiedr-3.5.tar.gz --markdown 20240404/f/fortiedr/3.0.0-3.5/diff.md --exclude *.pyd
+[2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: Downloading https://files.pythonhosted.org/packages/ca/0c/fd75c90569117cb8e8a0c6ce0177a9d6491aaf2659e630fb89450001766e/cellxgene_census-1.9.1.tar.gz
+[2024-04-04 00:26:28] WARNING root fetch - processPackages [cellxgene-census]: Timeout reached during download
+[2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: executing diffoscope
+[2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellxgene_census-1.9.0.tar.gz tmp/cellxgene_census-1.9.1.tar.gz --markdown 20240404/c/cellxgene-census/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 00:26:28] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.5.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - processPackages [surfkit]: Remove: archive file [/home/abi/fetcher/tmp/surfkit-0.1.6.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [surfkit]: success
+[2024-04-04 00:26:28] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.5.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.6.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:26:28] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.97.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - processPackages [altscore]: Remove: archive file [/home/abi/fetcher/tmp/altscore-0.1.98.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [altscore]: success
+[2024-04-04 00:26:28] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.0.0.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - processPackages [fortiedr]: Remove: archive file [/home/abi/fetcher/tmp/fortiedr-3.5.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [fortiedr]: success
+[2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.0.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - processPackages [cellxgene-census]: Remove: archive file [/home/abi/fetcher/tmp/cellxgene_census-1.9.1.tar.gz]
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: End processing [cellxgene-census]: success
+[2024-04-04 00:26:28] INFO root fetch - main [MainThread]: Store serial: [22611884]
