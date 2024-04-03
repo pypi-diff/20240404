@@ -2660,3 +2660,83 @@
 [2024-04-04 01:50:00] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.4.3.233315.dev0.tar.gz]
 [2024-04-04 01:50:00] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-04 01:50:00] INFO root fetch - main [MainThread]: Store serial: [22612530]
+[2024-04-04 01:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612530]
+[2024-04-04 01:52:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-core
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Tooldelta
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enum-with-dict
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-redshift
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galileo-core
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfprovider
+[2024-04-04 01:52:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bumble
+[2024-04-04 01:52:10] INFO root fetch - processPackages [enum-with-dict]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [galileo-core]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [tfprovider]: New version: [0.1.1.post1] Old Version: [0.1.1]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dbt-redshift]: New version: [1.8.0b2] Old Version: [1.8.0b1]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [Tooldelta]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [bumble]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-04 01:52:10] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/9a/72/67e9cfa9f2ab73e8dec0834f5fa4762978a786a122ddc7c6efb98582f363/enum_with_dict-0.4.0.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/bf/9f/8f4537e311933198f7eceb106c2572f9ca5b34c1a6b555df0a84b55517e2/tooldelta-0.4.8.tar.gz
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 01:52:10] INFO root fetch - processPackages [tfprovider]: Downloading https://files.pythonhosted.org/packages/26/bd/ece4d062fb97b78afd86d96a430669aaf0e33ed3eb8aea87616741954e95/tfprovider-0.1.1.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/ea/3f/a9eb035f14ea9828f41241a9460d0f428569ab231b8b567cbbacc94351dc/dbt-redshift-1.8.0b1.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/5c/cc/2050aa113bf91c23119ba662d8833cb2442c86a9be578ea2ef801786e1bc/bumble-0.0.7.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/bd/1b/53d3d3f27fc0db15d8371d54d00226e5f6fb4ce3b5b23f93eed320450db8/galileo_core-0.2.0.tar.gz
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-04 01:52:10] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/0f/2d/efd9af4a21fbbefc6554df1b754dbd5d61647f6a5088fd13daf02afc617f/enum_with_dict-0.5.0.tar.gz
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [dbt-redshift]: Timeout reached during download
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/1f/f5/f48e66193791d2a764ce152ec99c43ef19351454731d6fe1b69560abc87f/tooldelta-0.4.9.tar.gz
+[2024-04-04 01:52:10] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 01:52:10] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 01:52:10] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.4.0.tar.gz tmp/enum_with_dict-0.5.0.tar.gz --markdown 20240404/e/enum-with-dict/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 01:52:10] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/49/c0/cefe2a8573c499fbddc905451fc3c2d369fb82edaf97a141add920451b10/dbt-redshift-1.8.0b2.tar.gz
+[2024-04-04 01:52:10] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/55/f2/7016c0dd438971b71ea46e6e9681c96b50247606cfb1aadf0a220dc328cb/galileo_core-0.3.0.tar.gz
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240404/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-04 01:52:11] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.4.8.tar.gz tmp/tooldelta-0.4.9.tar.gz --markdown 20240404/T/Tooldelta/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [tfprovider]: Timeout reached during download
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [dbt-redshift]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.8.0b1.tar.gz tmp/dbt-redshift-1.8.0b2.tar.gz --markdown 20240404/d/dbt-redshift/1.8.0b1-1.8.0b2/diff.md --exclude *.pyd
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-04 01:52:11] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.2.0.tar.gz tmp/galileo_core-0.3.0.tar.gz --markdown 20240404/g/galileo-core/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 01:52:11] INFO root fetch - processPackages [tfprovider]: Downloading https://files.pythonhosted.org/packages/c2/15/f0cdef82762a6e99b69c6babae69d707234d12fdb0bfe4b515ad07c5a515/tfprovider-0.1.1.post1.tar.gz
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [tfprovider]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [tfprovider]: executing diffoscope
+[2024-04-04 01:52:11] INFO root fetch - processPackages [tfprovider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfprovider-0.1.1.tar.gz tmp/tfprovider-0.1.1.post1.tar.gz --markdown 20240404/t/tfprovider/0.1.1-0.1.1.post1/diff.md --exclude *.pyd
+[2024-04-04 01:52:11] WARNING root fetch - processPackages [bumble]: Timeout reached during download
+[2024-04-04 01:52:11] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.4.0.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.0.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-04 01:52:11] INFO root fetch - processPackages [bumble]: Downloading https://files.pythonhosted.org/packages/68/35/9a248bc72c337b8ddaaa686a9f635b08670845ec0d96933f6e246cb6f7c2/bumble-0.0.8.tar.gz
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b1.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.8.0b2.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2024-04-04 01:52:11] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.8.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.9.tar.gz]
+[2024-04-04 01:52:11] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-04 01:52:12] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.2.0.tar.gz]
+[2024-04-04 01:52:12] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.3.0.tar.gz]
+[2024-04-04 01:52:12] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-04 01:52:12] INFO root fetch - processPackages [tfprovider]: Remove: archive file [/home/abi/fetcher/tmp/tfprovider-0.1.1.tar.gz]
+[2024-04-04 01:52:12] INFO root fetch - processPackages [tfprovider]: Remove: archive file [/home/abi/fetcher/tmp/tfprovider-0.1.1.post1.tar.gz]
+[2024-04-04 01:52:12] INFO root fetch - main [MainThread]: End processing [tfprovider]: success
+[2024-04-04 01:52:12] WARNING root fetch - processPackages [bumble]: Timeout reached during download
+[2024-04-04 01:52:12] INFO root fetch - processPackages [bumble]: executing diffoscope
+[2024-04-04 01:52:12] INFO root fetch - processPackages [bumble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bumble-0.0.7.tar.gz tmp/bumble-0.0.8.tar.gz --markdown 20240404/b/bumble/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 01:52:13] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.7.tar.gz]
+[2024-04-04 01:52:13] INFO root fetch - processPackages [bumble]: Remove: archive file [/home/abi/fetcher/tmp/bumble-0.0.8.tar.gz]
+[2024-04-04 01:52:13] INFO root fetch - main [MainThread]: End processing [bumble]: success
+[2024-04-04 01:52:13] INFO root fetch - main [MainThread]: Store serial: [22612551]
