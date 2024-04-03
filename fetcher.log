@@ -1271,3 +1271,33 @@
 [2024-04-04 00:50:33] INFO root fetch - processPackages [dropbox-sign]: Remove: archive file [/home/abi/fetcher/tmp/dropbox-sign-1.4.0.tar.gz]
 [2024-04-04 00:50:33] INFO root fetch - main [MainThread]: End processing [dropbox-sign]: success
 [2024-04-04 00:50:33] INFO root fetch - main [MainThread]: Store serial: [22612059]
+[2024-04-04 00:52:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612059]
+[2024-04-04 00:52:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 00:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: honeybee-energy
+[2024-04-04 00:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-core
+[2024-04-04 00:52:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biaspeech
+[2024-04-04 00:52:42] INFO root fetch - processPackages [biaspeech]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 00:52:42] INFO root fetch - processPackages [honeybee-energy]: New version: [1.99.9] Old Version: [1.99.8]
+[2024-04-04 00:52:42] INFO root fetch - processPackages [dragonfly-core]: New version: [1.9.0] Old Version: [1.8.1]
+[2024-04-04 00:52:42] INFO root fetch - processPackages [biaspeech]: Downloading https://files.pythonhosted.org/packages/6c/22/c1c370c656268785ee6b4d6c68cde2dc367f25b5158d98e3f05a63bf31c4/biaspeech-0.0.3.tar.gz
+[2024-04-04 00:52:42] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/93/fd/7cad9d4c9406e421f7ce31b725936bb32ec8a421f9b143e829c33cae55dd/dragonfly-core-1.8.1.tar.gz
+[2024-04-04 00:52:42] WARNING root fetch - processPackages [biaspeech]: Skipping package: exceeds size limit 17057708>=10485760
+[2024-04-04 00:52:42] INFO root fetch - main [MainThread]: End processing [biaspeech] error
+[2024-04-04 00:52:42] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/b1/ab/c8fb70e349d71cce95bac52782f7ea0659a6987ed84dd41c7fe2ef40806c/honeybee-energy-1.99.8.tar.gz
+[2024-04-04 00:52:43] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-04 00:52:43] WARNING root fetch - processPackages [honeybee-energy]: Timeout reached during download
+[2024-04-04 00:52:43] INFO root fetch - processPackages [dragonfly-core]: Downloading https://files.pythonhosted.org/packages/75/cb/4a1ce4726a070a188305b8d5343b4300bf24190845d85c8718cc31aa3e53/dragonfly-core-1.9.0.tar.gz
+[2024-04-04 00:52:43] WARNING root fetch - processPackages [dragonfly-core]: Timeout reached during download
+[2024-04-04 00:52:43] INFO root fetch - processPackages [dragonfly-core]: executing diffoscope
+[2024-04-04 00:52:43] INFO root fetch - processPackages [dragonfly-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-core-1.8.1.tar.gz tmp/dragonfly-core-1.9.0.tar.gz --markdown 20240404/d/dragonfly-core/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 00:52:43] INFO root fetch - processPackages [honeybee-energy]: Downloading https://files.pythonhosted.org/packages/8d/5e/1bc90eeaf45799cc7d5cda125017c1e4e2cf0ef068cd3db60d971b9596ba/honeybee-energy-1.99.9.tar.gz
+[2024-04-04 00:52:43] WARNING root fetch - processPackages [honeybee-energy]: Timeout reached during download
+[2024-04-04 00:52:43] INFO root fetch - processPackages [honeybee-energy]: executing diffoscope
+[2024-04-04 00:52:43] INFO root fetch - processPackages [honeybee-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-energy-1.99.8.tar.gz tmp/honeybee-energy-1.99.9.tar.gz --markdown 20240404/h/honeybee-energy/1.99.8-1.99.9/diff.md --exclude *.pyd
+[2024-04-04 00:52:44] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.8.1.tar.gz]
+[2024-04-04 00:52:44] INFO root fetch - processPackages [dragonfly-core]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-core-1.9.0.tar.gz]
+[2024-04-04 00:52:44] INFO root fetch - main [MainThread]: End processing [dragonfly-core]: success
+[2024-04-04 00:52:44] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.8.tar.gz]
+[2024-04-04 00:52:44] INFO root fetch - processPackages [honeybee-energy]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-energy-1.99.9.tar.gz]
+[2024-04-04 00:52:44] INFO root fetch - main [MainThread]: End processing [honeybee-energy]: success
+[2024-04-04 00:52:44] INFO root fetch - main [MainThread]: Store serial: [22612068]
