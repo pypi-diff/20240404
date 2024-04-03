@@ -1,0 +1,85 @@
+[2024-04-04 00:00:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611629]
+[2024-04-04 00:01:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nostr-dvm
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unifr-api-epuck
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docugami-langchain
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: freegenius
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandas-indexing
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modal
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: modal-client
+[2024-04-04 00:01:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neurosym
+[2024-04-04 00:01:02] INFO root fetch - processPackages [unifr-api-epuck]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.7rc9] Old Version: [0.0.7rc8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [nostr-dvm]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [neurosym]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [pandas-indexing]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-04 00:01:03] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/66/87/42efcd2dada44045cddbcc64177bfa822d2cd1915ad9f075c81d65cdd137/neurosym-0.0.8.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/b3/a3/093551f2e915d1df50d92fd89aa1a0b5477a17be43dcf4cbc397d4bdc50b/nostr-dvm-0.3.0.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/b3/1a/88e54d662aad11c9e86b9d1b39b7d32134ac7d10bf7b8864c28573f0fdd1/pandas-indexing-0.4.1.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-04 00:01:03] INFO root fetch - processPackages [unifr-api-epuck]: Downloading https://files.pythonhosted.org/packages/bb/0a/f1c214e9b72eaa92620ae5d93c9e1e5ca5cc07de74387a005f57ead38c68/unifr_api_epuck-1.3.8.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/61/fb/e065e9733519fa7f9c379746d05be5069415a0888c754b8d12a4b7595069/docugami_langchain-0.0.7rc8.tar.gz
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [nostr-dvm]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [modal-client]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [pandas-indexing]: Timeout reached during download
+[2024-04-04 00:01:03] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [unifr-api-epuck]: Skipping package: exceeds size limit 39247584>=10485760
+[2024-04-04 00:01:03] INFO root fetch - main [MainThread]: End processing [unifr-api-epuck] error
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [modal]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [docugami-langchain]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-04 00:01:03] INFO root fetch - processPackages [pandas-indexing]: Downloading https://files.pythonhosted.org/packages/3e/3d/0a486638431ec449792050029a926e0facf87572424ffcd7b2fca995e926/pandas-indexing-0.4.2.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [neurosym]: Downloading https://files.pythonhosted.org/packages/b3/d9/0fd09f28366b6afe07c9b07022c327cfcb05f4c54ad12dc10fcb86d94884/neurosym-0.0.9.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-04 00:01:03] INFO root fetch - processPackages [nostr-dvm]: Downloading https://files.pythonhosted.org/packages/56/a2/1883b0a7b8f66e90ef95f290a1686875a3ce7836958440fa92274f499ad2/nostr-dvm-0.3.1.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [neurosym]: Timeout reached during download
+[2024-04-04 00:01:03] INFO root fetch - processPackages [neurosym]: executing diffoscope
+[2024-04-04 00:01:03] INFO root fetch - processPackages [neurosym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosym-0.0.8.tar.gz tmp/neurosym-0.0.9.tar.gz --markdown 20240404/n/neurosym/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [modal-client]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [pandas-indexing]: Timeout reached during download
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240404/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-04 00:01:03] INFO root fetch - processPackages [pandas-indexing]: executing diffoscope
+[2024-04-04 00:01:03] INFO root fetch - processPackages [pandas-indexing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-indexing-0.4.1.tar.gz tmp/pandas-indexing-0.4.2.tar.gz --markdown 20240404/p/pandas-indexing/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [modal]: Timeout reached during download
+[2024-04-04 00:01:03] WARNING root fetch - processPackages [nostr-dvm]: Timeout reached during download
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-04 00:01:03] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240404/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-04 00:01:03] INFO root fetch - processPackages [nostr-dvm]: executing diffoscope
+[2024-04-04 00:01:03] INFO root fetch - processPackages [nostr-dvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nostr-dvm-0.3.0.tar.gz tmp/nostr-dvm-0.3.1.tar.gz --markdown 20240404/n/nostr-dvm/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-04 00:01:03] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/d3/dc/ebfc94d3428173a7827916947f5e84317c665bab439e99dd9fd634dcc60f/docugami_langchain-0.0.7rc9.tar.gz
+[2024-04-04 00:01:03] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-04 00:01:04] WARNING root fetch - processPackages [docugami-langchain]: Timeout reached during download
+[2024-04-04 00:01:04] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-04-04 00:01:04] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.7rc8.tar.gz tmp/docugami_langchain-0.0.7rc9.tar.gz --markdown 20240404/d/docugami-langchain/0.0.7rc8-0.0.7rc9/diff.md --exclude *.pyd
+[2024-04-04 00:01:04] WARNING root fetch - processPackages [freegenius]: Timeout reached during download
+[2024-04-04 00:01:04] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-04 00:01:04] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240404/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:01:04] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-04 00:01:04] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-04 00:01:04] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-04 00:01:04] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.8.tar.gz]
+[2024-04-04 00:01:04] INFO root fetch - processPackages [neurosym]: Remove: archive file [/home/abi/fetcher/tmp/neurosym-0.0.9.tar.gz]
+[2024-04-04 00:01:04] INFO root fetch - main [MainThread]: End processing [neurosym]: success
+[2024-04-04 00:01:05] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.4.1.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - processPackages [pandas-indexing]: Remove: archive file [/home/abi/fetcher/tmp/pandas-indexing-0.4.2.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: End processing [pandas-indexing]: success
+[2024-04-04 00:01:05] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr-dvm-0.3.0.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - processPackages [nostr-dvm]: Remove: archive file [/home/abi/fetcher/tmp/nostr-dvm-0.3.1.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: End processing [nostr-dvm]: success
+[2024-04-04 00:01:05] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc8.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc9.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-04-04 00:01:05] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-04 00:01:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-04 00:01:05] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-04 00:01:05] INFO root fetch - main [MainThread]: Store serial: [22611657]
