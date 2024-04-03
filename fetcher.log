@@ -1515,3 +1515,105 @@
 [2024-04-04 01:05:53] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.8.0.dev20240402.tar.gz]
 [2024-04-04 01:05:53] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
 [2024-04-04 01:05:53] INFO root fetch - main [MainThread]: Store serial: [22612151]
+[2024-04-04 01:07:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612151]
+[2024-04-04 01:08:01] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-ports
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ctkchart
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-clitt
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-energy
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lbt-dragonfly
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyUTSAlgorithms
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-simplebook
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deltachat-cursed
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phospho
+[2024-04-04 01:08:01] INFO root fetch - processPackages [pyUTSAlgorithms]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ctkchart]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [target-ports]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [flask-simplebook]: New version: [0.6.0] Old Version: [0.1.1]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.98] Old Version: [0.9.97]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [deltachat-cursed]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [phospho]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-04 01:08:01] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/57/55/6e3bcb0a7d3f89b9c7babedd59fa210623d0589046abea8471f05133fe98/target-ports-1.0.6.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [pyUTSAlgorithms]: Downloading https://files.pythonhosted.org/packages/66/46/c9adc73f2d04226a1bcb279834c3607c312ac51f0cb78092ab46a53aa25e/pyUTSAlgorithms-0.1.2.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [ctkchart]: Downloading https://files.pythonhosted.org/packages/de/ab/91bae4a814a441188d09169f879baadaabe2acb9605071b212ad4dbc33f6/ctkchart-2.0.3.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [flask-simplebook]: Downloading https://files.pythonhosted.org/packages/bc/f0/b5fc6a13975d660d385d3db05df46e7b5d0bb41ca4dde62ba2596d0cb90e/flask-simplebook-0.1.1.tar.gz
+[2024-04-04 01:08:01] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a5/6e/770851279a1231e6148aa2efce49324900cc1156ecb1b6d0e9b3a83e241b/hspylib-clitt-0.9.97.tar.gz
+[2024-04-04 01:08:01] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:08:01] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [deltachat-cursed]: Downloading https://files.pythonhosted.org/packages/df/7e/85dcd4b7f84ede4d9ff2983234bd89e6fa095b9517fc1a43a5bec97a7040/deltachat_cursed-0.8.0.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [ctkchart]: Timeout reached during download
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [flask-simplebook]: Timeout reached during download
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [hspylib-clitt]: Timeout reached during download
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [pyUTSAlgorithms]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/f5/dd/2fd139d088ea505736fcce40a4aed281d57ccfd8673fb45e9d9b6779cad9/target-ports-1.0.7.tar.gz
+[2024-04-04 01:08:02] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-04 01:08:02] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-04 01:08:02] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/a5/c2/cddfd715eafd3cad1eee4a415d1b8fab3af6c61521607e3faf6154b8492b/phospho-0.3.8.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [deltachat-cursed]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [flask-simplebook]: Downloading https://files.pythonhosted.org/packages/89/99/b5127f8382797f10aab1f6a700c6a717c9313b90eb033ea81a5a78778c27/flask-simplebook-0.6.0.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.6.tar.gz tmp/target-ports-1.0.7.tar.gz --markdown 20240404/t/target-ports/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240404/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] INFO root fetch - processPackages [ctkchart]: Downloading https://files.pythonhosted.org/packages/64/b5/51e6f552e7cf82fed3bee3032dd25731d94fa8a0d44a74913e521f61667b/ctkchart-2.1.0.tar.gz
+[2024-04-04 01:08:02] INFO root fetch - processPackages [pyUTSAlgorithms]: Downloading https://files.pythonhosted.org/packages/61/48/047b5bb279027b042648b6c6fae9b1938eeb65f84f37d8e0f27effc3b8c4/pyUTSAlgorithms-0.1.3.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [phospho]: Timeout reached during download
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240404/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [flask-simplebook]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [flask-simplebook]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [flask-simplebook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-simplebook-0.1.1.tar.gz tmp/flask-simplebook-0.6.0.tar.gz --markdown 20240404/f/flask-simplebook/0.1.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] INFO root fetch - processPackages [deltachat-cursed]: Downloading https://files.pythonhosted.org/packages/9f/3f/0acb29bbb76720a1071809b2118cc5b1e734f8d6ddf08b5904c4d594a5e4/deltachat-cursed-0.9.0.tar.gz
+[2024-04-04 01:08:02] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/b2/48/af5284ac733b0c159a82940a2b450546c61b54d0aec3768dd58557b3542d/hspylib-clitt-0.9.98.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [ctkchart]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [ctkchart]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [ctkchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctkchart-2.0.3.tar.gz tmp/ctkchart-2.1.0.tar.gz --markdown 20240404/c/ctkchart/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [pyUTSAlgorithms]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [pyUTSAlgorithms]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [pyUTSAlgorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUTSAlgorithms-0.1.2.tar.gz tmp/pyUTSAlgorithms-0.1.3.tar.gz --markdown 20240404/p/pyUTSAlgorithms/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [hspylib-clitt]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.97.tar.gz tmp/hspylib-clitt-0.9.98.tar.gz --markdown 20240404/h/hspylib-clitt/0.9.97-0.9.98/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] INFO root fetch - processPackages [phospho]: Downloading https://files.pythonhosted.org/packages/dc/6e/2888f8262e52b24df8d71b89041baf1f0798c159bee4cc0c0fa17bcfbc7c/phospho-0.3.9.tar.gz
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [deltachat-cursed]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [deltachat-cursed]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [deltachat-cursed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deltachat_cursed-0.8.0.tar.gz tmp/deltachat-cursed-0.9.0.tar.gz --markdown 20240404/d/deltachat-cursed/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:08:02] WARNING root fetch - processPackages [phospho]: Timeout reached during download
+[2024-04-04 01:08:02] INFO root fetch - processPackages [phospho]: executing diffoscope
+[2024-04-04 01:08:02] INFO root fetch - processPackages [phospho]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phospho-0.3.8.tar.gz tmp/phospho-0.3.9.tar.gz --markdown 20240404/p/phospho/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-04 01:08:03] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.6.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.7.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [flask-simplebook]: Remove: archive file [/home/abi/fetcher/tmp/flask-simplebook-0.1.1.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [flask-simplebook]: Remove: archive file [/home/abi/fetcher/tmp/flask-simplebook-0.6.0.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [flask-simplebook]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [pyUTSAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/pyUTSAlgorithms-0.1.2.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [pyUTSAlgorithms]: Remove: archive file [/home/abi/fetcher/tmp/pyUTSAlgorithms-0.1.3.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [pyUTSAlgorithms]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [deltachat-cursed]: Remove: archive file [/home/abi/fetcher/tmp/deltachat_cursed-0.8.0.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [deltachat-cursed]: Remove: archive file [/home/abi/fetcher/tmp/deltachat-cursed-0.9.0.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [deltachat-cursed]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [ctkchart]: Remove: archive file [/home/abi/fetcher/tmp/ctkchart-2.0.3.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [ctkchart]: Remove: archive file [/home/abi/fetcher/tmp/ctkchart-2.1.0.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [ctkchart]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.97.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.98.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2024-04-04 01:08:03] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.8.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.9.tar.gz]
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [phospho]: success
+[2024-04-04 01:08:03] INFO root fetch - main [MainThread]: Store serial: [22612179]
