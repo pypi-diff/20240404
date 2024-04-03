@@ -1084,3 +1084,64 @@
 [2024-04-04 00:41:45] INFO root fetch - processPackages [NNSOM]: Remove: archive file [/home/abi/fetcher/tmp/nnsom-1.4.1.tar.gz]
 [2024-04-04 00:41:45] INFO root fetch - main [MainThread]: End processing [NNSOM]: success
 [2024-04-04 00:41:45] INFO root fetch - main [MainThread]: Store serial: [22611977]
+[2024-04-04 00:43:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611977]
+[2024-04-04 00:43:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mattsollamatools
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trustauthx
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databento-dbn
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prrr
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: llama-index-vector-stores-kdbai
+[2024-04-04 00:43:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: example-package-jswongf5
+[2024-04-04 00:43:53] INFO root fetch - processPackages [prrr]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 00:43:53] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-04 00:43:53] INFO root fetch - processPackages [trustauthx]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-04 00:43:53] INFO root fetch - processPackages [mattsollamatools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:43:53] INFO root fetch - processPackages [databento-dbn]: New version: [0.9.0] Old Version: [0.8.3]
+[2024-04-04 00:43:53] INFO root fetch - processPackages [prrr]: Downloading https://files.pythonhosted.org/packages/39/97/a6c75bee114695c301b56173f85d05dc91582b1a77e034b654401667d46d/prrr-0.1.0.tar.gz
+[2024-04-04 00:43:53] WARNING root fetch - processPackages [example-package-jswongf5]: Skipping, unable to determine old version
+[2024-04-04 00:43:53] INFO root fetch - main [MainThread]: End processing [example-package-jswongf5] error
+[2024-04-04 00:43:53] INFO root fetch - processPackages [trustauthx]: Downloading https://files.pythonhosted.org/packages/a7/78/5f7af54bdbb0403e2b3841bd96956838b052c4afa240f5ebd31aa5818095/trustauthx-0.7.0.tar.gz
+[2024-04-04 00:43:53] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/65/0b/0ecdd2a0e9d443ada596ac68e9ec8d3c5995575ac1b2a0381720db51ff49/mattsollamatools-0.0.8.tar.gz
+[2024-04-04 00:43:53] WARNING root fetch - processPackages [prrr]: Timeout reached during download
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [trustauthx]: Timeout reached during download
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/bc/af/4f024343a195ff844f3e2a3ffa7c05bf9e9d8295ef154598b302ba8a3b49/llama_index_vector_stores_kdbai-0.1.4.tar.gz
+[2024-04-04 00:43:54] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/50/68/9c1a8d1d120c175bc011599d0839c99306a37234922b12bd2c6de5d43c0c/databento_dbn-0.8.3-cp39-none-win_amd64.whl
+[2024-04-04 00:43:54] INFO root fetch - processPackages [prrr]: Downloading https://files.pythonhosted.org/packages/cb/c4/2e1a8f8363b206ff2e4f469e9a4d2fe0bb3d06ef471fd936ad26e00970ef/prrr-0.1.1.tar.gz
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [llama-index-vector-stores-kdbai]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/a7/e0/d0045031e7569aa9abf50ddf3e27f6826973a4970151869beca9ae916a85/mattsollamatools-0.0.9.tar.gz
+[2024-04-04 00:43:54] INFO root fetch - processPackages [trustauthx]: Downloading https://files.pythonhosted.org/packages/5c/fb/0dd6a0130035533e02b64bcad1cd3e805e0fc310dd8369c8a2b37c1cc147/trustauthx-0.7.1.tar.gz
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [prrr]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [prrr]: executing diffoscope
+[2024-04-04 00:43:54] INFO root fetch - processPackages [prrr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prrr-0.1.0.tar.gz tmp/prrr-0.1.1.tar.gz --markdown 20240404/p/prrr/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [databento-dbn]: Timeout reached during download
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [mattsollamatools]: executing diffoscope
+[2024-04-04 00:43:54] INFO root fetch - processPackages [mattsollamatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattsollamatools-0.0.8.tar.gz tmp/mattsollamatools-0.0.9.tar.gz --markdown 20240404/m/mattsollamatools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [trustauthx]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [trustauthx]: executing diffoscope
+[2024-04-04 00:43:54] INFO root fetch - processPackages [trustauthx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustauthx-0.7.0.tar.gz tmp/trustauthx-0.7.1.tar.gz --markdown 20240404/t/trustauthx/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-04 00:43:54] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Downloading https://files.pythonhosted.org/packages/db/94/cf133fd05cb663fa1146bd40c1d51c7fe19726001a57aae9b6b7802db459/llama_index_vector_stores_kdbai-0.1.5.tar.gz
+[2024-04-04 00:43:54] INFO root fetch - processPackages [databento-dbn]: Downloading https://files.pythonhosted.org/packages/bf/08/c386a5e07e971713118bbe8a51b7f28c6311c743903b05733203f43462cd/databento_dbn-0.9.0-cp39-none-win_amd64.whl
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [llama-index-vector-stores-kdbai]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: executing diffoscope
+[2024-04-04 00:43:54] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_kdbai-0.1.4.tar.gz tmp/llama_index_vector_stores_kdbai-0.1.5.tar.gz --markdown 20240404/l/llama-index-vector-stores-kdbai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-04 00:43:54] WARNING root fetch - processPackages [databento-dbn]: Timeout reached during download
+[2024-04-04 00:43:54] INFO root fetch - processPackages [databento-dbn]: executing diffoscope
+[2024-04-04 00:43:54] INFO root fetch - processPackages [databento-dbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento_dbn-0.8.3-cp39-none-win_amd64.whl.zip tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip --markdown 20240404/d/databento-dbn/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 00:43:54] INFO root fetch - processPackages [prrr]: Remove: archive file [/home/abi/fetcher/tmp/prrr-0.1.0.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - processPackages [prrr]: Remove: archive file [/home/abi/fetcher/tmp/prrr-0.1.1.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - main [MainThread]: End processing [prrr]: success
+[2024-04-04 00:43:54] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.8.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.9.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - main [MainThread]: End processing [mattsollamatools]: success
+[2024-04-04 00:43:54] INFO root fetch - processPackages [trustauthx]: Remove: archive file [/home/abi/fetcher/tmp/trustauthx-0.7.0.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - processPackages [trustauthx]: Remove: archive file [/home/abi/fetcher/tmp/trustauthx-0.7.1.tar.gz]
+[2024-04-04 00:43:54] INFO root fetch - main [MainThread]: End processing [trustauthx]: success
+[2024-04-04 00:43:55] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.4.tar.gz]
+[2024-04-04 00:43:55] INFO root fetch - processPackages [llama-index-vector-stores-kdbai]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_kdbai-0.1.5.tar.gz]
+[2024-04-04 00:43:55] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-kdbai]: success
+[2024-04-04 00:43:55] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.8.3-cp39-none-win_amd64.whl.zip]
+[2024-04-04 00:43:55] INFO root fetch - processPackages [databento-dbn]: Remove: archive file [/home/abi/fetcher/tmp/databento_dbn-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-04 00:43:55] INFO root fetch - main [MainThread]: End processing [databento-dbn]: success
+[2024-04-04 00:43:55] INFO root fetch - main [MainThread]: Store serial: [22612029]
