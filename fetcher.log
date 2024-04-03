@@ -2338,3 +2338,61 @@
 [2024-04-04 01:32:23] INFO root fetch - processPackages [launchdarkly-api]: Remove: archive file [/home/abi/fetcher/tmp/launchdarkly_api-9.0.1-py2.py3-none-any.whl.zip]
 [2024-04-04 01:32:23] INFO root fetch - main [MainThread]: End processing [launchdarkly-api]: success
 [2024-04-04 01:32:23] INFO root fetch - main [MainThread]: Store serial: [22612412]
+[2024-04-04 01:34:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612412]
+[2024-04-04 01:34:32] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 01:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlo
+[2024-04-04 01:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opyration
+[2024-04-04 01:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: happyrobot
+[2024-04-04 01:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dlib
+[2024-04-04 01:34:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: heaserver
+[2024-04-04 01:34:32] INFO root fetch - processPackages [happyrobot]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 01:34:32] INFO root fetch - processPackages [opyration]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 01:34:32] INFO root fetch - processPackages [chainlo]: New version: [1.1.406] Old Version: [1.1.405]
+[2024-04-04 01:34:32] INFO root fetch - processPackages [dlib]: New version: [19.9.0] Old Version: [19.8.2]
+[2024-04-04 01:34:32] INFO root fetch - processPackages [heaserver]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-04 01:34:32] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/ea/01/2b041050282b7a1ebc5dc35a770466c43526e914cf1318f913f643d58b0e/happyrobot-0.2.4.tar.gz
+[2024-04-04 01:34:32] WARNING root fetch - processPackages [happyrobot]: Timeout reached during download
+[2024-04-04 01:34:32] INFO root fetch - processPackages [dlib]: Downloading https://files.pythonhosted.org/packages/92/7f/7711bf4bb25c7e8ff1c450bf397302d4b75e55abe6de54c75cc05a7b17db/dlib-19.8.2.tar.gz
+[2024-04-04 01:34:32] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/5b/93/a12363a7b3d59dce62a5045863fa2d04bc85d7b89a4b0eb9f2a42200842a/heaserver-1.1.1.tar.gz
+[2024-04-04 01:34:32] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/d9/fb/e21fc2d84138eb150ad1959426eaaaa9ba22baaabdfad206f78b2fa58137/chainlo-1.1.405.tar.gz
+[2024-04-04 01:34:32] INFO root fetch - processPackages [opyration]: Downloading https://files.pythonhosted.org/packages/01/d5/9f0d7b49dd8d73f43c485c48201d24bc843a123d4288eb33e063ef00bde9/opyration-0.1.2.tar.gz
+[2024-04-04 01:34:32] INFO root fetch - processPackages [happyrobot]: Downloading https://files.pythonhosted.org/packages/13/19/a771f53932d3ca334f22e365e848a58ae4f0f6c9e8abfa0466f4fc0a53de/happyrobot-0.2.5.tar.gz
+[2024-04-04 01:34:32] WARNING root fetch - processPackages [heaserver]: Timeout reached during download
+[2024-04-04 01:34:32] WARNING root fetch - processPackages [opyration]: Timeout reached during download
+[2024-04-04 01:34:32] WARNING root fetch - processPackages [happyrobot]: Timeout reached during download
+[2024-04-04 01:34:32] INFO root fetch - processPackages [happyrobot]: executing diffoscope
+[2024-04-04 01:34:32] INFO root fetch - processPackages [happyrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/happyrobot-0.2.4.tar.gz tmp/happyrobot-0.2.5.tar.gz --markdown 20240404/h/happyrobot/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 01:34:32] INFO root fetch - processPackages [opyration]: Downloading https://files.pythonhosted.org/packages/62/d9/e13496ecf8ae135c099efa788abb7329def452685c31f056dee3fcd95642/opyration-0.1.3.tar.gz
+[2024-04-04 01:34:33] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/49/31/89356824b51a12f0062bd1caea4c187f6aa3a2bb748c0538c191f0edd83f/heaserver-1.1.2.tar.gz
+[2024-04-04 01:34:33] WARNING root fetch - processPackages [opyration]: Timeout reached during download
+[2024-04-04 01:34:33] INFO root fetch - processPackages [opyration]: executing diffoscope
+[2024-04-04 01:34:33] INFO root fetch - processPackages [opyration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opyration-0.1.2.tar.gz tmp/opyration-0.1.3.tar.gz --markdown 20240404/o/opyration/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 01:34:33] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.4.tar.gz]
+[2024-04-04 01:34:33] INFO root fetch - processPackages [happyrobot]: Remove: archive file [/home/abi/fetcher/tmp/happyrobot-0.2.5.tar.gz]
+[2024-04-04 01:34:33] INFO root fetch - main [MainThread]: End processing [happyrobot]: success
+[2024-04-04 01:34:33] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 01:34:33] WARNING root fetch - processPackages [dlib]: Timeout reached during download
+[2024-04-04 01:34:33] WARNING root fetch - processPackages [heaserver]: Timeout reached during download
+[2024-04-04 01:34:33] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2024-04-04 01:34:33] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.1.1.tar.gz tmp/heaserver-1.1.2.tar.gz --markdown 20240404/h/heaserver/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-04 01:34:33] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/9f/98/1dbab1d6b378214e89d1d0eda1fa36e6821da1b2d9c648854aebb59b7f7d/chainlo-1.1.406.tar.gz
+[2024-04-04 01:34:33] INFO root fetch - processPackages [dlib]: Downloading https://files.pythonhosted.org/packages/23/7a/891d4c46cdf755fb69eec0f06a53033d3754bf68ace5342ad56aeb540aa1/dlib-19.9.0.tar.gz
+[2024-04-04 01:34:33] INFO root fetch - processPackages [opyration]: Remove: archive file [/home/abi/fetcher/tmp/opyration-0.1.2.tar.gz]
+[2024-04-04 01:34:33] INFO root fetch - processPackages [opyration]: Remove: archive file [/home/abi/fetcher/tmp/opyration-0.1.3.tar.gz]
+[2024-04-04 01:34:33] INFO root fetch - main [MainThread]: End processing [opyration]: success
+[2024-04-04 01:34:33] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 01:34:33] INFO root fetch - processPackages [chainlo]: executing diffoscope
+[2024-04-04 01:34:33] INFO root fetch - processPackages [chainlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlo-1.1.405.tar.gz tmp/chainlo-1.1.406.tar.gz --markdown 20240404/c/chainlo/1.1.405-1.1.406/diff.md --exclude *.pyd
+[2024-04-04 01:34:34] WARNING root fetch - processPackages [dlib]: Timeout reached during download
+[2024-04-04 01:34:34] INFO root fetch - processPackages [dlib]: executing diffoscope
+[2024-04-04 01:34:34] INFO root fetch - processPackages [dlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlib-19.8.2.tar.gz tmp/dlib-19.9.0.tar.gz --markdown 20240404/d/dlib/19.8.2-19.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:34:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.1.1.tar.gz]
+[2024-04-04 01:34:34] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.1.2.tar.gz]
+[2024-04-04 01:34:34] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2024-04-04 01:34:35] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.405.tar.gz]
+[2024-04-04 01:34:35] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.406.tar.gz]
+[2024-04-04 01:34:35] INFO root fetch - main [MainThread]: End processing [chainlo]: success
+[2024-04-04 01:34:40] INFO root fetch - processPackages [dlib]: Remove: archive file [/home/abi/fetcher/tmp/dlib-19.8.2.tar.gz]
+[2024-04-04 01:34:40] INFO root fetch - processPackages [dlib]: Remove: archive file [/home/abi/fetcher/tmp/dlib-19.9.0.tar.gz]
+[2024-04-04 01:34:40] INFO root fetch - main [MainThread]: End processing [dlib]: success
+[2024-04-04 01:34:40] INFO root fetch - main [MainThread]: Store serial: [22612445]
