@@ -1375,3 +1375,44 @@
 [2024-04-04 00:59:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2024-04-04 00:59:21] INFO root fetch - main [MainThread]: End processing [seidart]: success
 [2024-04-04 00:59:21] INFO root fetch - main [MainThread]: Store serial: [22612108]
+[2024-04-04 01:01:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612108]
+[2024-04-04 01:01:29] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: launchflow
+[2024-04-04 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: relenv
+[2024-04-04 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: honeybee-radiance-postprocess
+[2024-04-04 01:01:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adios2
+[2024-04-04 01:01:30] INFO root fetch - processPackages [relenv]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-04 01:01:30] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2024-04-04 01:01:30] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev1] Old Version: [0.3.9.dev0]
+[2024-04-04 01:01:30] INFO root fetch - processPackages [adios2]: New version: [2.9.0] Old Version: [2.10.0.1132]
+[2024-04-04 01:01:30] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2024-04-04 01:01:30] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/ae/81/865f600297545330a2eeb46df8fce98fd210510c5c28a716b3220b2d276a/launchflow-0.3.9.dev0.tar.gz
+[2024-04-04 01:01:30] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/0c/d5/97c45b457073cb4e184305fe8ccdc6d0269f1bfafec501d37d491139a2b0/relenv-0.8.2-py3-none-any.whl
+[2024-04-04 01:01:30] WARNING root fetch - processPackages [honeybee-radiance-postprocess]: Timeout reached during download
+[2024-04-04 01:01:30] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:01:30] INFO root fetch - processPackages [adios2]: Downloading https://files.pythonhosted.org/packages/33/78/55bc230c2e85e4d542e832bcd3a3474c7448255317f35aaade69deee39c8/adios2-2.10.0.1132-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 01:01:30] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2024-04-04 01:01:30] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/67/95/ccf4b3631b5f5cb3429d2dc023e2c7d6e4ece53b45a1c08de15af84a0e30/launchflow-0.3.9.dev1.tar.gz
+[2024-04-04 01:01:30] WARNING root fetch - processPackages [honeybee-radiance-postprocess]: Timeout reached during download
+[2024-04-04 01:01:30] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2024-04-04 01:01:30] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20240404/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2024-04-04 01:01:30] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:01:30] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-04 01:01:30] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev0.tar.gz tmp/launchflow-0.3.9.dev1.tar.gz --markdown 20240404/l/launchflow/0.3.9.dev0-0.3.9.dev1/diff.md --exclude *.pyd
+[2024-04-04 01:01:31] WARNING root fetch - processPackages [relenv]: Timeout reached during download
+[2024-04-04 01:01:31] INFO root fetch - processPackages [relenv]: Downloading https://files.pythonhosted.org/packages/04/91/998d91dcc3df027619800fcef9a4d6de71c3976d23450216e6ebd6055f57/relenv-0.9.0-py3-none-any.whl
+[2024-04-04 01:01:31] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2024-04-04 01:01:31] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2024-04-04 01:01:31] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2024-04-04 01:01:31] WARNING root fetch - processPackages [adios2]: Skipping package: exceeds size limit 11348780>=10485760
+[2024-04-04 01:01:31] INFO root fetch - main [MainThread]: End processing [adios2] error
+[2024-04-04 01:01:31] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev0.tar.gz]
+[2024-04-04 01:01:31] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev1.tar.gz]
+[2024-04-04 01:01:31] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-04 01:01:31] WARNING root fetch - processPackages [relenv]: Timeout reached during download
+[2024-04-04 01:01:31] INFO root fetch - processPackages [relenv]: executing diffoscope
+[2024-04-04 01:01:31] INFO root fetch - processPackages [relenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relenv-0.8.2-py3-none-any.whl.zip tmp/relenv-0.9.0-py3-none-any.whl.zip --markdown 20240404/r/relenv/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:01:32] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.8.2-py3-none-any.whl.zip]
+[2024-04-04 01:01:32] INFO root fetch - processPackages [relenv]: Remove: archive file [/home/abi/fetcher/tmp/relenv-0.9.0-py3-none-any.whl.zip]
+[2024-04-04 01:01:32] INFO root fetch - main [MainThread]: End processing [relenv]: success
+[2024-04-04 01:01:32] INFO root fetch - main [MainThread]: Store serial: [22612119]
