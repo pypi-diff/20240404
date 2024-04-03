@@ -2274,3 +2274,67 @@
 [2024-04-04 01:30:08] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2024-04-04 01:30:08] INFO root fetch - main [MainThread]: End processing [seidart]: success
 [2024-04-04 01:30:08] INFO root fetch - main [MainThread]: Store serial: [22612392]
+[2024-04-04 01:32:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612392]
+[2024-04-04 01:32:17] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tkchart
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-email-package
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: launchflow
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: launchdarkly-api
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pixeltable
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfc
+[2024-04-04 01:32:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: auto-sdk
+[2024-04-04 01:32:17] WARNING root fetch - processPackages [auto-sdk]: Skipping, unable to determine old version
+[2024-04-04 01:32:17] INFO root fetch - main [MainThread]: End processing [auto-sdk] error
+[2024-04-04 01:32:17] WARNING root fetch - processPackages [django-email-package]: Skipping, unable to determine old version
+[2024-04-04 01:32:17] INFO root fetch - main [MainThread]: End processing [django-email-package] error
+[2024-04-04 01:32:17] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev3] Old Version: [0.3.9.dev2]
+[2024-04-04 01:32:17] INFO root fetch - processPackages [tkchart]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-04 01:32:17] INFO root fetch - processPackages [pixeltable]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 01:32:17] INFO root fetch - processPackages [launchdarkly-api]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-04 01:32:17] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/24/df/1b43a9f421fc2f12b8d45fbfd812a9ee308d7c26cd05ced35f4f9c37f1d4/launchflow-0.3.9.dev2.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/39/c3/a3e8b81432e4510fb4549d5665fd586bc03ff42ad2fff4637f2e07c469f6/pixeltable-0.1.1.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [tfc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 01:32:17] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:32:17] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-04 01:32:17] INFO root fetch - processPackages [tkchart]: Downloading https://files.pythonhosted.org/packages/8e/68/05a4d7976ae9ac7811232172356984bb0eeeb877628615c48dbb980451d1/tkchart-2.0.3.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [launchdarkly-api]: Downloading https://files.pythonhosted.org/packages/87/d8/ce229699736582c2294c171f7f1387d64fc42f0fb9a50145362c21dd9710/launchdarkly_api-9.0.0-py2.py3-none-any.whl
+[2024-04-04 01:32:17] WARNING root fetch - processPackages [tkchart]: Timeout reached during download
+[2024-04-04 01:32:17] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/05/30/7abd109e687851917f54864bd362ba0a96db6d11beaeb11cb4c723b16de0/launchflow-0.3.9.dev3.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/c7/09/1f7b9ba1c1f1a2687f11d904d448c7e7af550d9da21cc89f64a5f36d4750/tfc-1.0.8.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [pixeltable]: Downloading https://files.pythonhosted.org/packages/0c/a2/2a7e4331288a9fdb6761b6f099a9855e431af6bfb586750b901d55491724/pixeltable-0.1.2.tar.gz
+[2024-04-04 01:32:17] INFO root fetch - processPackages [tkchart]: Downloading https://files.pythonhosted.org/packages/e8/64/16fc39985452ec7f1ca9e14ecab98ed0f04dade6ee7caf2fb332a9dea1c0/tkchart-2.1.0.tar.gz
+[2024-04-04 01:32:18] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:32:18] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-04 01:32:18] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev2.tar.gz tmp/launchflow-0.3.9.dev3.tar.gz --markdown 20240404/l/launchflow/0.3.9.dev2-0.3.9.dev3/diff.md --exclude *.pyd
+[2024-04-04 01:32:18] WARNING root fetch - processPackages [tkchart]: Timeout reached during download
+[2024-04-04 01:32:18] INFO root fetch - processPackages [tkchart]: executing diffoscope
+[2024-04-04 01:32:18] INFO root fetch - processPackages [tkchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkchart-2.0.3.tar.gz tmp/tkchart-2.1.0.tar.gz --markdown 20240404/t/tkchart/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-04 01:32:18] WARNING root fetch - processPackages [pixeltable]: Timeout reached during download
+[2024-04-04 01:32:18] INFO root fetch - processPackages [pixeltable]: executing diffoscope
+[2024-04-04 01:32:18] INFO root fetch - processPackages [pixeltable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixeltable-0.1.1.tar.gz tmp/pixeltable-0.1.2.tar.gz --markdown 20240404/p/pixeltable/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 01:32:18] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.1.1.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - processPackages [pixeltable]: Remove: archive file [/home/abi/fetcher/tmp/pixeltable-0.1.2.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - main [MainThread]: End processing [pixeltable]: success
+[2024-04-04 01:32:18] WARNING root fetch - processPackages [launchdarkly-api]: Timeout reached during download
+[2024-04-04 01:32:18] INFO root fetch - processPackages [tkchart]: Remove: archive file [/home/abi/fetcher/tmp/tkchart-2.0.3.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - processPackages [tkchart]: Remove: archive file [/home/abi/fetcher/tmp/tkchart-2.1.0.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - main [MainThread]: End processing [tkchart]: success
+[2024-04-04 01:32:18] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev2.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev3.tar.gz]
+[2024-04-04 01:32:18] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-04 01:32:19] INFO root fetch - processPackages [launchdarkly-api]: Downloading https://files.pythonhosted.org/packages/60/ff/0e7af8ea6112be64c6803392bf1a71ac1b355d861a456573db3c4da59e5f/launchdarkly_api-9.0.1-py2.py3-none-any.whl
+[2024-04-04 01:32:19] WARNING root fetch - processPackages [tfc]: Timeout reached during download
+[2024-04-04 01:32:19] INFO root fetch - processPackages [tfc]: Downloading https://files.pythonhosted.org/packages/1f/51/1f2157470513c75e1d1af4c789d342f104d4dc8706f3ef4e8d06c31c4a6b/tfc-1.0.9.tar.gz
+[2024-04-04 01:32:19] WARNING root fetch - processPackages [tfc]: Timeout reached during download
+[2024-04-04 01:32:19] INFO root fetch - processPackages [tfc]: executing diffoscope
+[2024-04-04 01:32:19] INFO root fetch - processPackages [tfc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfc-1.0.8.tar.gz tmp/tfc-1.0.9.tar.gz --markdown 20240404/t/tfc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:32:20] WARNING root fetch - processPackages [launchdarkly-api]: Timeout reached during download
+[2024-04-04 01:32:20] INFO root fetch - processPackages [launchdarkly-api]: executing diffoscope
+[2024-04-04 01:32:20] INFO root fetch - processPackages [launchdarkly-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchdarkly_api-9.0.0-py2.py3-none-any.whl.zip tmp/launchdarkly_api-9.0.1-py2.py3-none-any.whl.zip --markdown 20240404/l/launchdarkly-api/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2024-04-04 01:32:20] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.8.tar.gz]
+[2024-04-04 01:32:20] INFO root fetch - processPackages [tfc]: Remove: archive file [/home/abi/fetcher/tmp/tfc-1.0.9.tar.gz]
+[2024-04-04 01:32:20] INFO root fetch - main [MainThread]: End processing [tfc]: success
+[2024-04-04 01:32:23] INFO root fetch - processPackages [launchdarkly-api]: Remove: archive file [/home/abi/fetcher/tmp/launchdarkly_api-9.0.0-py2.py3-none-any.whl.zip]
+[2024-04-04 01:32:23] INFO root fetch - processPackages [launchdarkly-api]: Remove: archive file [/home/abi/fetcher/tmp/launchdarkly_api-9.0.1-py2.py3-none-any.whl.zip]
+[2024-04-04 01:32:23] INFO root fetch - main [MainThread]: End processing [launchdarkly-api]: success
+[2024-04-04 01:32:23] INFO root fetch - main [MainThread]: Store serial: [22612412]
