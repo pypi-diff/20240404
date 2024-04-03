@@ -1805,3 +1805,28 @@
 [2024-04-04 01:16:53] INFO root fetch - processPackages [pygmtools]: Remove: archive file [/home/abi/fetcher/tmp/pygmtools-0.5.1.tar.gz]
 [2024-04-04 01:16:53] INFO root fetch - main [MainThread]: End processing [pygmtools]: success
 [2024-04-04 01:16:53] INFO root fetch - main [MainThread]: Store serial: [22612259]
+[2024-04-04 01:18:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612259]
+[2024-04-04 01:19:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Tooldelta
+[2024-04-04 01:19:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: launchflow
+[2024-04-04 01:19:02] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev1] Old Version: [0.3.9.dev0]
+[2024-04-04 01:19:02] INFO root fetch - processPackages [Tooldelta]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 01:19:02] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/ae/81/865f600297545330a2eeb46df8fce98fd210510c5c28a716b3220b2d276a/launchflow-0.3.9.dev0.tar.gz
+[2024-04-04 01:19:03] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:19:03] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/bf/9f/8f4537e311933198f7eceb106c2572f9ca5b34c1a6b555df0a84b55517e2/tooldelta-0.4.8.tar.gz
+[2024-04-04 01:19:03] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/67/95/ccf4b3631b5f5cb3429d2dc023e2c7d6e4ece53b45a1c08de15af84a0e30/launchflow-0.3.9.dev1.tar.gz
+[2024-04-04 01:19:03] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:19:03] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:19:03] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-04 01:19:03] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev0.tar.gz tmp/launchflow-0.3.9.dev1.tar.gz --markdown 20240404/l/launchflow/0.3.9.dev0-0.3.9.dev1/diff.md --exclude *.pyd
+[2024-04-04 01:19:03] INFO root fetch - processPackages [Tooldelta]: Downloading https://files.pythonhosted.org/packages/1f/f5/f48e66193791d2a764ce152ec99c43ef19351454731d6fe1b69560abc87f/tooldelta-0.4.9.tar.gz
+[2024-04-04 01:19:03] WARNING root fetch - processPackages [Tooldelta]: Timeout reached during download
+[2024-04-04 01:19:03] INFO root fetch - processPackages [Tooldelta]: executing diffoscope
+[2024-04-04 01:19:03] INFO root fetch - processPackages [Tooldelta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooldelta-0.4.8.tar.gz tmp/tooldelta-0.4.9.tar.gz --markdown 20240404/T/Tooldelta/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 01:19:04] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev0.tar.gz]
+[2024-04-04 01:19:04] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev1.tar.gz]
+[2024-04-04 01:19:04] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-04 01:19:04] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.8.tar.gz]
+[2024-04-04 01:19:04] INFO root fetch - processPackages [Tooldelta]: Remove: archive file [/home/abi/fetcher/tmp/tooldelta-0.4.9.tar.gz]
+[2024-04-04 01:19:04] INFO root fetch - main [MainThread]: End processing [Tooldelta]: success
+[2024-04-04 01:19:04] INFO root fetch - main [MainThread]: Store serial: [22612271]
