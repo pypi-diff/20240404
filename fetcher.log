@@ -2557,3 +2557,81 @@
 [2024-04-04 01:45:33] INFO root fetch - processPackages [smpmgr]: Remove: archive file [/home/abi/fetcher/tmp/smpmgr-0.6.0.tar.gz]
 [2024-04-04 01:45:33] INFO root fetch - main [MainThread]: End processing [smpmgr]: success
 [2024-04-04 01:45:33] INFO root fetch - main [MainThread]: Store serial: [22612504]
+[2024-04-04 01:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612504]
+[2024-04-04 01:47:41] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: siyi-sdk
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getblocks
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: runes-cli
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: runes-cli
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: launchflow
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jb-news
+[2024-04-04 01:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chainlo
+[2024-04-04 01:47:41] INFO root fetch - processPackages [getblocks]: New version: [2024.4.1] Old Version: [2023.7.31]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [launchflow]: New version: [0.3.9.dev4] Old Version: [0.3.9.dev3]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [runes-cli]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [siyi-sdk]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [chainlo]: New version: [1.1.406] Old Version: [1.1.405]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [jb-news]: New version: [2.1.0] Old Version: [2.0.3]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [runes-cli]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-04 01:47:41] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/05/30/7abd109e687851917f54864bd362ba0a96db6d11beaeb11cb4c723b16de0/launchflow-0.3.9.dev3.tar.gz
+[2024-04-04 01:47:41] INFO root fetch - processPackages [siyi-sdk]: Downloading https://files.pythonhosted.org/packages/0f/0e/f2538e63ee87b08ed2eb98c4b72e7afd3581e56c79c8e1ec94a788ed7d31/siyi_sdk-0.2.4.tar.gz
+[2024-04-04 01:47:41] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/80/ea/1d7f4008bf6af4b2d102a54121f03b7b9966b86441af4e092d24b4a69772/runes-cli-0.4.2.tar.gz
+[2024-04-04 01:47:41] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/d9/fb/e21fc2d84138eb150ad1959426eaaaa9ba22baaabdfad206f78b2fa58137/chainlo-1.1.405.tar.gz
+[2024-04-04 01:47:41] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/80/ea/1d7f4008bf6af4b2d102a54121f03b7b9966b86441af4e092d24b4a69772/runes-cli-0.4.2.tar.gz
+[2024-04-04 01:47:41] INFO root fetch - processPackages [getblocks]: Downloading https://files.pythonhosted.org/packages/f8/d9/29cc20f39a902c90195587cc888229ff35e4985beb8a2fc842534b1ed12e/getblocks-2023.7.31.tar.gz
+[2024-04-04 01:47:42] INFO root fetch - processPackages [jb-news]: Downloading https://files.pythonhosted.org/packages/79/6d/e39a07cafdaae7d10bea79626ff95229ad052d7dafac7548d9b6d68d83df/jb_news-2.0.3-py3-none-any.whl
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [runes-cli]: Timeout reached during download
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [getblocks]: Timeout reached during download
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [runes-cli]: Timeout reached during download
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [jb-news]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [launchflow]: Downloading https://files.pythonhosted.org/packages/a5/73/f78f467ee99b28626edf629dd7fbc32e1b1fbb39d5978778dcf5c54c40aa/launchflow-0.3.9.dev4.tar.gz
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/96/f4/7a9fdd8994828de61b30cc4aabffecfa06693acc85dd9907d1c05343d430/runes-cli-0.4.3.tar.gz
+[2024-04-04 01:47:42] INFO root fetch - processPackages [getblocks]: Downloading https://files.pythonhosted.org/packages/e2/4c/622d17d855f9e60f3a0892d4dddc1d47c7041d08d526fa7b77602e3b971e/getblocks-2024.4.1.tar.gz
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: Downloading https://files.pythonhosted.org/packages/96/f4/7a9fdd8994828de61b30cc4aabffecfa06693acc85dd9907d1c05343d430/runes-cli-0.4.3.tar.gz
+[2024-04-04 01:47:42] INFO root fetch - processPackages [jb-news]: Downloading https://files.pythonhosted.org/packages/b5/b3/4c68b7ec994602240d0c837a4d14c46d66ee5e865068f574ccdc95e20405/jb_news-2.1.0-py3-none-any.whl
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [launchflow]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [launchflow]: executing diffoscope
+[2024-04-04 01:47:42] INFO root fetch - processPackages [launchflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/launchflow-0.3.9.dev3.tar.gz tmp/launchflow-0.3.9.dev4.tar.gz --markdown 20240404/l/launchflow/0.3.9.dev3-0.3.9.dev4/diff.md --exclude *.pyd
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [getblocks]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [getblocks]: executing diffoscope
+[2024-04-04 01:47:42] INFO root fetch - processPackages [getblocks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getblocks-2023.7.31.tar.gz tmp/getblocks-2024.4.1.tar.gz --markdown 20240404/g/getblocks/2023.7.31-2024.4.1/diff.md --exclude *.pyd
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [runes-cli]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: executing diffoscope
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-cli-0.4.2.tar.gz tmp/runes-cli-0.4.3.tar.gz --markdown 20240404/r/runes-cli/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [jb-news]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [jb-news]: executing diffoscope
+[2024-04-04 01:47:42] INFO root fetch - processPackages [jb-news]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jb_news-2.0.3-py3-none-any.whl.zip tmp/jb_news-2.1.0-py3-none-any.whl.zip --markdown 20240404/j/jb-news/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [runes-cli]: Timeout reached during download
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: executing diffoscope
+[2024-04-04 01:47:42] INFO root fetch - processPackages [runes-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runes-cli-0.4.2.tar.gz tmp/runes-cli-0.4.3.tar.gz --markdown 20240404/r/runes-cli/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-04 01:47:42] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 01:47:43] WARNING root fetch - processPackages [siyi-sdk]: Timeout reached during download
+[2024-04-04 01:47:43] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/9f/98/1dbab1d6b378214e89d1d0eda1fa36e6821da1b2d9c648854aebb59b7f7d/chainlo-1.1.406.tar.gz
+[2024-04-04 01:47:43] INFO root fetch - processPackages [siyi-sdk]: Downloading https://files.pythonhosted.org/packages/e4/23/6fdd2546ac6ad0a8ae315218da167b8106a8ea09a2f6dca2de14a3cd05f2/siyi_sdk-0.2.5.tar.gz
+[2024-04-04 01:47:43] INFO root fetch - processPackages [getblocks]: Remove: archive file [/home/abi/fetcher/tmp/getblocks-2023.7.31.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - processPackages [getblocks]: Remove: archive file [/home/abi/fetcher/tmp/getblocks-2024.4.1.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - main [MainThread]: End processing [getblocks]: success
+[2024-04-04 01:47:43] INFO root fetch - processPackages [runes-cli]: Remove: archive file [/home/abi/fetcher/tmp/runes-cli-0.4.2.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - processPackages [runes-cli]: Remove: archive file [/home/abi/fetcher/tmp/runes-cli-0.4.3.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - main [MainThread]: End processing [runes-cli]: success
+[2024-04-04 01:47:43] INFO root fetch - main [MainThread]: End processing [runes-cli]: success
+[2024-04-04 01:47:43] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev3.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - processPackages [launchflow]: Remove: archive file [/home/abi/fetcher/tmp/launchflow-0.3.9.dev4.tar.gz]
+[2024-04-04 01:47:43] INFO root fetch - main [MainThread]: End processing [launchflow]: success
+[2024-04-04 01:47:43] INFO root fetch - processPackages [jb-news]: Remove: archive file [/home/abi/fetcher/tmp/jb_news-2.0.3-py3-none-any.whl.zip]
+[2024-04-04 01:47:43] INFO root fetch - processPackages [jb-news]: Remove: archive file [/home/abi/fetcher/tmp/jb_news-2.1.0-py3-none-any.whl.zip]
+[2024-04-04 01:47:43] INFO root fetch - main [MainThread]: End processing [jb-news]: success
+[2024-04-04 01:47:43] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 01:47:43] INFO root fetch - processPackages [chainlo]: executing diffoscope
+[2024-04-04 01:47:43] INFO root fetch - processPackages [chainlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlo-1.1.405.tar.gz tmp/chainlo-1.1.406.tar.gz --markdown 20240404/c/chainlo/1.1.405-1.1.406/diff.md --exclude *.pyd
+[2024-04-04 01:47:44] WARNING root fetch - processPackages [siyi-sdk]: Timeout reached during download
+[2024-04-04 01:47:44] INFO root fetch - processPackages [siyi-sdk]: executing diffoscope
+[2024-04-04 01:47:44] INFO root fetch - processPackages [siyi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siyi_sdk-0.2.4.tar.gz tmp/siyi_sdk-0.2.5.tar.gz --markdown 20240404/s/siyi-sdk/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 01:47:45] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.4.tar.gz]
+[2024-04-04 01:47:45] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.5.tar.gz]
+[2024-04-04 01:47:45] INFO root fetch - main [MainThread]: End processing [siyi-sdk]: success
+[2024-04-04 01:47:45] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.405.tar.gz]
+[2024-04-04 01:47:45] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.406.tar.gz]
+[2024-04-04 01:47:45] INFO root fetch - main [MainThread]: End processing [chainlo]: success
+[2024-04-04 01:47:45] INFO root fetch - main [MainThread]: Store serial: [22612525]
