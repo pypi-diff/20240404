@@ -2396,3 +2396,28 @@
 [2024-04-04 01:34:40] INFO root fetch - processPackages [dlib]: Remove: archive file [/home/abi/fetcher/tmp/dlib-19.9.0.tar.gz]
 [2024-04-04 01:34:40] INFO root fetch - main [MainThread]: End processing [dlib]: success
 [2024-04-04 01:34:40] INFO root fetch - main [MainThread]: Store serial: [22612445]
+[2024-04-04 01:36:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612445]
+[2024-04-04 01:36:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-ports
+[2024-04-04 01:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slipcover
+[2024-04-04 01:36:49] INFO root fetch - processPackages [target-ports]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/f5/dd/2fd139d088ea505736fcce40a4aed281d57ccfd8673fb45e9d9b6779cad9/target-ports-1.0.7.tar.gz
+[2024-04-04 01:36:50] INFO root fetch - processPackages [slipcover]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 01:36:50] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/dc/9b/9b83dde0d20f9bf7ca01b0e9d820cdfc5617c37d6c4a1930075891b1c341/target-ports-1.0.8.tar.gz
+[2024-04-04 01:36:50] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/f6/a1/8516b823e797ef2e738d97bc193cc110ca324cd2cf9f172aca1ade0cd4fa/slipcover-1.0.3.tar.gz
+[2024-04-04 01:36:50] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.7.tar.gz tmp/target-ports-1.0.8.tar.gz --markdown 20240404/t/target-ports/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-04 01:36:50] WARNING root fetch - processPackages [slipcover]: Timeout reached during download
+[2024-04-04 01:36:50] INFO root fetch - processPackages [slipcover]: Downloading https://files.pythonhosted.org/packages/28/7e/e0874923225235382362c1393d3c783982c712397a072c3ba11cc70ca6ba/slipcover-1.0.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 01:36:50] WARNING root fetch - processPackages [slipcover]: Timeout reached during download
+[2024-04-04 01:36:50] INFO root fetch - processPackages [slipcover]: executing diffoscope
+[2024-04-04 01:36:50] INFO root fetch - processPackages [slipcover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slipcover-1.0.3.tar.gz tmp/slipcover-1.0.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240404/s/slipcover/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.7.tar.gz]
+[2024-04-04 01:36:50] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.8.tar.gz]
+[2024-04-04 01:36:50] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 01:36:51] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.3.tar.gz]
+[2024-04-04 01:36:51] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 01:36:51] INFO root fetch - main [MainThread]: End processing [slipcover]: success
+[2024-04-04 01:36:51] INFO root fetch - main [MainThread]: Store serial: [22612456]
