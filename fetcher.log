@@ -1689,3 +1689,44 @@
 [2024-04-04 01:10:18] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
 [2024-04-04 01:10:18] INFO root fetch - main [MainThread]: End processing [seidart]: success
 [2024-04-04 01:10:18] INFO root fetch - main [MainThread]: Store serial: [22612201]
+[2024-04-04 01:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612201]
+[2024-04-04 01:12:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 01:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte
+[2024-04-04 01:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylance
+[2024-04-04 01:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-workflows
+[2024-04-04 01:12:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-dragonfly
+[2024-04-04 01:12:30] INFO root fetch - processPackages [np-workflows]: New version: [1.6.9] Old Version: [1.6.8]
+[2024-04-04 01:12:30] INFO root fetch - processPackages [airbyte]: New version: [0.9.0] Old Version: [0.8.4]
+[2024-04-04 01:12:31] INFO root fetch - processPackages [pylance]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 01:12:31] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-04 01:12:31] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-04 01:12:31] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/79/f0/0fa25095ad07ad1bd48cf6fba3816492415511c013c514a468b3d474f59c/np_workflows-1.6.8.tar.gz
+[2024-04-04 01:12:31] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/df/e7/efb74c945b018c4703636b6208241b70437285a0d8367da60323f5d78563/pylance-0.9.8-cp38-abi3-win_amd64.whl
+[2024-04-04 01:12:31] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/9c/15/0ed18f9974b025648515fd61318dbe0f600528ec50091886c43ef6af06b4/airbyte-0.8.4.tar.gz
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 19067957>=10485760
+[2024-04-04 01:12:31] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [np-workflows]: Timeout reached during download
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [airbyte]: Timeout reached during download
+[2024-04-04 01:12:31] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-04 01:12:31] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/06/cf/9fefa13386840a9fe89e98d160db3058aca5c16b50a0fbcc248f1728cc9d/airbyte-0.9.0.tar.gz
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:12:31] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-04 01:12:31] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240404/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-04 01:12:31] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/22/99/1d9bd467267c7857762e4b9683759e82d21a0e8fc1b3850ae9710f4f7866/np_workflows-1.6.9.tar.gz
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [airbyte]: Timeout reached during download
+[2024-04-04 01:12:31] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-04 01:12:31] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.4.tar.gz tmp/airbyte-0.9.0.tar.gz --markdown 20240404/a/airbyte/0.8.4-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 01:12:31] WARNING root fetch - processPackages [np-workflows]: Timeout reached during download
+[2024-04-04 01:12:31] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2024-04-04 01:12:31] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.6.8.tar.gz tmp/np_workflows-1.6.9.tar.gz --markdown 20240404/n/np-workflows/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2024-04-04 01:12:32] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-04 01:12:32] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.4.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.9.0.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-04 01:12:32] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.8.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - processPackages [np-workflows]: Remove: archive file [/home/abi/fetcher/tmp/np_workflows-1.6.9.tar.gz]
+[2024-04-04 01:12:32] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2024-04-04 01:12:32] INFO root fetch - main [MainThread]: Store serial: [22612212]
