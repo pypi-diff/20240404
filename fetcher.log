@@ -691,3 +691,34 @@
 [2024-04-04 00:22:08] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.7.0.tar.gz]
 [2024-04-04 00:22:08] INFO root fetch - main [MainThread]: End processing [spellbot]: success
 [2024-04-04 00:22:08] INFO root fetch - main [MainThread]: Store serial: [22611857]
+[2024-04-04 00:24:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611857]
+[2024-04-04 00:24:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chombopy
+[2024-04-04 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GofileIOUploader
+[2024-04-04 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: communal
+[2024-04-04 00:24:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: paladium
+[2024-04-04 00:24:17] WARNING root fetch - processPackages [GofileIOUploader]: Skipping, unable to determine old version
+[2024-04-04 00:24:17] INFO root fetch - main [MainThread]: End processing [GofileIOUploader] error
+[2024-04-04 00:24:17] INFO root fetch - processPackages [chombopy]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-04 00:24:17] WARNING root fetch - processPackages [communal]: Skipping, unable to determine old version
+[2024-04-04 00:24:17] INFO root fetch - main [MainThread]: End processing [communal] error
+[2024-04-04 00:24:17] INFO root fetch - processPackages [paladium]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 00:24:17] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/ad/92/938619b3950d3845b21563947d64beb316dcf7977745a4309da144ecd8be/paladium-1.0.4.tar.gz
+[2024-04-04 00:24:17] INFO root fetch - processPackages [chombopy]: Downloading https://files.pythonhosted.org/packages/f1/15/624b05c3af17970c0be0194b73a94c94591ca74ef51ec175970bfe6cf108/chombopy-0.2.1.tar.gz
+[2024-04-04 00:24:17] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:24:17] WARNING root fetch - processPackages [chombopy]: Timeout reached during download
+[2024-04-04 00:24:17] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/29/ef/f51a8a95dbb756e926f06fbe00dda687cf8f55ded00f289a7b99fca3aed9/paladium-1.0.5.tar.gz
+[2024-04-04 00:24:18] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:24:18] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:24:18] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.4.tar.gz tmp/paladium-1.0.5.tar.gz --markdown 20240404/p/paladium/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: Downloading https://files.pythonhosted.org/packages/1e/44/4fc2c4805ea7ece020021359985e4029e3e075bdb820c3f8d0bd56edb9e1/chombopy-1.0.0-py3-none-any.whl
+[2024-04-04 00:24:18] WARNING root fetch - processPackages [chombopy]: Timeout reached during download
+[2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: executing diffoscope
+[2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chombopy-0.2.1.tar.gz tmp/chombopy-1.0.0-py3-none-any.whl.zip --markdown 20240404/c/chombopy/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 00:24:18] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.4.tar.gz]
+[2024-04-04 00:24:18] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.5.tar.gz]
+[2024-04-04 00:24:18] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: Remove: archive file [/home/abi/fetcher/tmp/chombopy-0.2.1.tar.gz]
+[2024-04-04 00:24:18] INFO root fetch - processPackages [chombopy]: Remove: archive file [/home/abi/fetcher/tmp/chombopy-1.0.0-py3-none-any.whl.zip]
+[2024-04-04 00:24:18] INFO root fetch - main [MainThread]: End processing [chombopy]: success
+[2024-04-04 00:24:18] INFO root fetch - main [MainThread]: Store serial: [22611865]
