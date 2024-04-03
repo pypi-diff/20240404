@@ -1340,3 +1340,38 @@
 [2024-04-04 00:57:07] INFO root fetch - processPackages [trufflepig-py]: Remove: archive file [/home/abi/fetcher/tmp/trufflepig-py-0.1.2.tar.gz]
 [2024-04-04 00:57:07] INFO root fetch - main [MainThread]: End processing [trufflepig-py]: success
 [2024-04-04 00:57:07] INFO root fetch - main [MainThread]: Store serial: [22612076]
+[2024-04-04 00:59:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612076]
+[2024-04-04 00:59:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oracle-ads
+[2024-04-04 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluidfft
+[2024-04-04 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jwong-f5-sphinx-theme
+[2024-04-04 00:59:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seidart
+[2024-04-04 00:59:16] WARNING root fetch - processPackages [jwong-f5-sphinx-theme]: Skipping, unable to determine old version
+[2024-04-04 00:59:16] INFO root fetch - main [MainThread]: End processing [jwong-f5-sphinx-theme] error
+[2024-04-04 00:59:16] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:59:16] INFO root fetch - processPackages [oracle-ads]: New version: [2.9.1] Old Version: [2.9.0rc1]
+[2024-04-04 00:59:16] INFO root fetch - processPackages [fluidfft]: New version: [0.4.0rc2] Old Version: [0.4.0rc1]
+[2024-04-04 00:59:16] INFO root fetch - processPackages [fluidfft]: Downloading https://files.pythonhosted.org/packages/cc/5c/f93fc66cb464c47cb9743306248b67ea5c73e74b99472fc43c0f7b6681d8/fluidfft-0.4.0rc1.tar.gz
+[2024-04-04 00:59:16] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:59:16] INFO root fetch - processPackages [oracle-ads]: Downloading https://files.pythonhosted.org/packages/b9/d1/d5c64312eb4a1bbbd260ae938fbb445a6d8173f97a98d34b726340af1f11/oracle_ads-2.9.0rc1-py3-none-any.whl
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [fluidfft]: Timeout reached during download
+[2024-04-04 00:59:17] INFO root fetch - processPackages [fluidfft]: Downloading https://files.pythonhosted.org/packages/e0/4b/902b0281e941e6f064dd68216c8ebac860311aeb909476a262013fa64510/fluidfft-0.4.0rc2.tar.gz
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [oracle-ads]: Timeout reached during download
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [fluidfft]: Timeout reached during download
+[2024-04-04 00:59:17] INFO root fetch - processPackages [fluidfft]: executing diffoscope
+[2024-04-04 00:59:17] INFO root fetch - processPackages [fluidfft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidfft-0.4.0rc1.tar.gz tmp/fluidfft-0.4.0rc2.tar.gz --markdown 20240404/f/fluidfft/0.4.0rc1-0.4.0rc2/diff.md --exclude *.pyd
+[2024-04-04 00:59:17] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:59:17] INFO root fetch - processPackages [oracle-ads]: Downloading https://files.pythonhosted.org/packages/a7/56/034eef9f027a234d6576c0ce17c37b0a666565fec1ad632fcaedc3a5a6d6/oracle_ads-2.9.1.tar.gz
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [oracle-ads]: Skipping package: exceeds size limit 21067719>=10485760
+[2024-04-04 00:59:17] INFO root fetch - main [MainThread]: End processing [oracle-ads] error
+[2024-04-04 00:59:17] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:59:17] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 00:59:17] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:59:18] INFO root fetch - processPackages [fluidfft]: Remove: archive file [/home/abi/fetcher/tmp/fluidfft-0.4.0rc1.tar.gz]
+[2024-04-04 00:59:18] INFO root fetch - processPackages [fluidfft]: Remove: archive file [/home/abi/fetcher/tmp/fluidfft-0.4.0rc2.tar.gz]
+[2024-04-04 00:59:18] INFO root fetch - main [MainThread]: End processing [fluidfft]: success
+[2024-04-04 00:59:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:59:21] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:59:21] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 00:59:21] INFO root fetch - main [MainThread]: Store serial: [22612108]
