@@ -2543,3 +2543,17 @@
 [2024-04-04 01:43:23] INFO root fetch - processPackages [siyi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/siyi_sdk-0.2.4.tar.gz]
 [2024-04-04 01:43:23] INFO root fetch - main [MainThread]: End processing [siyi-sdk]: success
 [2024-04-04 01:43:23] INFO root fetch - main [MainThread]: Store serial: [22612500]
+[2024-04-04 01:45:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612500]
+[2024-04-04 01:45:31] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 01:45:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smpmgr
+[2024-04-04 01:45:32] INFO root fetch - processPackages [smpmgr]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-04 01:45:32] INFO root fetch - processPackages [smpmgr]: Downloading https://files.pythonhosted.org/packages/f7/49/022f7f9206db987047ddf9d1ae87ec81f6f0e689449413bdf414a3b836f5/smpmgr-0.5.0.tar.gz
+[2024-04-04 01:45:32] WARNING root fetch - processPackages [smpmgr]: Timeout reached during download
+[2024-04-04 01:45:32] INFO root fetch - processPackages [smpmgr]: Downloading https://files.pythonhosted.org/packages/a0/32/20555a046da356b1427ccbad802a7c0506f2e0a661923258845952568b9a/smpmgr-0.6.0.tar.gz
+[2024-04-04 01:45:32] WARNING root fetch - processPackages [smpmgr]: Timeout reached during download
+[2024-04-04 01:45:32] INFO root fetch - processPackages [smpmgr]: executing diffoscope
+[2024-04-04 01:45:32] INFO root fetch - processPackages [smpmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smpmgr-0.5.0.tar.gz tmp/smpmgr-0.6.0.tar.gz --markdown 20240404/s/smpmgr/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-04 01:45:33] INFO root fetch - processPackages [smpmgr]: Remove: archive file [/home/abi/fetcher/tmp/smpmgr-0.5.0.tar.gz]
+[2024-04-04 01:45:33] INFO root fetch - processPackages [smpmgr]: Remove: archive file [/home/abi/fetcher/tmp/smpmgr-0.6.0.tar.gz]
+[2024-04-04 01:45:33] INFO root fetch - main [MainThread]: End processing [smpmgr]: success
+[2024-04-04 01:45:33] INFO root fetch - main [MainThread]: Store serial: [22612504]
