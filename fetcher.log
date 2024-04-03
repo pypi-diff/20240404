@@ -2468,3 +2468,28 @@
 [2024-04-04 01:39:01] INFO root fetch - processPackages [ctkchart]: Remove: archive file [/home/abi/fetcher/tmp/ctkchart-2.0.3.tar.gz]
 [2024-04-04 01:39:01] INFO root fetch - main [MainThread]: End processing [ctkchart]: success
 [2024-04-04 01:39:01] INFO root fetch - main [MainThread]: Store serial: [22612478]
+[2024-04-04 01:41:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612478]
+[2024-04-04 01:41:10] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 01:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: target-ports
+[2024-04-04 01:41:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-activity
+[2024-04-04 01:41:10] INFO root fetch - processPackages [target-ports]: New version: [2.0] Old Version: [1.0.9]
+[2024-04-04 01:41:10] INFO root fetch - processPackages [heaserver-activity]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-04 01:41:10] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/4a/0e/3a55c5f29a4edc140807e5c51fac3943a4a5b6df0cee2455174471122f11/target-ports-1.0.9.tar.gz
+[2024-04-04 01:41:10] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:41:10] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/25/26/d093c017e84073e9aafb227dda3e690481427323cf5ee49678996cfb6b95/heaserver-activity-1.0.3.tar.gz
+[2024-04-04 01:41:10] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/ef/f6/49e106c59f77bc5b230e14928488dfe2987eb83312573d45ef96805b7dc9/target-ports-2.0.tar.gz
+[2024-04-04 01:41:10] WARNING root fetch - processPackages [heaserver-activity]: Timeout reached during download
+[2024-04-04 01:41:10] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:41:10] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 01:41:10] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.9.tar.gz tmp/target-ports-2.0.tar.gz --markdown 20240404/t/target-ports/1.0.9-2.0/diff.md --exclude *.pyd
+[2024-04-04 01:41:11] INFO root fetch - processPackages [heaserver-activity]: Downloading https://files.pythonhosted.org/packages/b3/e3/30c1a96cc108e79e5f0251a46f8777141cf5678cb5c748def00de39ebf14/heaserver-activity-1.1.0.tar.gz
+[2024-04-04 01:41:11] WARNING root fetch - processPackages [heaserver-activity]: Timeout reached during download
+[2024-04-04 01:41:11] INFO root fetch - processPackages [heaserver-activity]: executing diffoscope
+[2024-04-04 01:41:11] INFO root fetch - processPackages [heaserver-activity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-activity-1.0.3.tar.gz tmp/heaserver-activity-1.1.0.tar.gz --markdown 20240404/h/heaserver-activity/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 01:41:11] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.9.tar.gz]
+[2024-04-04 01:41:11] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-2.0.tar.gz]
+[2024-04-04 01:41:11] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 01:41:11] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.0.3.tar.gz]
+[2024-04-04 01:41:11] INFO root fetch - processPackages [heaserver-activity]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-activity-1.1.0.tar.gz]
+[2024-04-04 01:41:11] INFO root fetch - main [MainThread]: End processing [heaserver-activity]: success
+[2024-04-04 01:41:11] INFO root fetch - main [MainThread]: Store serial: [22612484]
