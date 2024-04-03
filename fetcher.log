@@ -822,3 +822,61 @@
 [2024-04-04 00:28:39] INFO root fetch - processPackages [danielutils]: Remove: archive file [/home/abi/fetcher/tmp/danielutils-0.9.72.tar.gz]
 [2024-04-04 00:28:39] INFO root fetch - main [MainThread]: End processing [danielutils]: success
 [2024-04-04 00:28:39] INFO root fetch - main [MainThread]: Store serial: [22611897]
+[2024-04-04 00:30:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611897]
+[2024-04-04 00:30:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 00:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powermanim
+[2024-04-04 00:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zibanu-django
+[2024-04-04 00:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-requests-limit
+[2024-04-04 00:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dingman-openapi-server-dev
+[2024-04-04 00:30:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zibanu-django-auth
+[2024-04-04 00:30:47] INFO root fetch - processPackages [fastapi-requests-limit]: New version: [0.1.5b1] Old Version: [0.1.4]
+[2024-04-04 00:30:47] INFO root fetch - processPackages [powermanim]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 00:30:47] INFO root fetch - processPackages [dingman-openapi-server-dev]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 00:30:47] INFO root fetch - processPackages [zibanu-django]: New version: [1.3.5] Old Version: [1.3.4]
+[2024-04-04 00:30:48] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/0a/e0/a22b71c7a082395d67c3fc0251a257b5111b3d7e421ed01a12c627b3eb56/dingman-openapi-server-dev-1.0.8.tar.gz
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django-auth]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-04 00:30:48] INFO root fetch - processPackages [fastapi-requests-limit]: Downloading https://files.pythonhosted.org/packages/b6/60/aa61f050dead2987c3f3c91434fec51386c56d879490eeda9d85085726b1/fastapi-requests-limit-0.1.4.tar.gz
+[2024-04-04 00:30:48] INFO root fetch - processPackages [powermanim]: Downloading https://files.pythonhosted.org/packages/92/9d/da698f27db0bef25021907e19a17a97ec51ff37745609eb5ff480d74db72/powermanim-0.1.1.tar.gz
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [dingman-openapi-server-dev]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/fe/3a/cbe9bb529c5a7ee83231fdbc244ab226c6afff57705fe4910a6e0fadf721/zibanu-django-1.3.4.tar.gz
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [fastapi-requests-limit]: Timeout reached during download
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [powermanim]: Timeout reached during download
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [zibanu-django]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [dingman-openapi-server-dev]: Downloading https://files.pythonhosted.org/packages/e4/c2/a7a9179d9294fd9fc6405f23a2718a8df0fd29cc68a702c76645d487ab33/dingman-openapi-server-dev-1.0.9.tar.gz
+[2024-04-04 00:30:48] INFO root fetch - processPackages [powermanim]: Downloading https://files.pythonhosted.org/packages/22/60/029ad10f8d2725a6cd2abbbcbb30d854aa2ec44dcbca9833ea9a21293ff6/powermanim-0.1.2.tar.gz
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django]: Downloading https://files.pythonhosted.org/packages/57/7f/68102655089a5b26ff479350548214baf0065caebbebe63662b2d68ae677/zibanu-django-1.3.5.tar.gz
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django-auth]: Downloading https://files.pythonhosted.org/packages/47/8a/2b3b4980254bb8df456225dde7e1f5fe5c06df876a47c4d6df7025833906/zibanu-django-auth-1.1.5.tar.gz
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [dingman-openapi-server-dev]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [dingman-openapi-server-dev]: executing diffoscope
+[2024-04-04 00:30:48] INFO root fetch - processPackages [dingman-openapi-server-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingman-openapi-server-dev-1.0.8.tar.gz tmp/dingman-openapi-server-dev-1.0.9.tar.gz --markdown 20240404/d/dingman-openapi-server-dev/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:30:48] INFO root fetch - processPackages [fastapi-requests-limit]: Downloading https://files.pythonhosted.org/packages/92/8b/211ccff81aa1cad450a58d5123e8c747d5cac06b0e47b6dbecb703ea235a/fastapi-requests-limit-0.1.5b1.tar.gz
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [powermanim]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [powermanim]: executing diffoscope
+[2024-04-04 00:30:48] INFO root fetch - processPackages [powermanim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powermanim-0.1.1.tar.gz tmp/powermanim-0.1.2.tar.gz --markdown 20240404/p/powermanim/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [zibanu-django]: Timeout reached during download
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [zibanu-django-auth]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django]: executing diffoscope
+[2024-04-04 00:30:48] INFO root fetch - processPackages [zibanu-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-1.3.4.tar.gz tmp/zibanu-django-1.3.5.tar.gz --markdown 20240404/z/zibanu-django/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2024-04-04 00:30:48] WARNING root fetch - processPackages [fastapi-requests-limit]: Timeout reached during download
+[2024-04-04 00:30:48] INFO root fetch - processPackages [fastapi-requests-limit]: executing diffoscope
+[2024-04-04 00:30:48] INFO root fetch - processPackages [fastapi-requests-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-requests-limit-0.1.4.tar.gz tmp/fastapi-requests-limit-0.1.5b1.tar.gz --markdown 20240404/f/fastapi-requests-limit/0.1.4-0.1.5b1/diff.md --exclude *.pyd
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django-auth]: Downloading https://files.pythonhosted.org/packages/e8/b7/1386633d06dc7d54fef10da37b32477d12c788b908882980e3dedf65b1ce/zibanu-django-auth-1.1.6.tar.gz
+[2024-04-04 00:30:49] WARNING root fetch - processPackages [zibanu-django-auth]: Timeout reached during download
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django-auth]: executing diffoscope
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zibanu-django-auth-1.1.5.tar.gz tmp/zibanu-django-auth-1.1.6.tar.gz --markdown 20240404/z/zibanu-django-auth/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-04 00:30:49] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.8.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - processPackages [dingman-openapi-server-dev]: Remove: archive file [/home/abi/fetcher/tmp/dingman-openapi-server-dev-1.0.9.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - main [MainThread]: End processing [dingman-openapi-server-dev]: success
+[2024-04-04 00:30:49] INFO root fetch - processPackages [powermanim]: Remove: archive file [/home/abi/fetcher/tmp/powermanim-0.1.1.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - processPackages [powermanim]: Remove: archive file [/home/abi/fetcher/tmp/powermanim-0.1.2.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - main [MainThread]: End processing [powermanim]: success
+[2024-04-04 00:30:49] INFO root fetch - processPackages [fastapi-requests-limit]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-requests-limit-0.1.4.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - processPackages [fastapi-requests-limit]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-requests-limit-0.1.5b1.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - main [MainThread]: End processing [fastapi-requests-limit]: success
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-1.3.4.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-1.3.5.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - main [MainThread]: End processing [zibanu-django]: success
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-auth-1.1.5.tar.gz]
+[2024-04-04 00:30:49] INFO root fetch - processPackages [zibanu-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/zibanu-django-auth-1.1.6.tar.gz]
+[2024-04-04 00:30:50] INFO root fetch - main [MainThread]: End processing [zibanu-django-auth]: success
+[2024-04-04 00:30:50] INFO root fetch - main [MainThread]: Store serial: [22611911]
