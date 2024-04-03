@@ -153,3 +153,60 @@
 [2024-04-04 00:04:06] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-04-04 00:04:06] INFO root fetch - main [MainThread]: End processing [wagtail]: success
 [2024-04-04 00:04:06] INFO root fetch - main [MainThread]: Store serial: [22611680]
+[2024-04-04 00:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611680]
+[2024-04-04 00:06:16] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omniduct
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datagov-harvesting-logic
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: paladium
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-cuda12-pjrt
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jax-cuda12-plugin
+[2024-04-04 00:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: target-ports
+[2024-04-04 00:06:16] INFO root fetch - processPackages [omniduct]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [jax-cuda12-plugin]: New version: [0.4.26] Old Version: [0.4.25]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [jax-cuda12-pjrt]: New version: [0.4.26] Old Version: [0.4.25]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [datagov-harvesting-logic]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [paladium]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [target-ports]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 00:06:16] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/07/4b/6170cfd76e25a1235a2537e3b166dfdcfe89482917a4097b153300b13a2a/paladium-1.0.0.tar.gz
+[2024-04-04 00:06:16] INFO root fetch - processPackages [omniduct]: Downloading https://files.pythonhosted.org/packages/ed/66/11aade11e938ac1dfbf6cc43c6b3ebadef30e11496c90d956dfaa19bac77/omniduct-1.2.0.tar.gz
+[2024-04-04 00:06:16] INFO root fetch - processPackages [datagov-harvesting-logic]: Downloading https://files.pythonhosted.org/packages/c9/41/6760949b76a2870b39ddbb96bb45d043559fd48966069436ba9e6733fa3a/datagov_harvesting_logic-0.3.5.tar.gz
+[2024-04-04 00:06:16] INFO root fetch - processPackages [jax-cuda12-plugin]: Downloading https://files.pythonhosted.org/packages/ce/33/61787074dd354253595cc0c308e6b41000806e1d489e15eb0c3e29afe9ab/jax_cuda12_plugin-0.4.25-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-04 00:06:16] INFO root fetch - processPackages [jax-cuda12-pjrt]: Downloading https://files.pythonhosted.org/packages/f0/df/c25762b01c8a80104acba09c61aea58835ac806241c57aed2907ca14d0e5/jax_cuda12_pjrt-0.4.25-py3-none-manylinux2014_x86_64.whl
+[2024-04-04 00:06:16] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [jax-cuda12-plugin]: Skipping package: exceeds size limit 12373397>=10485760
+[2024-04-04 00:06:17] INFO root fetch - main [MainThread]: End processing [jax-cuda12-plugin] error
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [omniduct]: Timeout reached during download
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [datagov-harvesting-logic]: Timeout reached during download
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [jax-cuda12-pjrt]: Skipping package: exceeds size limit 84912549>=10485760
+[2024-04-04 00:06:17] INFO root fetch - main [MainThread]: End processing [jax-cuda12-pjrt] error
+[2024-04-04 00:06:17] INFO root fetch - processPackages [paladium]: Downloading https://files.pythonhosted.org/packages/49/bd/e5f214821329e275d2965ecf658b0f15303348b901986cfae101899ad625/paladium-1.0.1.tar.gz
+[2024-04-04 00:06:17] INFO root fetch - processPackages [omniduct]: Downloading https://files.pythonhosted.org/packages/15/07/d9121d08e8cedf3c53ef9fbe3f6ea603d8ce6d339320c4694d74805850d8/omniduct-1.2.1.tar.gz
+[2024-04-04 00:06:17] INFO root fetch - processPackages [datagov-harvesting-logic]: Downloading https://files.pythonhosted.org/packages/87/ac/3ddb68c17c749076be2c43fe745329a1921e2639acc87acbda44858a61aa/datagov_harvesting_logic-0.3.6.tar.gz
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [paladium]: Timeout reached during download
+[2024-04-04 00:06:17] INFO root fetch - processPackages [paladium]: executing diffoscope
+[2024-04-04 00:06:17] INFO root fetch - processPackages [paladium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paladium-1.0.0.tar.gz tmp/paladium-1.0.1.tar.gz --markdown 20240404/p/paladium/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [omniduct]: Timeout reached during download
+[2024-04-04 00:06:17] INFO root fetch - processPackages [omniduct]: executing diffoscope
+[2024-04-04 00:06:17] INFO root fetch - processPackages [omniduct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniduct-1.2.0.tar.gz tmp/omniduct-1.2.1.tar.gz --markdown 20240404/o/omniduct/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 00:06:17] WARNING root fetch - processPackages [datagov-harvesting-logic]: Timeout reached during download
+[2024-04-04 00:06:17] INFO root fetch - processPackages [datagov-harvesting-logic]: executing diffoscope
+[2024-04-04 00:06:17] INFO root fetch - processPackages [datagov-harvesting-logic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagov_harvesting_logic-0.3.5.tar.gz tmp/datagov_harvesting_logic-0.3.6.tar.gz --markdown 20240404/d/datagov-harvesting-logic/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-04 00:06:18] INFO root fetch - processPackages [datagov-harvesting-logic]: Remove: archive file [/home/abi/fetcher/tmp/datagov_harvesting_logic-0.3.5.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - processPackages [datagov-harvesting-logic]: Remove: archive file [/home/abi/fetcher/tmp/datagov_harvesting_logic-0.3.6.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - main [MainThread]: End processing [datagov-harvesting-logic]: success
+[2024-04-04 00:06:18] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.0.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - processPackages [paladium]: Remove: archive file [/home/abi/fetcher/tmp/paladium-1.0.1.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - main [MainThread]: End processing [paladium]: success
+[2024-04-04 00:06:18] INFO root fetch - processPackages [omniduct]: Remove: archive file [/home/abi/fetcher/tmp/omniduct-1.2.0.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - processPackages [omniduct]: Remove: archive file [/home/abi/fetcher/tmp/omniduct-1.2.1.tar.gz]
+[2024-04-04 00:06:18] INFO root fetch - main [MainThread]: End processing [omniduct]: success
+[2024-04-04 00:06:21] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/ab/72/9f3a103d4ede76adf42a5f30f47752c4e0ab64fd5b9c319907366c87ea88/target-ports-1.0.3.tar.gz
+[2024-04-04 00:06:21] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:06:22] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/48/63/b999a2e220f5300c2db07c203acb11ae4a9d162965658947b34efe9593c3/target-ports-1.0.4.tar.gz
+[2024-04-04 00:06:22] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 00:06:22] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 00:06:22] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.3.tar.gz tmp/target-ports-1.0.4.tar.gz --markdown 20240404/t/target-ports/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 00:06:22] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.3.tar.gz]
+[2024-04-04 00:06:22] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.4.tar.gz]
+[2024-04-04 00:06:22] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 00:06:22] INFO root fetch - main [MainThread]: Store serial: [22611711]
