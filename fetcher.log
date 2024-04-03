@@ -910,3 +910,39 @@
 [2024-04-04 00:32:59] INFO root fetch - processPackages [langchain-groq]: Remove: archive file [/home/abi/fetcher/tmp/langchain_groq-0.1.0.tar.gz]
 [2024-04-04 00:32:59] INFO root fetch - main [MainThread]: End processing [langchain-groq]: success
 [2024-04-04 00:32:59] INFO root fetch - main [MainThread]: Store serial: [22611920]
+[2024-04-04 00:35:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22611920]
+[2024-04-04 00:35:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 00:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pygo-tools
+[2024-04-04 00:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-typer
+[2024-04-04 00:35:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: seidart
+[2024-04-04 00:35:08] INFO root fetch - processPackages [django-typer]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-04 00:35:08] INFO root fetch - processPackages [pygo-tools]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 00:35:08] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 00:35:08] INFO root fetch - processPackages [django-typer]: Downloading https://files.pythonhosted.org/packages/a8/67/78931ad402505f10d7dc4d912967228188d281d78842c8370b1896186516/django_typer-1.0.9.tar.gz
+[2024-04-04 00:35:08] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:35:08] INFO root fetch - processPackages [pygo-tools]: Downloading https://files.pythonhosted.org/packages/e4/a2/bf6cd21baa8a0735668efe2fdda5cdba21fb99096821642caa2b2252310c/pygo-tools-0.1.5.tar.gz
+[2024-04-04 00:35:08] WARNING root fetch - processPackages [django-typer]: Timeout reached during download
+[2024-04-04 00:35:08] WARNING root fetch - processPackages [pygo-tools]: Timeout reached during download
+[2024-04-04 00:35:08] INFO root fetch - processPackages [django-typer]: Downloading https://files.pythonhosted.org/packages/33/25/a8e37d0e2b51dcd1a5b14cbcf5b764392e93723f6453fb4c05139495645b/django_typer-1.1.0.tar.gz
+[2024-04-04 00:35:08] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:35:08] INFO root fetch - processPackages [pygo-tools]: Downloading https://files.pythonhosted.org/packages/c9/a6/f57b4b6df91e873f61595bccc59b6132d9eac35cc65c1d3a169f21fe5214/pygo-tools-0.1.6.tar.gz
+[2024-04-04 00:35:09] WARNING root fetch - processPackages [django-typer]: Timeout reached during download
+[2024-04-04 00:35:09] INFO root fetch - processPackages [django-typer]: executing diffoscope
+[2024-04-04 00:35:09] INFO root fetch - processPackages [django-typer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_typer-1.0.9.tar.gz tmp/django_typer-1.1.0.tar.gz --markdown 20240404/d/django-typer/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 00:35:09] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 00:35:09] WARNING root fetch - processPackages [pygo-tools]: Timeout reached during download
+[2024-04-04 00:35:09] INFO root fetch - processPackages [pygo-tools]: executing diffoscope
+[2024-04-04 00:35:09] INFO root fetch - processPackages [pygo-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygo-tools-0.1.5.tar.gz tmp/pygo-tools-0.1.6.tar.gz --markdown 20240404/p/pygo-tools/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 00:35:09] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 00:35:09] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 00:35:09] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 00:35:09] INFO root fetch - processPackages [pygo-tools]: Remove: archive file [/home/abi/fetcher/tmp/pygo-tools-0.1.5.tar.gz]
+[2024-04-04 00:35:09] INFO root fetch - processPackages [pygo-tools]: Remove: archive file [/home/abi/fetcher/tmp/pygo-tools-0.1.6.tar.gz]
+[2024-04-04 00:35:09] INFO root fetch - main [MainThread]: End processing [pygo-tools]: success
+[2024-04-04 00:35:09] INFO root fetch - processPackages [django-typer]: Remove: archive file [/home/abi/fetcher/tmp/django_typer-1.0.9.tar.gz]
+[2024-04-04 00:35:09] INFO root fetch - processPackages [django-typer]: Remove: archive file [/home/abi/fetcher/tmp/django_typer-1.1.0.tar.gz]
+[2024-04-04 00:35:09] INFO root fetch - main [MainThread]: End processing [django-typer]: success
+[2024-04-04 00:35:12] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:35:12] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 00:35:12] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 00:35:12] INFO root fetch - main [MainThread]: Store serial: [22611928]
