@@ -2421,3 +2421,50 @@
 [2024-04-04 01:36:51] INFO root fetch - processPackages [slipcover]: Remove: archive file [/home/abi/fetcher/tmp/slipcover-1.0.4-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-04 01:36:51] INFO root fetch - main [MainThread]: End processing [slipcover]: success
 [2024-04-04 01:36:51] INFO root fetch - main [MainThread]: Store serial: [22612456]
+[2024-04-04 01:38:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612456]
+[2024-04-04 01:38:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: duckduckgo-search
+[2024-04-04 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: target-ports
+[2024-04-04 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ip2vulns
+[2024-04-04 01:38:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ctkchart
+[2024-04-04 01:38:59] INFO root fetch - processPackages [target-ports]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 01:38:59] INFO root fetch - processPackages [ctkchart]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-04 01:38:59] INFO root fetch - processPackages [duckduckgo-search]: New version: [5.3.0b1] Old Version: [5.2.2]
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ip2vulns]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 01:39:00] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/dc/9b/9b83dde0d20f9bf7ca01b0e9d820cdfc5617c37d6c4a1930075891b1c341/target-ports-1.0.8.tar.gz
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:39:00] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/e2/c3/2e29ab65c54eac77602655a71db029437af8b4da8784d484fc52176a3be6/duckduckgo_search-5.2.2.tar.gz
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ctkchart]: Downloading https://files.pythonhosted.org/packages/e6/24/3a13a919627d234270d7a8ea116f479fde770248abda7cf5e037f3994590/ctkchart-2.0.2.tar.gz
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/80/74/28cd3c6eff483e30f4cd881f4a335b17bc425222567e898902f3bf0b5ccc/ip2vulns-1.0.4.tar.gz
+[2024-04-04 01:39:00] INFO root fetch - processPackages [target-ports]: Downloading https://files.pythonhosted.org/packages/4a/0e/3a55c5f29a4edc140807e5c51fac3943a4a5b6df0cee2455174471122f11/target-ports-1.0.9.tar.gz
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [duckduckgo-search]: Timeout reached during download
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [ctkchart]: Timeout reached during download
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [target-ports]: Timeout reached during download
+[2024-04-04 01:39:00] INFO root fetch - processPackages [target-ports]: executing diffoscope
+[2024-04-04 01:39:00] INFO root fetch - processPackages [target-ports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/target-ports-1.0.8.tar.gz tmp/target-ports-1.0.9.tar.gz --markdown 20240404/t/target-ports/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:39:00] INFO root fetch - processPackages [duckduckgo-search]: Downloading https://files.pythonhosted.org/packages/f7/b4/c93d91819c23c5f6408c36908b94c8830091129eb4c6772e179b48e43199/duckduckgo_search-5.3.0b1.tar.gz
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/0b/71/11254f5cc4d27cc186b4236a93393d5121a80b7fa6f650c72e047547a81d/ip2vulns-1.0.5.tar.gz
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [duckduckgo-search]: Timeout reached during download
+[2024-04-04 01:39:00] INFO root fetch - processPackages [duckduckgo-search]: executing diffoscope
+[2024-04-04 01:39:00] INFO root fetch - processPackages [duckduckgo-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/duckduckgo_search-5.2.2.tar.gz tmp/duckduckgo_search-5.3.0b1.tar.gz --markdown 20240404/d/duckduckgo-search/5.2.2-5.3.0b1/diff.md --exclude *.pyd
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ctkchart]: Downloading https://files.pythonhosted.org/packages/de/ab/91bae4a814a441188d09169f879baadaabe2acb9605071b212ad4dbc33f6/ctkchart-2.0.3.tar.gz
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ip2vulns]: executing diffoscope
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ip2vulns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip2vulns-1.0.4.tar.gz tmp/ip2vulns-1.0.5.tar.gz --markdown 20240404/i/ip2vulns/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 01:39:00] WARNING root fetch - processPackages [ctkchart]: Timeout reached during download
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ctkchart]: executing diffoscope
+[2024-04-04 01:39:00] INFO root fetch - processPackages [ctkchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctkchart-2.0.2.tar.gz tmp/ctkchart-2.0.3.tar.gz --markdown 20240404/c/ctkchart/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-04 01:39:01] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.8.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - processPackages [target-ports]: Remove: archive file [/home/abi/fetcher/tmp/target-ports-1.0.9.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - main [MainThread]: End processing [target-ports]: success
+[2024-04-04 01:39:01] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.4.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.5.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - main [MainThread]: End processing [ip2vulns]: success
+[2024-04-04 01:39:01] INFO root fetch - processPackages [duckduckgo-search]: Remove: archive file [/home/abi/fetcher/tmp/duckduckgo_search-5.2.2.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - processPackages [duckduckgo-search]: Remove: archive file [/home/abi/fetcher/tmp/duckduckgo_search-5.3.0b1.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - main [MainThread]: End processing [duckduckgo-search]: success
+[2024-04-04 01:39:01] INFO root fetch - processPackages [ctkchart]: Remove: archive file [/home/abi/fetcher/tmp/ctkchart-2.0.2.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - processPackages [ctkchart]: Remove: archive file [/home/abi/fetcher/tmp/ctkchart-2.0.3.tar.gz]
+[2024-04-04 01:39:01] INFO root fetch - main [MainThread]: End processing [ctkchart]: success
+[2024-04-04 01:39:01] INFO root fetch - main [MainThread]: Store serial: [22612478]
