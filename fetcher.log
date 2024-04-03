@@ -1617,3 +1617,75 @@
 [2024-04-04 01:08:03] INFO root fetch - processPackages [phospho]: Remove: archive file [/home/abi/fetcher/tmp/phospho-0.3.9.tar.gz]
 [2024-04-04 01:08:03] INFO root fetch - main [MainThread]: End processing [phospho]: success
 [2024-04-04 01:08:03] INFO root fetch - main [MainThread]: Store serial: [22612179]
+[2024-04-04 01:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612179]
+[2024-04-04 01:10:12] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-honeybee
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mattsollamatools
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pykern
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirepo
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hoppie-connector
+[2024-04-04 01:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: seidart
+[2024-04-04 01:10:12] INFO root fetch - processPackages [mattsollamatools]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 01:10:12] INFO root fetch - processPackages [hoppie-connector]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-04 01:10:12] WARNING root fetch - processPackages [sirepo]: Skipping, unable to determine old version
+[2024-04-04 01:10:12] INFO root fetch - main [MainThread]: End processing [sirepo] error
+[2024-04-04 01:10:12] INFO root fetch - processPackages [seidart]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 01:10:12] INFO root fetch - processPackages [pykern]: New version: [20240402.175155] Old Version: [20210607.181612]
+[2024-04-04 01:10:13] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/41/b4/0b90e41f9ec9ebb8de7809f1f542c1038f9e14a65258b0cf172f10136b10/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 01:10:13] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-04 01:10:13] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-04 01:10:13] INFO root fetch - processPackages [pykern]: Downloading https://files.pythonhosted.org/packages/fe/94/e6950145cecf75acf2b805c9bee3c4c4fd6be7f072ab2af1eb6a072a5f1d/pykern-20210607.181612.zip
+[2024-04-04 01:10:13] INFO root fetch - processPackages [hoppie-connector]: Downloading https://files.pythonhosted.org/packages/53/22/da145cc6f489e80a1070c40d9b582b7f7840898c2a3cfe70b68f2bffd659/hoppie-connector-0.0.1.tar.gz
+[2024-04-04 01:10:13] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/65/0b/0ecdd2a0e9d443ada596ac68e9ec8d3c5995575ac1b2a0381720db51ff49/mattsollamatools-0.0.8.tar.gz
+[2024-04-04 01:10:13] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/b5/a0/c6742c4b1a93565a552f073a8cad3689b9e2edcf401d45bd9fddf0485a8d/lbt-honeybee-0.8.98.tar.gz
+[2024-04-04 01:10:13] WARNING root fetch - processPackages [hoppie-connector]: Timeout reached during download
+[2024-04-04 01:10:13] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 01:10:13] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-04 01:10:13] WARNING root fetch - processPackages [lbt-honeybee]: Timeout reached during download
+[2024-04-04 01:10:13] WARNING root fetch - processPackages [pykern]: Timeout reached during download
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [hoppie-connector]: Downloading https://files.pythonhosted.org/packages/3d/88/c529fe8638fc1717b142ff35f966f55cdc86c6eb8397cc1a738d6fb51be8/hoppie-connector-0.1.0.tar.gz
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [mattsollamatools]: Downloading https://files.pythonhosted.org/packages/a7/e0/d0045031e7569aa9abf50ddf3e27f6826973a4970151869beca9ae916a85/mattsollamatools-0.0.9.tar.gz
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/f1/61/4f36e668d3e1767b0f4d921481ad087bec472a2afc14ea20f916e083c690/lbt-honeybee-0.8.99.tar.gz
+[2024-04-04 01:10:14] INFO root fetch - processPackages [pykern]: Downloading https://files.pythonhosted.org/packages/eb/1b/9da5ba5c570c18d8ce19698f8951bbd26e079c3a85acf060a5b6f0677ffe/pykern-20240402.175155.tar.gz
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [hoppie-connector]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [hoppie-connector]: executing diffoscope
+[2024-04-04 01:10:14] INFO root fetch - processPackages [hoppie-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppie-connector-0.0.1.tar.gz tmp/hoppie-connector-0.1.0.tar.gz --markdown 20240404/h/hoppie-connector/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-04 01:10:14] INFO root fetch - processPackages [seidart]: Downloading https://files.pythonhosted.org/packages/11/ff/d5e0f2a44a731aecb77e12ddc51bd89f9f0733eb8f08ba131b387ec3e649/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [mattsollamatools]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [mattsollamatools]: executing diffoscope
+[2024-04-04 01:10:14] INFO root fetch - processPackages [mattsollamatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mattsollamatools-0.0.8.tar.gz tmp/mattsollamatools-0.0.9.tar.gz --markdown 20240404/m/mattsollamatools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [lbt-honeybee]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.8.98.tar.gz tmp/lbt-honeybee-0.8.99.tar.gz --markdown 20240404/l/lbt-honeybee/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-04 01:10:14] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240404/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-04 01:10:14] WARNING root fetch - processPackages [pykern]: Timeout reached during download
+[2024-04-04 01:10:14] INFO root fetch - processPackages [pykern]: executing diffoscope
+[2024-04-04 01:10:14] INFO root fetch - processPackages [pykern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykern-20210607.181612.zip tmp/pykern-20240402.175155.tar.gz --markdown 20240404/p/pykern/20210607.181612-20240402.175155/diff.md --exclude *.pyd
+[2024-04-04 01:10:14] INFO root fetch - processPackages [hoppie-connector]: Remove: archive file [/home/abi/fetcher/tmp/hoppie-connector-0.0.1.tar.gz]
+[2024-04-04 01:10:14] INFO root fetch - processPackages [hoppie-connector]: Remove: archive file [/home/abi/fetcher/tmp/hoppie-connector-0.1.0.tar.gz]
+[2024-04-04 01:10:14] INFO root fetch - main [MainThread]: End processing [hoppie-connector]: success
+[2024-04-04 01:10:14] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.8.tar.gz]
+[2024-04-04 01:10:14] INFO root fetch - processPackages [mattsollamatools]: Remove: archive file [/home/abi/fetcher/tmp/mattsollamatools-0.0.9.tar.gz]
+[2024-04-04 01:10:14] INFO root fetch - main [MainThread]: End processing [mattsollamatools]: success
+[2024-04-04 01:10:15] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-04 01:10:15] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-04 01:10:15] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-04 01:10:15] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.98.tar.gz]
+[2024-04-04 01:10:15] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.8.99.tar.gz]
+[2024-04-04 01:10:15] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2024-04-04 01:10:15] WARNING root fetch - processPackages [seidart]: Timeout reached during download
+[2024-04-04 01:10:15] INFO root fetch - processPackages [seidart]: executing diffoscope
+[2024-04-04 01:10:15] INFO root fetch - processPackages [seidart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip --markdown 20240404/s/seidart/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 01:10:15] INFO root fetch - processPackages [pykern]: Remove: archive file [/home/abi/fetcher/tmp/pykern-20210607.181612.zip]
+[2024-04-04 01:10:15] INFO root fetch - processPackages [pykern]: Remove: archive file [/home/abi/fetcher/tmp/pykern-20240402.175155.tar.gz]
+[2024-04-04 01:10:15] INFO root fetch - main [MainThread]: End processing [pykern]: success
+[2024-04-04 01:10:18] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.8-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 01:10:18] INFO root fetch - processPackages [seidart]: Remove: archive file [/home/abi/fetcher/tmp/seidart-0.0.9-cp311-cp311-manylinux_2_24_x86_64.whl.zip]
+[2024-04-04 01:10:18] INFO root fetch - main [MainThread]: End processing [seidart]: success
+[2024-04-04 01:10:18] INFO root fetch - main [MainThread]: Store serial: [22612201]
