@@ -20185,3 +20185,89 @@
 [2024-04-04 11:48:45] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
 [2024-04-04 11:48:45] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
 [2024-04-04 11:48:45] INFO root fetch - main [MainThread]: Store serial: [22618067]
+[2024-04-04 11:50:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618067]
+[2024-04-04 11:50:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alttester-robotframework-library
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weasel
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-notifications-sdk
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-shopinvader-product-attribute-set
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Temperatur-Nu
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agl-predict-endo-frame
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sed-processor
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-configuration-sdk
+[2024-04-04 11:50:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyquocca
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [alttester-robotframework-library]: Skipping, unable to determine old version
+[2024-04-04 11:50:56] INFO root fetch - main [MainThread]: End processing [alttester-robotframework-library] error
+[2024-04-04 11:50:56] INFO root fetch - processPackages [weasel]: New version: [0.4.0] Old Version: [0.3.4]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [sed-processor]: New version: [0.1.9a7] Old Version: [0.1.9a6]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [Temperatur-Nu]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [pyquocca]: Skipping, unable to determine old version
+[2024-04-04 11:50:56] INFO root fetch - main [MainThread]: End processing [pyquocca] error
+[2024-04-04 11:50:56] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: New version: [16.0.1.0.2] Old Version: [16.0.1.0.1]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [lusid-notifications-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [lusid-configuration-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [agl-predict-endo-frame]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-04 11:50:56] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/71/d6/1754e9ab61eb592a10d986b046ac46369d161a40c5957c5b3b590a81c7a3/Temperatur_Nu-0.0.2.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/a3/15/5be22cbde3fa1704da51951bb0b3dcdf33a7930449e156440e518df11391/weasel-0.3.4.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/48/ab/390618dd544367ca15f23aa52fc87456b0ca2b90d81b4805252039010b14/sed_processor-0.1.9a6.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/78/d3/fc52fa0f029e39caf624927f9d1a47f8cbcd7c9bf96cd1e8dffa7c921e6c/lusid_notifications_sdk-2.0.8.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/b8/4b/4c5548434d94c9340a0bacdb82ef120c2378dff32d697f2e3f32a3b63f0f/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.1-py3-none-any.whl
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [weasel]: Timeout reached during download
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [sed-processor]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [agl-predict-endo-frame]: Downloading https://files.pythonhosted.org/packages/6c/a2/e55844ada21f2ac8ade4aead6105c7b11695e38f53acb779a426c3bc2157/agl_predict_endo_frame-0.2.0.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/8f/22/0045e973bab4673f2017805f67f323b7e532681a3b41792255add442c4e8/lusid_configuration_sdk-2.0.8.tar.gz
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Timeout reached during download
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [lusid-notifications-sdk]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/35/a2/e17884a7b24ce1c7f5b10f9128a1ad856e23c8d82af42460d5f142796ea0/Temperatur_Nu-0.0.3.tar.gz
+[2024-04-04 11:50:56] INFO root fetch - processPackages [weasel]: Downloading https://files.pythonhosted.org/packages/0f/80/5f2c61ee8ad8e81008570a8ef30be5e5be646db303bf22bb132c3d09bc75/weasel-0.4.0.tar.gz
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [agl-predict-endo-frame]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/87/3d/46f05a827162ec042dcd0c89c2248c3ce48cb5f21a3dfa818abd146f2b85/sed_processor-0.1.9a7.tar.gz
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [lusid-configuration-sdk]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/f6/ae/d030923012b6de4c579efe93dae00cbf91a3776f222e8a34b6ce466a2d09/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.2-py3-none-any.whl
+[2024-04-04 11:50:56] INFO root fetch - processPackages [agl-predict-endo-frame]: Downloading https://files.pythonhosted.org/packages/62/12/ad522210bb178220162c8a69e0483656e9d6f19a7b86b805f95ea2688dc5/agl_predict_endo_frame-0.2.1.tar.gz
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [sed-processor]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [sed-processor]: executing diffoscope
+[2024-04-04 11:50:56] INFO root fetch - processPackages [sed-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sed_processor-0.1.9a6.tar.gz tmp/sed_processor-0.1.9a7.tar.gz --markdown 20240404/s/sed-processor/0.1.9a6-0.1.9a7/diff.md --exclude *.pyd
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [Temperatur-Nu]: executing diffoscope
+[2024-04-04 11:50:56] INFO root fetch - processPackages [Temperatur-Nu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Temperatur_Nu-0.0.2.tar.gz tmp/Temperatur_Nu-0.0.3.tar.gz --markdown 20240404/T/Temperatur-Nu/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 11:50:56] INFO root fetch - processPackages [lusid-notifications-sdk]: Downloading https://files.pythonhosted.org/packages/43/62/52639d308b6a1c8684d39338ac1ad3d73e4bb7a323f35bbc01d9d9a371f2/lusid_notifications_sdk-2.0.9.tar.gz
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [weasel]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [weasel]: executing diffoscope
+[2024-04-04 11:50:56] INFO root fetch - processPackages [weasel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weasel-0.3.4.tar.gz tmp/weasel-0.4.0.tar.gz --markdown 20240404/w/weasel/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 11:50:56] WARNING root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Timeout reached during download
+[2024-04-04 11:50:56] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: executing diffoscope
+[2024-04-04 11:50:56] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-shopinvader-product-attribute-set/16.0.1.0.1-16.0.1.0.2/diff.md --exclude *.pyd
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-configuration-sdk]: Downloading https://files.pythonhosted.org/packages/6b/d2/ad0a9fa026223f6232513acbac0d8e3064c06cd56990b2040fed3e504c90/lusid_configuration_sdk-2.0.9.tar.gz
+[2024-04-04 11:50:57] WARNING root fetch - processPackages [lusid-notifications-sdk]: Timeout reached during download
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-notifications-sdk]: executing diffoscope
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-notifications-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_notifications_sdk-2.0.8.tar.gz tmp/lusid_notifications_sdk-2.0.9.tar.gz --markdown 20240404/l/lusid-notifications-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 11:50:57] WARNING root fetch - processPackages [agl-predict-endo-frame]: Timeout reached during download
+[2024-04-04 11:50:57] INFO root fetch - processPackages [agl-predict-endo-frame]: executing diffoscope
+[2024-04-04 11:50:57] INFO root fetch - processPackages [agl-predict-endo-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agl_predict_endo_frame-0.2.0.tar.gz tmp/agl_predict_endo_frame-0.2.1.tar.gz --markdown 20240404/a/agl-predict-endo-frame/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-04 11:50:57] WARNING root fetch - processPackages [lusid-configuration-sdk]: Timeout reached during download
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-configuration-sdk]: executing diffoscope
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-configuration-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_configuration_sdk-2.0.8.tar.gz tmp/lusid_configuration_sdk-2.0.9.tar.gz --markdown 20240404/l/lusid-configuration-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 11:50:57] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.2.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.3.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu]: success
+[2024-04-04 11:50:57] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.3.4.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [weasel]: Remove: archive file [/home/abi/fetcher/tmp/weasel-0.4.0.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [weasel]: success
+[2024-04-04 11:50:57] INFO root fetch - processPackages [agl-predict-endo-frame]: Remove: archive file [/home/abi/fetcher/tmp/agl_predict_endo_frame-0.2.0.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [agl-predict-endo-frame]: Remove: archive file [/home/abi/fetcher/tmp/agl_predict_endo_frame-0.2.1.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [odoo-addon-shopinvader-product-attribute-set]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shopinvader_product_attribute_set-16.0.1.0.2-py3-none-any.whl.zip]
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [agl-predict-endo-frame]: success
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [odoo-addon-shopinvader-product-attribute-set]: success
+[2024-04-04 11:50:57] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a6.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a7.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [sed-processor]: success
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.0.8.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - processPackages [lusid-notifications-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk-2.0.9.tar.gz]
+[2024-04-04 11:50:57] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk]: success
+[2024-04-04 11:50:58] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.0.8.tar.gz]
+[2024-04-04 11:50:58] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.0.9.tar.gz]
+[2024-04-04 11:50:58] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk]: success
+[2024-04-04 11:50:58] INFO root fetch - main [MainThread]: Store serial: [22618095]
