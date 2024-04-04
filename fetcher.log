@@ -18961,3 +18961,42 @@
 [2024-04-04 11:16:12] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
 [2024-04-04 11:16:12] INFO root fetch - main [MainThread]: End processing [webknossos]: success
 [2024-04-04 11:16:12] INFO root fetch - main [MainThread]: Store serial: [22617605]
+[2024-04-04 11:18:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617605]
+[2024-04-04 11:18:23] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: path
+[2024-04-04 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: effector
+[2024-04-04 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Temperatur-Nu
+[2024-04-04 11:18:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gpt-researcher
+[2024-04-04 11:18:23] INFO root fetch - processPackages [path]: New version: [16.9.0] Old Version: [16.8.0]
+[2024-04-04 11:18:23] INFO root fetch - processPackages [effector]: New version: [0.0.270] Old Version: [0.0.269]
+[2024-04-04 11:18:23] WARNING root fetch - processPackages [Temperatur-Nu]: Skipping, unable to determine old version
+[2024-04-04 11:18:23] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu] error
+[2024-04-04 11:18:23] INFO root fetch - processPackages [gpt-researcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 11:18:24] INFO root fetch - processPackages [effector]: Downloading https://files.pythonhosted.org/packages/76/5d/3f8bf03b626fed603eadec4a37645ec8ccad03047a5c51bbff9f15716d42/effector-0.0.269.tar.gz
+[2024-04-04 11:18:24] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/75/8b/2add7d5e1c1ba1a96562a97731209b203de0e84d788e566262a2df473712/path-16.8.0.tar.gz
+[2024-04-04 11:18:24] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/9f/09/e55da61359a3a923721c8b7dead12ac92c25bfd40fefc4e2588b07cb1d12/gpt-researcher-0.1.0.tar.gz
+[2024-04-04 11:18:24] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 11:18:24] WARNING root fetch - processPackages [gpt-researcher]: Timeout reached during download
+[2024-04-04 11:18:24] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/1e/3a/730d381a3d6e76764118c7d64d4a259654848326030607356797d816d2f7/gpt-researcher-0.2.0.tar.gz
+[2024-04-04 11:18:25] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/8d/50/2a1a3287715c87d135dd1dcbd9f7bca4200302cfcc8c28ced1a8035d7894/path-16.9.0.tar.gz
+[2024-04-04 11:18:25] WARNING root fetch - processPackages [gpt-researcher]: Timeout reached during download
+[2024-04-04 11:18:25] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-04-04 11:18:25] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.1.0.tar.gz tmp/gpt-researcher-0.2.0.tar.gz --markdown 20240404/g/gpt-researcher/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 11:18:25] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 11:18:25] INFO root fetch - processPackages [path]: executing diffoscope
+[2024-04-04 11:18:25] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.8.0.tar.gz tmp/path-16.9.0.tar.gz --markdown 20240404/p/path/16.8.0-16.9.0/diff.md --exclude *.pyd
+[2024-04-04 11:18:25] WARNING root fetch - processPackages [effector]: Timeout reached during download
+[2024-04-04 11:18:26] INFO root fetch - processPackages [effector]: Downloading https://files.pythonhosted.org/packages/69/af/ceced709553048da34290493377f4d1adc7f83d395078502af0b5cdb0586/effector-0.0.270.tar.gz
+[2024-04-04 11:18:26] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.1.0.tar.gz]
+[2024-04-04 11:18:26] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.0.tar.gz]
+[2024-04-04 11:18:26] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-04-04 11:18:26] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.8.0.tar.gz]
+[2024-04-04 11:18:26] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
+[2024-04-04 11:18:26] INFO root fetch - main [MainThread]: End processing [path]: success
+[2024-04-04 11:18:27] WARNING root fetch - processPackages [effector]: Timeout reached during download
+[2024-04-04 11:18:27] INFO root fetch - processPackages [effector]: executing diffoscope
+[2024-04-04 11:18:27] INFO root fetch - processPackages [effector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effector-0.0.269.tar.gz tmp/effector-0.0.270.tar.gz --markdown 20240404/e/effector/0.0.269-0.0.270/diff.md --exclude *.pyd
+[2024-04-04 11:18:29] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.269.tar.gz]
+[2024-04-04 11:18:29] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.270.tar.gz]
+[2024-04-04 11:18:29] INFO root fetch - main [MainThread]: End processing [effector]: success
+[2024-04-04 11:18:29] INFO root fetch - main [MainThread]: Store serial: [22617616]
