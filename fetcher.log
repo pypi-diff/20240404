@@ -9528,3 +9528,61 @@
 [2024-04-04 03:39:54] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.1.1.tar.gz]
 [2024-04-04 03:39:54] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
 [2024-04-04 03:39:54] INFO root fetch - main [MainThread]: Store serial: [22614568]
+[2024-04-04 03:41:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614568]
+[2024-04-04 03:42:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 03:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pylogg
+[2024-04-04 03:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fmcapi
+[2024-04-04 03:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-04 03:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llama-index-vector-stores-qdrant
+[2024-04-04 03:42:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: confluentfucci
+[2024-04-04 03:42:03] INFO root fetch - processPackages [pylogg]: New version: [0.1.27] Old Version: [0.1.26]
+[2024-04-04 03:42:03] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 03:42:03] INFO root fetch - processPackages [confluentfucci]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 03:42:03] INFO root fetch - processPackages [fmcapi]: New version: [20240404.0] Old Version: [20240328.0]
+[2024-04-04 03:42:03] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 03:42:03] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/82/48/8fecc3dadc01aafe6948643e818b739a4ca9824d00d427663b3499dd7369/pylogg-0.1.26.tar.gz
+[2024-04-04 03:42:04] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/28/ea/caee98b0a6a879c58922a7d4643e6d18c60f77fb62147e860081e5f3501f/llama_index_vector_stores_qdrant-0.1.5.tar.gz
+[2024-04-04 03:42:04] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/ac/b6/dd3a14f2eed957bbb74562a0d58adf6a4e7f069a2dab78b8b6e424ad66ca/confluentfucci-1.0.4.tar.gz
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/2c/7c/7b6baeba0e7c953d82d431bfdb81301b0c073f5c4d28758818ae2195d92b/fmcapi-20240328.0.tar.gz
+[2024-04-04 03:42:04] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 03:42:04] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [fmcapi]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/46/4e/8875a495bad20000ffb6b17b17efa4dd4d74f1274feacb9a7de1825ed1d8/pylogg-0.1.27.tar.gz
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [llama-index-vector-stores-qdrant]: Timeout reached during download
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [pylogg]: executing diffoscope
+[2024-04-04 03:42:04] INFO root fetch - processPackages [pylogg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogg-0.1.26.tar.gz tmp/pylogg-0.1.27.tar.gz --markdown 20240404/p/pylogg/0.1.26-0.1.27/diff.md --exclude *.pyd
+[2024-04-04 03:42:04] INFO root fetch - processPackages [fmcapi]: Downloading https://files.pythonhosted.org/packages/27/13/799a6b50c1e91ecc6190056aad38efc674dd4b7027733b0125df988f7ef6/fmcapi-20240404.0.tar.gz
+[2024-04-04 03:42:04] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Downloading https://files.pythonhosted.org/packages/2d/4d/6ee52da83b9d173caf61e1bbc0c8527679b8af8a2ae64f29ebbb062ea236/llama_index_vector_stores_qdrant-0.1.6.tar.gz
+[2024-04-04 03:42:04] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/f3/6d/d630662e4682fd3a41484fe4b1d79159c357af77c5180ae3c6087031fc21/confluentfucci-1.0.5.tar.gz
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [fmcapi]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [fmcapi]: executing diffoscope
+[2024-04-04 03:42:04] INFO root fetch - processPackages [fmcapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmcapi-20240328.0.tar.gz tmp/fmcapi-20240404.0.tar.gz --markdown 20240404/f/fmcapi/20240328.0-20240404.0/diff.md --exclude *.pyd
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [llama-index-vector-stores-qdrant]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: executing diffoscope
+[2024-04-04 03:42:04] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index_vector_stores_qdrant-0.1.5.tar.gz tmp/llama_index_vector_stores_qdrant-0.1.6.tar.gz --markdown 20240404/l/llama-index-vector-stores-qdrant/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 03:42:04] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-04 03:42:04] INFO root fetch - processPackages [confluentfucci]: executing diffoscope
+[2024-04-04 03:42:04] INFO root fetch - processPackages [confluentfucci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluentfucci-1.0.4.tar.gz tmp/confluentfucci-1.0.5.tar.gz --markdown 20240404/c/confluentfucci/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 03:42:05] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.26.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.27.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [pylogg]: success
+[2024-04-04 03:42:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 03:42:05] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.4.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.5.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [confluentfucci]: success
+[2024-04-04 03:42:05] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.1.5.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - processPackages [llama-index-vector-stores-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_vector_stores_qdrant-0.1.6.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [llama-index-vector-stores-qdrant]: success
+[2024-04-04 03:42:05] INFO root fetch - processPackages [fmcapi]: Remove: archive file [/home/abi/fetcher/tmp/fmcapi-20240328.0.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - processPackages [fmcapi]: Remove: archive file [/home/abi/fetcher/tmp/fmcapi-20240404.0.tar.gz]
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [fmcapi]: success
+[2024-04-04 03:42:05] INFO root fetch - main [MainThread]: Store serial: [22614583]
