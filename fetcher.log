@@ -23190,3 +23190,53 @@
 [2024-04-04 13:40:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.9.tar.gz]
 [2024-04-04 13:40:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-04 13:40:25] INFO root fetch - main [MainThread]: Store serial: [22619178]
+[2024-04-04 13:42:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619178]
+[2024-04-04 13:42:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windowsregistry
+[2024-04-04 13:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cam-utils
+[2024-04-04 13:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lscsde-workspace-mgmt
+[2024-04-04 13:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-serializable
+[2024-04-04 13:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftw.contentstats
+[2024-04-04 13:42:36] INFO root fetch - processPackages [lscsde-workspace-mgmt]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [windowsregistry]: Skipping, unable to determine old version
+[2024-04-04 13:42:36] INFO root fetch - main [MainThread]: End processing [windowsregistry] error
+[2024-04-04 13:42:36] INFO root fetch - processPackages [cam-utils]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 13:42:36] INFO root fetch - processPackages [py-serializable]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 13:42:36] INFO root fetch - processPackages [ftw.contentstats]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-04 13:42:36] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/66/c6/009cb525e31ebaa81e4b43f1d4cf0c0c799144a03aa6905c5f3989654ee7/cam_utils-0.2.4.tar.gz
+[2024-04-04 13:42:36] INFO root fetch - processPackages [py-serializable]: Downloading https://files.pythonhosted.org/packages/32/61/136273e08c263e97ad1cb551844553c8053d8ad8817b83da7372009bc1c9/py_serializable-1.0.1.tar.gz
+[2024-04-04 13:42:36] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Downloading https://files.pythonhosted.org/packages/dc/3c/2737d25ff036b1b1484761239e95e01f0b66100781fe93c7c9c01f09fbed/lscsde_workspace_mgmt-0.1.2.tar.gz
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [cam-utils]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [ftw.contentstats]: Downloading https://files.pythonhosted.org/packages/14/14/12afcbf4138c2187fea97a6fbd30100add858172b7a0c654cc19479e42e2/ftw.contentstats-1.3.0.tar.gz
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [lscsde-workspace-mgmt]: Timeout reached during download
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [py-serializable]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [cam-utils]: Downloading https://files.pythonhosted.org/packages/4f/c3/5969a70da7e248693ddb132a8e852fdfd1115d1500752cf47de02cd17e9c/cam_utils-0.2.5.tar.gz
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [ftw.contentstats]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Downloading https://files.pythonhosted.org/packages/e6/01/10c1e77d2eafc3e6b324cba29ec64e57deaab2f8099c121a96276a70a468/lscsde_workspace_mgmt-0.1.3.tar.gz
+[2024-04-04 13:42:36] INFO root fetch - processPackages [py-serializable]: Downloading https://files.pythonhosted.org/packages/15/15/464be3feba255f4ae9202898f450a000f7b4156079e61aebde70f413e2d1/py_serializable-1.0.2.tar.gz
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [cam-utils]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [cam-utils]: executing diffoscope
+[2024-04-04 13:42:36] INFO root fetch - processPackages [cam-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cam_utils-0.2.4.tar.gz tmp/cam_utils-0.2.5.tar.gz --markdown 20240404/c/cam-utils/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [py-serializable]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [py-serializable]: executing diffoscope
+[2024-04-04 13:42:36] INFO root fetch - processPackages [py-serializable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_serializable-1.0.1.tar.gz tmp/py_serializable-1.0.2.tar.gz --markdown 20240404/p/py-serializable/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 13:42:36] WARNING root fetch - processPackages [lscsde-workspace-mgmt]: Timeout reached during download
+[2024-04-04 13:42:36] INFO root fetch - processPackages [lscsde-workspace-mgmt]: executing diffoscope
+[2024-04-04 13:42:36] INFO root fetch - processPackages [lscsde-workspace-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lscsde_workspace_mgmt-0.1.2.tar.gz tmp/lscsde_workspace_mgmt-0.1.3.tar.gz --markdown 20240404/l/lscsde-workspace-mgmt/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 13:42:36] INFO root fetch - processPackages [ftw.contentstats]: Downloading https://files.pythonhosted.org/packages/09/da/15978e3b4f569ca99502a6c0335471924cd187749e7f218056ba3cf706a8/ftw.contentstats-1.4.0.tar.gz
+[2024-04-04 13:42:37] WARNING root fetch - processPackages [ftw.contentstats]: Timeout reached during download
+[2024-04-04 13:42:37] INFO root fetch - processPackages [ftw.contentstats]: executing diffoscope
+[2024-04-04 13:42:37] INFO root fetch - processPackages [ftw.contentstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.contentstats-1.3.0.tar.gz tmp/ftw.contentstats-1.4.0.tar.gz --markdown 20240404/f/ftw.contentstats/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-04 13:42:37] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.4.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - processPackages [cam-utils]: Remove: archive file [/home/abi/fetcher/tmp/cam_utils-0.2.5.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - main [MainThread]: End processing [cam-utils]: success
+[2024-04-04 13:42:37] INFO root fetch - processPackages [py-serializable]: Remove: archive file [/home/abi/fetcher/tmp/py_serializable-1.0.1.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - processPackages [py-serializable]: Remove: archive file [/home/abi/fetcher/tmp/py_serializable-1.0.2.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - main [MainThread]: End processing [py-serializable]: success
+[2024-04-04 13:42:37] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/lscsde_workspace_mgmt-0.1.2.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - processPackages [lscsde-workspace-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/lscsde_workspace_mgmt-0.1.3.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - main [MainThread]: End processing [lscsde-workspace-mgmt]: success
+[2024-04-04 13:42:37] INFO root fetch - processPackages [ftw.contentstats]: Remove: archive file [/home/abi/fetcher/tmp/ftw.contentstats-1.3.0.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - processPackages [ftw.contentstats]: Remove: archive file [/home/abi/fetcher/tmp/ftw.contentstats-1.4.0.tar.gz]
+[2024-04-04 13:42:37] INFO root fetch - main [MainThread]: End processing [ftw.contentstats]: success
+[2024-04-04 13:42:37] INFO root fetch - main [MainThread]: Store serial: [22619193]
