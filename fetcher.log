@@ -21109,3 +21109,64 @@
 [2024-04-04 12:24:40] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-0.7.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-04 12:24:40] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
 [2024-04-04 12:24:40] INFO root fetch - main [MainThread]: Store serial: [22618381]
+[2024-04-04 12:26:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618381]
+[2024-04-04 12:27:01] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icutil-IGNchinmay
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphractal
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scmodels
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Temperatur-Nu
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CureQ
+[2024-04-04 12:27:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyquocca
+[2024-04-04 12:27:01] INFO root fetch - processPackages [scmodels]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-04 12:27:01] INFO root fetch - processPackages [CureQ]: New version: [0.1.0] Old Version: [0.0.6]
+[2024-04-04 12:27:01] WARNING root fetch - processPackages [icutil-IGNchinmay]: Skipping, unable to determine old version
+[2024-04-04 12:27:01] INFO root fetch - main [MainThread]: End processing [icutil-IGNchinmay] error
+[2024-04-04 12:27:01] INFO root fetch - processPackages [Temperatur-Nu]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 12:27:01] INFO root fetch - processPackages [pyquocca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 12:27:01] INFO root fetch - processPackages [sphractal]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-04 12:27:01] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/a9/12/e60a7e433c965615f59f5646163d1c571ef575adb4856e91827d1309cfab/Temperatur_Nu-0.0.4.tar.gz
+[2024-04-04 12:27:01] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-04 12:27:01] INFO root fetch - processPackages [scmodels]: Downloading https://files.pythonhosted.org/packages/9c/d8/a99aacc53a94db522052f3177613f424eeb651e4f0b82b139acf02e8552c/scmodels-0.3.1.tar.gz
+[2024-04-04 12:27:01] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/5d/7c/888a19bbb3f6be12991915afd694bbcee8f7b0929ecdf2cffc5c0e4ffae7/CureQ-0.0.6.tar.gz
+[2024-04-04 12:27:02] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/02/dc/9ed56cc3514021e4192803ea59404d641da98ac4810472bed56266e9d155/sphractal-1.1.1.tar.gz
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [scmodels]: Timeout reached during download
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [CureQ]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/1a/b7/7e85651fd51706077d6c730c7f436fcb27d895efabd6ac28145499fb95b4/Temperatur_Nu-0.0.5.tar.gz
+[2024-04-04 12:27:02] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/14/91/ed05b4a616e1d9c0b20ad8d5ad80c7c832df545d142d03d9d7c56970298d/pyquocca-0.0.9.tar.gz
+[2024-04-04 12:27:02] INFO root fetch - processPackages [scmodels]: Downloading https://files.pythonhosted.org/packages/ec/2f/6013784299e7dc7826a59e39973ae615ef557bed65fdffe3dd759bf05c83/scmodels-0.3.2.tar.gz
+[2024-04-04 12:27:02] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/13/70/d93fb62f8d2c8618d9193054468911ddf2b62955052890869e1b497c86b9/CureQ-0.1.0.tar.gz
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [sphractal]: Timeout reached during download
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [Temperatur-Nu]: executing diffoscope
+[2024-04-04 12:27:02] INFO root fetch - processPackages [Temperatur-Nu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Temperatur_Nu-0.0.4.tar.gz tmp/Temperatur_Nu-0.0.5.tar.gz --markdown 20240404/T/Temperatur-Nu/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-04 12:27:02] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.8.tar.gz tmp/pyquocca-0.0.9.tar.gz --markdown 20240404/p/pyquocca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [scmodels]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [scmodels]: executing diffoscope
+[2024-04-04 12:27:02] INFO root fetch - processPackages [scmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmodels-0.3.1.tar.gz tmp/scmodels-0.3.2.tar.gz --markdown 20240404/s/scmodels/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-04 12:27:02] INFO root fetch - processPackages [sphractal]: Downloading https://files.pythonhosted.org/packages/a0/7f/191e6941b9000db99e62e199af0e1c968e55df7b90bc256e4818d88a6edf/sphractal-1.1.2.tar.gz
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [CureQ]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [CureQ]: executing diffoscope
+[2024-04-04 12:27:02] INFO root fetch - processPackages [CureQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CureQ-0.0.6.tar.gz tmp/CureQ-0.1.0.tar.gz --markdown 20240404/C/CureQ/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:27:02] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.4.tar.gz]
+[2024-04-04 12:27:02] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.5.tar.gz]
+[2024-04-04 12:27:02] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu]: success
+[2024-04-04 12:27:02] WARNING root fetch - processPackages [sphractal]: Timeout reached during download
+[2024-04-04 12:27:02] INFO root fetch - processPackages [sphractal]: executing diffoscope
+[2024-04-04 12:27:02] INFO root fetch - processPackages [sphractal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphractal-1.1.1.tar.gz tmp/sphractal-1.1.2.tar.gz --markdown 20240404/s/sphractal/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-04 12:27:02] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-04 12:27:02] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.9.tar.gz]
+[2024-04-04 12:27:02] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-04 12:27:03] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.0.6.tar.gz]
+[2024-04-04 12:27:03] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.1.0.tar.gz]
+[2024-04-04 12:27:03] INFO root fetch - main [MainThread]: End processing [CureQ]: success
+[2024-04-04 12:27:03] INFO root fetch - processPackages [scmodels]: Remove: archive file [/home/abi/fetcher/tmp/scmodels-0.3.1.tar.gz]
+[2024-04-04 12:27:03] INFO root fetch - processPackages [scmodels]: Remove: archive file [/home/abi/fetcher/tmp/scmodels-0.3.2.tar.gz]
+[2024-04-04 12:27:03] INFO root fetch - main [MainThread]: End processing [scmodels]: success
+[2024-04-04 12:27:04] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.1.tar.gz]
+[2024-04-04 12:27:04] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.2.tar.gz]
+[2024-04-04 12:27:04] INFO root fetch - main [MainThread]: End processing [sphractal]: success
+[2024-04-04 12:27:04] INFO root fetch - main [MainThread]: Store serial: [22618489]
