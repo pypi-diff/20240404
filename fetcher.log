@@ -12269,3 +12269,42 @@
 [2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.0.0a2.tar.gz]
 [2024-04-04 06:33:28] INFO root fetch - main [MainThread]: End processing [suql]: success
 [2024-04-04 06:33:28] INFO root fetch - main [MainThread]: Store serial: [22615459]
+[2024-04-04 06:35:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615459]
+[2024-04-04 06:35:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nagatoai_core
+[2024-04-04 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-ro-config
+[2024-04-04 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-l10n-romania
+[2024-04-04 06:35:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-stats-report
+[2024-04-04 06:35:37] WARNING root fetch - processPackages [nagatoai_core]: Skipping, unable to determine old version
+[2024-04-04 06:35:37] INFO root fetch - processPackages [git-stats-report]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-04 06:35:37] INFO root fetch - main [MainThread]: End processing [nagatoai_core] error
+[2024-04-04 06:35:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: New version: [16.0.20240403.1] Old Version: [16.0.20240316.0]
+[2024-04-04 06:35:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0.1]
+[2024-04-04 06:35:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/e1/01/cad54e6247fee3fa680c4349baa1a986e5cd794f72813b6b8fdf8d09c099/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl
+[2024-04-04 06:35:37] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/a6/20/d8f9072b53d13d46fa702d1e2cf46ccc05ee5966641ab50ed0b006c1739e/git-stats-report-0.2.1.tar.gz
+[2024-04-04 06:35:37] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/ef/dd/521caf35e888811276315101e5751c476169bec0ece044b5768fd3e9da27/odoo_addons_oca_l10n_romania-16.0.20240316.0-py3-none-any.whl
+[2024-04-04 06:35:37] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-04 06:35:37] WARNING root fetch - processPackages [odoo-addon-l10n-ro-config]: Timeout reached during download
+[2024-04-04 06:35:37] WARNING root fetch - processPackages [odoo-addons-oca-l10n-romania]: Timeout reached during download
+[2024-04-04 06:35:37] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Downloading https://files.pythonhosted.org/packages/f0/d2/af952f7cc92d686329de051179e5f7321668ba5f18ed8bbd911e2766160b/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl
+[2024-04-04 06:35:37] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/83/88/2b5352dd5458cb0bb30d4edba10e0cfc5b688da5963b87eb5e72dd55e476/git-stats-report-0.2.2.tar.gz
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Downloading https://files.pythonhosted.org/packages/63/24/2506144b6290c3c5bd16d577d9af533313c90058d50466b0d66fb85a3bcb/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl
+[2024-04-04 06:35:38] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-04 06:35:38] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-04 06:35:38] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.2.1.tar.gz tmp/git-stats-report-0.2.2.tar.gz --markdown 20240404/g/git-stats-report/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-04 06:35:38] WARNING root fetch - processPackages [odoo-addon-l10n-ro-config]: Timeout reached during download
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: executing diffoscope
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-ro-config/17.0.1.1.0.1-17.0.1.2.0/diff.md --exclude *.pyd
+[2024-04-04 06:35:38] WARNING root fetch - processPackages [odoo-addons-oca-l10n-romania]: Timeout reached during download
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: executing diffoscope
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_romania-16.0.20240316.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addons-oca-l10n-romania/16.0.20240316.0-16.0.20240403.1/diff.md --exclude *.pyd
+[2024-04-04 06:35:38] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.2.1.tar.gz]
+[2024-04-04 06:35:38] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.2.2.tar.gz]
+[2024-04-04 06:35:38] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_romania-16.0.20240316.0-py3-none-any.whl.zip]
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addons-oca-l10n-romania]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_romania-16.0.20240403.1-py3-none-any.whl.zip]
+[2024-04-04 06:35:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-romania]: success
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 06:35:38] INFO root fetch - processPackages [odoo-addon-l10n-ro-config]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_config-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-04 06:35:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-config]: success
+[2024-04-04 06:35:38] INFO root fetch - main [MainThread]: Store serial: [22615471]
