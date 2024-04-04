@@ -12780,3 +12780,44 @@
 [2024-04-04 06:52:51] INFO root fetch - processPackages [odoo12-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_repair_refurbish-12.0.1.1.3.99.dev9-py3-none-any.whl.zip]
 [2024-04-04 06:52:51] INFO root fetch - main [MainThread]: End processing [odoo12-addon-repair-refurbish]: success
 [2024-04-04 06:52:51] INFO root fetch - main [MainThread]: Store serial: [22615592]
+[2024-04-04 06:54:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615592]
+[2024-04-04 06:54:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-repair-refurbish
+[2024-04-04 06:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-base-repair
+[2024-04-04 06:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-repair-type
+[2024-04-04 06:54:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codex
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-base-repair]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-type]: New version: [14.0.1.0.3.dev8] Old Version: [14.0.1.0.3.dev7]
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: New version: [14.0.1.0.2.dev9] Old Version: [14.0.1.0.2.dev8]
+[2024-04-04 06:55:00] INFO root fetch - processPackages [codex]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/a7/7c/4bce0de55c71f5b1b97d68eca45327da3183b133323bc5d8ddd08fa9d8f7/odoo14_addon_repair_type-14.0.1.0.3.dev7-py3-none-any.whl
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/67/32/7dac228b8346f009e4deb264e8e9524adb500510577d8822b51f1389970a/odoo14_addon_repair_refurbish-14.0.1.0.2.dev8-py3-none-any.whl
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-base-repair]: Downloading https://files.pythonhosted.org/packages/2f/0c/fbb8d1724edcd2e2c87843a35e221888506c951cd86609944235fa759c88/odoo14_addon_base_repair-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-04 06:55:00] INFO root fetch - processPackages [codex]: Downloading https://files.pythonhosted.org/packages/0c/6f/7c4b25c7a3f59e29de3052fd98dcb78a9ee044406464991bc45a1fd4a48f/codex-1.5.8.tar.gz
+[2024-04-04 06:55:00] WARNING root fetch - processPackages [codex]: Skipping package: exceeds size limit 18232846>=10485760
+[2024-04-04 06:55:00] INFO root fetch - main [MainThread]: End processing [codex] error
+[2024-04-04 06:55:00] WARNING root fetch - processPackages [odoo14-addon-base-repair]: Timeout reached during download
+[2024-04-04 06:55:00] WARNING root fetch - processPackages [odoo14-addon-repair-refurbish]: Timeout reached during download
+[2024-04-04 06:55:00] WARNING root fetch - processPackages [odoo14-addon-repair-type]: Timeout reached during download
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-base-repair]: Downloading https://files.pythonhosted.org/packages/28/12/bc5f590ea8b3df0b7d90ded2ad9e263894df9d12ffb92334fb8fe2726165/odoo14_addon_base_repair-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/28/83/9472bee1b6b950946d5afa26e9db9ac98c487b7dca932a30eb253b77bea7/odoo14_addon_repair_type-14.0.1.0.3.dev8-py3-none-any.whl
+[2024-04-04 06:55:00] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/02/7f/aad8f5ebaccb06e9aa973aa5686056d528337ea2d487cbc8772c31b71c9e/odoo14_addon_repair_refurbish-14.0.1.0.2.dev9-py3-none-any.whl
+[2024-04-04 06:55:01] WARNING root fetch - processPackages [odoo14-addon-base-repair]: Timeout reached during download
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-base-repair]: executing diffoscope
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-base-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_repair-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_base_repair-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-base-repair/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2024-04-04 06:55:01] WARNING root fetch - processPackages [odoo14-addon-repair-refurbish]: Timeout reached during download
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: executing diffoscope
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_repair_refurbish-14.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_repair_refurbish-14.0.1.0.2.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-repair-refurbish/14.0.1.0.2.dev8-14.0.1.0.2.dev9/diff.md --exclude *.pyd
+[2024-04-04 06:55:01] WARNING root fetch - processPackages [odoo14-addon-repair-type]: Timeout reached during download
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-type]: executing diffoscope
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_repair_type-14.0.1.0.3.dev7-py3-none-any.whl.zip tmp/odoo14_addon_repair_type-14.0.1.0.3.dev8-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-repair-type/14.0.1.0.3.dev7-14.0.1.0.3.dev8/diff.md --exclude *.pyd
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-base-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_repair-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-base-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_repair-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-repair]: success
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_repair_refurbish-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_repair_refurbish-14.0.1.0.2.dev9-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-repair-refurbish]: success
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_repair_type-14.0.1.0.3.dev7-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_repair_type-14.0.1.0.3.dev8-py3-none-any.whl.zip]
+[2024-04-04 06:55:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-repair-type]: success
+[2024-04-04 06:55:01] INFO root fetch - main [MainThread]: Store serial: [22615602]
