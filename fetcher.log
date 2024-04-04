@@ -19405,3 +19405,113 @@
 [2024-04-04 11:27:28] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-04 11:27:28] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
 [2024-04-04 11:27:28] INFO root fetch - main [MainThread]: Store serial: [22617832]
+[2024-04-04 11:29:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617832]
+[2024-04-04 11:29:43] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vairflow-ai
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-content-import
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sisl-gui
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-pagerduty
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dkist
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiohttp_admin2
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-alicloud
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bluecellulab
+[2024-04-04 11:29:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-pagerduty]: New version: [4.9.0a1709566454] Old Version: [4.9.0a1709366773]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [dkist]: New version: [1.5.0rc1] Old Version: [1.5.0]
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [vairflow-ai]: Skipping, unable to determine old version
+[2024-04-04 11:29:44] INFO root fetch - processPackages [vairflow-ai]: Start processing: easy-configer
+[2024-04-04 11:29:44] INFO root fetch - main [MainThread]: End processing [vairflow-ai] error
+[2024-04-04 11:29:44] INFO root fetch - processPackages [aiohttp_admin2]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [sisl-gui]: New version: [0.4] Old Version: [0.3.3]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.3]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [bluecellulab]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ba/dc/468cc1cc3ab57e83660f1775ea0d9f1dcfc62c6de9c10832b834d737ec1a/pulumi_pagerduty-4.9.0a1709366773.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/9b/58/9810688a95d860bfbdfc64b8d7f2130019c3f4f3eccf23c8f5eb97c48577/aiohttp_admin2-0.0.4.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/87/08/173c7b75206395da2f55d16ea3bfcc9c2fc7e14921b948e82132f8933092/dkist-1.5.0.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [sisl-gui]: Downloading https://files.pythonhosted.org/packages/c2/54/63ab257d1b6017ae1ee7d2b1a3ae7c4ef3c49f3a4341b71c98095190d4b6/sisl-gui-0.3.3.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [easy-configer]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-04 11:29:44] INFO root fetch - processPackages [bluecellulab]: Downloading https://files.pythonhosted.org/packages/ac/49/130d3b6a5f356279bdb2f0eb5a1a6973382b95b3132a0167f86a70161cf3/bluecellulab-2.4.0.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/a7/22/8e80c3a8760feffe43e52d359603759e01ce99bfd20f6eece3d211564d26/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [bluecellulab]: Skipping package: exceeds size limit 15937005>=10485760
+[2024-04-04 11:29:44] INFO root fetch - main [MainThread]: End processing [bluecellulab] error
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [pulumi-pagerduty]: Timeout reached during download
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-04 11:29:44] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-pagerduty]: Downloading https://files.pythonhosted.org/packages/ea/4e/a77d2efabe6daeb6878eeed9b4c2b3c43c2b854c19e3be4b3d627c2c0427/pulumi_pagerduty-4.9.0a1709566454.tar.gz
+[2024-04-04 11:29:44] INFO root fetch - processPackages [aiohttp_admin2]: Downloading https://files.pythonhosted.org/packages/d2/01/ad883c0e4e6affc6c0809e94d54b45538c9dea4b4bf1cbb1f28522dcfc15/aiohttp_admin2-0.0.5.tar.gz
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [pulumi-alicloud]: Timeout reached during download
+[2024-04-04 11:29:44] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/f6/7f/23c0ffee2ebd68a7d3f06937379733dfbd2103fdb900c00afc466c721262/easy_configer-2.2.0.tar.gz
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [pulumi-pagerduty]: Timeout reached during download
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-pagerduty]: executing diffoscope
+[2024-04-04 11:29:44] INFO root fetch - processPackages [pulumi-pagerduty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz --markdown 20240404/p/pulumi-pagerduty/4.9.0a1709366773-4.9.0a1709566454/diff.md --exclude *.pyd
+[2024-04-04 11:29:44] WARNING root fetch - processPackages [dkist]: Timeout reached during download
+[2024-04-04 11:29:44] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [aiohttp_admin2]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [aiohttp_admin2]: executing diffoscope
+[2024-04-04 11:29:45] INFO root fetch - processPackages [aiohttp_admin2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_admin2-0.0.4.tar.gz tmp/aiohttp_admin2-0.0.5.tar.gz --markdown 20240404/a/aiohttp_admin2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 11:29:45] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2024-04-04 11:29:45] INFO root fetch - processPackages [wagtail-content-import]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-04 11:29:45] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-demand-estimate/17.0.1.0.0.3-17.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [easy-configer]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-04 11:29:45] INFO root fetch - processPackages [dkist]: Downloading https://files.pythonhosted.org/packages/3e/8b/103498ad1318133d88907f8f9c861336b44323939fd4acf947d923daf015/dkist-1.5.0rc1.tar.gz
+[2024-04-04 11:29:45] INFO root fetch - processPackages [wagtail-content-import]: Downloading https://files.pythonhosted.org/packages/f6/bf/267abaff32ef1210ba88832a5e22a050dc3b0c648ff2d620db306f27b618/wagtail_content_import-0.9.1-py3-none-any.whl
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [spaceone-api]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-04 11:29:45] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240404/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-04 11:29:45] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/63/f9/35dcce3daefd72e0b7ad937b61fc83bfa2a788735eae40d7ffaa927a17cc/easy_configer-2.3.0.tar.gz
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [pulumi-alicloud]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2024-04-04 11:29:45] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20240404/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [sisl-gui]: Timeout reached during download
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [wagtail-content-import]: Timeout reached during download
+[2024-04-04 11:29:45] WARNING root fetch - processPackages [dkist]: Timeout reached during download
+[2024-04-04 11:29:45] INFO root fetch - processPackages [dkist]: executing diffoscope
+[2024-04-04 11:29:45] INFO root fetch - processPackages [dkist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-1.5.0.tar.gz tmp/dkist-1.5.0rc1.tar.gz --markdown 20240404/d/dkist/1.5.0-1.5.0rc1/diff.md --exclude *.pyd
+[2024-04-04 11:29:45] INFO root fetch - processPackages [sisl-gui]: Downloading https://files.pythonhosted.org/packages/06/4b/86b1b7e78a1a75ca4bb0f9c1186d2c5d8c2f110e7d6bb3fd8c00c082d19c/sisl-gui-0.4.tar.gz
+[2024-04-04 11:29:46] INFO root fetch - processPackages [wagtail-content-import]: Downloading https://files.pythonhosted.org/packages/35/02/d7daf5aa9d1258aee1313eeabe6f87de12844fa5ff5d6b5bddee552ff127/wagtail_content_import-0.9.2-py3-none-any.whl
+[2024-04-04 11:29:46] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.4.tar.gz]
+[2024-04-04 11:29:46] INFO root fetch - processPackages [aiohttp_admin2]: Remove: archive file [/home/abi/fetcher/tmp/aiohttp_admin2-0.0.5.tar.gz]
+[2024-04-04 11:29:46] INFO root fetch - main [MainThread]: End processing [aiohttp_admin2]: success
+[2024-04-04 11:29:46] WARNING root fetch - processPackages [easy-configer]: Timeout reached during download
+[2024-04-04 11:29:46] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2024-04-04 11:29:46] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-2.2.0.tar.gz tmp/easy_configer-2.3.0.tar.gz --markdown 20240404/e/easy-configer/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-04 11:29:46] WARNING root fetch - processPackages [sisl-gui]: Timeout reached during download
+[2024-04-04 11:29:46] INFO root fetch - processPackages [sisl-gui]: executing diffoscope
+[2024-04-04 11:29:46] INFO root fetch - processPackages [sisl-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisl-gui-0.3.3.tar.gz tmp/sisl-gui-0.4.tar.gz --markdown 20240404/s/sisl-gui/0.3.3-0.4/diff.md --exclude *.pyd
+[2024-04-04 11:29:46] WARNING root fetch - processPackages [wagtail-content-import]: Timeout reached during download
+[2024-04-04 11:29:46] INFO root fetch - processPackages [wagtail-content-import]: executing diffoscope
+[2024-04-04 11:29:46] INFO root fetch - processPackages [wagtail-content-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_content_import-0.9.1-py3-none-any.whl.zip tmp/wagtail_content_import-0.9.2-py3-none-any.whl.zip --markdown 20240404/w/wagtail-content-import/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-04 11:29:46] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709366773.tar.gz]
+[2024-04-04 11:29:46] INFO root fetch - processPackages [pulumi-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_pagerduty-4.9.0a1709566454.tar.gz]
+[2024-04-04 11:29:46] INFO root fetch - main [MainThread]: End processing [pulumi-pagerduty]: success
+[2024-04-04 11:29:46] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 11:29:46] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-04 11:29:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-04 11:29:47] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-04 11:29:47] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.2.0.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.3.0.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2024-04-04 11:29:47] INFO root fetch - processPackages [wagtail-content-import]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_content_import-0.9.1-py3-none-any.whl.zip]
+[2024-04-04 11:29:47] INFO root fetch - processPackages [wagtail-content-import]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_content_import-0.9.2-py3-none-any.whl.zip]
+[2024-04-04 11:29:47] INFO root fetch - main [MainThread]: End processing [wagtail-content-import]: success
+[2024-04-04 11:29:47] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.5.0.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - processPackages [dkist]: Remove: archive file [/home/abi/fetcher/tmp/dkist-1.5.0rc1.tar.gz]
+[2024-04-04 11:29:47] INFO root fetch - main [MainThread]: End processing [dkist]: success
+[2024-04-04 11:29:48] INFO root fetch - processPackages [sisl-gui]: Remove: archive file [/home/abi/fetcher/tmp/sisl-gui-0.3.3.tar.gz]
+[2024-04-04 11:29:48] INFO root fetch - processPackages [sisl-gui]: Remove: archive file [/home/abi/fetcher/tmp/sisl-gui-0.4.tar.gz]
+[2024-04-04 11:29:48] INFO root fetch - main [MainThread]: End processing [sisl-gui]: success
+[2024-04-04 11:29:54] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2024-04-04 11:29:54] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2024-04-04 11:29:54] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2024-04-04 11:29:54] INFO root fetch - main [MainThread]: Store serial: [22617865]
