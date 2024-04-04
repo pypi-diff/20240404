@@ -18769,3 +18769,61 @@
 [2024-04-04 11:07:13] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240404.tar.gz]
 [2024-04-04 11:07:13] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
 [2024-04-04 11:07:13] INFO root fetch - main [MainThread]: Store serial: [22617545]
+[2024-04-04 11:09:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617545]
+[2024-04-04 11:09:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-admin-assets
+[2024-04-04 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-04-04 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tedbuy
+[2024-04-04 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dyapi
+[2024-04-04 11:09:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pineboo
+[2024-04-04 11:09:22] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 11:09:22] INFO root fetch - processPackages [tedbuy]: New version: [0.0rc1] Old Version: [0.0.dev1]
+[2024-04-04 11:09:22] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.2] Old Version: [0.99.81.1]
+[2024-04-04 11:09:22] INFO root fetch - processPackages [dyapi]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-04 11:09:22] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1462] Old Version: [1.0.0.post1461]
+[2024-04-04 11:09:22] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-04 11:09:22] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/b8/66/02d893ffd20b5c7b335858f9bc6df3f88d20507fbc3f7f5b0cda3961f6ab/pineboo-0.99.81.1.tar.gz
+[2024-04-04 11:09:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/62/4b/1fbc3711a311eb4dd5c06f1a215c16efcfb153b7d108d7a6b2465af009ad/nucliadb_admin_assets-1.0.0.post1461-py3-none-any.whl
+[2024-04-04 11:09:22] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 11:09:22] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/52/0c/ff6549a901a99ab1ac681fc13c860f71125d864354960e66ce812ca6772e/dyapi-0.9.2.tar.gz
+[2024-04-04 11:09:22] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/00/35/b3251ef929aaf1f0034e780ed1caf12d42cb5c6bb40bd1ae2db8a460755c/tedbuy-0.0.dev1.tar.gz
+[2024-04-04 11:09:22] WARNING root fetch - processPackages [dyapi]: Timeout reached during download
+[2024-04-04 11:09:22] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-04 11:09:22] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 11:09:22] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-04 11:09:22] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 11:09:22] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-04 11:09:22] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240404/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 11:09:22] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/08/01/e1362f99627820bc8d9b1fb15f1bd290c6096a7ea54aae5a34e147252068/dyapi-0.9.3.tar.gz
+[2024-04-04 11:09:22] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/a8/0e/78c13e08536992d6e3855c1bcecc3d76b2cbd72f9313268ff6084d55c358/nucliadb_admin_assets-1.0.0.post1462-py3-none-any.whl
+[2024-04-04 11:09:23] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/36/38/efa7688a92085ab245b8c25f3d84712f9bf5e60f48e68ffe767a2fdf198d/tedbuy-0.0rc1.tar.gz
+[2024-04-04 11:09:23] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 11:09:23] WARNING root fetch - processPackages [dyapi]: Timeout reached during download
+[2024-04-04 11:09:23] INFO root fetch - processPackages [dyapi]: executing diffoscope
+[2024-04-04 11:09:23] INFO root fetch - processPackages [dyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyapi-0.9.2.tar.gz tmp/dyapi-0.9.3.tar.gz --markdown 20240404/d/dyapi/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-04 11:09:23] WARNING root fetch - processPackages [nucliadb-admin-assets]: Timeout reached during download
+[2024-04-04 11:09:23] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-04 11:09:23] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1461-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1462-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-admin-assets/1.0.0.post1461-1.0.0.post1462/diff.md --exclude *.pyd
+[2024-04-04 11:09:23] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 11:09:23] INFO root fetch - processPackages [tedbuy]: executing diffoscope
+[2024-04-04 11:09:23] INFO root fetch - processPackages [tedbuy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tedbuy-0.0.dev1.tar.gz tmp/tedbuy-0.0rc1.tar.gz --markdown 20240404/t/tedbuy/0.0.dev1-0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 11:09:23] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/6b/c3/5b2676c4eca1f15814fcc7cc0d2cbf987222c1240cb0594dd491a41b3d9e/pineboo-0.99.81.2.tar.gz
+[2024-04-04 11:09:23] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-04 11:09:23] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0.dev1.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0rc1.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - main [MainThread]: End processing [tedbuy]: success
+[2024-04-04 11:09:23] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.9.2.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.9.3.tar.gz]
+[2024-04-04 11:09:23] INFO root fetch - main [MainThread]: End processing [dyapi]: success
+[2024-04-04 11:09:24] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1461-py3-none-any.whl.zip]
+[2024-04-04 11:09:24] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1462-py3-none-any.whl.zip]
+[2024-04-04 11:09:24] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-04 11:09:24] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 11:09:24] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 11:09:24] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.1.tar.gz tmp/pineboo-0.99.81.2.tar.gz --markdown 20240404/p/pineboo/0.99.81.1-0.99.81.2/diff.md --exclude *.pyd
+[2024-04-04 11:09:27] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.1.tar.gz]
+[2024-04-04 11:09:27] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.2.tar.gz]
+[2024-04-04 11:09:27] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 11:09:27] INFO root fetch - main [MainThread]: Store serial: [22617558]
