@@ -4316,3 +4316,53 @@
 [2024-04-04 02:46:49] INFO root fetch - processPackages [sfkit]: Remove: archive file [/home/abi/fetcher/tmp/sfkit-0.0.99-py3-none-any.whl.zip]
 [2024-04-04 02:46:49] INFO root fetch - main [MainThread]: End processing [sfkit]: success
 [2024-04-04 02:46:49] INFO root fetch - main [MainThread]: Store serial: [22613017]
+[2024-04-04 02:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613017]
+[2024-04-04 02:48:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 02:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amino.fix.fix
+[2024-04-04 02:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itkwasm-compare-meshes-wasi
+[2024-04-04 02:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itkwasm-compare-meshes-emscripten
+[2024-04-04 02:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2024-04-04 02:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psy-ugrid
+[2024-04-04 02:48:58] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 02:48:58] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 02:48:58] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.6b2] Old Version: [1.0.6b1]
+[2024-04-04 02:48:58] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-04 02:48:58] WARNING root fetch - processPackages [psy-ugrid]: Skipping, unable to determine old version
+[2024-04-04 02:48:58] INFO root fetch - main [MainThread]: End processing [psy-ugrid] error
+[2024-04-04 02:48:58] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: Downloading https://files.pythonhosted.org/packages/e4/6b/57637e79b436281ea449b0be79fdd36d88136aee037b79902bab77a59c10/itkwasm_compare_meshes_wasi-0.1.0.tar.gz
+[2024-04-04 02:48:58] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Downloading https://files.pythonhosted.org/packages/41/36/0e63e56d6675d0fb1483fd51bfd27700012b6a7ab67df30ae8a26e9f80e9/itkwasm_compare_meshes_emscripten-0.1.0.tar.gz
+[2024-04-04 02:48:58] WARNING root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [itkwasm-compare-meshes-wasi]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/58/cd/ad42fbccc7b5d2d56f33929d58462574f3e81e5ba4f776e67f1b4f55dbb3/amino.fix.fix-1.0.6b1.tar.gz
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Downloading https://files.pythonhosted.org/packages/ca/27/3214bc7e2d471d8a796ba769d5008aa5deb6b2bc3eade370e706e87e1e22/itkwasm_compare_meshes_emscripten-0.2.0.tar.gz
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: Downloading https://files.pythonhosted.org/packages/f5/0e/02c222a48b34a079218dad62d404023be6bcb1e373ae393941db8ff93dff/itkwasm_compare_meshes_wasi-0.2.0.tar.gz
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: executing diffoscope
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compare_meshes_emscripten-0.1.0.tar.gz tmp/itkwasm_compare_meshes_emscripten-0.2.0.tar.gz --markdown 20240404/i/itkwasm-compare-meshes-emscripten/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [itkwasm-compare-meshes-wasi]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: executing diffoscope
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkwasm_compare_meshes_wasi-0.1.0.tar.gz tmp/itkwasm_compare_meshes_wasi-0.2.0.tar.gz --markdown 20240404/i/itkwasm-compare-meshes-wasi/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 02:48:59] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/f5/88/a9320e4b515b0de47994fc0baab768a72af021ec7204bfc8ceb4da68e619/amino.fix.fix-1.0.6b2.tar.gz
+[2024-04-04 02:48:59] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [bioversions]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2024-04-04 02:48:59] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20240404/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-04 02:48:59] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-04 02:48:59] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-04 02:48:59] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.6b1.tar.gz tmp/amino.fix.fix-1.0.6b2.tar.gz --markdown 20240404/a/amino.fix.fix/1.0.6b1-1.0.6b2/diff.md --exclude *.pyd
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_compare_meshes_emscripten-0.1.0.tar.gz]
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-emscripten]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_compare_meshes_emscripten-0.2.0.tar.gz]
+[2024-04-04 02:48:59] INFO root fetch - main [MainThread]: End processing [itkwasm-compare-meshes-emscripten]: success
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_compare_meshes_wasi-0.1.0.tar.gz]
+[2024-04-04 02:48:59] INFO root fetch - processPackages [itkwasm-compare-meshes-wasi]: Remove: archive file [/home/abi/fetcher/tmp/itkwasm_compare_meshes_wasi-0.2.0.tar.gz]
+[2024-04-04 02:48:59] INFO root fetch - main [MainThread]: End processing [itkwasm-compare-meshes-wasi]: success
+[2024-04-04 02:49:00] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.6b1.tar.gz]
+[2024-04-04 02:49:00] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.6b2.tar.gz]
+[2024-04-04 02:49:00] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-04 02:49:18] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2024-04-04 02:49:18] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2024-04-04 02:49:18] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2024-04-04 02:49:18] INFO root fetch - main [MainThread]: Store serial: [22613034]
