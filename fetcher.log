@@ -9753,3 +9753,17 @@
 [2024-04-04 03:55:16] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.408.tar.gz]
 [2024-04-04 03:55:16] INFO root fetch - main [MainThread]: End processing [chainlo]: success
 [2024-04-04 03:55:16] INFO root fetch - main [MainThread]: Store serial: [22614659]
+[2024-04-04 03:57:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614659]
+[2024-04-04 03:57:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 03:57:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devon-agent
+[2024-04-04 03:57:26] INFO root fetch - processPackages [devon-agent]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 03:57:26] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/1f/66/3e30903aa50eb4dbfae5f9891a62fa02bb15997ec1c781ca8a2bd9a10572/devon_agent-0.0.2.tar.gz
+[2024-04-04 03:57:26] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:57:26] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/0a/70/2ec645ceda03e2a333605ae13761218b17d53a4d6751e40956ea1023eba2/devon_agent-0.0.3.tar.gz
+[2024-04-04 03:57:27] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:57:27] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 03:57:27] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.2.tar.gz tmp/devon_agent-0.0.3.tar.gz --markdown 20240404/d/devon-agent/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 03:57:27] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.2.tar.gz]
+[2024-04-04 03:57:27] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.3.tar.gz]
+[2024-04-04 03:57:27] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 03:57:27] INFO root fetch - main [MainThread]: Store serial: [22614662]
