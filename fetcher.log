@@ -9828,3 +9828,34 @@
 [2024-04-04 04:01:49] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
 [2024-04-04 04:01:49] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
 [2024-04-04 04:01:49] INFO root fetch - main [MainThread]: Store serial: [22614676]
+[2024-04-04 04:03:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614676]
+[2024-04-04 04:03:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-service-screener
+[2024-04-04 04:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devon-agent
+[2024-04-04 04:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py3office
+[2024-04-04 04:03:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: awsconsurl
+[2024-04-04 04:03:58] WARNING root fetch - processPackages [aws-service-screener]: Skipping, unable to determine old version
+[2024-04-04 04:03:58] INFO root fetch - processPackages [py3office]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-04 04:03:58] INFO root fetch - main [MainThread]: End processing [aws-service-screener] error
+[2024-04-04 04:03:58] INFO root fetch - processPackages [devon-agent]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 04:03:58] WARNING root fetch - processPackages [awsconsurl]: Skipping, unable to determine old version
+[2024-04-04 04:03:58] INFO root fetch - main [MainThread]: End processing [awsconsurl] error
+[2024-04-04 04:03:58] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/86/b1/5dc12018a24fd0e5ae5e58c119d6629ad23b1df6d5f2f1bb5aafde7c2bdc/devon_agent-0.0.4.tar.gz
+[2024-04-04 04:03:58] INFO root fetch - processPackages [py3office]: Downloading https://files.pythonhosted.org/packages/e0/95/08380883a8335b26d55edaff14e11dbce895ad3930468ff64140cf416b0a/py3office-0.2.0.tar.gz
+[2024-04-04 04:03:58] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 04:03:58] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/eb/9e/dd178a447c1db5bfcb905df8fed9d79b44ad08db1ee5c4727c50b1ca0402/devon_agent-0.0.5.tar.gz
+[2024-04-04 04:03:59] WARNING root fetch - processPackages [py3office]: Timeout reached during download
+[2024-04-04 04:03:59] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 04:03:59] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 04:03:59] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.4.tar.gz tmp/devon_agent-0.0.5.tar.gz --markdown 20240404/d/devon-agent/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: Downloading https://files.pythonhosted.org/packages/a9/a5/777632edfc2b716749612bc66cf26e75a1851e45bbfd76fdc834195ebef3/py3office-0.3.0.tar.gz
+[2024-04-04 04:03:59] WARNING root fetch - processPackages [py3office]: Timeout reached during download
+[2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: executing diffoscope
+[2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3office-0.2.0.tar.gz tmp/py3office-0.3.0.tar.gz --markdown 20240404/p/py3office/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 04:03:59] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.4.tar.gz]
+[2024-04-04 04:03:59] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.5.tar.gz]
+[2024-04-04 04:03:59] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: Remove: archive file [/home/abi/fetcher/tmp/py3office-0.2.0.tar.gz]
+[2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: Remove: archive file [/home/abi/fetcher/tmp/py3office-0.3.0.tar.gz]
+[2024-04-04 04:03:59] INFO root fetch - main [MainThread]: End processing [py3office]: success
+[2024-04-04 04:03:59] INFO root fetch - main [MainThread]: Store serial: [22614688]
