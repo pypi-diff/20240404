@@ -24266,3 +24266,39 @@
 [2024-04-04 14:17:54] INFO root fetch - processPackages [gdmath]: Remove: archive file [/home/abi/fetcher/tmp/gdmath-1.4.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
 [2024-04-04 14:17:54] INFO root fetch - main [MainThread]: End processing [gdmath]: success
 [2024-04-04 14:17:54] INFO root fetch - main [MainThread]: Store serial: [22619674]
+[2024-04-04 14:20:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619674]
+[2024-04-04 14:20:04] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 14:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-ro-account-anaf-sync
+[2024-04-04 14:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vdk-impala
+[2024-04-04 14:20:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eodc
+[2024-04-04 14:20:05] INFO root fetch - processPackages [vdk-impala]: New version: [0.4.975814598] Old Version: [0.4.961031287]
+[2024-04-04 14:20:05] INFO root fetch - processPackages [eodc]: New version: [2024.3.1] Old Version: [2024.2.6]
+[2024-04-04 14:20:05] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: New version: [17.0.1.2.0] Old Version: [17.0.1.1.0]
+[2024-04-04 14:20:05] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/ce/19/09c8ea49759618ce11c8d74daa053adc8f7e41dd00ddbefe7d432ebbfa09/eodc-2024.2.6.tar.gz
+[2024-04-04 14:20:05] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/b0/2d/b9c4e1d70cd8dd35ac18a803b43dd4f2ac05c895d7c3738d843fa8fc1ce4/vdk-impala-0.4.961031287.tar.gz
+[2024-04-04 14:20:05] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/0e/65/af5372e6d9af9fb916145a3c89e9555317c34a45ed7ff0c51d2b06bd3dd2/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl
+[2024-04-04 14:20:05] WARNING root fetch - processPackages [eodc]: Timeout reached during download
+[2024-04-04 14:20:05] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/cb/ca/b1e8e5eea8e4df0ff4e65957e068a1c899ec8d368b0ffb7fd974d474a10f/eodc-2024.3.1.tar.gz
+[2024-04-04 14:20:05] WARNING root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Timeout reached during download
+[2024-04-04 14:20:05] WARNING root fetch - processPackages [eodc]: Timeout reached during download
+[2024-04-04 14:20:05] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-04-04 14:20:05] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.2.6.tar.gz tmp/eodc-2024.3.1.tar.gz --markdown 20240404/e/eodc/2024.2.6-2024.3.1/diff.md --exclude *.pyd
+[2024-04-04 14:20:05] WARNING root fetch - processPackages [vdk-impala]: Timeout reached during download
+[2024-04-04 14:20:05] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Downloading https://files.pythonhosted.org/packages/dc/d2/4b51a031062b619584ca223bba98308ebf2ea9cedb7b70f5146bb8ee005a/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl
+[2024-04-04 14:20:06] INFO root fetch - processPackages [vdk-impala]: Downloading https://files.pythonhosted.org/packages/d2/cf/2a7b05bf25794fa7a32b4e288ef80a83ee9b712dcd40dfa65795aae13e40/vdk-impala-0.4.975814598.tar.gz
+[2024-04-04 14:20:06] WARNING root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Timeout reached during download
+[2024-04-04 14:20:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: executing diffoscope
+[2024-04-04 14:20:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-ro-account-anaf-sync/17.0.1.1.0-17.0.1.2.0/diff.md --exclude *.pyd
+[2024-04-04 14:20:06] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.2.6.tar.gz]
+[2024-04-04 14:20:06] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.3.1.tar.gz]
+[2024-04-04 14:20:06] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-04-04 14:20:06] WARNING root fetch - processPackages [vdk-impala]: Timeout reached during download
+[2024-04-04 14:20:06] INFO root fetch - processPackages [vdk-impala]: executing diffoscope
+[2024-04-04 14:20:06] INFO root fetch - processPackages [vdk-impala]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-impala-0.4.961031287.tar.gz tmp/vdk-impala-0.4.975814598.tar.gz --markdown 20240404/v/vdk-impala/0.4.961031287-0.4.975814598/diff.md --exclude *.pyd
+[2024-04-04 14:20:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-04 14:20:06] INFO root fetch - processPackages [odoo-addon-l10n-ro-account-anaf-sync]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_account_anaf_sync-17.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-04 14:20:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-account-anaf-sync]: success
+[2024-04-04 14:20:07] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.961031287.tar.gz]
+[2024-04-04 14:20:07] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.975814598.tar.gz]
+[2024-04-04 14:20:07] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
+[2024-04-04 14:20:07] INFO root fetch - main [MainThread]: Store serial: [22619709]
