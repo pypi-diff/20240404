@@ -22030,3 +22030,130 @@
 [2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.6.0.tar.gz]
 [2024-04-04 12:58:23] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
 [2024-04-04 12:58:23] INFO root fetch - main [MainThread]: Store serial: [22618808]
+[2024-04-04 13:00:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618808]
+[2024-04-04 13:00:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metabeaver
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhelper-utils
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-msal
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blosc2
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scs-analysis
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfac-jax
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scs-core
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiotgm
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pineboo
+[2024-04-04 13:00:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bpm-ai
+[2024-04-04 13:00:33] INFO root fetch - processPackages [metabeaver]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pyhelper-utils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.9] Old Version: [0.99.81.8]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [kfac-jax]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [scs-analysis]: New version: [3.7.1] Old Version: [3.7.0]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [bpm-ai]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [fastapi-msal]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [aiotgm]: Skipping, unable to determine old version
+[2024-04-04 13:00:33] INFO root fetch - processPackages [aiotgm]: Start processing: uav-collision-avoidance
+[2024-04-04 13:00:33] INFO root fetch - main [MainThread]: End processing [aiotgm] error
+[2024-04-04 13:00:33] INFO root fetch - processPackages [scs-core]: New version: [3.9.5] Old Version: [3.9.4]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [blosc2]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/37/a1/f709db7c110f29c2aa2f85ad25f934e22301929eb803964c52d330f6d817/pyhelper_utils-0.0.3.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9c/b7/3be4b93bdb42cf8e4577b6a5424555cdf77d5abd237d740480f6d495fa52/pineboo-0.99.81.8.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [metabeaver]: Downloading https://files.pythonhosted.org/packages/30/e2/e4276aa0acd1313655a490def58ffc543ef38d031346d63c5af5ff339447/metabeaver-0.3.6.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [uav-collision-avoidance]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 13:00:33] INFO root fetch - processPackages [kfac-jax]: Downloading https://files.pythonhosted.org/packages/5e/7c/80a2ebbaf4cd9be99bd2242febdafb359d933e35d5b03a6cb6358ec52109/kfac-jax-0.0.5.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [fastapi-msal]: Downloading https://files.pythonhosted.org/packages/2b/5e/138b8049c6486c5c11c70581c1b8c16c82c2e36a29c521b9be032e90f1e7/fastapi_msal-2.1.4.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/e1/0f/7cf45b9cc2370f0cb5f93f6e6d838e37cfdd3e09f74f47a15abdee336286/scs-analysis-3.7.0.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/ea/f0/af8abb60379b2b951b00c3f549bdd267293a3e08dcfaced4fb83024d47cc/bpm_ai-1.3.0.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/16/0f/cfe27fc1c173550fcd053816dea81df44643bae2859d7c1edf0cce125741/scs-core-3.9.4.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [metabeaver]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [blosc2]: Downloading https://files.pythonhosted.org/packages/26/82/8163b22dfc7d556b4a93d4752ae43ac4ba190d0b96d1431a1e2bca5051c9/blosc2-2.6.0.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [fastapi-msal]: Timeout reached during download
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [bpm-ai]: Timeout reached during download
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [kfac-jax]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/41/04/4cec8cf4bd79e31f289dbd1ebcbfa12f54ba2c25dc60f175bcb7d811d31b/uav-collision-avoidance-0.1.0.tar.gz
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pyhelper-utils]: Downloading https://files.pythonhosted.org/packages/09/cc/5e96da2e30ee3fe358259fc06483b68de77fbe80880df7b7c039274c94c3/pyhelper_utils-0.0.4.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [scs-analysis]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [metabeaver]: Downloading https://files.pythonhosted.org/packages/b6/44/aaece309fbaf27f8b6c521cbb90179c6ed78dac17dd34595ac2c999f965e/metabeaver-0.3.7.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [scs-core]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [fastapi-msal]: Downloading https://files.pythonhosted.org/packages/3b/55/2c33ca4aca8a4e1d7fbed35ee1d3729afa57ccc579882e4ea4bb5922fe94/fastapi_msal-2.1.5.tar.gz
+[2024-04-04 13:00:33] WARNING root fetch - processPackages [pyhelper-utils]: Timeout reached during download
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pyhelper-utils]: executing diffoscope
+[2024-04-04 13:00:33] INFO root fetch - processPackages [pyhelper-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhelper_utils-0.0.3.tar.gz tmp/pyhelper_utils-0.0.4.tar.gz --markdown 20240404/p/pyhelper-utils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [uav-collision-avoidance]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [kfac-jax]: Downloading https://files.pythonhosted.org/packages/ff/92/5d416c3d6e596b04ab47a5f7411915a84a99faaf2b335ea963296aee8375/kfac-jax-0.0.6.tar.gz
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-analysis]: Downloading https://files.pythonhosted.org/packages/b2/cf/fd1d4276734ac40e01163980ade0bfe7bcdaa303d0497a99e7068cf211e1/scs-analysis-3.7.1.tar.gz
+[2024-04-04 13:00:34] INFO root fetch - processPackages [bpm-ai]: Downloading https://files.pythonhosted.org/packages/d4/fe/6239e597bc2c4175638030fe67504653b8ba2dc23aa166696f908dd3bc1d/bpm_ai-1.3.1.tar.gz
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [metabeaver]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [metabeaver]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [metabeaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabeaver-0.3.6.tar.gz tmp/metabeaver-0.3.7.tar.gz --markdown 20240404/m/metabeaver/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [fastapi-msal]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [fastapi-msal]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [fastapi-msal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_msal-2.1.4.tar.gz tmp/fastapi_msal-2.1.5.tar.gz --markdown 20240404/f/fastapi-msal/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-core]: Downloading https://files.pythonhosted.org/packages/57/af/3987873caff8cb82812e00ed94241928f47c7c6cb52e25c3163689be282c/scs-core-3.9.5.tar.gz
+[2024-04-04 13:00:34] INFO root fetch - processPackages [uav-collision-avoidance]: Downloading https://files.pythonhosted.org/packages/6a/96/9496038eaea1ebc12acdeaae852460b03d8ae14c6a3b11074cc859b0ef69/uav_collision_avoidance-0.2.0-py3-none-any.whl
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [blosc2]: Timeout reached during download
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [bpm-ai]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [bpm-ai]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [bpm-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai-1.3.0.tar.gz tmp/bpm_ai-1.3.1.tar.gz --markdown 20240404/b/bpm-ai/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [scs-analysis]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-analysis]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-analysis-3.7.0.tar.gz tmp/scs-analysis-3.7.1.tar.gz --markdown 20240404/s/scs-analysis/3.7.0-3.7.1/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [kfac-jax]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [kfac-jax]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [kfac-jax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfac-jax-0.0.5.tar.gz tmp/kfac-jax-0.0.6.tar.gz --markdown 20240404/k/kfac-jax/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [scs-core]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-core]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [scs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scs-core-3.9.4.tar.gz tmp/scs-core-3.9.5.tar.gz --markdown 20240404/s/scs-core/3.9.4-3.9.5/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] INFO root fetch - processPackages [blosc2]: Downloading https://files.pythonhosted.org/packages/87/99/3d9e1b25048a89acf7837267b787dde5883b22072be944f5195f0af960b3/blosc2-2.6.1.tar.gz
+[2024-04-04 13:00:34] WARNING root fetch - processPackages [uav-collision-avoidance]: Timeout reached during download
+[2024-04-04 13:00:34] INFO root fetch - processPackages [uav-collision-avoidance]: executing diffoscope
+[2024-04-04 13:00:34] INFO root fetch - processPackages [uav-collision-avoidance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uav-collision-avoidance-0.1.0.tar.gz tmp/uav_collision_avoidance-0.2.0-py3-none-any.whl.zip --markdown 20240404/u/uav-collision-avoidance/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 13:00:34] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.3.tar.gz]
+[2024-04-04 13:00:34] INFO root fetch - processPackages [pyhelper-utils]: Remove: archive file [/home/abi/fetcher/tmp/pyhelper_utils-0.0.4.tar.gz]
+[2024-04-04 13:00:34] INFO root fetch - processPackages [pyhelper-utils]: Start processing: misspy
+[2024-04-04 13:00:34] INFO root fetch - main [MainThread]: End processing [pyhelper-utils]: success
+[2024-04-04 13:00:34] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ff/50/87775691723da3f9e064c08195196296b4854a665f9ed79f579caf49283d/pineboo-0.99.81.9.tar.gz
+[2024-04-04 13:00:34] INFO root fetch - processPackages [misspy]: New version: [2024.4.0] Old Version: [2023.9.17rc1]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [misspy]: Downloading https://files.pythonhosted.org/packages/14/3d/68ea314f54962cecde87a49916b4fcaf6ecddfd21f9ed4a909082f20af70/misspy-2023.9.17rc1.tar.gz
+[2024-04-04 13:00:35] WARNING root fetch - processPackages [misspy]: Timeout reached during download
+[2024-04-04 13:00:35] INFO root fetch - processPackages [metabeaver]: Remove: archive file [/home/abi/fetcher/tmp/metabeaver-0.3.6.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [metabeaver]: Remove: archive file [/home/abi/fetcher/tmp/metabeaver-0.3.7.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [metabeaver]: success
+[2024-04-04 13:00:35] INFO root fetch - processPackages [fastapi-msal]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_msal-2.1.4.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [fastapi-msal]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_msal-2.1.5.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [fastapi-msal]: success
+[2024-04-04 13:00:35] INFO root fetch - processPackages [misspy]: Downloading https://files.pythonhosted.org/packages/3a/c2/d7dee71d32b812540951324550975bae88af7e91c33015d2116a48c27b78/misspy-2024.4.0.tar.gz
+[2024-04-04 13:00:35] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.3.0.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [bpm-ai]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai-1.3.1.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [bpm-ai]: success
+[2024-04-04 13:00:35] WARNING root fetch - processPackages [misspy]: Timeout reached during download
+[2024-04-04 13:00:35] INFO root fetch - processPackages [misspy]: executing diffoscope
+[2024-04-04 13:00:35] INFO root fetch - processPackages [misspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misspy-2023.9.17rc1.tar.gz tmp/misspy-2024.4.0.tar.gz --markdown 20240404/m/misspy/2023.9.17rc1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-04 13:00:35] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav-collision-avoidance-0.1.0.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [uav-collision-avoidance]: Remove: archive file [/home/abi/fetcher/tmp/uav_collision_avoidance-0.2.0-py3-none-any.whl.zip]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [uav-collision-avoidance]: success
+[2024-04-04 13:00:35] INFO root fetch - processPackages [kfac-jax]: Remove: archive file [/home/abi/fetcher/tmp/kfac-jax-0.0.5.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [kfac-jax]: Remove: archive file [/home/abi/fetcher/tmp/kfac-jax-0.0.6.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [kfac-jax]: success
+[2024-04-04 13:00:35] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-3.7.0.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - processPackages [scs-analysis]: Remove: archive file [/home/abi/fetcher/tmp/scs-analysis-3.7.1.tar.gz]
+[2024-04-04 13:00:35] INFO root fetch - main [MainThread]: End processing [scs-analysis]: success
+[2024-04-04 13:00:36] INFO root fetch - processPackages [misspy]: Remove: archive file [/home/abi/fetcher/tmp/misspy-2023.9.17rc1.tar.gz]
+[2024-04-04 13:00:36] INFO root fetch - processPackages [misspy]: Remove: archive file [/home/abi/fetcher/tmp/misspy-2024.4.0.tar.gz]
+[2024-04-04 13:00:36] INFO root fetch - main [MainThread]: End processing [misspy]: success
+[2024-04-04 13:00:36] WARNING root fetch - processPackages [blosc2]: Timeout reached during download
+[2024-04-04 13:00:36] INFO root fetch - processPackages [blosc2]: executing diffoscope
+[2024-04-04 13:00:36] INFO root fetch - processPackages [blosc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blosc2-2.6.0.tar.gz tmp/blosc2-2.6.1.tar.gz --markdown 20240404/b/blosc2/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2024-04-04 13:00:36] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:00:36] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 13:00:36] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.8.tar.gz tmp/pineboo-0.99.81.9.tar.gz --markdown 20240404/p/pineboo/0.99.81.8-0.99.81.9/diff.md --exclude *.pyd
+[2024-04-04 13:00:36] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.4.tar.gz]
+[2024-04-04 13:00:36] INFO root fetch - processPackages [scs-core]: Remove: archive file [/home/abi/fetcher/tmp/scs-core-3.9.5.tar.gz]
+[2024-04-04 13:00:36] INFO root fetch - main [MainThread]: End processing [scs-core]: success
+[2024-04-04 13:00:39] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.8.tar.gz]
+[2024-04-04 13:00:39] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
+[2024-04-04 13:00:39] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 13:00:40] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.6.0.tar.gz]
+[2024-04-04 13:00:40] INFO root fetch - processPackages [blosc2]: Remove: archive file [/home/abi/fetcher/tmp/blosc2-2.6.1.tar.gz]
+[2024-04-04 13:00:40] INFO root fetch - main [MainThread]: End processing [blosc2]: success
+[2024-04-04 13:00:40] INFO root fetch - main [MainThread]: Store serial: [22618864]
