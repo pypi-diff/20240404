@@ -17117,3 +17117,50 @@
 [2024-04-04 10:10:41] INFO root fetch - processPackages [alcedo]: Remove: archive file [/home/abi/fetcher/tmp/alcedo-0.1.6.tar.gz]
 [2024-04-04 10:10:41] INFO root fetch - main [MainThread]: End processing [alcedo]: success
 [2024-04-04 10:10:41] INFO root fetch - main [MainThread]: Store serial: [22616965]
+[2024-04-04 10:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616965]
+[2024-04-04 10:12:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wayfarer
+[2024-04-04 10:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macro-kit
+[2024-04-04 10:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: antigranular-enterprise
+[2024-04-04 10:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: itkdb-gtk
+[2024-04-04 10:12:50] INFO root fetch - processPackages [wayfarer]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-04 10:12:50] INFO root fetch - processPackages [macro-kit]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 10:12:50] INFO root fetch - processPackages [itkdb-gtk]: New version: [0.9.0] Old Version: [0.0.9]
+[2024-04-04 10:12:50] INFO root fetch - processPackages [antigranular-enterprise]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:12:50] INFO root fetch - processPackages [wayfarer]: Downloading https://files.pythonhosted.org/packages/50/9b/b637c5f3c01eda5eecf96bdc64be222dc0c5698ea127577dd9bb484bfc6a/wayfarer-0.9.5.tar.gz
+[2024-04-04 10:12:50] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/23/f4/9a006155ca8c6ccd7772765f26176282238d12e2dc9fd0d43e7f9adb2495/macro_kit-0.4.8.tar.gz
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [wayfarer]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/7a/30/d0b186b3efe21bfd0547bf98065ec44276dff81d4635fba9babb043643f3/itkdb_gtk-0.0.9.tar.gz
+[2024-04-04 10:12:51] INFO root fetch - processPackages [antigranular-enterprise]: Downloading https://files.pythonhosted.org/packages/dc/48/f85d1c91a1eb7c426d4fa1547c6be50a626792f013105f0894512a870b7d/antigranular_enterprise-0.0.8.tar.gz
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [macro-kit]: Timeout reached during download
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [antigranular-enterprise]: Timeout reached during download
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [itkdb-gtk]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [wayfarer]: Downloading https://files.pythonhosted.org/packages/41/5c/86e2c23fd1d7ccf161826a2a2faec2bb21c9f0ed9028fc3fbeedd9814af9/wayfarer-0.9.6.tar.gz
+[2024-04-04 10:12:51] INFO root fetch - processPackages [macro-kit]: Downloading https://files.pythonhosted.org/packages/97/8d/5d26d15c933aab73799d622c672c0f3c88e979c88fe8f4566d4bb2f8bc70/macro_kit-0.4.9.tar.gz
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [wayfarer]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [wayfarer]: executing diffoscope
+[2024-04-04 10:12:51] INFO root fetch - processPackages [wayfarer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wayfarer-0.9.5.tar.gz tmp/wayfarer-0.9.6.tar.gz --markdown 20240404/w/wayfarer/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-04 10:12:51] INFO root fetch - processPackages [antigranular-enterprise]: Downloading https://files.pythonhosted.org/packages/5d/18/702094ea5066cebb773782930cf6b5542d08502fa3475a55793509e8c859/antigranular_enterprise-0.0.9.tar.gz
+[2024-04-04 10:12:51] INFO root fetch - processPackages [itkdb-gtk]: Downloading https://files.pythonhosted.org/packages/1a/b8/7833d7c1b2daafa9d6f24f8602ffcdba3f8ef0d826aa1c272cabd5e979af/itkdb_gtk-0.9.0.tar.gz
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [macro-kit]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [macro-kit]: executing diffoscope
+[2024-04-04 10:12:51] INFO root fetch - processPackages [macro-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macro_kit-0.4.8.tar.gz tmp/macro_kit-0.4.9.tar.gz --markdown 20240404/m/macro-kit/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [antigranular-enterprise]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [antigranular-enterprise]: executing diffoscope
+[2024-04-04 10:12:51] INFO root fetch - processPackages [antigranular-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular_enterprise-0.0.8.tar.gz tmp/antigranular_enterprise-0.0.9.tar.gz --markdown 20240404/a/antigranular-enterprise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:12:51] WARNING root fetch - processPackages [itkdb-gtk]: Timeout reached during download
+[2024-04-04 10:12:51] INFO root fetch - processPackages [itkdb-gtk]: executing diffoscope
+[2024-04-04 10:12:51] INFO root fetch - processPackages [itkdb-gtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itkdb_gtk-0.0.9.tar.gz tmp/itkdb_gtk-0.9.0.tar.gz --markdown 20240404/i/itkdb-gtk/0.0.9-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:12:52] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.8.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - processPackages [macro-kit]: Remove: archive file [/home/abi/fetcher/tmp/macro_kit-0.4.9.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - main [MainThread]: End processing [macro-kit]: success
+[2024-04-04 10:12:52] INFO root fetch - processPackages [antigranular-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/antigranular_enterprise-0.0.8.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - processPackages [antigranular-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/antigranular_enterprise-0.0.9.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - main [MainThread]: End processing [antigranular-enterprise]: success
+[2024-04-04 10:12:52] INFO root fetch - processPackages [wayfarer]: Remove: archive file [/home/abi/fetcher/tmp/wayfarer-0.9.5.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - processPackages [wayfarer]: Remove: archive file [/home/abi/fetcher/tmp/wayfarer-0.9.6.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - main [MainThread]: End processing [wayfarer]: success
+[2024-04-04 10:12:52] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.0.9.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - processPackages [itkdb-gtk]: Remove: archive file [/home/abi/fetcher/tmp/itkdb_gtk-0.9.0.tar.gz]
+[2024-04-04 10:12:52] INFO root fetch - main [MainThread]: End processing [itkdb-gtk]: success
+[2024-04-04 10:12:52] INFO root fetch - main [MainThread]: Store serial: [22616982]
