@@ -2922,3 +2922,50 @@
 [2024-04-04 02:05:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240404.424.tar.gz]
 [2024-04-04 02:05:10] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-04 02:05:10] INFO root fetch - main [MainThread]: Store serial: [22612595]
+[2024-04-04 02:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612595]
+[2024-04-04 02:07:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 02:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: salientsdk
+[2024-04-04 02:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygame-util
+[2024-04-04 02:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxutils-nightly
+[2024-04-04 02:07:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: squaredown
+[2024-04-04 02:07:19] INFO root fetch - processPackages [pygame-util]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 02:07:19] INFO root fetch - processPackages [salientsdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-04 02:07:19] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240403] Old Version: [0.0.8.dev20240402]
+[2024-04-04 02:07:19] INFO root fetch - processPackages [squaredown]: New version: [1.5.1] Old Version: [1.4.3]
+[2024-04-04 02:07:19] INFO root fetch - processPackages [pygame-util]: Downloading https://files.pythonhosted.org/packages/ce/08/75ffb120ee329087a49b6cfa6794f1eb93b26d39f3bf2ddf9ff1e46e5b48/pygame_util-1.0.1.tar.gz
+[2024-04-04 02:07:19] INFO root fetch - processPackages [salientsdk]: Downloading https://files.pythonhosted.org/packages/21/ba/5acce3777bd67150befe6b45645430e5b67a1b9f96f45988ccc4569913a0/salientsdk-0.1.3.tar.gz
+[2024-04-04 02:07:19] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/93/4a/0b7ff8564f605f7dd532ddc7c47baef59c97069cd6edb75502e7533cd4de/jaxutils-nightly-0.0.8.dev20240402.tar.gz
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [pygame-util]: Timeout reached during download
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [salientsdk]: Timeout reached during download
+[2024-04-04 02:07:19] INFO root fetch - processPackages [squaredown]: Downloading https://files.pythonhosted.org/packages/a1/98/7d58080c83556bc5f47fdb4a75ff832d09cdc3b44831251cedabb513e2c7/squaredown-1.4.3.tar.gz
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-04 02:07:19] INFO root fetch - processPackages [pygame-util]: Downloading https://files.pythonhosted.org/packages/75/9b/ee090b61d685513afb5c54aaf048e1ab7130961d29d8b94b6b6846cbd588/pygame_util-1.0.2.tar.gz
+[2024-04-04 02:07:19] INFO root fetch - processPackages [salientsdk]: Downloading https://files.pythonhosted.org/packages/79/bd/2a9b7ee1a6d9bb61d19c900c03ee5dfde2c19f00837100b7271350c2ecbf/salientsdk-0.1.4.tar.gz
+[2024-04-04 02:07:19] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/56/d1/7b9818f8934071e07a1109fe04de081e1fe06db6cd03ed7aff7e68e51754/jaxutils-nightly-0.0.8.dev20240403.tar.gz
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [pygame-util]: Timeout reached during download
+[2024-04-04 02:07:19] INFO root fetch - processPackages [pygame-util]: executing diffoscope
+[2024-04-04 02:07:19] INFO root fetch - processPackages [pygame-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_util-1.0.1.tar.gz tmp/pygame_util-1.0.2.tar.gz --markdown 20240404/p/pygame-util/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [squaredown]: Timeout reached during download
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [jaxutils-nightly]: Timeout reached during download
+[2024-04-04 02:07:19] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-04 02:07:19] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240403.tar.gz --markdown 20240404/j/jaxutils-nightly/0.0.8.dev20240402-0.0.8.dev20240403/diff.md --exclude *.pyd
+[2024-04-04 02:07:19] WARNING root fetch - processPackages [salientsdk]: Timeout reached during download
+[2024-04-04 02:07:19] INFO root fetch - processPackages [salientsdk]: executing diffoscope
+[2024-04-04 02:07:19] INFO root fetch - processPackages [salientsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salientsdk-0.1.3.tar.gz tmp/salientsdk-0.1.4.tar.gz --markdown 20240404/s/salientsdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-04 02:07:19] INFO root fetch - processPackages [squaredown]: Downloading https://files.pythonhosted.org/packages/d7/e7/05d9433cea6534db33a0a24f5090f07d51acc159146a43891ced8ddabe02/squaredown-1.5.1.tar.gz
+[2024-04-04 02:07:20] WARNING root fetch - processPackages [squaredown]: Timeout reached during download
+[2024-04-04 02:07:20] INFO root fetch - processPackages [squaredown]: executing diffoscope
+[2024-04-04 02:07:20] INFO root fetch - processPackages [squaredown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/squaredown-1.4.3.tar.gz tmp/squaredown-1.5.1.tar.gz --markdown 20240404/s/squaredown/1.4.3-1.5.1/diff.md --exclude *.pyd
+[2024-04-04 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240403.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-04 02:07:20] INFO root fetch - processPackages [pygame-util]: Remove: archive file [/home/abi/fetcher/tmp/pygame_util-1.0.1.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - processPackages [pygame-util]: Remove: archive file [/home/abi/fetcher/tmp/pygame_util-1.0.2.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - main [MainThread]: End processing [pygame-util]: success
+[2024-04-04 02:07:20] INFO root fetch - processPackages [salientsdk]: Remove: archive file [/home/abi/fetcher/tmp/salientsdk-0.1.3.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - processPackages [salientsdk]: Remove: archive file [/home/abi/fetcher/tmp/salientsdk-0.1.4.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - main [MainThread]: End processing [salientsdk]: success
+[2024-04-04 02:07:20] INFO root fetch - processPackages [squaredown]: Remove: archive file [/home/abi/fetcher/tmp/squaredown-1.4.3.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - processPackages [squaredown]: Remove: archive file [/home/abi/fetcher/tmp/squaredown-1.5.1.tar.gz]
+[2024-04-04 02:07:20] INFO root fetch - main [MainThread]: End processing [squaredown]: success
+[2024-04-04 02:07:20] INFO root fetch - main [MainThread]: Store serial: [22612607]
