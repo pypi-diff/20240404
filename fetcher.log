@@ -2781,3 +2781,17 @@
 [2024-04-04 01:58:39] INFO root fetch - processPackages [fms-hf-tuning]: Remove: archive file [/home/abi/fetcher/tmp/fms-hf-tuning-1.0.dev2.tar.gz]
 [2024-04-04 01:58:39] INFO root fetch - main [MainThread]: End processing [fms-hf-tuning]: success
 [2024-04-04 01:58:39] INFO root fetch - main [MainThread]: Store serial: [22612560]
+[2024-04-04 02:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612560]
+[2024-04-04 02:00:47] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 02:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enum-with-dict
+[2024-04-04 02:00:47] INFO root fetch - processPackages [enum-with-dict]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-04 02:00:47] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/cc/51/d4d17bcc6af129bc0741eb5d6a8fa6fe9a1f715bc80c1ecebd9e43cb96a1/enum_with_dict-0.5.1.tar.gz
+[2024-04-04 02:00:48] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/aa/24/0a76557f6f9e612e74e78d824cee072774a19043c5beeec7fd604a1ecc28/enum_with_dict-0.5.2.tar.gz
+[2024-04-04 02:00:48] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.5.1.tar.gz tmp/enum_with_dict-0.5.2.tar.gz --markdown 20240404/e/enum-with-dict/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.1.tar.gz]
+[2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.2.tar.gz]
+[2024-04-04 02:00:48] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 02:00:48] INFO root fetch - main [MainThread]: Store serial: [22612563]
