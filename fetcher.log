@@ -24183,3 +24183,86 @@
 [2024-04-04 14:15:41] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8-py3-none-any.whl.zip]
 [2024-04-04 14:15:41] INFO root fetch - main [MainThread]: End processing [logs-py]: success
 [2024-04-04 14:15:41] INFO root fetch - main [MainThread]: Store serial: [22619625]
+[2024-04-04 14:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619625]
+[2024-04-04 14:17:50] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remotivelabs-cli
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mal-toolbox
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imio.events.core
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gemsembler
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lissajou
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gdmath
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-04-04 14:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reach_commons
+[2024-04-04 14:17:50] INFO root fetch - processPackages [imio.events.core]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [mal-toolbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [gemsembler]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [remotivelabs-cli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 14:17:50] WARNING root fetch - processPackages [lissajou]: Skipping, unable to determine old version
+[2024-04-04 14:17:50] INFO root fetch - main [MainThread]: End processing [lissajou] error
+[2024-04-04 14:17:50] INFO root fetch - processPackages [reach_commons]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [gdmath]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-04 14:17:50] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-04 14:17:50] INFO root fetch - processPackages [reach_commons]: Downloading https://files.pythonhosted.org/packages/fc/ea/15a3e4a7372ff2a246ef699f0c4811b207053d9cff5f447d5e7ccb555b6b/reach_commons-0.9.8.tar.gz
+[2024-04-04 14:17:50] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/da/94/d1975f7b0d3b496b7c245534ba53e332dc4e8edd9f74395eb5451eae1d5c/mal_toolbox-0.0.8-py3-none-any.whl
+[2024-04-04 14:17:50] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/3b/fd/79e7ba716a05f515a6a688ad2370dff4d07c2222729e76ae6c60674682da/remotivelabs_cli-0.0.8.tar.gz
+[2024-04-04 14:17:50] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/a7/63/c59272dfd7c1a5658df92ebe74fa3e45a0ddfa45d287e0eed6b094c32588/imio.events.core-1.2.8.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [reach_commons]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/24/6d/09620705f82009134c75841c00c2de8667795d9a7643d287063e26086a15/gemsembler-0.6.1.tar.gz
+[2024-04-04 14:17:51] INFO root fetch - processPackages [gdmath]: Downloading https://files.pythonhosted.org/packages/da/36/5ad4c3db56afd8aed587050d92953577056751f1b3e3e1cd35402f821555/gdmath-1.4.2.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [mal-toolbox]: Timeout reached during download
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [remotivelabs-cli]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [imio.events.core]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [reach_commons]: Downloading https://files.pythonhosted.org/packages/34/22/42e41dd27d78d03534a3724f64e9db37108179bc622cb0bd649c23e3bfad/reach_commons-0.9.9.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [gdmath]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [mal-toolbox]: Downloading https://files.pythonhosted.org/packages/43/04/a3947b63ee2dc52298ce2df6a9af62fb76495dfda933c79baa7caccbbf34/mal_toolbox-0.0.9-py3-none-any.whl
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-04 14:17:51] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240404/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [reach_commons]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [reach_commons]: executing diffoscope
+[2024-04-04 14:17:51] INFO root fetch - processPackages [reach_commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reach_commons-0.9.8.tar.gz tmp/reach_commons-0.9.9.tar.gz --markdown 20240404/r/reach_commons/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 14:17:51] INFO root fetch - processPackages [gdmath]: Downloading https://files.pythonhosted.org/packages/77/41/6eeb3ee1e7d5e0e6156db9154f2c26d32b2f96c9b20f729bfc1a144678ba/gdmath-1.4.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-04 14:17:51] INFO root fetch - processPackages [remotivelabs-cli]: Downloading https://files.pythonhosted.org/packages/0c/3e/84ff7ca9531958216971482f3794fba3c060ca8d5817d6d05e8b1fefdfa4/remotivelabs_cli-0.0.9.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [gemsembler]: Timeout reached during download
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [mal-toolbox]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [mal-toolbox]: executing diffoscope
+[2024-04-04 14:17:51] INFO root fetch - processPackages [mal-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip --markdown 20240404/m/mal-toolbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:17:51] INFO root fetch - processPackages [imio.events.core]: Downloading https://files.pythonhosted.org/packages/33/1c/6948ace023880b067772f3bccefa1ccfec9a502c04b9597dbb3042c14d2f/imio.events.core-1.2.9.tar.gz
+[2024-04-04 14:17:51] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/df/a3/40168c2fef4f8f049a6c30915f53164338d3c9ee816ace24a92a5a5795cf/gemsembler-0.6.2.tar.gz
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [imio.events.core]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [imio.events.core]: executing diffoscope
+[2024-04-04 14:17:51] INFO root fetch - processPackages [imio.events.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.events.core-1.2.8.tar.gz tmp/imio.events.core-1.2.9.tar.gz --markdown 20240404/i/imio.events.core/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 14:17:51] WARNING root fetch - processPackages [remotivelabs-cli]: Timeout reached during download
+[2024-04-04 14:17:51] INFO root fetch - processPackages [remotivelabs-cli]: executing diffoscope
+[2024-04-04 14:17:51] INFO root fetch - processPackages [remotivelabs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotivelabs_cli-0.0.8.tar.gz tmp/remotivelabs_cli-0.0.9.tar.gz --markdown 20240404/r/remotivelabs-cli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:17:52] WARNING root fetch - processPackages [gemsembler]: Timeout reached during download
+[2024-04-04 14:17:52] INFO root fetch - processPackages [gemsembler]: executing diffoscope
+[2024-04-04 14:17:52] INFO root fetch - processPackages [gemsembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemsembler-0.6.1.tar.gz tmp/gemsembler-0.6.2.tar.gz --markdown 20240404/g/gemsembler/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-04 14:17:52] INFO root fetch - processPackages [reach_commons]: Remove: archive file [/home/abi/fetcher/tmp/reach_commons-0.9.8.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - processPackages [reach_commons]: Remove: archive file [/home/abi/fetcher/tmp/reach_commons-0.9.9.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - main [MainThread]: End processing [reach_commons]: success
+[2024-04-04 14:17:52] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.8-py3-none-any.whl.zip]
+[2024-04-04 14:17:52] INFO root fetch - processPackages [mal-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/mal_toolbox-0.0.9-py3-none-any.whl.zip]
+[2024-04-04 14:17:52] INFO root fetch - main [MainThread]: End processing [mal-toolbox]: success
+[2024-04-04 14:17:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.8.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - processPackages [remotivelabs-cli]: Remove: archive file [/home/abi/fetcher/tmp/remotivelabs_cli-0.0.9.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - main [MainThread]: End processing [remotivelabs-cli]: success
+[2024-04-04 14:17:52] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.8.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - processPackages [imio.events.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.events.core-1.2.9.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - main [MainThread]: End processing [imio.events.core]: success
+[2024-04-04 14:17:52] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-04 14:17:52] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-04 14:17:52] WARNING root fetch - processPackages [gdmath]: Timeout reached during download
+[2024-04-04 14:17:52] INFO root fetch - processPackages [gdmath]: executing diffoscope
+[2024-04-04 14:17:52] INFO root fetch - processPackages [gdmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdmath-1.4.2.tar.gz tmp/gdmath-1.4.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240404/g/gdmath/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2024-04-04 14:17:53] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.1.tar.gz]
+[2024-04-04 14:17:53] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.2.tar.gz]
+[2024-04-04 14:17:53] INFO root fetch - main [MainThread]: End processing [gemsembler]: success
+[2024-04-04 14:17:54] INFO root fetch - processPackages [gdmath]: Remove: archive file [/home/abi/fetcher/tmp/gdmath-1.4.2.tar.gz]
+[2024-04-04 14:17:54] INFO root fetch - processPackages [gdmath]: Remove: archive file [/home/abi/fetcher/tmp/gdmath-1.4.3-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-04 14:17:54] INFO root fetch - main [MainThread]: End processing [gdmath]: success
+[2024-04-04 14:17:54] INFO root fetch - main [MainThread]: Store serial: [22619674]
