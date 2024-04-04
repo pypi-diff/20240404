@@ -21170,3 +21170,39 @@
 [2024-04-04 12:27:04] INFO root fetch - processPackages [sphractal]: Remove: archive file [/home/abi/fetcher/tmp/sphractal-1.1.2.tar.gz]
 [2024-04-04 12:27:04] INFO root fetch - main [MainThread]: End processing [sphractal]: success
 [2024-04-04 12:27:04] INFO root fetch - main [MainThread]: Store serial: [22618489]
+[2024-04-04 12:29:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618489]
+[2024-04-04 12:29:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-dash-components
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pineboo
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trmnl-colors
+[2024-04-04 12:29:14] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.6] Old Version: [0.99.81.5]
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ssb-dash-components]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-04 12:29:14] INFO root fetch - processPackages [trmnl-colors]: New version: [4.0.8] Old Version: [4.0.6]
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/cb/29/742590873f5a0501aef506fb0fef10f9675a354667b8ef97c795752362d6/ssb_dash_components-0.5.4.tar.gz
+[2024-04-04 12:29:14] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9b/3e/89425dd86993d579d512b386463fe249199c653136e49a43badfaf1d8e95/pineboo-0.99.81.5.tar.gz
+[2024-04-04 12:29:14] INFO root fetch - processPackages [trmnl-colors]: Downloading https://files.pythonhosted.org/packages/cf/15/741ae029fc2f1827f6d908b335c296900f39916afbde165030c41c1dbea3/trmnl-colors-4.0.6.tar.gz
+[2024-04-04 12:29:14] WARNING root fetch - processPackages [ssb-dash-components]: Timeout reached during download
+[2024-04-04 12:29:14] WARNING root fetch - processPackages [trmnl-colors]: Timeout reached during download
+[2024-04-04 12:29:14] INFO root fetch - processPackages [ssb-dash-components]: Downloading https://files.pythonhosted.org/packages/65/d3/fce8df6d6efe94d95b1517c848b4f1755c3fd897c34b56b0bbcbd3560d0d/ssb_dash_components-0.5.5.tar.gz
+[2024-04-04 12:29:15] INFO root fetch - processPackages [trmnl-colors]: Downloading https://files.pythonhosted.org/packages/7c/79/99c6afe7cb61a664d82fa44dc7ef911ad2869a0d4a3f9542c4c65e7a901b/trmnl-colors-4.0.8.tar.gz
+[2024-04-04 12:29:15] WARNING root fetch - processPackages [ssb-dash-components]: Timeout reached during download
+[2024-04-04 12:29:15] INFO root fetch - processPackages [ssb-dash-components]: executing diffoscope
+[2024-04-04 12:29:15] INFO root fetch - processPackages [ssb-dash-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_dash_components-0.5.4.tar.gz tmp/ssb_dash_components-0.5.5.tar.gz --markdown 20240404/s/ssb-dash-components/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-04 12:29:15] WARNING root fetch - processPackages [trmnl-colors]: Timeout reached during download
+[2024-04-04 12:29:15] INFO root fetch - processPackages [trmnl-colors]: executing diffoscope
+[2024-04-04 12:29:15] INFO root fetch - processPackages [trmnl-colors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trmnl-colors-4.0.6.tar.gz tmp/trmnl-colors-4.0.8.tar.gz --markdown 20240404/t/trmnl-colors/4.0.6-4.0.8/diff.md --exclude *.pyd
+[2024-04-04 12:29:15] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 12:29:15] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ae/89/5c184b02a65fb705d3e59e1ccf63bbb74c3a2fd3f8edc6df1fdcd0690190/pineboo-0.99.81.6.tar.gz
+[2024-04-04 12:29:15] INFO root fetch - processPackages [trmnl-colors]: Remove: archive file [/home/abi/fetcher/tmp/trmnl-colors-4.0.6.tar.gz]
+[2024-04-04 12:29:15] INFO root fetch - processPackages [trmnl-colors]: Remove: archive file [/home/abi/fetcher/tmp/trmnl-colors-4.0.8.tar.gz]
+[2024-04-04 12:29:15] INFO root fetch - main [MainThread]: End processing [trmnl-colors]: success
+[2024-04-04 12:29:16] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 12:29:16] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 12:29:16] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.5.tar.gz tmp/pineboo-0.99.81.6.tar.gz --markdown 20240404/p/pineboo/0.99.81.5-0.99.81.6/diff.md --exclude *.pyd
+[2024-04-04 12:29:16] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.5.4.tar.gz]
+[2024-04-04 12:29:16] INFO root fetch - processPackages [ssb-dash-components]: Remove: archive file [/home/abi/fetcher/tmp/ssb_dash_components-0.5.5.tar.gz]
+[2024-04-04 12:29:16] INFO root fetch - main [MainThread]: End processing [ssb-dash-components]: success
+[2024-04-04 12:29:19] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.5.tar.gz]
+[2024-04-04 12:29:19] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.6.tar.gz]
+[2024-04-04 12:29:19] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 12:29:19] INFO root fetch - main [MainThread]: Store serial: [22618533]
