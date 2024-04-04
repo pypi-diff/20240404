@@ -15532,3 +15532,28 @@
 [2024-04-04 09:06:16] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.7.tar.gz]
 [2024-04-04 09:06:16] INFO root fetch - main [MainThread]: End processing [casioplot]: success
 [2024-04-04 09:06:16] INFO root fetch - main [MainThread]: Store serial: [22616488]
+[2024-04-04 09:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616488]
+[2024-04-04 09:08:25] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 09:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: holcstore
+[2024-04-04 09:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: basedpyright
+[2024-04-04 09:08:25] INFO root fetch - processPackages [holcstore]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 09:08:25] INFO root fetch - processPackages [basedpyright]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-04 09:08:25] INFO root fetch - processPackages [holcstore]: Downloading https://files.pythonhosted.org/packages/21/d9/f150569b765890e0840397e2a4785ef41091e9b8dd05f0b3ffff4718b650/holcstore-0.1.5.tar.gz
+[2024-04-04 09:08:25] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/26/44/5a2133702c84267dbf7d857ab2af540cc6ea592efda497369d97dbf4e1bf/basedpyright-1.8.0.tar.gz
+[2024-04-04 09:08:25] WARNING root fetch - processPackages [holcstore]: Timeout reached during download
+[2024-04-04 09:08:25] INFO root fetch - processPackages [holcstore]: Downloading https://files.pythonhosted.org/packages/36/08/bf6649aa4d6f105715a45ae774cbc7770ba7238922d807a77b3772a5e915/holcstore-0.1.6.tar.gz
+[2024-04-04 09:08:26] WARNING root fetch - processPackages [holcstore]: Timeout reached during download
+[2024-04-04 09:08:26] INFO root fetch - processPackages [holcstore]: executing diffoscope
+[2024-04-04 09:08:26] INFO root fetch - processPackages [holcstore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holcstore-0.1.5.tar.gz tmp/holcstore-0.1.6.tar.gz --markdown 20240404/h/holcstore/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 09:08:26] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-04 09:08:26] INFO root fetch - processPackages [basedpyright]: Downloading https://files.pythonhosted.org/packages/04/34/97132270879839d644d10df18ac5c2390d425fd082dc74de2016d30314fd/basedpyright-1.9.0.tar.gz
+[2024-04-04 09:08:26] INFO root fetch - processPackages [holcstore]: Remove: archive file [/home/abi/fetcher/tmp/holcstore-0.1.5.tar.gz]
+[2024-04-04 09:08:26] INFO root fetch - processPackages [holcstore]: Remove: archive file [/home/abi/fetcher/tmp/holcstore-0.1.6.tar.gz]
+[2024-04-04 09:08:26] INFO root fetch - main [MainThread]: End processing [holcstore]: success
+[2024-04-04 09:08:27] WARNING root fetch - processPackages [basedpyright]: Timeout reached during download
+[2024-04-04 09:08:27] INFO root fetch - processPackages [basedpyright]: executing diffoscope
+[2024-04-04 09:08:27] INFO root fetch - processPackages [basedpyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basedpyright-1.8.0.tar.gz tmp/basedpyright-1.9.0.tar.gz --markdown 20240404/b/basedpyright/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 09:09:38] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.8.0.tar.gz]
+[2024-04-04 09:09:38] INFO root fetch - processPackages [basedpyright]: Remove: archive file [/home/abi/fetcher/tmp/basedpyright-1.9.0.tar.gz]
+[2024-04-04 09:09:38] INFO root fetch - main [MainThread]: End processing [basedpyright]: success
+[2024-04-04 09:09:38] INFO root fetch - main [MainThread]: Store serial: [22616494]
