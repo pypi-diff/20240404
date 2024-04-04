@@ -11152,3 +11152,28 @@
 [2024-04-04 05:23:32] INFO root fetch - processPackages [clipkit]: Remove: archive file [/home/abi/fetcher/tmp/clipkit-2.2.5.tar.gz]
 [2024-04-04 05:23:32] INFO root fetch - main [MainThread]: End processing [clipkit]: success
 [2024-04-04 05:23:32] INFO root fetch - main [MainThread]: Store serial: [22615113]
+[2024-04-04 05:25:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615113]
+[2024-04-04 05:25:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 05:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: danbi
+[2024-04-04 05:25:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gammath-spot
+[2024-04-04 05:25:41] INFO root fetch - processPackages [danbi]: New version: [0.2.187] Old Version: [0.2.186]
+[2024-04-04 05:25:41] INFO root fetch - processPackages [gammath-spot]: New version: [9.5] Old Version: [9.3]
+[2024-04-04 05:25:41] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/20/b3/629b6a532a23f41e84529bc298eef0d5c5086bb56c5c6c7c8479ac5700fc/danbi-0.2.186.tar.gz
+[2024-04-04 05:25:41] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 05:25:41] INFO root fetch - processPackages [gammath-spot]: Downloading https://files.pythonhosted.org/packages/c0/03/1dd78e5b03ecddece33b22a8cdc345eb1180ba3cce1414f4ccf4e71746f1/gammath_spot-9.3.tar.gz
+[2024-04-04 05:25:41] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/76/95/09dcff46de8650b252bb4baf3217005b3689de6eb410169c2634b9d4bf15/danbi-0.2.187.tar.gz
+[2024-04-04 05:25:41] WARNING root fetch - processPackages [gammath-spot]: Timeout reached during download
+[2024-04-04 05:25:41] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 05:25:41] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 05:25:41] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.186.tar.gz tmp/danbi-0.2.187.tar.gz --markdown 20240404/d/danbi/0.2.186-0.2.187/diff.md --exclude *.pyd
+[2024-04-04 05:25:41] INFO root fetch - processPackages [gammath-spot]: Downloading https://files.pythonhosted.org/packages/d1/8e/4faa5f1670eb9302dfb910ff09d828b562f2b0b2f0be10504f69fac9e2f6/gammath_spot-9.5.tar.gz
+[2024-04-04 05:25:42] WARNING root fetch - processPackages [gammath-spot]: Timeout reached during download
+[2024-04-04 05:25:42] INFO root fetch - processPackages [gammath-spot]: executing diffoscope
+[2024-04-04 05:25:42] INFO root fetch - processPackages [gammath-spot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammath_spot-9.3.tar.gz tmp/gammath_spot-9.5.tar.gz --markdown 20240404/g/gammath-spot/9.3-9.5/diff.md --exclude *.pyd
+[2024-04-04 05:25:42] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.186.tar.gz]
+[2024-04-04 05:25:42] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.187.tar.gz]
+[2024-04-04 05:25:42] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 05:25:42] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.3.tar.gz]
+[2024-04-04 05:25:42] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.5.tar.gz]
+[2024-04-04 05:25:42] INFO root fetch - main [MainThread]: End processing [gammath-spot]: success
+[2024-04-04 05:25:42] INFO root fetch - main [MainThread]: Store serial: [22615120]
