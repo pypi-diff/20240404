@@ -20271,3 +20271,57 @@
 [2024-04-04 11:50:58] INFO root fetch - processPackages [lusid-configuration-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_configuration_sdk-2.0.9.tar.gz]
 [2024-04-04 11:50:58] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk]: success
 [2024-04-04 11:50:58] INFO root fetch - main [MainThread]: Store serial: [22618095]
+[2024-04-04 11:53:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618095]
+[2024-04-04 11:53:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 11:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloud-arrow
+[2024-04-04 11:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pubtools-pulplib
+[2024-04-04 11:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BuildStream
+[2024-04-04 11:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-invoice-fixed-discount
+[2024-04-04 11:53:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-daf-butler
+[2024-04-04 11:53:07] INFO root fetch - processPackages [cloud-arrow]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-04 11:53:07] INFO root fetch - processPackages [pubtools-pulplib]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 11:53:07] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: New version: [17.0.1.0.0.8] Old Version: [17.0.1.0.0.6]
+[2024-04-04 11:53:07] INFO root fetch - processPackages [BuildStream]: New version: [2.2.0.dev2] Old Version: [2.1.0.dev0]
+[2024-04-04 11:53:07] INFO root fetch - processPackages [lsst-daf-butler]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:53:07] INFO root fetch - processPackages [cloud-arrow]: Downloading https://files.pythonhosted.org/packages/a5/58/59a75ff7bef5db3a7d2b0485810721c81f99cc85118244dae78f68904fa0/cloud-arrow-0.8.0.tar.gz
+[2024-04-04 11:53:07] INFO root fetch - processPackages [pubtools-pulplib]: Downloading https://files.pythonhosted.org/packages/09/f0/6d824a7e94cfa724e3c87c3dbe303b79fcc09258dd06173e7cedaed4f7ef/pubtools-pulplib-2.8.0.tar.gz
+[2024-04-04 11:53:07] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/3f/5c/fa5e23f51ec9283082407ff61e2a8bd4fb0545d6ee52a70e6342049e0087/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 11:53:07] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/eb/28/aefc304e2eb1f7f832fb593637ec3e1e0ba21a91637eb21316aad80f558d/BuildStream-2.1.0.dev0.tar.gz
+[2024-04-04 11:53:07] WARNING root fetch - processPackages [cloud-arrow]: Timeout reached during download
+[2024-04-04 11:53:07] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/e9/65/b8b1d4ee0280be2243d5e67d12afa63196f66d33c2fa0aa89b890a8770c5/lsst-daf-butler-26.2024.800.tar.gz
+[2024-04-04 11:53:07] WARNING root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Timeout reached during download
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [pubtools-pulplib]: Timeout reached during download
+[2024-04-04 11:53:08] INFO root fetch - processPackages [cloud-arrow]: Downloading https://files.pythonhosted.org/packages/64/70/987cb0431e1b41d5da96720c64eef7e4194d318fff2ed27fdd12dcdd2d4d/cloud-arrow-0.8.1.tar.gz
+[2024-04-04 11:53:08] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Downloading https://files.pythonhosted.org/packages/f2/f5/5419f87a649689a2b5a168ac3e8962dd1c8fd40c508997fc20160139ee28/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [cloud-arrow]: Timeout reached during download
+[2024-04-04 11:53:08] INFO root fetch - processPackages [cloud-arrow]: executing diffoscope
+[2024-04-04 11:53:08] INFO root fetch - processPackages [cloud-arrow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-arrow-0.8.0.tar.gz tmp/cloud-arrow-0.8.1.tar.gz --markdown 20240404/c/cloud-arrow/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-04 11:53:08] INFO root fetch - processPackages [pubtools-pulplib]: Downloading https://files.pythonhosted.org/packages/6c/97/14da5ed3dc889b78c858cd80b61e17324fd934ec1a48f69b3d81d5aa79e0/pubtools-pulplib-2.9.0.tar.gz
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Timeout reached during download
+[2024-04-04 11:53:08] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: executing diffoscope
+[2024-04-04 11:53:08] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-account-invoice-fixed-discount/17.0.1.0.0.6-17.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [BuildStream]: Timeout reached during download
+[2024-04-04 11:53:08] INFO root fetch - processPackages [BuildStream]: Downloading https://files.pythonhosted.org/packages/ce/f1/e1e0c00323b04604143ad72bbe483eb0834c93b4ad217dff0f9a0ddb5331/BuildStream-2.2.0.dev2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [lsst-daf-butler]: Timeout reached during download
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [BuildStream]: Skipping package: exceeds size limit 22819874>=10485760
+[2024-04-04 11:53:08] INFO root fetch - main [MainThread]: End processing [BuildStream] error
+[2024-04-04 11:53:08] INFO root fetch - processPackages [cloud-arrow]: Remove: archive file [/home/abi/fetcher/tmp/cloud-arrow-0.8.0.tar.gz]
+[2024-04-04 11:53:08] INFO root fetch - processPackages [cloud-arrow]: Remove: archive file [/home/abi/fetcher/tmp/cloud-arrow-0.8.1.tar.gz]
+[2024-04-04 11:53:08] INFO root fetch - main [MainThread]: End processing [cloud-arrow]: success
+[2024-04-04 11:53:08] INFO root fetch - processPackages [lsst-daf-butler]: Downloading https://files.pythonhosted.org/packages/35/da/8bce0d98726fbd70ab7e6e2fc0fb1baf812e62f538b08df5ad5f8eda4411/lsst-daf-butler-26.2024.900.tar.gz
+[2024-04-04 11:53:08] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 11:53:08] INFO root fetch - processPackages [odoo-addon-account-invoice-fixed-discount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_fixed_discount-17.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-04 11:53:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-fixed-discount]: success
+[2024-04-04 11:53:08] WARNING root fetch - processPackages [pubtools-pulplib]: Timeout reached during download
+[2024-04-04 11:53:08] INFO root fetch - processPackages [pubtools-pulplib]: executing diffoscope
+[2024-04-04 11:53:08] INFO root fetch - processPackages [pubtools-pulplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pubtools-pulplib-2.8.0.tar.gz tmp/pubtools-pulplib-2.9.0.tar.gz --markdown 20240404/p/pubtools-pulplib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 11:53:09] WARNING root fetch - processPackages [lsst-daf-butler]: Timeout reached during download
+[2024-04-04 11:53:09] INFO root fetch - processPackages [lsst-daf-butler]: executing diffoscope
+[2024-04-04 11:53:09] INFO root fetch - processPackages [lsst-daf-butler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-butler-26.2024.800.tar.gz tmp/lsst-daf-butler-26.2024.900.tar.gz --markdown 20240404/l/lsst-daf-butler/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:53:09] INFO root fetch - processPackages [pubtools-pulplib]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-pulplib-2.8.0.tar.gz]
+[2024-04-04 11:53:09] INFO root fetch - processPackages [pubtools-pulplib]: Remove: archive file [/home/abi/fetcher/tmp/pubtools-pulplib-2.9.0.tar.gz]
+[2024-04-04 11:53:09] INFO root fetch - main [MainThread]: End processing [pubtools-pulplib]: success
+[2024-04-04 11:53:11] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.800.tar.gz]
+[2024-04-04 11:53:11] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
+[2024-04-04 11:53:11] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
+[2024-04-04 11:53:11] INFO root fetch - main [MainThread]: Store serial: [22618114]
