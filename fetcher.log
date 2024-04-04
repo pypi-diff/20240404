@@ -22365,3 +22365,71 @@
 [2024-04-04 13:07:18] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
 [2024-04-04 13:07:18] INFO root fetch - main [MainThread]: End processing [encord]: success
 [2024-04-04 13:07:18] INFO root fetch - main [MainThread]: Store serial: [22618925]
+[2024-04-04 13:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618925]
+[2024-04-04 13:09:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enum-with-dict
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ehdtd-daemon
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fei-crypto
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxspec
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inoopa_utils
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-core-cpp
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ju
+[2024-04-04 13:09:27] INFO root fetch - processPackages [inoopa_utils]: New version: [2.8.0] Old Version: [2.7.0]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [fei-crypto]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ju]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240404] Old Version: [2.5.0b20240403]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [enum-with-dict]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ehdtd-daemon]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [jaxspec]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 13:09:27] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/eb/e3/cd7f0589a78819c369f8d04853f8c6120a14883873216bf86b544295be98/inoopa_utils-2.7.0.tar.gz
+[2024-04-04 13:09:27] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/0e/3d/26a640a3d260ff637cfe52fb8916e436ea5b701b508870ece9a93efda5c0/enum_with_dict-0.7.0.tar.gz
+[2024-04-04 13:09:27] INFO root fetch - processPackages [ju]: Downloading https://files.pythonhosted.org/packages/b9/c1/2005ca14f606b8f385615118c6ade43b939c80ce350574f57c9c763b6abb/ju-0.1.8.tar.gz
+[2024-04-04 13:09:28] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/b1/0b/fcb48ed63fc921e368115f1360cc797fda53e2ef19de120c9f310c9a74b3/fei_crypto-0.1.5.tar.gz
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ehdtd-daemon]: Downloading https://files.pythonhosted.org/packages/9b/61/3cddd86514c17ea9b9ef026e83d811405c0c62356408b1ccdc35aa042328/ehdtd_daemon-0.1.1.tar.gz
+[2024-04-04 13:09:28] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/e2/1f/3387537087a1d68a1800bc5785e2dd72c0062ceb0b4b8c6951631f8dcb98/bigdl_core_cpp-2.5.0b20240403-py3-none-win_amd64.whl
+[2024-04-04 13:09:28] INFO root fetch - processPackages [jaxspec]: Downloading https://files.pythonhosted.org/packages/6a/85/ef616bfc6c8ab37fb21160556fd9542dea21abe6b15692c27aa0af52464d/jaxspec-0.0.3.tar.gz
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [ju]: Timeout reached during download
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [fei-crypto]: Timeout reached during download
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [jaxspec]: Skipping package: exceeds size limit 102867063>=10485760
+[2024-04-04 13:09:28] INFO root fetch - main [MainThread]: End processing [jaxspec] error
+[2024-04-04 13:09:28] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/ae/52/41e8de4f12e418d477b10abeec98b22f3efeb71e09a510ee634034de1863/inoopa_utils-2.8.0.tar.gz
+[2024-04-04 13:09:28] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/89/b3/f7d3687996a04726f7bb9d4ecc37725a9e534d5021470ea0e8f4007dc92b/enum_with_dict-0.7.1.tar.gz
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ju]: Downloading https://files.pythonhosted.org/packages/e3/5c/4bd849161abf4006489491f14608b355ef8be03e951f135e899d49aac562/ju-0.1.9.tar.gz
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 35509729>=10485760
+[2024-04-04 13:09:28] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [ehdtd-daemon]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [fei-crypto]: Downloading https://files.pythonhosted.org/packages/56/66/af474ae3b1d865a82e24b9180fe78a938f73fa51bdf529ac5c39f4d23ae7/fei_crypto-0.1.6.tar.gz
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [ju]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ju]: executing diffoscope
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ju-0.1.8.tar.gz tmp/ju-0.1.9.tar.gz --markdown 20240404/j/ju/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 13:09:28] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.7.0.tar.gz tmp/inoopa_utils-2.8.0.tar.gz --markdown 20240404/i/inoopa_utils/2.7.0-2.8.0/diff.md --exclude *.pyd
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 13:09:28] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.7.0.tar.gz tmp/enum_with_dict-0.7.1.tar.gz --markdown 20240404/e/enum-with-dict/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ehdtd-daemon]: Downloading https://files.pythonhosted.org/packages/42/db/ede12b0fdcd1849f4d3ceb84e4bcf6baa46b2572ae9db2c6a060afc9c86c/ehdtd_daemon-0.1.2.tar.gz
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [fei-crypto]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [fei-crypto]: executing diffoscope
+[2024-04-04 13:09:28] INFO root fetch - processPackages [fei-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fei_crypto-0.1.5.tar.gz tmp/fei_crypto-0.1.6.tar.gz --markdown 20240404/f/fei-crypto/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 13:09:28] WARNING root fetch - processPackages [ehdtd-daemon]: Timeout reached during download
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ehdtd-daemon]: executing diffoscope
+[2024-04-04 13:09:28] INFO root fetch - processPackages [ehdtd-daemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ehdtd_daemon-0.1.1.tar.gz tmp/ehdtd_daemon-0.1.2.tar.gz --markdown 20240404/e/ehdtd-daemon/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 13:09:29] INFO root fetch - processPackages [ju]: Remove: archive file [/home/abi/fetcher/tmp/ju-0.1.8.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - processPackages [ju]: Remove: archive file [/home/abi/fetcher/tmp/ju-0.1.9.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [ju]: success
+[2024-04-04 13:09:29] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.7.0.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.0.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 13:09:29] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.1.5.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - processPackages [fei-crypto]: Remove: archive file [/home/abi/fetcher/tmp/fei_crypto-0.1.6.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [fei-crypto]: success
+[2024-04-04 13:09:29] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.7.0.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.7.1.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 13:09:29] INFO root fetch - processPackages [ehdtd-daemon]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd_daemon-0.1.1.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - processPackages [ehdtd-daemon]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd_daemon-0.1.2.tar.gz]
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [ehdtd-daemon]: success
+[2024-04-04 13:09:29] INFO root fetch - main [MainThread]: Store serial: [22618946]
