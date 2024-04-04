@@ -16973,3 +16973,53 @@
 [2024-04-04 10:04:07] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.4.tar.gz]
 [2024-04-04 10:04:07] INFO root fetch - main [MainThread]: End processing [nodoc]: success
 [2024-04-04 10:04:07] INFO root fetch - main [MainThread]: Store serial: [22616919]
+[2024-04-04 10:06:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616919]
+[2024-04-04 10:06:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kodexa-cli
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ficamp
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aixblock-ml
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aixblock-sdk
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [aixblock-sdk]: Skipping, unable to determine old version
+[2024-04-04 10:06:16] INFO root fetch - main [MainThread]: End processing [aixblock-sdk] error
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ficamp]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 10:06:16] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240404] Old Version: [0.0.2.dev20240403]
+[2024-04-04 10:06:16] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8551260364] Old Version: [7.0.8550032308]
+[2024-04-04 10:06:16] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 10:06:16] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/1e/0a44d4daae6c498f3ca46ae759b06e9b762ca2a000e2b61cbec28b7b91d9/kodexa_cli-7.0.8550032308.tar.gz
+[2024-04-04 10:06:16] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/5f/31/3249a2ec1ba2a6c917153537b2f80984ebbf5415e4e777a0734d89625b58/aixblock_ml-0.0.3.tar.gz
+[2024-04-04 10:06:16] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/05/a2/69d3d0bbf99ea446cd05d4a630489cde103ef659dfaa0c0b6ace9fc75078/langfun-0.0.2.dev20240403.tar.gz
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ficamp]: Downloading https://files.pythonhosted.org/packages/40/9e/f6c7c1fb3536127c3ddf55569d285306a1a474d2fa65db1cbe70c1c12ec6/ficamp-0.8.0.tar.gz
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [aixblock-ml]: Timeout reached during download
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [ficamp]: Timeout reached during download
+[2024-04-04 10:06:16] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/8b/2c/21336ce174696507d41b88973ef014f9aece226bc809f87bb214e8b29444/aixblock_ml-0.0.4.tar.gz
+[2024-04-04 10:06:16] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/80/ba/a167e8edf7c88bd7bbcc190517dec82b2aa76e3f8ee689ec065bd64610da/kodexa_cli-7.0.8551260364.tar.gz
+[2024-04-04 10:06:16] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8d/10/af84f3f65c39b1dcae086577c75e02424b1a3de02b38ba2411c9c0bd5e63/langfun-0.0.2.dev20240404.tar.gz
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [aixblock-ml]: Timeout reached during download
+[2024-04-04 10:06:16] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-04 10:06:16] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.3.tar.gz tmp/aixblock_ml-0.0.4.tar.gz --markdown 20240404/a/aixblock-ml/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 10:06:16] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-04 10:06:16] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8550032308.tar.gz tmp/kodexa_cli-7.0.8551260364.tar.gz --markdown 20240404/k/kodexa-cli/7.0.8550032308-7.0.8551260364/diff.md --exclude *.pyd
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ficamp]: Downloading https://files.pythonhosted.org/packages/ad/90/797551bc66beb0e5f7ffa31c680e42a6ed0e79b0ffd00e9bc575af0e347d/ficamp-0.9.0.tar.gz
+[2024-04-04 10:06:16] WARNING root fetch - processPackages [ficamp]: Timeout reached during download
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ficamp]: executing diffoscope
+[2024-04-04 10:06:16] INFO root fetch - processPackages [ficamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ficamp-0.8.0.tar.gz tmp/ficamp-0.9.0.tar.gz --markdown 20240404/f/ficamp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:06:17] WARNING root fetch - processPackages [langfun]: Timeout reached during download
+[2024-04-04 10:06:17] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-04 10:06:17] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240403.tar.gz tmp/langfun-0.0.2.dev20240404.tar.gz --markdown 20240404/l/langfun/0.0.2.dev20240403-0.0.2.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 10:06:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.3.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.4.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-04 10:06:17] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8550032308.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8551260364.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-04 10:06:17] INFO root fetch - processPackages [ficamp]: Remove: archive file [/home/abi/fetcher/tmp/ficamp-0.8.0.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - processPackages [ficamp]: Remove: archive file [/home/abi/fetcher/tmp/ficamp-0.9.0.tar.gz]
+[2024-04-04 10:06:17] INFO root fetch - main [MainThread]: End processing [ficamp]: success
+[2024-04-04 10:06:18] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240403.tar.gz]
+[2024-04-04 10:06:18] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240404.tar.gz]
+[2024-04-04 10:06:18] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-04 10:06:18] INFO root fetch - main [MainThread]: Store serial: [22616936]
