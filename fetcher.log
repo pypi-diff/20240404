@@ -18600,3 +18600,81 @@
 [2024-04-04 11:02:50] INFO root fetch - processPackages [mct-quantizers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-quantizers-nightly-1.4.0.20240404.post90207.tar.gz]
 [2024-04-04 11:02:50] INFO root fetch - main [MainThread]: End processing [mct-quantizers-nightly]: success
 [2024-04-04 11:02:50] INFO root fetch - main [MainThread]: Store serial: [22617493]
+[2024-04-04 11:04:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617493]
+[2024-04-04 11:04:59] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vesslflow
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: encryption-tool
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyspacelog
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frida-devices-manager
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon.common
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: autogluon.core
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pulumi-ec
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: autogluon.features
+[2024-04-04 11:04:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.tabular
+[2024-04-04 11:04:59] INFO root fetch - processPackages [encryption-tool]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 11:04:59] WARNING root fetch - processPackages [vesslflow]: Skipping, unable to determine old version
+[2024-04-04 11:04:59] INFO root fetch - main [MainThread]: End processing [vesslflow] error
+[2024-04-04 11:04:59] WARNING root fetch - processPackages [pyspacelog]: Skipping, unable to determine old version
+[2024-04-04 11:04:59] INFO root fetch - main [MainThread]: End processing [pyspacelog] error
+[2024-04-04 11:04:59] WARNING root fetch - processPackages [frida-devices-manager]: Skipping, unable to determine old version
+[2024-04-04 11:04:59] INFO root fetch - main [MainThread]: End processing [frida-devices-manager] error
+[2024-04-04 11:04:59] INFO root fetch - processPackages [autogluon.core]: New version: [1.0.1b20240403] Old Version: [1.0.1b20240402]
+[2024-04-04 11:04:59] INFO root fetch - processPackages [autogluon.common]: New version: [1.0.1b20240403] Old Version: [1.0.1b20240402]
+[2024-04-04 11:04:59] INFO root fetch - processPackages [autogluon.features]: New version: [1.0.1b20240403] Old Version: [1.0.1b20240402]
+[2024-04-04 11:04:59] INFO root fetch - processPackages [pulumi-ec]: New version: [0.7.3a1712219913] Old Version: [0.7.3a1711735663]
+[2024-04-04 11:04:59] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.0.1b20240403] Old Version: [1.0.1b20240402]
+[2024-04-04 11:04:59] INFO root fetch - processPackages [encryption-tool]: Downloading https://files.pythonhosted.org/packages/ad/45/28ac90e69139eb9899dbf81724fe8c5c270a9080c37ad423aeb713384cca/encryption_tool-1.0.0-py3-none-any.whl
+[2024-04-04 11:04:59] WARNING root fetch - processPackages [encryption-tool]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/62/f6/837a8a8917ad847d44509d32cd2b71b6f4b931922acd25326c195a41b4a3/pulumi_ec-0.7.3a1711735663.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/31/aa/9cb5091251445a7545731d795ec48aa747f5adafd0c2183e43b44da385f4/autogluon.core-1.0.1b20240402.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/e4/68/a9529509e954a05a161cab25efcd8397bff2e971c8107578180992abd0b3/autogluon.common-1.0.1b20240402.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [encryption-tool]: Downloading https://files.pythonhosted.org/packages/aa/3e/e99910c59507ee7dc19c420ffc48978b8d7f8fa92bbabc7ef4d8be625807/encryption_tool-1.0.1-py3-none-any.whl
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/81/ea/5844db869619a59ce3ed7331d6513ee12f73cbfa734509ea2bb0d828cff8/autogluon.features-1.0.1b20240402.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/22/04/68180fb41c1c7a61bdb4e56c481ec7a1bbbaa87cd77fbeeb139833fb6dec/autogluon.tabular-1.0.1b20240402.tar.gz
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [pulumi-ec]: Timeout reached during download
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [encryption-tool]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [encryption-tool]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [encryption-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encryption_tool-1.0.0-py3-none-any.whl.zip tmp/encryption_tool-1.0.1-py3-none-any.whl.zip --markdown 20240404/e/encryption-tool/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/a0/d3/a736a2ce514484dad6b413461c6fde072dc5ee0304bd30439451201f7c05/autogluon.core-1.0.1b20240403.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/7f/a6/6ed86739633ec6fe888b9fe9abc3323eac039e23c4381f71cd23a6ee33dd/autogluon.common-1.0.1b20240403.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/a9/5f/c5fdecfa5f904713611ee31ce7e14b6dd9258c1f3975123edbc40d9ad09d/autogluon.tabular-1.0.1b20240403.tar.gz
+[2024-04-04 11:05:00] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/33/0c/c2f8c0ddf7771c8d5e4a7e7d328c51a6e3f8ce06fda714e50b2dbdb6f9f0/pulumi_ec-0.7.3a1712219913.tar.gz
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.core]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.0.1b20240402.tar.gz tmp/autogluon.core-1.0.1b20240403.tar.gz --markdown 20240404/a/autogluon.core/1.0.1b20240402-1.0.1b20240403/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.common]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.0.1b20240402.tar.gz tmp/autogluon.common-1.0.1b20240403.tar.gz --markdown 20240404/a/autogluon.common/1.0.1b20240402-1.0.1b20240403/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/de/53/9f042b35df8eef718e32dfc1d0bed0445c541f4b7fca3cda21323c7a36e5/autogluon.features-1.0.1b20240403.tar.gz
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.tabular]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.0.1b20240402.tar.gz tmp/autogluon.tabular-1.0.1b20240403.tar.gz --markdown 20240404/a/autogluon.tabular/1.0.1b20240402-1.0.1b20240403/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [pulumi-ec]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.7.3a1711735663.tar.gz tmp/pulumi_ec-0.7.3a1712219913.tar.gz --markdown 20240404/p/pulumi-ec/0.7.3a1711735663-0.7.3a1712219913/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] WARNING root fetch - processPackages [autogluon.features]: Timeout reached during download
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-04 11:05:00] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.0.1b20240402.tar.gz tmp/autogluon.features-1.0.1b20240403.tar.gz --markdown 20240404/a/autogluon.features/1.0.1b20240402-1.0.1b20240403/diff.md --exclude *.pyd
+[2024-04-04 11:05:00] INFO root fetch - processPackages [encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/encryption_tool-1.0.0-py3-none-any.whl.zip]
+[2024-04-04 11:05:00] INFO root fetch - processPackages [encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/encryption_tool-1.0.1-py3-none-any.whl.zip]
+[2024-04-04 11:05:00] INFO root fetch - main [MainThread]: End processing [encryption-tool]: success
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240402.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240403.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240402.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240403.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240402.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240403.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-04 11:05:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.7.3a1711735663.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.7.3a1712219913.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240402.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240403.tar.gz]
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-04 11:05:01] INFO root fetch - main [MainThread]: Store serial: [22617521]
