@@ -17691,3 +17691,34 @@
 [2024-04-04 10:23:56] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.9.tar.gz]
 [2024-04-04 10:23:56] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2024-04-04 10:23:56] INFO root fetch - main [MainThread]: Store serial: [22617149]
+[2024-04-04 10:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617149]
+[2024-04-04 10:26:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smart-meter-to-openhab
+[2024-04-04 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GDPRUtils
+[2024-04-04 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GDPRUtils
+[2024-04-04 10:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markets-insights
+[2024-04-04 10:26:05] WARNING root fetch - processPackages [GDPRUtils]: Skipping, unable to determine old version
+[2024-04-04 10:26:05] INFO root fetch - main [MainThread]: End processing [GDPRUtils] error
+[2024-04-04 10:26:05] WARNING root fetch - processPackages [GDPRUtils]: Skipping, unable to determine old version
+[2024-04-04 10:26:05] INFO root fetch - main [MainThread]: End processing [GDPRUtils] error
+[2024-04-04 10:26:05] INFO root fetch - processPackages [smart-meter-to-openhab]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-04 10:26:05] INFO root fetch - processPackages [markets-insights]: New version: [0.4.8.post2] Old Version: [0.4.8]
+[2024-04-04 10:26:05] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/02/fe/d4447644a02df8b0217558e23573c367539ff50807ea58bf9bebcaead766/markets_insights-0.4.8.tar.gz
+[2024-04-04 10:26:05] INFO root fetch - processPackages [smart-meter-to-openhab]: Downloading https://files.pythonhosted.org/packages/59/51/0d683034f7c1a00eccbf811b3c20439de43e17a845ac80e21c523bd8beac/smart_meter_to_openhab-0.3.2.tar.gz
+[2024-04-04 10:26:05] WARNING root fetch - processPackages [smart-meter-to-openhab]: Timeout reached during download
+[2024-04-04 10:26:05] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:26:05] INFO root fetch - processPackages [smart-meter-to-openhab]: Downloading https://files.pythonhosted.org/packages/75/b1/10db4d89fd8d96402656d41912ecc5b20777330db8ff43f9ad68c81d3607/smart_meter_to_openhab-0.3.3.tar.gz
+[2024-04-04 10:26:06] WARNING root fetch - processPackages [smart-meter-to-openhab]: Timeout reached during download
+[2024-04-04 10:26:06] INFO root fetch - processPackages [smart-meter-to-openhab]: executing diffoscope
+[2024-04-04 10:26:06] INFO root fetch - processPackages [smart-meter-to-openhab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_meter_to_openhab-0.3.2.tar.gz tmp/smart_meter_to_openhab-0.3.3.tar.gz --markdown 20240404/s/smart-meter-to-openhab/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-04 10:26:06] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/e1/cb/73868db8ce2aa1e934914853ad4efcbf85ff758b69a24f926e929bc1b4b7/markets_insights-0.4.8.post2.tar.gz
+[2024-04-04 10:26:06] INFO root fetch - processPackages [smart-meter-to-openhab]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_to_openhab-0.3.2.tar.gz]
+[2024-04-04 10:26:06] INFO root fetch - processPackages [smart-meter-to-openhab]: Remove: archive file [/home/abi/fetcher/tmp/smart_meter_to_openhab-0.3.3.tar.gz]
+[2024-04-04 10:26:06] INFO root fetch - main [MainThread]: End processing [smart-meter-to-openhab]: success
+[2024-04-04 10:26:06] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:26:06] INFO root fetch - processPackages [markets-insights]: executing diffoscope
+[2024-04-04 10:26:06] INFO root fetch - processPackages [markets-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markets_insights-0.4.8.tar.gz tmp/markets_insights-0.4.8.post2.tar.gz --markdown 20240404/m/markets-insights/0.4.8-0.4.8.post2/diff.md --exclude *.pyd
+[2024-04-04 10:26:07] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.8.tar.gz]
+[2024-04-04 10:26:07] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.8.post2.tar.gz]
+[2024-04-04 10:26:07] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
+[2024-04-04 10:26:07] INFO root fetch - main [MainThread]: Store serial: [22617164]
