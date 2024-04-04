@@ -16015,3 +16015,42 @@
 [2024-04-04 09:29:46] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a5.tar.gz]
 [2024-04-04 09:29:46] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
 [2024-04-04 09:29:46] INFO root fetch - main [MainThread]: Store serial: [22616621]
+[2024-04-04 09:31:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616621]
+[2024-04-04 09:31:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deephyper
+[2024-04-04 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flexstack
+[2024-04-04 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: breeze-connect
+[2024-04-04 09:31:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dapla-toolbelt-pseudo
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [flexstack]: Skipping, unable to determine old version
+[2024-04-04 09:31:55] INFO root fetch - main [MainThread]: End processing [flexstack] error
+[2024-04-04 09:31:55] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-04 09:31:55] INFO root fetch - processPackages [breeze-connect]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 09:31:55] INFO root fetch - processPackages [deephyper]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-04 09:31:55] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/dc/08/8a72da93b857f3a2876f4a7558c0124e01c900121700208ee346df38d4ee/dapla_toolbelt_pseudo-1.5.0.tar.gz
+[2024-04-04 09:31:55] INFO root fetch - processPackages [deephyper]: Downloading https://files.pythonhosted.org/packages/f3/b3/802b8c68a76c255f97e334a95c7b089819bc89b6fd75f7c970f3a11ddf75/deephyper-0.6.0.tar.gz
+[2024-04-04 09:31:55] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/eb/38/10bd4db4bbc0b15976ae792c12746686d284a9fc380eb2e473a18c8cf40a/breeze_connect-1.0.8.tar.gz
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [dapla-toolbelt-pseudo]: Timeout reached during download
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [breeze-connect]: Timeout reached during download
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [deephyper]: Timeout reached during download
+[2024-04-04 09:31:55] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/6f/8f/8b9ce578f73f7ee29e384564d82924f1ba4d09edf68409ca61b0d604975c/dapla_toolbelt_pseudo-1.6.0.tar.gz
+[2024-04-04 09:31:55] INFO root fetch - processPackages [deephyper]: Downloading https://files.pythonhosted.org/packages/8d/16/39e9b29c63b0abe03060dee5f40816ccc8bc94463eb20e6691e5c285bb2a/deephyper-0.7.0.tar.gz
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [dapla-toolbelt-pseudo]: Timeout reached during download
+[2024-04-04 09:31:55] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2024-04-04 09:31:55] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-1.5.0.tar.gz tmp/dapla_toolbelt_pseudo-1.6.0.tar.gz --markdown 20240404/d/dapla-toolbelt-pseudo/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-04 09:31:55] INFO root fetch - processPackages [breeze-connect]: Downloading https://files.pythonhosted.org/packages/4c/42/710b1f5e8f9fd52127641623d4bd1c641247bcf346c97a3bb5c022588e32/breeze_connect-1.0.9.tar.gz
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [deephyper]: Timeout reached during download
+[2024-04-04 09:31:55] INFO root fetch - processPackages [deephyper]: executing diffoscope
+[2024-04-04 09:31:55] INFO root fetch - processPackages [deephyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deephyper-0.6.0.tar.gz tmp/deephyper-0.7.0.tar.gz --markdown 20240404/d/deephyper/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 09:31:55] WARNING root fetch - processPackages [breeze-connect]: Timeout reached during download
+[2024-04-04 09:31:55] INFO root fetch - processPackages [breeze-connect]: executing diffoscope
+[2024-04-04 09:31:55] INFO root fetch - processPackages [breeze-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_connect-1.0.8.tar.gz tmp/breeze_connect-1.0.9.tar.gz --markdown 20240404/b/breeze-connect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:31:56] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.5.0.tar.gz]
+[2024-04-04 09:31:56] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-1.6.0.tar.gz]
+[2024-04-04 09:31:56] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2024-04-04 09:31:56] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.8.tar.gz]
+[2024-04-04 09:31:56] INFO root fetch - processPackages [breeze-connect]: Remove: archive file [/home/abi/fetcher/tmp/breeze_connect-1.0.9.tar.gz]
+[2024-04-04 09:31:56] INFO root fetch - main [MainThread]: End processing [breeze-connect]: success
+[2024-04-04 09:31:57] INFO root fetch - processPackages [deephyper]: Remove: archive file [/home/abi/fetcher/tmp/deephyper-0.6.0.tar.gz]
+[2024-04-04 09:31:57] INFO root fetch - processPackages [deephyper]: Remove: archive file [/home/abi/fetcher/tmp/deephyper-0.7.0.tar.gz]
+[2024-04-04 09:31:57] INFO root fetch - main [MainThread]: End processing [deephyper]: success
+[2024-04-04 09:31:57] INFO root fetch - main [MainThread]: Store serial: [22616637]
