@@ -15755,3 +15755,61 @@
 [2024-04-04 09:16:44] INFO root fetch - processPackages [mutmut]: Remove: archive file [/home/abi/fetcher/tmp/mutmut-2.4.5.tar.gz]
 [2024-04-04 09:16:44] INFO root fetch - main [MainThread]: End processing [mutmut]: success
 [2024-04-04 09:16:44] INFO root fetch - main [MainThread]: Store serial: [22616547]
+[2024-04-04 09:18:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616547]
+[2024-04-04 09:18:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 09:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-pfx
+[2024-04-04 09:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylogg
+[2024-04-04 09:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: commons_lib
+[2024-04-04 09:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiotgm
+[2024-04-04 09:18:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sed-processor
+[2024-04-04 09:18:53] INFO root fetch - processPackages [commons_lib]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-04 09:18:53] INFO root fetch - processPackages [pylogg]: New version: [0.1.29] Old Version: [0.1.28]
+[2024-04-04 09:18:53] INFO root fetch - processPackages [sed-processor]: New version: [0.1.9a6] Old Version: [0.1.9a5]
+[2024-04-04 09:18:53] INFO root fetch - processPackages [aiotgm]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-04 09:18:53] INFO root fetch - processPackages [django-pfx]: New version: [1.4.dev8] Old Version: [1.4.dev6]
+[2024-04-04 09:18:53] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/ba/63/c08f91c0f65ac7a7c3bbfb44ddd4e2bf20663e5351185e3b3913b126dba0/aiotgm-0.3.3.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/d8/c1/5c6cfa388324c1d70d5c20c1610ac4ff168355062cd4586dc09b01523368/commons_lib-1.1.0.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/6a/82/8cdac24675150c0868d41b27c93ac8e5883ffe3557bb86fc9f284323c00d/pylogg-0.1.28.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/2e/9f/65575dd6215264f53e9e8b7a4683326bc83c43481f371071af7e71e7a40e/django-pfx-1.4.dev6.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/b2/e4/f470c68d78e276ac522911870d4fa658732ec64997ef6dc4b9127fc67e0e/sed_processor-0.1.9a5.tar.gz
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [aiotgm]: Timeout reached during download
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [sed-processor]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/f9/43/8158a6c2962d34b731d953d3ecf58d28c9e34e1f6cf85942f92bce3bfb7d/commons_lib-1.1.1.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/1f/f7/a81508ec87dc81e9f3e73b556c85c041d143525ceb8c84011d8d651da8bf/aiotgm-0.3.4.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/3e/56/68cdd602424dc967c8af4e30531006c3570a22027bcc1cfc22c0eb92ce4e/pylogg-0.1.29.tar.gz
+[2024-04-04 09:18:53] INFO root fetch - processPackages [django-pfx]: Downloading https://files.pythonhosted.org/packages/7f/53/caf5a55c22d1a4048e13c64bf53557581259f02deab3e33483ff3512cdf3/django-pfx-1.4.dev8.tar.gz
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [commons_lib]: executing diffoscope
+[2024-04-04 09:18:53] INFO root fetch - processPackages [commons_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commons_lib-1.1.0.tar.gz tmp/commons_lib-1.1.1.tar.gz --markdown 20240404/c/commons_lib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-04 09:18:53] INFO root fetch - processPackages [sed-processor]: Downloading https://files.pythonhosted.org/packages/48/ab/390618dd544367ca15f23aa52fc87456b0ca2b90d81b4805252039010b14/sed_processor-0.1.9a6.tar.gz
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [pylogg]: executing diffoscope
+[2024-04-04 09:18:53] INFO root fetch - processPackages [pylogg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogg-0.1.28.tar.gz tmp/pylogg-0.1.29.tar.gz --markdown 20240404/p/pylogg/0.1.28-0.1.29/diff.md --exclude *.pyd
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [aiotgm]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [aiotgm]: executing diffoscope
+[2024-04-04 09:18:53] INFO root fetch - processPackages [aiotgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgm-0.3.3.tar.gz tmp/aiotgm-0.3.4.tar.gz --markdown 20240404/a/aiotgm/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [django-pfx]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [django-pfx]: executing diffoscope
+[2024-04-04 09:18:53] INFO root fetch - processPackages [django-pfx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pfx-1.4.dev6.tar.gz tmp/django-pfx-1.4.dev8.tar.gz --markdown 20240404/d/django-pfx/1.4.dev6-1.4.dev8/diff.md --exclude *.pyd
+[2024-04-04 09:18:53] WARNING root fetch - processPackages [sed-processor]: Timeout reached during download
+[2024-04-04 09:18:53] INFO root fetch - processPackages [sed-processor]: executing diffoscope
+[2024-04-04 09:18:53] INFO root fetch - processPackages [sed-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sed_processor-0.1.9a5.tar.gz tmp/sed_processor-0.1.9a6.tar.gz --markdown 20240404/s/sed-processor/0.1.9a5-0.1.9a6/diff.md --exclude *.pyd
+[2024-04-04 09:18:54] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.28.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.29.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [pylogg]: success
+[2024-04-04 09:18:54] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.0.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.1.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [commons_lib]: success
+[2024-04-04 09:18:54] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev6.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - processPackages [django-pfx]: Remove: archive file [/home/abi/fetcher/tmp/django-pfx-1.4.dev8.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [django-pfx]: success
+[2024-04-04 09:18:54] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a5.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - processPackages [sed-processor]: Remove: archive file [/home/abi/fetcher/tmp/sed_processor-0.1.9a6.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [sed-processor]: success
+[2024-04-04 09:18:54] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.3.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.4.tar.gz]
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
+[2024-04-04 09:18:54] INFO root fetch - main [MainThread]: Store serial: [22616562]
