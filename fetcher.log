@@ -17070,3 +17070,50 @@
 [2024-04-04 10:08:31] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.1.tar.gz]
 [2024-04-04 10:08:31] INFO root fetch - main [MainThread]: End processing [nonos]: success
 [2024-04-04 10:08:31] INFO root fetch - main [MainThread]: Store serial: [22616948]
+[2024-04-04 10:10:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616948]
+[2024-04-04 10:10:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libre-fastapi-jwt
+[2024-04-04 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: crisp-status-reporter
+[2024-04-04 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alcedo
+[2024-04-04 10:10:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nodoc
+[2024-04-04 10:10:39] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.22.2] Old Version: [0.22.1]
+[2024-04-04 10:10:39] INFO root fetch - processPackages [nodoc]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 10:10:40] INFO root fetch - processPackages [alcedo]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 10:10:40] INFO root fetch - processPackages [crisp-status-reporter]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-04 10:10:40] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/80/46/909b0ec0a46ad50cdc38994390db279736ee6628a36bec2271f0299d4d49/nodoc-1.0.4.tar.gz
+[2024-04-04 10:10:40] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/91/55/541300b3ee2bf23fd3c7d65d45045f4556c738dad552f26fdf4cb4634797/libre_fastapi_jwt-0.22.1.tar.gz
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [crisp-status-reporter]: Downloading https://files.pythonhosted.org/packages/43/03/7f311efac3230298c3c05f352ef3c2cb2c70f0fcc620734b0ce5ff6d126f/crisp-status-reporter-1.1.0.tar.gz
+[2024-04-04 10:10:40] INFO root fetch - processPackages [alcedo]: Downloading https://files.pythonhosted.org/packages/e2/05/1ab1fd34dd39101117fb70a4b4c02d28d8f8d6b21425f8022eac59076050/alcedo-0.1.5.tar.gz
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [crisp-status-reporter]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/3a/dd/28ff5dc5136dd3f12326ee63a915eb179d9d6552ba3fdea128447f5a425a/libre_fastapi_jwt-0.22.2.tar.gz
+[2024-04-04 10:10:40] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/88/b0/c2a2d31c55324239b716b8dfebf926ce7d0fd048a3223b5ccb1e93d7c87d/nodoc-1.0.5.tar.gz
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [alcedo]: Timeout reached during download
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2024-04-04 10:10:40] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.22.1.tar.gz tmp/libre_fastapi_jwt-0.22.2.tar.gz --markdown 20240404/l/libre-fastapi-jwt/0.22.1-0.22.2/diff.md --exclude *.pyd
+[2024-04-04 10:10:40] INFO root fetch - processPackages [crisp-status-reporter]: Downloading https://files.pythonhosted.org/packages/c8/45/4f7432e90208f65264fee74223f4289c31bf222ce4a67c2594f2b5726342/crisp-status-reporter-1.1.1.tar.gz
+[2024-04-04 10:10:40] INFO root fetch - processPackages [alcedo]: Downloading https://files.pythonhosted.org/packages/b8/69/e9c8eae450a4832d84ae4b082340be5d2a1ccc706388b2737d0da10cbab1/alcedo-0.1.6.tar.gz
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [crisp-status-reporter]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [crisp-status-reporter]: executing diffoscope
+[2024-04-04 10:10:40] INFO root fetch - processPackages [crisp-status-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crisp-status-reporter-1.1.0.tar.gz tmp/crisp-status-reporter-1.1.1.tar.gz --markdown 20240404/c/crisp-status-reporter/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:10:40] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.4.tar.gz tmp/nodoc-1.0.5.tar.gz --markdown 20240404/n/nodoc/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 10:10:40] WARNING root fetch - processPackages [alcedo]: Timeout reached during download
+[2024-04-04 10:10:40] INFO root fetch - processPackages [alcedo]: executing diffoscope
+[2024-04-04 10:10:40] INFO root fetch - processPackages [alcedo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alcedo-0.1.5.tar.gz tmp/alcedo-0.1.6.tar.gz --markdown 20240404/a/alcedo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 10:10:41] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.22.1.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.22.2.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2024-04-04 10:10:41] INFO root fetch - processPackages [crisp-status-reporter]: Remove: archive file [/home/abi/fetcher/tmp/crisp-status-reporter-1.1.0.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - processPackages [crisp-status-reporter]: Remove: archive file [/home/abi/fetcher/tmp/crisp-status-reporter-1.1.1.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - main [MainThread]: End processing [crisp-status-reporter]: success
+[2024-04-04 10:10:41] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.4.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.5.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:10:41] INFO root fetch - processPackages [alcedo]: Remove: archive file [/home/abi/fetcher/tmp/alcedo-0.1.5.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - processPackages [alcedo]: Remove: archive file [/home/abi/fetcher/tmp/alcedo-0.1.6.tar.gz]
+[2024-04-04 10:10:41] INFO root fetch - main [MainThread]: End processing [alcedo]: success
+[2024-04-04 10:10:41] INFO root fetch - main [MainThread]: Store serial: [22616965]
