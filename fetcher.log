@@ -9490,3 +9490,41 @@
 [2024-04-04 03:35:33] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-04 03:35:33] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-04 03:35:33] INFO root fetch - main [MainThread]: Store serial: [22614546]
+[2024-04-04 03:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614546]
+[2024-04-04 03:37:43] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 03:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614560]
+[2024-04-04 03:39:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 03:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-04 03:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: joulescope-ui
+[2024-04-04 03:39:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-cruddy-framework
+[2024-04-04 03:39:49] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 03:39:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-04 03:39:49] INFO root fetch - processPackages [joulescope-ui]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-04 03:39:49] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 03:39:49] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/6d/42/cca446f0076a0b9c906f92fd395cdc7ebff77db5168b2aa18d85e0387eaa/joulescope_ui-1.1.0.tar.gz
+[2024-04-04 03:39:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/a0/6c/e70897b1f7450affdf285d33fadbea08cbab3c11896e23a6e73556434a5f/fastapi_cruddy_framework-1.4.2.tar.gz
+[2024-04-04 03:39:49] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:39:49] WARNING root fetch - processPackages [fastapi-cruddy-framework]: Timeout reached during download
+[2024-04-04 03:39:49] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 03:39:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/bb/20/4ad0bfdbc76c51a7cb4c69554720ca00e6878d0d21a06ea1374865e23228/fastapi_cruddy_framework-1.4.3.tar.gz
+[2024-04-04 03:39:49] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:39:49] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 03:39:49] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 03:39:49] WARNING root fetch - processPackages [joulescope-ui]: Timeout reached during download
+[2024-04-04 03:39:49] WARNING root fetch - processPackages [fastapi-cruddy-framework]: Timeout reached during download
+[2024-04-04 03:39:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2024-04-04 03:39:49] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-1.4.2.tar.gz tmp/fastapi_cruddy_framework-1.4.3.tar.gz --markdown 20240404/f/fastapi-cruddy-framework/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2024-04-04 03:39:49] INFO root fetch - processPackages [joulescope-ui]: Downloading https://files.pythonhosted.org/packages/ff/42/3f3964f8ea0d69f312d59bf8e68d3dd77a8ecda2ea948a6c46c9ba5431f1/joulescope_ui-1.1.1.tar.gz
+[2024-04-04 03:39:50] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 03:39:50] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 03:39:50] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 03:39:50] WARNING root fetch - processPackages [joulescope-ui]: Timeout reached during download
+[2024-04-04 03:39:50] INFO root fetch - processPackages [joulescope-ui]: executing diffoscope
+[2024-04-04 03:39:50] INFO root fetch - processPackages [joulescope-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joulescope_ui-1.1.0.tar.gz tmp/joulescope_ui-1.1.1.tar.gz --markdown 20240404/j/joulescope-ui/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-04 03:39:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-1.4.2.tar.gz]
+[2024-04-04 03:39:50] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-1.4.3.tar.gz]
+[2024-04-04 03:39:50] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2024-04-04 03:39:54] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.1.0.tar.gz]
+[2024-04-04 03:39:54] INFO root fetch - processPackages [joulescope-ui]: Remove: archive file [/home/abi/fetcher/tmp/joulescope_ui-1.1.1.tar.gz]
+[2024-04-04 03:39:54] INFO root fetch - main [MainThread]: End processing [joulescope-ui]: success
+[2024-04-04 03:39:54] INFO root fetch - main [MainThread]: Store serial: [22614568]
