@@ -20440,3 +20440,39 @@
 [2024-04-04 11:59:44] INFO root fetch - processPackages [ibek]: Remove: archive file [/home/abi/fetcher/tmp/ibek-3.4.0b2.tar.gz]
 [2024-04-04 11:59:44] INFO root fetch - main [MainThread]: End processing [ibek]: success
 [2024-04-04 11:59:44] INFO root fetch - main [MainThread]: Store serial: [22618160]
+[2024-04-04 12:01:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618160]
+[2024-04-04 12:01:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 12:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2024-04-04 12:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: path
+[2024-04-04 12:01:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-04-04 12:01:53] INFO root fetch - processPackages [path]: New version: [16.9.0] Old Version: [16.8.0]
+[2024-04-04 12:01:53] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-04 12:01:53] INFO root fetch - processPackages [ccxt]: New version: [4.2.9] Old Version: [4.2.89]
+[2024-04-04 12:01:53] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/2b/79/b6f62fd4e14aac4a9cc4b75683b435f59f9f6c43c240f4e611f568c4df6f/fab-react-toolkit-0.3.0.tar.gz
+[2024-04-04 12:01:53] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/75/8b/2add7d5e1c1ba1a96562a97731209b203de0e84d788e566262a2df473712/path-16.8.0.tar.gz
+[2024-04-04 12:01:53] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/40/6d/65558473f7aa78ce5d946192d12c3199a11b325310d42bbab6ee1bd5832e/ccxt-4.2.89.tar.gz
+[2024-04-04 12:01:53] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 12:01:53] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 12:01:53] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/58/d7/6513003042c64f5a22045e0174c3e4585edd8d63b251290f0e3900d5397b/fab-react-toolkit-0.3.1.tar.gz
+[2024-04-04 12:01:53] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/8d/50/2a1a3287715c87d135dd1dcbd9f7bca4200302cfcc8c28ced1a8035d7894/path-16.9.0.tar.gz
+[2024-04-04 12:01:53] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 12:01:53] INFO root fetch - processPackages [path]: executing diffoscope
+[2024-04-04 12:01:53] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.8.0.tar.gz tmp/path-16.9.0.tar.gz --markdown 20240404/p/path/16.8.0-16.9.0/diff.md --exclude *.pyd
+[2024-04-04 12:01:54] WARNING root fetch - processPackages [ccxt]: Timeout reached during download
+[2024-04-04 12:01:54] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 12:01:54] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-04 12:01:54] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.3.0.tar.gz tmp/fab-react-toolkit-0.3.1.tar.gz --markdown 20240404/f/fab-react-toolkit/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-04 12:01:54] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/fd/10/90e20073a65d1c79d8bb4e713b5b6f27e5b0adf1d5531c5502db96d7f24c/ccxt-4.2.9.tar.gz
+[2024-04-04 12:01:54] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.0.tar.gz]
+[2024-04-04 12:01:54] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.1.tar.gz]
+[2024-04-04 12:01:54] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-04 12:01:54] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.8.0.tar.gz]
+[2024-04-04 12:01:54] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
+[2024-04-04 12:01:54] INFO root fetch - main [MainThread]: End processing [path]: success
+[2024-04-04 12:01:55] WARNING root fetch - processPackages [ccxt]: Timeout reached during download
+[2024-04-04 12:01:55] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2024-04-04 12:01:55] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.2.89.tar.gz tmp/ccxt-4.2.9.tar.gz --markdown 20240404/c/ccxt/4.2.89-4.2.9/diff.md --exclude *.pyd
+[2024-04-04 12:02:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.89.tar.gz]
+[2024-04-04 12:02:07] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.2.9.tar.gz]
+[2024-04-04 12:02:07] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2024-04-04 12:02:07] INFO root fetch - main [MainThread]: Store serial: [22618170]
