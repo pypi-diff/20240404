@@ -10592,3 +10592,33 @@
 [2024-04-04 04:46:34] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
 [2024-04-04 04:46:34] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-04 04:46:34] INFO root fetch - main [MainThread]: Store serial: [22614907]
+[2024-04-04 04:48:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614907]
+[2024-04-04 04:48:43] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sourcery-nightly
+[2024-04-04 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcweb
+[2024-04-04 04:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmtaiga
+[2024-04-04 04:48:43] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-04 04:48:43] INFO root fetch - processPackages [hmtaiga]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 04:48:43] INFO root fetch - processPackages [kcweb]: New version: [5.25] Old Version: [5.24]
+[2024-04-04 04:48:43] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/ed/14/0cc8f97b28c51103c3c8feef6bc06ebe9b00a4e1149e23195fafd4cddc94/hmtaiga-0.1.6.tar.gz
+[2024-04-04 04:48:43] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-04 04:48:43] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/6d/66/f19ae9dfaf7cf4344f7e97e69e330d49386dcd475df51ec854809182fbc0/kcweb-5.24.tar.gz
+[2024-04-04 04:48:43] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-04 04:48:43] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-04 04:48:43] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-04 04:48:43] WARNING root fetch - processPackages [kcweb]: Timeout reached during download
+[2024-04-04 04:48:43] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/89/e2/5fa93e4a1946fb13823deba9ada886e6ec9f8f8b6df4e28510c1061b0b66/hmtaiga-0.1.7.tar.gz
+[2024-04-04 04:48:43] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-04 04:48:43] INFO root fetch - processPackages [hmtaiga]: executing diffoscope
+[2024-04-04 04:48:43] INFO root fetch - processPackages [hmtaiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaiga-0.1.6.tar.gz tmp/hmtaiga-0.1.7.tar.gz --markdown 20240404/h/hmtaiga/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 04:48:43] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/ee/5f/8b51187f7f60c835dec19a31b6cfe9cbc731512ea8969963badce4833b67/kcweb-5.25.tar.gz
+[2024-04-04 04:48:43] WARNING root fetch - processPackages [kcweb]: Timeout reached during download
+[2024-04-04 04:48:43] INFO root fetch - processPackages [kcweb]: executing diffoscope
+[2024-04-04 04:48:43] INFO root fetch - processPackages [kcweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcweb-5.24.tar.gz tmp/kcweb-5.25.tar.gz --markdown 20240404/k/kcweb/5.24-5.25/diff.md --exclude *.pyd
+[2024-04-04 04:48:44] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.6.tar.gz]
+[2024-04-04 04:48:44] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.7.tar.gz]
+[2024-04-04 04:48:44] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
+[2024-04-04 04:48:44] INFO root fetch - processPackages [kcweb]: Remove: archive file [/home/abi/fetcher/tmp/kcweb-5.24.tar.gz]
+[2024-04-04 04:48:44] INFO root fetch - processPackages [kcweb]: Remove: archive file [/home/abi/fetcher/tmp/kcweb-5.25.tar.gz]
+[2024-04-04 04:48:44] INFO root fetch - main [MainThread]: End processing [kcweb]: success
+[2024-04-04 04:48:44] INFO root fetch - main [MainThread]: Store serial: [22614918]
