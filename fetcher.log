@@ -13743,3 +13743,28 @@
 [2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
 [2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
 [2024-04-04 07:42:09] INFO root fetch - main [MainThread]: Store serial: [22615934]
+[2024-04-04 07:44:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615934]
+[2024-04-04 07:44:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 07:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickstart-vdk
+[2024-04-04 07:44:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-04-04 07:44:18] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 07:44:18] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-04 07:44:18] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-04 07:44:18] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-04 07:44:18] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-04 07:44:18] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-04 07:44:19] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-04 07:44:19] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-04 07:44:19] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240404/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-04 07:44:19] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 07:44:19] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-04 07:44:19] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-04 07:44:19] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-04 07:44:19] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-04 07:44:19] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 07:44:19] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-04 07:44:19] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240404/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:44:20] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-04 07:44:20] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-04 07:44:20] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-04 07:44:20] INFO root fetch - main [MainThread]: Store serial: [22615938]
