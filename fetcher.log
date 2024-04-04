@@ -22649,3 +22649,50 @@
 [2024-04-04 13:18:19] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
 [2024-04-04 13:18:19] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 13:18:19] INFO root fetch - main [MainThread]: Store serial: [22619005]
+[2024-04-04 13:20:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619005]
+[2024-04-04 13:20:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: svc-toolkit
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pluginTest
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-core-xe-21
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vasprocar
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pydargs
+[2024-04-04 13:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: my-quantlib
+[2024-04-04 13:20:29] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 13:20:29] INFO root fetch - processPackages [pydargs]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-04 13:20:29] WARNING root fetch - processPackages [my-quantlib]: Skipping, unable to determine old version
+[2024-04-04 13:20:29] INFO root fetch - main [MainThread]: End processing [my-quantlib] error
+[2024-04-04 13:20:29] INFO root fetch - processPackages [vasprocar]: New version: [1.1.18.48] Old Version: [1.1.18.47]
+[2024-04-04 13:20:29] WARNING root fetch - processPackages [pluginTest]: Skipping, unable to determine old version
+[2024-04-04 13:20:29] INFO root fetch - main [MainThread]: End processing [pluginTest] error
+[2024-04-04 13:20:29] INFO root fetch - processPackages [bigdl-core-xe-21]: New version: [2.5.0b20240404] Old Version: [2.5.0b20240403]
+[2024-04-04 13:20:29] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/52/de/5260411fd3c808f99999736576342a21cebb68ecda7086b1a9a2bcab84e8/svc_toolkit-1.0.3.tar.gz
+[2024-04-04 13:20:29] INFO root fetch - processPackages [bigdl-core-xe-21]: Downloading https://files.pythonhosted.org/packages/ab/b3/db9e675cd2c236f9fbb3346674bdfec25ff7b36e0d499d2749d0eb127829/bigdl_core_xe_21-2.5.0b20240403-cp39-cp39-win_amd64.whl
+[2024-04-04 13:20:29] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/f1/9a/60d4d4820f56543c7387303ca9bc001a8c12afc71f7076a73f9d2a50180f/vasprocar-1.1.18.47.tar.gz
+[2024-04-04 13:20:29] INFO root fetch - processPackages [pydargs]: Downloading https://files.pythonhosted.org/packages/5b/61/e62a7cfa16e2bc6b16b3d2135d7ca21b9e0b04ae53c144112a54a0134300/pydargs-0.8.1.tar.gz
+[2024-04-04 13:20:29] WARNING root fetch - processPackages [bigdl-core-xe-21]: Skipping package: exceeds size limit 25408214>=10485760
+[2024-04-04 13:20:29] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-21] error
+[2024-04-04 13:20:30] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 13:20:30] WARNING root fetch - processPackages [pydargs]: Timeout reached during download
+[2024-04-04 13:20:30] WARNING root fetch - processPackages [vasprocar]: Timeout reached during download
+[2024-04-04 13:20:30] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/8b/c6/d0e233386988637a9179be9e967af7d7a395ff8213d3af059e9c0703f19e/svc_toolkit-1.0.4.tar.gz
+[2024-04-04 13:20:30] INFO root fetch - processPackages [pydargs]: Downloading https://files.pythonhosted.org/packages/60/94/0a448ef09febaec77b84ab1ee676c32b699a83ac3bb2865cee81d0e1cf44/pydargs-0.9.0.tar.gz
+[2024-04-04 13:20:30] INFO root fetch - processPackages [vasprocar]: Downloading https://files.pythonhosted.org/packages/55/07/0ef5860aca0dcd5aad29c7f25d5b3d118cbfcd0b9c3ddd4a9532551b7ef9/vasprocar-1.1.18.48.tar.gz
+[2024-04-04 13:20:31] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 13:20:31] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-04 13:20:31] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.3.tar.gz tmp/svc_toolkit-1.0.4.tar.gz --markdown 20240404/s/svc-toolkit/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 13:20:31] WARNING root fetch - processPackages [pydargs]: Timeout reached during download
+[2024-04-04 13:20:31] INFO root fetch - processPackages [pydargs]: executing diffoscope
+[2024-04-04 13:20:31] INFO root fetch - processPackages [pydargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydargs-0.8.1.tar.gz tmp/pydargs-0.9.0.tar.gz --markdown 20240404/p/pydargs/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 13:20:31] WARNING root fetch - processPackages [vasprocar]: Timeout reached during download
+[2024-04-04 13:20:31] INFO root fetch - processPackages [vasprocar]: executing diffoscope
+[2024-04-04 13:20:31] INFO root fetch - processPackages [vasprocar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vasprocar-1.1.18.47.tar.gz tmp/vasprocar-1.1.18.48.tar.gz --markdown 20240404/v/vasprocar/1.1.18.47-1.1.18.48/diff.md --exclude *.pyd
+[2024-04-04 13:20:31] INFO root fetch - processPackages [pydargs]: Remove: archive file [/home/abi/fetcher/tmp/pydargs-0.8.1.tar.gz]
+[2024-04-04 13:20:31] INFO root fetch - processPackages [pydargs]: Remove: archive file [/home/abi/fetcher/tmp/pydargs-0.9.0.tar.gz]
+[2024-04-04 13:20:31] INFO root fetch - main [MainThread]: End processing [pydargs]: success
+[2024-04-04 13:20:31] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.3.tar.gz]
+[2024-04-04 13:20:31] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.4.tar.gz]
+[2024-04-04 13:20:31] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-04 13:20:32] INFO root fetch - processPackages [vasprocar]: Remove: archive file [/home/abi/fetcher/tmp/vasprocar-1.1.18.47.tar.gz]
+[2024-04-04 13:20:32] INFO root fetch - processPackages [vasprocar]: Remove: archive file [/home/abi/fetcher/tmp/vasprocar-1.1.18.48.tar.gz]
+[2024-04-04 13:20:32] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
+[2024-04-04 13:20:32] INFO root fetch - main [MainThread]: Store serial: [22619025]
