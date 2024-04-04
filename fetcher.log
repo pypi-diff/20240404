@@ -19816,3 +19816,300 @@
 [2024-04-04 11:44:16] ERROR root fetch - processPackages [sisl-gui]: Timeout during execution of pkgdiff
 [2024-04-04 11:44:16] INFO root fetch - main [MainThread]: End processing [sisl-gui] error
 [2024-04-04 11:44:16] INFO root fetch - main [MainThread]: Store serial: [22617968]
+[2024-04-04 11:46:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617968]
+[2024-04-04 11:46:24] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kodexa-cli
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fab-react-toolkit
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lsst-felis
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arg-services
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gotranx
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lsst-ctrl-bps-panda
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astro-metadata-translator
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inspeqai
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lsst-ctrl-bps-parsl
+[2024-04-04 11:46:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lsst-ctrl-bps-htcondor
+[2024-04-04 11:46:25] INFO root fetch - processPackages [gotranx]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-04 11:46:25] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8552549159] Old Version: [7.0.8551260364]
+[2024-04-04 11:46:25] INFO root fetch - processPackages [inspeqai]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 11:46:25] INFO root fetch - processPackages [arg-services]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-04 11:46:25] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:25] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:26] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/de/db/173a9cbe00d39a94491bb5e851c2691f02f26f6bcdc381de3f651790050f/inspeqai-1.0.8.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/7f/f2/3d1b8abb67139436dd554eb6c048ae7c69da8deb19f58875b5991d052a07/arg_services-1.6.0.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/80/ba/a167e8edf7c88bd7bbcc190517dec82b2aa76e3f8ee689ec065bd64610da/kodexa_cli-7.0.8551260364.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:26] INFO root fetch - processPackages [gotranx]: Downloading https://files.pythonhosted.org/packages/ea/37/f4c58d71a2bbae4e78a743399b24d0b6b12bbfdee932e9e8240bb1bf6240/gotranx-0.3.4.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/ef/36/15036ef05695b35749031308f92afa980a871e0a82874c25c17207acfa35/astro-metadata-translator-26.2024.800.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-felis]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:26] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/70/06/ac7ecf1bdd45bf1f56b29a9fb916d5f31e67a8ef430e1cdf9f4a3883de3c/fab-react-toolkit-0.2.9.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [arg-services]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/1e/78/b4e1b4b0406c27d8ae63ff7903c5224c820b76bb2b93a76e83cdee606dd7/lsst-ctrl-bps-parsl-26.2024.800.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [gotranx]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/aa/56/c8cac05ea573b554acda00f41963428f21483c8412651132daca59244d36/inspeqai-1.0.9.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [arg-services]: Downloading https://files.pythonhosted.org/packages/52/49/6f08b073550c7f9b54549ffcf2af957f132b81b5809eacbf1dbc4f541f03/arg_services-1.7.0.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/b1/69/8c779ee6941e1c099d4652e63e8c98a82213e167868bcaedacdcbb50fbbc/kodexa_cli-7.0.8552549159.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [lsst-ctrl-bps-parsl]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [gotranx]: Downloading https://files.pythonhosted.org/packages/5f/56/66f6283a7fa952e442a20ba535bbc1c0789a7f1ea68474c34bed8962ec3f/gotranx-0.3.5.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [astro-metadata-translator]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/92/17/29cbc6fba6a9de3e6c2de43270ea89583318b2bd3f1479bccf168954422b/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/ad/31/0b6d07f42d7cbc65faef67fad1dc7fcf9169933d8b1ec0af83d3d31061de/lsst-felis-26.2024.800.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [inspeqai]: executing diffoscope
+[2024-04-04 11:46:26] INFO root fetch - processPackages [inspeqai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspeqai-1.0.8.tar.gz tmp/inspeqai-1.0.9.tar.gz --markdown 20240404/i/inspeqai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-04 11:46:26] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8551260364.tar.gz tmp/kodexa_cli-7.0.8552549159.tar.gz --markdown 20240404/k/kodexa-cli/7.0.8551260364-7.0.8552549159/diff.md --exclude *.pyd
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/00/1b/1815a33c74de1c5005cf7f8fbb72f92b8b6f540a4eadbd3afdd9b083f2cc/lsst-ctrl-bps-panda-26.2024.800.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [gotranx]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [gotranx]: executing diffoscope
+[2024-04-04 11:46:26] INFO root fetch - processPackages [gotranx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gotranx-0.3.4.tar.gz tmp/gotranx-0.3.5.tar.gz --markdown 20240404/g/gotranx/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [arg-services]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [arg-services]: executing diffoscope
+[2024-04-04 11:46:26] INFO root fetch - processPackages [arg-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arg_services-1.6.0.tar.gz tmp/arg_services-1.7.0.tar.gz --markdown 20240404/a/arg-services/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [lsst-ctrl-bps-htcondor]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/2b/79/b6f62fd4e14aac4a9cc4b75683b435f59f9f6c43c240f4e611f568c4df6f/fab-react-toolkit-0.3.0.tar.gz
+[2024-04-04 11:46:26] WARNING root fetch - processPackages [lsst-felis]: Timeout reached during download
+[2024-04-04 11:46:26] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/12/69/5379393858f5ae6dbafe09263389d139123468c525af65b5953978ac1d70/lsst-ctrl-bps-parsl-26.2024.900.tar.gz
+[2024-04-04 11:46:26] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/29/c6/429aea517dda61c99c7a0440b22c6b2bf699d5f8b6266a22d43966dfeed6/astro-metadata-translator-26.2024.900.tar.gz
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [lsst-ctrl-bps-panda]: Timeout reached during download
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.2.9.tar.gz tmp/fab-react-toolkit-0.3.0.tar.gz --markdown 20240404/f/fab-react-toolkit/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [lsst-ctrl-bps-parsl]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.2024.800.tar.gz tmp/lsst-ctrl-bps-parsl-26.2024.900.tar.gz --markdown 20240404/l/lsst-ctrl-bps-parsl/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Downloading https://files.pythonhosted.org/packages/6e/7b/c5e5335a8ddbbe175300866200567a779a57817799e24d4a6df67d591c18/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [astro-metadata-translator]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.2024.800.tar.gz tmp/astro-metadata-translator-26.2024.900.tar.gz --markdown 20240404/a/astro-metadata-translator/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-felis]: Downloading https://files.pythonhosted.org/packages/5b/71/252577ba2b2a9c5264c2b271dd8b9f1d294b47c89454815a32337590f647/lsst-felis-26.2024.900.tar.gz
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [lsst-ctrl-bps-htcondor]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz tmp/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz --markdown 20240404/l/lsst-ctrl-bps-htcondor/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Downloading https://files.pythonhosted.org/packages/b1/5a/6f3034f1d2689718cbe7a8a793dccb3268d09d06c19f5cc38b76876d665b/lsst-ctrl-bps-panda-26.2024.900.tar.gz
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [lsst-felis]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-felis]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-felis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-felis-26.2024.800.tar.gz tmp/lsst-felis-26.2024.900.tar.gz --markdown 20240404/l/lsst-felis/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] WARNING root fetch - processPackages [lsst-ctrl-bps-panda]: Timeout reached during download
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: executing diffoscope
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-panda-26.2024.800.tar.gz tmp/lsst-ctrl-bps-panda-26.2024.900.tar.gz --markdown 20240404/l/lsst-ctrl-bps-panda/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:27] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8551260364.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8552549159.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [kodexa-cli]: Start processing: lsst-utils
+[2024-04-04 11:46:27] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-04 11:46:27] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.8.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.9.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [inspeqai]: Start processing: dexplorize
+[2024-04-04 11:46:27] INFO root fetch - main [MainThread]: End processing [inspeqai]: success
+[2024-04-04 11:46:27] INFO root fetch - processPackages [lsst-utils]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [dexplorize]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.6.0.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [arg-services]: Remove: archive file [/home/abi/fetcher/tmp/arg_services-1.7.0.tar.gz]
+[2024-04-04 11:46:27] INFO root fetch - processPackages [arg-services]: Start processing: lsst-daf-relation
+[2024-04-04 11:46:27] INFO root fetch - main [MainThread]: End processing [arg-services]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [gotranx]: Remove: archive file [/home/abi/fetcher/tmp/gotranx-0.3.4.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [gotranx]: Remove: archive file [/home/abi/fetcher/tmp/gotranx-0.3.5.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [gotranx]: Start processing: lsst-pipe-base
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [gotranx]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-daf-relation]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.2.9.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.0.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [fab-react-toolkit]: Start processing: thingsvision
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/ed/5d/f11e2fba9009a3966e3ad3808df1c75920b3150e3cb4fb5156c40ff235e6/lsst-utils-26.2024.800.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.2024.800.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.2024.900.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: lsst-ctrl-bps
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [dexplorize]: Downloading https://files.pythonhosted.org/packages/98/6d/e98871ec5bb2e408f90b56c8670e3a2d97fba9a8165de6eea527be72b44f/dexplorize-1.3.3.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.2024.800.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.2024.900.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: lsst-pex-config
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [thingsvision]: New version: [2.5.1] Old Version: [2.5.0]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.2024.800.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-htcondor-26.2024.900.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-htcondor]: Start processing: IronXL
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-htcondor]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.800.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-felis]: Remove: archive file [/home/abi/fetcher/tmp/lsst-felis-26.2024.900.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-felis]: Start processing: airouter
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [lsst-felis]: success
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [dexplorize]: Timeout reached during download
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-utils]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [IronXL]: New version: [2024.4.0.4] Old Version: [2024.3.0.3]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/fa/43/6557b29d4399d4e5157bf0c15ae6006c1029bdbd67ffac5e3852f72773cb/lsst-daf-relation-26.2024.800.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [airouter]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.2024.800.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-panda-26.2024.900.tar.gz]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps-panda]: Start processing: iutil-IGNchinmay
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-panda]: success
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/88/c1/d9434fe10d7aba3f19c88d2acc7f36c89c8cf2c7ff7a61f80547c23bc9af/lsst-pipe-base-26.2024.800.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/49/2f/ddf420155164dd903a1f88326cc821f78be29dbe0618d29e1eea40e6f980/thingsvision-2.5.0.tar.gz
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [iutil-IGNchinmay]: Skipping, unable to determine old version
+[2024-04-04 11:46:28] INFO root fetch - processPackages [iutil-IGNchinmay]: Start processing: lsst-resources
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [iutil-IGNchinmay] error
+[2024-04-04 11:46:28] INFO root fetch - processPackages [dexplorize]: Downloading https://files.pythonhosted.org/packages/37/c5/400c1c6e1890e4e48b27b940dbad88d663fbc2b686f2d8c446c2f348f949/dexplorize-1.3.4.tar.gz
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-daf-relation]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/23/6c/980f4600fefe3062a8c4b8c7ec1182cf0f2ddb4f7d5eb03e25851041063c/lsst-ctrl-bps-26.2024.800.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/11/99/dc95fd67b816479a3f3131f0b7c98fc268e870b8e9d34f0154ddb34f84b4/lsst-utils-26.2024.900.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-resources]: New version: [26.2024.500] Old Version: [26.2024.400]
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/58/b5/29b7f46aaa2c52d8e18673b652f17dea0cc0f60e2f278307bd67945e02e2/lsst-pex-config-26.2024.800.tar.gz
+[2024-04-04 11:46:28] INFO root fetch - processPackages [IronXL]: Downloading https://files.pythonhosted.org/packages/32/a9/0d6d57b41f09195e843bd8575eaf7eaa6d2553f03c179f660526143f3ebe/IronXL-2024.3.0.3-py37-none-any.whl
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [dexplorize]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [dexplorize]: executing diffoscope
+[2024-04-04 11:46:28] INFO root fetch - processPackages [dexplorize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexplorize-1.3.3.tar.gz tmp/dexplorize-1.3.4.tar.gz --markdown 20240404/d/dexplorize/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-pipe-base]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/8a/3e/da06f92af428f5b70f43949f2e50c9b5f58563142fda79296230caf358d7/airouter-0.1.8.tar.gz
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [IronXL]: Skipping package: exceeds size limit 12114263>=10485760
+[2024-04-04 11:46:28] INFO root fetch - processPackages [IronXL]: Start processing: countess
+[2024-04-04 11:46:28] INFO root fetch - main [MainThread]: End processing [IronXL] error
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-ctrl-bps]: Timeout reached during download
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [thingsvision]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/71/bb/f3702850950135c920bc613c1ad21699f47d7accc93a5eb9ed959bd215af/lsst-daf-relation-26.2024.900.tar.gz
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-utils]: Timeout reached during download
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2024-04-04 11:46:28] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.2024.800.tar.gz tmp/lsst-utils-26.2024.900.tar.gz --markdown 20240404/l/lsst-utils/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:28] WARNING root fetch - processPackages [lsst-pex-config]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [countess]: New version: [0.0.57] Old Version: [0.0.56]
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [airouter]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/c2/7b/0f7a0d06e26e5433b6a2261db5f2f9b4bf4f9c0cc2198c953ff280226d1d/lsst-resources-26.2024.400.tar.gz
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/56/a7/db3f29b9fd1ff596879f36303c2a86709d3f80c591c80c2ed221e72e4c5b/lsst-pipe-base-26.2024.900.tar.gz
+[2024-04-04 11:46:29] INFO root fetch - processPackages [thingsvision]: Downloading https://files.pythonhosted.org/packages/5c/2d/4aa644f68bc820f9a8de66f5a4d4375558c7acfa5839c033687eddd46361/thingsvision-2.5.1.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-daf-relation]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-26.2024.800.tar.gz tmp/lsst-daf-relation-26.2024.900.tar.gz --markdown 20240404/l/lsst-daf-relation/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/83/08/021bec4c231e2d0b1f76aad5e8795efd71fe02cec717e96dda55e6f22e9d/lsst-ctrl-bps-26.2024.900.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-resources]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [dexplorize]: Remove: archive file [/home/abi/fetcher/tmp/dexplorize-1.3.3.tar.gz]
+[2024-04-04 11:46:29] INFO root fetch - processPackages [dexplorize]: Remove: archive file [/home/abi/fetcher/tmp/dexplorize-1.3.4.tar.gz]
+[2024-04-04 11:46:29] INFO root fetch - processPackages [dexplorize]: Start processing: Temperatur-Nu
+[2024-04-04 11:46:29] INFO root fetch - main [MainThread]: End processing [dexplorize]: success
+[2024-04-04 11:46:29] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/73/fe/d73b54da4b69a805e7fefbee2ed720da39bdea8ec0529dc5e1d95b0d6c69/countess-0.0.56.tar.gz
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/3a/b0/00ae70f50a7a45b76e5b25ec673e5b103de58050d46db15665081dceab41/lsst-pex-config-26.2024.900.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-ctrl-bps]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.2024.800.tar.gz tmp/lsst-ctrl-bps-26.2024.900.tar.gz --markdown 20240404/l/lsst-ctrl-bps/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] INFO root fetch - processPackages [Temperatur-Nu]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 11:46:29] INFO root fetch - processPackages [airouter]: Downloading https://files.pythonhosted.org/packages/c4/d7/f6d9f500e0aa8354a4af24c90d8fc78305df63bb7b2133759b92be00e3e0/airouter-0.1.9.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [thingsvision]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [thingsvision]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [thingsvision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thingsvision-2.5.0.tar.gz tmp/thingsvision-2.5.1.tar.gz --markdown 20240404/t/thingsvision/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-pipe-base]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.2024.800.tar.gz tmp/lsst-pipe-base-26.2024.900.tar.gz --markdown 20240404/l/lsst-pipe-base/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-pex-config]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.2024.800.tar.gz tmp/lsst-pex-config-26.2024.900.tar.gz --markdown 20240404/l/lsst-pex-config/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [countess]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/59/2a/2f61e6c7f74b07ce15ad81fb96ec58375e579aec35379a21d30d24b9be20/lsst-resources-26.2024.500.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [airouter]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [airouter]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [airouter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airouter-0.1.8.tar.gz tmp/airouter-0.1.9.tar.gz --markdown 20240404/a/airouter/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/0e/f4/604af3ab9adcde62c94a92ae0b9398b073766bd5686d34cb863f1da2a89c/Temperatur_Nu-0.0.1.tar.gz
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.800.tar.gz]
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.2024.900.tar.gz]
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-utils]: Start processing: lsst-ctrl-mpexec
+[2024-04-04 11:46:29] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [lsst-resources]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.2024.400.tar.gz tmp/lsst-resources-26.2024.500.tar.gz --markdown 20240404/l/lsst-resources/26.2024.400-26.2024.500/diff.md --exclude *.pyd
+[2024-04-04 11:46:29] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/c3/fb/876d64872567e8c4f28ef86527274ee0def5386a36f536709747515c53e3/countess-0.0.57.tar.gz
+[2024-04-04 11:46:29] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 11:46:29] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/71/d6/1754e9ab61eb592a10d986b046ac46369d161a40c5957c5b3b590a81c7a3/Temperatur_Nu-0.0.2.tar.gz
+[2024-04-04 11:46:30] WARNING root fetch - processPackages [countess]: Timeout reached during download
+[2024-04-04 11:46:30] INFO root fetch - processPackages [countess]: executing diffoscope
+[2024-04-04 11:46:30] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.56.tar.gz tmp/countess-0.0.57.tar.gz --markdown 20240404/c/countess/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-26.2024.800.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-26.2024.900.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-daf-relation]: Start processing: so-ml-tools
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2024-04-04 11:46:30] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 11:46:30] INFO root fetch - processPackages [Temperatur-Nu]: executing diffoscope
+[2024-04-04 11:46:30] INFO root fetch - processPackages [Temperatur-Nu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Temperatur_Nu-0.0.1.tar.gz tmp/Temperatur_Nu-0.0.2.tar.gz --markdown 20240404/T/Temperatur-Nu/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/fb/ec/a92f3e2522c68dd6de31790893919fa325898923bd96d129314a718aa19c/lsst-ctrl-mpexec-26.2024.800.tar.gz
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.2024.800.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.2024.900.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-ctrl-bps]: Start processing: fonzie
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2024-04-04 11:46:30] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [fonzie]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-04 11:46:30] WARNING root fetch - processPackages [lsst-ctrl-mpexec]: Timeout reached during download
+[2024-04-04 11:46:30] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-04 11:46:30] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.0.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [thingsvision]: Remove: archive file [/home/abi/fetcher/tmp/thingsvision-2.5.1.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [thingsvision]: Start processing: pulumi-vault
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [thingsvision]: success
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.800.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.2024.900.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-pex-config]: Start processing: pulumi-ec
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2024-04-04 11:46:30] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.8.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [airouter]: Remove: archive file [/home/abi/fetcher/tmp/airouter-0.1.9.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [airouter]: success
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.2024.400.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.2024.500.tar.gz]
+[2024-04-04 11:46:30] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2024-04-04 11:46:30] INFO root fetch - processPackages [pulumi-vault]: New version: [6.1.0a1712222735] Old Version: [6.1.0a1711984789]
+[2024-04-04 11:46:30] INFO root fetch - processPackages [fonzie]: Downloading https://files.pythonhosted.org/packages/b5/65/c93754ac72ca6a8771e0b4a3356c07b72d9a06c4ec565cb8f53c88dab168/fonzie-0.6.0.tar.gz
+[2024-04-04 11:46:30] INFO root fetch - processPackages [pulumi-ec]: New version: [0.7.3a1712219913] Old Version: [0.7.3a1711735663]
+[2024-04-04 11:46:30] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 11:46:30] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/6d/f1/475e9b17bd6686ef7617465913567956ac4ae7b9d15bf6699af133438cb6/lsst-ctrl-mpexec-26.2024.900.tar.gz
+[2024-04-04 11:46:31] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-04 11:46:31] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.1.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.2.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu]: success
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [fonzie]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/62/f6/837a8a8917ad847d44509d32cd2b71b6f4b931922acd25326c195a41b4a3/pulumi_ec-0.7.3a1711735663.tar.gz
+[2024-04-04 11:46:31] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.2024.800.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.2024.900.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2024-04-04 11:46:31] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.56.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/7f/34/2fe548d047121ccf2010419a48fe3f6814e7168d2817452f52d5f1282318/pulumi_vault-6.1.0a1711984789.tar.gz
+[2024-04-04 11:46:31] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.57.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [lsst-ctrl-mpexec]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2024-04-04 11:46:31] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.2024.800.tar.gz tmp/lsst-ctrl-mpexec-26.2024.900.tar.gz --markdown 20240404/l/lsst-ctrl-mpexec/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-04 11:46:31] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240404/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [pulumi-ec]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [fonzie]: Downloading https://files.pythonhosted.org/packages/81/ee/bc481a83be0f3744fb23004559989ee9865a865a1d464b5900dcdcf113ab/fonzie-0.7.0.tar.gz
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [pulumi-vault]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-ec]: Downloading https://files.pythonhosted.org/packages/33/0c/c2f8c0ddf7771c8d5e4a7e7d328c51a6e3f8ce06fda714e50b2dbdb6f9f0/pulumi_ec-0.7.3a1712219913.tar.gz
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [fonzie]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [fonzie]: executing diffoscope
+[2024-04-04 11:46:31] INFO root fetch - processPackages [fonzie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonzie-0.6.0.tar.gz tmp/fonzie-0.7.0.tar.gz --markdown 20240404/f/fonzie/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-vault]: Downloading https://files.pythonhosted.org/packages/3f/f5/1d96163cb8c6cd9af191e04ac6399ec98c40d8e4d0e7dc4e935f9afcb65f/pulumi_vault-6.1.0a1712222735.tar.gz
+[2024-04-04 11:46:31] WARNING root fetch - processPackages [pulumi-ec]: Timeout reached during download
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-ec]: executing diffoscope
+[2024-04-04 11:46:31] INFO root fetch - processPackages [pulumi-ec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ec-0.7.3a1711735663.tar.gz tmp/pulumi_ec-0.7.3a1712219913.tar.gz --markdown 20240404/p/pulumi-ec/0.7.3a1711735663-0.7.3a1712219913/diff.md --exclude *.pyd
+[2024-04-04 11:46:31] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-04 11:46:31] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-04 11:46:32] WARNING root fetch - processPackages [pulumi-vault]: Timeout reached during download
+[2024-04-04 11:46:32] INFO root fetch - processPackages [pulumi-vault]: executing diffoscope
+[2024-04-04 11:46:32] INFO root fetch - processPackages [pulumi-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_vault-6.1.0a1711984789.tar.gz tmp/pulumi_vault-6.1.0a1712222735.tar.gz --markdown 20240404/p/pulumi-vault/6.1.0a1711984789-6.1.0a1712222735/diff.md --exclude *.pyd
+[2024-04-04 11:46:32] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.2024.800.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.2024.900.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2024-04-04 11:46:32] INFO root fetch - processPackages [fonzie]: Remove: archive file [/home/abi/fetcher/tmp/fonzie-0.6.0.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - processPackages [fonzie]: Remove: archive file [/home/abi/fetcher/tmp/fonzie-0.7.0.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - main [MainThread]: End processing [fonzie]: success
+[2024-04-04 11:46:32] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.7.3a1711735663.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - processPackages [pulumi-ec]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ec-0.7.3a1712219913.tar.gz]
+[2024-04-04 11:46:32] INFO root fetch - main [MainThread]: End processing [pulumi-ec]: success
+[2024-04-04 11:46:33] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1711984789.tar.gz]
+[2024-04-04 11:46:33] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1712222735.tar.gz]
+[2024-04-04 11:46:33] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
+[2024-04-04 11:46:33] INFO root fetch - main [MainThread]: Store serial: [22618050]
