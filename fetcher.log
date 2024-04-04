@@ -23673,3 +23673,207 @@
 [2024-04-04 14:00:19] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.6.tar.gz]
 [2024-04-04 14:00:19] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
 [2024-04-04 14:00:19] INFO root fetch - main [MainThread]: Store serial: [22619439]
+[2024-04-04 14:04:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619439]
+[2024-04-04 14:04:30] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: staging
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irtorch
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mixpeek
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shapeout2
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libcnmc
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eolymp
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-sonar
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: backend.ai-krunner-alpine
+[2024-04-04 14:04:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-ionq
+[2024-04-04 14:04:30] INFO root fetch - processPackages [libcnmc]: New version: [24.8.1] Old Version: [24.8.0]
+[2024-04-04 14:04:30] WARNING root fetch - processPackages [staging]: Skipping, unable to determine old version
+[2024-04-04 14:04:30] INFO root fetch - processPackages [staging]: Start processing: cirq-pasqal
+[2024-04-04 14:04:30] INFO root fetch - main [MainThread]: End processing [staging] error
+[2024-04-04 14:04:30] INFO root fetch - processPackages [backend.ai-krunner-alpine]: New version: [5.2.0rc1] Old Version: [5.1.0]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [irtorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [django-sonar]: New version: [0.1.8] Old Version: [0.1.3]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [mixpeek]: New version: [1.7] Old Version: [0.6.8]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [shapeout2]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [eolymp]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 14:04:30] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:04:31] INFO root fetch - processPackages [irtorch]: Downloading https://files.pythonhosted.org/packages/b9/e7/5448439896c6bb7579e566b5b2f88327160ade4adde8619b604a4bc7a4a3/irtorch-0.0.2.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/87/68/1d20c8486cc820f7f72d02c94f5eb50c65d0181e8bae0857d0b8a2b949ea/libcnmc-24.8.0.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [django-sonar]: Downloading https://files.pythonhosted.org/packages/75/f6/c112d1e32026669ca8b63ff4e829744785f85265838a8050ec792f0b0408/django_sonar-0.1.3.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/89/6a/9c72f15a29acb7ad496803f4409d18c5865bffcce6523ab1f1886b80bb43/mixpeek-0.6.8.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/79/3b/cd5064faf08a456ec45e42fb28f567d362c13cace07fdca5adcab6ccce11/cirq_ionq-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/ac/76/ac77609510d6ae9671e4bd63f11b4c5700486e0db6568ae76cab4014b926/cirq_google-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:31] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Downloading https://files.pythonhosted.org/packages/06/a9/7beda3f8a60849fef81a3541015bcf38b9ab76fa3d465d648f4ecba5106a/backend.ai-krunner-alpine-5.1.0.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/3d/01/2de0e86ab7b81e2035ab9f4eea3174368c6c90c43daedeb064aa676ef957/cirq_pasqal-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:31] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b4/7e/616d80edbba0ebc4de3d8b9e073268ed513845acc17f3f0c5687e2745d1d/eolymp-0.9.8.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/27/26/7e5e08bc714db215c9103bad6c7528a292dad54c0cd3e56a556dd2fd660a/shapeout2-2.9.5.tar.gz
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [django-sonar]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [irtorch]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [eolymp]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [shapeout2]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/d5/fa/7ff9f3b76fffb6250a86e920ef1d21c7dc38372c381fa348b24df767cf56/libcnmc-24.8.1.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/4e/28/65883295a5dbdc3f5d384b7bfe1a5dd6004d59f0fed02f20b02e32bd7646/mixpeek-1.7.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [django-sonar]: Downloading https://files.pythonhosted.org/packages/c4/01/e8a7f6e595d1f424fff83b9dc3d89386faf4cead82b761ef8d58d24de0de/django_sonar-0.1.8.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/f8/1e/81f984364a4c243b53e0fbe9f059e9ad295ecd884c8eafac550f0b69bf73/cirq_ionq-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:04:31] INFO root fetch - processPackages [irtorch]: Downloading https://files.pythonhosted.org/packages/6f/21/b7075dc29edc63fa54d95a1a6f66f83a8814bc32f1166427c998919c953a/irtorch-0.0.3.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/82/93/d76975dfe60516612ab428d80a89cf52ba56b97365288047f3bf8da326af/cirq_pasqal-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/4c/57/39fe1d56ace39ff69e09d297a9d58a1aa11eb1579ad32d8b7f46318861ac/cirq_google-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [backend.ai-krunner-alpine]: Timeout reached during download
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [mixpeek]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [mixpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixpeek-0.6.8.tar.gz tmp/mixpeek-1.7.tar.gz --markdown 20240404/m/mixpeek/0.6.8-1.7/diff.md --exclude *.pyd
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [libcnmc]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-24.8.0.tar.gz tmp/libcnmc-24.8.1.tar.gz --markdown 20240404/l/libcnmc/24.8.0-24.8.1/diff.md --exclude *.pyd
+[2024-04-04 14:04:31] INFO root fetch - processPackages [eolymp]: Downloading https://files.pythonhosted.org/packages/b7/fe/df96d638fe0a51e45220154bf6bc8588f92805e80d6cf2e908d0226bf3c9/eolymp-0.9.9.tar.gz
+[2024-04-04 14:04:31] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/35/23/3e2b923fd3a130e068a59c3125d5bcfcc7bcf9ff2dfd5df0df3ce914dfa7/shapeout2-2.9.6.tar.gz
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [django-sonar]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [django-sonar]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [django-sonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sonar-0.1.3.tar.gz tmp/django_sonar-0.1.8.tar.gz --markdown 20240404/d/django-sonar/0.1.3-0.1.8/diff.md --exclude *.pyd
+[2024-04-04 14:04:31] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Downloading https://files.pythonhosted.org/packages/80/1f/b9774943901c0121f7cc0bddbed44bb7850df51b0d47316b61e5a8dc4e1f/backend.ai-krunner-alpine-5.2.0rc1.tar.gz
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [cirq-pasqal]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq-pasqal/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [cirq-ionq]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq-ionq/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:04:31] WARNING root fetch - processPackages [eolymp]: Timeout reached during download
+[2024-04-04 14:04:31] INFO root fetch - processPackages [eolymp]: executing diffoscope
+[2024-04-04 14:04:31] INFO root fetch - processPackages [eolymp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eolymp-0.9.8.tar.gz tmp/eolymp-0.9.9.tar.gz --markdown 20240404/e/eolymp/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 14:04:32] WARNING root fetch - processPackages [shapeout2]: Timeout reached during download
+[2024-04-04 14:04:32] INFO root fetch - processPackages [shapeout2]: executing diffoscope
+[2024-04-04 14:04:32] INFO root fetch - processPackages [shapeout2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeout2-2.9.5.tar.gz tmp/shapeout2-2.9.6.tar.gz --markdown 20240404/s/shapeout2/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2024-04-04 14:04:32] WARNING root fetch - processPackages [irtorch]: Timeout reached during download
+[2024-04-04 14:04:32] INFO root fetch - processPackages [irtorch]: executing diffoscope
+[2024-04-04 14:04:32] INFO root fetch - processPackages [irtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irtorch-0.0.2.tar.gz tmp/irtorch-0.0.3.tar.gz --markdown 20240404/i/irtorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 14:04:32] WARNING root fetch - processPackages [cirq-google]: Timeout reached during download
+[2024-04-04 14:04:32] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-04-04 14:04:32] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq-google/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:04:32] WARNING root fetch - processPackages [backend.ai-krunner-alpine]: Timeout reached during download
+[2024-04-04 14:04:32] INFO root fetch - processPackages [backend.ai-krunner-alpine]: executing diffoscope
+[2024-04-04 14:04:32] INFO root fetch - processPackages [backend.ai-krunner-alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-krunner-alpine-5.1.0.tar.gz tmp/backend.ai-krunner-alpine-5.2.0rc1.tar.gz --markdown 20240404/b/backend.ai-krunner-alpine/5.1.0-5.2.0rc1/diff.md --exclude *.pyd
+[2024-04-04 14:04:33] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-0.6.8.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-1.7.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [mixpeek]: Start processing: scrapy-settings-log
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [mixpeek]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-pasqal]: Start processing: cirq
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [scrapy-settings-log]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-ionq]: Start processing: aos-prov
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [aos-prov]: New version: [4.5.0b9] Old Version: [4.5.0b8]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [django-sonar]: Remove: archive file [/home/abi/fetcher/tmp/django_sonar-0.1.3.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [django-sonar]: Remove: archive file [/home/abi/fetcher/tmp/django_sonar-0.1.8.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [django-sonar]: Start processing: cirq-ft
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [django-sonar]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [scrapy-settings-log]: Downloading https://files.pythonhosted.org/packages/3e/66/40ff775d3ad5a633e8310b8da841850b9acb63c341a7db44a59510c18c88/scrapy-settings-log-1.3.3.tar.gz
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-ft]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/e1/51/32d67aa801eda42d9a0c95042c025b4e8aa432a9be4a9630eb32b8f47295/aos_prov-4.5.0b8-py3-none-any.whl
+[2024-04-04 14:04:33] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-alpine-5.1.0.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-alpine-5.2.0rc1.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Start processing: cirq-web
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [backend.ai-krunner-alpine]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/cf/b9/52869088c54be000fcdb3ccc6eecf2fe4b87e57ed346730868af0ac8114f/cirq-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:33] WARNING root fetch - processPackages [scrapy-settings-log]: Timeout reached during download
+[2024-04-04 14:04:33] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.0.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.1.tar.gz]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [libcnmc]: Start processing: cirq-core
+[2024-04-04 14:04:33] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240404010536] Old Version: [1.4.0.dev20240403182803]
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/a9/b5/a5e27030f285fca87ec5ad1a590aca1a899432ba1271bb5360da16387426/cirq_ft-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:33] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-04 14:04:33] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-04 14:04:33] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240404010536] Old Version: [1.4.0.dev20240403182803]
+[2024-04-04 14:04:34] INFO root fetch - processPackages [scrapy-settings-log]: Downloading https://files.pythonhosted.org/packages/c8/3e/a83feabb18089024a9e14bddb3f87c28549332e972be4abc245776e3670c/scrapy-settings-log-1.3.4.tar.gz
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/5f/5f/1734d11db35d8940f7626d840093c47fba123fa71bd6d9def21c90b689bf/cirq_web-1.4.0.dev20240403182803-py3-none-any.whl
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/9f/8c/8cd4996345aa20d99661ed9d31952bef4de9847659d6b65793f177768ca5/cirq-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:04:34] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/03/89/5d9410ef3bf7d3437825ec29c4d03ef42c4cf197008ff7283abe01fcd15f/aos_prov-4.5.0b9-py3-none-any.whl
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b6/82/ef69e2f42b264305ce719e56f63c9ed5f987d1c0ca023429ebe3737b5501/cirq_core-1.4.0.dev20240403182803-py3-none-any.whl
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/f0/81/73913857b07ddb659464f855dd0ded7f5afa88bebb8195494b8d66a291ce/cirq_ft-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [scrapy-settings-log]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [scrapy-settings-log]: executing diffoscope
+[2024-04-04 14:04:34] INFO root fetch - processPackages [scrapy-settings-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-settings-log-1.3.3.tar.gz tmp/scrapy-settings-log-1.3.4.tar.gz --markdown 20240404/s/scrapy-settings-log/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2024-04-04 14:04:34] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip --markdown 20240404/a/aos-prov/4.5.0b8-4.5.0b9/diff.md --exclude *.pyd
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-ft]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq_ft-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq-ft/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/f0/0f/c7c6f981d1b4fa3ce4efbe623d541b08e69ed24a9d164b6076843fdef265/cirq_web-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-web]: Timeout reached during download
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240403182803-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240404010536-py3-none-any.whl.zip --markdown 20240404/c/cirq-web/1.4.0.dev20240403182803-1.4.0.dev20240404010536/diff.md --exclude *.pyd
+[2024-04-04 14:04:34] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/1f/5f/16631dc91ef371d9c7494a2d09385417ace02083a8c41ad4ee877627c4c0/cirq_core-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:34] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.8.tar.gz]
+[2024-04-04 14:04:34] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.9.9.tar.gz]
+[2024-04-04 14:04:34] INFO root fetch - processPackages [eolymp]: Start processing: ephios
+[2024-04-04 14:04:34] INFO root fetch - main [MainThread]: End processing [eolymp]: success
+[2024-04-04 14:04:34] WARNING root fetch - processPackages [cirq-core]: Timeout reached during download
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240403182803-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240404010536-py3-none-any.whl.zip --markdown 20240404/c/cirq-core/1.4.0.dev20240403182803-1.4.0.dev20240404010536/diff.md --exclude *.pyd
+[2024-04-04 14:04:35] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.5.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.6.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [shapeout2]: Start processing: cirq-aqt
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240404010536] Old Version: [1.4.0.dev20240403182803]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [ephios]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/3d/04/656c7d9edfef1114b5ca4a7253631e54eae8abaee1cb000198eda6e5023c/cirq_aqt-1.4.0.dev20240403182803-py3-none-any.whl
+[2024-04-04 14:04:35] INFO root fetch - processPackages [scrapy-settings-log]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-settings-log-1.3.3.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [scrapy-settings-log]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-settings-log-1.3.4.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [scrapy-settings-log]: success
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-04 14:04:35] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-04 14:04:35] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/c1/4f/9cc9c40bc81b96272ad21c8c7d72a96f8d6044eafc9e180331d92998a088/ephios-0.9.2.tar.gz
+[2024-04-04 14:04:35] INFO root fetch - processPackages [irtorch]: Remove: archive file [/home/abi/fetcher/tmp/irtorch-0.0.2.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [irtorch]: Remove: archive file [/home/abi/fetcher/tmp/irtorch-0.0.3.tar.gz]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [irtorch]: success
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e2/66/f14995d8f5fd3b9123737682446121c559a22f519a8b1e08701f0512448b/cirq_aqt-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:04:35] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2024-04-04 14:04:35] WARNING root fetch - processPackages [cirq-aqt]: Timeout reached during download
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240403182803-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240404010536-py3-none-any.whl.zip --markdown 20240404/c/cirq-aqt/1.4.0.dev20240403182803-1.4.0.dev20240404010536/diff.md --exclude *.pyd
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240403182803-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:35] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-04 14:04:36] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240403182803-py3-none-any.whl.zip]
+[2024-04-04 14:04:36] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:36] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-04-04 14:04:37] WARNING root fetch - processPackages [ephios]: Timeout reached during download
+[2024-04-04 14:04:37] INFO root fetch - processPackages [ephios]: Downloading https://files.pythonhosted.org/packages/e7/7a/49d2ba5170828d802ec0a0665ef0e8f5e8ee92e9baee5375f2b3cf6bbe55/ephios-0.9.3.tar.gz
+[2024-04-04 14:04:38] WARNING root fetch - processPackages [ephios]: Timeout reached during download
+[2024-04-04 14:04:38] INFO root fetch - processPackages [ephios]: executing diffoscope
+[2024-04-04 14:04:38] INFO root fetch - processPackages [ephios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephios-0.9.2.tar.gz tmp/ephios-0.9.3.tar.gz --markdown 20240404/e/ephios/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-04 14:04:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240403182803-py3-none-any.whl.zip]
+[2024-04-04 14:04:39] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:04:39] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-04-04 14:04:40] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.2.tar.gz]
+[2024-04-04 14:04:40] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.3.tar.gz]
+[2024-04-04 14:04:40] INFO root fetch - main [MainThread]: End processing [ephios]: success
+[2024-04-04 14:04:40] INFO root fetch - main [MainThread]: Store serial: [22619490]
