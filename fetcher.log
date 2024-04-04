@@ -11734,3 +11734,17 @@
 [2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
 [2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
 [2024-04-04 05:56:11] INFO root fetch - main [MainThread]: Store serial: [22615293]
+[2024-04-04 05:58:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615293]
+[2024-04-04 05:58:19] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 05:58:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-times
+[2024-04-04 05:58:19] INFO root fetch - processPackages [mo-times]: New version: [5.582.24095] Old Version: [5.579.24081]
+[2024-04-04 05:58:20] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/4e/bc/494830c2367b37008470c7db95bb240ec11a8b282307179670c28153c0cf/mo-times-5.579.24081.tar.gz
+[2024-04-04 05:58:20] WARNING root fetch - processPackages [mo-times]: Timeout reached during download
+[2024-04-04 05:58:20] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/6c/f8/eed946b6ee1198805f347f8012a791646bafdbef9a1a740d99907211c9ea/mo-times-5.582.24095.tar.gz
+[2024-04-04 05:58:20] WARNING root fetch - processPackages [mo-times]: Timeout reached during download
+[2024-04-04 05:58:20] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2024-04-04 05:58:20] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-times-5.579.24081.tar.gz tmp/mo-times-5.582.24095.tar.gz --markdown 20240404/m/mo-times/5.579.24081-5.582.24095/diff.md --exclude *.pyd
+[2024-04-04 05:58:21] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo-times-5.579.24081.tar.gz]
+[2024-04-04 05:58:21] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo-times-5.582.24095.tar.gz]
+[2024-04-04 05:58:21] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2024-04-04 05:58:21] INFO root fetch - main [MainThread]: Store serial: [22615296]
