@@ -11817,3 +11817,50 @@
 [2024-04-04 06:02:41] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.97.tar.gz]
 [2024-04-04 06:02:41] INFO root fetch - main [MainThread]: End processing [pre5g]: success
 [2024-04-04 06:02:41] INFO root fetch - main [MainThread]: Store serial: [22615320]
+[2024-04-04 06:04:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615320]
+[2024-04-04 06:04:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-threads
+[2024-04-04 06:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2024-04-04 06:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databento
+[2024-04-04 06:04:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-github-connector
+[2024-04-04 06:04:50] INFO root fetch - processPackages [mo-threads]: New version: [6.582.24095] Old Version: [6.579.24081]
+[2024-04-04 06:04:50] INFO root fetch - processPackages [databento]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-04 06:04:50] INFO root fetch - processPackages [odoo-addon-github-connector]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-04 06:04:50] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-04 06:04:50] INFO root fetch - processPackages [odoo-addon-github-connector]: Downloading https://files.pythonhosted.org/packages/09/84/9f64883cf48db6dec4b972f1b95c629600168b4cbe488b378345b18f087a/odoo_addon_github_connector-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 06:04:50] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/0d/e4/10790d212df7a4c2dea782ab8b245802a946d6669038f3858c84767ecdda/databento-0.8.1.tar.gz
+[2024-04-04 06:04:50] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/22/88/2bcbc41c52596f7437fa74e5b19b05e35782e585fe1695453b3a394da377/mo-threads-6.579.24081.tar.gz
+[2024-04-04 06:04:50] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [mo-threads]: Timeout reached during download
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [odoo-addon-github-connector]: Timeout reached during download
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [databento]: Timeout reached during download
+[2024-04-04 06:04:51] INFO root fetch - processPackages [mo-threads]: Downloading https://files.pythonhosted.org/packages/6e/94/dc19b7a6e889625bf724e2ea1b1a081c422593a093de1343926326ee76da/mo-threads-6.582.24095.tar.gz
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [mo-threads]: Timeout reached during download
+[2024-04-04 06:04:51] INFO root fetch - processPackages [mo-threads]: executing diffoscope
+[2024-04-04 06:04:51] INFO root fetch - processPackages [mo-threads]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-threads-6.579.24081.tar.gz tmp/mo-threads-6.582.24095.tar.gz --markdown 20240404/m/mo-threads/6.579.24081-6.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:04:51] INFO root fetch - processPackages [odoo-addon-github-connector]: Downloading https://files.pythonhosted.org/packages/82/58/61c479c3d1ea5fdb3eeffd6210d13126b139a04bd45f674fb4ba0d15c077/odoo_addon_github_connector-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 06:04:51] INFO root fetch - processPackages [databento]: Downloading https://files.pythonhosted.org/packages/ec/da/e98fe04d3df728294a2fa7f56a0f9d17514e08ac81160fe5ff493b02cf31/databento-0.9.0.tar.gz
+[2024-04-04 06:04:51] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-04 06:04:51] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-04 06:04:51] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240404/c/coretex/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [odoo-addon-github-connector]: Timeout reached during download
+[2024-04-04 06:04:51] INFO root fetch - processPackages [odoo-addon-github-connector]: executing diffoscope
+[2024-04-04 06:04:51] INFO root fetch - processPackages [odoo-addon-github-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_github_connector-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_github_connector-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-github-connector/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 06:04:51] WARNING root fetch - processPackages [databento]: Timeout reached during download
+[2024-04-04 06:04:51] INFO root fetch - processPackages [databento]: executing diffoscope
+[2024-04-04 06:04:51] INFO root fetch - processPackages [databento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databento-0.8.1.tar.gz tmp/databento-0.9.0.tar.gz --markdown 20240404/d/databento/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 06:04:52] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo-threads-6.579.24081.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - processPackages [mo-threads]: Remove: archive file [/home/abi/fetcher/tmp/mo-threads-6.582.24095.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - main [MainThread]: End processing [mo-threads]: success
+[2024-04-04 06:04:52] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.8.1.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - processPackages [databento]: Remove: archive file [/home/abi/fetcher/tmp/databento-0.9.0.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - main [MainThread]: End processing [databento]: success
+[2024-04-04 06:04:52] INFO root fetch - processPackages [odoo-addon-github-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 06:04:52] INFO root fetch - processPackages [odoo-addon-github-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 06:04:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-github-connector]: success
+[2024-04-04 06:04:52] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-04 06:04:52] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-04 06:04:52] INFO root fetch - main [MainThread]: Store serial: [22615332]
