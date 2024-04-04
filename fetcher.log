@@ -4263,3 +4263,31 @@
 [2024-04-04 02:42:26] INFO root fetch - processPackages [mahdi-env]: Remove: archive file [/home/abi/fetcher/tmp/mahdi_env-0.0.1.tar.gz]
 [2024-04-04 02:42:26] INFO root fetch - main [MainThread]: End processing [mahdi-env]: success
 [2024-04-04 02:42:26] INFO root fetch - main [MainThread]: Store serial: [22613000]
+[2024-04-04 02:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613000]
+[2024-04-04 02:44:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akello-apps
+[2024-04-04 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytplot-mpl-temp
+[2024-04-04 02:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfds-nightly
+[2024-04-04 02:44:35] WARNING root fetch - processPackages [akello-apps]: Skipping, unable to determine old version
+[2024-04-04 02:44:35] INFO root fetch - main [MainThread]: End processing [akello-apps] error
+[2024-04-04 02:44:35] INFO root fetch - processPackages [pytplot-mpl-temp]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-04 02:44:35] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.4.dev202404030044] Old Version: [4.9.4.dev202404030043]
+[2024-04-04 02:44:35] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/4a/3e/a5a5f1bb38b468da3d376ee81f842f2f8433d02dd89bf1e410d1a15a98e0/pytplot-mpl-temp-2.2.8.tar.gz
+[2024-04-04 02:44:35] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/2e/7d/2037a23b97e311d3eeaac091d3d3c28ba5d870122a5a1ed40979ae3ca424/tfds-nightly-4.9.4.dev202404030043.tar.gz
+[2024-04-04 02:44:35] WARNING root fetch - processPackages [pytplot-mpl-temp]: Timeout reached during download
+[2024-04-04 02:44:35] INFO root fetch - processPackages [pytplot-mpl-temp]: Downloading https://files.pythonhosted.org/packages/21/aa/38c2164a03950b9adf6f62c59343823fefd067961a6402ad1c2311ef1a3a/pytplot-mpl-temp-2.2.9.tar.gz
+[2024-04-04 02:44:35] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-04 02:44:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/96/ab/01b92fc96eb7ed1106b634220fc9fcd20ff2ab20ffe36e2b0a5b8fd10732/tfds_nightly-4.9.4.dev202404030044-py3-none-any.whl
+[2024-04-04 02:44:36] WARNING root fetch - processPackages [pytplot-mpl-temp]: Timeout reached during download
+[2024-04-04 02:44:36] INFO root fetch - processPackages [pytplot-mpl-temp]: executing diffoscope
+[2024-04-04 02:44:36] INFO root fetch - processPackages [pytplot-mpl-temp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytplot-mpl-temp-2.2.8.tar.gz tmp/pytplot-mpl-temp-2.2.9.tar.gz --markdown 20240404/p/pytplot-mpl-temp/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 02:44:36] WARNING root fetch - processPackages [tfds-nightly]: Timeout reached during download
+[2024-04-04 02:44:36] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2024-04-04 02:44:36] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.4.dev202404030043.tar.gz tmp/tfds_nightly-4.9.4.dev202404030044-py3-none-any.whl.zip --markdown 20240404/t/tfds-nightly/4.9.4.dev202404030043-4.9.4.dev202404030044/diff.md --exclude *.pyd
+[2024-04-04 02:44:37] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.8.tar.gz]
+[2024-04-04 02:44:37] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
+[2024-04-04 02:44:37] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
+[2024-04-04 02:44:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404030043.tar.gz]
+[2024-04-04 02:44:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.4.dev202404030044-py3-none-any.whl.zip]
+[2024-04-04 02:44:38] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2024-04-04 02:44:38] INFO root fetch - main [MainThread]: Store serial: [22613011]
