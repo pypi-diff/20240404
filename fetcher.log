@@ -15102,3 +15102,125 @@
 [2024-04-04 08:48:16] ERROR root fetch - processPackages [ogcore]: Timeout during execution of pkgdiff
 [2024-04-04 08:48:16] INFO root fetch - main [MainThread]: End processing [ogcore] error
 [2024-04-04 08:48:16] INFO root fetch - main [MainThread]: Store serial: [22616345]
+[2024-04-04 08:50:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616345]
+[2024-04-04 08:50:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: polymind
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: idplib
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-turnstile
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-queue-job-batch
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-web-tree-duplicate
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apollo-lunar
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: casioplot
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tableland
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dotlocalslashbin
+[2024-04-04 08:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-queue-job
+[2024-04-04 08:50:25] INFO root fetch - processPackages [polymind]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [dotlocalslashbin]: Skipping, unable to determine old version
+[2024-04-04 08:50:25] INFO root fetch - processPackages [dotlocalslashbin]: Start processing: sdss-hal
+[2024-04-04 08:50:25] INFO root fetch - main [MainThread]: End processing [dotlocalslashbin] error
+[2024-04-04 08:50:25] INFO root fetch - processPackages [tableland]: New version: [0.0.1rc0] Old Version: [0.0.1]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.6]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [apollo-lunar]: New version: [2024.4.4rc1] Old Version: [2024.3.6rc1]
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [idplib]: Skipping, unable to determine old version
+[2024-04-04 08:50:25] INFO root fetch - processPackages [idplib]: Start processing: qapp-common
+[2024-04-04 08:50:25] INFO root fetch - main [MainThread]: End processing [idplib] error
+[2024-04-04 08:50:25] INFO root fetch - processPackages [casioplot]: New version: [3.1.5] Old Version: [3.1.4]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [drf-turnstile]: Skipping, unable to determine old version
+[2024-04-04 08:50:25] INFO root fetch - processPackages [drf-turnstile]: Start processing: langtrace-python-sdk
+[2024-04-04 08:50:25] INFO root fetch - main [MainThread]: End processing [drf-turnstile] error
+[2024-04-04 08:50:25] INFO root fetch - processPackages [sdss-hal]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [qapp-common]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [langtrace-python-sdk]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 08:50:25] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/0e/aa/52a8f77530064a4a31bc4aa8116debc14a08e851bf5d42cd670dc896ca1c/polymind-0.0.6.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/9c/05/fff374e7f7680b0d464da73dc7370c2ef6ac3241a9e392fcda0804f1d51b/tableland-0.0.1.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/d0/b9/f0c2115767d6c9fdf0ad7ca81899d9805ac8241e96ef86ae83d137e5b712/casioplot-3.1.4.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: Downloading https://files.pythonhosted.org/packages/cc/40/a7d3ae4fd3d5861c1d1f7b359a5fbc146e3975508eba7c7ad0a7d6c1f358/odoo_addon_queue_job_batch-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: Downloading https://files.pythonhosted.org/packages/32/84/6e1745149f4c796b303dbed9c1c731a64e4362ebd5bd9481a1b5cbb644fa/odoo_addon_web_tree_duplicate-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 08:50:25] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/bb/21/8a5178864092e88b1c8077756cf967d5d0daf1b405e099ee302970e06810/apollo_lunar-2024.3.6rc1.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/a4/ef/481e0ed40325edb8017528b343798616b10c4cdd501969ba15e16d95d4db/langtrace_python_sdk-1.2.8.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/2e/92/734c26c5e37ad6e3b5e5bc01c60c44cbf56fe166f4eefd39186f324d9a8b/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [polymind]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/8e/19/dabeaa81d4b1df2cfc4d1656ea03306b852781b74374be81cbd1e18a3451/sdss_hal-1.1.0.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/17/0b/80fc68a3cb4ca804d1e638f05437121f50c64ef96d2847911abcb21d08e9/qapp-common-0.0.6.tar.gz
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [odoo-addon-queue-job-batch]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [sdss-hal]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [qapp-common]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/70/b7/7523dcf6348a86406bf35fa10bf8e2a864e643da3b49bb94c840dbcce105/tableland-0.0.1rc0.tar.gz
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [apollo-lunar]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [odoo-addon-web-tree-duplicate]: Timeout reached during download
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: Downloading https://files.pythonhosted.org/packages/4a/1d/437d979d9afa7529532eb39b04ee3426b332008e4941cfdfbe954041741d/odoo_addon_queue_job_batch-16.0.1.0.1-py3-none-any.whl
+[2024-04-04 08:50:25] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/06/57/60cb4bbaf38a7d9c57d3080be729f65c35e6f7296e19088e720f8c3b6f3f/casioplot-3.1.5.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [polymind]: Downloading https://files.pythonhosted.org/packages/6b/5d/85efcce46e16627c7bdb1ca311cf5e79cf132fa11e00070c1ef96f3e1aab/polymind-0.0.7.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/9d/48/9b2a8588d62064150432b336249e68dd7eedf002cb2985eace79f403ca6f/qapp-common-0.0.7.tar.gz
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [langtrace-python-sdk]: Downloading https://files.pythonhosted.org/packages/c1/d6/f58d5bf271b0dd4701d47b4b17041a9bc5e9129514abef119cd8be7fbb48/langtrace_python_sdk-1.2.9.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 08:50:25] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.1.tar.gz tmp/tableland-0.0.1rc0.tar.gz --markdown 20240404/t/tableland/0.0.1-0.0.1rc0/diff.md --exclude *.pyd
+[2024-04-04 08:50:25] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/ef/7e/ea339b687937e31e9095c7eab990c9f9a36b007cfb890d6505c6eff5c23f/sdss_hal-1.1.1.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [apollo-lunar]: Downloading https://files.pythonhosted.org/packages/2b/7d/ac278e0c2b56e554ec91a1fe5793ba9eec4ac940340d612bc809f49fb825/apollo_lunar-2024.4.4rc1.tar.gz
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-04 08:50:25] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-3.1.4.tar.gz tmp/casioplot-3.1.5.tar.gz --markdown 20240404/c/casioplot/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [odoo-addon-queue-job-batch]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: executing diffoscope
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job_batch-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_queue_job_batch-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-queue-job-batch/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:50:25] WARNING root fetch - processPackages [polymind]: Timeout reached during download
+[2024-04-04 08:50:25] INFO root fetch - processPackages [polymind]: executing diffoscope
+[2024-04-04 08:50:25] INFO root fetch - processPackages [polymind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymind-0.0.6.tar.gz tmp/polymind-0.0.7.tar.gz --markdown 20240404/p/polymind/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 08:50:25] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: Downloading https://files.pythonhosted.org/packages/1b/bb/942e402d9ae3da4ad5f4e1f0a0145b6d8786a0c5259b9dadd4d2f44d03bc/odoo_addon_web_tree_duplicate-16.0.1.0.1-py3-none-any.whl
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [qapp-common]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [qapp-common]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [qapp-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qapp-common-0.0.6.tar.gz tmp/qapp-common-0.0.7.tar.gz --markdown 20240404/q/qapp-common/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [langtrace-python-sdk]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [langtrace-python-sdk]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [langtrace-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langtrace_python_sdk-1.2.8.tar.gz tmp/langtrace_python_sdk-1.2.9.tar.gz --markdown 20240404/l/langtrace-python-sdk/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [sdss-hal]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [sdss-hal]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [sdss-hal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_hal-1.1.0.tar.gz tmp/sdss_hal-1.1.1.tar.gz --markdown 20240404/s/sdss-hal/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-queue-job/17.0.1.0.0.6-17.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [odoo-addon-web-tree-duplicate]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_tree_duplicate-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_web_tree_duplicate-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-web-tree-duplicate/16.0.1.0.0.6-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] WARNING root fetch - processPackages [apollo-lunar]: Timeout reached during download
+[2024-04-04 08:50:26] INFO root fetch - processPackages [apollo-lunar]: executing diffoscope
+[2024-04-04 08:50:26] INFO root fetch - processPackages [apollo-lunar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apollo_lunar-2024.3.6rc1.tar.gz tmp/apollo_lunar-2024.4.4rc1.tar.gz --markdown 20240404/a/apollo-lunar/2024.3.6rc1-2024.4.4rc1/diff.md --exclude *.pyd
+[2024-04-04 08:50:26] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc0.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 08:50:26] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.4.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.5.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-04 08:50:26] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.6.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - processPackages [polymind]: Remove: archive file [/home/abi/fetcher/tmp/polymind-0.0.7.tar.gz]
+[2024-04-04 08:50:26] INFO root fetch - main [MainThread]: End processing [polymind]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.6.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.7.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [qapp-common]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.0.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.1.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_duplicate-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-web-tree-duplicate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_tree_duplicate-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-tree-duplicate]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_batch-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-queue-job-batch]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job_batch-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job-batch]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.8.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.3.6rc1.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [apollo-lunar]: Remove: archive file [/home/abi/fetcher/tmp/apollo_lunar-2024.4.4rc1.tar.gz]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [apollo-lunar]: success
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-04-04 08:50:27] INFO root fetch - main [MainThread]: Store serial: [22616387]
