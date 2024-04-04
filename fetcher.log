@@ -13610,3 +13610,39 @@
 [2024-04-04 07:35:38] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
 [2024-04-04 07:35:38] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
 [2024-04-04 07:35:38] INFO root fetch - main [MainThread]: Store serial: [22615902]
+[2024-04-04 07:37:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615902]
+[2024-04-04 07:37:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inspeqai
+[2024-04-04 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyscail
+[2024-04-04 07:37:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automation-tools
+[2024-04-04 07:37:47] INFO root fetch - processPackages [automation-tools]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 07:37:47] INFO root fetch - processPackages [inspeqai]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 07:37:47] INFO root fetch - processPackages [pyscail]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 07:37:47] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/cb/95/a9e610ef6e0c3e79bc7cc5bd9965acff413ea56e7624f4ba1f81beb777fd/automation_tools-1.0.3.tar.gz
+[2024-04-04 07:37:47] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/d7/37/5654551f6c51590f1192a759c06b68bf9c8ffa0b7e25f35f856e919a768d/pyscail-0.0.8.tar.gz
+[2024-04-04 07:37:47] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:37:47] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/de/db/173a9cbe00d39a94491bb5e851c2691f02f26f6bcdc381de3f651790050f/inspeqai-1.0.8.tar.gz
+[2024-04-04 07:37:47] WARNING root fetch - processPackages [pyscail]: Timeout reached during download
+[2024-04-04 07:37:47] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 07:37:48] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/91/66/60cded98bc34f7529e418f25f45c9eab54b4420c2c2063e91c3e2321bd4c/automation_tools-1.0.4.tar.gz
+[2024-04-04 07:37:48] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/74/55/3192ec1d6830a7049d153171fa72eefa0fa27ea0f72f14c651a13c023448/pyscail-0.0.9.tar.gz
+[2024-04-04 07:37:48] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:37:48] INFO root fetch - processPackages [automation-tools]: executing diffoscope
+[2024-04-04 07:37:48] INFO root fetch - processPackages [automation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_tools-1.0.3.tar.gz tmp/automation_tools-1.0.4.tar.gz --markdown 20240404/a/automation-tools/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:37:48] WARNING root fetch - processPackages [pyscail]: Timeout reached during download
+[2024-04-04 07:37:48] INFO root fetch - processPackages [pyscail]: executing diffoscope
+[2024-04-04 07:37:48] INFO root fetch - processPackages [pyscail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscail-0.0.8.tar.gz tmp/pyscail-0.0.9.tar.gz --markdown 20240404/p/pyscail/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/aa/56/c8cac05ea573b554acda00f41963428f21483c8412651132daca59244d36/inspeqai-1.0.9.tar.gz
+[2024-04-04 07:37:48] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: executing diffoscope
+[2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspeqai-1.0.8.tar.gz tmp/inspeqai-1.0.9.tar.gz --markdown 20240404/i/inspeqai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:37:48] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.3.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.4.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - main [MainThread]: End processing [automation-tools]: success
+[2024-04-04 07:37:48] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.8.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.9.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - main [MainThread]: End processing [pyscail]: success
+[2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.8.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.9.tar.gz]
+[2024-04-04 07:37:48] INFO root fetch - main [MainThread]: End processing [inspeqai]: success
+[2024-04-04 07:37:48] INFO root fetch - main [MainThread]: Store serial: [22615911]
