@@ -23354,3 +23354,94 @@
 [2024-04-04 13:49:16] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404041147.tar.gz]
 [2024-04-04 13:49:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2024-04-04 13:49:16] INFO root fetch - main [MainThread]: Store serial: [22619344]
+[2024-04-04 13:51:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619344]
+[2024-04-04 13:51:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rawscli
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rummage
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-jupyter
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: segmentheepy-prak
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tq42
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kfish
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pineboo
+[2024-04-04 13:51:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aibridge-test
+[2024-04-04 13:51:25] INFO root fetch - processPackages [kfish]: New version: [99.0.202404041150] Old Version: [99.0.202404041021]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [pytest-jupyter]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [tq42]: New version: [0.5.17] Old Version: [0.5.16]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [segmentheepy-prak]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [rawscli]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [pineboo]: New version: [0.99.82] Old Version: [0.99.81.9]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [aibridge-test]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [rummage]: New version: [4.9] Old Version: [4.8]
+[2024-04-04 13:51:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/29/6b/37c07bf10bb0030f06d5afbe77d5a55ae3b515fdcbaf6a38b1cd46a873ef/kfish-99.0.202404041021-py3-none-any.whl
+[2024-04-04 13:51:25] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/86/0d/5eb49c6f43580fdde8fd2f82c7ecd4f1ba043652a0efc919e31bb0efd443/aibridge_test-0.2.4.tar.gz
+[2024-04-04 13:51:25] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ff/50/87775691723da3f9e064c08195196296b4854a665f9ed79f579caf49283d/pineboo-0.99.81.9.tar.gz
+[2024-04-04 13:51:25] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/e9/45/653b51f6acf108b0a3f0d5991e571df8188f27afb781527b08ca66804318/tq42-0.5.16.tar.gz
+[2024-04-04 13:51:25] INFO root fetch - processPackages [pytest-jupyter]: Downloading https://files.pythonhosted.org/packages/61/40/05fb3d5c291a50ef8c0d5da3c5503eabb54a469ce7ce3d27537b05cdf931/pytest_jupyter-0.9.0.tar.gz
+[2024-04-04 13:51:25] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-04 13:51:25] INFO root fetch - processPackages [segmentheepy-prak]: Downloading https://files.pythonhosted.org/packages/8a/38/7c1ec54f27733c33642c6133a388c6a2956c35bc32e99e6114455e82dc02/segmentheepy_prak-1.0.0-py3-none-any.whl
+[2024-04-04 13:51:25] INFO root fetch - processPackages [rawscli]: Downloading https://files.pythonhosted.org/packages/b0/c7/65392acd282e37f5009afe4ec4138f22bea60b340a5d4eae45d9026205e8/rawscli-0.9.5.tar.gz
+[2024-04-04 13:51:25] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/86/06/e901e277bc56a478f4f0e6667f2ae7170a24b73d32413e0d4acb3da6e5df/rummage-4.8.tar.gz
+[2024-04-04 13:51:25] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 13:51:25] WARNING root fetch - processPackages [pytest-jupyter]: Timeout reached during download
+[2024-04-04 13:51:25] WARNING root fetch - processPackages [tq42]: Timeout reached during download
+[2024-04-04 13:51:25] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/b6/16/46198088d428082e500f362a699b8020624d8e7b8f36ba3fccef73ec3ab0/kfish-99.0.202404041150-py3-none-any.whl
+[2024-04-04 13:51:25] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/9c/e8/333248963020801d6b34d121303aae13dcdcb265b1effb73d9e7d743b91f/aibridge_test-0.2.5.tar.gz
+[2024-04-04 13:51:25] WARNING root fetch - processPackages [rawscli]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [tq42]: Downloading https://files.pythonhosted.org/packages/a5/ee/2b14c984853737610f84992ba62257de9b510b5b5ee10cdd084c64fe8c98/tq42-0.5.17.tar.gz
+[2024-04-04 13:51:26] INFO root fetch - processPackages [pytest-jupyter]: Downloading https://files.pythonhosted.org/packages/b9/2f/fec07380b6bdd719f695e238b566c95e6ace37e6b5fc6f82958de3c08b07/pytest_jupyter-0.9.1.tar.gz
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.2.4.tar.gz tmp/aibridge_test-0.2.5.tar.gz --markdown 20240404/a/aibridge-test/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404041021-py3-none-any.whl.zip tmp/kfish-99.0.202404041150-py3-none-any.whl.zip --markdown 20240404/k/kfish/99.0.202404041021-99.0.202404041150/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [segmentheepy-prak]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [rawscli]: Downloading https://files.pythonhosted.org/packages/71/3c/45cfcff0344ec158022e250d6c2ed20fb724cab21a70a784709550011257/rawscli-0.9.6.tar.gz
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [tq42]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [tq42]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [tq42]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tq42-0.5.16.tar.gz tmp/tq42-0.5.17.tar.gz --markdown 20240404/t/tq42/0.5.16-0.5.17/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [pytest-jupyter]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [pytest-jupyter]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [pytest-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_jupyter-0.9.0.tar.gz tmp/pytest_jupyter-0.9.1.tar.gz --markdown 20240404/p/pytest-jupyter/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [rawscli]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [rawscli]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [rawscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rawscli-0.9.5.tar.gz tmp/rawscli-0.9.6.tar.gz --markdown 20240404/r/rawscli/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] INFO root fetch - processPackages [segmentheepy-prak]: Downloading https://files.pythonhosted.org/packages/89/cd/127a506d756b2e4391631e057f4f0668e7f3a71a7a4cf1c9068fe96a71e8/segmentheepy_prak-1.0.1-py3-none-any.whl
+[2024-04-04 13:51:26] WARNING root fetch - processPackages [segmentheepy-prak]: Timeout reached during download
+[2024-04-04 13:51:26] INFO root fetch - processPackages [segmentheepy-prak]: executing diffoscope
+[2024-04-04 13:51:26] INFO root fetch - processPackages [segmentheepy-prak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segmentheepy_prak-1.0.0-py3-none-any.whl.zip tmp/segmentheepy_prak-1.0.1-py3-none-any.whl.zip --markdown 20240404/s/segmentheepy-prak/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 13:51:26] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/c0/f5/1390e7adf8f44f1c58ebab1a903bb5733565e53d9544b863f6c112c72a75/pineboo-0.99.82.tar.gz
+[2024-04-04 13:51:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404041021-py3-none-any.whl.zip]
+[2024-04-04 13:51:26] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404041150-py3-none-any.whl.zip]
+[2024-04-04 13:51:26] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-04 13:51:26] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.4.tar.gz]
+[2024-04-04 13:51:26] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.5.tar.gz]
+[2024-04-04 13:51:26] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-04 13:51:27] INFO root fetch - processPackages [pytest-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/pytest_jupyter-0.9.0.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - processPackages [pytest-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/pytest_jupyter-0.9.1.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - main [MainThread]: End processing [pytest-jupyter]: success
+[2024-04-04 13:51:27] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.16.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - processPackages [tq42]: Remove: archive file [/home/abi/fetcher/tmp/tq42-0.5.17.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - main [MainThread]: End processing [tq42]: success
+[2024-04-04 13:51:27] INFO root fetch - processPackages [rawscli]: Remove: archive file [/home/abi/fetcher/tmp/rawscli-0.9.5.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - processPackages [rawscli]: Remove: archive file [/home/abi/fetcher/tmp/rawscli-0.9.6.tar.gz]
+[2024-04-04 13:51:27] INFO root fetch - main [MainThread]: End processing [rawscli]: success
+[2024-04-04 13:51:27] INFO root fetch - processPackages [segmentheepy-prak]: Remove: archive file [/home/abi/fetcher/tmp/segmentheepy_prak-1.0.0-py3-none-any.whl.zip]
+[2024-04-04 13:51:27] INFO root fetch - processPackages [segmentheepy-prak]: Remove: archive file [/home/abi/fetcher/tmp/segmentheepy_prak-1.0.1-py3-none-any.whl.zip]
+[2024-04-04 13:51:27] INFO root fetch - main [MainThread]: End processing [segmentheepy-prak]: success
+[2024-04-04 13:51:27] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-04 13:51:28] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:51:28] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 13:51:28] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.9.tar.gz tmp/pineboo-0.99.82.tar.gz --markdown 20240404/p/pineboo/0.99.81.9-0.99.82/diff.md --exclude *.pyd
+[2024-04-04 13:51:28] INFO root fetch - processPackages [rummage]: Downloading https://files.pythonhosted.org/packages/f8/de/8ec8a0f980ee9a9a083cd1e15048c294dc7a9ee1dfce878428498bc2d483/rummage-4.9.tar.gz
+[2024-04-04 13:51:29] WARNING root fetch - processPackages [rummage]: Timeout reached during download
+[2024-04-04 13:51:29] INFO root fetch - processPackages [rummage]: executing diffoscope
+[2024-04-04 13:51:29] INFO root fetch - processPackages [rummage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rummage-4.8.tar.gz tmp/rummage-4.9.tar.gz --markdown 20240404/r/rummage/4.8-4.9/diff.md --exclude *.pyd
+[2024-04-04 13:51:31] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.8.tar.gz]
+[2024-04-04 13:51:31] INFO root fetch - processPackages [rummage]: Remove: archive file [/home/abi/fetcher/tmp/rummage-4.9.tar.gz]
+[2024-04-04 13:51:31] INFO root fetch - main [MainThread]: End processing [rummage]: success
+[2024-04-04 13:51:31] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
+[2024-04-04 13:51:31] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.82.tar.gz]
+[2024-04-04 13:51:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 13:51:31] INFO root fetch - main [MainThread]: Store serial: [22619373]
