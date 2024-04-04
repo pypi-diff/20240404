@@ -14151,3 +14151,31 @@
 [2024-04-04 08:04:05] INFO root fetch - processPackages [langtrace-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/langtrace_python_sdk-1.2.9.tar.gz]
 [2024-04-04 08:04:05] INFO root fetch - main [MainThread]: End processing [langtrace-python-sdk]: success
 [2024-04-04 08:04:05] INFO root fetch - main [MainThread]: Store serial: [22616071]
+[2024-04-04 08:06:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616071]
+[2024-04-04 08:06:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 08:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IsoOCR
+[2024-04-04 08:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sign-oca
+[2024-04-04 08:06:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tendril-structures-imageset
+[2024-04-04 08:06:14] WARNING root fetch - processPackages [IsoOCR]: Skipping, unable to determine old version
+[2024-04-04 08:06:14] INFO root fetch - main [MainThread]: End processing [IsoOCR] error
+[2024-04-04 08:06:14] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-04 08:06:14] INFO root fetch - processPackages [odoo14-addon-sign-oca]: New version: [14.0.2.4.2.dev1] Old Version: [14.0.2.4.1.dev1]
+[2024-04-04 08:06:14] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/4d/28/bddbb4ecf1b050a1df0083cb4ef50d7e7f40baa718ba0d08cfba6b143f04/tendril-structures-imageset-0.1.3.tar.gz
+[2024-04-04 08:06:14] INFO root fetch - processPackages [odoo14-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/6d/ce/8929d64cc0643b556d4685c1c11a2e009015a756474b5e86bae0eb905b32/odoo14_addon_sign_oca-14.0.2.4.1.dev1-py3-none-any.whl
+[2024-04-04 08:06:15] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 08:06:15] WARNING root fetch - processPackages [odoo14-addon-sign-oca]: Timeout reached during download
+[2024-04-04 08:06:15] INFO root fetch - processPackages [odoo14-addon-sign-oca]: Downloading https://files.pythonhosted.org/packages/6c/a8/2e25e3aa195fc653c67927a3085c363a8cf5d637d3f6cb50c1592f3aaad7/odoo14_addon_sign_oca-14.0.2.4.2.dev1-py3-none-any.whl
+[2024-04-04 08:06:15] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/9c/c0/696e3f55e9828b7a495fd256ed3fbbea48d54f0fb1a1f8596cdf5104f3dd/tendril-structures-imageset-0.1.4.tar.gz
+[2024-04-04 08:06:15] WARNING root fetch - processPackages [odoo14-addon-sign-oca]: Timeout reached during download
+[2024-04-04 08:06:15] INFO root fetch - processPackages [odoo14-addon-sign-oca]: executing diffoscope
+[2024-04-04 08:06:15] INFO root fetch - processPackages [odoo14-addon-sign-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sign_oca-14.0.2.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_sign_oca-14.0.2.4.2.dev1-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-sign-oca/14.0.2.4.1.dev1-14.0.2.4.2.dev1/diff.md --exclude *.pyd
+[2024-04-04 08:06:16] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 08:06:16] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-04 08:06:16] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.3.tar.gz tmp/tendril-structures-imageset-0.1.4.tar.gz --markdown 20240404/t/tendril-structures-imageset/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-04 08:06:16] INFO root fetch - processPackages [odoo14-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sign_oca-14.0.2.4.1.dev1-py3-none-any.whl.zip]
+[2024-04-04 08:06:16] INFO root fetch - processPackages [odoo14-addon-sign-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sign_oca-14.0.2.4.2.dev1-py3-none-any.whl.zip]
+[2024-04-04 08:06:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sign-oca]: success
+[2024-04-04 08:06:16] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.3.tar.gz]
+[2024-04-04 08:06:16] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.4.tar.gz]
+[2024-04-04 08:06:16] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-04 08:06:16] INFO root fetch - main [MainThread]: Store serial: [22616080]
