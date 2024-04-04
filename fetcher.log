@@ -4050,3 +4050,12 @@
 [2024-04-04 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz]
 [2024-04-04 02:31:34] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
 [2024-04-04 02:31:34] INFO root fetch - main [MainThread]: Store serial: [22612921]
+[2024-04-04 02:33:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612921]
+[2024-04-04 02:33:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 02:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythagoras
+[2024-04-04 02:33:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: securedf
+[2024-04-04 02:33:42] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-04 02:33:42] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-04 02:33:42] WARNING root fetch - processPackages [securedf]: Skipping, unable to determine old version
+[2024-04-04 02:33:42] INFO root fetch - main [MainThread]: End processing [securedf] error
+[2024-04-04 02:33:42] INFO root fetch - main [MainThread]: Store serial: [22612932]
