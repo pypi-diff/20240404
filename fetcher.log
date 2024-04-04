@@ -2795,3 +2795,28 @@
 [2024-04-04 02:00:48] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.2.tar.gz]
 [2024-04-04 02:00:48] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
 [2024-04-04 02:00:48] INFO root fetch - main [MainThread]: Store serial: [22612563]
+[2024-04-04 02:02:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612563]
+[2024-04-04 02:02:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 02:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enum-with-dict
+[2024-04-04 02:02:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fms-hf-tuning
+[2024-04-04 02:02:57] INFO root fetch - processPackages [fms-hf-tuning]: New version: [1.0.dev3] Old Version: [1.0.dev2]
+[2024-04-04 02:02:57] INFO root fetch - processPackages [enum-with-dict]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-04 02:02:57] INFO root fetch - processPackages [fms-hf-tuning]: Downloading https://files.pythonhosted.org/packages/76/d2/7b93d23a60652a846bfe929e0e71c9e5f4ee2513864a674283001aaa7671/fms-hf-tuning-1.0.dev2.tar.gz
+[2024-04-04 02:02:57] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/aa/24/0a76557f6f9e612e74e78d824cee072774a19043c5beeec7fd604a1ecc28/enum_with_dict-0.5.2.tar.gz
+[2024-04-04 02:02:57] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:02:57] WARNING root fetch - processPackages [fms-hf-tuning]: Timeout reached during download
+[2024-04-04 02:02:57] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/f5/63/a865c854be18397ba6deb43ed99eb6fe3f3e04dd8ad27a99c2d24796d592/enum_with_dict-0.5.3.tar.gz
+[2024-04-04 02:02:57] INFO root fetch - processPackages [fms-hf-tuning]: Downloading https://files.pythonhosted.org/packages/b8/1f/6c4d212a4f5be2ec47e9bd40548c1a9e59762a07002454b37e0b115f7e86/fms-hf-tuning-1.0.dev3.tar.gz
+[2024-04-04 02:02:57] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:02:57] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 02:02:57] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.5.2.tar.gz tmp/enum_with_dict-0.5.3.tar.gz --markdown 20240404/e/enum-with-dict/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-04 02:02:57] WARNING root fetch - processPackages [fms-hf-tuning]: Timeout reached during download
+[2024-04-04 02:02:57] INFO root fetch - processPackages [fms-hf-tuning]: executing diffoscope
+[2024-04-04 02:02:57] INFO root fetch - processPackages [fms-hf-tuning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fms-hf-tuning-1.0.dev2.tar.gz tmp/fms-hf-tuning-1.0.dev3.tar.gz --markdown 20240404/f/fms-hf-tuning/1.0.dev2-1.0.dev3/diff.md --exclude *.pyd
+[2024-04-04 02:02:58] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.2.tar.gz]
+[2024-04-04 02:02:58] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.3.tar.gz]
+[2024-04-04 02:02:58] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 02:02:58] INFO root fetch - processPackages [fms-hf-tuning]: Remove: archive file [/home/abi/fetcher/tmp/fms-hf-tuning-1.0.dev2.tar.gz]
+[2024-04-04 02:02:58] INFO root fetch - processPackages [fms-hf-tuning]: Remove: archive file [/home/abi/fetcher/tmp/fms-hf-tuning-1.0.dev3.tar.gz]
+[2024-04-04 02:02:58] INFO root fetch - main [MainThread]: End processing [fms-hf-tuning]: success
+[2024-04-04 02:02:58] INFO root fetch - main [MainThread]: Store serial: [22612569]
