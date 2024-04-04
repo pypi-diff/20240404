@@ -16777,3 +16777,138 @@
 [2024-04-04 09:57:34] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-04 09:57:34] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-04 09:57:34] INFO root fetch - main [MainThread]: Store serial: [22616868]
+[2024-04-04 09:59:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616868]
+[2024-04-04 09:59:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sparkorm
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whyhow
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DIPEX
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccpcli
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blueetl-core
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ft-jwt
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cimsparql
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xmlriver
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aixblock-tools
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pygnss
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ccpcli]: New version: [0.5] Old Version: [0.4]
+[2024-04-04 09:59:43] INFO root fetch - processPackages [blueetl-core]: New version: [0.2.0] Old Version: [0.1.8]
+[2024-04-04 09:59:43] INFO root fetch - processPackages [ft-jwt]: New version: [0.0.4] Old Version: [0.0.2]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [whyhow]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [sparkorm]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [xmlriver]: New version: [0.14] Old Version: [0.13]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [aixblock-tools]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [cimsparql]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [DIPEX]: New version: [5.9.0] Old Version: [5.8.0]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [pygnss]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ccpcli]: Downloading https://files.pythonhosted.org/packages/62/cc/a09693d532ec85d67ddb8d5914b1caee3d4b9de39ff84416280aa298b761/ccpcli-0.4.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/a5/d2/3ed7008ed2c230f1da6c6dcf766229634d449c25f94172aaf20636c34849/ft_jwt-0.0.2.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/86/26/47a2949e29e7ec7d0ff0a2efbf1f9a20140e8561ecae80342874decffcdd/whyhow-0.0.1.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/04/8d/8d2a37dd881f3a165bbd36892f625bf3d30f3e4889f7754cc6122e20e92e/aixblock_tools-0.0.6.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [sparkorm]: Downloading https://files.pythonhosted.org/packages/fe/dd/922027cc37932ca2729c068121f32b889c97bd872d7bbed66a89095246bf/sparkorm-1.2.8-py3-none-any.whl
+[2024-04-04 09:59:44] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/c5/e0/0a4f850e880a85f5e5ebff1f792a536ed24c32dac2118b4a8e6c9f962eb2/blueetl-core-0.1.8.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [xmlriver]: Downloading https://files.pythonhosted.org/packages/d5/a3/9cf36b6ebbbdf2e7f0a3ea8b5346ab2f68dbbd4d5429adb3fbdbc609dbca/xmlriver-0.13.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [ccpcli]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/33/44/835d2c6af17f375fb7529272e1535a5fd25d922c68aba093bc0c80798764/cimsparql-3.0.0.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/16/cb/6142fdcec55e150d1efaa60838d90cf6cf7731b47fa247e983a0b34f0133/dipex-5.8.0.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [pygnss]: Downloading https://files.pythonhosted.org/packages/ff/61/727f6d40e255bffb4df772a15c77a09da4a7e66b9456bd1ac0bc0e90f6d3/pygnss-1.6.1.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [whyhow]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [sparkorm]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/dc/79/e74a9693112df421f27242dc6bab9a75c40596b3b477b6866248b61a290b/ft_jwt-0.0.4.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [xmlriver]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ccpcli]: Downloading https://files.pythonhosted.org/packages/c2/e8/0c2cf13ebaf83af87ad002a6ee82bdac8d6bc7a560e3d1426b9ecb3948ab/ccpcli-0.5.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [cimsparql]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/52/66/bc00b93cc55f7de1633c04980e665a3353d479e82a9feb0d91fdf86b1736/aixblock_tools-0.0.7.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [whyhow]: Downloading https://files.pythonhosted.org/packages/71/91/8c62d44a6d4d109413e4f75061dc37e32955099471163586d7423e6345cf/whyhow-0.0.2.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [sparkorm]: Downloading https://files.pythonhosted.org/packages/cf/6c/6b165701047ab9fcb3b6a0ba36a47c4ff375eaebea6b03919fc632eb77bd/sparkorm-1.2.9-py3-none-any.whl
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [pygnss]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ft-jwt]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ft-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_jwt-0.0.2.tar.gz tmp/ft_jwt-0.0.4.tar.gz --markdown 20240404/f/ft-jwt/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [ccpcli]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ccpcli]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [ccpcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpcli-0.4.tar.gz tmp/ccpcli-0.5.tar.gz --markdown 20240404/c/ccpcli/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] INFO root fetch - processPackages [xmlriver]: Downloading https://files.pythonhosted.org/packages/a4/fd/689071d480917acf1fa92872acbc1f7354ee64df7b45a46e07a5ce125947/xmlriver-0.14.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [aixblock-tools]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [aixblock-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_tools-0.0.6.tar.gz tmp/aixblock_tools-0.0.7.tar.gz --markdown 20240404/a/aixblock-tools/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] INFO root fetch - processPackages [cimsparql]: Downloading https://files.pythonhosted.org/packages/37/69/8660efdecccbd29b810bc33414194092bd690fce4b32c1e6b3c0f763fa21/cimsparql-3.1.0.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [whyhow]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [blueetl-core]: Downloading https://files.pythonhosted.org/packages/4e/e6/187f04e16837118a80d18f8f51ab6d4ca39db3eb71843fb6a9e7088b50bd/blueetl-core-0.2.0.tar.gz
+[2024-04-04 09:59:44] INFO root fetch - processPackages [whyhow]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [whyhow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyhow-0.0.1.tar.gz tmp/whyhow-0.0.2.tar.gz --markdown 20240404/w/whyhow/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [sparkorm]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [sparkorm]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [sparkorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparkorm-1.2.8-py3-none-any.whl.zip tmp/sparkorm-1.2.9-py3-none-any.whl.zip --markdown 20240404/s/sparkorm/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [xmlriver]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [xmlriver]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [xmlriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlriver-0.13.tar.gz tmp/xmlriver-0.14.tar.gz --markdown 20240404/x/xmlriver/0.13-0.14/diff.md --exclude *.pyd
+[2024-04-04 09:59:44] INFO root fetch - processPackages [pygnss]: Downloading https://files.pythonhosted.org/packages/c0/3e/430e89173f2b1fa3a3f5fd32491edea7efc9ab0e5b8a675b9b92ac5fd841/pygnss-1.6.2.tar.gz
+[2024-04-04 09:59:44] WARNING root fetch - processPackages [cimsparql]: Timeout reached during download
+[2024-04-04 09:59:44] INFO root fetch - processPackages [cimsparql]: executing diffoscope
+[2024-04-04 09:59:44] INFO root fetch - processPackages [cimsparql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cimsparql-3.0.0.tar.gz tmp/cimsparql-3.1.0.tar.gz --markdown 20240404/c/cimsparql/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2024-04-04 09:59:45] INFO root fetch - processPackages [DIPEX]: Downloading https://files.pythonhosted.org/packages/0f/ff/c59d93b941fe8a6ed420eea3eedf5eedb14177e013aa5db012d74b5dbc75/dipex-5.9.0.tar.gz
+[2024-04-04 09:59:45] WARNING root fetch - processPackages [blueetl-core]: Timeout reached during download
+[2024-04-04 09:59:45] INFO root fetch - processPackages [blueetl-core]: executing diffoscope
+[2024-04-04 09:59:45] INFO root fetch - processPackages [blueetl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueetl-core-0.1.8.tar.gz tmp/blueetl-core-0.2.0.tar.gz --markdown 20240404/b/blueetl-core/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 09:59:45] WARNING root fetch - processPackages [pygnss]: Timeout reached during download
+[2024-04-04 09:59:45] INFO root fetch - processPackages [pygnss]: executing diffoscope
+[2024-04-04 09:59:45] INFO root fetch - processPackages [pygnss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnss-1.6.1.tar.gz tmp/pygnss-1.6.2.tar.gz --markdown 20240404/p/pygnss/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2024-04-04 09:59:45] WARNING root fetch - processPackages [DIPEX]: Timeout reached during download
+[2024-04-04 09:59:45] INFO root fetch - processPackages [DIPEX]: executing diffoscope
+[2024-04-04 09:59:45] INFO root fetch - processPackages [DIPEX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-5.8.0.tar.gz tmp/dipex-5.9.0.tar.gz --markdown 20240404/D/DIPEX/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2024-04-04 09:59:45] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.2.tar.gz]
+[2024-04-04 09:59:45] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.4.tar.gz]
+[2024-04-04 09:59:45] INFO root fetch - processPackages [ft-jwt]: Start processing: axem-dem
+[2024-04-04 09:59:45] INFO root fetch - main [MainThread]: End processing [ft-jwt]: success
+[2024-04-04 09:59:45] INFO root fetch - processPackages [axem-dem]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.6.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.7.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-tools]: Start processing: aixblock-converter
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [aixblock-tools]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [ccpcli]: Remove: archive file [/home/abi/fetcher/tmp/ccpcli-0.4.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [ccpcli]: Remove: archive file [/home/abi/fetcher/tmp/ccpcli-0.5.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [ccpcli]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-converter]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [sparkorm]: Remove: archive file [/home/abi/fetcher/tmp/sparkorm-1.2.8-py3-none-any.whl.zip]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [sparkorm]: Remove: archive file [/home/abi/fetcher/tmp/sparkorm-1.2.9-py3-none-any.whl.zip]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [sparkorm]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [xmlriver]: Remove: archive file [/home/abi/fetcher/tmp/xmlriver-0.13.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [xmlriver]: Remove: archive file [/home/abi/fetcher/tmp/xmlriver-0.14.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [xmlriver]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [axem-dem]: Downloading https://files.pythonhosted.org/packages/61/64/131978b5398e0c1c4815d9bab4ffb2b13d0f04e685adc43f8c8082eb7e0d/axem_dem-0.3.1.tar.gz
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-converter]: Downloading https://files.pythonhosted.org/packages/f8/bd/e3f8becde770e35a33e7903b68b1d36038c1e639aeb327b5213b0e3014a8/aixblock_converter-0.0.4.tar.gz
+[2024-04-04 09:59:46] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.0.0.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [cimsparql]: Remove: archive file [/home/abi/fetcher/tmp/cimsparql-3.1.0.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [cimsparql]: success
+[2024-04-04 09:59:46] WARNING root fetch - processPackages [axem-dem]: Timeout reached during download
+[2024-04-04 09:59:46] WARNING root fetch - processPackages [aixblock-converter]: Timeout reached during download
+[2024-04-04 09:59:46] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.1.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [whyhow]: Remove: archive file [/home/abi/fetcher/tmp/whyhow-0.0.2.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [whyhow]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [pygnss]: Remove: archive file [/home/abi/fetcher/tmp/pygnss-1.6.1.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [pygnss]: Remove: archive file [/home/abi/fetcher/tmp/pygnss-1.6.2.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [pygnss]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.1.8.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [blueetl-core]: Remove: archive file [/home/abi/fetcher/tmp/blueetl-core-0.2.0.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [blueetl-core]: success
+[2024-04-04 09:59:46] INFO root fetch - processPackages [axem-dem]: Downloading https://files.pythonhosted.org/packages/22/f9/631a2a1be40863651ea5326124656e5d87463b870065b5a7bab115a4d890/axem_dem-0.4.0.tar.gz
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-converter]: Downloading https://files.pythonhosted.org/packages/a8/59/adee4149ab58cbefe7c4e09cf556990cbd8991dd3f5f3ac518f6a025074b/aixblock_converter-0.0.5.tar.gz
+[2024-04-04 09:59:46] WARNING root fetch - processPackages [aixblock-converter]: Timeout reached during download
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-converter]: executing diffoscope
+[2024-04-04 09:59:46] INFO root fetch - processPackages [aixblock-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_converter-0.0.4.tar.gz tmp/aixblock_converter-0.0.5.tar.gz --markdown 20240404/a/aixblock-converter/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 09:59:46] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.8.0.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - processPackages [DIPEX]: Remove: archive file [/home/abi/fetcher/tmp/dipex-5.9.0.tar.gz]
+[2024-04-04 09:59:46] INFO root fetch - main [MainThread]: End processing [DIPEX]: success
+[2024-04-04 09:59:46] WARNING root fetch - processPackages [axem-dem]: Timeout reached during download
+[2024-04-04 09:59:46] INFO root fetch - processPackages [axem-dem]: executing diffoscope
+[2024-04-04 09:59:46] INFO root fetch - processPackages [axem-dem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axem_dem-0.3.1.tar.gz tmp/axem_dem-0.4.0.tar.gz --markdown 20240404/a/axem-dem/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 09:59:47] INFO root fetch - processPackages [aixblock-converter]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_converter-0.0.4.tar.gz]
+[2024-04-04 09:59:47] INFO root fetch - processPackages [aixblock-converter]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_converter-0.0.5.tar.gz]
+[2024-04-04 09:59:47] INFO root fetch - main [MainThread]: End processing [aixblock-converter]: success
+[2024-04-04 09:59:47] INFO root fetch - processPackages [axem-dem]: Remove: archive file [/home/abi/fetcher/tmp/axem_dem-0.3.1.tar.gz]
+[2024-04-04 09:59:47] INFO root fetch - processPackages [axem-dem]: Remove: archive file [/home/abi/fetcher/tmp/axem_dem-0.4.0.tar.gz]
+[2024-04-04 09:59:47] INFO root fetch - main [MainThread]: End processing [axem-dem]: success
+[2024-04-04 09:59:47] INFO root fetch - main [MainThread]: Store serial: [22616902]
