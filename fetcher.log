@@ -20764,3 +20764,44 @@
 [2024-04-04 12:11:12] INFO root fetch - processPackages [insights-core]: Remove: archive file [/home/abi/fetcher/tmp/insights-core-3.3.9.tar.gz]
 [2024-04-04 12:11:12] INFO root fetch - main [MainThread]: End processing [insights-core]: success
 [2024-04-04 12:11:12] INFO root fetch - main [MainThread]: Store serial: [22618270]
+[2024-04-04 12:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618270]
+[2024-04-04 12:13:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 12:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgadmin4
+[2024-04-04 12:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DebugInfo
+[2024-04-04 12:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataskillhub
+[2024-04-04 12:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyproject-parser
+[2024-04-04 12:13:21] INFO root fetch - processPackages [pgadmin4]: New version: [8.5] Old Version: [8.4]
+[2024-04-04 12:13:21] INFO root fetch - processPackages [dataskillhub]: New version: [1.5.0] Old Version: [1.4.5]
+[2024-04-04 12:13:21] INFO root fetch - processPackages [pyproject-parser]: New version: [0.9.1] Old Version: [0.9.0b2]
+[2024-04-04 12:13:22] INFO root fetch - processPackages [DebugInfo]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-04-04 12:13:22] INFO root fetch - processPackages [pgadmin4]: Downloading https://files.pythonhosted.org/packages/1e/18/ab5d2e58fa456691f2b76d0122c3f31094c11d96b9623150acd80d3255d2/pgadmin4-8.4-py3-none-any.whl
+[2024-04-04 12:13:22] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/06/dc/6f041269ad379c07e91b1bbf9bbcea47f424f3d9b04bf58b8af95b10bd3a/DebugInfo-9.0.0.tar.gz
+[2024-04-04 12:13:22] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/1d/4f/1321bc5b62b46666782d4f708e021ff4667c749aa7a241bf57270e59e33b/dataskillhub-1.4.5-py3-none-any.whl
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [pgadmin4]: Skipping package: exceeds size limit 93753054>=10485760
+[2024-04-04 12:13:22] INFO root fetch - main [MainThread]: End processing [pgadmin4] error
+[2024-04-04 12:13:22] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/3c/52/396c60167671072c896fd753d5deaee7c6ef52d0882433a5161a7bf0deac/pyproject-parser-0.9.0b2.tar.gz
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [DebugInfo]: Timeout reached during download
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [pyproject-parser]: Timeout reached during download
+[2024-04-04 12:13:22] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/3a/f6/279accf5d57aa0fb1b9308ac3c3f52eb99a26d6af32968ec7ea6a2d3e079/DebugInfo-9.1.0.tar.gz
+[2024-04-04 12:13:22] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/c3/72/27d5dc43f75e7a1684fab5375c3551b240142e28d4dd713ff85e8b835c87/dataskillhub-1.5.0-py3-none-any.whl
+[2024-04-04 12:13:22] INFO root fetch - processPackages [pyproject-parser]: Downloading https://files.pythonhosted.org/packages/db/6f/f6409314637988adc35b9a4443634dfd46d8450261461b3cacaaef149ba1/pyproject-parser-0.9.1.tar.gz
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [DebugInfo]: Timeout reached during download
+[2024-04-04 12:13:22] INFO root fetch - processPackages [DebugInfo]: executing diffoscope
+[2024-04-04 12:13:22] INFO root fetch - processPackages [DebugInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DebugInfo-9.0.0.tar.gz tmp/DebugInfo-9.1.0.tar.gz --markdown 20240404/D/DebugInfo/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-04 12:13:22] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-04 12:13:22] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.4.5-py3-none-any.whl.zip tmp/dataskillhub-1.5.0-py3-none-any.whl.zip --markdown 20240404/d/dataskillhub/1.4.5-1.5.0/diff.md --exclude *.pyd
+[2024-04-04 12:13:22] WARNING root fetch - processPackages [pyproject-parser]: Timeout reached during download
+[2024-04-04 12:13:22] INFO root fetch - processPackages [pyproject-parser]: executing diffoscope
+[2024-04-04 12:13:22] INFO root fetch - processPackages [pyproject-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproject-parser-0.9.0b2.tar.gz tmp/pyproject-parser-0.9.1.tar.gz --markdown 20240404/p/pyproject-parser/0.9.0b2-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 12:13:23] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.4.5-py3-none-any.whl.zip]
+[2024-04-04 12:13:23] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.5.0-py3-none-any.whl.zip]
+[2024-04-04 12:13:23] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-04 12:13:23] INFO root fetch - processPackages [pyproject-parser]: Remove: archive file [/home/abi/fetcher/tmp/pyproject-parser-0.9.0b2.tar.gz]
+[2024-04-04 12:13:23] INFO root fetch - processPackages [pyproject-parser]: Remove: archive file [/home/abi/fetcher/tmp/pyproject-parser-0.9.1.tar.gz]
+[2024-04-04 12:13:23] INFO root fetch - main [MainThread]: End processing [pyproject-parser]: success
+[2024-04-04 12:13:23] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.0.0.tar.gz]
+[2024-04-04 12:13:23] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.1.0.tar.gz]
+[2024-04-04 12:13:23] INFO root fetch - main [MainThread]: End processing [DebugInfo]: success
+[2024-04-04 12:13:23] INFO root fetch - main [MainThread]: Store serial: [22618280]
