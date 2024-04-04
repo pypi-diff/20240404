@@ -14076,3 +14076,61 @@
 [2024-04-04 07:59:42] INFO root fetch - processPackages [fast-test-database]: Remove: archive file [/home/abi/fetcher/tmp/fast_test_database-0.2.2.tar.gz]
 [2024-04-04 07:59:42] INFO root fetch - main [MainThread]: End processing [fast-test-database]: success
 [2024-04-04 07:59:42] INFO root fetch - main [MainThread]: Store serial: [22616049]
+[2024-04-04 08:01:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616049]
+[2024-04-04 08:01:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 08:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tinta
+[2024-04-04 08:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylips
+[2024-04-04 08:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freeplot
+[2024-04-04 08:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danbi
+[2024-04-04 08:01:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inspeqai
+[2024-04-04 08:01:51] INFO root fetch - processPackages [pylips]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 08:01:51] INFO root fetch - processPackages [inspeqai]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 08:01:51] INFO root fetch - processPackages [danbi]: New version: [0.2.190] Old Version: [0.2.189]
+[2024-04-04 08:01:51] INFO root fetch - processPackages [freeplot]: New version: [0.5.0] Old Version: [0.4.5]
+[2024-04-04 08:01:51] INFO root fetch - processPackages [tinta]: New version: [0.1.7b4] Old Version: [0.1.7b3]
+[2024-04-04 08:01:51] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/44/4b/720a07c84da66afdbf5a12a3db4dc554d326263de4e8fd42823ae9324bde/danbi-0.2.189.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/de/db/173a9cbe00d39a94491bb5e851c2691f02f26f6bcdc381de3f651790050f/inspeqai-1.0.8.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/ff/fd/7e0d406551f03aeedd1739b9398473fb6e82298a1af9d504951166d92372/tinta-0.1.7b3.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [pylips]: Downloading https://files.pythonhosted.org/packages/e4/fd/b08dd0749f35b59febdc03264805053efc63170703d592197735ca325678/pylips-0.0.8.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/a4/4f/61361c74f748cbf664f8b8ab971ba0e42293c6f7cf713894cf41378c5f5a/freeplot-0.4.5.tar.gz
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [freeplot]: Timeout reached during download
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-04 08:01:51] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/47/34/059c52dfaa5689a2e0937f8784385e30223f19dfe9233e43829c2a47b020/danbi-0.2.190.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/1f/0f/55c3a457575d8a4d34fc3169867237da9055853518f254f8af8563032ea6/tinta-0.1.7b4.tar.gz
+[2024-04-04 08:01:51] INFO root fetch - processPackages [freeplot]: Downloading https://files.pythonhosted.org/packages/94/01/8904f28ecf72b416a985f762e7ced4672406a3a49cfa6cf70ee6e247ab34/freeplot-0.5.0.tar.gz
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 08:01:51] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 08:01:51] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.189.tar.gz tmp/danbi-0.2.190.tar.gz --markdown 20240404/d/danbi/0.2.189-0.2.190/diff.md --exclude *.pyd
+[2024-04-04 08:01:51] WARNING root fetch - processPackages [pylips]: Timeout reached during download
+[2024-04-04 08:01:52] WARNING root fetch - processPackages [freeplot]: Timeout reached during download
+[2024-04-04 08:01:52] INFO root fetch - processPackages [freeplot]: executing diffoscope
+[2024-04-04 08:01:52] INFO root fetch - processPackages [freeplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freeplot-0.4.5.tar.gz tmp/freeplot-0.5.0.tar.gz --markdown 20240404/f/freeplot/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 08:01:52] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/aa/56/c8cac05ea573b554acda00f41963428f21483c8412651132daca59244d36/inspeqai-1.0.9.tar.gz
+[2024-04-04 08:01:52] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-04 08:01:52] INFO root fetch - processPackages [tinta]: executing diffoscope
+[2024-04-04 08:01:52] INFO root fetch - processPackages [tinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinta-0.1.7b3.tar.gz tmp/tinta-0.1.7b4.tar.gz --markdown 20240404/t/tinta/0.1.7b3-0.1.7b4/diff.md --exclude *.pyd
+[2024-04-04 08:01:52] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 08:01:52] INFO root fetch - processPackages [inspeqai]: executing diffoscope
+[2024-04-04 08:01:52] INFO root fetch - processPackages [inspeqai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspeqai-1.0.8.tar.gz tmp/inspeqai-1.0.9.tar.gz --markdown 20240404/i/inspeqai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:01:52] INFO root fetch - processPackages [pylips]: Downloading https://files.pythonhosted.org/packages/7a/a4/8a4f81d34dade748d5e38d599594f36afb6be012e47da25d600503eca645/pylips-0.0.9.tar.gz
+[2024-04-04 08:01:52] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.189.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.190.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 08:01:52] WARNING root fetch - processPackages [pylips]: Timeout reached during download
+[2024-04-04 08:01:52] INFO root fetch - processPackages [pylips]: executing diffoscope
+[2024-04-04 08:01:52] INFO root fetch - processPackages [pylips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylips-0.0.8.tar.gz tmp/pylips-0.0.9.tar.gz --markdown 20240404/p/pylips/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:01:52] INFO root fetch - processPackages [freeplot]: Remove: archive file [/home/abi/fetcher/tmp/freeplot-0.4.5.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - processPackages [freeplot]: Remove: archive file [/home/abi/fetcher/tmp/freeplot-0.5.0.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - main [MainThread]: End processing [freeplot]: success
+[2024-04-04 08:01:52] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b3.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b4.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - main [MainThread]: End processing [tinta]: success
+[2024-04-04 08:01:52] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.8.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.9.tar.gz]
+[2024-04-04 08:01:52] INFO root fetch - main [MainThread]: End processing [inspeqai]: success
+[2024-04-04 08:01:53] INFO root fetch - processPackages [pylips]: Remove: archive file [/home/abi/fetcher/tmp/pylips-0.0.8.tar.gz]
+[2024-04-04 08:01:53] INFO root fetch - processPackages [pylips]: Remove: archive file [/home/abi/fetcher/tmp/pylips-0.0.9.tar.gz]
+[2024-04-04 08:01:53] INFO root fetch - main [MainThread]: End processing [pylips]: success
+[2024-04-04 08:01:53] INFO root fetch - main [MainThread]: Store serial: [22616063]
