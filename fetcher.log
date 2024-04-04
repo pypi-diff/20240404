@@ -11202,3 +11202,86 @@
 [2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.2.tar.gz]
 [2024-04-04 05:27:52] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
 [2024-04-04 05:27:52] INFO root fetch - main [MainThread]: Store serial: [22615125]
+[2024-04-04 05:29:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615125]
+[2024-04-04 05:30:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentence-store
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhtcc
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-partner-delivery-zone
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pluggy-sdk
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: svc-toolkit
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: danbi
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aws-service-screener
+[2024-04-04 05:30:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vcorelib
+[2024-04-04 05:30:01] INFO root fetch - processPackages [sentence-store]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [aws-service-screener]: New version: [2.0.2a1] Old Version: [2.0.1a0]
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [pluggy-sdk]: Skipping, unable to determine old version
+[2024-04-04 05:30:01] INFO root fetch - main [MainThread]: End processing [pluggy-sdk] error
+[2024-04-04 05:30:01] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: New version: [12.0.1.1.2.99.dev9] Old Version: [12.0.1.1.2.99.dev8]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [danbi]: New version: [0.2.188] Old Version: [0.2.187]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [pyhtcc]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [vcorelib]: New version: [3.2.1] Old Version: [3.2.0]
+[2024-04-04 05:30:01] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/f6/ac/fcd67eb28d42bb6cb8ba63f4879f5bc74712b71f7f55cf668506d56314a4/sentence_store-0.4.0.tar.gz
+[2024-04-04 05:30:01] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/76/95/09dcff46de8650b252bb4baf3217005b3689de6eb410169c2634b9d4bf15/danbi-0.2.187.tar.gz
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:30:01] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/27/80/82b59f0b0075f0059d60953c9af7f9dde2fc08e3cc72c9780abe41a9402c/aws_service_screener-2.0.1a0.tar.gz
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 05:30:01] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/ee/60/16539ba8c1ffb1e025802a4f625f4a7ce71b55a7962d91d0990aa1b93a77/svc_toolkit-1.0.2.tar.gz
+[2024-04-04 05:30:01] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/01/9a/0b87e54aa1f5eb813d82cce4fde48725806ec26bd68fa7524030cfe197ff/pyhtcc-0.1.8.tar.gz
+[2024-04-04 05:30:01] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Downloading https://files.pythonhosted.org/packages/3e/11/7e740f409ea43138b1960c25f27d1e3d290525113a9fe823eac54e539071/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev8-py3-none-any.whl
+[2024-04-04 05:30:01] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/64/e0/814a2aef609cd9d6cdcda04e627cb1d18c6d00c60fecc01ad27f42b35e47/vcorelib-3.2.0.tar.gz
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [pyhtcc]: Timeout reached during download
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 05:30:01] WARNING root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Timeout reached during download
+[2024-04-04 05:30:01] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/7c/70/20ffc8d020385f0e229ebc8167fe87ccd9eb6727d2673f9a1d8fdfecb06c/sentence_store-0.4.1.tar.gz
+[2024-04-04 05:30:01] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/81/85/c1ec73bbe5a85c78a4b700173a0735b7646b29d8a7194a648615d38b56bd/danbi-0.2.188.tar.gz
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [vcorelib]: Timeout reached during download
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [sentence-store]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [sentence-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentence_store-0.4.0.tar.gz tmp/sentence_store-0.4.1.tar.gz --markdown 20240404/s/sentence-store/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.187.tar.gz tmp/danbi-0.2.188.tar.gz --markdown 20240404/d/danbi/0.2.187-0.2.188/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/52/de/5260411fd3c808f99999736576342a21cebb68ecda7086b1a9a2bcab84e8/svc_toolkit-1.0.3.tar.gz
+[2024-04-04 05:30:02] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/4b/7b/445445ff46c8bad24f75bbf8712d27b506f11c115d56d97c8899a1accb32/vcorelib-3.2.1.tar.gz
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Downloading https://files.pythonhosted.org/packages/ed/61/d8b20cea9a89f9c84d3e89866c46e90e378f122b56534f3c5aa3f1a12841/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev9-py3-none-any.whl
+[2024-04-04 05:30:02] INFO root fetch - processPackages [pyhtcc]: Downloading https://files.pythonhosted.org/packages/4b/9e/6c52acb4fb6e4b4e98709d2d48e2d9ba6421de0a6a77d943685ad49b49dd/pyhtcc-0.1.9.tar.gz
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [vcorelib]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-3.2.0.tar.gz tmp/vcorelib-3.2.1.tar.gz --markdown 20240404/v/vcorelib/3.2.0-3.2.1/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.2.tar.gz tmp/svc_toolkit-1.0.3.tar.gz --markdown 20240404/s/svc-toolkit/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/f7/92/72d5e854605f4f1b4daad8d35c338c073924998e85c1c89408123a35778d/aws_service_screener-2.0.2a1.tar.gz
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [pyhtcc]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [pyhtcc]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [pyhtcc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhtcc-0.1.8.tar.gz tmp/pyhtcc-0.1.9.tar.gz --markdown 20240404/p/pyhtcc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo12-addon-partner-delivery-zone/12.0.1.1.2.99.dev8-12.0.1.1.2.99.dev9/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 05:30:02] INFO root fetch - processPackages [aws-service-screener]: executing diffoscope
+[2024-04-04 05:30:02] INFO root fetch - processPackages [aws-service-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_screener-2.0.1a0.tar.gz tmp/aws_service_screener-2.0.2a1.tar.gz --markdown 20240404/a/aws-service-screener/2.0.1a0-2.0.2a1/diff.md --exclude *.pyd
+[2024-04-04 05:30:02] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.4.0.tar.gz]
+[2024-04-04 05:30:02] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.4.1.tar.gz]
+[2024-04-04 05:30:02] INFO root fetch - main [MainThread]: End processing [sentence-store]: success
+[2024-04-04 05:30:03] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.187.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.188.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 05:30:03] INFO root fetch - processPackages [pyhtcc]: Remove: archive file [/home/abi/fetcher/tmp/pyhtcc-0.1.8.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - processPackages [pyhtcc]: Remove: archive file [/home/abi/fetcher/tmp/pyhtcc-0.1.9.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - main [MainThread]: End processing [pyhtcc]: success
+[2024-04-04 05:30:03] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-3.2.0.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-3.2.1.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2024-04-04 05:30:03] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.2.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.3.tar.gz]
+[2024-04-04 05:30:03] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-04 05:30:03] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev8-py3-none-any.whl.zip]
+[2024-04-04 05:30:03] INFO root fetch - processPackages [odoo12-addon-partner-delivery-zone]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_partner_delivery_zone-12.0.1.1.2.99.dev9-py3-none-any.whl.zip]
+[2024-04-04 05:30:03] INFO root fetch - main [MainThread]: End processing [odoo12-addon-partner-delivery-zone]: success
+[2024-04-04 05:30:04] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.1a0.tar.gz]
+[2024-04-04 05:30:04] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.2a1.tar.gz]
+[2024-04-04 05:30:04] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
+[2024-04-04 05:30:04] INFO root fetch - main [MainThread]: Store serial: [22615148]
