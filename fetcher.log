@@ -15736,3 +15736,22 @@
 [2024-04-04 09:14:34] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.3.tar.gz]
 [2024-04-04 09:14:34] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
 [2024-04-04 09:14:34] INFO root fetch - main [MainThread]: Store serial: [22616540]
+[2024-04-04 09:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616540]
+[2024-04-04 09:16:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-master
+[2024-04-04 09:16:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mutmut
+[2024-04-04 09:16:42] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240403.9.19.488469] Old Version: [20240403.7.0.933717]
+[2024-04-04 09:16:42] INFO root fetch - processPackages [mutmut]: New version: [2.4.5] Old Version: [2.4.4]
+[2024-04-04 09:16:43] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d6/15/9a0feddddbfcde60b9400be2cfbbd6e9efb1b63aab8dda12a976642ea568/certora-cli-alpha-master-20240403.7.0.933717.tar.gz
+[2024-04-04 09:16:43] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14475622>=10485760
+[2024-04-04 09:16:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-04 09:16:43] INFO root fetch - processPackages [mutmut]: Downloading https://files.pythonhosted.org/packages/15/72/53fd21ed82ecfbd851c53d7413d5f082c2e3d477671344bac5a8869fdca9/mutmut-2.4.4.tar.gz
+[2024-04-04 09:16:43] WARNING root fetch - processPackages [mutmut]: Timeout reached during download
+[2024-04-04 09:16:43] INFO root fetch - processPackages [mutmut]: Downloading https://files.pythonhosted.org/packages/60/1b/8ff501da12b9ae464bce175eb3610bbaedfc783b97aca7e58a3df9bb8b11/mutmut-2.4.5.tar.gz
+[2024-04-04 09:16:43] WARNING root fetch - processPackages [mutmut]: Timeout reached during download
+[2024-04-04 09:16:43] INFO root fetch - processPackages [mutmut]: executing diffoscope
+[2024-04-04 09:16:43] INFO root fetch - processPackages [mutmut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutmut-2.4.4.tar.gz tmp/mutmut-2.4.5.tar.gz --markdown 20240404/m/mutmut/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2024-04-04 09:16:44] INFO root fetch - processPackages [mutmut]: Remove: archive file [/home/abi/fetcher/tmp/mutmut-2.4.4.tar.gz]
+[2024-04-04 09:16:44] INFO root fetch - processPackages [mutmut]: Remove: archive file [/home/abi/fetcher/tmp/mutmut-2.4.5.tar.gz]
+[2024-04-04 09:16:44] INFO root fetch - main [MainThread]: End processing [mutmut]: success
+[2024-04-04 09:16:44] INFO root fetch - main [MainThread]: Store serial: [22616547]
