@@ -11368,3 +11368,47 @@
 [2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
 [2024-04-04 05:36:35] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
 [2024-04-04 05:36:35] INFO root fetch - main [MainThread]: Store serial: [22615171]
+[2024-04-04 05:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615171]
+[2024-04-04 05:38:44] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 05:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentence-store
+[2024-04-04 05:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confitti
+[2024-04-04 05:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blastpipe
+[2024-04-04 05:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boxedfactory
+[2024-04-04 05:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2024-04-04 05:38:44] INFO root fetch - processPackages [boxedfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 05:38:44] INFO root fetch - processPackages [blastpipe]: New version: [2024.0.3] Old Version: [2024.0.2]
+[2024-04-04 05:38:44] INFO root fetch - processPackages [sentence-store]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-04 05:38:44] WARNING root fetch - processPackages [confitti]: Skipping, unable to determine old version
+[2024-04-04 05:38:44] INFO root fetch - main [MainThread]: End processing [confitti] error
+[2024-04-04 05:38:44] INFO root fetch - processPackages [volstreet]: New version: [6.1.2] Old Version: [6.1.1]
+[2024-04-04 05:38:44] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/2e/3c/74917fe9bf4746dceec97aab9548b9fffa2ba6fdcf12be4bf475c48f6f6c/boxedfactory-0.0.7.tar.gz
+[2024-04-04 05:38:44] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/7c/70/20ffc8d020385f0e229ebc8167fe87ccd9eb6727d2673f9a1d8fdfecb06c/sentence_store-0.4.1.tar.gz
+[2024-04-04 05:38:44] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-04 05:38:44] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/4d/ff/d35469bed5e2e61085c01c998adc87a2485f9ef70bc215c80c5ebde33a96/blastpipe-2024.0.2.tar.gz
+[2024-04-04 05:38:44] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/fa/8f/a2a885eea5415ef404c4b3cde3dbfdc02346590781a2b718ede0c3283fc8/volstreet-6.1.1.tar.gz
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295918>=10485760
+[2024-04-04 05:38:45] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [blastpipe]: Timeout reached during download
+[2024-04-04 05:38:45] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/db/84/654120932bbb70daaf8d11dec99ef25e174c66768fdc8559e2b74616c9d3/boxedfactory-0.0.8.tar.gz
+[2024-04-04 05:38:45] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/42/9e/c380f22d603b6e67d8642392518e0849b251202ead8b68ff849fe6f1845e/sentence_store-0.4.2.tar.gz
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-04 05:38:45] INFO root fetch - processPackages [boxedfactory]: executing diffoscope
+[2024-04-04 05:38:45] INFO root fetch - processPackages [boxedfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxedfactory-0.0.7.tar.gz tmp/boxedfactory-0.0.8.tar.gz --markdown 20240404/b/boxedfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: Downloading https://files.pythonhosted.org/packages/89/e0/edfbf910c36b82b0698f8cb719ebcc851a476b39b4c8cc7927873063e0c6/blastpipe-2024.0.3.tar.gz
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:38:45] INFO root fetch - processPackages [sentence-store]: executing diffoscope
+[2024-04-04 05:38:45] INFO root fetch - processPackages [sentence-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentence_store-0.4.1.tar.gz tmp/sentence_store-0.4.2.tar.gz --markdown 20240404/s/sentence-store/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-04 05:38:45] WARNING root fetch - processPackages [blastpipe]: Timeout reached during download
+[2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: executing diffoscope
+[2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blastpipe-2024.0.2.tar.gz tmp/blastpipe-2024.0.3.tar.gz --markdown 20240404/b/blastpipe/2024.0.2-2024.0.3/diff.md --exclude *.pyd
+[2024-04-04 05:38:45] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.7.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
+[2024-04-04 05:38:45] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.4.1.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.4.2.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - main [MainThread]: End processing [sentence-store]: success
+[2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.0.2.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.0.3.tar.gz]
+[2024-04-04 05:38:45] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
+[2024-04-04 05:38:45] INFO root fetch - main [MainThread]: Store serial: [22615189]
