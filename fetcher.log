@@ -19767,3 +19767,52 @@
 [2024-04-04 11:39:03] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.5.tar.gz]
 [2024-04-04 11:39:03] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 11:39:03] INFO root fetch - main [MainThread]: Store serial: [22617944]
+[2024-04-04 11:41:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617944]
+[2024-04-04 11:41:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: supervenn
+[2024-04-04 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PAGETools
+[2024-04-04 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sisl-gui
+[2024-04-04 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: amf-fast-inference
+[2024-04-04 11:41:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LLMSmith
+[2024-04-04 11:41:12] INFO root fetch - processPackages [LLMSmith]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 11:41:12] INFO root fetch - processPackages [PAGETools]: New version: [0.5.2a1] Old Version: [0.5.2]
+[2024-04-04 11:41:12] INFO root fetch - processPackages [sisl-gui]: New version: [0.4.1] Old Version: [0.4]
+[2024-04-04 11:41:12] INFO root fetch - processPackages [supervenn]: New version: [0.5.0] Old Version: [0.4.2]
+[2024-04-04 11:41:12] WARNING root fetch - processPackages [amf-fast-inference]: Skipping, unable to determine old version
+[2024-04-04 11:41:12] INFO root fetch - main [MainThread]: End processing [amf-fast-inference] error
+[2024-04-04 11:41:13] INFO root fetch - processPackages [sisl-gui]: Downloading https://files.pythonhosted.org/packages/06/4b/86b1b7e78a1a75ca4bb0f9c1186d2c5d8c2f110e7d6bb3fd8c00c082d19c/sisl-gui-0.4.tar.gz
+[2024-04-04 11:41:13] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/90/3b/e42066043a88a814634e45c986882363527869ab92d7e67e03c891a2c153/llmsmith-0.1.1.tar.gz
+[2024-04-04 11:41:13] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/b9/f4/870a50ff8f1353750c1619a10f8891840ded561ee786f6ca4f945d43eb7c/PAGETools-0.5.2.tar.gz
+[2024-04-04 11:41:13] INFO root fetch - processPackages [supervenn]: Downloading https://files.pythonhosted.org/packages/57/c9/52f8ffd5006fd11274231cea1c6507521e31ec1175f5646bb553f0afc9d0/supervenn-0.4.2.tar.gz
+[2024-04-04 11:41:13] WARNING root fetch - processPackages [LLMSmith]: Timeout reached during download
+[2024-04-04 11:41:13] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:41:13] WARNING root fetch - processPackages [supervenn]: Timeout reached during download
+[2024-04-04 11:41:13] INFO root fetch - processPackages [LLMSmith]: Downloading https://files.pythonhosted.org/packages/0e/9e/a0ceba2e681c400c1761bc2abbac5f698c648fbd90b8ffc90581e944c2dc/llmsmith-0.1.2.tar.gz
+[2024-04-04 11:41:13] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/65/25/e3e1ee729b0a8db5dd4fb2f549966851c0f3975a130fa5561b974f1c86ff/PAGETools-0.5.2a1-py3-none-any.whl
+[2024-04-04 11:41:13] INFO root fetch - processPackages [supervenn]: Downloading https://files.pythonhosted.org/packages/07/5c/867f62a3660315080e246fef213259a6fa423b2e375360330510a66534cb/supervenn-0.5.0.tar.gz
+[2024-04-04 11:41:13] WARNING root fetch - processPackages [LLMSmith]: Timeout reached during download
+[2024-04-04 11:41:13] INFO root fetch - processPackages [LLMSmith]: executing diffoscope
+[2024-04-04 11:41:13] INFO root fetch - processPackages [LLMSmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmsmith-0.1.1.tar.gz tmp/llmsmith-0.1.2.tar.gz --markdown 20240404/L/LLMSmith/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 11:41:13] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:41:13] INFO root fetch - processPackages [PAGETools]: executing diffoscope
+[2024-04-04 11:41:13] INFO root fetch - processPackages [PAGETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PAGETools-0.5.2.tar.gz tmp/PAGETools-0.5.2a1-py3-none-any.whl.zip --markdown 20240404/P/PAGETools/0.5.2-0.5.2a1/diff.md --exclude *.pyd
+[2024-04-04 11:41:14] WARNING root fetch - processPackages [supervenn]: Timeout reached during download
+[2024-04-04 11:41:14] INFO root fetch - processPackages [supervenn]: executing diffoscope
+[2024-04-04 11:41:14] INFO root fetch - processPackages [supervenn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervenn-0.4.2.tar.gz tmp/supervenn-0.5.0.tar.gz --markdown 20240404/s/supervenn/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 11:41:14] WARNING root fetch - processPackages [sisl-gui]: Timeout reached during download
+[2024-04-04 11:41:14] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.2.tar.gz]
+[2024-04-04 11:41:14] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.2a1-py3-none-any.whl.zip]
+[2024-04-04 11:41:14] INFO root fetch - main [MainThread]: End processing [PAGETools]: success
+[2024-04-04 11:41:14] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.1.1.tar.gz]
+[2024-04-04 11:41:14] INFO root fetch - processPackages [LLMSmith]: Remove: archive file [/home/abi/fetcher/tmp/llmsmith-0.1.2.tar.gz]
+[2024-04-04 11:41:14] INFO root fetch - main [MainThread]: End processing [LLMSmith]: success
+[2024-04-04 11:41:14] INFO root fetch - processPackages [sisl-gui]: Downloading https://files.pythonhosted.org/packages/18/4d/4b91e1cf65ca6e6a03e0eeed44a9c92089f2da67ed80b9f00b60121acd8c/sisl-gui-0.4.1.tar.gz
+[2024-04-04 11:41:14] INFO root fetch - processPackages [supervenn]: Remove: archive file [/home/abi/fetcher/tmp/supervenn-0.4.2.tar.gz]
+[2024-04-04 11:41:14] INFO root fetch - processPackages [supervenn]: Remove: archive file [/home/abi/fetcher/tmp/supervenn-0.5.0.tar.gz]
+[2024-04-04 11:41:14] INFO root fetch - main [MainThread]: End processing [supervenn]: success
+[2024-04-04 11:41:16] WARNING root fetch - processPackages [sisl-gui]: Timeout reached during download
+[2024-04-04 11:41:16] INFO root fetch - processPackages [sisl-gui]: executing diffoscope
+[2024-04-04 11:41:16] INFO root fetch - processPackages [sisl-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sisl-gui-0.4.tar.gz tmp/sisl-gui-0.4.1.tar.gz --markdown 20240404/s/sisl-gui/0.4-0.4.1/diff.md --exclude *.pyd
+[2024-04-04 11:44:16] ERROR root fetch - processPackages [sisl-gui]: Timeout during execution of pkgdiff
+[2024-04-04 11:44:16] INFO root fetch - main [MainThread]: End processing [sisl-gui] error
+[2024-04-04 11:44:16] INFO root fetch - main [MainThread]: Store serial: [22617968]
