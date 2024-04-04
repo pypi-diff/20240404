@@ -12333,3 +12333,50 @@
 [2024-04-04 06:37:48] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.2-py3-none-any.whl.zip]
 [2024-04-04 06:37:48] INFO root fetch - main [MainThread]: End processing [flowdapt_sdk]: success
 [2024-04-04 06:37:48] INFO root fetch - main [MainThread]: Store serial: [22615476]
+[2024-04-04 06:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615476]
+[2024-04-04 06:39:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uagents-ai-engine
+[2024-04-04 06:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: XBlock
+[2024-04-04 06:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: loggerjava
+[2024-04-04 06:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-utils-components
+[2024-04-04 06:39:57] INFO root fetch - processPackages [uagents-ai-engine]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-04 06:39:57] INFO root fetch - processPackages [XBlock]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-04 06:39:57] INFO root fetch - processPackages [loggerjava]: New version: [0.7.6] Old Version: [0.7.5.dev1]
+[2024-04-04 06:39:57] INFO root fetch - processPackages [feffery-utils-components]: New version: [0.2.0rc9] Old Version: [0.2.0rc8]
+[2024-04-04 06:39:57] INFO root fetch - processPackages [loggerjava]: Downloading https://files.pythonhosted.org/packages/c8/8e/ea1c2b75d119695257bb21b105b51f501c72d4d091a9d9453ec03b96eb9d/loggerjava-0.7.5.dev1.tar.gz
+[2024-04-04 06:39:57] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/0a/07/8ccfc86619bdd75c593872ce4365982923dd768e1cebc8b20c1ade295380/feffery_utils_components-0.2.0rc8.tar.gz
+[2024-04-04 06:39:57] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/00/4c/b2fa6da69348985ffd31b8037243fd2e1878642ae9f28a230ff91986436c/uagents_ai_engine-0.1.3.tar.gz
+[2024-04-04 06:39:57] WARNING root fetch - processPackages [loggerjava]: Timeout reached during download
+[2024-04-04 06:39:57] INFO root fetch - processPackages [XBlock]: Downloading https://files.pythonhosted.org/packages/d8/20/ec1a867c8b99a8217cd032c707871168798be7cedd055f9753ee70b9f0e1/XBlock-3.0.0.tar.gz
+[2024-04-04 06:39:57] WARNING root fetch - processPackages [uagents-ai-engine]: Timeout reached during download
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [XBlock]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [loggerjava]: Downloading https://files.pythonhosted.org/packages/06/69/8dc355d515472b81111d36ce0b0df23708d1772fbf06c2c0bdb876b25b0f/loggerjava-0.7.6.tar.gz
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [loggerjava]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [loggerjava]: executing diffoscope
+[2024-04-04 06:39:58] INFO root fetch - processPackages [loggerjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerjava-0.7.5.dev1.tar.gz tmp/loggerjava-0.7.6.tar.gz --markdown 20240404/l/loggerjava/0.7.5.dev1-0.7.6/diff.md --exclude *.pyd
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [feffery-utils-components]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/6b/99/0ddc4b4c22283f1bf5067b08d65827567126c4ce351d139f59b2f24a3c0f/uagents_ai_engine-0.1.4.tar.gz
+[2024-04-04 06:39:58] INFO root fetch - processPackages [XBlock]: Downloading https://files.pythonhosted.org/packages/9c/b3/625784e46953f8c80918486999072c0f816dbbbd5c3ef208bd22f1d533a7/XBlock-3.1.0.tar.gz
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [uagents-ai-engine]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [uagents-ai-engine]: executing diffoscope
+[2024-04-04 06:39:58] INFO root fetch - processPackages [uagents-ai-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_ai_engine-0.1.3.tar.gz tmp/uagents_ai_engine-0.1.4.tar.gz --markdown 20240404/u/uagents-ai-engine/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-04 06:39:58] INFO root fetch - processPackages [feffery-utils-components]: Downloading https://files.pythonhosted.org/packages/45/a9/10eefc492704996ca69e4455b3aff875c8f400db6c9802d6fc66c53379d6/feffery_utils_components-0.2.0rc9.tar.gz
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [XBlock]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [XBlock]: executing diffoscope
+[2024-04-04 06:39:58] INFO root fetch - processPackages [XBlock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XBlock-3.0.0.tar.gz tmp/XBlock-3.1.0.tar.gz --markdown 20240404/X/XBlock/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2024-04-04 06:39:58] INFO root fetch - processPackages [loggerjava]: Remove: archive file [/home/abi/fetcher/tmp/loggerjava-0.7.5.dev1.tar.gz]
+[2024-04-04 06:39:58] INFO root fetch - processPackages [loggerjava]: Remove: archive file [/home/abi/fetcher/tmp/loggerjava-0.7.6.tar.gz]
+[2024-04-04 06:39:58] INFO root fetch - main [MainThread]: End processing [loggerjava]: success
+[2024-04-04 06:39:58] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.1.3.tar.gz]
+[2024-04-04 06:39:58] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.1.4.tar.gz]
+[2024-04-04 06:39:58] INFO root fetch - main [MainThread]: End processing [uagents-ai-engine]: success
+[2024-04-04 06:39:58] WARNING root fetch - processPackages [feffery-utils-components]: Timeout reached during download
+[2024-04-04 06:39:58] INFO root fetch - processPackages [feffery-utils-components]: executing diffoscope
+[2024-04-04 06:39:58] INFO root fetch - processPackages [feffery-utils-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_utils_components-0.2.0rc8.tar.gz tmp/feffery_utils_components-0.2.0rc9.tar.gz --markdown 20240404/f/feffery-utils-components/0.2.0rc8-0.2.0rc9/diff.md --exclude *.pyd
+[2024-04-04 06:39:59] INFO root fetch - processPackages [XBlock]: Remove: archive file [/home/abi/fetcher/tmp/XBlock-3.0.0.tar.gz]
+[2024-04-04 06:39:59] INFO root fetch - processPackages [XBlock]: Remove: archive file [/home/abi/fetcher/tmp/XBlock-3.1.0.tar.gz]
+[2024-04-04 06:39:59] INFO root fetch - main [MainThread]: End processing [XBlock]: success
+[2024-04-04 06:40:07] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc8.tar.gz]
+[2024-04-04 06:40:07] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
+[2024-04-04 06:40:07] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
+[2024-04-04 06:40:07] INFO root fetch - main [MainThread]: Store serial: [22615488]
