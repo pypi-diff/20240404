@@ -14721,3 +14721,17 @@
 [2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl.zip]
 [2024-04-04 08:26:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-survey]: success
 [2024-04-04 08:26:07] INFO root fetch - main [MainThread]: Store serial: [22616227]
+[2024-04-04 08:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616227]
+[2024-04-04 08:28:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 08:28:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cace
+[2024-04-04 08:28:16] INFO root fetch - processPackages [cace]: New version: [2.1.9] Old Version: [2.1.8]
+[2024-04-04 08:28:17] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/be/86/e4d120b00ed46dd761460d3f0484b32c46e4434a45e5eb563b368aaaa328/cace-2.1.8.tar.gz
+[2024-04-04 08:28:17] WARNING root fetch - processPackages [cace]: Timeout reached during download
+[2024-04-04 08:28:17] INFO root fetch - processPackages [cace]: Downloading https://files.pythonhosted.org/packages/53/94/f897ca91db5affc11db7bd0e1fb7d075e82877b3619940e307c591e72931/cace-2.1.9.tar.gz
+[2024-04-04 08:28:17] WARNING root fetch - processPackages [cace]: Timeout reached during download
+[2024-04-04 08:28:17] INFO root fetch - processPackages [cace]: executing diffoscope
+[2024-04-04 08:28:17] INFO root fetch - processPackages [cace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cace-2.1.8.tar.gz tmp/cace-2.1.9.tar.gz --markdown 20240404/c/cace/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2024-04-04 08:28:18] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.1.8.tar.gz]
+[2024-04-04 08:28:18] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.1.9.tar.gz]
+[2024-04-04 08:28:18] INFO root fetch - main [MainThread]: End processing [cace]: success
+[2024-04-04 08:28:18] INFO root fetch - main [MainThread]: Store serial: [22616233]
