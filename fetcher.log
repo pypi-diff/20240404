@@ -9586,3 +9586,17 @@
 [2024-04-04 03:42:05] INFO root fetch - processPackages [fmcapi]: Remove: archive file [/home/abi/fetcher/tmp/fmcapi-20240404.0.tar.gz]
 [2024-04-04 03:42:05] INFO root fetch - main [MainThread]: End processing [fmcapi]: success
 [2024-04-04 03:42:05] INFO root fetch - main [MainThread]: Store serial: [22614583]
+[2024-04-04 03:44:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614583]
+[2024-04-04 03:44:14] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 03:44:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-runpod
+[2024-04-04 03:44:15] INFO root fetch - processPackages [pulumi-runpod]: New version: [1.2.4] Old Version: [1.1.8]
+[2024-04-04 03:44:15] INFO root fetch - processPackages [pulumi-runpod]: Downloading https://files.pythonhosted.org/packages/27/32/b3b348cb7dad4c87226cf4bc3e7cb6ae4aad813efbbbc9c2b4d38ade5560/pulumi-runpod-1.1.8.tar.gz
+[2024-04-04 03:44:15] WARNING root fetch - processPackages [pulumi-runpod]: Timeout reached during download
+[2024-04-04 03:44:15] INFO root fetch - processPackages [pulumi-runpod]: Downloading https://files.pythonhosted.org/packages/7d/75/f146808720f9f35af2adccf50c25061ced7cd6e9bc6db7c87e03251e8f0f/pulumi-runpod-1.2.4.tar.gz
+[2024-04-04 03:44:15] WARNING root fetch - processPackages [pulumi-runpod]: Timeout reached during download
+[2024-04-04 03:44:15] INFO root fetch - processPackages [pulumi-runpod]: executing diffoscope
+[2024-04-04 03:44:15] INFO root fetch - processPackages [pulumi-runpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-runpod-1.1.8.tar.gz tmp/pulumi-runpod-1.2.4.tar.gz --markdown 20240404/p/pulumi-runpod/1.1.8-1.2.4/diff.md --exclude *.pyd
+[2024-04-04 03:44:16] INFO root fetch - processPackages [pulumi-runpod]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-runpod-1.1.8.tar.gz]
+[2024-04-04 03:44:16] INFO root fetch - processPackages [pulumi-runpod]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-runpod-1.2.4.tar.gz]
+[2024-04-04 03:44:16] INFO root fetch - main [MainThread]: End processing [pulumi-runpod]: success
+[2024-04-04 03:44:16] INFO root fetch - main [MainThread]: Store serial: [22614585]
