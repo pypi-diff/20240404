@@ -19176,3 +19176,53 @@
 [2024-04-04 11:22:59] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.4.tar.gz]
 [2024-04-04 11:22:59] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 11:22:59] INFO root fetch - main [MainThread]: Store serial: [22617713]
+[2024-04-04 11:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617713]
+[2024-04-04 11:25:09] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: endoreg-db
+[2024-04-04 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-04 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chess-utils
+[2024-04-04 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: invenio-app-rdm
+[2024-04-04 11:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vairflow-core
+[2024-04-04 11:25:09] INFO root fetch - processPackages [endoreg-db]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-04 11:25:09] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.3]
+[2024-04-04 11:25:09] INFO root fetch - processPackages [chess-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 11:25:09] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2024-04-04 11:25:09] WARNING root fetch - processPackages [vairflow-core]: Skipping, unable to determine old version
+[2024-04-04 11:25:09] INFO root fetch - main [MainThread]: End processing [vairflow-core] error
+[2024-04-04 11:25:09] INFO root fetch - processPackages [endoreg-db]: Downloading https://files.pythonhosted.org/packages/e8/c7/819982a379a6c8130d5f9e1a3afcaf34c71bdb21e943028dad8c05da726e/endoreg_db-0.3.3.tar.gz
+[2024-04-04 11:25:09] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/96/49/2b2f6b6a0c50a89019a4f8fa4ae3ec40a9fe17c3962ed18ebfa909639378/chess-utils-0.1.5.tar.gz
+[2024-04-04 11:25:09] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/a7/22/8e80c3a8760feffe43e52d359603759e01ce99bfd20f6eece3d211564d26/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 11:25:10] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [endoreg-db]: Timeout reached during download
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [chess-utils]: Timeout reached during download
+[2024-04-04 11:25:10] INFO root fetch - processPackages [endoreg-db]: Downloading https://files.pythonhosted.org/packages/74/a2/526fe0570c801a087e88b02098aff60d85011ecfc14eff1466a677db40d6/endoreg_db-0.3.4.tar.gz
+[2024-04-04 11:25:10] INFO root fetch - processPackages [chess-utils]: Downloading https://files.pythonhosted.org/packages/53/a9/aadab0d0734acdf5e70bf1850476b63943627035fa08988aed8e2cdde86f/chess-utils-0.1.6.tar.gz
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [endoreg-db]: Timeout reached during download
+[2024-04-04 11:25:10] INFO root fetch - processPackages [endoreg-db]: executing diffoscope
+[2024-04-04 11:25:10] INFO root fetch - processPackages [endoreg-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/endoreg_db-0.3.3.tar.gz tmp/endoreg_db-0.3.4.tar.gz --markdown 20240404/e/endoreg-db/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [chess-utils]: Timeout reached during download
+[2024-04-04 11:25:10] INFO root fetch - processPackages [chess-utils]: executing diffoscope
+[2024-04-04 11:25:10] INFO root fetch - processPackages [chess-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chess-utils-0.1.5.tar.gz tmp/chess-utils-0.1.6.tar.gz --markdown 20240404/c/chess-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 11:25:10] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [invenio-app-rdm]: Timeout reached during download
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:25:10] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-04 11:25:10] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-demand-estimate/17.0.1.0.0.3-17.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:25:10] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2024-04-04 11:25:10] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess-utils-0.1.5.tar.gz]
+[2024-04-04 11:25:10] INFO root fetch - processPackages [chess-utils]: Remove: archive file [/home/abi/fetcher/tmp/chess-utils-0.1.6.tar.gz]
+[2024-04-04 11:25:10] INFO root fetch - main [MainThread]: End processing [chess-utils]: success
+[2024-04-04 11:25:10] WARNING root fetch - processPackages [invenio-app-rdm]: Timeout reached during download
+[2024-04-04 11:25:10] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2024-04-04 11:25:10] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20240404/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2024-04-04 11:25:11] INFO root fetch - processPackages [endoreg-db]: Remove: archive file [/home/abi/fetcher/tmp/endoreg_db-0.3.3.tar.gz]
+[2024-04-04 11:25:11] INFO root fetch - processPackages [endoreg-db]: Remove: archive file [/home/abi/fetcher/tmp/endoreg_db-0.3.4.tar.gz]
+[2024-04-04 11:25:11] INFO root fetch - main [MainThread]: End processing [endoreg-db]: success
+[2024-04-04 11:25:11] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 11:25:11] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-04 11:25:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-04 11:25:12] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2024-04-04 11:25:12] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2024-04-04 11:25:12] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2024-04-04 11:25:12] INFO root fetch - main [MainThread]: Store serial: [22617757]
