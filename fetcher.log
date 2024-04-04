@@ -20852,3 +20852,64 @@
 [2024-04-04 12:15:36] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
 [2024-04-04 12:15:36] INFO root fetch - main [MainThread]: End processing [ydb]: success
 [2024-04-04 12:15:36] INFO root fetch - main [MainThread]: Store serial: [22618292]
+[2024-04-04 12:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618292]
+[2024-04-04 12:17:44] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robocorp-flet
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-spotinst
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-workflow-sdk-preview
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CoolAMQP
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Temperatur-Nu
+[2024-04-04 12:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mep-tools
+[2024-04-04 12:17:44] WARNING root fetch - processPackages [robocorp-flet]: Skipping, unable to determine old version
+[2024-04-04 12:17:44] INFO root fetch - main [MainThread]: End processing [robocorp-flet] error
+[2024-04-04 12:17:44] INFO root fetch - processPackages [Temperatur-Nu]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 12:17:44] INFO root fetch - processPackages [mep-tools]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 12:17:44] INFO root fetch - processPackages [CoolAMQP]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 12:17:44] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.853] Old Version: [0.1.843]
+[2024-04-04 12:17:44] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-04 12:17:44] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/71/d6/1754e9ab61eb592a10d986b046ac46369d161a40c5957c5b3b590a81c7a3/Temperatur_Nu-0.0.2.tar.gz
+[2024-04-04 12:17:44] INFO root fetch - processPackages [mep-tools]: Downloading https://files.pythonhosted.org/packages/23/a1/ce18e011244015510ddc235a01acea59cc666f11b444a71184cdcec1f766/mep_tools-1.2.8.tar.gz
+[2024-04-04 12:17:44] INFO root fetch - processPackages [CoolAMQP]: Downloading https://files.pythonhosted.org/packages/8a/ef/62390d32f6dbd1ae14fe8262084b61db347a727c13c53f5e9f84759b9b5d/CoolAMQP-1.2.8-py2.py3-none-any.whl
+[2024-04-04 12:17:44] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/15/57/dae3baba13e153db7661d4487532c33d4523a0c4ae7b5d1ba4db33a173aa/lusid-workflow-sdk-preview-0.1.843.tar.gz
+[2024-04-04 12:17:44] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [mep-tools]: Timeout reached during download
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [lusid-workflow-sdk-preview]: Timeout reached during download
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [CoolAMQP]: Timeout reached during download
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [mep-tools]: Downloading https://files.pythonhosted.org/packages/cd/98/5986e3d4703563f7461e18bca2442b8ce5ea56bfd4b43f92d0ba777b61f8/mep_tools-1.2.9.tar.gz
+[2024-04-04 12:17:45] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/35/a2/e17884a7b24ce1c7f5b10f9128a1ad856e23c8d82af42460d5f142796ea0/Temperatur_Nu-0.0.3.tar.gz
+[2024-04-04 12:17:45] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/94/9a/28d82beec19f85321837a2edecfcfdcd2af2f605da2e34d2442993f66c78/lusid-workflow-sdk-preview-0.1.853.tar.gz
+[2024-04-04 12:17:45] INFO root fetch - processPackages [CoolAMQP]: Downloading https://files.pythonhosted.org/packages/db/9a/b1df40792eaec96709bc9c550776b9b84c4c629eff606f5f2dc9b2b3b34e/CoolAMQP-1.2.9.tar.gz
+[2024-04-04 12:17:45] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [mep-tools]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [mep-tools]: executing diffoscope
+[2024-04-04 12:17:45] INFO root fetch - processPackages [mep-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mep_tools-1.2.8.tar.gz tmp/mep_tools-1.2.9.tar.gz --markdown 20240404/m/mep-tools/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [Temperatur-Nu]: executing diffoscope
+[2024-04-04 12:17:45] INFO root fetch - processPackages [Temperatur-Nu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Temperatur_Nu-0.0.2.tar.gz tmp/Temperatur_Nu-0.0.3.tar.gz --markdown 20240404/T/Temperatur-Nu/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [lusid-workflow-sdk-preview]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-04-04 12:17:45] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.843.tar.gz tmp/lusid-workflow-sdk-preview-0.1.853.tar.gz --markdown 20240404/l/lusid-workflow-sdk-preview/0.1.843-0.1.853/diff.md --exclude *.pyd
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [CoolAMQP]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [CoolAMQP]: executing diffoscope
+[2024-04-04 12:17:45] INFO root fetch - processPackages [CoolAMQP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoolAMQP-1.2.8-py2.py3-none-any.whl.zip tmp/CoolAMQP-1.2.9.tar.gz --markdown 20240404/C/CoolAMQP/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 12:17:45] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-04 12:17:45] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-04 12:17:45] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240404/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-04 12:17:46] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.2.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.3.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu]: success
+[2024-04-04 12:17:46] INFO root fetch - processPackages [CoolAMQP]: Remove: archive file [/home/abi/fetcher/tmp/CoolAMQP-1.2.8-py2.py3-none-any.whl.zip]
+[2024-04-04 12:17:46] INFO root fetch - processPackages [CoolAMQP]: Remove: archive file [/home/abi/fetcher/tmp/CoolAMQP-1.2.9.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [CoolAMQP]: success
+[2024-04-04 12:17:46] INFO root fetch - processPackages [mep-tools]: Remove: archive file [/home/abi/fetcher/tmp/mep_tools-1.2.8.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - processPackages [mep-tools]: Remove: archive file [/home/abi/fetcher/tmp/mep_tools-1.2.9.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [mep-tools]: success
+[2024-04-04 12:17:46] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-04 12:17:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.843.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.853.tar.gz]
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-04-04 12:17:46] INFO root fetch - main [MainThread]: Store serial: [22618316]
