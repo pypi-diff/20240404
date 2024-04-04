@@ -11426,3 +11426,39 @@
 [2024-04-04 05:40:55] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.9.0.tar.gz]
 [2024-04-04 05:40:55] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
 [2024-04-04 05:40:55] INFO root fetch - main [MainThread]: Store serial: [22615192]
+[2024-04-04 05:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615192]
+[2024-04-04 05:43:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautc
+[2024-04-04 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k2eg
+[2024-04-04 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opda
+[2024-04-04 05:43:05] INFO root fetch - processPackages [opda]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-04 05:43:05] INFO root fetch - processPackages [nautc]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-04 05:43:05] INFO root fetch - processPackages [k2eg]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 05:43:05] INFO root fetch - processPackages [opda]: Downloading https://files.pythonhosted.org/packages/64/33/2e8de826ebba79ef9f204aeb52ae14e2c8116241ddacfb9f8623e4e942f8/opda-0.6.0.tar.gz
+[2024-04-04 05:43:05] INFO root fetch - processPackages [nautc]: Downloading https://files.pythonhosted.org/packages/2c/a5/d5b1db711d31946a6a4fa260e546a03e426645573d22a42fe616a070eee1/nautc-1.1.0.tar.gz
+[2024-04-04 05:43:05] INFO root fetch - processPackages [k2eg]: Downloading https://files.pythonhosted.org/packages/f2/b2/88bfe475f3dd836c257a4fe0e79b5bef6fca6b65306c67a6630d7eca6da9/k2eg-0.2.4.tar.gz
+[2024-04-04 05:43:05] WARNING root fetch - processPackages [opda]: Timeout reached during download
+[2024-04-04 05:43:05] WARNING root fetch - processPackages [nautc]: Timeout reached during download
+[2024-04-04 05:43:05] WARNING root fetch - processPackages [k2eg]: Timeout reached during download
+[2024-04-04 05:43:06] INFO root fetch - processPackages [opda]: Downloading https://files.pythonhosted.org/packages/cc/43/9cb12d53120a938e7ad62c5ef4c84ea37d65925f71d1ec54c875b8f31d3d/opda-0.6.1.tar.gz
+[2024-04-04 05:43:06] INFO root fetch - processPackages [nautc]: Downloading https://files.pythonhosted.org/packages/5b/4e/01103e7c261a0cbefe81582f7a69148dc45e044b06d8b0706799241581f8/nautc-1.1.1.tar.gz
+[2024-04-04 05:43:06] INFO root fetch - processPackages [k2eg]: Downloading https://files.pythonhosted.org/packages/94/af/a2b68c95a924c187d7fa2431a504a37e1bca43114e285f2d58c922dae633/k2eg-0.2.5.tar.gz
+[2024-04-04 05:43:06] WARNING root fetch - processPackages [opda]: Timeout reached during download
+[2024-04-04 05:43:06] INFO root fetch - processPackages [opda]: executing diffoscope
+[2024-04-04 05:43:06] INFO root fetch - processPackages [opda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opda-0.6.0.tar.gz tmp/opda-0.6.1.tar.gz --markdown 20240404/o/opda/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-04 05:43:06] WARNING root fetch - processPackages [k2eg]: Timeout reached during download
+[2024-04-04 05:43:06] INFO root fetch - processPackages [k2eg]: executing diffoscope
+[2024-04-04 05:43:06] INFO root fetch - processPackages [k2eg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k2eg-0.2.4.tar.gz tmp/k2eg-0.2.5.tar.gz --markdown 20240404/k/k2eg/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 05:43:06] WARNING root fetch - processPackages [nautc]: Timeout reached during download
+[2024-04-04 05:43:06] INFO root fetch - processPackages [nautc]: executing diffoscope
+[2024-04-04 05:43:06] INFO root fetch - processPackages [nautc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautc-1.1.0.tar.gz tmp/nautc-1.1.1.tar.gz --markdown 20240404/n/nautc/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-04 05:43:06] INFO root fetch - processPackages [nautc]: Remove: archive file [/home/abi/fetcher/tmp/nautc-1.1.0.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - processPackages [nautc]: Remove: archive file [/home/abi/fetcher/tmp/nautc-1.1.1.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - main [MainThread]: End processing [nautc]: success
+[2024-04-04 05:43:06] INFO root fetch - processPackages [k2eg]: Remove: archive file [/home/abi/fetcher/tmp/k2eg-0.2.4.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - processPackages [k2eg]: Remove: archive file [/home/abi/fetcher/tmp/k2eg-0.2.5.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - main [MainThread]: End processing [k2eg]: success
+[2024-04-04 05:43:06] INFO root fetch - processPackages [opda]: Remove: archive file [/home/abi/fetcher/tmp/opda-0.6.0.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - processPackages [opda]: Remove: archive file [/home/abi/fetcher/tmp/opda-0.6.1.tar.gz]
+[2024-04-04 05:43:06] INFO root fetch - main [MainThread]: End processing [opda]: success
+[2024-04-04 05:43:06] INFO root fetch - main [MainThread]: Store serial: [22615201]
