@@ -16524,3 +16524,100 @@
 [2024-04-04 09:49:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.2.tar.gz]
 [2024-04-04 09:49:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 09:49:37] INFO root fetch - main [MainThread]: Store serial: [22616768]
+[2024-04-04 09:51:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616768]
+[2024-04-04 09:51:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-purchase
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvserv
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trytond-purchase
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xdat
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: trytond-account-invoice
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ft-jwt
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trytond-account-invoice
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nodoc
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: trytond-account-invoice
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xdat
+[2024-04-04 09:51:45] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [pyvserv]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [ft-jwt]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 09:51:45] WARNING root fetch - processPackages [nodoc]: Skipping, unable to determine old version
+[2024-04-04 09:51:45] INFO root fetch - main [MainThread]: End processing [nodoc] error
+[2024-04-04 09:51:45] INFO root fetch - processPackages [trytond-purchase]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [trytond-purchase]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [xdat]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-04 09:51:45] INFO root fetch - processPackages [trytond-account-invoice]: New version: [7.0.3] Old Version: [7.0.2]
+[2024-04-04 09:51:46] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/2b/2e/56291db0c97df8e92b875cf695ffd242ed57165c370a3b27b7f2a5329b76/ft_jwt-0.0.1.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [pyvserv]: Downloading https://files.pythonhosted.org/packages/b0/38/8e5b5942c33aafc65691a56781315f521984877bb849b8e475402db8a3aa/pyvserv-1.0.2.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/26/67/75d261e27b10e3db3a893b2d1b64eabe0d69d4df93bbff8336f3452930af/trytond_purchase-7.0.1.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/45/03/5795757f197181a8e88e8938e40cc7e104436a3d7599ec45ab6c4e238c5c/trytond_account_invoice-7.0.2.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/26/67/75d261e27b10e3db3a893b2d1b64eabe0d69d4df93bbff8336f3452930af/trytond_purchase-7.0.1.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/45/03/5795757f197181a8e88e8938e40cc7e104436a3d7599ec45ab6c4e238c5c/trytond_account_invoice-7.0.2.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/45/03/5795757f197181a8e88e8938e40cc7e104436a3d7599ec45ab6c4e238c5c/trytond_account_invoice-7.0.2.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-purchase]: Timeout reached during download
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [pyvserv]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-purchase]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/1f/59/50979d7bd38d3b54ebda88cfebaad892786056349707120dd15b0f3ac4a6/xdat-0.1.98.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/a5/d2/3ed7008ed2c230f1da6c6dcf766229634d449c25f94172aaf20636c34849/ft_jwt-0.0.2.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/41/a3/415066784aae61387205ec0169d625e83883b0a4be4036811107fe4948ad/trytond_purchase-7.0.2.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [pyvserv]: Downloading https://files.pythonhosted.org/packages/62/e6/7691fe5b71d2dd0b53adc0f713a7f48253052e70bdd0de76bff23b8d3392/pyvserv-1.0.3.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: Downloading https://files.pythonhosted.org/packages/41/a3/415066784aae61387205ec0169d625e83883b0a4be4036811107fe4948ad/trytond_purchase-7.0.2.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [ft-jwt]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [ft-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_jwt-0.0.1.tar.gz tmp/ft_jwt-0.0.2.tar.gz --markdown 20240404/f/ft-jwt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/78/d4/5360e5c32c2a8c75774ed22f47bd29927a48d94e19cb28eae8b11c6160d5/trytond_account_invoice-7.0.3.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/78/d4/5360e5c32c2a8c75774ed22f47bd29927a48d94e19cb28eae8b11c6160d5/trytond_account_invoice-7.0.3.tar.gz
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: Downloading https://files.pythonhosted.org/packages/78/d4/5360e5c32c2a8c75774ed22f47bd29927a48d94e19cb28eae8b11c6160d5/trytond_account_invoice-7.0.3.tar.gz
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [pyvserv]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [pyvserv]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [pyvserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvserv-1.0.2.tar.gz tmp/pyvserv-1.0.3.tar.gz --markdown 20240404/p/pyvserv/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-purchase]: Timeout reached during download
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-purchase]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase-7.0.1.tar.gz tmp/trytond_purchase-7.0.2.tar.gz --markdown 20240404/t/trytond-purchase/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_purchase-7.0.1.tar.gz tmp/trytond_purchase-7.0.2.tar.gz --markdown 20240404/t/trytond-purchase/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.0.2.tar.gz tmp/trytond_account_invoice-7.0.3.tar.gz --markdown 20240404/t/trytond-account-invoice/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.0.2.tar.gz tmp/trytond_account_invoice-7.0.3.tar.gz --markdown 20240404/t/trytond-account-invoice/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [trytond-account-invoice]: Timeout reached during download
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: executing diffoscope
+[2024-04-04 09:51:46] INFO root fetch - processPackages [trytond-account-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_account_invoice-7.0.2.tar.gz tmp/trytond_account_invoice-7.0.3.tar.gz --markdown 20240404/t/trytond-account-invoice/7.0.2-7.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:51:46] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-04 09:51:47] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: Downloading https://files.pythonhosted.org/packages/00/b5/44d6ceebadb7e9f19552d1b65fe724db78a16ae9e19ae608960562ff5d39/xdat-0.1.99.tar.gz
+[2024-04-04 09:51:47] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.1.tar.gz]
+[2024-04-04 09:51:47] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.2.tar.gz]
+[2024-04-04 09:51:47] INFO root fetch - main [MainThread]: End processing [ft-jwt]: success
+[2024-04-04 09:51:47] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20240404/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 09:51:47] WARNING root fetch - processPackages [xdat]: Timeout reached during download
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: executing diffoscope
+[2024-04-04 09:51:47] INFO root fetch - processPackages [xdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xdat-0.1.98.tar.gz tmp/xdat-0.1.99.tar.gz --markdown 20240404/x/xdat/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 09:51:48] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.0.1.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - processPackages [trytond-purchase]: Remove: archive file [/home/abi/fetcher/tmp/trytond_purchase-7.0.2.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
+[2024-04-04 09:51:48] INFO root fetch - processPackages [pyvserv]: Remove: archive file [/home/abi/fetcher/tmp/pyvserv-1.0.2.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - processPackages [pyvserv]: Remove: archive file [/home/abi/fetcher/tmp/pyvserv-1.0.3.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [pyvserv]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [trytond-purchase]: success
+[2024-04-04 09:51:48] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.2.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.98.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - processPackages [trytond-account-invoice]: Remove: archive file [/home/abi/fetcher/tmp/trytond_account_invoice-7.0.3.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - processPackages [xdat]: Remove: archive file [/home/abi/fetcher/tmp/xdat-0.1.99.tar.gz]
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [trytond-account-invoice]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: End processing [xdat]: success
+[2024-04-04 09:51:48] INFO root fetch - main [MainThread]: Store serial: [22616794]
