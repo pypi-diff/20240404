@@ -16112,3 +16112,17 @@
 [2024-04-04 09:34:08] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.1a2.tar.gz]
 [2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [atlas-provider-sqlalchemy]: success
 [2024-04-04 09:34:08] INFO root fetch - main [MainThread]: Store serial: [22616651]
+[2024-04-04 09:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616651]
+[2024-04-04 09:36:17] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 09:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auth_fastapi
+[2024-04-04 09:36:17] INFO root fetch - processPackages [auth_fastapi]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 09:36:18] INFO root fetch - processPackages [auth_fastapi]: Downloading https://files.pythonhosted.org/packages/8e/9b/95a003cfc413186120672d6ca72c3b92075e5fcd9420356564bcc3b4c5ee/auth_fastapi-1.0.0.tar.gz
+[2024-04-04 09:36:18] WARNING root fetch - processPackages [auth_fastapi]: Timeout reached during download
+[2024-04-04 09:36:18] INFO root fetch - processPackages [auth_fastapi]: Downloading https://files.pythonhosted.org/packages/c8/45/41302bd843a771474309f30f162d211791138a9add23b751c40b119233b5/auth_fastapi-1.0.1.tar.gz
+[2024-04-04 09:36:18] WARNING root fetch - processPackages [auth_fastapi]: Timeout reached during download
+[2024-04-04 09:36:18] INFO root fetch - processPackages [auth_fastapi]: executing diffoscope
+[2024-04-04 09:36:18] INFO root fetch - processPackages [auth_fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_fastapi-1.0.0.tar.gz tmp/auth_fastapi-1.0.1.tar.gz --markdown 20240404/a/auth_fastapi/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 09:36:19] INFO root fetch - processPackages [auth_fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auth_fastapi-1.0.0.tar.gz]
+[2024-04-04 09:36:19] INFO root fetch - processPackages [auth_fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auth_fastapi-1.0.1.tar.gz]
+[2024-04-04 09:36:19] INFO root fetch - main [MainThread]: End processing [auth_fastapi]: success
+[2024-04-04 09:36:19] INFO root fetch - main [MainThread]: Store serial: [22616654]
