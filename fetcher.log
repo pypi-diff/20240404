@@ -11177,3 +11177,28 @@
 [2024-04-04 05:25:42] INFO root fetch - processPackages [gammath-spot]: Remove: archive file [/home/abi/fetcher/tmp/gammath_spot-9.5.tar.gz]
 [2024-04-04 05:25:42] INFO root fetch - main [MainThread]: End processing [gammath-spot]: success
 [2024-04-04 05:25:42] INFO root fetch - main [MainThread]: Store serial: [22615120]
+[2024-04-04 05:27:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615120]
+[2024-04-04 05:27:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 05:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixlr-private-api
+[2024-04-04 05:27:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aixblock-ml
+[2024-04-04 05:27:51] INFO root fetch - processPackages [pixlr-private-api]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 05:27:51] INFO root fetch - processPackages [aixblock-ml]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 05:27:51] INFO root fetch - processPackages [pixlr-private-api]: Downloading https://files.pythonhosted.org/packages/86/80/6f13695edadeed50d3b242a44fd891c04ff04d54c0ba4a664e31bc4b0972/pixlr_private_api-0.1.1.tar.gz
+[2024-04-04 05:27:51] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/02/2c/c49ff328d873e201eb7eb280764def542b4e1a0cace75ce9d59c903526bb/aixblock_ml-0.0.1.tar.gz
+[2024-04-04 05:27:51] WARNING root fetch - processPackages [pixlr-private-api]: Timeout reached during download
+[2024-04-04 05:27:51] WARNING root fetch - processPackages [aixblock-ml]: Timeout reached during download
+[2024-04-04 05:27:51] INFO root fetch - processPackages [pixlr-private-api]: Downloading https://files.pythonhosted.org/packages/b9/a3/2cb8ed0eacb917df193a14e2fcba03f93eca153c5383d5ca571fbfce1678/pixlr_private_api-0.1.2.tar.gz
+[2024-04-04 05:27:52] WARNING root fetch - processPackages [pixlr-private-api]: Timeout reached during download
+[2024-04-04 05:27:52] INFO root fetch - processPackages [pixlr-private-api]: executing diffoscope
+[2024-04-04 05:27:52] INFO root fetch - processPackages [pixlr-private-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixlr_private_api-0.1.1.tar.gz tmp/pixlr_private_api-0.1.2.tar.gz --markdown 20240404/p/pixlr-private-api/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: Downloading https://files.pythonhosted.org/packages/cd/79/77853d21c53e2b707008ff71905b972a1249021f4c84cd5320cfb6a20d27/aixblock_ml-0.0.2.tar.gz
+[2024-04-04 05:27:52] WARNING root fetch - processPackages [aixblock-ml]: Timeout reached during download
+[2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: executing diffoscope
+[2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_ml-0.0.1.tar.gz tmp/aixblock_ml-0.0.2.tar.gz --markdown 20240404/a/aixblock-ml/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 05:27:52] INFO root fetch - processPackages [pixlr-private-api]: Remove: archive file [/home/abi/fetcher/tmp/pixlr_private_api-0.1.1.tar.gz]
+[2024-04-04 05:27:52] INFO root fetch - processPackages [pixlr-private-api]: Remove: archive file [/home/abi/fetcher/tmp/pixlr_private_api-0.1.2.tar.gz]
+[2024-04-04 05:27:52] INFO root fetch - main [MainThread]: End processing [pixlr-private-api]: success
+[2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.1.tar.gz]
+[2024-04-04 05:27:52] INFO root fetch - processPackages [aixblock-ml]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_ml-0.0.2.tar.gz]
+[2024-04-04 05:27:52] INFO root fetch - main [MainThread]: End processing [aixblock-ml]: success
+[2024-04-04 05:27:52] INFO root fetch - main [MainThread]: Store serial: [22615125]
