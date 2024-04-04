@@ -15863,3 +15863,20 @@
 [2024-04-04 09:21:05] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
 [2024-04-04 09:21:05] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
 [2024-04-04 09:21:05] INFO root fetch - main [MainThread]: Store serial: [22616578]
+[2024-04-04 09:23:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616578]
+[2024-04-04 09:23:13] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 09:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whyhow
+[2024-04-04 09:23:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycanha-core
+[2024-04-04 09:23:13] INFO root fetch - processPackages [pycanha-core]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-04 09:23:13] WARNING root fetch - processPackages [whyhow]: Skipping, unable to determine old version
+[2024-04-04 09:23:13] INFO root fetch - main [MainThread]: End processing [whyhow] error
+[2024-04-04 09:23:14] INFO root fetch - processPackages [pycanha-core]: Downloading https://files.pythonhosted.org/packages/72/e3/b98201b3fcb75f2057f004797b396413e68c4f6446bc005a514e68b00367/pycanha_core-0.0.3.tar.gz
+[2024-04-04 09:23:14] WARNING root fetch - processPackages [pycanha-core]: Timeout reached during download
+[2024-04-04 09:23:14] INFO root fetch - processPackages [pycanha-core]: Downloading https://files.pythonhosted.org/packages/f2/ca/cd6c1794bb9eb660bb8e98b1564a911ea789673e0cd97454bfe5f1cc2571/pycanha_core-0.1.0.tar.gz
+[2024-04-04 09:23:14] WARNING root fetch - processPackages [pycanha-core]: Timeout reached during download
+[2024-04-04 09:23:14] INFO root fetch - processPackages [pycanha-core]: executing diffoscope
+[2024-04-04 09:23:14] INFO root fetch - processPackages [pycanha-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycanha_core-0.0.3.tar.gz tmp/pycanha_core-0.1.0.tar.gz --markdown 20240404/p/pycanha-core/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 09:23:15] INFO root fetch - processPackages [pycanha-core]: Remove: archive file [/home/abi/fetcher/tmp/pycanha_core-0.0.3.tar.gz]
+[2024-04-04 09:23:15] INFO root fetch - processPackages [pycanha-core]: Remove: archive file [/home/abi/fetcher/tmp/pycanha_core-0.1.0.tar.gz]
+[2024-04-04 09:23:15] INFO root fetch - main [MainThread]: End processing [pycanha-core]: success
+[2024-04-04 09:23:15] INFO root fetch - main [MainThread]: Store serial: [22616591]
