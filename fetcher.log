@@ -20113,3 +20113,75 @@
 [2024-04-04 11:46:33] INFO root fetch - processPackages [pulumi-vault]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_vault-6.1.0a1712222735.tar.gz]
 [2024-04-04 11:46:33] INFO root fetch - main [MainThread]: End processing [pulumi-vault]: success
 [2024-04-04 11:46:33] INFO root fetch - main [MainThread]: Store serial: [22618050]
+[2024-04-04 11:48:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618050]
+[2024-04-04 11:48:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-spotinst
+[2024-04-04 11:48:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dvuploader
+[2024-04-04 11:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytracekit
+[2024-04-04 11:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mep-tools
+[2024-04-04 11:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: easy-encryption-tool
+[2024-04-04 11:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finbourne-insights-sdk
+[2024-04-04 11:48:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alttester-robotframework-library
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pytracekit]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 11:48:43] INFO root fetch - processPackages [dvuploader]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-04 11:48:43] INFO root fetch - processPackages [easy-encryption-tool]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pulumi-spotinst]: New version: [3.9.0a1633346805] Old Version: [3.9.0]
+[2024-04-04 11:48:43] INFO root fetch - processPackages [mep-tools]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 11:48:43] INFO root fetch - processPackages [finbourne-insights-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [alttester-robotframework-library]: Skipping, unable to determine old version
+[2024-04-04 11:48:43] INFO root fetch - main [MainThread]: End processing [alttester-robotframework-library] error
+[2024-04-04 11:48:43] INFO root fetch - processPackages [easy-encryption-tool]: Downloading https://files.pythonhosted.org/packages/d4/35/ec36725ab32da360bd0ffd59d5fda6e40bd3b09e56a73ab11d8608b65156/easy_encryption_tool-1.0.2-py3-none-any.whl
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pytracekit]: Downloading https://files.pythonhosted.org/packages/e0/c7/095acbc441ed17c631563cc282294d02e3c16a0c784c0729f092ed7c353c/pytracekit-0.1.0.tar.gz
+[2024-04-04 11:48:43] INFO root fetch - processPackages [dvuploader]: Downloading https://files.pythonhosted.org/packages/bd/f8/bc86d73e2787baba268d424bc2ec5d65a69308a6cf79407b0bde70c6dc96/dvuploader-0.2.1.tar.gz
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/e0/9f/6d2c1a705d6b6019bea4cba0aa49eceea4eb2d84cfdcb18f45db81e06fb5/pulumi_spotinst-3.9.0.tar.gz
+[2024-04-04 11:48:43] INFO root fetch - processPackages [mep-tools]: Downloading https://files.pythonhosted.org/packages/23/a1/ce18e011244015510ddc235a01acea59cc666f11b444a71184cdcec1f766/mep_tools-1.2.8.tar.gz
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [easy-encryption-tool]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/a6/26/86232fd71e4fd31d66f529dabc9551f87f6f3cc0001d1bb793a0d72c7335/finbourne_insights_sdk-2.0.8.tar.gz
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [dvuploader]: Timeout reached during download
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [pytracekit]: Timeout reached during download
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [easy-encryption-tool]: Downloading https://files.pythonhosted.org/packages/4f/56/d82ff1df663f50888e4c4c946803ec7a52a6981e3c034ca0102757c23cf8/easy_encryption_tool-1.0.3-py3-none-any.whl
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [mep-tools]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [dvuploader]: Downloading https://files.pythonhosted.org/packages/19/eb/0870f8a0b4725cf31b5d28be3c59ad06195e665478ba8a8df846ba038fe9/dvuploader-0.2.2.tar.gz
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pytracekit]: Downloading https://files.pythonhosted.org/packages/b6/e3/82b3292fca3a089647d100442879459538deaafe4376f2f9a04e48ceedce/pytracekit-0.1.1.tar.gz
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [finbourne-insights-sdk]: Timeout reached during download
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [easy-encryption-tool]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [easy-encryption-tool]: executing diffoscope
+[2024-04-04 11:48:43] INFO root fetch - processPackages [easy-encryption-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_encryption_tool-1.0.2-py3-none-any.whl.zip tmp/easy_encryption_tool-1.0.3-py3-none-any.whl.zip --markdown 20240404/e/easy-encryption-tool/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [dvuploader]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [dvuploader]: executing diffoscope
+[2024-04-04 11:48:43] INFO root fetch - processPackages [dvuploader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvuploader-0.2.1.tar.gz tmp/dvuploader-0.2.2.tar.gz --markdown 20240404/d/dvuploader/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pulumi-spotinst]: Downloading https://files.pythonhosted.org/packages/b4/06/83d6eb3763a877d39e3d2a09063ba3fd6542fa6a214e6c3d5240414d041d/pulumi_spotinst-3.9.0a1633346805.tar.gz
+[2024-04-04 11:48:43] WARNING root fetch - processPackages [pytracekit]: Timeout reached during download
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pytracekit]: executing diffoscope
+[2024-04-04 11:48:43] INFO root fetch - processPackages [pytracekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytracekit-0.1.0.tar.gz tmp/pytracekit-0.1.1.tar.gz --markdown 20240404/p/pytracekit/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 11:48:44] INFO root fetch - processPackages [mep-tools]: Downloading https://files.pythonhosted.org/packages/cd/98/5986e3d4703563f7461e18bca2442b8ce5ea56bfd4b43f92d0ba777b61f8/mep_tools-1.2.9.tar.gz
+[2024-04-04 11:48:44] INFO root fetch - processPackages [finbourne-insights-sdk]: Downloading https://files.pythonhosted.org/packages/35/7d/dd3cc17a5324fb4977e7c5393a24eac14e657e7efe1040401083f4580007/finbourne_insights_sdk-2.0.9.tar.gz
+[2024-04-04 11:48:44] WARNING root fetch - processPackages [mep-tools]: Timeout reached during download
+[2024-04-04 11:48:44] INFO root fetch - processPackages [mep-tools]: executing diffoscope
+[2024-04-04 11:48:44] INFO root fetch - processPackages [mep-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mep_tools-1.2.8.tar.gz tmp/mep_tools-1.2.9.tar.gz --markdown 20240404/m/mep-tools/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 11:48:44] WARNING root fetch - processPackages [finbourne-insights-sdk]: Timeout reached during download
+[2024-04-04 11:48:44] INFO root fetch - processPackages [finbourne-insights-sdk]: executing diffoscope
+[2024-04-04 11:48:44] INFO root fetch - processPackages [finbourne-insights-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_insights_sdk-2.0.8.tar.gz tmp/finbourne_insights_sdk-2.0.9.tar.gz --markdown 20240404/f/finbourne-insights-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 11:48:44] INFO root fetch - processPackages [easy-encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_encryption_tool-1.0.2-py3-none-any.whl.zip]
+[2024-04-04 11:48:44] INFO root fetch - processPackages [easy-encryption-tool]: Remove: archive file [/home/abi/fetcher/tmp/easy_encryption_tool-1.0.3-py3-none-any.whl.zip]
+[2024-04-04 11:48:44] INFO root fetch - main [MainThread]: End processing [easy-encryption-tool]: success
+[2024-04-04 11:48:44] INFO root fetch - processPackages [pytracekit]: Remove: archive file [/home/abi/fetcher/tmp/pytracekit-0.1.0.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - processPackages [pytracekit]: Remove: archive file [/home/abi/fetcher/tmp/pytracekit-0.1.1.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - main [MainThread]: End processing [pytracekit]: success
+[2024-04-04 11:48:44] WARNING root fetch - processPackages [pulumi-spotinst]: Timeout reached during download
+[2024-04-04 11:48:44] INFO root fetch - processPackages [pulumi-spotinst]: executing diffoscope
+[2024-04-04 11:48:44] INFO root fetch - processPackages [pulumi-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_spotinst-3.9.0.tar.gz tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz --markdown 20240404/p/pulumi-spotinst/3.9.0-3.9.0a1633346805/diff.md --exclude *.pyd
+[2024-04-04 11:48:44] INFO root fetch - processPackages [dvuploader]: Remove: archive file [/home/abi/fetcher/tmp/dvuploader-0.2.1.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - processPackages [dvuploader]: Remove: archive file [/home/abi/fetcher/tmp/dvuploader-0.2.2.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - main [MainThread]: End processing [dvuploader]: success
+[2024-04-04 11:48:44] INFO root fetch - processPackages [mep-tools]: Remove: archive file [/home/abi/fetcher/tmp/mep_tools-1.2.8.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - processPackages [mep-tools]: Remove: archive file [/home/abi/fetcher/tmp/mep_tools-1.2.9.tar.gz]
+[2024-04-04 11:48:44] INFO root fetch - main [MainThread]: End processing [mep-tools]: success
+[2024-04-04 11:48:45] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.0.8.tar.gz]
+[2024-04-04 11:48:45] INFO root fetch - processPackages [finbourne-insights-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_insights_sdk-2.0.9.tar.gz]
+[2024-04-04 11:48:45] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk]: success
+[2024-04-04 11:48:45] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0.tar.gz]
+[2024-04-04 11:48:45] INFO root fetch - processPackages [pulumi-spotinst]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_spotinst-3.9.0a1633346805.tar.gz]
+[2024-04-04 11:48:45] INFO root fetch - main [MainThread]: End processing [pulumi-spotinst]: success
+[2024-04-04 11:48:45] INFO root fetch - main [MainThread]: Store serial: [22618067]
