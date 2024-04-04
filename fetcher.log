@@ -23240,3 +23240,58 @@
 [2024-04-04 13:42:37] INFO root fetch - processPackages [ftw.contentstats]: Remove: archive file [/home/abi/fetcher/tmp/ftw.contentstats-1.4.0.tar.gz]
 [2024-04-04 13:42:37] INFO root fetch - main [MainThread]: End processing [ftw.contentstats]: success
 [2024-04-04 13:42:37] INFO root fetch - main [MainThread]: Store serial: [22619193]
+[2024-04-04 13:44:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619193]
+[2024-04-04 13:44:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kstar-planner
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neurosift
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: communex
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Compteur
+[2024-04-04 13:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blosc2-grok
+[2024-04-04 13:44:47] INFO root fetch - processPackages [neurosift]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-04 13:44:47] INFO root fetch - processPackages [communex]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-04 13:44:47] INFO root fetch - processPackages [inoopa_utils]: New version: [2.8.3] Old Version: [2.8.2]
+[2024-04-04 13:44:47] INFO root fetch - processPackages [kstar-planner]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-04 13:44:47] WARNING root fetch - processPackages [Compteur]: Skipping, unable to determine old version
+[2024-04-04 13:44:47] INFO root fetch - main [MainThread]: End processing [Compteur] error
+[2024-04-04 13:44:47] INFO root fetch - processPackages [blosc2-grok]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-04 13:44:47] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/b5/76/182f42b23f3c2c07d15c5d9c731725728149bf01725f1eb065d18602aa92/communex-0.1.7.tar.gz
+[2024-04-04 13:44:47] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/4b/4f/6b11f8fc7163d0df7f67de5a004e1f85e5d834a264c0b6d070b78c388da1/inoopa_utils-2.8.2.tar.gz
+[2024-04-04 13:44:47] INFO root fetch - processPackages [neurosift]: Downloading https://files.pythonhosted.org/packages/aa/a9/ca83a19502c7390243dc40339663a1a3fbfb074bd6f7ed04f330bf65686c/neurosift-0.2.5.tar.gz
+[2024-04-04 13:44:47] INFO root fetch - processPackages [kstar-planner]: Downloading https://files.pythonhosted.org/packages/a7/b3/8b3c5a6f2606536a32c36308c64e1668ec27243fa6babd4ee5bfba799587/kstar_planner-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 13:44:47] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:44:47] INFO root fetch - processPackages [blosc2-grok]: Downloading https://files.pythonhosted.org/packages/75/dd/2d5fda4d3ddac662bcfa81b2ccd1f20ea7105e33e1f5ecc88cf04fdafce7/blosc2_grok-0.3.2-py3-none-win_amd64.whl
+[2024-04-04 13:44:47] WARNING root fetch - processPackages [communex]: Timeout reached during download
+[2024-04-04 13:44:47] WARNING root fetch - processPackages [neurosift]: Timeout reached during download
+[2024-04-04 13:44:47] WARNING root fetch - processPackages [kstar-planner]: Skipping package: exceeds size limit 59273011>=10485760
+[2024-04-04 13:44:47] INFO root fetch - main [MainThread]: End processing [kstar-planner] error
+[2024-04-04 13:44:48] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/b2/7d/4fb768db153be5820dcb608a8d8150176c4f57becd81bd998363275bcb0e/inoopa_utils-2.8.3.tar.gz
+[2024-04-04 13:44:48] INFO root fetch - processPackages [neurosift]: Downloading https://files.pythonhosted.org/packages/48/88/5caa0605adb25ba324a7b66becd8a1b4105b208596eafa67e7a1c42da503/neurosift-0.2.6.tar.gz
+[2024-04-04 13:44:48] INFO root fetch - processPackages [communex]: Downloading https://files.pythonhosted.org/packages/77/67/00051570e40b098c12038ef6aed5be120d14bfafef5d08885df5a9714f91/communex-0.1.8.tar.gz
+[2024-04-04 13:44:48] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:44:48] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 13:44:48] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.8.2.tar.gz tmp/inoopa_utils-2.8.3.tar.gz --markdown 20240404/i/inoopa_utils/2.8.2-2.8.3/diff.md --exclude *.pyd
+[2024-04-04 13:44:48] WARNING root fetch - processPackages [communex]: Timeout reached during download
+[2024-04-04 13:44:48] INFO root fetch - processPackages [communex]: executing diffoscope
+[2024-04-04 13:44:48] INFO root fetch - processPackages [communex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/communex-0.1.7.tar.gz tmp/communex-0.1.8.tar.gz --markdown 20240404/c/communex/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-04 13:44:48] WARNING root fetch - processPackages [neurosift]: Timeout reached during download
+[2024-04-04 13:44:48] INFO root fetch - processPackages [neurosift]: executing diffoscope
+[2024-04-04 13:44:48] INFO root fetch - processPackages [neurosift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurosift-0.2.5.tar.gz tmp/neurosift-0.2.6.tar.gz --markdown 20240404/n/neurosift/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-04 13:44:49] INFO root fetch - processPackages [neurosift]: Remove: archive file [/home/abi/fetcher/tmp/neurosift-0.2.5.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - processPackages [neurosift]: Remove: archive file [/home/abi/fetcher/tmp/neurosift-0.2.6.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - main [MainThread]: End processing [neurosift]: success
+[2024-04-04 13:44:49] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.7.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - processPackages [communex]: Remove: archive file [/home/abi/fetcher/tmp/communex-0.1.8.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - main [MainThread]: End processing [communex]: success
+[2024-04-04 13:44:49] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.2.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.3.tar.gz]
+[2024-04-04 13:44:49] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 13:44:49] WARNING root fetch - processPackages [blosc2-grok]: Timeout reached during download
+[2024-04-04 13:44:50] INFO root fetch - processPackages [blosc2-grok]: Downloading https://files.pythonhosted.org/packages/45/c3/7daf6c64a80a2d882ccf3352607322f1de7f55f5a67b87ee11dc4582283d/blosc2_grok-0.3.3-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-04 13:44:51] WARNING root fetch - processPackages [blosc2-grok]: Timeout reached during download
+[2024-04-04 13:44:51] INFO root fetch - processPackages [blosc2-grok]: executing diffoscope
+[2024-04-04 13:44:51] INFO root fetch - processPackages [blosc2-grok]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blosc2_grok-0.3.2-py3-none-win_amd64.whl.zip tmp/blosc2_grok-0.3.3-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240404/b/blosc2-grok/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-04 13:44:53] INFO root fetch - processPackages [blosc2-grok]: Remove: archive file [/home/abi/fetcher/tmp/blosc2_grok-0.3.2-py3-none-win_amd64.whl.zip]
+[2024-04-04 13:44:53] INFO root fetch - processPackages [blosc2-grok]: Remove: archive file [/home/abi/fetcher/tmp/blosc2_grok-0.3.3-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-04 13:44:53] INFO root fetch - main [MainThread]: End processing [blosc2-grok]: success
+[2024-04-04 13:44:53] INFO root fetch - main [MainThread]: Store serial: [22619215]
