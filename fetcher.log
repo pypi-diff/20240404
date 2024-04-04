@@ -13320,3 +13320,61 @@
 [2024-04-04 07:22:34] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.8.tar.gz]
 [2024-04-04 07:22:34] INFO root fetch - main [MainThread]: End processing [negmas]: success
 [2024-04-04 07:22:34] INFO root fetch - main [MainThread]: Store serial: [22615821]
+[2024-04-04 07:24:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615821]
+[2024-04-04 07:24:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-variant-configurator
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-project-task-material-stock
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-project-task-material-stock
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: git-stats-report
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tableland
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: volstreet
+[2024-04-04 07:24:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yfh-sayhi
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: New version: [11.0.1.0.2.99.dev9] Old Version: [11.0.1.0.2.99.dev8]
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: New version: [12.0.1.2.1.99.dev9] Old Version: [12.0.1.2.1.99.dev8]
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [yfh-sayhi]: Skipping, unable to determine old version
+[2024-04-04 07:24:44] INFO root fetch - main [MainThread]: End processing [yfh-sayhi] error
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [tableland]: Skipping, unable to determine old version
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2024-04-04 07:24:44] INFO root fetch - main [MainThread]: End processing [tableland] error
+[2024-04-04 07:24:44] INFO root fetch - processPackages [git-stats-report]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-04 07:24:44] INFO root fetch - processPackages [volstreet]: New version: [6.1.3] Old Version: [6.1.2]
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/6b/8b/a089571d2fb245bc3e900769e0f76085d378852286476e27477b716a54e8/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl
+[2024-04-04 07:24:44] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/c6/89/55fe18232d7d698e0b0ef6cfc5d18b135a9e928eb94dfdbac1d302d1c010/volstreet-6.1.2.tar.gz
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: Downloading https://files.pythonhosted.org/packages/80/bb/f080bcda4eb9ae48c36193db6c7a002cfb7c175e01fab7937402b6663113/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev8-py2.py3-none-any.whl
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: Downloading https://files.pythonhosted.org/packages/05/ce/2b85d1ab08f5eb2aa944a325da28a4de24e6d8986d6105e4f0f2d2650de5/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev8-py3-none-any.whl
+[2024-04-04 07:24:44] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/f2/e4/30a6ad6b84d28c2c15fb31e9800d2022d894bfaf8e06c65ce277b41ad394/git-stats-report-0.3.0.tar.gz
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo-addon-product-variant-configurator]: Timeout reached during download
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo11-addon-project-task-material-stock]: Timeout reached during download
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo12-addon-project-task-material-stock]: Timeout reached during download
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295993>=10485760
+[2024-04-04 07:24:44] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/85/8a/7f1db9fc69aa1ca0208b2aca392497c1a5e656f554dcde74105f81ea736f/odoo_addon_product_variant_configurator-16.0.1.0.3.2-py3-none-any.whl
+[2024-04-04 07:24:44] INFO root fetch - processPackages [git-stats-report]: Downloading https://files.pythonhosted.org/packages/68/a1/199301d2813b2b428cba1df5156a8f53b385033d64adf83bc8a93bbdaa5e/git-stats-report-0.3.1.tar.gz
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: Downloading https://files.pythonhosted.org/packages/64/58/ee0c56a300b1be0aceed63973f48d29c8fe73fe67bc9d6468147c78f3a90/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev9-py3-none-any.whl
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: Downloading https://files.pythonhosted.org/packages/5b/41/c104da50d99e8b31d3c5afc3996aee68ea01a6388817fc4b74e79f3dc0c1/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev9-py2.py3-none-any.whl
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [git-stats-report]: Timeout reached during download
+[2024-04-04 07:24:44] INFO root fetch - processPackages [git-stats-report]: executing diffoscope
+[2024-04-04 07:24:44] INFO root fetch - processPackages [git-stats-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git-stats-report-0.3.0.tar.gz tmp/git-stats-report-0.3.1.tar.gz --markdown 20240404/g/git-stats-report/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo-addon-product-variant-configurator]: Timeout reached during download
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: executing diffoscope
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-product-variant-configurator/16.0.1.0.3.1-16.0.1.0.3.2/diff.md --exclude *.pyd
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo11-addon-project-task-material-stock]: Timeout reached during download
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: executing diffoscope
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20240404/o/odoo11-addon-project-task-material-stock/11.0.1.0.2.99.dev8-11.0.1.0.2.99.dev9/diff.md --exclude *.pyd
+[2024-04-04 07:24:44] WARNING root fetch - processPackages [odoo12-addon-project-task-material-stock]: Timeout reached during download
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: executing diffoscope
+[2024-04-04 07:24:44] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo12-addon-project-task-material-stock/12.0.1.2.1.99.dev8-12.0.1.2.1.99.dev9/diff.md --exclude *.pyd
+[2024-04-04 07:24:45] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.3.0.tar.gz]
+[2024-04-04 07:24:45] INFO root fetch - processPackages [git-stats-report]: Remove: archive file [/home/abi/fetcher/tmp/git-stats-report-0.3.1.tar.gz]
+[2024-04-04 07:24:45] INFO root fetch - main [MainThread]: End processing [git-stats-report]: success
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev8-py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo12-addon-project-task-material-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_project_task_material_stock-12.0.1.2.1.99.dev9-py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - main [MainThread]: End processing [odoo12-addon-project-task-material-stock]: success
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-configurator]: success
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev8-py2.py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - processPackages [odoo11-addon-project-task-material-stock]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_project_task_material_stock-11.0.1.0.2.99.dev9-py2.py3-none-any.whl.zip]
+[2024-04-04 07:24:45] INFO root fetch - main [MainThread]: End processing [odoo11-addon-project-task-material-stock]: success
+[2024-04-04 07:24:45] INFO root fetch - main [MainThread]: Store serial: [22615846]
