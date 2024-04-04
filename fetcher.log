@@ -13442,3 +13442,39 @@
 [2024-04-04 07:26:56] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.1.0.tar.gz]
 [2024-04-04 07:26:56] INFO root fetch - main [MainThread]: End processing [authx]: success
 [2024-04-04 07:26:56] INFO root fetch - main [MainThread]: Store serial: [22615863]
+[2024-04-04 07:29:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615863]
+[2024-04-04 07:29:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yfh-sayhi
+[2024-04-04 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qgridtrusted
+[2024-04-04 07:29:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tendril-structures-imageset
+[2024-04-04 07:29:05] INFO root fetch - processPackages [yfh-sayhi]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 07:29:05] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 07:29:05] INFO root fetch - processPackages [qgridtrusted]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: Downloading https://files.pythonhosted.org/packages/a7/90/c78f06a0da3cf2903fa349a074e6544221fac0a4c38a4fc716332012ebd4/yfh-sayhi-0.0.1.tar.gz
+[2024-04-04 07:29:06] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/2d/09/f1d2673336944cd6ad0aefc70e72423844c71cae65c6d68c4a66b0c9dd85/tendril-structures-imageset-0.1.1.tar.gz
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [yfh-sayhi]: Timeout reached during download
+[2024-04-04 07:29:06] INFO root fetch - processPackages [qgridtrusted]: Downloading https://files.pythonhosted.org/packages/46/a0/4f756b854bf32a129d2910d2b4a916a5462155ef2caca4971064915dae0b/qgridtrusted-0.0.8.tar.gz
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: Downloading https://files.pythonhosted.org/packages/e2/da/aeeb9ae01e02977bf58e58cb540b1d35c2d3e653fee0037cb765c7a6ac12/yfh-sayhi-0.0.2.tar.gz
+[2024-04-04 07:29:06] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/10/82/5b02611d9e21b13339000c71ddca8801ddf77ec73a62f507bf0bdc4f64ca/tendril-structures-imageset-0.1.2.tar.gz
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [qgridtrusted]: Timeout reached during download
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [yfh-sayhi]: Timeout reached during download
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: executing diffoscope
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfh-sayhi-0.0.1.tar.gz tmp/yfh-sayhi-0.0.2.tar.gz --markdown 20240404/y/yfh-sayhi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 07:29:06] INFO root fetch - processPackages [qgridtrusted]: Downloading https://files.pythonhosted.org/packages/2c/16/ecc0b08bc4722998efd9cfe943fd379c3f761a9094f6b0d34cf8159f7f45/qgridtrusted-0.0.9.tar.gz
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 07:29:06] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-04 07:29:06] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.1.tar.gz tmp/tendril-structures-imageset-0.1.2.tar.gz --markdown 20240404/t/tendril-structures-imageset/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 07:29:06] WARNING root fetch - processPackages [qgridtrusted]: Timeout reached during download
+[2024-04-04 07:29:06] INFO root fetch - processPackages [qgridtrusted]: executing diffoscope
+[2024-04-04 07:29:06] INFO root fetch - processPackages [qgridtrusted]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qgridtrusted-0.0.8.tar.gz tmp/qgridtrusted-0.0.9.tar.gz --markdown 20240404/q/qgridtrusted/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: Remove: archive file [/home/abi/fetcher/tmp/yfh-sayhi-0.0.1.tar.gz]
+[2024-04-04 07:29:06] INFO root fetch - processPackages [yfh-sayhi]: Remove: archive file [/home/abi/fetcher/tmp/yfh-sayhi-0.0.2.tar.gz]
+[2024-04-04 07:29:06] INFO root fetch - main [MainThread]: End processing [yfh-sayhi]: success
+[2024-04-04 07:29:07] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.1.tar.gz]
+[2024-04-04 07:29:07] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.2.tar.gz]
+[2024-04-04 07:29:07] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-04 07:29:07] INFO root fetch - processPackages [qgridtrusted]: Remove: archive file [/home/abi/fetcher/tmp/qgridtrusted-0.0.8.tar.gz]
+[2024-04-04 07:29:07] INFO root fetch - processPackages [qgridtrusted]: Remove: archive file [/home/abi/fetcher/tmp/qgridtrusted-0.0.9.tar.gz]
+[2024-04-04 07:29:07] INFO root fetch - main [MainThread]: End processing [qgridtrusted]: success
+[2024-04-04 07:29:07] INFO root fetch - main [MainThread]: Store serial: [22615873]
