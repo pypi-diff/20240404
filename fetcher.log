@@ -13044,3 +13044,34 @@
 [2024-04-04 07:09:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.1-py3-none-any.whl.zip]
 [2024-04-04 07:09:02] INFO root fetch - main [MainThread]: End processing [mesop]: success
 [2024-04-04 07:09:02] INFO root fetch - main [MainThread]: Store serial: [22615720]
+[2024-04-04 07:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615720]
+[2024-04-04 07:11:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 07:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-partner-manual-rank
+[2024-04-04 07:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-gmsh
+[2024-04-04 07:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tcd-ice
+[2024-04-04 07:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexa-cli
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [tcd-ice]: Skipping, unable to determine old version
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [scikit-gmsh]: Skipping, unable to determine old version
+[2024-04-04 07:11:39] INFO root fetch - main [MainThread]: End processing [tcd-ice] error
+[2024-04-04 07:11:39] INFO root fetch - main [MainThread]: End processing [scikit-gmsh] error
+[2024-04-04 07:11:39] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: New version: [13.0.1.0.2.dev5] Old Version: [13.0.1.0.2.dev3]
+[2024-04-04 07:11:39] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8549588423] Old Version: [7.0.8539028573]
+[2024-04-04 07:11:39] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/b1/04/8d853e1f0ca4ce0d34a8c44a6cc13734645f50cdf5a72b5a2e0bf2f77ba4/kodexa_cli-7.0.8539028573.tar.gz
+[2024-04-04 07:11:39] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/26/10/31e9e5fc6fd9a04bd51adf71fab0bc58afd691011271f1776386b4ddc927/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev3-py3-none-any.whl
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [odoo13-addon-partner-manual-rank]: Timeout reached during download
+[2024-04-04 07:11:39] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/21/55/8f201e9920635af6edbe18e9b33d74db430f0562b0b43617bc0bc67eb1e7/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev5-py3-none-any.whl
+[2024-04-04 07:11:39] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/0c/e5/09666d6d3e3b40bbe515c81a3cd303a6166ffea47ba39cfdd7915a25f435/kodexa_cli-7.0.8549588423.tar.gz
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [odoo13-addon-partner-manual-rank]: Timeout reached during download
+[2024-04-04 07:11:39] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: executing diffoscope
+[2024-04-04 07:11:39] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev3-py3-none-any.whl.zip tmp/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev5-py3-none-any.whl.zip --markdown 20240404/o/odoo13-addon-partner-manual-rank/13.0.1.0.2.dev3-13.0.1.0.2.dev5/diff.md --exclude *.pyd
+[2024-04-04 07:11:39] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 07:11:39] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-04 07:11:39] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8539028573.tar.gz tmp/kodexa_cli-7.0.8549588423.tar.gz --markdown 20240404/k/kodexa-cli/7.0.8539028573-7.0.8549588423/diff.md --exclude *.pyd
+[2024-04-04 07:11:40] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev3-py3-none-any.whl.zip]
+[2024-04-04 07:11:40] INFO root fetch - processPackages [odoo13-addon-partner-manual-rank]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_partner_manual_rank-13.0.1.0.2.dev5-py3-none-any.whl.zip]
+[2024-04-04 07:11:40] INFO root fetch - main [MainThread]: End processing [odoo13-addon-partner-manual-rank]: success
+[2024-04-04 07:11:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8539028573.tar.gz]
+[2024-04-04 07:11:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8549588423.tar.gz]
+[2024-04-04 07:11:40] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-04 07:11:40] INFO root fetch - main [MainThread]: Store serial: [22615736]
