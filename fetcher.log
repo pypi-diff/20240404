@@ -13100,3 +13100,47 @@
 [2024-04-04 07:13:50] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.3.tar.gz]
 [2024-04-04 07:13:50] INFO root fetch - main [MainThread]: End processing [encommon]: success
 [2024-04-04 07:13:50] INFO root fetch - main [MainThread]: Store serial: [22615742]
+[2024-04-04 07:15:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615742]
+[2024-04-04 07:15:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 07:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psy-transect
+[2024-04-04 07:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pgserver
+[2024-04-04 07:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-pos-partner-location-google-map
+[2024-04-04 07:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: semantic-text-splitter
+[2024-04-04 07:15:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enrichsdk
+[2024-04-04 07:15:58] INFO root fetch - processPackages [pgserver]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 07:15:58] WARNING root fetch - processPackages [psy-transect]: Skipping, unable to determine old version
+[2024-04-04 07:15:58] INFO root fetch - main [MainThread]: End processing [psy-transect] error
+[2024-04-04 07:15:58] INFO root fetch - processPackages [semantic-text-splitter]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-04 07:15:58] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-04 07:15:58] INFO root fetch - processPackages [enrichsdk]: New version: [5.2.5] Old Version: [5.2.4]
+[2024-04-04 07:15:58] INFO root fetch - processPackages [pgserver]: Downloading https://files.pythonhosted.org/packages/15/e6/e8f024326ec5edf4e1236e7fbb5995291d9c077833cc43b57f6f675bd0b8/pgserver-0.0.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 07:15:58] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/47/ab/f64d74743e6188fb50bf0ea25555c12e753a5156b69e3bff69bbad74eee1/semantic_text_splitter-0.8.1.tar.gz
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [pgserver]: Skipping package: exceeds size limit 14949715>=10485760
+[2024-04-04 07:15:59] INFO root fetch - main [MainThread]: End processing [pgserver] error
+[2024-04-04 07:15:59] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/47/99/44b76cef51cfbf3fbd14397d471251548577fc0af1f0fcc1c1f494bc7fa5/enrichsdk-5.2.4.tar.gz
+[2024-04-04 07:15:59] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Downloading https://files.pythonhosted.org/packages/7d/8f/08cfc6960568d1bb3507695a1dcbd3b82c4bb43dd0b1e9200f72a52d6b24/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [semantic-text-splitter]: Timeout reached during download
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Timeout reached during download
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [enrichsdk]: Timeout reached during download
+[2024-04-04 07:15:59] INFO root fetch - processPackages [semantic-text-splitter]: Downloading https://files.pythonhosted.org/packages/fc/8f/83515b38da582497ce478ca8e108abc2acbb495e8d941b4dbe60e55bdb85/semantic_text_splitter-0.9.0-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2024-04-04 07:15:59] INFO root fetch - processPackages [enrichsdk]: Downloading https://files.pythonhosted.org/packages/79/fd/4b98264088ab95913cf7e6d49bf1a8bab93aa04eef367102e37f97e1891f/enrichsdk-5.2.5.tar.gz
+[2024-04-04 07:15:59] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Downloading https://files.pythonhosted.org/packages/35/2c/e9c26830c6abbac04ac2fbf7a0a2ff4d57c165b7c11ad06ffc8616af18da/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Timeout reached during download
+[2024-04-04 07:15:59] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: executing diffoscope
+[2024-04-04 07:15:59] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-pos-partner-location-google-map/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:15:59] WARNING root fetch - processPackages [enrichsdk]: Timeout reached during download
+[2024-04-04 07:15:59] INFO root fetch - processPackages [enrichsdk]: executing diffoscope
+[2024-04-04 07:15:59] INFO root fetch - processPackages [enrichsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enrichsdk-5.2.4.tar.gz tmp/enrichsdk-5.2.5.tar.gz --markdown 20240404/e/enrichsdk/5.2.4-5.2.5/diff.md --exclude *.pyd
+[2024-04-04 07:16:00] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:16:00] INFO root fetch - processPackages [odoo-addon-pos-partner-location-google-map]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_location_google_map-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:16:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-partner-location-google-map]: success
+[2024-04-04 07:16:00] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-5.2.4.tar.gz]
+[2024-04-04 07:16:00] INFO root fetch - processPackages [enrichsdk]: Remove: archive file [/home/abi/fetcher/tmp/enrichsdk-5.2.5.tar.gz]
+[2024-04-04 07:16:00] INFO root fetch - main [MainThread]: End processing [enrichsdk]: success
+[2024-04-04 07:16:01] WARNING root fetch - processPackages [semantic-text-splitter]: Timeout reached during download
+[2024-04-04 07:16:01] INFO root fetch - processPackages [semantic-text-splitter]: executing diffoscope
+[2024-04-04 07:16:01] INFO root fetch - processPackages [semantic-text-splitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semantic_text_splitter-0.8.1.tar.gz tmp/semantic_text_splitter-0.9.0-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20240404/s/semantic-text-splitter/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 07:16:01] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.8.1.tar.gz]
+[2024-04-04 07:16:01] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.9.0-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2024-04-04 07:16:01] INFO root fetch - main [MainThread]: End processing [semantic-text-splitter]: success
+[2024-04-04 07:16:01] INFO root fetch - main [MainThread]: Store serial: [22615768]
