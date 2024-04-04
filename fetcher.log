@@ -11285,3 +11285,55 @@
 [2024-04-04 05:30:04] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.2a1.tar.gz]
 [2024-04-04 05:30:04] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
 [2024-04-04 05:30:04] INFO root fetch - main [MainThread]: Store serial: [22615148]
+[2024-04-04 05:32:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615148]
+[2024-04-04 05:32:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 05:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-04-04 05:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Giraffe-View
+[2024-04-04 05:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-dms
+[2024-04-04 05:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-dms-auto-classification
+[2024-04-04 05:32:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-dms
+[2024-04-04 05:32:13] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.6] Old Version: [0.1.0.5]
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addons-oca-dms]: New version: [16.0.20240403.1] Old Version: [16.0.20231103.0]
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-04 05:32:13] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024040403] Old Version: [0.9.0.dev2024040303]
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addon-dms]: New version: [16.0.1.4.0.17] Old Version: [16.0.1.4.0.11]
+[2024-04-04 05:32:13] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/30/b9/e1127a7401e1dce4c4a6552899f5efb5f21a32ade191caa89c4b67da825d/keras-nlp-nightly-0.9.0.dev2024040303.tar.gz
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/51/0d/537d80ea053f871c2f3bfe78a5de0cfde4cd847a72d7cbcfb13e7ff9ca37/odoo_addon_dms_auto_classification-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-04 05:32:13] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/03/0b/75e7482e652304f9df3cac7f9f697aaa01653211afbddb02143856327a24/Giraffe_View-0.1.0.5.tar.gz
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addons-oca-dms]: Downloading https://files.pythonhosted.org/packages/34/e7/232f0a85c559b7532e74a2d09f5f7d4c7460cca32f1bcba78223b2705cb4/odoo_addons_oca_dms-16.0.20231103.0-py3-none-any.whl
+[2024-04-04 05:32:13] INFO root fetch - processPackages [odoo-addon-dms]: Downloading https://files.pythonhosted.org/packages/d7/8d/b0b8865fdd88d67782452a974a1e7e0ba0e2e0c21c3ebb5ac5690c40e3bf/odoo_addon_dms-16.0.1.4.0.11-py3-none-any.whl
+[2024-04-04 05:32:13] WARNING root fetch - processPackages [odoo-addon-dms-auto-classification]: Timeout reached during download
+[2024-04-04 05:32:13] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:32:13] WARNING root fetch - processPackages [odoo-addon-dms]: Skipping package: exceeds size limit 15658497>=10485760
+[2024-04-04 05:32:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms] error
+[2024-04-04 05:32:13] WARNING root fetch - processPackages [odoo-addons-oca-dms]: Timeout reached during download
+[2024-04-04 05:32:13] WARNING root fetch - processPackages [keras-nlp-nightly]: Timeout reached during download
+[2024-04-04 05:32:13] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/ec/52/4549deb8c7d35e5fec73f41988b664d039eac0254d5478c12aa2eff92f7a/Giraffe_View-0.1.0.6.tar.gz
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addons-oca-dms]: Downloading https://files.pythonhosted.org/packages/bb/85/3ea2390611987b57b78e8a18e79db239a16abdd4a5e11f7490211012296c/odoo_addons_oca_dms-16.0.20240403.1-py3-none-any.whl
+[2024-04-04 05:32:14] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/86/1a/b88b08ec9d84bb99c9377f8781f2171f6e1518cc413e37687e33b1638dcb/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Downloading https://files.pythonhosted.org/packages/c1/a6/d3e0d31d7e90a43d7bd04a3ddbd132cc774bbf61cd11638fc9a7f8f5b9a8/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 05:32:14] WARNING root fetch - processPackages [keras-nlp-nightly]: Timeout reached during download
+[2024-04-04 05:32:14] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:32:14] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-04 05:32:14] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040303.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz --markdown 20240404/k/keras-nlp-nightly/0.9.0.dev2024040303-0.9.0.dev2024040403/diff.md --exclude *.pyd
+[2024-04-04 05:32:14] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-04 05:32:14] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.5.tar.gz tmp/Giraffe_View-0.1.0.6.tar.gz --markdown 20240404/G/Giraffe-View/0.1.0.5-0.1.0.6/diff.md --exclude *.pyd
+[2024-04-04 05:32:14] WARNING root fetch - processPackages [odoo-addons-oca-dms]: Timeout reached during download
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addons-oca-dms]: executing diffoscope
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addons-oca-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_dms-16.0.20231103.0-py3-none-any.whl.zip tmp/odoo_addons_oca_dms-16.0.20240403.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addons-oca-dms/16.0.20231103.0-16.0.20240403.1/diff.md --exclude *.pyd
+[2024-04-04 05:32:14] WARNING root fetch - processPackages [odoo-addon-dms-auto-classification]: Timeout reached during download
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: executing diffoscope
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-dms-auto-classification/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addons-oca-dms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_dms-16.0.20231103.0-py3-none-any.whl.zip]
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addons-oca-dms]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_dms-16.0.20240403.1-py3-none-any.whl.zip]
+[2024-04-04 05:32:14] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-dms]: success
+[2024-04-04 05:32:14] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.5.tar.gz]
+[2024-04-04 05:32:14] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.6.tar.gz]
+[2024-04-04 05:32:14] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-04 05:32:14] INFO root fetch - processPackages [odoo-addon-dms-auto-classification]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_dms_auto_classification-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 05:32:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-dms-auto-classification]: success
+[2024-04-04 05:32:15] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040303.tar.gz]
+[2024-04-04 05:32:15] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz]
+[2024-04-04 05:32:15] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-04 05:32:15] INFO root fetch - main [MainThread]: Store serial: [22615160]
