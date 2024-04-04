@@ -11642,3 +11642,95 @@
 [2024-04-04 05:54:00] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo-logs-8.582.24095.tar.gz]
 [2024-04-04 05:54:00] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
 [2024-04-04 05:54:00] INFO root fetch - main [MainThread]: Store serial: [22615266]
+[2024-04-04 05:56:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615266]
+[2024-04-04 05:56:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-helpdesk-mgmt
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: i19n
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: srt-trans
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enum-with-dict
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-collections
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-helpdesk-mgmt
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: draccus
+[2024-04-04 05:56:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: svgen
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: New version: [14.0.2.9.1.dev6] Old Version: [14.0.2.9.1.dev5]
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [i19n]: Skipping, unable to determine old version
+[2024-04-04 05:56:09] INFO root fetch - main [MainThread]: End processing [i19n] error
+[2024-04-04 05:56:09] INFO root fetch - processPackages [srt-trans]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [enum-with-dict]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [mo-collections]: New version: [5.582.24095] Old Version: [5.579.24081]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.0.8] Old Version: [16.0.2.2.0.7]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: New version: [16.0.2.2.0.8] Old Version: [16.0.2.2.0.7]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [draccus]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [svgen]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-04 05:56:09] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/8c/a0/bd5b49d425b7d95990a431a59004f6f67b28e99e208f66845f38a385977d/srt_trans-1.0.1.tar.gz
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/b1/38/4b75975869d917a86b1699095d04a9b059c4716a5b0788e911a4bcc17651/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 05:56:09] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/10/43/5479c2de1f01e7900d928ea1ca15f6758b9ea43963737ae25f793435b056/enum_with_dict-0.6.0.tar.gz
+[2024-04-04 05:56:09] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/64/c7/a1ac5e534c2b1bedf9a1fb9af743a1f15c6d1b3fb323c808eecbdab4d438/mo-collections-5.579.24081.tar.gz
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/46/d9/b9ab4ef2748b28d97cd8f1eb01af20819ac1fb4314f3a5dfb66ab4ea52b2/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/46/d9/b9ab4ef2748b28d97cd8f1eb01af20819ac1fb4314f3a5dfb66ab4ea52b2/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl
+[2024-04-04 05:56:09] INFO root fetch - processPackages [svgen]: Downloading https://files.pythonhosted.org/packages/5b/83/2bca5a8f80a9b0d7e7db79a05f7b0b085e11b4cb23d333a34794c00263ba/svgen-0.6.4.tar.gz
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:09] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/99/fc/9eb606c213eb460259c9e9511c28701d95981a5a5712e883117b515480ce/draccus-0.7.1.tar.gz
+[2024-04-04 05:56:09] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/7a/fc/9a4ce844ed649f9380fafa14a6e62f40484937c665fe3500a309fb7d0094/srt_trans-1.0.2.tar.gz
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [mo-collections]: Timeout reached during download
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [svgen]: Timeout reached during download
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 05:56:09] INFO root fetch - processPackages [srt-trans]: executing diffoscope
+[2024-04-04 05:56:09] INFO root fetch - processPackages [srt-trans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_trans-1.0.1.tar.gz tmp/srt_trans-1.0.2.tar.gz --markdown 20240404/s/srt-trans/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 05:56:09] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/1c/11/db55b5002b473cf4223f6f3e4cdd2e9dbd5925379d6c96273006beae8579/enum_with_dict-0.6.1.tar.gz
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [draccus]: Timeout reached during download
+[2024-04-04 05:56:09] INFO root fetch - processPackages [mo-collections]: Downloading https://files.pythonhosted.org/packages/04/8f/34950c0646cd42c74a4fc3310bf6cbf42af46ab65d26804d4d11686029d1/mo-collections-5.582.24095.tar.gz
+[2024-04-04 05:56:09] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/78/98d41e46b809fea6d59b3d084399ad90800b6eac86cdef51a200e5a9777b/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl
+[2024-04-04 05:56:09] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 05:56:09] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 05:56:09] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.6.0.tar.gz tmp/enum_with_dict-0.6.1.tar.gz --markdown 20240404/e/enum-with-dict/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] INFO root fetch - processPackages [draccus]: Downloading https://files.pythonhosted.org/packages/00/1c/14ac033bba9ffb3b5dd440f27b27196cf5026dd3528def0c89ecf431aa3a/draccus-0.7.2.tar.gz
+[2024-04-04 05:56:10] INFO root fetch - processPackages [svgen]: Downloading https://files.pythonhosted.org/packages/c0/cd/2483607824891d71d067cc74ff2bb8c5de25225a6c4d84a940fb627486f3/svgen-0.6.5.tar.gz
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [mo-collections]: Timeout reached during download
+[2024-04-04 05:56:10] INFO root fetch - processPackages [mo-collections]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [mo-collections]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-collections-5.579.24081.tar.gz tmp/mo-collections-5.582.24095.tar.gz --markdown 20240404/m/mo-collections/5.579.24081-5.582.24095/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/fa/fe/0933f9a6fe74fff50e5697611775f529c7d039d9e1b1d281fed8268042b1/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Downloading https://files.pythonhosted.org/packages/fa/fe/0933f9a6fe74fff50e5697611775f529c7d039d9e1b1d281fed8268042b1/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-helpdesk-mgmt/14.0.2.9.1.dev5-14.0.2.9.1.dev6/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [draccus]: Timeout reached during download
+[2024-04-04 05:56:10] INFO root fetch - processPackages [draccus]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [draccus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/draccus-0.7.1.tar.gz tmp/draccus-0.7.2.tar.gz --markdown 20240404/d/draccus/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Timeout reached during download
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-helpdesk-mgmt/16.0.2.2.0.7-16.0.2.2.0.8/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl.zip tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-helpdesk-mgmt/16.0.2.2.0.7-16.0.2.2.0.8/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] WARNING root fetch - processPackages [svgen]: Timeout reached during download
+[2024-04-04 05:56:10] INFO root fetch - processPackages [svgen]: executing diffoscope
+[2024-04-04 05:56:10] INFO root fetch - processPackages [svgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svgen-0.6.4.tar.gz tmp/svgen-0.6.5.tar.gz --markdown 20240404/s/svgen/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-04 05:56:10] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-1.0.1.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-1.0.2.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - main [MainThread]: End processing [srt-trans]: success
+[2024-04-04 05:56:10] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.0.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.1.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 05:56:10] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo-collections-5.579.24081.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - processPackages [mo-collections]: Remove: archive file [/home/abi/fetcher/tmp/mo-collections-5.582.24095.tar.gz]
+[2024-04-04 05:56:10] INFO root fetch - main [MainThread]: End processing [mo-collections]: success
+[2024-04-04 05:56:11] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.7.1.tar.gz]
+[2024-04-04 05:56:11] INFO root fetch - processPackages [draccus]: Remove: archive file [/home/abi/fetcher/tmp/draccus-0.7.2.tar.gz]
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [draccus]: success
+[2024-04-04 05:56:11] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev5-py3-none-any.whl.zip]
+[2024-04-04 05:56:11] INFO root fetch - processPackages [odoo14-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_helpdesk_mgmt-14.0.2.9.1.dev6-py3-none-any.whl.zip]
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [odoo14-addon-helpdesk-mgmt]: success
+[2024-04-04 05:56:11] INFO root fetch - processPackages [svgen]: Remove: archive file [/home/abi/fetcher/tmp/svgen-0.6.4.tar.gz]
+[2024-04-04 05:56:11] INFO root fetch - processPackages [svgen]: Remove: archive file [/home/abi/fetcher/tmp/svgen-0.6.5.tar.gz]
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [svgen]: success
+[2024-04-04 05:56:11] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.7-py3-none-any.whl.zip]
+[2024-04-04 05:56:11] INFO root fetch - processPackages [odoo-addon-helpdesk-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_helpdesk_mgmt-16.0.2.2.0.8-py3-none-any.whl.zip]
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: End processing [odoo-addon-helpdesk-mgmt]: success
+[2024-04-04 05:56:11] INFO root fetch - main [MainThread]: Store serial: [22615293]
