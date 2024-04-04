@@ -10001,3 +10001,94 @@
 [2024-04-04 04:12:45] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
 [2024-04-04 04:12:45] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
 [2024-04-04 04:12:45] INFO root fetch - main [MainThread]: Store serial: [22614735]
+[2024-04-04 04:14:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614735]
+[2024-04-04 04:14:54] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sagemaker
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-service-screener
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylogg
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansar-connect
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selenium-base
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytest-sbase
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrefactoring
+[2024-04-04 04:14:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-seleniumbase
+[2024-04-04 04:14:55] INFO root fetch - processPackages [aws-service-screener]: New version: [2.0.1a0] Old Version: [2.0.0a0]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pylogg]: New version: [0.1.28] Old Version: [0.1.27]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/9f/6d/7979d03567af3b1c9ad27a71f99e9e5a4df3c1fea5eff68f94091b1846ab/aws_service_screener-2.0.0a0.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pytest-seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/46/4e/8875a495bad20000ffb6b17b17efa4dd4d74f1274feacb9a7de1825ed1d8/pylogg-0.1.27.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pyrefactoring]: New version: [0.0.1.1.post1] Old Version: [0.0.1.1]
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pylogg]: Downloading https://files.pythonhosted.org/packages/6a/82/8cdac24675150c0868d41b27c93ac8e5883ffe3557bb86fc9f284323c00d/pylogg-0.1.28.tar.gz
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [sagemaker]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/40/bb/757cad3c5535e64c18cee852b145a86e4d539878bd9dce7c2934bcfb972d/pytest-seleniumbase-4.9.8.tar.gz
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pyrefactoring]: Downloading https://files.pythonhosted.org/packages/e8/14/6484c4c45b5a062e25efde67c0840f76d148b12cee6d33071d184adb6878/pyrefactoring-0.0.1.1.tar.gz
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [selenium-base]: Timeout reached during download
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [ansar-connect]: Timeout reached during download
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [pylogg]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pylogg]: executing diffoscope
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pylogg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogg-0.1.27.tar.gz tmp/pylogg-0.1.28.tar.gz --markdown 20240404/p/pylogg/0.1.27-0.1.28/diff.md --exclude *.pyd
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [pyrefactoring]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/27/80/82b59f0b0075f0059d60953c9af7f9dde2fc08e3cc72c9780abe41a9402c/aws_service_screener-2.0.1a0.tar.gz
+[2024-04-04 04:14:55] WARNING root fetch - processPackages [pytest-seleniumbase]: Timeout reached during download
+[2024-04-04 04:14:55] INFO root fetch - processPackages [pyrefactoring]: Downloading https://files.pythonhosted.org/packages/0d/07/3688e8a14ee18b1931f398615cf686ee9d21fba2463300cf7f00d73b6cd5/pyrefactoring-0.0.1.1.post1.tar.gz
+[2024-04-04 04:14:56] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2024-04-04 04:14:56] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-04 04:14:56] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [pyrefactoring]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pyrefactoring]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pyrefactoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrefactoring-0.0.1.1.tar.gz tmp/pyrefactoring-0.0.1.1.post1.tar.gz --markdown 20240404/p/pyrefactoring/0.0.1.1-0.0.1.1.post1/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [ansar-connect]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240404/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pytest-seleniumbase]: Downloading https://files.pythonhosted.org/packages/34/03/c67c6c24b8d7c3e49595b97d914034cf101d3d1d029f9e9453f497e0937a/pytest-seleniumbase-4.9.9.tar.gz
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [aws-service-screener]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [aws-service-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_screener-2.0.0a0.tar.gz tmp/aws_service_screener-2.0.1a0.tar.gz --markdown 20240404/a/aws-service-screener/2.0.0a0-2.0.1a0/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [sagemaker]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20240404/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.27.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pylogg]: Remove: archive file [/home/abi/fetcher/tmp/pylogg-0.1.28.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - main [MainThread]: End processing [pylogg]: success
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [pytest-sbase]: Timeout reached during download
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [pytest-seleniumbase]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pytest-seleniumbase]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pytest-seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-seleniumbase-4.9.8.tar.gz tmp/pytest-seleniumbase-4.9.9.tar.gz --markdown 20240404/p/pytest-seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pyrefactoring]: Remove: archive file [/home/abi/fetcher/tmp/pyrefactoring-0.0.1.1.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pyrefactoring]: Remove: archive file [/home/abi/fetcher/tmp/pyrefactoring-0.0.1.1.post1.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - main [MainThread]: End processing [pyrefactoring]: success
+[2024-04-04 04:14:56] WARNING root fetch - processPackages [selenium-base]: Timeout reached during download
+[2024-04-04 04:14:56] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2024-04-04 04:14:56] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20240404/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2024-04-04 04:14:56] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2024-04-04 04:14:56] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-04 04:14:56] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-04 04:14:57] WARNING root fetch - processPackages [pytest-sbase]: Timeout reached during download
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20240404/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.8.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-seleniumbase-4.9.9.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - main [MainThread]: End processing [pytest-seleniumbase]: success
+[2024-04-04 04:14:57] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2024-04-04 04:14:57] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2024-04-04 04:14:58] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.0a0.tar.gz]
+[2024-04-04 04:14:58] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.1a0.tar.gz]
+[2024-04-04 04:14:58] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
+[2024-04-04 04:14:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2024-04-04 04:14:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2024-04-04 04:14:58] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2024-04-04 04:14:58] INFO root fetch - main [MainThread]: Store serial: [22614758]
