@@ -10424,3 +10424,20 @@
 [2024-04-04 04:30:21] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240404.1712197692.tar.gz]
 [2024-04-04 04:30:21] INFO root fetch - main [MainThread]: End processing [gink]: success
 [2024-04-04 04:30:21] INFO root fetch - main [MainThread]: Store serial: [22614853]
+[2024-04-04 04:32:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614853]
+[2024-04-04 04:32:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 04:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-tele
+[2024-04-04 04:32:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-radiance
+[2024-04-04 04:32:30] WARNING root fetch - processPackages [test-tele]: Skipping, unable to determine old version
+[2024-04-04 04:32:30] INFO root fetch - main [MainThread]: End processing [test-tele] error
+[2024-04-04 04:32:30] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-04 04:32:30] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-04 04:32:30] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-04 04:32:30] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-04 04:32:30] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-04 04:32:30] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-04 04:32:30] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240404/d/dragonfly-radiance/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-04 04:32:31] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-04 04:32:31] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-04 04:32:31] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-04 04:32:31] INFO root fetch - main [MainThread]: Store serial: [22614861]
