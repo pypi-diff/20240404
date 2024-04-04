@@ -10622,3 +10622,28 @@
 [2024-04-04 04:48:44] INFO root fetch - processPackages [kcweb]: Remove: archive file [/home/abi/fetcher/tmp/kcweb-5.25.tar.gz]
 [2024-04-04 04:48:44] INFO root fetch - main [MainThread]: End processing [kcweb]: success
 [2024-04-04 04:48:44] INFO root fetch - main [MainThread]: Store serial: [22614918]
+[2024-04-04 04:50:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614918]
+[2024-04-04 04:50:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sashimi-domains
+[2024-04-04 04:50:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FreeSimpleGUI
+[2024-04-04 04:50:53] INFO root fetch - processPackages [FreeSimpleGUI]: New version: [5.0.0rc1] Old Version: [5.0.0]
+[2024-04-04 04:50:53] INFO root fetch - processPackages [sashimi-domains]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-04 04:50:53] INFO root fetch - processPackages [FreeSimpleGUI]: Downloading https://files.pythonhosted.org/packages/0c/53/42012fd099ab61eb89818fe5889d49d2fc0ca81b6706ca6537fb6bb50152/FreeSimpleGUI-5.0.0.tar.gz
+[2024-04-04 04:50:53] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/63/27/6f7169a85afd6f489fb134953433e687a8f6cf0981d26e6cd55e30b3f6a9/sashimi_domains-0.9.4.tar.gz
+[2024-04-04 04:50:54] WARNING root fetch - processPackages [sashimi-domains]: Timeout reached during download
+[2024-04-04 04:50:54] WARNING root fetch - processPackages [FreeSimpleGUI]: Timeout reached during download
+[2024-04-04 04:50:54] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/f7/f3/cc2b39a2f8ff1ba3493343ff54f1999d6388d39b3254da2d1cdb9cb44708/sashimi_domains-0.9.6.tar.gz
+[2024-04-04 04:50:54] INFO root fetch - processPackages [FreeSimpleGUI]: Downloading https://files.pythonhosted.org/packages/35/c7/9ce6752f26bd8e5d73ef9e95cfc2f59242bb5519209ffc35d2c21ceacaef/FreeSimpleGUI-5.0.0rc1.tar.gz
+[2024-04-04 04:50:54] WARNING root fetch - processPackages [sashimi-domains]: Timeout reached during download
+[2024-04-04 04:50:54] INFO root fetch - processPackages [sashimi-domains]: executing diffoscope
+[2024-04-04 04:50:54] INFO root fetch - processPackages [sashimi-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sashimi_domains-0.9.4.tar.gz tmp/sashimi_domains-0.9.6.tar.gz --markdown 20240404/s/sashimi-domains/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2024-04-04 04:50:54] WARNING root fetch - processPackages [FreeSimpleGUI]: Timeout reached during download
+[2024-04-04 04:50:54] INFO root fetch - processPackages [FreeSimpleGUI]: executing diffoscope
+[2024-04-04 04:50:54] INFO root fetch - processPackages [FreeSimpleGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeSimpleGUI-5.0.0.tar.gz tmp/FreeSimpleGUI-5.0.0rc1.tar.gz --markdown 20240404/F/FreeSimpleGUI/5.0.0-5.0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 04:50:55] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.4.tar.gz]
+[2024-04-04 04:50:55] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.6.tar.gz]
+[2024-04-04 04:50:55] INFO root fetch - main [MainThread]: End processing [sashimi-domains]: success
+[2024-04-04 04:50:55] INFO root fetch - processPackages [FreeSimpleGUI]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUI-5.0.0.tar.gz]
+[2024-04-04 04:50:55] INFO root fetch - processPackages [FreeSimpleGUI]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUI-5.0.0rc1.tar.gz]
+[2024-04-04 04:50:55] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUI]: success
+[2024-04-04 04:50:55] INFO root fetch - main [MainThread]: Store serial: [22614924]
