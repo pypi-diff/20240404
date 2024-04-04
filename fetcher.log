@@ -23154,3 +23154,39 @@
 [2024-04-04 13:38:15] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
 [2024-04-04 13:38:15] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 13:38:15] INFO root fetch - main [MainThread]: Store serial: [22619169]
+[2024-04-04 13:40:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619169]
+[2024-04-04 13:40:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 13:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyQtUIkit
+[2024-04-04 13:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ftw.solr
+[2024-04-04 13:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-cloudflare
+[2024-04-04 13:40:23] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 13:40:23] INFO root fetch - processPackages [ftw.solr]: New version: [2.9.5] Old Version: [2.9.4]
+[2024-04-04 13:40:23] INFO root fetch - processPackages [pulumi-cloudflare]: New version: [5.9.0a1692854882] Old Version: [5.9.0a1692851897]
+[2024-04-04 13:40:24] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/67/d9/7d1efb1d2131631efe8eb3dbaec34b1c196c6c4f0e1738180a0c308452ad/PyQtUIkit-2.0.8.tar.gz
+[2024-04-04 13:40:24] INFO root fetch - processPackages [ftw.solr]: Downloading https://files.pythonhosted.org/packages/84/44/761a0a90d2bff3437f9eca051ad09844fb4e711b9c55b60a43e6544f3d20/ftw.solr-2.9.4.tar.gz
+[2024-04-04 13:40:24] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/ce/4c/bbf50ef75d6a6dc70780f846ef13e19b5ec009e8657c5b847defde7a8dd9/pulumi_cloudflare-5.9.0a1692851897.tar.gz
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [pulumi-cloudflare]: Timeout reached during download
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [ftw.solr]: Timeout reached during download
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-04 13:40:24] INFO root fetch - processPackages [pulumi-cloudflare]: Downloading https://files.pythonhosted.org/packages/aa/45/e2040e3054cffd9ce633539517dc7f0063c0b789d73bac75a2b832e469de/pulumi_cloudflare-5.9.0a1692854882.tar.gz
+[2024-04-04 13:40:24] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/21/0f/0733383ec645631a518482b774ed4cc37f56e8114857e84079fbdc12f1be/PyQtUIkit-2.0.9.tar.gz
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [pulumi-cloudflare]: Timeout reached during download
+[2024-04-04 13:40:24] INFO root fetch - processPackages [pulumi-cloudflare]: executing diffoscope
+[2024-04-04 13:40:24] INFO root fetch - processPackages [pulumi-cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz --markdown 20240404/p/pulumi-cloudflare/5.9.0a1692851897-5.9.0a1692854882/diff.md --exclude *.pyd
+[2024-04-04 13:40:24] INFO root fetch - processPackages [ftw.solr]: Downloading https://files.pythonhosted.org/packages/97/ef/8a450bdd9798a50c30edfe08290e6c56c208083fc1294bf91984bc667136/ftw.solr-2.9.5.tar.gz
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [ftw.solr]: Timeout reached during download
+[2024-04-04 13:40:24] INFO root fetch - processPackages [ftw.solr]: executing diffoscope
+[2024-04-04 13:40:24] INFO root fetch - processPackages [ftw.solr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.solr-2.9.4.tar.gz tmp/ftw.solr-2.9.5.tar.gz --markdown 20240404/f/ftw.solr/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2024-04-04 13:40:24] WARNING root fetch - processPackages [PyQtUIkit]: Timeout reached during download
+[2024-04-04 13:40:24] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-04 13:40:24] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-2.0.8.tar.gz tmp/PyQtUIkit-2.0.9.tar.gz --markdown 20240404/P/PyQtUIkit/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 13:40:25] INFO root fetch - processPackages [ftw.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.solr-2.9.4.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - processPackages [ftw.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.solr-2.9.5.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - main [MainThread]: End processing [ftw.solr]: success
+[2024-04-04 13:40:25] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692851897.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - processPackages [pulumi-cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_cloudflare-5.9.0a1692854882.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - main [MainThread]: End processing [pulumi-cloudflare]: success
+[2024-04-04 13:40:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.8.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.9.tar.gz]
+[2024-04-04 13:40:25] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-04 13:40:25] INFO root fetch - main [MainThread]: Store serial: [22619178]
