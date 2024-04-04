@@ -16054,3 +16054,61 @@
 [2024-04-04 09:31:57] INFO root fetch - processPackages [deephyper]: Remove: archive file [/home/abi/fetcher/tmp/deephyper-0.7.0.tar.gz]
 [2024-04-04 09:31:57] INFO root fetch - main [MainThread]: End processing [deephyper]: success
 [2024-04-04 09:31:57] INFO root fetch - main [MainThread]: Store serial: [22616637]
+[2024-04-04 09:34:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616637]
+[2024-04-04 09:34:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ul-py-tool
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paperinquirer
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rciam-federation-registry-agent
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atlas-provider-sqlalchemy
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kkpyutil
+[2024-04-04 09:34:06] INFO root fetch - processPackages [paperinquirer]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-04 09:34:06] INFO root fetch - processPackages [ul-py-tool]: New version: [2.0.0] Old Version: [1.15.53]
+[2024-04-04 09:34:06] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: New version: [0.1a2] Old Version: [0.1a1]
+[2024-04-04 09:34:06] INFO root fetch - processPackages [rciam-federation-registry-agent]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-04 09:34:06] INFO root fetch - processPackages [kkpyutil]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-04 09:34:07] INFO root fetch - processPackages [paperinquirer]: Downloading https://files.pythonhosted.org/packages/da/eb/1fad040853e1ba77315e9a88d116bd9f4300f305d3f0b00a01ccf0061311/paperinquirer-0.0.7-py3-none-any.whl
+[2024-04-04 09:34:07] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/90/4c/cdf3893a9f453f0f4072de9105e2a4433492b38b6f708d8c548baec3470e/ul-py-tool-1.15.53.tar.gz
+[2024-04-04 09:34:07] INFO root fetch - processPackages [rciam-federation-registry-agent]: Downloading https://files.pythonhosted.org/packages/0e/61/2d3248995ba5976437268bca0f71f40c863da0b8db4a2dbd77e98f725653/rciam-federation-registry-agent-3.3.2.tar.gz
+[2024-04-04 09:34:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/0d/80/5445576586019552563819979e2288771dac69b8176e80c204dc1014fe23/atlas_provider_sqlalchemy-0.1a1.tar.gz
+[2024-04-04 09:34:07] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/3c/f5/6a89b38525a5e10016365b11ff3cd05bea16f088a5ff749ff5d183690cc2/kkpyutil-1.8.0.tar.gz
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [paperinquirer]: Timeout reached during download
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [kkpyutil]: Timeout reached during download
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [ul-py-tool]: Timeout reached during download
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [rciam-federation-registry-agent]: Timeout reached during download
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [atlas-provider-sqlalchemy]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [paperinquirer]: Downloading https://files.pythonhosted.org/packages/f5/0f/4f6440846c213e7178973efd20e54196554693bcdae9c2ff482e6ac9543b/paperinquirer-0.0.9-py3-none-any.whl
+[2024-04-04 09:34:07] INFO root fetch - processPackages [ul-py-tool]: Downloading https://files.pythonhosted.org/packages/e7/3d/8585d3c079ab7fc04908f16aba2f8ef0a65ab3a51d782d1a2dffb4b6b644/ul-py-tool-2.0.0.tar.gz
+[2024-04-04 09:34:07] INFO root fetch - processPackages [rciam-federation-registry-agent]: Downloading https://files.pythonhosted.org/packages/36/ec/073fcf8ba3c53b4bd1c679be46cb8130d7029f0ec8db738cf4fe66804cba/rciam-federation-registry-agent-3.3.3.tar.gz
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [paperinquirer]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [paperinquirer]: executing diffoscope
+[2024-04-04 09:34:07] INFO root fetch - processPackages [paperinquirer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paperinquirer-0.0.7-py3-none-any.whl.zip tmp/paperinquirer-0.0.9-py3-none-any.whl.zip --markdown 20240404/p/paperinquirer/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:34:07] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/54/77/d73b3eed485babf03a06f6eb7279292310eb56d455c7d05232c6dc8264dd/kkpyutil-1.9.0.tar.gz
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [ul-py-tool]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [ul-py-tool]: executing diffoscope
+[2024-04-04 09:34:07] INFO root fetch - processPackages [ul-py-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ul-py-tool-1.15.53.tar.gz tmp/ul-py-tool-2.0.0.tar.gz --markdown 20240404/u/ul-py-tool/1.15.53-2.0.0/diff.md --exclude *.pyd
+[2024-04-04 09:34:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/bd/b7/231698ac907f13258eb6e46f59963ac0b16bb2fc34d8fe71d4591da03b0d/atlas_provider_sqlalchemy-0.1a2.tar.gz
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [rciam-federation-registry-agent]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [rciam-federation-registry-agent]: executing diffoscope
+[2024-04-04 09:34:07] INFO root fetch - processPackages [rciam-federation-registry-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rciam-federation-registry-agent-3.3.2.tar.gz tmp/rciam-federation-registry-agent-3.3.3.tar.gz --markdown 20240404/r/rciam-federation-registry-agent/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [kkpyutil]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2024-04-04 09:34:07] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-1.8.0.tar.gz tmp/kkpyutil-1.9.0.tar.gz --markdown 20240404/k/kkpyutil/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 09:34:07] WARNING root fetch - processPackages [atlas-provider-sqlalchemy]: Timeout reached during download
+[2024-04-04 09:34:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: executing diffoscope
+[2024-04-04 09:34:07] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas_provider_sqlalchemy-0.1a1.tar.gz tmp/atlas_provider_sqlalchemy-0.1a2.tar.gz --markdown 20240404/a/atlas-provider-sqlalchemy/0.1a1-0.1a2/diff.md --exclude *.pyd
+[2024-04-04 09:34:08] INFO root fetch - processPackages [paperinquirer]: Remove: archive file [/home/abi/fetcher/tmp/paperinquirer-0.0.7-py3-none-any.whl.zip]
+[2024-04-04 09:34:08] INFO root fetch - processPackages [paperinquirer]: Remove: archive file [/home/abi/fetcher/tmp/paperinquirer-0.0.9-py3-none-any.whl.zip]
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [paperinquirer]: success
+[2024-04-04 09:34:08] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-1.8.0.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-1.9.0.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2024-04-04 09:34:08] INFO root fetch - processPackages [rciam-federation-registry-agent]: Remove: archive file [/home/abi/fetcher/tmp/rciam-federation-registry-agent-3.3.2.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - processPackages [rciam-federation-registry-agent]: Remove: archive file [/home/abi/fetcher/tmp/rciam-federation-registry-agent-3.3.3.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [rciam-federation-registry-agent]: success
+[2024-04-04 09:34:08] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-1.15.53.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - processPackages [ul-py-tool]: Remove: archive file [/home/abi/fetcher/tmp/ul-py-tool-2.0.0.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [ul-py-tool]: success
+[2024-04-04 09:34:08] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.1a1.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - processPackages [atlas-provider-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/atlas_provider_sqlalchemy-0.1a2.tar.gz]
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: End processing [atlas-provider-sqlalchemy]: success
+[2024-04-04 09:34:08] INFO root fetch - main [MainThread]: Store serial: [22616651]
