@@ -14760,3 +14760,20 @@
 [2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a5.tar.gz]
 [2024-04-04 08:30:28] INFO root fetch - main [MainThread]: End processing [langflow]: success
 [2024-04-04 08:30:28] INFO root fetch - main [MainThread]: Store serial: [22616239]
+[2024-04-04 08:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616239]
+[2024-04-04 08:32:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 08:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aoba-ptycho
+[2024-04-04 08:32:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigtree
+[2024-04-04 08:32:37] WARNING root fetch - processPackages [aoba-ptycho]: Skipping, unable to determine old version
+[2024-04-04 08:32:37] INFO root fetch - main [MainThread]: End processing [aoba-ptycho] error
+[2024-04-04 08:32:37] INFO root fetch - processPackages [bigtree]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-04 08:32:37] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/a3/06/d26933e315119b44cb2b7cfcfde9085578c4bfefd8991b2f226ab875ec4e/bigtree-0.9.4.tar.gz
+[2024-04-04 08:32:38] WARNING root fetch - processPackages [bigtree]: Timeout reached during download
+[2024-04-04 08:32:38] INFO root fetch - processPackages [bigtree]: Downloading https://files.pythonhosted.org/packages/42/d0/c77ad03638442b693d9b328a1e8e77de023a7abc5505af29220b8a68a592/bigtree-0.9.5.tar.gz
+[2024-04-04 08:32:39] WARNING root fetch - processPackages [bigtree]: Timeout reached during download
+[2024-04-04 08:32:39] INFO root fetch - processPackages [bigtree]: executing diffoscope
+[2024-04-04 08:32:39] INFO root fetch - processPackages [bigtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigtree-0.9.4.tar.gz tmp/bigtree-0.9.5.tar.gz --markdown 20240404/b/bigtree/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-04 08:32:39] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.4.tar.gz]
+[2024-04-04 08:32:39] INFO root fetch - processPackages [bigtree]: Remove: archive file [/home/abi/fetcher/tmp/bigtree-0.9.5.tar.gz]
+[2024-04-04 08:32:39] INFO root fetch - main [MainThread]: End processing [bigtree]: success
+[2024-04-04 08:32:39] INFO root fetch - main [MainThread]: Store serial: [22616244]
