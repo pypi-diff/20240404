@@ -10508,3 +10508,42 @@
 [2024-04-04 04:40:03] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip]
 [2024-04-04 04:40:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
 [2024-04-04 04:40:03] INFO root fetch - main [MainThread]: Store serial: [22614878]
+[2024-04-04 04:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614878]
+[2024-04-04 04:42:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluejaredgrassfifty
+[2024-04-04 04:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validators
+[2024-04-04 04:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: socket-request
+[2024-04-04 04:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bcpandas
+[2024-04-04 04:42:12] INFO root fetch - processPackages [validators]: New version: [0.9] Old Version: [0.8]
+[2024-04-04 04:42:12] INFO root fetch - processPackages [socket-request]: New version: [1.1.9] Old Version: [1.1.7]
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [bluejaredgrassfifty]: Skipping, unable to determine old version
+[2024-04-04 04:42:12] INFO root fetch - main [MainThread]: End processing [bluejaredgrassfifty] error
+[2024-04-04 04:42:12] INFO root fetch - processPackages [bcpandas]: New version: [2.6.1] Old Version: [2.6.0]
+[2024-04-04 04:42:12] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/01/fd/252e65efd602dabab848e05cb1abdb6327c680d9e4734fcbd1a098faf738/validators-0.8.tar.gz
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [validators]: Timeout reached during download
+[2024-04-04 04:42:12] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/1c/2f/abf4a02123d4c8e6b7222017b8d9fa98f876fc1419d5c2be101702257dd3/bcpandas-2.6.0.tar.gz
+[2024-04-04 04:42:12] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/f4/f4/338618772ac46dfcbca1955e5f13d1c6e1d4d3cba8c23aa32318c7095c8f/socket_request-1.1.7-py3-none-any.whl
+[2024-04-04 04:42:12] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/70/e1/23fa50c66483b57e75ab945f5a5df1627f52df7b34aa3b6376a822ba9eaf/validators-0.9.tar.gz
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [bcpandas]: Timeout reached during download
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [socket-request]: Timeout reached during download
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [validators]: Timeout reached during download
+[2024-04-04 04:42:12] INFO root fetch - processPackages [validators]: executing diffoscope
+[2024-04-04 04:42:12] INFO root fetch - processPackages [validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validators-0.8.tar.gz tmp/validators-0.9.tar.gz --markdown 20240404/v/validators/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-04 04:42:12] INFO root fetch - processPackages [bcpandas]: Downloading https://files.pythonhosted.org/packages/95/b7/380519b6a0a6bb45450c906e3f3b40700329eea4b9afda3f6b5ae92d5763/bcpandas-2.6.1.tar.gz
+[2024-04-04 04:42:12] WARNING root fetch - processPackages [bcpandas]: Timeout reached during download
+[2024-04-04 04:42:12] INFO root fetch - processPackages [bcpandas]: executing diffoscope
+[2024-04-04 04:42:12] INFO root fetch - processPackages [bcpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcpandas-2.6.0.tar.gz tmp/bcpandas-2.6.1.tar.gz --markdown 20240404/b/bcpandas/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2024-04-04 04:42:12] INFO root fetch - processPackages [socket-request]: Downloading https://files.pythonhosted.org/packages/cd/e0/990864e0d546c17ee823f5e5cd230665faad39efc3ba65e139c89af01de8/socket_request-1.1.9-py3-none-any.whl
+[2024-04-04 04:42:13] WARNING root fetch - processPackages [socket-request]: Timeout reached during download
+[2024-04-04 04:42:13] INFO root fetch - processPackages [socket-request]: executing diffoscope
+[2024-04-04 04:42:13] INFO root fetch - processPackages [socket-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/socket_request-1.1.7-py3-none-any.whl.zip tmp/socket_request-1.1.9-py3-none-any.whl.zip --markdown 20240404/s/socket-request/1.1.7-1.1.9/diff.md --exclude *.pyd
+[2024-04-04 04:42:13] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.8.tar.gz]
+[2024-04-04 04:42:13] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.6.0.tar.gz]
+[2024-04-04 04:42:13] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.9.tar.gz]
+[2024-04-04 04:42:13] INFO root fetch - processPackages [bcpandas]: Remove: archive file [/home/abi/fetcher/tmp/bcpandas-2.6.1.tar.gz]
+[2024-04-04 04:42:13] INFO root fetch - main [MainThread]: End processing [validators]: success
+[2024-04-04 04:42:13] INFO root fetch - main [MainThread]: End processing [bcpandas]: success
+[2024-04-04 04:42:13] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.7-py3-none-any.whl.zip]
+[2024-04-04 04:42:13] INFO root fetch - processPackages [socket-request]: Remove: archive file [/home/abi/fetcher/tmp/socket_request-1.1.9-py3-none-any.whl.zip]
+[2024-04-04 04:42:13] INFO root fetch - main [MainThread]: End processing [socket-request]: success
+[2024-04-04 04:42:13] INFO root fetch - main [MainThread]: Store serial: [22614892]
