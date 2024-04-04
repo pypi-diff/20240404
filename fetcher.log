@@ -14486,3 +14486,50 @@
 [2024-04-04 08:15:04] INFO root fetch - processPackages [pydoit-nb]: Remove: archive file [/home/abi/fetcher/tmp/pydoit_nb-0.3.4.tar.gz]
 [2024-04-04 08:15:04] INFO root fetch - main [MainThread]: End processing [pydoit-nb]: success
 [2024-04-04 08:15:04] INFO root fetch - main [MainThread]: Store serial: [22616163]
+[2024-04-04 08:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616163]
+[2024-04-04 08:17:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-identity
+[2024-04-04 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-04-04 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-04-04 08:17:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lumiwealth-tradier
+[2024-04-04 08:17:13] INFO root fetch - processPackages [lumiwealth-tradier]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 08:17:13] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240404] Old Version: [20240403]
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240404] Old Version: [20240403]
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/0a/6a/4012e5c118eced62b24d90f5e0b4c38f2aba81c0df0c56ba1159379b8c33/fake-bpy-module-latest-20240403.tar.gz
+[2024-04-04 08:17:13] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-04 08:17:13] INFO root fetch - processPackages [lumiwealth-tradier]: Downloading https://files.pythonhosted.org/packages/5e/9b/20e8c96e8023ebadcd54170e59fe963a98682c698f6a1814001c85902119/lumiwealth-tradier-0.1.6.tar.gz
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/4d/17/5e835a64ef3c8b02ce2d9dc711d1ee320a2ccaa83a8a9a5658b901fdfc26/fake-bpy-module-20240403.tar.gz
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [lumiwealth-tradier]: Timeout reached during download
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-04 08:17:13] INFO root fetch - processPackages [lumiwealth-tradier]: Downloading https://files.pythonhosted.org/packages/ae/38/874b376b8a588caeca308940927c3d5c7168b363a16765fb261bac2c6d4f/lumiwealth-tradier-0.1.7.tar.gz
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/50/32/98dc4238737159440ceff2e8bb8496bef31740ca7a549cdf7e7ac35140f9/fake-bpy-module-latest-20240404.tar.gz
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/24/40/f1238ca769de4d2f5aa906fbb2d6afd73de182fe375b783924c83392227b/fake-bpy-module-20240404.tar.gz
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [lumiwealth-tradier]: Timeout reached during download
+[2024-04-04 08:17:13] INFO root fetch - processPackages [lumiwealth-tradier]: executing diffoscope
+[2024-04-04 08:17:13] INFO root fetch - processPackages [lumiwealth-tradier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumiwealth-tradier-0.1.6.tar.gz tmp/lumiwealth-tradier-0.1.7.tar.gz --markdown 20240404/l/lumiwealth-tradier/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 08:17:13] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [spaceone-identity]: Timeout reached during download
+[2024-04-04 08:17:13] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-04 08:17:13] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240404/s/spaceone-identity/2.0.dev98-2.0.dev99/diff.md --exclude *.pyd
+[2024-04-04 08:17:13] WARNING root fetch - processPackages [fake-bpy-module-latest]: Timeout reached during download
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-04 08:17:13] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240403.tar.gz tmp/fake-bpy-module-latest-20240404.tar.gz --markdown 20240404/f/fake-bpy-module-latest/20240403-20240404/diff.md --exclude *.pyd
+[2024-04-04 08:17:14] WARNING root fetch - processPackages [fake-bpy-module]: Timeout reached during download
+[2024-04-04 08:17:14] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-04 08:17:14] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240403.tar.gz tmp/fake-bpy-module-20240404.tar.gz --markdown 20240404/f/fake-bpy-module/20240403-20240404/diff.md --exclude *.pyd
+[2024-04-04 08:17:14] INFO root fetch - processPackages [lumiwealth-tradier]: Remove: archive file [/home/abi/fetcher/tmp/lumiwealth-tradier-0.1.6.tar.gz]
+[2024-04-04 08:17:14] INFO root fetch - processPackages [lumiwealth-tradier]: Remove: archive file [/home/abi/fetcher/tmp/lumiwealth-tradier-0.1.7.tar.gz]
+[2024-04-04 08:17:14] INFO root fetch - main [MainThread]: End processing [lumiwealth-tradier]: success
+[2024-04-04 08:17:14] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-04 08:17:14] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-04 08:17:14] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-04 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240403.tar.gz]
+[2024-04-04 08:17:18] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240404.tar.gz]
+[2024-04-04 08:17:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-04 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240403.tar.gz]
+[2024-04-04 08:17:18] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240404.tar.gz]
+[2024-04-04 08:17:18] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-04 08:17:18] INFO root fetch - main [MainThread]: Store serial: [22616175]
