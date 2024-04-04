@@ -16308,3 +16308,50 @@
 [2024-04-04 09:42:57] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.0.tar.gz]
 [2024-04-04 09:42:57] INFO root fetch - main [MainThread]: End processing [fdk-rdf-parser]: success
 [2024-04-04 09:42:57] INFO root fetch - main [MainThread]: Store serial: [22616706]
+[2024-04-04 09:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616706]
+[2024-04-04 09:45:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 09:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-sonar
+[2024-04-04 09:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nef-pipelines
+[2024-04-04 09:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Adyen
+[2024-04-04 09:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tableland
+[2024-04-04 09:45:05] INFO root fetch - processPackages [django-sonar]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-04 09:45:05] INFO root fetch - processPackages [tableland]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2024-04-04 09:45:05] INFO root fetch - processPackages [nef-pipelines]: New version: [0.1.58] Old Version: [0.1.57]
+[2024-04-04 09:45:06] INFO root fetch - processPackages [Adyen]: New version: [9.1.0] Old Version: [9.0.3]
+[2024-04-04 09:45:06] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/bc/fe/73342146718402122bd80115939b23ebf2f581a4f34a9fc7a7ed6a8ff320/tableland-0.0.1rc2.tar.gz
+[2024-04-04 09:45:06] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/cf/5d/a2933536f2879f9f891f4950af9433a2f9a5a3f8bd940f0c375ec4226d8c/Adyen-9.0.3.tar.gz
+[2024-04-04 09:45:06] INFO root fetch - processPackages [django-sonar]: Downloading https://files.pythonhosted.org/packages/d6/8b/99d4cc1234bc35352281dcd697479a129cdedf86073a50934e7a18ada60d/django_sonar-0.1.1.tar.gz
+[2024-04-04 09:45:06] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/d6/52/3034f1ba3ac7131428643e60c833f15dbae0c304ae4adb4775505dd29b58/nef_pipelines-0.1.57.tar.gz
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [Adyen]: Timeout reached during download
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [django-sonar]: Timeout reached during download
+[2024-04-04 09:45:06] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/2c/e2/180edb96ade2d55a992819a04cc476dd453b7495ce3e2b61d13a6f606861/tableland-0.0.1rc3.tar.gz
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [nef-pipelines]: Timeout reached during download
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:45:06] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 09:45:06] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.1rc2.tar.gz tmp/tableland-0.0.1rc3.tar.gz --markdown 20240404/t/tableland/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2024-04-04 09:45:06] INFO root fetch - processPackages [django-sonar]: Downloading https://files.pythonhosted.org/packages/75/f6/c112d1e32026669ca8b63ff4e829744785f85265838a8050ec792f0b0408/django_sonar-0.1.3.tar.gz
+[2024-04-04 09:45:06] INFO root fetch - processPackages [nef-pipelines]: Downloading https://files.pythonhosted.org/packages/59/11/b0c93c51c5126bf4a49afefd8bfd73b0987d2a9ce3b7bd45e6f9fe8c7784/nef_pipelines-0.1.58.tar.gz
+[2024-04-04 09:45:06] INFO root fetch - processPackages [Adyen]: Downloading https://files.pythonhosted.org/packages/cf/39/b446537a72582834f40a63c0b4c68c134415b8620f338d2ab68b4e6ce612/Adyen-9.1.0.tar.gz
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [django-sonar]: Timeout reached during download
+[2024-04-04 09:45:06] INFO root fetch - processPackages [django-sonar]: executing diffoscope
+[2024-04-04 09:45:06] INFO root fetch - processPackages [django-sonar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_sonar-0.1.1.tar.gz tmp/django_sonar-0.1.3.tar.gz --markdown 20240404/d/django-sonar/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [Adyen]: Timeout reached during download
+[2024-04-04 09:45:06] INFO root fetch - processPackages [Adyen]: executing diffoscope
+[2024-04-04 09:45:06] INFO root fetch - processPackages [Adyen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Adyen-9.0.3.tar.gz tmp/Adyen-9.1.0.tar.gz --markdown 20240404/A/Adyen/9.0.3-9.1.0/diff.md --exclude *.pyd
+[2024-04-04 09:45:06] WARNING root fetch - processPackages [nef-pipelines]: Timeout reached during download
+[2024-04-04 09:45:06] INFO root fetch - processPackages [nef-pipelines]: executing diffoscope
+[2024-04-04 09:45:06] INFO root fetch - processPackages [nef-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nef_pipelines-0.1.57.tar.gz tmp/nef_pipelines-0.1.58.tar.gz --markdown 20240404/n/nef-pipelines/0.1.57-0.1.58/diff.md --exclude *.pyd
+[2024-04-04 09:45:07] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc2.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc3.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 09:45:07] INFO root fetch - processPackages [django-sonar]: Remove: archive file [/home/abi/fetcher/tmp/django_sonar-0.1.1.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - processPackages [django-sonar]: Remove: archive file [/home/abi/fetcher/tmp/django_sonar-0.1.3.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - main [MainThread]: End processing [django-sonar]: success
+[2024-04-04 09:45:07] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.0.3.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - processPackages [Adyen]: Remove: archive file [/home/abi/fetcher/tmp/Adyen-9.1.0.tar.gz]
+[2024-04-04 09:45:07] INFO root fetch - main [MainThread]: End processing [Adyen]: success
+[2024-04-04 09:45:08] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.57.tar.gz]
+[2024-04-04 09:45:08] INFO root fetch - processPackages [nef-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/nef_pipelines-0.1.58.tar.gz]
+[2024-04-04 09:45:08] INFO root fetch - main [MainThread]: End processing [nef-pipelines]: success
+[2024-04-04 09:45:08] INFO root fetch - main [MainThread]: Store serial: [22616715]
