@@ -14179,3 +14179,125 @@
 [2024-04-04 08:06:16] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.4.tar.gz]
 [2024-04-04 08:06:16] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
 [2024-04-04 08:06:16] INFO root fetch - main [MainThread]: Store serial: [22616080]
+[2024-04-04 08:08:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616080]
+[2024-04-04 08:08:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kodexa-cli
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inspeqai
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-mail-activity-team
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-mail-activity-team
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tableland
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: list-flatten-z
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-mail-activity-team
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dirigera
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpcclient
+[2024-04-04 08:08:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vector-vault
+[2024-04-04 08:08:26] INFO root fetch - processPackages [inspeqai]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [dirigera]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: New version: [14.0.1.2.1.dev9] Old Version: [14.0.1.2.1.dev8]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [list-flatten-z]: New version: [0.2] Old Version: [0.1]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: New version: [13.0.1.3.3.dev9] Old Version: [13.0.1.3.3.dev8]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [tableland]: New version: [0.0.0rc0] Old Version: [0.0.0]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8550032308] Old Version: [7.0.8549709945]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [vector-vault]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [rpcclient]: New version: [4.6.0] Old Version: [4.5.1]
+[2024-04-04 08:08:26] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/de/db/173a9cbe00d39a94491bb5e851c2691f02f26f6bcdc381de3f651790050f/inspeqai-1.0.8.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/2e/d7/bbef6938635b31b0373e6a5cb9e819d142ddaf1fc8a85c05f396373089bf/dirigera-1.0.8.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/21/be/8278554eb40ad923709b3e1ae6c90ce34294b9b477bf339de27ed81c412b/list_flatten_z-0.1.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/6a/fc/3fe4b7dc0f1e36ecdf49e60d2be70008860276003d8e3bc8a480a215714b/tableland-0.0.0.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/33/6a/a4b29e933e97b165dedb75211b6ec3c530ff474f59290e6520307b85ca04/kodexa_cli-7.0.8549709945.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/44/41/9b023562620011701a0ae97d16d68ba2272ba84f0b18da71156e5cc3af4c/vector_vault-4.3.0.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/fe/75/055051e64552cec2ac06aa2780c2e787b3ea2c2a2fae4f781e0ebd49bdb9/odoo13_addon_mail_activity_team-13.0.1.3.3.dev8-py3-none-any.whl
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/a8/db/40323bddecd9f0503b8d40645a800d4878d326a40a2fec2246931d605c15/odoo14_addon_mail_activity_team-14.0.1.2.1.dev8-py3-none-any.whl
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/4f/73/e6c2b6f322b7a7d7d7fd534a08b04a5e3dd6a487fa5eb261b7cedcf5aa6d/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [dirigera]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/3b/17/614f915bd6f13e602d60e6bf09c3e4e4034a885f66110f59142236fa7533/rpcclient-4.5.1.tar.gz
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [odoo13-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [odoo14-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [inspeqai]: Downloading https://files.pythonhosted.org/packages/aa/56/c8cac05ea573b554acda00f41963428f21483c8412651132daca59244d36/inspeqai-1.0.9.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [dirigera]: Downloading https://files.pythonhosted.org/packages/c0/92/0d03d9f84b0389ff5453c810a1b8955393595283e582d55de2357c172e14/dirigera-1.0.9.tar.gz
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [rpcclient]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/a7/bf/c408530a9161061e044848622e6f9fb398ba0cafc84b7582853846d774e7/tableland-0.0.0rc0.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/1e/0a44d4daae6c498f3ca46ae759b06e9b762ca2a000e2b61cbec28b7b91d9/kodexa_cli-7.0.8550032308.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/50/b8/7682703ac2b7960fd0648e4a112cb7f37b69c22ce63e3f3aa4d5d6f9f813/odoo13_addon_mail_activity_team-13.0.1.3.3.dev9-py3-none-any.whl
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/cf/8d/d7c08757d0387c719ed8c5477a8266414de9c31f3acb16fd337c72170c3e/odoo14_addon_mail_activity_team-14.0.1.2.1.dev9-py3-none-any.whl
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [inspeqai]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [inspeqai]: executing diffoscope
+[2024-04-04 08:08:26] INFO root fetch - processPackages [inspeqai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inspeqai-1.0.8.tar.gz tmp/inspeqai-1.0.9.tar.gz --markdown 20240404/i/inspeqai/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [dirigera]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [dirigera]: executing diffoscope
+[2024-04-04 08:08:26] INFO root fetch - processPackages [dirigera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dirigera-1.0.8.tar.gz tmp/dirigera-1.0.9.tar.gz --markdown 20240404/d/dirigera/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:08:26] INFO root fetch - processPackages [rpcclient]: Downloading https://files.pythonhosted.org/packages/ff/24/b6eb256a332e0816e3aa871c6b35eed98f353c4edf9b2539929a400a6939/rpcclient-4.6.0.tar.gz
+[2024-04-04 08:08:26] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/d1/ff/e495da4d9b187e51dc7713e34b0acb0d97135ac17c50208828264ba300fb/vector_vault-4.3.1.tar.gz
+[2024-04-04 08:08:26] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 08:08:26] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-04 08:08:26] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8549709945.tar.gz tmp/kodexa_cli-7.0.8550032308.tar.gz --markdown 20240404/k/kodexa-cli/7.0.8549709945-7.0.8550032308/diff.md --exclude *.pyd
+[2024-04-04 08:08:26] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Downloading https://files.pythonhosted.org/packages/92/37/77a70664d041ecf466ddbc854349b32bb17e2fb6d3b7a2a69f30dd26415f/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.0.tar.gz tmp/tableland-0.0.0rc0.tar.gz --markdown 20240404/t/tableland/0.0.0-0.0.0rc0/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [odoo13-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev8-py3-none-any.whl.zip tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo13-addon-mail-activity-team/13.0.1.3.3.dev8-13.0.1.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.3.0.tar.gz tmp/vector_vault-4.3.1.tar.gz --markdown 20240404/v/vector-vault/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [rpcclient]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [rpcclient]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [rpcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpcclient-4.5.1.tar.gz tmp/rpcclient-4.6.0.tar.gz --markdown 20240404/r/rpcclient/4.5.1-4.6.0/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [odoo14-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mail_activity_team-14.0.1.2.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_mail_activity_team-14.0.1.2.1.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-mail-activity-team/14.0.1.2.1.dev8-14.0.1.2.1.dev9/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [odoo-addon-mail-activity-team]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/15/ae/98a25fab4e8feb6caf08b83e9c7a00ea7d80064e713e1012b486288e940f/list_flatten_z-0.2.tar.gz
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-mail-activity-team/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 08:08:27] INFO root fetch - processPackages [list-flatten-z]: executing diffoscope
+[2024-04-04 08:08:27] INFO root fetch - processPackages [list-flatten-z]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_flatten_z-0.1.tar.gz tmp/list_flatten_z-0.2.tar.gz --markdown 20240404/l/list-flatten-z/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-04 08:08:27] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.8.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.9.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - processPackages [inspeqai]: Start processing: odoo-addon-mail-activity-team
+[2024-04-04 08:08:27] INFO root fetch - main [MainThread]: End processing [inspeqai]: success
+[2024-04-04 08:08:27] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.0.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.0rc0.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 08:08:27] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.7]
+[2024-04-04 08:08:27] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8549709945.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8550032308.tar.gz]
+[2024-04-04 08:08:27] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.0.8.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [dirigera]: Remove: archive file [/home/abi/fetcher/tmp/dirigera-1.0.9.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [dirigera]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.0.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.1.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: executing diffoscope
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-mail-activity-team/16.0.1.0.0.7-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev8-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo13-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mail_activity_team-13.0.1.3.3.dev9-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mail-activity-team]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_activity_team-14.0.1.2.1.dev8-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [odoo14-addon-mail-activity-team]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mail_activity_team-14.0.1.2.1.dev9-py3-none-any.whl.zip]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mail-activity-team]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.1.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.2.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [list-flatten-z]: success
+[2024-04-04 08:08:28] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.5.1.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - processPackages [rpcclient]: Remove: archive file [/home/abi/fetcher/tmp/rpcclient-4.6.0.tar.gz]
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [rpcclient]: success
+[2024-04-04 08:08:28] ERROR root fetch - processPackages [odoo-addon-mail-activity-team]: Diffoscope failed: time="2024-04-04T08:08:28+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_mail_activity_team-16.0.1.0.0.7-py3-none-any.whl.zip: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/odoo_addon_mail_activity_team-16.0.1.0.0.8-py3-none-any.whl.zip: No such file or directory
+
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team] error
+[2024-04-04 08:08:28] INFO root fetch - main [MainThread]: Store serial: [22616111]
