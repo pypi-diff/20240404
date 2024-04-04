@@ -17275,3 +17275,182 @@
 [2024-04-04 10:15:04] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_cohere-0.9.4.tar.gz]
 [2024-04-04 10:15:04] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-cohere]: success
 [2024-04-04 10:15:04] INFO root fetch - main [MainThread]: Store serial: [22617019]
+[2024-04-04 10:17:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617019]
+[2024-04-04 10:17:13] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opentelemetry-instrumentation-cohere
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentelemetry-instrumentation-haystack
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentelemetry-instrumentation-langchain
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opentelemetry-instrumentation-llamaindex
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ft-jwt
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opentelemetry-instrumentation-openai
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: opentelemetry-instrumentation-pinecone
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentelemetry-instrumentation-qdrant
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: opentelemetry-instrumentation-replicate
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: opentelemetry-instrumentation-transformers
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: New version: [0.15.9] Old Version: [0.15.8]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ft-jwt]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/70/aa/b8c1dd45abaed6ee0dfa15245a5f410419f88bce4a1169ee3fc3e04a7615/opentelemetry_instrumentation_cohere-0.9.3.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/dc/79/e74a9693112df421f27242dc6bab9a75c40596b3b477b6866248b61a290b/ft_jwt-0.0.4.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/5e/47/1c3a20ab14baa6c170b4bc38221b440b90dd2507d844360ba8ae1c9f85e9/opentelemetry_instrumentation_openai-0.9.3.tar.gz
+[2024-04-04 10:17:13] WARNING root fetch - processPackages [opentelemetry-instrumentation-cohere]: Timeout reached during download
+[2024-04-04 10:17:13] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 10:17:13] WARNING root fetch - processPackages [opentelemetry-instrumentation-openai]: Timeout reached during download
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/82/97/63079c85a35dfeca4d1c4d446868e9a210f29acc3cada17ab1913fce5793/opentelemetry_instrumentation_haystack-0.9.3.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: Downloading https://files.pythonhosted.org/packages/5f/c0/41243c40f3f3c94f4e0fc6ed67aefc7144c0e14daecb3c320e26651d55eb/opentelemetry_instrumentation_replicate-0.9.3.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Downloading https://files.pythonhosted.org/packages/75/68/653eacd8755c61fcf3f2804d23b44be39bb0ca8930809390a6090404b8e3/opentelemetry_instrumentation_pinecone-0.9.3.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/82/0f/132a270f34c2a086ec187fe8a26c5583c0b64c07868f677fdd19ce1d9a55/opentelemetry_instrumentation_langchain-0.9.3.tar.gz
+[2024-04-04 10:17:13] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Downloading https://files.pythonhosted.org/packages/84/37/bfc8333514961cd8e1413170f7c0181ebaa7f61d7f94818b39a718f9df64/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Downloading https://files.pythonhosted.org/packages/05/af/d461353ca47c62030dc489b431b6f46390b9f574cc113c95cd38f6a9a6c1/opentelemetry_instrumentation_cohere-0.9.4.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [ft-jwt]: Downloading https://files.pythonhosted.org/packages/29/27/b8ddfbca946c673b6a34fc0227e27756922f1e026d75afea283f94acd249/ft_jwt-0.0.5.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Downloading https://files.pythonhosted.org/packages/a4/c2/cbd28bebbdeea7539b7c26e3b27328748b06d1f79cd8566b6b65547850d5/opentelemetry_instrumentation_qdrant-0.15.8.tar.gz
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-haystack]: Timeout reached during download
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-replicate]: Timeout reached during download
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Timeout reached during download
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-langchain]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: Downloading https://files.pythonhosted.org/packages/3c/34/fa1db6a9ae942d4566075f6ad07d5ec39b961c4cd2382ded8af1a0609023/opentelemetry_instrumentation_transformers-0.9.3.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Downloading https://files.pythonhosted.org/packages/45/ad/53e0a6860d767e83f8340bebfc5e5a23d736172d6f43243e8a33cc6c2c27/opentelemetry_instrumentation_openai-0.9.4.tar.gz
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Timeout reached during download
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-cohere]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_cohere-0.9.3.tar.gz tmp/opentelemetry_instrumentation_cohere-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-cohere/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [ft-jwt]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [ft-jwt]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [ft-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft_jwt-0.0.4.tar.gz tmp/ft_jwt-0.0.5.tar.gz --markdown 20240404/f/ft-jwt/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-openai]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_openai-0.9.3.tar.gz tmp/opentelemetry_instrumentation_openai-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-openai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Downloading https://files.pythonhosted.org/packages/52/81/7674eab780a5bfdad13d9db91de744f3d1c2709342ec19b62f4ecee73a92/opentelemetry_instrumentation_pinecone-0.9.4.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: Downloading https://files.pythonhosted.org/packages/66/23/d1423cbd56d38af8ae076842ab9980e74ad9ddaa09bf8707abbec953626d/opentelemetry_instrumentation_replicate-0.9.4.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Downloading https://files.pythonhosted.org/packages/61/08/b8826b803507755cedb943dffda22952e7ba30200ccceba5aa8780820f76/opentelemetry_instrumentation_haystack-0.9.4.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Downloading https://files.pythonhosted.org/packages/82/4b/425273f1badee723f0c36b0d798ea4d1f03f5ff9d88ac75a0c40e48a8696/opentelemetry_instrumentation_langchain-0.9.4.tar.gz
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_pinecone-0.9.3.tar.gz tmp/opentelemetry_instrumentation_pinecone-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-pinecone/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-replicate]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_replicate-0.9.3.tar.gz tmp/opentelemetry_instrumentation_replicate-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-replicate/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-transformers]: Timeout reached during download
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-haystack]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Downloading https://files.pythonhosted.org/packages/2e/ea/d3127230fc399f951a2f7509bee5be56719a9018b48fd9d4a9a580fc9686/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_haystack-0.9.3.tar.gz tmp/opentelemetry_instrumentation_haystack-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-haystack/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-langchain]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_langchain-0.9.3.tar.gz tmp/opentelemetry_instrumentation_langchain-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-langchain/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz tmp/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-llamaindex/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: Downloading https://files.pythonhosted.org/packages/0c/80/cd062c5984e06b8bd074cc69bc0fe1fa361629a5d650044f39b65523e85f/opentelemetry_instrumentation_transformers-0.9.4.tar.gz
+[2024-04-04 10:17:14] WARNING root fetch - processPackages [opentelemetry-instrumentation-transformers]: Timeout reached during download
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: executing diffoscope
+[2024-04-04 10:17:14] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_transformers-0.9.3.tar.gz tmp/opentelemetry_instrumentation_transformers-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-transformers/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:15] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [ft-jwt]: Remove: archive file [/home/abi/fetcher/tmp/ft_jwt-0.0.5.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [ft-jwt]: Start processing: opentelemetry-instrumentation-vertexai
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [ft-jwt]: success
+[2024-04-04 10:17:15] WARNING root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Timeout reached during download
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_openai-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_openai-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-openai]: Start processing: opentelemetry-instrumentation-watsonx
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-openai]: success
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_cohere-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_cohere-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-cohere]: Start processing: modernpackage
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-cohere]: success
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: New version: [0.9.4] Old Version: [0.15.9]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [modernpackage]: New version: [0.0.1.dev2] Old Version: [0.0.1.dev1]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Downloading https://files.pythonhosted.org/packages/46/0f/42e44b8549e1a40e148436ce950079ec81d7d41225c6c7479259dcc92d6c/opentelemetry_instrumentation_qdrant-0.15.9.tar.gz
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_langchain-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_langchain-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-langchain]: Start processing: opentelemetry-instrumentation-weaviate
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-langchain]: success
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Downloading https://files.pythonhosted.org/packages/36/c1/de833320a1ce5930e006847f924a75d33eee0793a1d35621fcbe1b543c91/opentelemetry_instrumentation_vertexai-0.9.3.tar.gz
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_pinecone-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_pinecone-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-pinecone]: Start processing: frogress
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-pinecone]: success
+[2024-04-04 10:17:15] WARNING root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Timeout reached during download
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: executing diffoscope
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_qdrant-0.15.8.tar.gz tmp/opentelemetry_instrumentation_qdrant-0.15.9.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-qdrant/0.15.8-0.15.9/diff.md --exclude *.pyd
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Downloading https://files.pythonhosted.org/packages/f2/48/55df5cfd0a8f51fa90f5081e1a311d9aa42acbc2fdd1ba440e11d460f17c/opentelemetry_instrumentation_watsonx-0.15.9.tar.gz
+[2024-04-04 10:17:15] INFO root fetch - processPackages [frogress]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_haystack-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_haystack-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-haystack]: Start processing: traceloop-sdk
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-haystack]: success
+[2024-04-04 10:17:15] WARNING root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Timeout reached during download
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_llamaindex-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [modernpackage]: Downloading https://files.pythonhosted.org/packages/5c/81/4fdc5423a9278d96bf4f1f3bbfcc61836dd034b4d302bb4ad8cd1c8bbad1/modernpackage-0.0.1.dev1.tar.gz
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-llamaindex]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_llamaindex-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-llamaindex]: success
+[2024-04-04 10:17:15] WARNING root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Timeout reached during download
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_replicate-0.9.3.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - processPackages [opentelemetry-instrumentation-replicate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_replicate-0.9.4.tar.gz]
+[2024-04-04 10:17:15] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-replicate]: success
+[2024-04-04 10:17:15] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 10:17:15] WARNING root fetch - processPackages [modernpackage]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_transformers-0.9.3.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-transformers]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_transformers-0.9.4.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-transformers]: success
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Downloading https://files.pythonhosted.org/packages/cf/1f/e1e0a657673821c937c024cf61231f00fcb3724183b2ac94f6390fe972ba/opentelemetry_instrumentation_weaviate-0.9.3.tar.gz
+[2024-04-04 10:17:16] INFO root fetch - processPackages [frogress]: Downloading https://files.pythonhosted.org/packages/d3/14/36c31b0b6f1e12c05dde12a203350b8c5a6adb8b16f44c0f35eeabd2901d/frogress-0.9.0.tar.gz
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Downloading https://files.pythonhosted.org/packages/26/d8/03a963c822a21244cc443a606a0e23d12f9246c5f0319cb108357a34adde/opentelemetry_instrumentation_vertexai-0.9.4.tar.gz
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Downloading https://files.pythonhosted.org/packages/fe/1a/9cb4a8de7f66e65a45cbb282a679487b4513d77b984431ac46bc3099620a/opentelemetry_instrumentation_watsonx-0.9.4.tar.gz
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Timeout reached during download
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [frogress]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_vertexai-0.9.3.tar.gz tmp/opentelemetry_instrumentation_vertexai-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-vertexai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-04-04 10:17:16] INFO root fetch - processPackages [modernpackage]: Downloading https://files.pythonhosted.org/packages/5e/3b/bf898ea9a22f77df989a395ed36307c1dcd6a3c4cc97e1d061cb48f75d78/modernpackage-0.0.1.dev2.tar.gz
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_watsonx-0.15.9.tar.gz tmp/opentelemetry_instrumentation_watsonx-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-watsonx/0.15.9-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [traceloop-sdk]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_qdrant-0.15.8.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-qdrant]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_qdrant-0.15.9.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-qdrant]: success
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [modernpackage]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [modernpackage]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [modernpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modernpackage-0.0.1.dev1.tar.gz tmp/modernpackage-0.0.1.dev2.tar.gz --markdown 20240404/m/modernpackage/0.0.1.dev1-0.0.1.dev2/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Downloading https://files.pythonhosted.org/packages/d0/6b/23532571b9be341c520655b02a17b5103adf677eb8be04e8380bc1c52f66/opentelemetry_instrumentation_weaviate-0.9.4.tar.gz
+[2024-04-04 10:17:16] INFO root fetch - processPackages [frogress]: Downloading https://files.pythonhosted.org/packages/23/1e/d1498145bd80fc0b08cb35eeb1212c664d86efe91426ec83b0637901c0ef/frogress-0.9.1.tar.gz
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentelemetry_instrumentation_weaviate-0.9.3.tar.gz tmp/opentelemetry_instrumentation_weaviate-0.9.4.tar.gz --markdown 20240404/o/opentelemetry-instrumentation-weaviate/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [frogress]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [frogress]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [frogress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogress-0.9.0.tar.gz tmp/frogress-0.9.1.tar.gz --markdown 20240404/f/frogress/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-04-04 10:17:16] WARNING root fetch - processPackages [traceloop-sdk]: Timeout reached during download
+[2024-04-04 10:17:16] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-04-04 10:17:16] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240404/t/traceloop-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_vertexai-0.9.3.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - processPackages [opentelemetry-instrumentation-vertexai]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_vertexai-0.9.4.tar.gz]
+[2024-04-04 10:17:16] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-vertexai]: success
+[2024-04-04 10:17:17] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_watsonx-0.15.9.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - processPackages [opentelemetry-instrumentation-watsonx]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_watsonx-0.9.4.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-watsonx]: success
+[2024-04-04 10:17:17] INFO root fetch - processPackages [modernpackage]: Remove: archive file [/home/abi/fetcher/tmp/modernpackage-0.0.1.dev1.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - processPackages [modernpackage]: Remove: archive file [/home/abi/fetcher/tmp/modernpackage-0.0.1.dev2.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [modernpackage]: success
+[2024-04-04 10:17:17] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_weaviate-0.9.3.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - processPackages [opentelemetry-instrumentation-weaviate]: Remove: archive file [/home/abi/fetcher/tmp/opentelemetry_instrumentation_weaviate-0.9.4.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [opentelemetry-instrumentation-weaviate]: success
+[2024-04-04 10:17:17] INFO root fetch - processPackages [frogress]: Remove: archive file [/home/abi/fetcher/tmp/frogress-0.9.0.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - processPackages [frogress]: Remove: archive file [/home/abi/fetcher/tmp/frogress-0.9.1.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [frogress]: success
+[2024-04-04 10:17:17] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-04-04 10:17:17] INFO root fetch - main [MainThread]: Store serial: [22617078]
