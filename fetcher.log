@@ -22433,3 +22433,45 @@
 [2024-04-04 13:09:29] INFO root fetch - processPackages [ehdtd-daemon]: Remove: archive file [/home/abi/fetcher/tmp/ehdtd_daemon-0.1.2.tar.gz]
 [2024-04-04 13:09:29] INFO root fetch - main [MainThread]: End processing [ehdtd-daemon]: success
 [2024-04-04 13:09:29] INFO root fetch - main [MainThread]: Store serial: [22618946]
+[2024-04-04 13:11:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618946]
+[2024-04-04 13:11:38] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbapy
+[2024-04-04 13:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycspwrapper
+[2024-04-04 13:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: musicscan
+[2024-04-04 13:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aries-cloudcontroller
+[2024-04-04 13:11:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: astropype
+[2024-04-04 13:11:38] ERROR root fetch - processPackages [astropype]: Unable to get metadata: No such project 'astropype'
+[2024-04-04 13:11:38] INFO root fetch - main [MainThread]: End processing [astropype] error
+[2024-04-04 13:11:38] INFO root fetch - processPackages [mbapy]: New version: [0.7.1b1] Old Version: [0.7.1]
+[2024-04-04 13:11:38] INFO root fetch - processPackages [pycspwrapper]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-04 13:11:38] WARNING root fetch - processPackages [musicscan]: Skipping, unable to determine old version
+[2024-04-04 13:11:38] INFO root fetch - main [MainThread]: End processing [musicscan] error
+[2024-04-04 13:11:38] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.9.0.post2] Old Version: [0.9.0.post1]
+[2024-04-04 13:11:38] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/99/c2/2345d4553ebac4ce440f8473e398e612020bdcfa74aa1f31842630945eb8/mbapy-0.7.1.tar.gz
+[2024-04-04 13:11:38] INFO root fetch - processPackages [pycspwrapper]: Downloading https://files.pythonhosted.org/packages/a4/31/372b095b4e4f0c2461e946548786f6a046a873489bf47854e7831d5f2786/pycspwrapper-0.1.4-py3-none-any.whl
+[2024-04-04 13:11:38] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/57/58/6eddb4d0c5aa15e90bcccb3a6f7381d1286236a75a96de6183034a955f08/aries_cloudcontroller-0.9.0.post1.tar.gz
+[2024-04-04 13:11:38] WARNING root fetch - processPackages [mbapy]: Timeout reached during download
+[2024-04-04 13:11:38] WARNING root fetch - processPackages [pycspwrapper]: Timeout reached during download
+[2024-04-04 13:11:38] WARNING root fetch - processPackages [aries-cloudcontroller]: Timeout reached during download
+[2024-04-04 13:11:38] INFO root fetch - processPackages [pycspwrapper]: Downloading https://files.pythonhosted.org/packages/0f/bb/b30bbf558d1ae5f0e0cdecfe731a81ec35de015db36e0d8007e784d4a3e7/pycspwrapper-0.2.0-py3-none-any.whl
+[2024-04-04 13:11:39] INFO root fetch - processPackages [mbapy]: Downloading https://files.pythonhosted.org/packages/ff/94/dc8ace43a2dd2afeb280ada6e5f83476eb6c65e414a71e547c13d3f83b8f/mbapy-0.7.1b1.tar.gz
+[2024-04-04 13:11:39] WARNING root fetch - processPackages [pycspwrapper]: Timeout reached during download
+[2024-04-04 13:11:39] INFO root fetch - processPackages [pycspwrapper]: executing diffoscope
+[2024-04-04 13:11:39] INFO root fetch - processPackages [pycspwrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycspwrapper-0.1.4-py3-none-any.whl.zip tmp/pycspwrapper-0.2.0-py3-none-any.whl.zip --markdown 20240404/p/pycspwrapper/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 13:11:39] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/ff/e8/72596cbf2395e14ebe7b8b564e849df6e0cc60a3e4ecd567c391f164e708/aries_cloudcontroller-0.9.0.post2.tar.gz
+[2024-04-04 13:11:39] WARNING root fetch - processPackages [mbapy]: Timeout reached during download
+[2024-04-04 13:11:39] INFO root fetch - processPackages [mbapy]: executing diffoscope
+[2024-04-04 13:11:39] INFO root fetch - processPackages [mbapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbapy-0.7.1.tar.gz tmp/mbapy-0.7.1b1.tar.gz --markdown 20240404/m/mbapy/0.7.1-0.7.1b1/diff.md --exclude *.pyd
+[2024-04-04 13:11:39] WARNING root fetch - processPackages [aries-cloudcontroller]: Timeout reached during download
+[2024-04-04 13:11:39] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2024-04-04 13:11:39] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.9.0.post1.tar.gz tmp/aries_cloudcontroller-0.9.0.post2.tar.gz --markdown 20240404/a/aries-cloudcontroller/0.9.0.post1-0.9.0.post2/diff.md --exclude *.pyd
+[2024-04-04 13:11:39] INFO root fetch - processPackages [pycspwrapper]: Remove: archive file [/home/abi/fetcher/tmp/pycspwrapper-0.1.4-py3-none-any.whl.zip]
+[2024-04-04 13:11:39] INFO root fetch - processPackages [pycspwrapper]: Remove: archive file [/home/abi/fetcher/tmp/pycspwrapper-0.2.0-py3-none-any.whl.zip]
+[2024-04-04 13:11:39] INFO root fetch - main [MainThread]: End processing [pycspwrapper]: success
+[2024-04-04 13:11:40] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.7.1.tar.gz]
+[2024-04-04 13:11:40] INFO root fetch - processPackages [mbapy]: Remove: archive file [/home/abi/fetcher/tmp/mbapy-0.7.1b1.tar.gz]
+[2024-04-04 13:11:40] INFO root fetch - main [MainThread]: End processing [mbapy]: success
+[2024-04-04 13:11:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post1.tar.gz]
+[2024-04-04 13:11:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
+[2024-04-04 13:11:42] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2024-04-04 13:11:42] INFO root fetch - main [MainThread]: Store serial: [22618963]
