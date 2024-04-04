@@ -17955,3 +17955,81 @@
 [2024-04-04 10:37:05] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
 [2024-04-04 10:37:05] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
 [2024-04-04 10:37:05] INFO root fetch - main [MainThread]: Store serial: [22617258]
+[2024-04-04 10:39:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617258]
+[2024-04-04 10:39:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nodoc
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wagtail-fedit
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: custom-cytomine-client
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-notification-sdk-preview
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: custom-cytomine-client
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devnetgen
+[2024-04-04 10:39:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tuf
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [devnetgen]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [nodoc]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [tuf]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.2.8] Old Version: [1.2.7]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.929] Old Version: [0.1.926]
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/19/b4/c3830df7b99828cf1c3edc3b74cd76e348f66b2b22faf9957dca13413496/nodoc-1.0.7.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [devnetgen]: Downloading https://files.pythonhosted.org/packages/e7/87/1dc27b9d72e90d72dbaf53cbd4f891c1ad8a4ccf5e1cc9115bfd021fc95f/devnetgen-0.1.7.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/ef/f5/421539d7be73e37ae8b97690d1252ab48b801d1c6d0eec4323f7c6cb6cf6/wagtail_fedit-1.2.7.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [tuf]: Downloading https://files.pythonhosted.org/packages/de/38/952484915f31eb9cfcf0cf6e0e513c1319a9079075e4722f4f92bece65d6/tuf-3.1.0.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/80/f1/47f2089027681a8584f3b4369f47b8f5b269885fc5e18cef50100a0a4c75/lusid-notification-sdk-preview-0.1.926.tar.gz
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [lusid-notification-sdk-preview]: Timeout reached during download
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [devnetgen]: Timeout reached during download
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [tuf]: Timeout reached during download
+[2024-04-04 10:39:14] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/6e/11/a040a004bec1b3f16cc6e4b7f9cc5d7f32d911b6f98d2e0153260234c0b2/wagtail_fedit-1.2.8.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/89/8f/f5d464d4ae7d107744f8f814193f380c40f7b77eb8e113433f2f1841ecb2/lusid-notification-sdk-preview-0.1.929.tar.gz
+[2024-04-04 10:39:14] INFO root fetch - processPackages [devnetgen]: Downloading https://files.pythonhosted.org/packages/00/25/0abb7bcbe224ba33746e0d05ede04f242c834412da50f575206269976f61/devnetgen-0.1.8.tar.gz
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:39:14] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:39:14] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:39:14] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:39:14] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.7.tar.gz tmp/nodoc-1.0.8.tar.gz --markdown 20240404/n/nodoc/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:39:15] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:39:15] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] INFO root fetch - processPackages [tuf]: Downloading https://files.pythonhosted.org/packages/1f/fa/0a00c2dfa9dbf83e58b490e6ee0656b3aac929c9887e359881a3ecd4b971/tuf-3.1.1.tar.gz
+[2024-04-04 10:39:15] WARNING root fetch - processPackages [wagtail-fedit]: Timeout reached during download
+[2024-04-04 10:39:15] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-04 10:39:15] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.2.7.tar.gz tmp/wagtail_fedit-1.2.8.tar.gz --markdown 20240404/w/wagtail-fedit/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] WARNING root fetch - processPackages [devnetgen]: Timeout reached during download
+[2024-04-04 10:39:15] INFO root fetch - processPackages [devnetgen]: executing diffoscope
+[2024-04-04 10:39:15] INFO root fetch - processPackages [devnetgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devnetgen-0.1.7.tar.gz tmp/devnetgen-0.1.8.tar.gz --markdown 20240404/d/devnetgen/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] WARNING root fetch - processPackages [lusid-notification-sdk-preview]: Timeout reached during download
+[2024-04-04 10:39:15] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2024-04-04 10:39:15] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.926.tar.gz tmp/lusid-notification-sdk-preview-0.1.929.tar.gz --markdown 20240404/l/lusid-notification-sdk-preview/0.1.926-0.1.929/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] WARNING root fetch - processPackages [tuf]: Timeout reached during download
+[2024-04-04 10:39:15] INFO root fetch - processPackages [tuf]: executing diffoscope
+[2024-04-04 10:39:15] INFO root fetch - processPackages [tuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuf-3.1.0.tar.gz tmp/tuf-3.1.1.tar.gz --markdown 20240404/t/tuf/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-04 10:39:15] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.7.tar.gz]
+[2024-04-04 10:39:15] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-04 10:39:15] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:39:15] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-04-04 10:39:15] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-04-04 10:39:15] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:39:15] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:39:16] INFO root fetch - processPackages [devnetgen]: Remove: archive file [/home/abi/fetcher/tmp/devnetgen-0.1.7.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - processPackages [devnetgen]: Remove: archive file [/home/abi/fetcher/tmp/devnetgen-0.1.8.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - main [MainThread]: End processing [devnetgen]: success
+[2024-04-04 10:39:16] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.7.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.2.8.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-04 10:39:16] INFO root fetch - processPackages [tuf]: Remove: archive file [/home/abi/fetcher/tmp/tuf-3.1.0.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - processPackages [tuf]: Remove: archive file [/home/abi/fetcher/tmp/tuf-3.1.1.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - main [MainThread]: End processing [tuf]: success
+[2024-04-04 10:39:16] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.926.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.929.tar.gz]
+[2024-04-04 10:39:16] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2024-04-04 10:39:16] INFO root fetch - main [MainThread]: Store serial: [22617278]
