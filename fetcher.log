@@ -24529,3 +24529,83 @@
 [2024-04-04 14:26:45] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.1.1.tar.gz]
 [2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
 [2024-04-04 14:26:45] INFO root fetch - main [MainThread]: Store serial: [22619773]
+[2024-04-04 14:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619773]
+[2024-04-04 14:28:54] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-dots
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ceasylog
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databricks-labs-remorph
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yurumikuji
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: q2db
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-kwargs
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: porran
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ceasylog]: New version: [1.2.1] Old Version: [1.1.1]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [yurumikuji]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [databricks-labs-remorph]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [mo-kwargs]: New version: [7.584.24095] Old Version: [7.582.24095]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [mo-dots]: New version: [9.584.24095] Old Version: [9.582.24095]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [porran]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 14:28:54] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/25/fa/415817ae95df2dcf4bd3061fcee219855b1bae27ce29e388bb8400a195c6/yurumikuji-0.4.0.tar.gz
+[2024-04-04 14:28:54] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/58/88/8ce4c94ee780167529506d41032446e94dccada37c57cab30a7e3f718f45/mo-kwargs-7.582.24095.tar.gz
+[2024-04-04 14:28:54] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/71/25/ebaa89ad02c62e58dd46c5eca04b1a73bca680d211fc34f1b05e254daa15/mo-dots-9.582.24095.tar.gz
+[2024-04-04 14:28:54] INFO root fetch - processPackages [ceasylog]: Downloading https://files.pythonhosted.org/packages/ef/6b/2040ec93adc173c5eaef57150b34d6316a74e5cea80e228a6fb508355a79/ceasylog-1.1.1.tar.gz
+[2024-04-04 14:28:54] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-04 14:28:54] INFO root fetch - processPackages [databricks-labs-remorph]: Downloading https://files.pythonhosted.org/packages/b4/ce/360563672815a102bc4127a7e4bf664f77ccf6ca63b2222336674c077cac/databricks_labs_remorph-0.1.5.tar.gz
+[2024-04-04 14:28:54] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2024-04-04 14:28:54] WARNING root fetch - processPackages [mo-kwargs]: Timeout reached during download
+[2024-04-04 14:28:54] WARNING root fetch - processPackages [mo-dots]: Timeout reached during download
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [ceasylog]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [porran]: Downloading https://files.pythonhosted.org/packages/c8/d6/8931240266ada41ffc828fbd237257ed765735989fd1d1405bf6367d4bc1/porran-0.0.5.tar.gz
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [q2db]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/42/08/f76231e542ad11f1af27672e4fb7828ce172cc5ea44b758b4e1eaacc990a/yurumikuji-0.5.0.tar.gz
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/83/b6/3baa68571ecb7a8b88875688315d1b401246fd058d6a240c4015c50b0e93/mo-dots-9.584.24095.tar.gz
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/bb/0c/1a344f6a1bb5f669e408fb62e7eff0aa4c21d392862833af7fe05d981f83/mo-kwargs-7.584.24095.tar.gz
+[2024-04-04 14:28:55] INFO root fetch - processPackages [ceasylog]: Downloading https://files.pythonhosted.org/packages/3d/ac/73aa40aefb178a5a7f151457acc1ed1995b11958730e42def3718a8a9e9e/ceasylog-1.2.1.tar.gz
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [databricks-labs-remorph]: Timeout reached during download
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [porran]: Timeout reached during download
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [yurumikuji]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [yurumikuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yurumikuji-0.4.0.tar.gz tmp/yurumikuji-0.5.0.tar.gz --markdown 20240404/y/yurumikuji/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [mo-dots]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-dots-9.582.24095.tar.gz tmp/mo-dots-9.584.24095.tar.gz --markdown 20240404/m/mo-dots/9.582.24095-9.584.24095/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [ceasylog]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [ceasylog]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [ceasylog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ceasylog-1.1.1.tar.gz tmp/ceasylog-1.2.1.tar.gz --markdown 20240404/c/ceasylog/1.1.1-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [mo-kwargs]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-kwargs-7.582.24095.tar.gz tmp/mo-kwargs-7.584.24095.tar.gz --markdown 20240404/m/mo-kwargs/7.582.24095-7.584.24095/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2024-04-04 14:28:55] INFO root fetch - processPackages [databricks-labs-remorph]: Downloading https://files.pythonhosted.org/packages/b1/1d/b050c1aa7827842fcbf2e0db2d5fd76602e22518f22762945d8c9202acde/databricks_labs_remorph-0.1.6.tar.gz
+[2024-04-04 14:28:55] INFO root fetch - processPackages [porran]: Downloading https://files.pythonhosted.org/packages/18/d9/9d72edf7de3cf96ceb52849b65cb671ae071210f508ac00878ab5048d030/porran-0.0.6.tar.gz
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [q2db]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20240404/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [databricks-labs-remorph]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [databricks-labs-remorph]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [databricks-labs-remorph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks_labs_remorph-0.1.5.tar.gz tmp/databricks_labs_remorph-0.1.6.tar.gz --markdown 20240404/d/databricks-labs-remorph/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 14:28:55] WARNING root fetch - processPackages [porran]: Timeout reached during download
+[2024-04-04 14:28:55] INFO root fetch - processPackages [porran]: executing diffoscope
+[2024-04-04 14:28:55] INFO root fetch - processPackages [porran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/porran-0.0.5.tar.gz tmp/porran-0.0.6.tar.gz --markdown 20240404/p/porran/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-04 14:28:56] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.4.0.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.5.0.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [yurumikuji]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [ceasylog]: Remove: archive file [/home/abi/fetcher/tmp/ceasylog-1.1.1.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [ceasylog]: Remove: archive file [/home/abi/fetcher/tmp/ceasylog-1.2.1.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [ceasylog]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo-dots-9.582.24095.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo-dots-9.584.24095.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo-kwargs-7.582.24095.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo-kwargs-7.584.24095.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [databricks-labs-remorph]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_remorph-0.1.5.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [databricks-labs-remorph]: Remove: archive file [/home/abi/fetcher/tmp/databricks_labs_remorph-0.1.6.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [databricks-labs-remorph]: success
+[2024-04-04 14:28:56] INFO root fetch - processPackages [porran]: Remove: archive file [/home/abi/fetcher/tmp/porran-0.0.5.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - processPackages [porran]: Remove: archive file [/home/abi/fetcher/tmp/porran-0.0.6.tar.gz]
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: End processing [porran]: success
+[2024-04-04 14:28:56] INFO root fetch - main [MainThread]: Store serial: [22619798]
