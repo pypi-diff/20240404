@@ -3022,3 +3022,83 @@
 [2024-04-04 02:11:44] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404040010.tar.gz]
 [2024-04-04 02:11:44] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
 [2024-04-04 02:11:44] INFO root fetch - main [MainThread]: Store serial: [22612625]
+[2024-04-04 02:13:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612625]
+[2024-04-04 02:13:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enum-with-dict
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ding-api-client
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gepref_text
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mixpeek
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: substack-api
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: trufflepig-py
+[2024-04-04 02:13:53] INFO root fetch - processPackages [enum-with-dict]: New version: [0.6.0] Old Version: [0.5.3]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ding-api-client]: New version: [3.4.1] Old Version: [3.4.0]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [mixpeek]: New version: [1.7] Old Version: [0.6.5]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [substack-api]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [trufflepig-py]: New version: [0.1.3] Old Version: [0.1.1]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [gepref_text]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.9] Old Version: [2.2.89]
+[2024-04-04 02:13:53] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/f5/63/a865c854be18397ba6deb43ed99eb6fe3f3e04dd8ad27a99c2d24796d592/enum_with_dict-0.5.3.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/27/2f/22fc67ca29a5d0ad11f10f9689749c1de90e9aa109af0d5518c545092eaf/ding_api_client-3.4.0.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/6f/f4/cf8dd05e889d07fcd085364d048fe0b9a4acc91c6e000233adc4c2da5ada/mixpeek-0.6.5.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/0c/d7/e142297345761dd02cb856b6dcd190973789aeb4b1e44e9758bde48e0b9b/cdk-events-notify-2.2.89.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [trufflepig-py]: Downloading https://files.pythonhosted.org/packages/f5/af/dc4614daee3a4757e65b2388abd654cb30350027e8cb360f2ac62045870c/trufflepig-py-0.1.1.tar.gz
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [ding-api-client]: Timeout reached during download
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 02:13:53] INFO root fetch - processPackages [gepref_text]: Downloading https://files.pythonhosted.org/packages/0e/66/435c271f12aa08b77bdef1082e5e800223d0f25d2f142f3dd499cdaa53d9/gepref_text-0.1.4.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [substack-api]: Downloading https://files.pythonhosted.org/packages/cd/db/e72974f8a5f8d2d1ebff417e72c7a7d66cdf63ff09ad95abb38b0a6ec393/substack_api-0.0.2.tar.gz
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [trufflepig-py]: Timeout reached during download
+[2024-04-04 02:13:53] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/10/43/5479c2de1f01e7900d928ea1ca15f6758b9ea43963737ae25f793435b056/enum_with_dict-0.6.0.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/4e/28/65883295a5dbdc3f5d384b7bfe1a5dd6004d59f0fed02f20b02e32bd7646/mixpeek-1.7.tar.gz
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ding-api-client]: Downloading https://files.pythonhosted.org/packages/cc/45/2139e852dd94cfac894debabdb1ff9646bf6434f58a89be94403edfc1740/ding_api_client-3.4.1.tar.gz
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [gepref_text]: Timeout reached during download
+[2024-04-04 02:13:53] INFO root fetch - processPackages [trufflepig-py]: Downloading https://files.pythonhosted.org/packages/10/fa/096e79c15b66eafe1e5fa856cd7976a31f5140d40c661bba1823b5e1630d/trufflepig-py-0.1.3.tar.gz
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 02:13:53] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 02:13:53] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.5.3.tar.gz tmp/enum_with_dict-0.6.0.tar.gz --markdown 20240404/e/enum-with-dict/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [substack-api]: Timeout reached during download
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [ding-api-client]: Timeout reached during download
+[2024-04-04 02:13:53] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ding-api-client]: executing diffoscope
+[2024-04-04 02:13:53] INFO root fetch - processPackages [ding-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ding_api_client-3.4.0.tar.gz tmp/ding_api_client-3.4.1.tar.gz --markdown 20240404/d/ding-api-client/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2024-04-04 02:13:53] INFO root fetch - processPackages [mixpeek]: executing diffoscope
+[2024-04-04 02:13:53] INFO root fetch - processPackages [mixpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixpeek-0.6.5.tar.gz tmp/mixpeek-1.7.tar.gz --markdown 20240404/m/mixpeek/0.6.5-1.7/diff.md --exclude *.pyd
+[2024-04-04 02:13:53] INFO root fetch - processPackages [gepref_text]: Downloading https://files.pythonhosted.org/packages/b6/33/297f0c26d3a1bba24f331238ab73753023becb498459500297ff44272762/gepref_text-0.1.5.tar.gz
+[2024-04-04 02:13:54] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a1/0e/5c24157512e0888da0f9517ac3e7fadfeda39580f53c9d502c41814e9212/cdk-events-notify-2.2.9.tar.gz
+[2024-04-04 02:13:54] WARNING root fetch - processPackages [gepref_text]: Timeout reached during download
+[2024-04-04 02:13:54] INFO root fetch - processPackages [gepref_text]: executing diffoscope
+[2024-04-04 02:13:54] INFO root fetch - processPackages [gepref_text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gepref_text-0.1.4.tar.gz tmp/gepref_text-0.1.5.tar.gz --markdown 20240404/g/gepref_text/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-04 02:13:54] INFO root fetch - processPackages [substack-api]: Downloading https://files.pythonhosted.org/packages/f5/73/4de75b32fa6c139be6f975478e0e9bb60c3f5902bd3300775d39b35ae580/substack_api-0.1.0.tar.gz
+[2024-04-04 02:13:54] WARNING root fetch - processPackages [trufflepig-py]: Timeout reached during download
+[2024-04-04 02:13:54] INFO root fetch - processPackages [trufflepig-py]: executing diffoscope
+[2024-04-04 02:13:54] INFO root fetch - processPackages [trufflepig-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trufflepig-py-0.1.1.tar.gz tmp/trufflepig-py-0.1.3.tar.gz --markdown 20240404/t/trufflepig-py/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 02:13:54] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-04 02:13:54] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-04 02:13:54] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.89.tar.gz tmp/cdk-events-notify-2.2.9.tar.gz --markdown 20240404/c/cdk-events-notify/2.2.89-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 02:13:54] WARNING root fetch - processPackages [substack-api]: Timeout reached during download
+[2024-04-04 02:13:54] INFO root fetch - processPackages [substack-api]: executing diffoscope
+[2024-04-04 02:13:54] INFO root fetch - processPackages [substack-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/substack_api-0.0.2.tar.gz tmp/substack_api-0.1.0.tar.gz --markdown 20240404/s/substack-api/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 02:13:54] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.5.3.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.0.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 02:13:54] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-0.6.5.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-1.7.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [mixpeek]: success
+[2024-04-04 02:13:54] INFO root fetch - processPackages [gepref_text]: Remove: archive file [/home/abi/fetcher/tmp/gepref_text-0.1.4.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [gepref_text]: Remove: archive file [/home/abi/fetcher/tmp/gepref_text-0.1.5.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [gepref_text]: success
+[2024-04-04 02:13:54] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.0.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [ding-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ding_api_client-3.4.1.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [ding-api-client]: success
+[2024-04-04 02:13:54] INFO root fetch - processPackages [trufflepig-py]: Remove: archive file [/home/abi/fetcher/tmp/trufflepig-py-0.1.1.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [trufflepig-py]: Remove: archive file [/home/abi/fetcher/tmp/trufflepig-py-0.1.3.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [trufflepig-py]: success
+[2024-04-04 02:13:54] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.89.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.9.tar.gz]
+[2024-04-04 02:13:54] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-04 02:13:55] INFO root fetch - processPackages [substack-api]: Remove: archive file [/home/abi/fetcher/tmp/substack_api-0.0.2.tar.gz]
+[2024-04-04 02:13:55] INFO root fetch - processPackages [substack-api]: Remove: archive file [/home/abi/fetcher/tmp/substack_api-0.1.0.tar.gz]
+[2024-04-04 02:13:55] INFO root fetch - main [MainThread]: End processing [substack-api]: success
+[2024-04-04 02:13:55] INFO root fetch - main [MainThread]: Store serial: [22612649]
