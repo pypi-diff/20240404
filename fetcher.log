@@ -10994,3 +10994,22 @@
 [2024-04-04 05:10:32] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.7.1.tar.gz]
 [2024-04-04 05:10:32] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
 [2024-04-04 05:10:32] INFO root fetch - main [MainThread]: Store serial: [22615071]
+[2024-04-04 05:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615071]
+[2024-04-04 05:12:40] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 05:14:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615071]
+[2024-04-04 05:14:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Group9
+[2024-04-04 05:14:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-hcp
+[2024-04-04 05:14:46] WARNING root fetch - processPackages [Group9]: Skipping, unable to determine old version
+[2024-04-04 05:14:46] INFO root fetch - main [MainThread]: End processing [Group9] error
+[2024-04-04 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: New version: [9.5.0] Old Version: [9.4.0]
+[2024-04-04 05:14:46] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/4f/41/082f159780edaad245ff457835f04f22e18e81f570414a64f24b5db93c3d/cdktf-cdktf-provider-hcp-9.4.0.tar.gz
+[2024-04-04 05:14:46] WARNING root fetch - processPackages [cdktf-cdktf-provider-hcp]: Timeout reached during download
+[2024-04-04 05:14:47] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Downloading https://files.pythonhosted.org/packages/ae/f1/f18feebd9f394702c969425875b7a222d333f923fb0b5239dd11d5cc73f9/cdktf-cdktf-provider-hcp-9.5.0.tar.gz
+[2024-04-04 05:14:47] WARNING root fetch - processPackages [cdktf-cdktf-provider-hcp]: Timeout reached during download
+[2024-04-04 05:14:47] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: executing diffoscope
+[2024-04-04 05:14:47] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-hcp-9.4.0.tar.gz tmp/cdktf-cdktf-provider-hcp-9.5.0.tar.gz --markdown 20240404/c/cdktf-cdktf-provider-hcp/9.4.0-9.5.0/diff.md --exclude *.pyd
+[2024-04-04 05:14:49] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.4.0.tar.gz]
+[2024-04-04 05:14:49] INFO root fetch - processPackages [cdktf-cdktf-provider-hcp]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-hcp-9.5.0.tar.gz]
+[2024-04-04 05:14:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-hcp]: success
+[2024-04-04 05:14:49] INFO root fetch - main [MainThread]: Store serial: [22615079]
