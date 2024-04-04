@@ -12196,3 +12196,17 @@
 [2024-04-04 06:22:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-04 06:22:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-04 06:22:40] INFO root fetch - main [MainThread]: Store serial: [22615439]
+[2024-04-04 06:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615439]
+[2024-04-04 06:24:48] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 06:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utils-base-nuuuwan
+[2024-04-04 06:24:48] INFO root fetch - processPackages [utils-base-nuuuwan]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 06:24:48] INFO root fetch - processPackages [utils-base-nuuuwan]: Downloading https://files.pythonhosted.org/packages/84/ab/d503434891345b28abb11e17fad134a74ea2b30daa232afee8c78fda0c05/utils_base-nuuuwan-1.0.8.tar.gz
+[2024-04-04 06:24:49] WARNING root fetch - processPackages [utils-base-nuuuwan]: Timeout reached during download
+[2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: Downloading https://files.pythonhosted.org/packages/0e/db/a92823e7d1d869c240d3952f198a4873a9e6ef9e1c66a3b1dc2135ad0c46/utils_base-nuuuwan-1.0.9.tar.gz
+[2024-04-04 06:24:49] WARNING root fetch - processPackages [utils-base-nuuuwan]: Timeout reached during download
+[2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: executing diffoscope
+[2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils_base-nuuuwan-1.0.8.tar.gz tmp/utils_base-nuuuwan-1.0.9.tar.gz --markdown 20240404/u/utils-base-nuuuwan/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_base-nuuuwan-1.0.8.tar.gz]
+[2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_base-nuuuwan-1.0.9.tar.gz]
+[2024-04-04 06:24:49] INFO root fetch - main [MainThread]: End processing [utils-base-nuuuwan]: success
+[2024-04-04 06:24:49] INFO root fetch - main [MainThread]: Store serial: [22615443]
