@@ -4202,3 +4202,64 @@
 [2024-04-04 02:40:15] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
 [2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [langgraph]: success
 [2024-04-04 02:40:15] INFO root fetch - main [MainThread]: Store serial: [22612976]
+[2024-04-04 02:42:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612976]
+[2024-04-04 02:42:24] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sartorial
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: runpod-pulumi-infra
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mamba-former
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TokenProbs
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mahdi-env
+[2024-04-04 02:42:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: custom-cytomine-client
+[2024-04-04 02:42:24] INFO root fetch - processPackages [TokenProbs]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 02:42:24] INFO root fetch - processPackages [mamba-former]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 02:42:24] WARNING root fetch - processPackages [runpod-pulumi-infra]: Skipping, unable to determine old version
+[2024-04-04 02:42:24] INFO root fetch - main [MainThread]: End processing [runpod-pulumi-infra] error
+[2024-04-04 02:42:24] INFO root fetch - processPackages [sartorial]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-04 02:42:24] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 02:42:24] INFO root fetch - processPackages [mahdi-env]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-04 02:42:24] INFO root fetch - processPackages [mamba-former]: Downloading https://files.pythonhosted.org/packages/b3/00/18b6108a97f67cb91a1147959d6e78e193072032906a828fc17570d6840d/mamba_former-0.0.1.tar.gz
+[2024-04-04 02:42:24] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/d0/ad/627647736dc451eb1d6b6709ac4f8960116e2be3366b60fed2f9ee490163/custom_cytomine_client-0.0.2.tar.gz
+[2024-04-04 02:42:24] INFO root fetch - processPackages [mahdi-env]: Downloading https://files.pythonhosted.org/packages/e7/55/2b62f2582b5f8cd4d27adf3f0eb485acde12e6c84fbaf29b60a291a2fd7b/mahdi_env-0.0.0.tar.gz
+[2024-04-04 02:42:24] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/b6/bb/d2b74b222442f20f8c8ab9a6d83d6e5be9f372ff177136ba1615358c97f7/TokenProbs-0.0.5.tar.gz
+[2024-04-04 02:42:24] INFO root fetch - processPackages [sartorial]: Downloading https://files.pythonhosted.org/packages/be/d1/06c0ab28292978f320cfc48d5eb061499817359bbe0aa98021a3e9bf8a94/sartorial-0.6.1.tar.gz
+[2024-04-04 02:42:24] WARNING root fetch - processPackages [mamba-former]: Timeout reached during download
+[2024-04-04 02:42:24] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 02:42:24] WARNING root fetch - processPackages [mahdi-env]: Timeout reached during download
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [sartorial]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mamba-former]: Downloading https://files.pythonhosted.org/packages/2b/a0/bf79b99183eeaf4c0372a9ed4d359998e780a0e6313de5818cf671152d8c/mamba_former-0.0.2.tar.gz
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mahdi-env]: Downloading https://files.pythonhosted.org/packages/2b/db/3d096cf55392af770de2b465d9d27a4e9b642e1c47a742a70442da3290ec/mahdi_env-0.0.1.tar.gz
+[2024-04-04 02:42:25] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/ca/59/f970232d2b8227042b30f56bd2bad96cab986f0139193f9363b770c328b9/TokenProbs-0.0.6.tar.gz
+[2024-04-04 02:42:25] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e2/0e/2da4674396d5035e83a70a6f09c484547eb8ed08fd6a32502a1336ecfef7/custom_cytomine_client-0.0.3.tar.gz
+[2024-04-04 02:42:25] INFO root fetch - processPackages [sartorial]: Downloading https://files.pythonhosted.org/packages/58/5e/022f4019073f65402d9f1c37484ee2368970bae713feb39f85329845b6a0/sartorial-0.7.0.tar.gz
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [mamba-former]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mamba-former]: executing diffoscope
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mamba-former]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mamba_former-0.0.1.tar.gz tmp/mamba_former-0.0.2.tar.gz --markdown 20240404/m/mamba-former/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [mahdi-env]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mahdi-env]: executing diffoscope
+[2024-04-04 02:42:25] INFO root fetch - processPackages [mahdi-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mahdi_env-0.0.0.tar.gz tmp/mahdi_env-0.0.1.tar.gz --markdown 20240404/m/mahdi-env/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [TokenProbs]: executing diffoscope
+[2024-04-04 02:42:25] INFO root fetch - processPackages [TokenProbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TokenProbs-0.0.5.tar.gz tmp/TokenProbs-0.0.6.tar.gz --markdown 20240404/T/TokenProbs/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 02:42:25] WARNING root fetch - processPackages [sartorial]: Timeout reached during download
+[2024-04-04 02:42:25] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.2.tar.gz tmp/custom_cytomine_client-0.0.3.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 02:42:25] INFO root fetch - processPackages [sartorial]: executing diffoscope
+[2024-04-04 02:42:25] INFO root fetch - processPackages [sartorial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sartorial-0.6.1.tar.gz tmp/sartorial-0.7.0.tar.gz --markdown 20240404/s/sartorial/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 02:42:25] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.5.tar.gz]
+[2024-04-04 02:42:25] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.6.tar.gz]
+[2024-04-04 02:42:25] INFO root fetch - main [MainThread]: End processing [TokenProbs]: success
+[2024-04-04 02:42:26] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.2.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.3.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 02:42:26] INFO root fetch - processPackages [mamba-former]: Remove: archive file [/home/abi/fetcher/tmp/mamba_former-0.0.1.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - processPackages [mamba-former]: Remove: archive file [/home/abi/fetcher/tmp/mamba_former-0.0.2.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - main [MainThread]: End processing [mamba-former]: success
+[2024-04-04 02:42:26] INFO root fetch - processPackages [sartorial]: Remove: archive file [/home/abi/fetcher/tmp/sartorial-0.6.1.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - processPackages [sartorial]: Remove: archive file [/home/abi/fetcher/tmp/sartorial-0.7.0.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - main [MainThread]: End processing [sartorial]: success
+[2024-04-04 02:42:26] INFO root fetch - processPackages [mahdi-env]: Remove: archive file [/home/abi/fetcher/tmp/mahdi_env-0.0.0.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - processPackages [mahdi-env]: Remove: archive file [/home/abi/fetcher/tmp/mahdi_env-0.0.1.tar.gz]
+[2024-04-04 02:42:26] INFO root fetch - main [MainThread]: End processing [mahdi-env]: success
+[2024-04-04 02:42:26] INFO root fetch - main [MainThread]: Store serial: [22613000]
