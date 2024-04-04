@@ -14663,3 +14663,28 @@
 [2024-04-04 08:21:46] INFO root fetch - processPackages [rivalcfg]: Remove: archive file [/home/abi/fetcher/tmp/rivalcfg-4.9.1.tar.gz]
 [2024-04-04 08:21:46] INFO root fetch - main [MainThread]: End processing [rivalcfg]: success
 [2024-04-04 08:21:46] INFO root fetch - main [MainThread]: Store serial: [22616209]
+[2024-04-04 08:23:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616209]
+[2024-04-04 08:23:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 08:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: machinable
+[2024-04-04 08:23:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-picking-mass-action
+[2024-04-04 08:23:55] INFO root fetch - processPackages [machinable]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-04-04 08:23:55] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2024-04-04 08:23:55] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Downloading https://files.pythonhosted.org/packages/b5/89/023435323f885d8382d8222f4fe6f65637113ed3214cf0d39ad77d08fcba/odoo_addon_stock_picking_mass_action-16.0.1.1.0-py3-none-any.whl
+[2024-04-04 08:23:55] INFO root fetch - processPackages [machinable]: Downloading https://files.pythonhosted.org/packages/7c/58/bf66e5ec118b423f7fa6534ec3ea8327bd58fc33621be68d53b809174756/machinable-4.9.1.tar.gz
+[2024-04-04 08:23:55] WARNING root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Timeout reached during download
+[2024-04-04 08:23:55] WARNING root fetch - processPackages [machinable]: Timeout reached during download
+[2024-04-04 08:23:55] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Downloading https://files.pythonhosted.org/packages/ad/51/072e91961bac40d6918c9ee75c21197f5467d019967b04b00c44af8d2f40/odoo_addon_stock_picking_mass_action-16.0.1.1.0.1-py3-none-any.whl
+[2024-04-04 08:23:56] WARNING root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Timeout reached during download
+[2024-04-04 08:23:56] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: executing diffoscope
+[2024-04-04 08:23:56] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_picking_mass_action-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_stock_picking_mass_action-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-picking-mass-action/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: Downloading https://files.pythonhosted.org/packages/e6/0f/e40ddfd55251db5bd52840b0f2939a4ab5deb5c2a7dfc34bda2d431eb7c7/machinable-4.9.2.tar.gz
+[2024-04-04 08:23:56] WARNING root fetch - processPackages [machinable]: Timeout reached during download
+[2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: executing diffoscope
+[2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machinable-4.9.1.tar.gz tmp/machinable-4.9.2.tar.gz --markdown 20240404/m/machinable/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2024-04-04 08:23:56] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_mass_action-16.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-04 08:23:56] INFO root fetch - processPackages [odoo-addon-stock-picking-mass-action]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_picking_mass_action-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:23:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-picking-mass-action]: success
+[2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: Remove: archive file [/home/abi/fetcher/tmp/machinable-4.9.1.tar.gz]
+[2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: Remove: archive file [/home/abi/fetcher/tmp/machinable-4.9.2.tar.gz]
+[2024-04-04 08:23:56] INFO root fetch - main [MainThread]: End processing [machinable]: success
+[2024-04-04 08:23:56] INFO root fetch - main [MainThread]: Store serial: [22616216]
