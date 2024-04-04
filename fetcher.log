@@ -24004,3 +24004,72 @@
 [2024-04-04 14:09:06] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-04 14:09:06] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-04 14:09:06] INFO root fetch - main [MainThread]: Store serial: [22619536]
+[2024-04-04 14:11:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619536]
+[2024-04-04 14:11:15] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torcheval-nightly
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FastWARC
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: glassflow
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esbmc-ai
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Resiliparse
+[2024-04-04 14:11:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fse.torii
+[2024-04-04 14:11:15] INFO root fetch - processPackages [glassflow]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [esbmc-ai]: New version: [0.5.0rc0] Old Version: [0.5.0.dev9]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [FastWARC]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-04-04 14:11:15] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/74/da/eac40d57fd19dad5f1e592b4e8548c83575a82dbf8941777d4d80588872e/esbmc_ai-0.5.0.dev9.tar.gz
+[2024-04-04 14:11:15] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/1c/dd/633efd8131e6e811b8644679472319b4fd5daf03bc0e641fc1f755667b39/torcheval-nightly-2024.4.3.tar.gz
+[2024-04-04 14:11:15] INFO root fetch - processPackages [glassflow]: Downloading https://files.pythonhosted.org/packages/fe/92/d1614c2b062332ea6ec6fd584f6eb90b1780c7fa23c5819c2e411e937b52/glassflow-1.0.0.tar.gz
+[2024-04-04 14:11:15] WARNING root fetch - processPackages [fse.torii]: Timeout reached during download
+[2024-04-04 14:11:15] INFO root fetch - processPackages [FastWARC]: Downloading https://files.pythonhosted.org/packages/79/3a/8091024ab8a6243ef2e6ef2cfad1aed815611cf533b3e8a72b37559b2a02/FastWARC-0.8.1.tar.gz
+[2024-04-04 14:11:15] WARNING root fetch - processPackages [torcheval-nightly]: Timeout reached during download
+[2024-04-04 14:11:15] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-04 14:11:15] WARNING root fetch - processPackages [glassflow]: Timeout reached during download
+[2024-04-04 14:11:15] INFO root fetch - processPackages [Resiliparse]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-04 14:11:15] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/c3/8e/c0b330721b7961c182ad28c46b8ba03c2ad15188327edadcecb1f27ef04f/esbmc_ai-0.5.0rc0.tar.gz
+[2024-04-04 14:11:15] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-04-04 14:11:15] INFO root fetch - processPackages [glassflow]: Downloading https://files.pythonhosted.org/packages/01/77/279338efa1531ba25fb0a6be2b2eee54fcb03224c0f73b965bf80597e9d6/glassflow-1.0.1.tar.gz
+[2024-04-04 14:11:15] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/fc/50/41df2444f116b9b9cdb1529bfb9140c8ed565ed0ad9ab16ee193ed1a4202/torcheval-nightly-2024.4.4.tar.gz
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [FastWARC]: Timeout reached during download
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [fse.torii]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240404/f/fse.torii/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [esbmc-ai]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [esbmc-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmc_ai-0.5.0.dev9.tar.gz tmp/esbmc_ai-0.5.0rc0.tar.gz --markdown 20240404/e/esbmc-ai/0.5.0.dev9-0.5.0rc0/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] INFO root fetch - processPackages [Resiliparse]: Downloading https://files.pythonhosted.org/packages/ea/e6/9c83d67dc172af31874fb1ac828d6c6917786f0df539c921dc4aaa9f15c4/Resiliparse-0.8.1.tar.gz
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [glassflow]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [glassflow]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [glassflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glassflow-1.0.0.tar.gz tmp/glassflow-1.0.1.tar.gz --markdown 20240404/g/glassflow/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [torcheval-nightly]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.4.3.tar.gz tmp/torcheval-nightly-2024.4.4.tar.gz --markdown 20240404/t/torcheval-nightly/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] INFO root fetch - processPackages [FastWARC]: Downloading https://files.pythonhosted.org/packages/3c/5c/7c55152b69f868a4cb3d76ef4cfcd60560ab83bf286ba6d2adabfdf6ab00/FastWARC-0.9.0.tar.gz
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [Resiliparse]: Timeout reached during download
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [FastWARC]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [FastWARC]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [FastWARC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FastWARC-0.8.1.tar.gz tmp/FastWARC-0.9.0.tar.gz --markdown 20240404/F/FastWARC/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] INFO root fetch - processPackages [Resiliparse]: Downloading https://files.pythonhosted.org/packages/2d/1e/05bc847bd25a19b3afd1d114b7fefcbaf63647634603f8ac64587d84595c/Resiliparse-0.9.0.tar.gz
+[2024-04-04 14:11:16] WARNING root fetch - processPackages [Resiliparse]: Timeout reached during download
+[2024-04-04 14:11:16] INFO root fetch - processPackages [Resiliparse]: executing diffoscope
+[2024-04-04 14:11:16] INFO root fetch - processPackages [Resiliparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Resiliparse-0.8.1.tar.gz tmp/Resiliparse-0.9.0.tar.gz --markdown 20240404/R/Resiliparse/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 14:11:16] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-04-04 14:11:16] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-04-04 14:11:16] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-04-04 14:11:16] INFO root fetch - processPackages [glassflow]: Remove: archive file [/home/abi/fetcher/tmp/glassflow-1.0.0.tar.gz]
+[2024-04-04 14:11:16] INFO root fetch - processPackages [glassflow]: Remove: archive file [/home/abi/fetcher/tmp/glassflow-1.0.1.tar.gz]
+[2024-04-04 14:11:17] INFO root fetch - main [MainThread]: End processing [glassflow]: success
+[2024-04-04 14:11:17] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.3.tar.gz]
+[2024-04-04 14:11:17] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.4.tar.gz]
+[2024-04-04 14:11:17] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-04 14:11:17] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev9.tar.gz]
+[2024-04-04 14:11:17] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0rc0.tar.gz]
+[2024-04-04 14:11:17] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
+[2024-04-04 14:11:18] INFO root fetch - processPackages [FastWARC]: Remove: archive file [/home/abi/fetcher/tmp/FastWARC-0.8.1.tar.gz]
+[2024-04-04 14:11:18] INFO root fetch - processPackages [FastWARC]: Remove: archive file [/home/abi/fetcher/tmp/FastWARC-0.9.0.tar.gz]
+[2024-04-04 14:11:18] INFO root fetch - main [MainThread]: End processing [FastWARC]: success
+[2024-04-04 14:11:19] INFO root fetch - processPackages [Resiliparse]: Remove: archive file [/home/abi/fetcher/tmp/Resiliparse-0.8.1.tar.gz]
+[2024-04-04 14:11:19] INFO root fetch - processPackages [Resiliparse]: Remove: archive file [/home/abi/fetcher/tmp/Resiliparse-0.9.0.tar.gz]
+[2024-04-04 14:11:19] INFO root fetch - main [MainThread]: End processing [Resiliparse]: success
+[2024-04-04 14:11:19] INFO root fetch - main [MainThread]: Store serial: [22619586]
