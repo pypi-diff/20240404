@@ -18326,3 +18326,56 @@
 [2024-04-04 10:54:03] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-jupyterlab-extension-0.3.1.tar.gz]
 [2024-04-04 10:54:03] INFO root fetch - main [MainThread]: End processing [sagemaker-jupyterlab-extension]: success
 [2024-04-04 10:54:03] INFO root fetch - main [MainThread]: Store serial: [22617406]
+[2024-04-04 10:56:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617406]
+[2024-04-04 10:56:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-ns1
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: what2read
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encryption-tool
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lakefs
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: werk24
+[2024-04-04 10:56:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: graphene-django-query-optimizer
+[2024-04-04 10:56:13] WARNING root fetch - processPackages [encryption-tool]: Skipping, unable to determine old version
+[2024-04-04 10:56:13] INFO root fetch - main [MainThread]: End processing [encryption-tool] error
+[2024-04-04 10:56:13] INFO root fetch - processPackages [lakefs]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-04 10:56:13] WARNING root fetch - processPackages [what2read]: Skipping, unable to determine old version
+[2024-04-04 10:56:13] INFO root fetch - main [MainThread]: End processing [what2read] error
+[2024-04-04 10:56:13] INFO root fetch - processPackages [graphene-django-query-optimizer]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-04 10:56:13] INFO root fetch - processPackages [werk24]: New version: [1.9.0] Old Version: [1.8.3]
+[2024-04-04 10:56:13] INFO root fetch - processPackages [pulumi-ns1]: New version: [3.3.0a1712219894] Old Version: [3.3.0a1711737858]
+[2024-04-04 10:56:13] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/52/89/7b1c3abc19e572581ad44c352a4fdbe54b75de791eb8b5fb5d6b1c6bb1d8/graphene_django_query_optimizer-0.5.0.tar.gz
+[2024-04-04 10:56:13] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/57/50/6f2186808829e04165a6e3f9277f67fd0a7476173f6863283af52023596d/lakefs-0.4.1.tar.gz
+[2024-04-04 10:56:13] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/d6/5b/5ca01d38e791eed800c97c3a5b97474084727fe07c39e1b389d45078bba3/pulumi_ns1-3.3.0a1711737858.tar.gz
+[2024-04-04 10:56:13] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/d3/13/7071f3ddadcaea9f7fb1135af323a4edea6039ad8e3d66640b311aa68558/werk24-1.8.3.tar.gz
+[2024-04-04 10:56:13] WARNING root fetch - processPackages [graphene-django-query-optimizer]: Timeout reached during download
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [lakefs]: Timeout reached during download
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [pulumi-ns1]: Timeout reached during download
+[2024-04-04 10:56:14] INFO root fetch - processPackages [graphene-django-query-optimizer]: Downloading https://files.pythonhosted.org/packages/7d/62/1cf752af8f04132cec10f9e47dbf743ac93acf54deba05f8729793b6c3eb/graphene_django_query_optimizer-0.5.1.tar.gz
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [werk24]: Timeout reached during download
+[2024-04-04 10:56:14] INFO root fetch - processPackages [lakefs]: Downloading https://files.pythonhosted.org/packages/f1/c1/88f6ad3cb4a1b314279a24ad33244de20d12fe96e5d87048d295a7f1b3ea/lakefs-0.5.0.tar.gz
+[2024-04-04 10:56:14] INFO root fetch - processPackages [pulumi-ns1]: Downloading https://files.pythonhosted.org/packages/5d/91/f3fb7a7a262385d580dac35c471381da69d3585c92fb399a55d8f5fc3ada/pulumi_ns1-3.3.0a1712219894.tar.gz
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [graphene-django-query-optimizer]: Timeout reached during download
+[2024-04-04 10:56:14] INFO root fetch - processPackages [graphene-django-query-optimizer]: executing diffoscope
+[2024-04-04 10:56:14] INFO root fetch - processPackages [graphene-django-query-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene_django_query_optimizer-0.5.0.tar.gz tmp/graphene_django_query_optimizer-0.5.1.tar.gz --markdown 20240404/g/graphene-django-query-optimizer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-04 10:56:14] INFO root fetch - processPackages [werk24]: Downloading https://files.pythonhosted.org/packages/58/26/148daf3b1abf625db9db634dc22813074fa5d595bbdc23e00874ea332d21/werk24-1.9.0.tar.gz
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [lakefs]: Timeout reached during download
+[2024-04-04 10:56:14] INFO root fetch - processPackages [lakefs]: executing diffoscope
+[2024-04-04 10:56:14] INFO root fetch - processPackages [lakefs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-0.4.1.tar.gz tmp/lakefs-0.5.0.tar.gz --markdown 20240404/l/lakefs/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 10:56:14] WARNING root fetch - processPackages [pulumi-ns1]: Timeout reached during download
+[2024-04-04 10:56:14] INFO root fetch - processPackages [pulumi-ns1]: executing diffoscope
+[2024-04-04 10:56:14] INFO root fetch - processPackages [pulumi-ns1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_ns1-3.3.0a1711737858.tar.gz tmp/pulumi_ns1-3.3.0a1712219894.tar.gz --markdown 20240404/p/pulumi-ns1/3.3.0a1711737858-3.3.0a1712219894/diff.md --exclude *.pyd
+[2024-04-04 10:56:15] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.0.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - processPackages [graphene-django-query-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene_django_query_optimizer-0.5.1.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - main [MainThread]: End processing [graphene-django-query-optimizer]: success
+[2024-04-04 10:56:15] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.4.1.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - processPackages [lakefs]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-0.5.0.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - main [MainThread]: End processing [lakefs]: success
+[2024-04-04 10:56:15] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1711737858.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - processPackages [pulumi-ns1]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_ns1-3.3.0a1712219894.tar.gz]
+[2024-04-04 10:56:15] INFO root fetch - main [MainThread]: End processing [pulumi-ns1]: success
+[2024-04-04 10:56:15] WARNING root fetch - processPackages [werk24]: Timeout reached during download
+[2024-04-04 10:56:15] INFO root fetch - processPackages [werk24]: executing diffoscope
+[2024-04-04 10:56:15] INFO root fetch - processPackages [werk24]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/werk24-1.8.3.tar.gz tmp/werk24-1.9.0.tar.gz --markdown 20240404/w/werk24/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:56:16] INFO root fetch - processPackages [werk24]: Remove: archive file [/home/abi/fetcher/tmp/werk24-1.8.3.tar.gz]
+[2024-04-04 10:56:16] INFO root fetch - processPackages [werk24]: Remove: archive file [/home/abi/fetcher/tmp/werk24-1.9.0.tar.gz]
+[2024-04-04 10:56:16] INFO root fetch - main [MainThread]: End processing [werk24]: success
+[2024-04-04 10:56:16] INFO root fetch - main [MainThread]: Store serial: [22617427]
