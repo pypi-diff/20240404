@@ -9859,3 +9859,56 @@
 [2024-04-04 04:03:59] INFO root fetch - processPackages [py3office]: Remove: archive file [/home/abi/fetcher/tmp/py3office-0.3.0.tar.gz]
 [2024-04-04 04:03:59] INFO root fetch - main [MainThread]: End processing [py3office]: success
 [2024-04-04 04:03:59] INFO root fetch - main [MainThread]: Store serial: [22614688]
+[2024-04-04 04:06:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614688]
+[2024-04-04 04:06:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DebugInfo
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: screenshotct
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: confluentfucci
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dragonfly-uwg
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fsdiffnet
+[2024-04-04 04:06:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aixblock-tools
+[2024-04-04 04:06:08] WARNING root fetch - processPackages [fsdiffnet]: Skipping, unable to determine old version
+[2024-04-04 04:06:08] INFO root fetch - main [MainThread]: End processing [fsdiffnet] error
+[2024-04-04 04:06:08] WARNING root fetch - processPackages [screenshotct]: Skipping, unable to determine old version
+[2024-04-04 04:06:08] INFO root fetch - main [MainThread]: End processing [screenshotct] error
+[2024-04-04 04:06:08] INFO root fetch - processPackages [confluentfucci]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 04:06:08] INFO root fetch - processPackages [DebugInfo]: New version: [9.1.0] Old Version: [9.0.0]
+[2024-04-04 04:06:09] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-04 04:06:09] INFO root fetch - processPackages [aixblock-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 04:06:09] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/ac/b6/dd3a14f2eed957bbb74562a0d58adf6a4e7f069a2dab78b8b6e424ad66ca/confluentfucci-1.0.4.tar.gz
+[2024-04-04 04:06:09] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-04 04:06:09] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/31/af/5a8eebec406e1e4bbdfeab062085388d955a3564d1b9fc990a8791223e11/aixblock_tools-0.0.2.tar.gz
+[2024-04-04 04:06:09] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/06/dc/6f041269ad379c07e91b1bbf9bbcea47f424f3d9b04bf58b8af95b10bd3a/DebugInfo-9.0.0.tar.gz
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [confluentfucci]: Downloading https://files.pythonhosted.org/packages/f3/6d/d630662e4682fd3a41484fe4b1d79159c357af77c5180ae3c6087031fc21/confluentfucci-1.0.5.tar.gz
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [DebugInfo]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [confluentfucci]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [confluentfucci]: executing diffoscope
+[2024-04-04 04:06:09] INFO root fetch - processPackages [confluentfucci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/confluentfucci-1.0.4.tar.gz tmp/confluentfucci-1.0.5.tar.gz --markdown 20240404/c/confluentfucci/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 04:06:09] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/02/2f/996b341e07da6d8cb170314ada60eed8da08f2aa8428953e059badc82444/aixblock_tools-0.0.3.tar.gz
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-04 04:06:09] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240404/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-04 04:06:09] INFO root fetch - processPackages [DebugInfo]: Downloading https://files.pythonhosted.org/packages/3a/f6/279accf5d57aa0fb1b9308ac3c3f52eb99a26d6af32968ec7ea6a2d3e079/DebugInfo-9.1.0.tar.gz
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [aixblock-tools]: executing diffoscope
+[2024-04-04 04:06:09] INFO root fetch - processPackages [aixblock-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_tools-0.0.2.tar.gz tmp/aixblock_tools-0.0.3.tar.gz --markdown 20240404/a/aixblock-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 04:06:09] WARNING root fetch - processPackages [DebugInfo]: Timeout reached during download
+[2024-04-04 04:06:09] INFO root fetch - processPackages [DebugInfo]: executing diffoscope
+[2024-04-04 04:06:09] INFO root fetch - processPackages [DebugInfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DebugInfo-9.0.0.tar.gz tmp/DebugInfo-9.1.0.tar.gz --markdown 20240404/D/DebugInfo/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2024-04-04 04:06:10] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.4.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - processPackages [confluentfucci]: Remove: archive file [/home/abi/fetcher/tmp/confluentfucci-1.0.5.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - main [MainThread]: End processing [confluentfucci]: success
+[2024-04-04 04:06:10] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.2.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.3.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - main [MainThread]: End processing [aixblock-tools]: success
+[2024-04-04 04:06:10] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-04 04:06:10] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.0.0.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.1.0.tar.gz]
+[2024-04-04 04:06:10] INFO root fetch - main [MainThread]: End processing [DebugInfo]: success
+[2024-04-04 04:06:10] INFO root fetch - main [MainThread]: Store serial: [22614709]
