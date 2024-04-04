@@ -11587,3 +11587,44 @@
 [2024-04-04 05:49:38] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.6.tar.gz]
 [2024-04-04 05:49:38] INFO root fetch - main [MainThread]: End processing [nbprint]: success
 [2024-04-04 05:49:38] INFO root fetch - main [MainThread]: Store serial: [22615251]
+[2024-04-04 05:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615251]
+[2024-04-04 05:51:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 05:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swcgeom
+[2024-04-04 05:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: confitti
+[2024-04-04 05:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-math
+[2024-04-04 05:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Giraffe-View
+[2024-04-04 05:51:47] INFO root fetch - processPackages [swcgeom]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 05:51:47] INFO root fetch - processPackages [confitti]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 05:51:47] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.8] Old Version: [0.1.0.7]
+[2024-04-04 05:51:47] INFO root fetch - processPackages [mo-math]: New version: [7.582.24095] Old Version: [7.579.24081]
+[2024-04-04 05:51:47] INFO root fetch - processPackages [confitti]: Downloading https://files.pythonhosted.org/packages/90/ce/c3b5a24c6c89e08fb1c41379db0b7d8f2eb7ee3a17a763dbbd29e50c0aca/confitti-0.1.1.tar.gz
+[2024-04-04 05:51:47] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/03/f8/65688d086a1922f3ad8b43e97e4e653acc3c1c6f4b93060bc44d9ba6d297/Giraffe_View-0.1.0.7.tar.gz
+[2024-04-04 05:51:47] WARNING root fetch - processPackages [confitti]: Skipping package: exceeds size limit 12909528>=10485760
+[2024-04-04 05:51:47] INFO root fetch - main [MainThread]: End processing [confitti] error
+[2024-04-04 05:51:47] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/58/f8/e57768ceabc8897ce229ef89b19cd50e05f2ff38253211b93678b5b94378/mo-math-7.579.24081.tar.gz
+[2024-04-04 05:51:47] INFO root fetch - processPackages [swcgeom]: Downloading https://files.pythonhosted.org/packages/69/50/47107683c2c6e33f33d0a5032f48bad016082b8c536b1ea65edcbd2fa614/swcgeom-0.8.0.tar.gz
+[2024-04-04 05:51:47] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:51:47] WARNING root fetch - processPackages [mo-math]: Timeout reached during download
+[2024-04-04 05:51:47] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/5e/d1/3b21947f5243b9d054c8bbbfc868ae33a3306d13a5385e034588840b90a3/Giraffe_View-0.1.0.8.tar.gz
+[2024-04-04 05:51:47] INFO root fetch - processPackages [mo-math]: Downloading https://files.pythonhosted.org/packages/4e/59/d8498401786f5b2a96257f88ba3cb568e82c71cfaa0f4d3745fe3462b26a/mo-math-7.582.24095.tar.gz
+[2024-04-04 05:51:47] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:51:47] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-04 05:51:47] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.7.tar.gz tmp/Giraffe_View-0.1.0.8.tar.gz --markdown 20240404/G/Giraffe-View/0.1.0.7-0.1.0.8/diff.md --exclude *.pyd
+[2024-04-04 05:51:48] WARNING root fetch - processPackages [mo-math]: Timeout reached during download
+[2024-04-04 05:51:48] INFO root fetch - processPackages [mo-math]: executing diffoscope
+[2024-04-04 05:51:48] INFO root fetch - processPackages [mo-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-math-7.579.24081.tar.gz tmp/mo-math-7.582.24095.tar.gz --markdown 20240404/m/mo-math/7.579.24081-7.582.24095/diff.md --exclude *.pyd
+[2024-04-04 05:51:48] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.7.tar.gz]
+[2024-04-04 05:51:48] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.8.tar.gz]
+[2024-04-04 05:51:48] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-04 05:51:48] WARNING root fetch - processPackages [swcgeom]: Timeout reached during download
+[2024-04-04 05:51:48] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo-math-7.579.24081.tar.gz]
+[2024-04-04 05:51:48] INFO root fetch - processPackages [mo-math]: Remove: archive file [/home/abi/fetcher/tmp/mo-math-7.582.24095.tar.gz]
+[2024-04-04 05:51:48] INFO root fetch - main [MainThread]: End processing [mo-math]: success
+[2024-04-04 05:51:48] INFO root fetch - processPackages [swcgeom]: Downloading https://files.pythonhosted.org/packages/5e/01/21fad200bc76a70b07900952e197e18fc7fc55cf10ce14e4985e47a9c76a/swcgeom-0.9.0.tar.gz
+[2024-04-04 05:51:49] WARNING root fetch - processPackages [swcgeom]: Timeout reached during download
+[2024-04-04 05:51:49] INFO root fetch - processPackages [swcgeom]: executing diffoscope
+[2024-04-04 05:51:49] INFO root fetch - processPackages [swcgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swcgeom-0.8.0.tar.gz tmp/swcgeom-0.9.0.tar.gz --markdown 20240404/s/swcgeom/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 05:51:50] INFO root fetch - processPackages [swcgeom]: Remove: archive file [/home/abi/fetcher/tmp/swcgeom-0.8.0.tar.gz]
+[2024-04-04 05:51:50] INFO root fetch - processPackages [swcgeom]: Remove: archive file [/home/abi/fetcher/tmp/swcgeom-0.9.0.tar.gz]
+[2024-04-04 05:51:50] INFO root fetch - main [MainThread]: End processing [swcgeom]: success
+[2024-04-04 05:51:50] INFO root fetch - main [MainThread]: Store serial: [22615263]
