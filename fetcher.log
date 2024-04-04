@@ -10092,3 +10092,61 @@
 [2024-04-04 04:14:58] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2024-04-04 04:14:58] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2024-04-04 04:14:58] INFO root fetch - main [MainThread]: Store serial: [22614758]
+[2024-04-04 04:17:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614758]
+[2024-04-04 04:17:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aixblock-tools
+[2024-04-04 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbase
+[2024-04-04 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadreamer.dev
+[2024-04-04 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: snowflakecli
+[2024-04-04 04:17:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-flake8-builtins
+[2024-04-04 04:17:07] INFO root fetch - processPackages [aixblock-tools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 04:17:07] INFO root fetch - processPackages [snowflakecli]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-04 04:17:07] INFO root fetch - processPackages [types-flake8-builtins]: New version: [2.4.0.20240404] Old Version: [2.3.0.20240331]
+[2024-04-04 04:17:07] INFO root fetch - processPackages [datadreamer.dev]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 04:17:07] INFO root fetch - processPackages [sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2024-04-04 04:17:07] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/02/2f/996b341e07da6d8cb170314ada60eed8da08f2aa8428953e059badc82444/aixblock_tools-0.0.3.tar.gz
+[2024-04-04 04:17:07] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/1f/2c/32b5de0e35ed3db2eca18fdce324ee199b1fcc089bc278d325fc111ad6b4/datadreamer_dev-0.8.0.tar.gz
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 04:17:07] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/c6/ce/085de5b51060f024fb1c1be40fb3e271f9f611d03ff10304a06b4cd12ebf/types-flake8-builtins-2.3.0.20240331.tar.gz
+[2024-04-04 04:17:07] INFO root fetch - processPackages [snowflakecli]: Downloading https://files.pythonhosted.org/packages/85/94/7230f1b2b90084fe641a2328f254668f6c39fe575d4058eab93433b73773/snowflakecli-0.2.0.tar.gz
+[2024-04-04 04:17:07] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/10/f9/904caa9ffcdc6c4e7625f527d7ff03e2ccbecc9c360a7557b298321e506d/sbase-4.9.8.tar.gz
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [snowflakecli]: Timeout reached during download
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [types-flake8-builtins]: Timeout reached during download
+[2024-04-04 04:17:07] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/60/82/fac1d67de7cc9a79de29eb5fafcf0e7a38c53f981379e08cad9f589afad3/aixblock_tools-0.0.4.tar.gz
+[2024-04-04 04:17:07] INFO root fetch - processPackages [snowflakecli]: Downloading https://files.pythonhosted.org/packages/87/60/3c3262d9a72b7d0b6197b8e9952d2878eefeaf7fba298776f7bec9b6e1d3/snowflakecli-0.3.0.tar.gz
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [datadreamer.dev]: Timeout reached during download
+[2024-04-04 04:17:07] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/62/0d/56fc1e4a6f6a4c626b607280ddfe1d8aa74af487837936ea914fbb7f2bb0/types-flake8-builtins-2.4.0.20240404.tar.gz
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 04:17:07] INFO root fetch - processPackages [aixblock-tools]: executing diffoscope
+[2024-04-04 04:17:07] INFO root fetch - processPackages [aixblock-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_tools-0.0.3.tar.gz tmp/aixblock_tools-0.0.4.tar.gz --markdown 20240404/a/aixblock-tools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 04:17:07] WARNING root fetch - processPackages [sbase]: Timeout reached during download
+[2024-04-04 04:17:08] WARNING root fetch - processPackages [snowflakecli]: Timeout reached during download
+[2024-04-04 04:17:08] INFO root fetch - processPackages [snowflakecli]: executing diffoscope
+[2024-04-04 04:17:08] INFO root fetch - processPackages [snowflakecli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflakecli-0.2.0.tar.gz tmp/snowflakecli-0.3.0.tar.gz --markdown 20240404/s/snowflakecli/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 04:17:08] WARNING root fetch - processPackages [types-flake8-builtins]: Timeout reached during download
+[2024-04-04 04:17:08] INFO root fetch - processPackages [types-flake8-builtins]: executing diffoscope
+[2024-04-04 04:17:08] INFO root fetch - processPackages [types-flake8-builtins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-builtins-2.3.0.20240331.tar.gz tmp/types-flake8-builtins-2.4.0.20240404.tar.gz --markdown 20240404/t/types-flake8-builtins/2.3.0.20240331-2.4.0.20240404/diff.md --exclude *.pyd
+[2024-04-04 04:17:08] INFO root fetch - processPackages [datadreamer.dev]: Downloading https://files.pythonhosted.org/packages/2a/ec/b17b0b2244a9b377c90f022ce710f823144beca2aad8793c5118553bc133/datadreamer_dev-0.9.0.tar.gz
+[2024-04-04 04:17:08] INFO root fetch - processPackages [sbase]: Downloading https://files.pythonhosted.org/packages/d2/57/c23bf788f4a8fba6ef62c68be73c8fb443dc5aa71c69b03726c1254377f7/sbase-4.9.9.tar.gz
+[2024-04-04 04:17:08] WARNING root fetch - processPackages [datadreamer.dev]: Timeout reached during download
+[2024-04-04 04:17:08] INFO root fetch - processPackages [datadreamer.dev]: executing diffoscope
+[2024-04-04 04:17:08] INFO root fetch - processPackages [datadreamer.dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadreamer_dev-0.8.0.tar.gz tmp/datadreamer_dev-0.9.0.tar.gz --markdown 20240404/d/datadreamer.dev/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 04:17:08] INFO root fetch - processPackages [snowflakecli]: Remove: archive file [/home/abi/fetcher/tmp/snowflakecli-0.2.0.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - processPackages [snowflakecli]: Remove: archive file [/home/abi/fetcher/tmp/snowflakecli-0.3.0.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - main [MainThread]: End processing [snowflakecli]: success
+[2024-04-04 04:17:08] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.3.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.4.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - main [MainThread]: End processing [aixblock-tools]: success
+[2024-04-04 04:17:08] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.3.0.20240331.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.4.0.20240404.tar.gz]
+[2024-04-04 04:17:08] INFO root fetch - main [MainThread]: End processing [types-flake8-builtins]: success
+[2024-04-04 04:17:08] WARNING root fetch - processPackages [sbase]: Timeout reached during download
+[2024-04-04 04:17:08] INFO root fetch - processPackages [sbase]: executing diffoscope
+[2024-04-04 04:17:08] INFO root fetch - processPackages [sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbase-4.9.8.tar.gz tmp/sbase-4.9.9.tar.gz --markdown 20240404/s/sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2024-04-04 04:17:09] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.8.tar.gz]
+[2024-04-04 04:17:09] INFO root fetch - processPackages [sbase]: Remove: archive file [/home/abi/fetcher/tmp/sbase-4.9.9.tar.gz]
+[2024-04-04 04:17:09] INFO root fetch - main [MainThread]: End processing [sbase]: success
+[2024-04-04 04:17:09] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.8.0.tar.gz]
+[2024-04-04 04:17:09] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
+[2024-04-04 04:17:09] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
+[2024-04-04 04:17:09] INFO root fetch - main [MainThread]: Store serial: [22614774]
