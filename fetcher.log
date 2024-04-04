@@ -22544,3 +22544,50 @@
 [2024-04-04 13:13:54] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.26.tar.gz]
 [2024-04-04 13:13:54] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
 [2024-04-04 13:13:54] INFO root fetch - main [MainThread]: Store serial: [22618979]
+[2024-04-04 13:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618979]
+[2024-04-04 13:16:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sitreps-client
+[2024-04-04 13:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Fr1997v011
+[2024-04-04 13:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-elk-reporter
+[2024-04-04 13:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: signxai
+[2024-04-04 13:16:03] INFO root fetch - processPackages [sitreps-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-04 13:16:03] INFO root fetch - processPackages [Fr1997v011]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-04 13:16:03] INFO root fetch - processPackages [pytest-elk-reporter]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-04 13:16:03] INFO root fetch - processPackages [signxai]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-04 13:16:04] INFO root fetch - processPackages [pytest-elk-reporter]: Downloading https://files.pythonhosted.org/packages/24/df/e51967417d7617eea8c40387a693328a6a062b9860560af9dd464169d4fd/pytest-elk-reporter-0.2.1.tar.gz
+[2024-04-04 13:16:04] INFO root fetch - processPackages [sitreps-client]: Downloading https://files.pythonhosted.org/packages/25/3d/94b79bd0def9da8fc7de046a8df423cfb578c020f723cee7209edfe4d426/sitreps_client-1.1.1-py2.py3-none-any.whl
+[2024-04-04 13:16:04] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/0d/64/d7566a8dc7edae1b7cbc4c474d4312a47d166d45c67e7c38371285ae77b1/Fr1997v011-1.2.2.tar.gz
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [pytest-elk-reporter]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/dc/dc/79c5b3ed27b1de0b0228624ace02904a5bcb57a1daa6717a9115e6bfd642/signxai-1.1.5.tar.gz
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [Fr1997v011]: Timeout reached during download
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [sitreps-client]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [pytest-elk-reporter]: Downloading https://files.pythonhosted.org/packages/73/d4/bdfedae7f96cec9cbe6c28b0c7fb3e469e8a54d8d2f9021280f95e972497/pytest-elk-reporter-0.2.2.tar.gz
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [signxai]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [Fr1997v011]: Downloading https://files.pythonhosted.org/packages/0a/c6/39fd5571407d7cb055c1967851d04b6dbad19d6fb6482803252e51e639a6/Fr1997v011-1.2.3.tar.gz
+[2024-04-04 13:16:04] INFO root fetch - processPackages [sitreps-client]: Downloading https://files.pythonhosted.org/packages/dd/16/858b56b916c2110066922991adca0a017b327a0c14367dd9cebe2c054b75/sitreps_client-1.1.2-py2.py3-none-any.whl
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [pytest-elk-reporter]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [pytest-elk-reporter]: executing diffoscope
+[2024-04-04 13:16:04] INFO root fetch - processPackages [pytest-elk-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-elk-reporter-0.2.1.tar.gz tmp/pytest-elk-reporter-0.2.2.tar.gz --markdown 20240404/p/pytest-elk-reporter/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-04 13:16:04] INFO root fetch - processPackages [signxai]: Downloading https://files.pythonhosted.org/packages/95/18/8a70b2d5f26bd61eca5ef5ae4cdeb0d55c86f8dc435386282aa76caabbd5/signxai-1.1.6.tar.gz
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [Fr1997v011]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [Fr1997v011]: executing diffoscope
+[2024-04-04 13:16:04] INFO root fetch - processPackages [Fr1997v011]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Fr1997v011-1.2.2.tar.gz tmp/Fr1997v011-1.2.3.tar.gz --markdown 20240404/F/Fr1997v011/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [sitreps-client]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [sitreps-client]: executing diffoscope
+[2024-04-04 13:16:04] INFO root fetch - processPackages [sitreps-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sitreps_client-1.1.1-py2.py3-none-any.whl.zip tmp/sitreps_client-1.1.2-py2.py3-none-any.whl.zip --markdown 20240404/s/sitreps-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-04 13:16:04] WARNING root fetch - processPackages [signxai]: Timeout reached during download
+[2024-04-04 13:16:04] INFO root fetch - processPackages [signxai]: executing diffoscope
+[2024-04-04 13:16:04] INFO root fetch - processPackages [signxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signxai-1.1.5.tar.gz tmp/signxai-1.1.6.tar.gz --markdown 20240404/s/signxai/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-04 13:16:05] INFO root fetch - processPackages [pytest-elk-reporter]: Remove: archive file [/home/abi/fetcher/tmp/pytest-elk-reporter-0.2.1.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - processPackages [pytest-elk-reporter]: Remove: archive file [/home/abi/fetcher/tmp/pytest-elk-reporter-0.2.2.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - main [MainThread]: End processing [pytest-elk-reporter]: success
+[2024-04-04 13:16:05] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.2.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.3.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
+[2024-04-04 13:16:05] INFO root fetch - processPackages [sitreps-client]: Remove: archive file [/home/abi/fetcher/tmp/sitreps_client-1.1.1-py2.py3-none-any.whl.zip]
+[2024-04-04 13:16:05] INFO root fetch - processPackages [sitreps-client]: Remove: archive file [/home/abi/fetcher/tmp/sitreps_client-1.1.2-py2.py3-none-any.whl.zip]
+[2024-04-04 13:16:05] INFO root fetch - main [MainThread]: End processing [sitreps-client]: success
+[2024-04-04 13:16:05] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.5.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.6.tar.gz]
+[2024-04-04 13:16:05] INFO root fetch - main [MainThread]: End processing [signxai]: success
+[2024-04-04 13:16:05] INFO root fetch - main [MainThread]: Store serial: [22618988]
