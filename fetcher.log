@@ -24158,3 +24158,28 @@
 [2024-04-04 14:13:30] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-alpine-5.2.0rc1.tar.gz]
 [2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [backend.ai-krunner-alpine]: success
 [2024-04-04 14:13:30] INFO root fetch - main [MainThread]: Store serial: [22619620]
+[2024-04-04 14:15:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619620]
+[2024-04-04 14:15:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nwb4fp
+[2024-04-04 14:15:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logs-py
+[2024-04-04 14:15:39] INFO root fetch - processPackages [logs-py]: New version: [2.8] Old Version: [2.7.2]
+[2024-04-04 14:15:39] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.9.3] Old Version: [0.5.9.2]
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/57/b9/a94fea1336d3c94477deb71122866e55aa0ad57db8318cf6bbb3e8dacb77/nwb4fp-0.5.9.2.tar.gz
+[2024-04-04 14:15:40] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/ab/e8/4691edb0d7bc2144839f9f1db031e612cbb5bfb63dec032c8d1bd865a775/logs_py-2.7.2-py3-none-any.whl
+[2024-04-04 14:15:40] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-04 14:15:40] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/10/6d/a7a21f369ae333ed6815f2b800791532d0fd1c0a81491828ddae3c440b31/nwb4fp-0.5.9.3.tar.gz
+[2024-04-04 14:15:40] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.9.2.tar.gz tmp/nwb4fp-0.5.9.3.tar.gz --markdown 20240404/n/nwb4fp/0.5.9.2-0.5.9.3/diff.md --exclude *.pyd
+[2024-04-04 14:15:40] INFO root fetch - processPackages [logs-py]: Downloading https://files.pythonhosted.org/packages/05/23/cd2438442cb620d8dfe9e78ca865d7da53c1c2ca9536a3f611f5785279ae/logs_py-2.8-py3-none-any.whl
+[2024-04-04 14:15:40] WARNING root fetch - processPackages [logs-py]: Timeout reached during download
+[2024-04-04 14:15:40] INFO root fetch - processPackages [logs-py]: executing diffoscope
+[2024-04-04 14:15:40] INFO root fetch - processPackages [logs-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logs_py-2.7.2-py3-none-any.whl.zip tmp/logs_py-2.8-py3-none-any.whl.zip --markdown 20240404/l/logs-py/2.7.2-2.8/diff.md --exclude *.pyd
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.2.tar.gz]
+[2024-04-04 14:15:40] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.3.tar.gz]
+[2024-04-04 14:15:40] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-04 14:15:41] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.7.2-py3-none-any.whl.zip]
+[2024-04-04 14:15:41] INFO root fetch - processPackages [logs-py]: Remove: archive file [/home/abi/fetcher/tmp/logs_py-2.8-py3-none-any.whl.zip]
+[2024-04-04 14:15:41] INFO root fetch - main [MainThread]: End processing [logs-py]: success
+[2024-04-04 14:15:41] INFO root fetch - main [MainThread]: Store serial: [22619625]
