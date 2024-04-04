@@ -1,4 +1,4 @@
-# Comparing `tmp/html_elements-0.1.3.tar.gz` & `tmp/html_elements-0.1.4-py3-none-any.whl.zip`
+# Comparing `tmp/html_elements-0.1.3.tar.gz` & `tmp/html_elements-0.1.4.tar.gz`
 
 ## filetype from file(1)
 
