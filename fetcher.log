@@ -15479,3 +15479,42 @@
 [2024-04-04 09:01:56] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-04 09:01:56] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-04 09:01:56] INFO root fetch - main [MainThread]: Store serial: [22616470]
+[2024-04-04 09:04:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616470]
+[2024-04-04 09:04:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 09:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqio-nightly
+[2024-04-04 09:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygt3x
+[2024-04-04 09:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rm3-mio
+[2024-04-04 09:04:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tableland
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [rm3-mio]: Skipping, unable to determine old version
+[2024-04-04 09:04:05] INFO root fetch - main [MainThread]: End processing [rm3-mio] error
+[2024-04-04 09:04:05] INFO root fetch - processPackages [pygt3x]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-04 09:04:05] INFO root fetch - processPackages [tableland]: New version: [0.0.1rc1] Old Version: [0.0.1rc0]
+[2024-04-04 09:04:05] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2024-04-04 09:04:05] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/70/b7/7523dcf6348a86406bf35fa10bf8e2a864e643da3b49bb94c840dbcce105/tableland-0.0.1rc0.tar.gz
+[2024-04-04 09:04:05] INFO root fetch - processPackages [pygt3x]: Downloading https://files.pythonhosted.org/packages/ed/e8/ac2c94f0809cff39fe39e5525bf649400fad173d96b4c8964123a5ececd5/pygt3x-0.5.2.tar.gz
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:04:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [pygt3x]: Timeout reached during download
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-04 09:04:05] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/ef/65/61b029f452040ae053954bb395459add121b668dbddb73d227f65f5caa69/tableland-0.0.1rc1.tar.gz
+[2024-04-04 09:04:05] INFO root fetch - processPackages [pygt3x]: Downloading https://files.pythonhosted.org/packages/3c/05/c53b3a499e4eba8ca81ed46be428d6036fbf0c2314d6b3374ea75b9782e5/pygt3x-0.6.0.tar.gz
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:04:05] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 09:04:05] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.1rc0.tar.gz tmp/tableland-0.0.1rc1.tar.gz --markdown 20240404/t/tableland/0.0.1rc0-0.0.1rc1/diff.md --exclude *.pyd
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [pygt3x]: Timeout reached during download
+[2024-04-04 09:04:05] INFO root fetch - processPackages [pygt3x]: executing diffoscope
+[2024-04-04 09:04:05] INFO root fetch - processPackages [pygt3x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygt3x-0.5.2.tar.gz tmp/pygt3x-0.6.0.tar.gz --markdown 20240404/p/pygt3x/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2024-04-04 09:04:05] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2024-04-04 09:04:05] WARNING root fetch - processPackages [seqio-nightly]: Timeout reached during download
+[2024-04-04 09:04:05] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2024-04-04 09:04:05] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20240404/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2024-04-04 09:04:06] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc0.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc1.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 09:04:06] INFO root fetch - processPackages [pygt3x]: Remove: archive file [/home/abi/fetcher/tmp/pygt3x-0.5.2.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - processPackages [pygt3x]: Remove: archive file [/home/abi/fetcher/tmp/pygt3x-0.6.0.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - main [MainThread]: End processing [pygt3x]: success
+[2024-04-04 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2024-04-04 09:04:06] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2024-04-04 09:04:06] INFO root fetch - main [MainThread]: Store serial: [22616485]
