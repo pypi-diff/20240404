@@ -16912,3 +16912,39 @@
 [2024-04-04 09:59:47] INFO root fetch - processPackages [axem-dem]: Remove: archive file [/home/abi/fetcher/tmp/axem_dem-0.4.0.tar.gz]
 [2024-04-04 09:59:47] INFO root fetch - main [MainThread]: End processing [axem-dem]: success
 [2024-04-04 09:59:47] INFO root fetch - main [MainThread]: Store serial: [22616902]
+[2024-04-04 10:01:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616902]
+[2024-04-04 10:01:56] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 10:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly
+[2024-04-04 10:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-creartramas
+[2024-04-04 10:01:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qapp-qiskit
+[2024-04-04 10:01:56] INFO root fetch - processPackages [qapp-qiskit]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 10:01:56] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.3] Old Version: [2.1.2]
+[2024-04-04 10:01:56] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240404] Old Version: [2.17.0.dev20240403]
+[2024-04-04 10:01:56] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/ae/48/7383dd1f613117eabdfcd567c44ba2b09b1b75495677667a0d6cc17bdbda/robotframework_creartramas-2.1.2.tar.gz
+[2024-04-04 10:01:56] INFO root fetch - processPackages [qapp-qiskit]: Downloading https://files.pythonhosted.org/packages/74/91/749d837dbc0c234801123826f6efae6fc7ebc548ce1363ed88df4839dbff/qapp-qiskit-0.0.2.tar.gz
+[2024-04-04 10:01:56] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/88/0b/98ecade6dafed4a3dec11429acd663d60dbbf2ebb3c220e677c8f894e5d9/tf_nightly-2.17.0.dev20240403-cp39-cp39-win_amd64.whl
+[2024-04-04 10:01:56] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-04 10:01:57] WARNING root fetch - processPackages [qapp-qiskit]: Timeout reached during download
+[2024-04-04 10:01:57] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-04 10:01:57] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/04/95/bb21a6e6a049a2f6d7e145a3d051988062c16b0dc5b9a2853b4e4e2aac62/robotframework_creartramas-2.1.3.tar.gz
+[2024-04-04 10:01:57] INFO root fetch - processPackages [qapp-qiskit]: Downloading https://files.pythonhosted.org/packages/7c/18/7b7a1d6210b324de9c4c1962723d4928c92fc5eabd14e885cf2049eacd7d/qapp-qiskit-0.0.3.tar.gz
+[2024-04-04 10:01:57] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/03/54/aa2b05646fdddc5ead15dd4a8bede2d21df8421c47c7bc5fd862a9b022f1/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl
+[2024-04-04 10:01:57] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-04 10:01:57] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-04 10:01:57] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.2.tar.gz tmp/robotframework_creartramas-2.1.3.tar.gz --markdown 20240404/r/robotframework-creartramas/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2024-04-04 10:01:57] WARNING root fetch - processPackages [qapp-qiskit]: Timeout reached during download
+[2024-04-04 10:01:57] INFO root fetch - processPackages [qapp-qiskit]: executing diffoscope
+[2024-04-04 10:01:57] INFO root fetch - processPackages [qapp-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qapp-qiskit-0.0.2.tar.gz tmp/qapp-qiskit-0.0.3.tar.gz --markdown 20240404/q/qapp-qiskit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 10:01:57] WARNING root fetch - processPackages [tf-nightly]: Timeout reached during download
+[2024-04-04 10:01:57] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-04 10:01:57] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240403-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip --markdown 20240404/t/tf-nightly/2.17.0.dev20240403-2.17.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 10:01:57] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.2.tar.gz]
+[2024-04-04 10:01:57] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.3.tar.gz]
+[2024-04-04 10:01:57] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-04 10:01:58] INFO root fetch - processPackages [qapp-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qapp-qiskit-0.0.2.tar.gz]
+[2024-04-04 10:01:58] INFO root fetch - processPackages [qapp-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/qapp-qiskit-0.0.3.tar.gz]
+[2024-04-04 10:01:58] INFO root fetch - main [MainThread]: End processing [qapp-qiskit]: success
+[2024-04-04 10:01:58] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240403-cp39-cp39-win_amd64.whl.zip]
+[2024-04-04 10:01:58] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip]
+[2024-04-04 10:01:58] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-04 10:01:58] INFO root fetch - main [MainThread]: Store serial: [22616916]
