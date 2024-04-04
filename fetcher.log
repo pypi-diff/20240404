@@ -11049,3 +11049,31 @@
 [2024-04-04 05:17:01] INFO root fetch - processPackages [cdktf-cdktf-provider-pagerduty]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-pagerduty-9.0.3.tar.gz]
 [2024-04-04 05:17:01] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-pagerduty]: success
 [2024-04-04 05:17:01] INFO root fetch - main [MainThread]: Store serial: [22615087]
+[2024-04-04 05:19:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615087]
+[2024-04-04 05:19:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: list-all-files-recursively-short
+[2024-04-04 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cec2rs232
+[2024-04-04 05:19:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: srt-trans
+[2024-04-04 05:19:10] INFO root fetch - processPackages [srt-trans]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-04 05:19:10] WARNING root fetch - processPackages [list-all-files-recursively-short]: Skipping, unable to determine old version
+[2024-04-04 05:19:10] INFO root fetch - main [MainThread]: End processing [list-all-files-recursively-short] error
+[2024-04-04 05:19:10] INFO root fetch - processPackages [cec2rs232]: New version: [0.2.0] Old Version: [0.1.1]
+[2024-04-04 05:19:10] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/0e/9b/6105341c0fc1a4f1be35f2ade228ea1ce61f92771283c065adb275b6d849/srt_trans-1.0.0.tar.gz
+[2024-04-04 05:19:11] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 05:19:11] INFO root fetch - processPackages [cec2rs232]: Downloading https://files.pythonhosted.org/packages/b0/8c/f0e898125b1cd728345eb2a37f209c8b58193d9950a93caa5a3fa805a78d/cec2rs232-0.1.1.tar.gz
+[2024-04-04 05:19:11] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/8c/a0/bd5b49d425b7d95990a431a59004f6f67b28e99e208f66845f38a385977d/srt_trans-1.0.1.tar.gz
+[2024-04-04 05:19:11] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 05:19:11] INFO root fetch - processPackages [srt-trans]: executing diffoscope
+[2024-04-04 05:19:11] INFO root fetch - processPackages [srt-trans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_trans-1.0.0.tar.gz tmp/srt_trans-1.0.1.tar.gz --markdown 20240404/s/srt-trans/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-04 05:19:11] WARNING root fetch - processPackages [cec2rs232]: Timeout reached during download
+[2024-04-04 05:19:11] INFO root fetch - processPackages [cec2rs232]: Downloading https://files.pythonhosted.org/packages/32/36/dd2dcd4e846015a0bf1bf392cd33f262b0d7e36040a6f89e244a6cda2a89/cec2rs232-0.2.0.tar.gz
+[2024-04-04 05:19:11] WARNING root fetch - processPackages [cec2rs232]: Timeout reached during download
+[2024-04-04 05:19:11] INFO root fetch - processPackages [cec2rs232]: executing diffoscope
+[2024-04-04 05:19:11] INFO root fetch - processPackages [cec2rs232]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cec2rs232-0.1.1.tar.gz tmp/cec2rs232-0.2.0.tar.gz --markdown 20240404/c/cec2rs232/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 05:19:11] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-1.0.0.tar.gz]
+[2024-04-04 05:19:11] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-1.0.1.tar.gz]
+[2024-04-04 05:19:11] INFO root fetch - main [MainThread]: End processing [srt-trans]: success
+[2024-04-04 05:19:12] INFO root fetch - processPackages [cec2rs232]: Remove: archive file [/home/abi/fetcher/tmp/cec2rs232-0.1.1.tar.gz]
+[2024-04-04 05:19:12] INFO root fetch - processPackages [cec2rs232]: Remove: archive file [/home/abi/fetcher/tmp/cec2rs232-0.2.0.tar.gz]
+[2024-04-04 05:19:12] INFO root fetch - main [MainThread]: End processing [cec2rs232]: success
+[2024-04-04 05:19:12] INFO root fetch - main [MainThread]: Store serial: [22615098]
