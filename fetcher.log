@@ -9722,3 +9722,34 @@
 [2024-04-04 03:53:02] INFO root fetch - processPackages [llama-index-llms-anthropic]: Remove: archive file [/home/abi/fetcher/tmp/llama_index_llms_anthropic-0.1.8.tar.gz]
 [2024-04-04 03:53:02] INFO root fetch - main [MainThread]: End processing [llama-index-llms-anthropic]: success
 [2024-04-04 03:53:02] INFO root fetch - main [MainThread]: Store serial: [22614643]
+[2024-04-04 03:55:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614643]
+[2024-04-04 03:55:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeSimpleGUIWeb
+[2024-04-04 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devon-agent
+[2024-04-04 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-helm-templates
+[2024-04-04 03:55:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chainlo
+[2024-04-04 03:55:13] INFO root fetch - processPackages [devon-agent]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 03:55:13] WARNING root fetch - processPackages [FreeSimpleGUIWeb]: Skipping, unable to determine old version
+[2024-04-04 03:55:13] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIWeb] error
+[2024-04-04 03:55:13] WARNING root fetch - processPackages [pytest-helm-templates]: Skipping, unable to determine old version
+[2024-04-04 03:55:13] INFO root fetch - main [MainThread]: End processing [pytest-helm-templates] error
+[2024-04-04 03:55:13] INFO root fetch - processPackages [chainlo]: New version: [1.1.408] Old Version: [1.1.407]
+[2024-04-04 03:55:13] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/19/4d/37d24a857fab12444fb8243a3bcc54667b53acdfcadfe80c2968619b70da/devon_agent-0.0.1.tar.gz
+[2024-04-04 03:55:13] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/51/09/5139854d3c040a3c42a3b9e9ae953957c6389bb53bb99c847df223d989df/chainlo-1.1.407.tar.gz
+[2024-04-04 03:55:13] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:55:14] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/1f/66/3e30903aa50eb4dbfae5f9891a62fa02bb15997ec1c781ca8a2bd9a10572/devon_agent-0.0.2.tar.gz
+[2024-04-04 03:55:14] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:55:14] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 03:55:14] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.1.tar.gz tmp/devon_agent-0.0.2.tar.gz --markdown 20240404/d/devon-agent/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 03:55:14] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 03:55:14] INFO root fetch - processPackages [chainlo]: Downloading https://files.pythonhosted.org/packages/2b/58/1a3681d5ff53c260f28089d5c0cdd2a6e680c6d16919725e67b1e53f5097/chainlo-1.1.408.tar.gz
+[2024-04-04 03:55:14] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.1.tar.gz]
+[2024-04-04 03:55:14] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.2.tar.gz]
+[2024-04-04 03:55:14] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 03:55:15] WARNING root fetch - processPackages [chainlo]: Timeout reached during download
+[2024-04-04 03:55:15] INFO root fetch - processPackages [chainlo]: executing diffoscope
+[2024-04-04 03:55:15] INFO root fetch - processPackages [chainlo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlo-1.1.407.tar.gz tmp/chainlo-1.1.408.tar.gz --markdown 20240404/c/chainlo/1.1.407-1.1.408/diff.md --exclude *.pyd
+[2024-04-04 03:55:16] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.407.tar.gz]
+[2024-04-04 03:55:16] INFO root fetch - processPackages [chainlo]: Remove: archive file [/home/abi/fetcher/tmp/chainlo-1.1.408.tar.gz]
+[2024-04-04 03:55:16] INFO root fetch - main [MainThread]: End processing [chainlo]: success
+[2024-04-04 03:55:16] INFO root fetch - main [MainThread]: Store serial: [22614659]
