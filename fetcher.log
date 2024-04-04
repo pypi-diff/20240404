@@ -17023,3 +17023,50 @@
 [2024-04-04 10:06:18] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240404.tar.gz]
 [2024-04-04 10:06:18] INFO root fetch - main [MainThread]: End processing [langfun]: success
 [2024-04-04 10:06:18] INFO root fetch - main [MainThread]: Store serial: [22616936]
+[2024-04-04 10:08:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616936]
+[2024-04-04 10:08:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MLstatkit
+[2024-04-04 10:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commons_lib
+[2024-04-04 10:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyglove
+[2024-04-04 10:08:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonos
+[2024-04-04 10:08:27] INFO root fetch - processPackages [MLstatkit]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-04 10:08:27] INFO root fetch - processPackages [nonos]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 10:08:27] INFO root fetch - processPackages [commons_lib]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-04 10:08:27] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240404] Old Version: [0.4.5.dev20240403]
+[2024-04-04 10:08:27] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/32/93/d5a6e3909a3fc23e40f53796a5bd0ce04082b7067911f5b0f928e347dd11/nonos-0.9.0.tar.gz
+[2024-04-04 10:08:27] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/01/17/3a18e6928223c69a2cf2f98f17af41af2be61cb50c9e2fa52b884c4fd11e/commons_lib-1.1.2.tar.gz
+[2024-04-04 10:08:27] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/83/dd/5442b235786320f09f98df1126a457e0a7fd1bf34a05ae97ba9062659caa/pyglove-0.4.5.dev20240403.tar.gz
+[2024-04-04 10:08:27] INFO root fetch - processPackages [MLstatkit]: Downloading https://files.pythonhosted.org/packages/0e/7a/97b9960b5905008adaec938bf5ea045afe5727c0554d954813caead0ab7a/MLstatkit-0.1.3.tar.gz
+[2024-04-04 10:08:27] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 10:08:27] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-04 10:08:27] WARNING root fetch - processPackages [MLstatkit]: Timeout reached during download
+[2024-04-04 10:08:27] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/61/42/4a2da32eb893563d9b38489ae0f3156b62ac31a7f539155b6b84991f584f/commons_lib-1.1.3.tar.gz
+[2024-04-04 10:08:27] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/ea/9f/473d373f75062549223550a7bc0a2f86dc55a876982345d0761f2dfe7d63/pyglove-0.4.5.dev20240404.tar.gz
+[2024-04-04 10:08:27] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 10:08:27] INFO root fetch - processPackages [commons_lib]: executing diffoscope
+[2024-04-04 10:08:27] INFO root fetch - processPackages [commons_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commons_lib-1.1.2.tar.gz tmp/commons_lib-1.1.3.tar.gz --markdown 20240404/c/commons_lib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-04 10:08:27] INFO root fetch - processPackages [MLstatkit]: Downloading https://files.pythonhosted.org/packages/68/6f/3e8ee893ae0c7a5f1328b0935c8b65f695d10095502ba80bd42b46bf186c/MLstatkit-0.1.4.tar.gz
+[2024-04-04 10:08:27] WARNING root fetch - processPackages [MLstatkit]: Timeout reached during download
+[2024-04-04 10:08:27] INFO root fetch - processPackages [MLstatkit]: executing diffoscope
+[2024-04-04 10:08:27] INFO root fetch - processPackages [MLstatkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLstatkit-0.1.3.tar.gz tmp/MLstatkit-0.1.4.tar.gz --markdown 20240404/M/MLstatkit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-04 10:08:28] WARNING root fetch - processPackages [pyglove]: Timeout reached during download
+[2024-04-04 10:08:28] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-04 10:08:28] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240403.tar.gz tmp/pyglove-0.4.5.dev20240404.tar.gz --markdown 20240404/p/pyglove/0.4.5.dev20240403-0.4.5.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 10:08:28] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-04 10:08:28] INFO root fetch - processPackages [nonos]: Downloading https://files.pythonhosted.org/packages/30/12/bcc290ea36666366aa72037d1d028af88bdbb6201aeac6681052af71f77d/nonos-0.9.1.tar.gz
+[2024-04-04 10:08:28] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.2.tar.gz]
+[2024-04-04 10:08:28] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.3.tar.gz]
+[2024-04-04 10:08:28] INFO root fetch - main [MainThread]: End processing [commons_lib]: success
+[2024-04-04 10:08:28] INFO root fetch - processPackages [MLstatkit]: Remove: archive file [/home/abi/fetcher/tmp/MLstatkit-0.1.3.tar.gz]
+[2024-04-04 10:08:28] INFO root fetch - processPackages [MLstatkit]: Remove: archive file [/home/abi/fetcher/tmp/MLstatkit-0.1.4.tar.gz]
+[2024-04-04 10:08:28] INFO root fetch - main [MainThread]: End processing [MLstatkit]: success
+[2024-04-04 10:08:29] WARNING root fetch - processPackages [nonos]: Timeout reached during download
+[2024-04-04 10:08:29] INFO root fetch - processPackages [nonos]: executing diffoscope
+[2024-04-04 10:08:29] INFO root fetch - processPackages [nonos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonos-0.9.0.tar.gz tmp/nonos-0.9.1.tar.gz --markdown 20240404/n/nonos/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 10:08:29] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240403.tar.gz]
+[2024-04-04 10:08:29] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240404.tar.gz]
+[2024-04-04 10:08:29] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-04 10:08:31] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.0.tar.gz]
+[2024-04-04 10:08:31] INFO root fetch - processPackages [nonos]: Remove: archive file [/home/abi/fetcher/tmp/nonos-0.9.1.tar.gz]
+[2024-04-04 10:08:31] INFO root fetch - main [MainThread]: End processing [nonos]: success
+[2024-04-04 10:08:31] INFO root fetch - main [MainThread]: Store serial: [22616948]
