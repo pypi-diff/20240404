@@ -22475,3 +22475,72 @@
 [2024-04-04 13:11:42] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
 [2024-04-04 13:11:42] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
 [2024-04-04 13:11:42] INFO root fetch - main [MainThread]: Store serial: [22618963]
+[2024-04-04 13:13:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618963]
+[2024-04-04 13:13:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logging-strict
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: samna
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: east-tool
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tb-nightly
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: commons_lib
+[2024-04-04 13:13:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aTeam-PySparkLibrary
+[2024-04-04 13:13:51] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [commons_lib]: New version: [1.1.3] Old Version: [1.1.2]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [logging-strict]: New version: [1.2.26] Old Version: [1.2.25]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [aTeam-PySparkLibrary]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 13:13:51] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/aa/b9/a419d04e61bd48ae734d95f9cd4f958486d35393487838669b55b851e22c/east-tool-0.8.0.tar.gz
+[2024-04-04 13:13:51] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2024-04-04 13:13:51] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/01/17/3a18e6928223c69a2cf2f98f17af41af2be61cb50c9e2fa52b884c4fd11e/commons_lib-1.1.2.tar.gz
+[2024-04-04 13:13:51] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/a2/2e/1d6481b8487316b5ef587bec1a35494da504ddd8b889542a6a0f2df01410/ateam_pysparklibrary-0.0.8.tar.gz
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [east-tool]: Timeout reached during download
+[2024-04-04 13:13:51] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/f4/0e/5f9f7c898a5c3a1df1aae40a04d225fa407b5a713a22b96a5aaf0721585c/logging-strict-1.2.25.tar.gz
+[2024-04-04 13:13:51] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [aTeam-PySparkLibrary]: Timeout reached during download
+[2024-04-04 13:13:51] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/9b/6f/2e25b49e9a58602e4dce92b098f9a5e902680457f352224bd59321655dd2/east-tool-0.9.0.tar.gz
+[2024-04-04 13:13:51] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/61/42/4a2da32eb893563d9b38489ae0f3156b62ac31a7f539155b6b84991f584f/commons_lib-1.1.3.tar.gz
+[2024-04-04 13:13:51] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Downloading https://files.pythonhosted.org/packages/e9/d2/aeddb456bd2964ac5d6053e8d9bb51e4a330281981e77a00dad7238f2061/ateam_pysparklibrary-0.0.9.tar.gz
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 13:13:51] INFO root fetch - processPackages [commons_lib]: executing diffoscope
+[2024-04-04 13:13:51] INFO root fetch - processPackages [commons_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commons_lib-1.1.2.tar.gz tmp/commons_lib-1.1.3.tar.gz --markdown 20240404/c/commons_lib/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [east-tool]: Timeout reached during download
+[2024-04-04 13:13:51] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2024-04-04 13:13:51] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20240404/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-04 13:13:51] WARNING root fetch - processPackages [aTeam-PySparkLibrary]: Timeout reached during download
+[2024-04-04 13:13:51] INFO root fetch - processPackages [aTeam-PySparkLibrary]: executing diffoscope
+[2024-04-04 13:13:51] INFO root fetch - processPackages [aTeam-PySparkLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ateam_pysparklibrary-0.0.8.tar.gz tmp/ateam_pysparklibrary-0.0.9.tar.gz --markdown 20240404/a/aTeam-PySparkLibrary/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 13:13:52] WARNING root fetch - processPackages [tb-nightly]: Timeout reached during download
+[2024-04-04 13:13:52] INFO root fetch - processPackages [logging-strict]: Downloading https://files.pythonhosted.org/packages/6d/08/0e27560f32064c7e47508b0836c97ce7c54be322e2d39a62f1cf3c401a13/logging-strict-1.2.26.tar.gz
+[2024-04-04 13:13:52] WARNING root fetch - processPackages [samna]: Timeout reached during download
+[2024-04-04 13:13:52] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2024-04-04 13:13:52] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.2.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.3.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - main [MainThread]: End processing [commons_lib]: success
+[2024-04-04 13:13:52] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.8.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - processPackages [aTeam-PySparkLibrary]: Remove: archive file [/home/abi/fetcher/tmp/ateam_pysparklibrary-0.0.9.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - main [MainThread]: End processing [aTeam-PySparkLibrary]: success
+[2024-04-04 13:13:52] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2024-04-04 13:13:52] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.8.0.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.9.0.tar.gz]
+[2024-04-04 13:13:52] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2024-04-04 13:13:52] WARNING root fetch - processPackages [logging-strict]: Timeout reached during download
+[2024-04-04 13:13:52] INFO root fetch - processPackages [logging-strict]: executing diffoscope
+[2024-04-04 13:13:52] INFO root fetch - processPackages [logging-strict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logging-strict-1.2.25.tar.gz tmp/logging-strict-1.2.26.tar.gz --markdown 20240404/l/logging-strict/1.2.25-1.2.26/diff.md --exclude *.pyd
+[2024-04-04 13:13:52] WARNING root fetch - processPackages [samna]: Timeout reached during download
+[2024-04-04 13:13:52] INFO root fetch - processPackages [samna]: executing diffoscope
+[2024-04-04 13:13:52] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20240404/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2024-04-04 13:13:52] WARNING root fetch - processPackages [tb-nightly]: Timeout reached during download
+[2024-04-04 13:13:52] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2024-04-04 13:13:52] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20240404/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2024-04-04 13:13:53] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2024-04-04 13:13:53] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2024-04-04 13:13:53] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2024-04-04 13:13:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2024-04-04 13:13:54] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2024-04-04 13:13:54] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2024-04-04 13:13:54] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.25.tar.gz]
+[2024-04-04 13:13:54] INFO root fetch - processPackages [logging-strict]: Remove: archive file [/home/abi/fetcher/tmp/logging-strict-1.2.26.tar.gz]
+[2024-04-04 13:13:54] INFO root fetch - main [MainThread]: End processing [logging-strict]: success
+[2024-04-04 13:13:54] INFO root fetch - main [MainThread]: Store serial: [22618979]
