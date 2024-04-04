@@ -9691,3 +9691,20 @@
 [2024-04-04 03:48:42] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.2.tar.gz]
 [2024-04-04 03:48:42] INFO root fetch - main [MainThread]: End processing [test-tele]: success
 [2024-04-04 03:48:42] INFO root fetch - main [MainThread]: Store serial: [22614610]
+[2024-04-04 03:50:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614610]
+[2024-04-04 03:50:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 03:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeSimpleGUIWx
+[2024-04-04 03:50:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RMCgp
+[2024-04-04 03:50:51] INFO root fetch - processPackages [RMCgp]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-04 03:50:51] WARNING root fetch - processPackages [FreeSimpleGUIWx]: Skipping, unable to determine old version
+[2024-04-04 03:50:51] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIWx] error
+[2024-04-04 03:50:51] INFO root fetch - processPackages [RMCgp]: Downloading https://files.pythonhosted.org/packages/81/c7/ffca87a90818efe999be04f4a9644279c59bb63403f1e57b9c8bdab7ae08/RMCgp-0.0.12.tar.gz
+[2024-04-04 03:50:51] WARNING root fetch - processPackages [RMCgp]: Timeout reached during download
+[2024-04-04 03:50:52] INFO root fetch - processPackages [RMCgp]: Downloading https://files.pythonhosted.org/packages/ee/3f/3eddad9f672052725bf77f10643d005ababc77c986c8792d7b8efd0d6dfd/RMCgp-0.0.13.tar.gz
+[2024-04-04 03:50:52] WARNING root fetch - processPackages [RMCgp]: Timeout reached during download
+[2024-04-04 03:50:52] INFO root fetch - processPackages [RMCgp]: executing diffoscope
+[2024-04-04 03:50:52] INFO root fetch - processPackages [RMCgp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RMCgp-0.0.12.tar.gz tmp/RMCgp-0.0.13.tar.gz --markdown 20240404/R/RMCgp/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2024-04-04 03:50:52] INFO root fetch - processPackages [RMCgp]: Remove: archive file [/home/abi/fetcher/tmp/RMCgp-0.0.12.tar.gz]
+[2024-04-04 03:50:52] INFO root fetch - processPackages [RMCgp]: Remove: archive file [/home/abi/fetcher/tmp/RMCgp-0.0.13.tar.gz]
+[2024-04-04 03:50:52] INFO root fetch - main [MainThread]: End processing [RMCgp]: success
+[2024-04-04 03:50:52] INFO root fetch - main [MainThread]: Store serial: [22614633]
