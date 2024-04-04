@@ -14353,3 +14353,72 @@
 [2024-04-04 08:10:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240404.tar.gz]
 [2024-04-04 08:10:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-04 08:10:40] INFO root fetch - main [MainThread]: Store serial: [22616125]
+[2024-04-04 08:12:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616125]
+[2024-04-04 08:12:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-barcodes
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-barcodes-generator-product
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinta
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keble-helpers
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yfh-sayhi
+[2024-04-04 08:12:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryptoowl
+[2024-04-04 08:12:51] INFO root fetch - processPackages [yfh-sayhi]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: New version: [14.0.1.2.2.dev2] Old Version: [14.0.1.2.1.dev1]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [tinta]: New version: [0.1.7b4.post0] Old Version: [0.1.7b4]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.3.0.1.1] Old Version: [15.0.3.0.1]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [keble-helpers]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 08:12:51] INFO root fetch - processPackages [yfh-sayhi]: Downloading https://files.pythonhosted.org/packages/e2/da/aeeb9ae01e02977bf58e58cb540b1d35c2d3e653fee0037cb765c7a6ac12/yfh-sayhi-0.0.2.tar.gz
+[2024-04-04 08:12:51] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/1f/0f/55c3a457575d8a4d34fc3169867237da9055853518f254f8af8563032ea6/tinta-0.1.7b4.tar.gz
+[2024-04-04 08:12:51] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-04 08:12:51] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/2e/4a/88b46d85235b0aa87f63f04804c29b637bacdf1d92f23e852616204fdc13/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl
+[2024-04-04 08:12:51] INFO root fetch - processPackages [keble-helpers]: Downloading https://files.pythonhosted.org/packages/de/6b/568d59c986d9d97369cc1b9c8e11afaff79cd8e39b8f140a8b86b3dd09ac/keble_helpers-0.0.8.tar.gz
+[2024-04-04 08:12:51] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/62/bb/2731c06f78097b59ab62ea9e4f1d3e9cd222e088dc33750b2dcd7c1bc5d3/odoo14_addon_barcodes_generator_product-14.0.1.2.1.dev1-py3-none-any.whl
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [yfh-sayhi]: Timeout reached during download
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Timeout reached during download
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [odoo-addon-stock-barcodes]: Timeout reached during download
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-04 08:12:51] WARNING root fetch - processPackages [keble-helpers]: Timeout reached during download
+[2024-04-04 08:12:51] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-04 08:12:51] INFO root fetch - processPackages [yfh-sayhi]: Downloading https://files.pythonhosted.org/packages/90/51/4f6113699eff84d743d78d11909384501c7e597d54ac58c6b6b7cc1b06e1/yfh-sayhi-0.0.3.tar.gz
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/c2/15/32a7051d002121f03a259a03d9a4d565e78abea53c502997f333e03adbb1/odoo14_addon_barcodes_generator_product-14.0.1.2.2.dev2-py3-none-any.whl
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/b6/2c/3da57f8d3f9261aee78b275479f934391b6b73606ae316c70616bbb1e69c/odoo_addon_stock_barcodes-15.0.3.0.1.1-py3-none-any.whl
+[2024-04-04 08:12:52] INFO root fetch - processPackages [tinta]: Downloading https://files.pythonhosted.org/packages/31/d9/03f7436c281a66d9197c43b9bebf1fa198c5344c31dff109417ecb6d6e85/tinta-0.1.7b4.post0.tar.gz
+[2024-04-04 08:12:52] INFO root fetch - processPackages [keble-helpers]: Downloading https://files.pythonhosted.org/packages/4d/91/c66434faf6806657edb568c043b530bf781144225fd27b657022fa958558/keble_helpers-0.0.9.tar.gz
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240404/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [yfh-sayhi]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [yfh-sayhi]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [yfh-sayhi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yfh-sayhi-0.0.2.tar.gz tmp/yfh-sayhi-0.0.3.tar.gz --markdown 20240404/y/yfh-sayhi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_barcodes_generator_product-14.0.1.2.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_barcodes_generator_product-14.0.1.2.2.dev2-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-barcodes-generator-product/14.0.1.2.1.dev1-14.0.1.2.2.dev2/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [keble-helpers]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [keble-helpers]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [keble-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_helpers-0.0.8.tar.gz tmp/keble_helpers-0.0.9.tar.gz --markdown 20240404/k/keble-helpers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [odoo-addon-stock-barcodes]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.3.0.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-barcodes/15.0.3.0.1-15.0.3.0.1.1/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] WARNING root fetch - processPackages [tinta]: Timeout reached during download
+[2024-04-04 08:12:52] INFO root fetch - processPackages [tinta]: executing diffoscope
+[2024-04-04 08:12:52] INFO root fetch - processPackages [tinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinta-0.1.7b4.tar.gz tmp/tinta-0.1.7b4.post0.tar.gz --markdown 20240404/t/tinta/0.1.7b4-0.1.7b4.post0/diff.md --exclude *.pyd
+[2024-04-04 08:12:52] INFO root fetch - processPackages [yfh-sayhi]: Remove: archive file [/home/abi/fetcher/tmp/yfh-sayhi-0.0.2.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - processPackages [yfh-sayhi]: Remove: archive file [/home/abi/fetcher/tmp/yfh-sayhi-0.0.3.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - main [MainThread]: End processing [yfh-sayhi]: success
+[2024-04-04 08:12:52] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-04 08:12:52] INFO root fetch - processPackages [keble-helpers]: Remove: archive file [/home/abi/fetcher/tmp/keble_helpers-0.0.8.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - processPackages [keble-helpers]: Remove: archive file [/home/abi/fetcher/tmp/keble_helpers-0.0.9.tar.gz]
+[2024-04-04 08:12:52] INFO root fetch - main [MainThread]: End processing [keble-helpers]: success
+[2024-04-04 08:12:53] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b4.tar.gz]
+[2024-04-04 08:12:53] INFO root fetch - processPackages [tinta]: Remove: archive file [/home/abi/fetcher/tmp/tinta-0.1.7b4.post0.tar.gz]
+[2024-04-04 08:12:53] INFO root fetch - main [MainThread]: End processing [tinta]: success
+[2024-04-04 08:12:53] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_barcodes_generator_product-14.0.1.2.1.dev1-py3-none-any.whl.zip]
+[2024-04-04 08:12:53] INFO root fetch - processPackages [odoo14-addon-barcodes-generator-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_barcodes_generator_product-14.0.1.2.2.dev2-py3-none-any.whl.zip]
+[2024-04-04 08:12:53] INFO root fetch - main [MainThread]: End processing [odoo14-addon-barcodes-generator-product]: success
+[2024-04-04 08:12:53] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:12:53] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.1.1-py3-none-any.whl.zip]
+[2024-04-04 08:12:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2024-04-04 08:12:53] INFO root fetch - main [MainThread]: Store serial: [22616139]
