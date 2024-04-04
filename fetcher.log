@@ -15813,3 +15813,53 @@
 [2024-04-04 09:18:54] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.4.tar.gz]
 [2024-04-04 09:18:54] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
 [2024-04-04 09:18:54] INFO root fetch - main [MainThread]: Store serial: [22616562]
+[2024-04-04 09:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616562]
+[2024-04-04 09:21:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 09:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tableland
+[2024-04-04 09:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: explog
+[2024-04-04 09:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prem-utils
+[2024-04-04 09:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: commons_lib
+[2024-04-04 09:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mockai
+[2024-04-04 09:21:03] INFO root fetch - processPackages [explog]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [mockai]: Skipping, unable to determine old version
+[2024-04-04 09:21:03] INFO root fetch - main [MainThread]: End processing [mockai] error
+[2024-04-04 09:21:03] INFO root fetch - processPackages [tableland]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2024-04-04 09:21:03] INFO root fetch - processPackages [commons_lib]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-04 09:21:03] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 09:21:03] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/ef/65/61b029f452040ae053954bb395459add121b668dbddb73d227f65f5caa69/tableland-0.0.1rc1.tar.gz
+[2024-04-04 09:21:03] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/f9/43/8158a6c2962d34b731d953d3ecf58d28c9e34e1f6cf85942f92bce3bfb7d/commons_lib-1.1.1.tar.gz
+[2024-04-04 09:21:03] INFO root fetch - processPackages [explog]: Downloading https://files.pythonhosted.org/packages/68/3b/06292f4c6964b67dff332b19703d13f093a8a8018eabe14229249249fc86/explog-0.0.2.tar.gz
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:21:03] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [explog]: Timeout reached during download
+[2024-04-04 09:21:03] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/bc/fe/73342146718402122bd80115939b23ebf2f581a4f34a9fc7a7ed6a8ff320/tableland-0.0.1rc2.tar.gz
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-04 09:21:03] INFO root fetch - processPackages [explog]: Downloading https://files.pythonhosted.org/packages/64/c0/900f5c27f5a1f0beb34fbdb52a037a63cca5c6ff8e252bef2b92a5e84bbc/explog-0.0.3.tar.gz
+[2024-04-04 09:21:03] INFO root fetch - processPackages [commons_lib]: Downloading https://files.pythonhosted.org/packages/01/17/3a18e6928223c69a2cf2f98f17af41af2be61cb50c9e2fa52b884c4fd11e/commons_lib-1.1.2.tar.gz
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:21:03] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 09:21:03] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.1rc1.tar.gz tmp/tableland-0.0.1rc2.tar.gz --markdown 20240404/t/tableland/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2024-04-04 09:21:03] WARNING root fetch - processPackages [explog]: Timeout reached during download
+[2024-04-04 09:21:03] INFO root fetch - processPackages [explog]: executing diffoscope
+[2024-04-04 09:21:03] INFO root fetch - processPackages [explog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explog-0.0.2.tar.gz tmp/explog-0.0.3.tar.gz --markdown 20240404/e/explog/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:21:04] WARNING root fetch - processPackages [commons_lib]: Timeout reached during download
+[2024-04-04 09:21:04] INFO root fetch - processPackages [commons_lib]: executing diffoscope
+[2024-04-04 09:21:04] INFO root fetch - processPackages [commons_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commons_lib-1.1.1.tar.gz tmp/commons_lib-1.1.2.tar.gz --markdown 20240404/c/commons_lib/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-04 09:21:04] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-04 09:21:04] WARNING root fetch - processPackages [prem-utils]: Timeout reached during download
+[2024-04-04 09:21:04] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-04 09:21:04] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240404/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 09:21:04] INFO root fetch - processPackages [explog]: Remove: archive file [/home/abi/fetcher/tmp/explog-0.0.2.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - processPackages [explog]: Remove: archive file [/home/abi/fetcher/tmp/explog-0.0.3.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - main [MainThread]: End processing [explog]: success
+[2024-04-04 09:21:04] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc1.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc2.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 09:21:04] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.1.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - processPackages [commons_lib]: Remove: archive file [/home/abi/fetcher/tmp/commons_lib-1.1.2.tar.gz]
+[2024-04-04 09:21:04] INFO root fetch - main [MainThread]: End processing [commons_lib]: success
+[2024-04-04 09:21:05] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-04 09:21:05] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-04 09:21:05] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-04 09:21:05] INFO root fetch - main [MainThread]: Store serial: [22616578]
