@@ -17811,3 +17811,39 @@
 [2024-04-04 10:30:30] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
 [2024-04-04 10:30:30] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2024-04-04 10:30:30] INFO root fetch - main [MainThread]: Store serial: [22617219]
+[2024-04-04 10:32:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617219]
+[2024-04-04 10:32:39] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 10:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markets-insights
+[2024-04-04 10:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spotGUI
+[2024-04-04 10:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flywheel-cli
+[2024-04-04 10:32:39] INFO root fetch - processPackages [markets-insights]: New version: [0.4.9] Old Version: [0.4.8.post2]
+[2024-04-04 10:32:39] INFO root fetch - processPackages [spotGUI]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 10:32:39] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2024-04-04 10:32:39] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/e1/cb/73868db8ce2aa1e934914853ad4efcbf85ff758b69a24f926e929bc1b4b7/markets_insights-0.4.8.post2.tar.gz
+[2024-04-04 10:32:39] INFO root fetch - processPackages [spotGUI]: Downloading https://files.pythonhosted.org/packages/72/83/5ca69083a81c1e5738e614ddde20a777a76bfdb99e02796b4b8102174095/spotGUI-0.4.8.tar.gz
+[2024-04-04 10:32:39] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2024-04-04 10:32:39] WARNING root fetch - processPackages [flywheel-cli]: Timeout reached during download
+[2024-04-04 10:32:39] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2024-04-04 10:32:39] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:32:40] WARNING root fetch - processPackages [flywheel-cli]: Timeout reached during download
+[2024-04-04 10:32:40] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2024-04-04 10:32:40] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20240404/f/flywheel-cli/9.0.2.dev1-9.0.3/diff.md --exclude *.pyd
+[2024-04-04 10:32:40] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/81/48/0193240ae9947487494f80dcb370a66871871102a72f05d0c06315c5627d/markets_insights-0.4.9.tar.gz
+[2024-04-04 10:32:40] WARNING root fetch - processPackages [spotGUI]: Timeout reached during download
+[2024-04-04 10:32:40] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:32:40] INFO root fetch - processPackages [spotGUI]: Downloading https://files.pythonhosted.org/packages/82/6f/1f43ef8d61d29091e2cf123fccf53471f228f8f6dc1e7d0b75b11f31856e/spotGUI-0.4.9-py3-none-any.whl
+[2024-04-04 10:32:40] INFO root fetch - processPackages [markets-insights]: executing diffoscope
+[2024-04-04 10:32:40] INFO root fetch - processPackages [markets-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markets_insights-0.4.8.post2.tar.gz tmp/markets_insights-0.4.9.tar.gz --markdown 20240404/m/markets-insights/0.4.8.post2-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 10:32:40] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip]
+[2024-04-04 10:32:40] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
+[2024-04-04 10:32:40] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2024-04-04 10:32:40] WARNING root fetch - processPackages [spotGUI]: Timeout reached during download
+[2024-04-04 10:32:40] INFO root fetch - processPackages [spotGUI]: executing diffoscope
+[2024-04-04 10:32:40] INFO root fetch - processPackages [spotGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotGUI-0.4.8.tar.gz tmp/spotGUI-0.4.9-py3-none-any.whl.zip --markdown 20240404/s/spotGUI/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 10:32:41] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.8.post2.tar.gz]
+[2024-04-04 10:32:41] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.9.tar.gz]
+[2024-04-04 10:32:41] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
+[2024-04-04 10:32:43] INFO root fetch - processPackages [spotGUI]: Remove: archive file [/home/abi/fetcher/tmp/spotGUI-0.4.8.tar.gz]
+[2024-04-04 10:32:43] INFO root fetch - processPackages [spotGUI]: Remove: archive file [/home/abi/fetcher/tmp/spotGUI-0.4.9-py3-none-any.whl.zip]
+[2024-04-04 10:32:43] INFO root fetch - main [MainThread]: End processing [spotGUI]: success
+[2024-04-04 10:32:43] INFO root fetch - main [MainThread]: Store serial: [22617230]
