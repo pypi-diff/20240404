@@ -17454,3 +17454,143 @@
 [2024-04-04 10:17:17] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
 [2024-04-04 10:17:17] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
 [2024-04-04 10:17:17] INFO root fetch - main [MainThread]: Store serial: [22617078]
+[2024-04-04 10:19:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617078]
+[2024-04-04 10:19:26] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nucliadb-dataset
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-models
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markets-insights
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-protos
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-sdk
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: finbourne-access-sdk
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-telemetry
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-utils
+[2024-04-04 10:19:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: multion
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [markets-insights]: New version: [0.4.8] Old Version: [0.4.7]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [multion]: New version: [0.4.3] Old Version: [0.3.9]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post388] Old Version: [2.46.1.post387]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/0d/99/11bfee94e779bee5d8f76fe5434b539839557ae2126a83ce9b0613f7b748/nucliadb_telemetry-2.46.1.post387-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/ee/03/dd6de1963bc47d899c6e5de50b8e5791bca7a494fead33833b13134d29ea/finbourne_access_sdk-2.0.98.tar.gz
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/f9/09/b137a9f08e2321afbd47151646e1577937d9b1dd002abf0782777886073b/markets_insights-0.4.7.tar.gz
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/85/04/7ab9acaa687b06f26cf6a79e779c76354aff7b95bbcbecdef3ea4646eec4/multion-0.3.9.tar.gz
+[2024-04-04 10:19:26] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-04 10:19:26] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-04 10:19:26] WARNING root fetch - processPackages [finbourne-access-sdk]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [multion]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/b9/9d/d9e34bbe69c5c09e1bebcf6e1fb0172dabee5038a4993f822163ff8df7cf/finbourne_access_sdk-2.0.99.tar.gz
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] INFO root fetch - processPackages [multion]: Downloading https://files.pythonhosted.org/packages/a1/c1/dd606ddd3dee81d5899debd976ac4d45aa0e4fc6762233c827f796fcf4b5/multion-0.4.3.tar.gz
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/91/5e/268fbad65ba77be1b76f58bcc37a16074bff88efa9fd307546571ea96371/nucliadb_telemetry-2.46.1.post388-py3-none-any.whl
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [finbourne-access-sdk]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.0.98.tar.gz tmp/finbourne_access_sdk-2.0.99.tar.gz --markdown 20240404/f/finbourne-access-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/02/fe/d4447644a02df8b0217558e23573c367539ff50807ea58bf9bebcaead766/markets_insights-0.4.8.tar.gz
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [multion]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [multion]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [multion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multion-0.3.9.tar.gz tmp/multion-0.4.3.tar.gz --markdown 20240404/m/multion/0.3.9-0.4.3/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post387-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post388-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-telemetry/2.46.1.post387-2.46.1.post388/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 10:19:27] WARNING root fetch - processPackages [markets-insights]: Timeout reached during download
+[2024-04-04 10:19:27] INFO root fetch - processPackages [markets-insights]: executing diffoscope
+[2024-04-04 10:19:27] INFO root fetch - processPackages [markets-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markets_insights-0.4.7.tar.gz tmp/markets_insights-0.4.8.tar.gz --markdown 20240404/m/markets-insights/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: lusid-workflow-sdk
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.3.9.tar.gz]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [multion]: Remove: archive file [/home/abi/fetcher/tmp/multion-0.4.3.tar.gz]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [multion]: Start processing: bpnsdata
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [multion]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: junifer
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [junifer]: New version: [0.0.4.dev90] Old Version: [0.0.4.dev85]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [bpnsdata]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:28] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-04 10:19:28] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/16/4a/b4b9a0dabecf2510edc5649109db43fb9fa51c6ae4ddedd1e6a195dbc11b/junifer-0.0.4.dev85.tar.gz
+[2024-04-04 10:19:29] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post387-py3-none-any.whl.zip]
+[2024-04-04 10:19:29] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post388-py3-none-any.whl.zip]
+[2024-04-04 10:19:29] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-04 10:19:29] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.98.tar.gz]
+[2024-04-04 10:19:29] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.99.tar.gz]
+[2024-04-04 10:19:29] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-04 10:19:29] INFO root fetch - processPackages [bpnsdata]: Downloading https://files.pythonhosted.org/packages/ca/20/048e8aae88db4f71874736df44c69e7ab0e0c19d23fb1411f3970b5879b6/bpnsdata-0.1.9.tar.gz
+[2024-04-04 10:19:29] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/05/15/860c70d363cddff4357a84f4044a8d0a50d65951660f0efa4b9e3c46a770/lusid_workflow_sdk-2.0.8.tar.gz
+[2024-04-04 10:19:29] WARNING root fetch - processPackages [junifer]: Timeout reached during download
+[2024-04-04 10:19:29] WARNING root fetch - processPackages [lusid-workflow-sdk]: Timeout reached during download
+[2024-04-04 10:19:29] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/e6/05/c7c91db975a267f8eed19e16c7050ca736d00f3ba07d885b1c775a0477c9/junifer-0.0.4.dev90.tar.gz
+[2024-04-04 10:19:29] WARNING root fetch - processPackages [junifer]: Timeout reached during download
+[2024-04-04 10:19:29] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-04-04 10:19:29] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.4.dev85.tar.gz tmp/junifer-0.0.4.dev90.tar.gz --markdown 20240404/j/junifer/0.0.4.dev85-0.0.4.dev90/diff.md --exclude *.pyd
+[2024-04-04 10:19:29] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.7.tar.gz]
+[2024-04-04 10:19:29] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.8.tar.gz]
+[2024-04-04 10:19:29] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
+[2024-04-04 10:19:29] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/81/bf/841003b23903d9eecb53937becd36a0eeddd2e875be64696804f2671b482/lusid_workflow_sdk-2.0.9.tar.gz
+[2024-04-04 10:19:29] WARNING root fetch - processPackages [lusid-workflow-sdk]: Timeout reached during download
+[2024-04-04 10:19:29] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-04-04 10:19:29] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.0.8.tar.gz tmp/lusid_workflow_sdk-2.0.9.tar.gz --markdown 20240404/l/lusid-workflow-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:19:29] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 10:19:29] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 10:19:29] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-04 10:19:30] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.0.8.tar.gz]
+[2024-04-04 10:19:30] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.0.9.tar.gz]
+[2024-04-04 10:19:30] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-04-04 10:19:30] WARNING root fetch - processPackages [bpnsdata]: Skipping package: exceeds size limit 16297617>=10485760
+[2024-04-04 10:19:30] INFO root fetch - main [MainThread]: End processing [bpnsdata] error
+[2024-04-04 10:19:30] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev85.tar.gz]
+[2024-04-04 10:19:30] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
+[2024-04-04 10:19:30] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-04-04 10:19:30] INFO root fetch - main [MainThread]: Store serial: [22617117]
