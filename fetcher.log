@@ -10661,3 +10661,50 @@
 [2024-04-04 04:53:05] INFO root fetch - processPackages [FreeSimpleGUIWeb]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIWeb-1.0.0rc1.tar.gz]
 [2024-04-04 04:53:05] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIWeb]: success
 [2024-04-04 04:53:05] INFO root fetch - main [MainThread]: Store serial: [22614927]
+[2024-04-04 04:55:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614927]
+[2024-04-04 04:55:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeSimpleGUIWx
+[2024-04-04 04:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devon-agent
+[2024-04-04 04:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: FreeSimpleGUIQt
+[2024-04-04 04:55:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: svc-toolkit
+[2024-04-04 04:55:15] INFO root fetch - processPackages [devon-agent]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIWx]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-04-04 04:55:15] INFO root fetch - processPackages [svc-toolkit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIQt]: New version: [1.0.0rc1] Old Version: [1.0.0]
+[2024-04-04 04:55:15] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/eb/9e/dd178a447c1db5bfcb905df8fed9d79b44ad08db1ee5c4727c50b1ca0402/devon_agent-0.0.5.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIWx]: Downloading https://files.pythonhosted.org/packages/f0/ca/17accfa07c8da687c85b3fc7018a63f59dda3576fce702345f79df5173f6/FreeSimpleGUIWx-1.0.0.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIQt]: Downloading https://files.pythonhosted.org/packages/b7/02/3cd9a1714713fb6d489521f0eecf68e59cb0756fd582f70e6fdaf14b5248/FreeSimpleGUIQt-1.0.0.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/07/a6/b6ed73cb17bbaeccbf7c153f83b15054b5e1e859d7f4e8f263ff7b472441/svc_toolkit-1.0.1.tar.gz
+[2024-04-04 04:55:15] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 04:55:15] WARNING root fetch - processPackages [FreeSimpleGUIWx]: Timeout reached during download
+[2024-04-04 04:55:15] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 04:55:15] WARNING root fetch - processPackages [FreeSimpleGUIQt]: Timeout reached during download
+[2024-04-04 04:55:15] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/49/95/9c23ea92f6e7076225c15e0619b3b0b10762c6724014fad5c2ed43c7db2b/devon_agent-0.0.6.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIWx]: Downloading https://files.pythonhosted.org/packages/0d/f3/41b096ef0e39e3ee18e07ace0ea445eccfc12e13d9b2f29a8887111bbac7/FreeSimpleGUIWx-1.0.0rc1.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [svc-toolkit]: Downloading https://files.pythonhosted.org/packages/ee/60/16539ba8c1ffb1e025802a4f625f4a7ce71b55a7962d91d0990aa1b93a77/svc_toolkit-1.0.2.tar.gz
+[2024-04-04 04:55:15] INFO root fetch - processPackages [FreeSimpleGUIQt]: Downloading https://files.pythonhosted.org/packages/1e/20/46a777e6e84138b2ce6f42113f7613db9d2de1fa62e981b74fda03116778/FreeSimpleGUIQt-1.0.0rc1.tar.gz
+[2024-04-04 04:55:16] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 04:55:16] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 04:55:16] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.5.tar.gz tmp/devon_agent-0.0.6.tar.gz --markdown 20240404/d/devon-agent/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-04 04:55:16] WARNING root fetch - processPackages [FreeSimpleGUIWx]: Timeout reached during download
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIWx]: executing diffoscope
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIWx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeSimpleGUIWx-1.0.0.tar.gz tmp/FreeSimpleGUIWx-1.0.0rc1.tar.gz --markdown 20240404/F/FreeSimpleGUIWx/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 04:55:16] WARNING root fetch - processPackages [svc-toolkit]: Timeout reached during download
+[2024-04-04 04:55:16] INFO root fetch - processPackages [svc-toolkit]: executing diffoscope
+[2024-04-04 04:55:16] INFO root fetch - processPackages [svc-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_toolkit-1.0.1.tar.gz tmp/svc_toolkit-1.0.2.tar.gz --markdown 20240404/s/svc-toolkit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 04:55:16] WARNING root fetch - processPackages [FreeSimpleGUIQt]: Timeout reached during download
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIQt]: executing diffoscope
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIQt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeSimpleGUIQt-1.0.0.tar.gz tmp/FreeSimpleGUIQt-1.0.0rc1.tar.gz --markdown 20240404/F/FreeSimpleGUIQt/1.0.0-1.0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 04:55:16] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.5.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.6.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 04:55:16] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.1.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - processPackages [svc-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/svc_toolkit-1.0.2.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - main [MainThread]: End processing [svc-toolkit]: success
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIWx]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIWx-1.0.0.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - processPackages [FreeSimpleGUIWx]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIWx-1.0.0rc1.tar.gz]
+[2024-04-04 04:55:16] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIWx]: success
+[2024-04-04 04:55:17] INFO root fetch - processPackages [FreeSimpleGUIQt]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIQt-1.0.0.tar.gz]
+[2024-04-04 04:55:17] INFO root fetch - processPackages [FreeSimpleGUIQt]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIQt-1.0.0rc1.tar.gz]
+[2024-04-04 04:55:17] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIQt]: success
+[2024-04-04 04:55:17] INFO root fetch - main [MainThread]: Store serial: [22614939]
