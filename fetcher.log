@@ -2969,3 +2969,39 @@
 [2024-04-04 02:07:20] INFO root fetch - processPackages [squaredown]: Remove: archive file [/home/abi/fetcher/tmp/squaredown-1.5.1.tar.gz]
 [2024-04-04 02:07:20] INFO root fetch - main [MainThread]: End processing [squaredown]: success
 [2024-04-04 02:07:20] INFO root fetch - main [MainThread]: Store serial: [22612607]
+[2024-04-04 02:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612607]
+[2024-04-04 02:09:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 02:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boxedfactory
+[2024-04-04 02:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-common
+[2024-04-04 02:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stytch
+[2024-04-04 02:09:29] INFO root fetch - processPackages [boxedfactory]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 02:09:29] INFO root fetch - processPackages [stytch]: New version: [8.6.0] Old Version: [8.5.1]
+[2024-04-04 02:09:29] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 02:09:29] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/2e/3c/74917fe9bf4746dceec97aab9548b9fffa2ba6fdcf12be4bf475c48f6f6c/boxedfactory-0.0.7.tar.gz
+[2024-04-04 02:09:29] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/5a/1e/e98dd35db90d94556c62384a938375169fa945f6809702fbfa3bedc1b595/stytch-8.5.1.tar.gz
+[2024-04-04 02:09:29] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-04 02:09:29] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-04 02:09:29] WARNING root fetch - processPackages [stytch]: Timeout reached during download
+[2024-04-04 02:09:29] INFO root fetch - processPackages [boxedfactory]: Downloading https://files.pythonhosted.org/packages/db/84/654120932bbb70daaf8d11dec99ef25e174c66768fdc8559e2b74616c9d3/boxedfactory-0.0.8.tar.gz
+[2024-04-04 02:09:29] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-04 02:09:29] INFO root fetch - processPackages [stytch]: Downloading https://files.pythonhosted.org/packages/bb/04/d08b9b38911216fd0adb8b8fa8dd1f292d536a4a7efa7cd35d25cc34e798/stytch-8.6.0.tar.gz
+[2024-04-04 02:09:30] WARNING root fetch - processPackages [boxedfactory]: Timeout reached during download
+[2024-04-04 02:09:30] INFO root fetch - processPackages [boxedfactory]: executing diffoscope
+[2024-04-04 02:09:30] INFO root fetch - processPackages [boxedfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boxedfactory-0.0.7.tar.gz tmp/boxedfactory-0.0.8.tar.gz --markdown 20240404/b/boxedfactory/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 02:09:30] WARNING root fetch - processPackages [stytch]: Timeout reached during download
+[2024-04-04 02:09:30] INFO root fetch - processPackages [stytch]: executing diffoscope
+[2024-04-04 02:09:30] INFO root fetch - processPackages [stytch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stytch-8.5.1.tar.gz tmp/stytch-8.6.0.tar.gz --markdown 20240404/s/stytch/8.5.1-8.6.0/diff.md --exclude *.pyd
+[2024-04-04 02:09:30] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-04 02:09:30] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.7.tar.gz]
+[2024-04-04 02:09:30] INFO root fetch - processPackages [boxedfactory]: Remove: archive file [/home/abi/fetcher/tmp/boxedfactory-0.0.8.tar.gz]
+[2024-04-04 02:09:30] INFO root fetch - main [MainThread]: End processing [boxedfactory]: success
+[2024-04-04 02:09:30] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-04 02:09:30] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-04 02:09:30] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240404/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:09:30] INFO root fetch - processPackages [stytch]: Remove: archive file [/home/abi/fetcher/tmp/stytch-8.5.1.tar.gz]
+[2024-04-04 02:09:30] INFO root fetch - processPackages [stytch]: Remove: archive file [/home/abi/fetcher/tmp/stytch-8.6.0.tar.gz]
+[2024-04-04 02:09:30] INFO root fetch - main [MainThread]: End processing [stytch]: success
+[2024-04-04 02:09:31] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-04 02:09:31] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-04 02:09:31] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-04 02:09:31] INFO root fetch - main [MainThread]: Store serial: [22612616]
