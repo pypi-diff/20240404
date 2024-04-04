@@ -11077,3 +11077,39 @@
 [2024-04-04 05:19:12] INFO root fetch - processPackages [cec2rs232]: Remove: archive file [/home/abi/fetcher/tmp/cec2rs232-0.2.0.tar.gz]
 [2024-04-04 05:19:12] INFO root fetch - main [MainThread]: End processing [cec2rs232]: success
 [2024-04-04 05:19:12] INFO root fetch - main [MainThread]: Store serial: [22615098]
+[2024-04-04 05:21:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615098]
+[2024-04-04 05:21:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 05:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcweb
+[2024-04-04 05:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcwebplus
+[2024-04-04 05:21:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: manga-scrape
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcwebplus]: New version: [2.15] Old Version: [2.14]
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcweb]: New version: [5.26] Old Version: [5.25]
+[2024-04-04 05:21:20] INFO root fetch - processPackages [manga-scrape]: New version: [4.8.0] Old Version: [4.7.1]
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/ee/5f/8b51187f7f60c835dec19a31b6cfe9cbc731512ea8969963badce4833b67/kcweb-5.25.tar.gz
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcwebplus]: Downloading https://files.pythonhosted.org/packages/82/a9/ce1f55513bf0418c47ba7f97da22fb98e920f1809b326524d2ae8007147b/kcwebplus-2.14.tar.gz
+[2024-04-04 05:21:20] WARNING root fetch - processPackages [kcweb]: Timeout reached during download
+[2024-04-04 05:21:20] WARNING root fetch - processPackages [kcwebplus]: Timeout reached during download
+[2024-04-04 05:21:20] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/4d/8d/95fd38b0a5a7c2945034df231598a066e44442e6ad4a88df741a18fc3100/manga_scrape-4.7.1.tar.gz
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcweb]: Downloading https://files.pythonhosted.org/packages/8a/65/62f6086f43a980a1007372a4f4efb43b682d404e2bcc39a802a7740364fb/kcweb-5.26.tar.gz
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcwebplus]: Downloading https://files.pythonhosted.org/packages/62/c3/5fcf3b81d2b9a6a82f032d18f95d8f0b80181d69000277ea668ace50dcec/kcwebplus-2.15.tar.gz
+[2024-04-04 05:21:20] WARNING root fetch - processPackages [kcweb]: Timeout reached during download
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcweb]: executing diffoscope
+[2024-04-04 05:21:20] INFO root fetch - processPackages [kcweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcweb-5.25.tar.gz tmp/kcweb-5.26.tar.gz --markdown 20240404/k/kcweb/5.25-5.26/diff.md --exclude *.pyd
+[2024-04-04 05:21:21] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:21:21] WARNING root fetch - processPackages [kcwebplus]: Timeout reached during download
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcwebplus]: executing diffoscope
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcwebplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcwebplus-2.14.tar.gz tmp/kcwebplus-2.15.tar.gz --markdown 20240404/k/kcwebplus/2.14-2.15/diff.md --exclude *.pyd
+[2024-04-04 05:21:21] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/bd/f8/0b1c4e019f16b186ed6cc5e5d90e416c4c610bdffb21fae5a0c787b18513/manga_scrape-4.8.0.tar.gz
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcwebplus]: Remove: archive file [/home/abi/fetcher/tmp/kcwebplus-2.14.tar.gz]
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcwebplus]: Remove: archive file [/home/abi/fetcher/tmp/kcwebplus-2.15.tar.gz]
+[2024-04-04 05:21:21] INFO root fetch - main [MainThread]: End processing [kcwebplus]: success
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcweb]: Remove: archive file [/home/abi/fetcher/tmp/kcweb-5.25.tar.gz]
+[2024-04-04 05:21:21] INFO root fetch - processPackages [kcweb]: Remove: archive file [/home/abi/fetcher/tmp/kcweb-5.26.tar.gz]
+[2024-04-04 05:21:21] INFO root fetch - main [MainThread]: End processing [kcweb]: success
+[2024-04-04 05:21:21] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:21:21] INFO root fetch - processPackages [manga-scrape]: executing diffoscope
+[2024-04-04 05:21:21] INFO root fetch - processPackages [manga-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga_scrape-4.7.1.tar.gz tmp/manga_scrape-4.8.0.tar.gz --markdown 20240404/m/manga-scrape/4.7.1-4.8.0/diff.md --exclude *.pyd
+[2024-04-04 05:21:22] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.7.1.tar.gz]
+[2024-04-04 05:21:22] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
+[2024-04-04 05:21:22] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
+[2024-04-04 05:21:22] INFO root fetch - main [MainThread]: Store serial: [22615103]
