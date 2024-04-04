@@ -12030,3 +12030,28 @@
 [2024-04-04 06:11:30] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.9.0.tar.gz]
 [2024-04-04 06:11:30] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
 [2024-04-04 06:11:30] INFO root fetch - main [MainThread]: Store serial: [22615372]
+[2024-04-04 06:13:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615372]
+[2024-04-04 06:13:39] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 06:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-rust-regex
+[2024-04-04 06:13:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: patchwork-cli
+[2024-04-04 06:13:39] INFO root fetch - processPackages [py-rust-regex]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 06:13:39] INFO root fetch - processPackages [patchwork-cli]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 06:13:39] INFO root fetch - processPackages [py-rust-regex]: Downloading https://files.pythonhosted.org/packages/0b/c9/08c9e9d061a6522467a71aa158d7e0c84f9eee73bd9a1cf787901a11d583/py_rust_regex-0.1.0.tar.gz
+[2024-04-04 06:13:39] WARNING root fetch - processPackages [py-rust-regex]: Timeout reached during download
+[2024-04-04 06:13:39] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/0f/0e/ec6b17abe255cbaa8a0ac495de8b1930e9ed45cd922a99ec2f5636d6dbe8/patchwork_cli-0.0.2.tar.gz
+[2024-04-04 06:13:39] INFO root fetch - processPackages [py-rust-regex]: Downloading https://files.pythonhosted.org/packages/a9/d6/516c09efa222ade8f9f205f2bb08e6ee05514a22fa65dcd3c8eebd4cb5a1/py_rust_regex-0.1.1.tar.gz
+[2024-04-04 06:13:39] WARNING root fetch - processPackages [patchwork-cli]: Timeout reached during download
+[2024-04-04 06:13:39] INFO root fetch - processPackages [patchwork-cli]: Downloading https://files.pythonhosted.org/packages/4f/83/66e3fc7a6ffae30c6f64ce7aba611498f02d9b71562e807459f617b6d81b/patchwork_cli-0.0.3.tar.gz
+[2024-04-04 06:13:40] WARNING root fetch - processPackages [py-rust-regex]: Timeout reached during download
+[2024-04-04 06:13:40] INFO root fetch - processPackages [py-rust-regex]: executing diffoscope
+[2024-04-04 06:13:40] INFO root fetch - processPackages [py-rust-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_rust_regex-0.1.0.tar.gz tmp/py_rust_regex-0.1.1.tar.gz --markdown 20240404/p/py-rust-regex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 06:13:40] WARNING root fetch - processPackages [patchwork-cli]: Timeout reached during download
+[2024-04-04 06:13:40] INFO root fetch - processPackages [patchwork-cli]: executing diffoscope
+[2024-04-04 06:13:40] INFO root fetch - processPackages [patchwork-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/patchwork_cli-0.0.2.tar.gz tmp/patchwork_cli-0.0.3.tar.gz --markdown 20240404/p/patchwork-cli/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 06:13:40] INFO root fetch - processPackages [py-rust-regex]: Remove: archive file [/home/abi/fetcher/tmp/py_rust_regex-0.1.0.tar.gz]
+[2024-04-04 06:13:40] INFO root fetch - processPackages [py-rust-regex]: Remove: archive file [/home/abi/fetcher/tmp/py_rust_regex-0.1.1.tar.gz]
+[2024-04-04 06:13:40] INFO root fetch - main [MainThread]: End processing [py-rust-regex]: success
+[2024-04-04 06:13:40] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.2.tar.gz]
+[2024-04-04 06:13:40] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.3.tar.gz]
+[2024-04-04 06:13:40] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
+[2024-04-04 06:13:40] INFO root fetch - main [MainThread]: Store serial: [22615378]
