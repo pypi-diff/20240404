@@ -13941,3 +13941,61 @@
 [2024-04-04 07:53:05] INFO root fetch - processPackages [pynxtools-mpes]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-mpes-0.0.2.tar.gz]
 [2024-04-04 07:53:05] INFO root fetch - main [MainThread]: End processing [pynxtools-mpes]: success
 [2024-04-04 07:53:05] INFO root fetch - main [MainThread]: Store serial: [22615993]
+[2024-04-04 07:55:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615993]
+[2024-04-04 07:55:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 07:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pf-azuredb
+[2024-04-04 07:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybersource-rest-client-python
+[2024-04-04 07:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-auth-api-key-group
+[2024-04-04 07:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-auth-api-key
+[2024-04-04 07:55:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imjoy-jupyterlab-extension
+[2024-04-04 07:55:15] INFO root fetch - processPackages [pf-azuredb]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key]: New version: [17.0.1.0.0.4] Old Version: [17.0.1.0.0.3]
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-04 07:55:15] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-04 07:55:15] INFO root fetch - processPackages [cybersource-rest-client-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 07:55:15] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/f6/ad/69d414327fe2de59c2ec90a4db63b73c52e476535ef80e043b807284fe64/imjoy-jupyterlab-extension-0.1.9.tar.gz
+[2024-04-04 07:55:15] INFO root fetch - processPackages [pf-azuredb]: Downloading https://files.pythonhosted.org/packages/17/44/493766c031ccf26caeefa2427ca075b2a9111f28e1ee0f1c6a398effcd46/pf-azuredb-0.0.4.tar.gz
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key]: Downloading https://files.pythonhosted.org/packages/49/7c/66ad1c454401c7a9c061426dcbcc3577bec1e7229914c06801fe109e75dd/odoo_addon_auth_api_key-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 07:55:15] INFO root fetch - processPackages [cybersource-rest-client-python]: Downloading https://files.pythonhosted.org/packages/e6/94/b11bb0ac42b1b84828a2b872563b71b8cd710939b30670c70519b02120eb/cybersource-rest-client-python-0.0.8.tar.gz
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: Downloading https://files.pythonhosted.org/packages/b7/49/bf6b6d9861d56015a033224605c743000e184c0d61ecb78f80e346f202e6/odoo_addon_auth_api_key_group-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [pf-azuredb]: Timeout reached during download
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [odoo-addon-auth-api-key]: Timeout reached during download
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [odoo-addon-auth-api-key-group]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/69/9c/e9bebb65e741a99aaaceda944b5b8de83867ab7a9bbfc65800aacb89c712/imjoy_jupyterlab_extension-0.2.0-py3-none-any.whl
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key]: Downloading https://files.pythonhosted.org/packages/7a/75/9fa282c3b7eca8a57fa9f3682c195f44d0294cf610aecb9acebff65efe4b/odoo_addon_auth_api_key-17.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [cybersource-rest-client-python]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [pf-azuredb]: Downloading https://files.pythonhosted.org/packages/82/29/64d797e5db71643b0cd3ee0c7eff2e977c1b7a24d16d2bf8dda3a19157e9/pf-azuredb-0.0.5.tar.gz
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: Downloading https://files.pythonhosted.org/packages/76/19/db022d9e1587b27de7b58f9023c36483aafc3dd662ac0d27caecffd8d669/odoo_addon_auth_api_key_group-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: executing diffoscope
+[2024-04-04 07:55:15] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz tmp/imjoy_jupyterlab_extension-0.2.0-py3-none-any.whl.zip --markdown 20240404/i/imjoy-jupyterlab-extension/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [odoo-addon-auth-api-key]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key]: executing diffoscope
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_api_key-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_auth_api_key-17.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-auth-api-key/17.0.1.0.0.3-17.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [odoo-addon-auth-api-key-group]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: executing diffoscope
+[2024-04-04 07:55:15] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_auth_api_key_group-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_auth_api_key_group-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-auth-api-key-group/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:55:15] WARNING root fetch - processPackages [pf-azuredb]: Timeout reached during download
+[2024-04-04 07:55:15] INFO root fetch - processPackages [pf-azuredb]: executing diffoscope
+[2024-04-04 07:55:15] INFO root fetch - processPackages [pf-azuredb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf-azuredb-0.0.4.tar.gz tmp/pf-azuredb-0.0.5.tar.gz --markdown 20240404/p/pf-azuredb/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 07:55:15] INFO root fetch - processPackages [cybersource-rest-client-python]: Downloading https://files.pythonhosted.org/packages/c6/3b/8c8e0b7e45be2600726402ba211345c6978101125bb7b35ac9ec0db92b08/cybersource-rest-client-python-0.0.9.tar.gz
+[2024-04-04 07:55:16] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy-jupyterlab-extension-0.1.9.tar.gz]
+[2024-04-04 07:55:16] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.0-py3-none-any.whl.zip]
+[2024-04-04 07:55:16] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
+[2024-04-04 07:55:16] INFO root fetch - processPackages [odoo-addon-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_api_key-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:55:16] INFO root fetch - processPackages [odoo-addon-auth-api-key]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_api_key-17.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-api-key]: success
+[2024-04-04 07:55:16] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_api_key_group-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:55:16] INFO root fetch - processPackages [odoo-addon-auth-api-key-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_auth_api_key_group-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:55:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-auth-api-key-group]: success
+[2024-04-04 07:55:16] INFO root fetch - processPackages [pf-azuredb]: Remove: archive file [/home/abi/fetcher/tmp/pf-azuredb-0.0.4.tar.gz]
+[2024-04-04 07:55:16] INFO root fetch - processPackages [pf-azuredb]: Remove: archive file [/home/abi/fetcher/tmp/pf-azuredb-0.0.5.tar.gz]
+[2024-04-04 07:55:16] INFO root fetch - main [MainThread]: End processing [pf-azuredb]: success
+[2024-04-04 07:55:16] WARNING root fetch - processPackages [cybersource-rest-client-python]: Timeout reached during download
+[2024-04-04 07:55:16] INFO root fetch - processPackages [cybersource-rest-client-python]: executing diffoscope
+[2024-04-04 07:55:16] INFO root fetch - processPackages [cybersource-rest-client-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybersource-rest-client-python-0.0.8.tar.gz tmp/cybersource-rest-client-python-0.0.9.tar.gz --markdown 20240404/c/cybersource-rest-client-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:55:21] INFO root fetch - processPackages [cybersource-rest-client-python]: Remove: archive file [/home/abi/fetcher/tmp/cybersource-rest-client-python-0.0.8.tar.gz]
+[2024-04-04 07:55:21] INFO root fetch - processPackages [cybersource-rest-client-python]: Remove: archive file [/home/abi/fetcher/tmp/cybersource-rest-client-python-0.0.9.tar.gz]
+[2024-04-04 07:55:21] INFO root fetch - main [MainThread]: End processing [cybersource-rest-client-python]: success
+[2024-04-04 07:55:21] INFO root fetch - main [MainThread]: Store serial: [22616011]
