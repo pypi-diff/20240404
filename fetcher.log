@@ -14948,3 +14948,28 @@
 [2024-04-04 08:38:44] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.2.tar.gz]
 [2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [django-components]: success
 [2024-04-04 08:38:44] INFO root fetch - main [MainThread]: Store serial: [22616302]
+[2024-04-04 08:40:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616302]
+[2024-04-04 08:40:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 08:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dripfeed-client
+[2024-04-04 08:40:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hass-nabucasa
+[2024-04-04 08:40:53] INFO root fetch - processPackages [hass-nabucasa]: New version: [0.9] Old Version: [0.80.0]
+[2024-04-04 08:40:53] INFO root fetch - processPackages [dripfeed-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 08:40:53] INFO root fetch - processPackages [dripfeed-client]: Downloading https://files.pythonhosted.org/packages/55/c6/ebf2903360678184cb6b73f0e67a9ff25a821fc6c3403b844f2153376319/dripfeed-client-0.1.2.tar.gz
+[2024-04-04 08:40:53] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/30/96/308998bf5bd8d94e4d7dc80c57f6ece7ded3f9d87acee2ccc825842b8a70/hass-nabucasa-0.80.0.tar.gz
+[2024-04-04 08:40:53] WARNING root fetch - processPackages [dripfeed-client]: Timeout reached during download
+[2024-04-04 08:40:53] WARNING root fetch - processPackages [hass-nabucasa]: Timeout reached during download
+[2024-04-04 08:40:53] INFO root fetch - processPackages [dripfeed-client]: Downloading https://files.pythonhosted.org/packages/e0/5d/d32d830c45602c5608a14c0d58b537598ad3d30a0fdc5a2cd96d82aca2d4/dripfeed-client-0.1.3.tar.gz
+[2024-04-04 08:40:53] WARNING root fetch - processPackages [dripfeed-client]: Timeout reached during download
+[2024-04-04 08:40:53] INFO root fetch - processPackages [dripfeed-client]: executing diffoscope
+[2024-04-04 08:40:53] INFO root fetch - processPackages [dripfeed-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dripfeed-client-0.1.2.tar.gz tmp/dripfeed-client-0.1.3.tar.gz --markdown 20240404/d/dripfeed-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 08:40:53] INFO root fetch - processPackages [hass-nabucasa]: Downloading https://files.pythonhosted.org/packages/3b/bf/09dd82cd20936665446eff0e5895609e699ed4e0143d97d0168512bc30b9/hass-nabucasa-0.9.tar.gz
+[2024-04-04 08:40:54] WARNING root fetch - processPackages [hass-nabucasa]: Timeout reached during download
+[2024-04-04 08:40:54] INFO root fetch - processPackages [hass-nabucasa]: executing diffoscope
+[2024-04-04 08:40:54] INFO root fetch - processPackages [hass-nabucasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hass-nabucasa-0.80.0.tar.gz tmp/hass-nabucasa-0.9.tar.gz --markdown 20240404/h/hass-nabucasa/0.80.0-0.9/diff.md --exclude *.pyd
+[2024-04-04 08:40:54] INFO root fetch - processPackages [dripfeed-client]: Remove: archive file [/home/abi/fetcher/tmp/dripfeed-client-0.1.2.tar.gz]
+[2024-04-04 08:40:54] INFO root fetch - processPackages [dripfeed-client]: Remove: archive file [/home/abi/fetcher/tmp/dripfeed-client-0.1.3.tar.gz]
+[2024-04-04 08:40:54] INFO root fetch - main [MainThread]: End processing [dripfeed-client]: success
+[2024-04-04 08:40:54] INFO root fetch - processPackages [hass-nabucasa]: Remove: archive file [/home/abi/fetcher/tmp/hass-nabucasa-0.80.0.tar.gz]
+[2024-04-04 08:40:54] INFO root fetch - processPackages [hass-nabucasa]: Remove: archive file [/home/abi/fetcher/tmp/hass-nabucasa-0.9.tar.gz]
+[2024-04-04 08:40:54] INFO root fetch - main [MainThread]: End processing [hass-nabucasa]: success
+[2024-04-04 08:40:54] INFO root fetch - main [MainThread]: Store serial: [22616313]
