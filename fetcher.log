@@ -9767,3 +9767,39 @@
 [2024-04-04 03:57:27] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.3.tar.gz]
 [2024-04-04 03:57:27] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
 [2024-04-04 03:57:27] INFO root fetch - main [MainThread]: Store serial: [22614662]
+[2024-04-04 03:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614662]
+[2024-04-04 03:59:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 03:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cardex
+[2024-04-04 03:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clinterface
+[2024-04-04 03:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devon-agent
+[2024-04-04 03:59:36] INFO root fetch - processPackages [cardex]: New version: [0.2.0.dev9] Old Version: [0.2.0.dev8]
+[2024-04-04 03:59:36] INFO root fetch - processPackages [devon-agent]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 03:59:36] INFO root fetch - processPackages [clinterface]: New version: [0.2.0] Old Version: [0.1.1.post8]
+[2024-04-04 03:59:37] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/0a/70/2ec645ceda03e2a333605ae13761218b17d53a4d6751e40956ea1023eba2/devon_agent-0.0.3.tar.gz
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:59:37] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/96/6e/6c4d87215e2446a0ac9bc903860b173f9fc347eb73dc8e4a21a298670a00/cardex-0.2.0.dev8.tar.gz
+[2024-04-04 03:59:37] INFO root fetch - processPackages [clinterface]: Downloading https://files.pythonhosted.org/packages/b0/ea/79f3378218927ac8cf1aad54d97b13b8413c055711cec2ffb9bc5088cec5/clinterface-0.1.1.post8-py3-none-any.whl
+[2024-04-04 03:59:37] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/86/b1/5dc12018a24fd0e5ae5e58c119d6629ad23b1df6d5f2f1bb5aafde7c2bdc/devon_agent-0.0.4.tar.gz
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [cardex]: Timeout reached during download
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 03:59:37] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 03:59:37] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.3.tar.gz tmp/devon_agent-0.0.4.tar.gz --markdown 20240404/d/devon-agent/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [clinterface]: Timeout reached during download
+[2024-04-04 03:59:37] INFO root fetch - processPackages [clinterface]: Downloading https://files.pythonhosted.org/packages/c5/ac/b3e966ab21740157d0ec5b0e57c335f62396ea5a0a3bdcb354886409321e/clinterface-0.2.0-py3-none-any.whl
+[2024-04-04 03:59:37] INFO root fetch - processPackages [cardex]: Downloading https://files.pythonhosted.org/packages/a5/f1/936319cd5a1e0862bc33edbce29c37659ee57c4782e76613d4ce0b406196/cardex-0.2.0.dev9.tar.gz
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [clinterface]: Timeout reached during download
+[2024-04-04 03:59:37] INFO root fetch - processPackages [clinterface]: executing diffoscope
+[2024-04-04 03:59:37] INFO root fetch - processPackages [clinterface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinterface-0.1.1.post8-py3-none-any.whl.zip tmp/clinterface-0.2.0-py3-none-any.whl.zip --markdown 20240404/c/clinterface/0.1.1.post8-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 03:59:37] WARNING root fetch - processPackages [cardex]: Timeout reached during download
+[2024-04-04 03:59:37] INFO root fetch - processPackages [cardex]: executing diffoscope
+[2024-04-04 03:59:37] INFO root fetch - processPackages [cardex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cardex-0.2.0.dev8.tar.gz tmp/cardex-0.2.0.dev9.tar.gz --markdown 20240404/c/cardex/0.2.0.dev8-0.2.0.dev9/diff.md --exclude *.pyd
+[2024-04-04 03:59:38] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.3.tar.gz]
+[2024-04-04 03:59:38] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.4.tar.gz]
+[2024-04-04 03:59:38] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 03:59:38] INFO root fetch - processPackages [clinterface]: Remove: archive file [/home/abi/fetcher/tmp/clinterface-0.1.1.post8-py3-none-any.whl.zip]
+[2024-04-04 03:59:38] INFO root fetch - processPackages [clinterface]: Remove: archive file [/home/abi/fetcher/tmp/clinterface-0.2.0-py3-none-any.whl.zip]
+[2024-04-04 03:59:38] INFO root fetch - main [MainThread]: End processing [clinterface]: success
+[2024-04-04 03:59:38] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev8.tar.gz]
+[2024-04-04 03:59:38] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
+[2024-04-04 03:59:38] INFO root fetch - main [MainThread]: End processing [cardex]: success
+[2024-04-04 03:59:38] INFO root fetch - main [MainThread]: Store serial: [22614670]
