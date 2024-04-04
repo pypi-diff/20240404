@@ -15518,3 +15518,17 @@
 [2024-04-04 09:04:06] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2024-04-04 09:04:06] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2024-04-04 09:04:06] INFO root fetch - main [MainThread]: Store serial: [22616485]
+[2024-04-04 09:06:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616485]
+[2024-04-04 09:06:15] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 09:06:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: casioplot
+[2024-04-04 09:06:15] INFO root fetch - processPackages [casioplot]: New version: [3.1.7] Old Version: [3.1.6]
+[2024-04-04 09:06:15] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/cd/04/43688e9967f7b64f8181971738adadfb236b5d21b4e6c4a1ece6a0562dcc/casioplot-3.1.6.tar.gz
+[2024-04-04 09:06:15] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 09:06:15] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/b4/67/e738b52b684091bdf55d7bb7352700ffe562fd8914f7406cce69df79ab0c/casioplot-3.1.7.tar.gz
+[2024-04-04 09:06:16] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 09:06:16] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-04 09:06:16] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-3.1.6.tar.gz tmp/casioplot-3.1.7.tar.gz --markdown 20240404/c/casioplot/3.1.6-3.1.7/diff.md --exclude *.pyd
+[2024-04-04 09:06:16] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.6.tar.gz]
+[2024-04-04 09:06:16] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.7.tar.gz]
+[2024-04-04 09:06:16] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-04 09:06:16] INFO root fetch - main [MainThread]: Store serial: [22616488]
