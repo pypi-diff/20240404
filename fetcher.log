@@ -20384,3 +20384,59 @@
 [2024-04-04 11:57:33] INFO root fetch - processPackages [pyphysio]: Remove: archive file [/home/abi/fetcher/tmp/pyphysio-3.1.7.tar.gz]
 [2024-04-04 11:57:33] INFO root fetch - main [MainThread]: End processing [pyphysio]: success
 [2024-04-04 11:57:33] INFO root fetch - main [MainThread]: Store serial: [22618129]
+[2024-04-04 11:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618129]
+[2024-04-04 11:59:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ibek
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: incremental-backup
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robocorp-flet
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vvm-lib
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: stadb
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salure-helpers-leapsome
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [vvm-lib]: Skipping, unable to determine old version
+[2024-04-04 11:59:42] INFO root fetch - main [MainThread]: End processing [vvm-lib] error
+[2024-04-04 11:59:42] INFO root fetch - processPackages [incremental-backup]: New version: [1.1.0] Old Version: [1.0.1]
+[2024-04-04 11:59:42] INFO root fetch - processPackages [pyqqq]: New version: [0.6.8] Old Version: [0.6.7]
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [robocorp-flet]: Skipping, unable to determine old version
+[2024-04-04 11:59:42] INFO root fetch - main [MainThread]: End processing [robocorp-flet] error
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ibek]: New version: [3.4.0b2] Old Version: [2023.11.1b5]
+[2024-04-04 11:59:42] INFO root fetch - processPackages [salure-helpers-leapsome]: New version: [1.2.0] Old Version: [1.0.0]
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [stadb]: Skipping, unable to determine old version
+[2024-04-04 11:59:42] INFO root fetch - main [MainThread]: End processing [stadb] error
+[2024-04-04 11:59:42] INFO root fetch - processPackages [incremental-backup]: Downloading https://files.pythonhosted.org/packages/82/3c/2e0d46b225e9bd2bb675a742c52045a9ea9755ae4d5feaa5757da93b8340/incremental_backup-1.0.1.tar.gz
+[2024-04-04 11:59:42] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/a8/fd/26d73898b96030441b0c600d240191c34f7517c23cebd4bc07016817796a/pyqqq-0.6.7.tar.gz
+[2024-04-04 11:59:42] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/03/3f/256b9e6c5014a86eb3aa1661e91ed4d9803dd74445efecf6d1c8db66bf37/ibek-2023.11.1b5.tar.gz
+[2024-04-04 11:59:42] INFO root fetch - processPackages [salure-helpers-leapsome]: Downloading https://files.pythonhosted.org/packages/b7/50/1700922ef36271aaf6d335d6f03764f181da6d093a5e61a3cf21148badf3/salure_helpers_leapsome-1.0.0.tar.gz
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [incremental-backup]: Timeout reached during download
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [ibek]: Timeout reached during download
+[2024-04-04 11:59:42] INFO root fetch - processPackages [incremental-backup]: Downloading https://files.pythonhosted.org/packages/9d/e5/28a455fadb1d1741a499c3ea01672191365dc445dabcc80f2e71e321091a/incremental_backup-1.1.0.tar.gz
+[2024-04-04 11:59:42] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/d8/4d/45e2b2f111751fb8b03be1f88bb82a695fae5f8e950fa4fc19b996d40509/pyqqq-0.6.8.tar.gz
+[2024-04-04 11:59:42] WARNING root fetch - processPackages [salure-helpers-leapsome]: Timeout reached during download
+[2024-04-04 11:59:43] INFO root fetch - processPackages [ibek]: Downloading https://files.pythonhosted.org/packages/5c/6d/685b830f0cf773118f37ff7e26368361b6bbf288ab01f53d8365512dcd35/ibek-3.4.0b2.tar.gz
+[2024-04-04 11:59:43] WARNING root fetch - processPackages [incremental-backup]: Timeout reached during download
+[2024-04-04 11:59:43] INFO root fetch - processPackages [incremental-backup]: executing diffoscope
+[2024-04-04 11:59:43] INFO root fetch - processPackages [incremental-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/incremental_backup-1.0.1.tar.gz tmp/incremental_backup-1.1.0.tar.gz --markdown 20240404/i/incremental-backup/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:59:43] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-04 11:59:43] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-04 11:59:43] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.7.tar.gz tmp/pyqqq-0.6.8.tar.gz --markdown 20240404/p/pyqqq/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2024-04-04 11:59:43] WARNING root fetch - processPackages [ibek]: Timeout reached during download
+[2024-04-04 11:59:43] INFO root fetch - processPackages [ibek]: executing diffoscope
+[2024-04-04 11:59:43] INFO root fetch - processPackages [ibek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibek-2023.11.1b5.tar.gz tmp/ibek-3.4.0b2.tar.gz --markdown 20240404/i/ibek/2023.11.1b5-3.4.0b2/diff.md --exclude *.pyd
+[2024-04-04 11:59:43] INFO root fetch - processPackages [salure-helpers-leapsome]: Downloading https://files.pythonhosted.org/packages/68/7d/210b0a098b18354e798a05a1d616b77c2511190a8b72b1852ee868489dd2/salure_helpers_leapsome-1.2.0.tar.gz
+[2024-04-04 11:59:43] WARNING root fetch - processPackages [salure-helpers-leapsome]: Timeout reached during download
+[2024-04-04 11:59:43] INFO root fetch - processPackages [salure-helpers-leapsome]: executing diffoscope
+[2024-04-04 11:59:43] INFO root fetch - processPackages [salure-helpers-leapsome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_leapsome-1.0.0.tar.gz tmp/salure_helpers_leapsome-1.2.0.tar.gz --markdown 20240404/s/salure-helpers-leapsome/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-04 11:59:43] INFO root fetch - processPackages [incremental-backup]: Remove: archive file [/home/abi/fetcher/tmp/incremental_backup-1.0.1.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - processPackages [incremental-backup]: Remove: archive file [/home/abi/fetcher/tmp/incremental_backup-1.1.0.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - main [MainThread]: End processing [incremental-backup]: success
+[2024-04-04 11:59:43] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.7.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.8.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-04 11:59:43] INFO root fetch - processPackages [salure-helpers-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_leapsome-1.0.0.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - processPackages [salure-helpers-leapsome]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_leapsome-1.2.0.tar.gz]
+[2024-04-04 11:59:43] INFO root fetch - main [MainThread]: End processing [salure-helpers-leapsome]: success
+[2024-04-04 11:59:44] INFO root fetch - processPackages [ibek]: Remove: archive file [/home/abi/fetcher/tmp/ibek-2023.11.1b5.tar.gz]
+[2024-04-04 11:59:44] INFO root fetch - processPackages [ibek]: Remove: archive file [/home/abi/fetcher/tmp/ibek-3.4.0b2.tar.gz]
+[2024-04-04 11:59:44] INFO root fetch - main [MainThread]: End processing [ibek]: success
+[2024-04-04 11:59:44] INFO root fetch - main [MainThread]: Store serial: [22618160]
