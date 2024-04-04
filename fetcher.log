@@ -16126,3 +16126,92 @@
 [2024-04-04 09:36:19] INFO root fetch - processPackages [auth_fastapi]: Remove: archive file [/home/abi/fetcher/tmp/auth_fastapi-1.0.1.tar.gz]
 [2024-04-04 09:36:19] INFO root fetch - main [MainThread]: End processing [auth_fastapi]: success
 [2024-04-04 09:36:19] INFO root fetch - main [MainThread]: Store serial: [22616654]
+[2024-04-04 09:38:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616654]
+[2024-04-04 09:38:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: images-upload-cli
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tableland
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dotlocalslashbin
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: threedi-schema
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CoolAMQP
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: foundrytools-cli
+[2024-04-04 09:38:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond
+[2024-04-04 09:38:27] INFO root fetch - processPackages [images-upload-cli]: New version: [3.0.3rc4] Old Version: [3.0.3rc3]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [dotlocalslashbin]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [foundrytools-cli]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [tableland]: New version: [0.0.1rc3] Old Version: [0.0.1rc2]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [CoolAMQP]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [threedi-schema]: New version: [0.220] Old Version: [0.219.2.dev1]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-04 09:38:27] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/80/29/4f15659ab59fb45f2663c1369d1576d741412abaee54feb94db795d9394c/images_upload_cli-3.0.3rc3.tar.gz
+[2024-04-04 09:38:27] INFO root fetch - processPackages [dotlocalslashbin]: Downloading https://files.pythonhosted.org/packages/ea/cc/6261c8584c0ec6e5f34759c24aa7906af6bf55b69f0bdda0d2f07f8c5202/dotlocalslashbin-0.0.1.tar.gz
+[2024-04-04 09:38:27] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/bc/fe/73342146718402122bd80115939b23ebf2f581a4f34a9fc7a7ed6a8ff320/tableland-0.0.1rc2.tar.gz
+[2024-04-04 09:38:27] WARNING root fetch - processPackages [dotlocalslashbin]: Timeout reached during download
+[2024-04-04 09:38:27] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:38:27] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-04 09:38:27] WARNING root fetch - processPackages [images-upload-cli]: Timeout reached during download
+[2024-04-04 09:38:27] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-04 09:38:27] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/26/4e/64b168258e17162eeb09acfbb1948c0bca4dcd47479c985a4019b3880ccc/foundrytools-cli-1.1.8.tar.gz
+[2024-04-04 09:38:27] INFO root fetch - processPackages [CoolAMQP]: Downloading https://files.pythonhosted.org/packages/8a/ef/62390d32f6dbd1ae14fe8262084b61db347a727c13c53f5e9f84759b9b5d/CoolAMQP-1.2.8-py2.py3-none-any.whl
+[2024-04-04 09:38:27] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/68/eb/777f265c28d8d1f8f171c55decf36570c8791361d7056457f001530b9d17/threedi-schema-0.219.2.dev1.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [dotlocalslashbin]: Downloading https://files.pythonhosted.org/packages/89/be/add6289e6aa6206fdd76f2374f17cff52ba8620ccdad954a00787848bb38/dotlocalslashbin-0.0.2.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/2c/e2/180edb96ade2d55a992819a04cc476dd453b7495ce3e2b61d13a6f606861/tableland-0.0.1rc3.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [images-upload-cli]: Downloading https://files.pythonhosted.org/packages/98/ab/f772f1a1600bb4570b92b7ed30a96c11be09adb32ca10e264c281abaa92e/images_upload_cli-3.0.3rc4.tar.gz
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [CoolAMQP]: Timeout reached during download
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [foundrytools-cli]: Timeout reached during download
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [threedi-schema]: Timeout reached during download
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [dotlocalslashbin]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [dotlocalslashbin]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [dotlocalslashbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dotlocalslashbin-0.0.1.tar.gz tmp/dotlocalslashbin-0.0.2.tar.gz --markdown 20240404/d/dotlocalslashbin/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.1rc2.tar.gz tmp/tableland-0.0.1rc3.tar.gz --markdown 20240404/t/tableland/0.0.1rc2-0.0.1rc3/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [images-upload-cli]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [images-upload-cli]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [images-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/images_upload_cli-3.0.3rc3.tar.gz tmp/images_upload_cli-3.0.3rc4.tar.gz --markdown 20240404/i/images-upload-cli/3.0.3rc3-3.0.3rc4/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [CoolAMQP]: Downloading https://files.pythonhosted.org/packages/db/9a/b1df40792eaec96709bc9c550776b9b84c4c629eff606f5f2dc9b2b3b34e/CoolAMQP-1.2.9.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [threedi-schema]: Downloading https://files.pythonhosted.org/packages/88/8c/fc7b9e65d9d8e0d2f46db146a80c091c158a5b6a87a279c5d739b374c10d/threedi-schema-0.220.tar.gz
+[2024-04-04 09:38:28] INFO root fetch - processPackages [foundrytools-cli]: Downloading https://files.pythonhosted.org/packages/52/e9/77e069c92b6682a4396af4a1509c63ffbf99716479c914af5c04d5d269b3/foundrytools-cli-1.1.9.tar.gz
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [CoolAMQP]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [CoolAMQP]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [CoolAMQP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CoolAMQP-1.2.8-py2.py3-none-any.whl.zip tmp/CoolAMQP-1.2.9.tar.gz --markdown 20240404/C/CoolAMQP/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [threedi-schema]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [threedi-schema]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [threedi-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threedi-schema-0.219.2.dev1.tar.gz tmp/threedi-schema-0.220.tar.gz --markdown 20240404/t/threedi-schema/0.219.2.dev1-0.220/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240404/t/trytond/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240404/t/trytond/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] WARNING root fetch - processPackages [foundrytools-cli]: Timeout reached during download
+[2024-04-04 09:38:28] INFO root fetch - processPackages [foundrytools-cli]: executing diffoscope
+[2024-04-04 09:38:28] INFO root fetch - processPackages [foundrytools-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundrytools-cli-1.1.8.tar.gz tmp/foundrytools-cli-1.1.9.tar.gz --markdown 20240404/f/foundrytools-cli/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-04 09:38:28] INFO root fetch - processPackages [dotlocalslashbin]: Remove: archive file [/home/abi/fetcher/tmp/dotlocalslashbin-0.0.1.tar.gz]
+[2024-04-04 09:38:28] INFO root fetch - processPackages [dotlocalslashbin]: Remove: archive file [/home/abi/fetcher/tmp/dotlocalslashbin-0.0.2.tar.gz]
+[2024-04-04 09:38:28] INFO root fetch - main [MainThread]: End processing [dotlocalslashbin]: success
+[2024-04-04 09:38:29] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc2.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1rc3.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 09:38:29] INFO root fetch - processPackages [images-upload-cli]: Remove: archive file [/home/abi/fetcher/tmp/images_upload_cli-3.0.3rc3.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - processPackages [images-upload-cli]: Remove: archive file [/home/abi/fetcher/tmp/images_upload_cli-3.0.3rc4.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
+[2024-04-04 09:38:29] INFO root fetch - processPackages [CoolAMQP]: Remove: archive file [/home/abi/fetcher/tmp/CoolAMQP-1.2.8-py2.py3-none-any.whl.zip]
+[2024-04-04 09:38:29] INFO root fetch - processPackages [CoolAMQP]: Remove: archive file [/home/abi/fetcher/tmp/CoolAMQP-1.2.9.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - main [MainThread]: End processing [CoolAMQP]: success
+[2024-04-04 09:38:29] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.219.2.dev1.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - processPackages [threedi-schema]: Remove: archive file [/home/abi/fetcher/tmp/threedi-schema-0.220.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - main [MainThread]: End processing [threedi-schema]: success
+[2024-04-04 09:38:29] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.1.8.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - processPackages [foundrytools-cli]: Remove: archive file [/home/abi/fetcher/tmp/foundrytools-cli-1.1.9.tar.gz]
+[2024-04-04 09:38:29] INFO root fetch - main [MainThread]: End processing [foundrytools-cli]: success
+[2024-04-04 09:38:31] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.8.tar.gz]
+[2024-04-04 09:38:31] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.9.tar.gz]
+[2024-04-04 09:38:31] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-04 09:38:31] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-04 09:38:31] INFO root fetch - main [MainThread]: Store serial: [22616678]
