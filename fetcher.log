@@ -22005,3 +22005,28 @@
 [2024-04-04 12:56:13] INFO root fetch - main [MainThread]: End processing [chatpilot]: success
 [2024-04-04 12:56:13] INFO root fetch - main [MainThread]: End processing [misspy]: success
 [2024-04-04 12:56:13] INFO root fetch - main [MainThread]: Store serial: [22618802]
+[2024-04-04 12:58:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618802]
+[2024-04-04 12:58:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aibridge-test
+[2024-04-04 12:58:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-04-04 12:58:22] INFO root fetch - processPackages [aibridge-test]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-04 12:58:22] INFO root fetch - processPackages [inoopa_utils]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-04 12:58:22] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/86/0d/5eb49c6f43580fdde8fd2f82c7ecd4f1ba043652a0efc919e31bb0efd443/aibridge_test-0.2.4.tar.gz
+[2024-04-04 12:58:22] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:58:22] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/43/9e/9726c2a48a9811e6c55bcdaaf4d9d6622628ba269dff726c4ce1d7fde668/inoopa_utils-2.5.0.tar.gz
+[2024-04-04 12:58:22] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 12:58:23] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/9c/e8/333248963020801d6b34d121303aae13dcdcb265b1effb73d9e7d743b91f/aibridge_test-0.2.5.tar.gz
+[2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/b2/51/eddd7163351caa60e1739a0278558543b5970a61462b5066c0363ec05006/inoopa_utils-2.6.0.tar.gz
+[2024-04-04 12:58:23] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:58:23] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-04 12:58:23] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.2.4.tar.gz tmp/aibridge_test-0.2.5.tar.gz --markdown 20240404/a/aibridge-test/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-04 12:58:23] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.5.0.tar.gz tmp/inoopa_utils-2.6.0.tar.gz --markdown 20240404/i/inoopa_utils/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2024-04-04 12:58:23] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.4.tar.gz]
+[2024-04-04 12:58:23] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.5.tar.gz]
+[2024-04-04 12:58:23] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.5.0.tar.gz]
+[2024-04-04 12:58:23] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.6.0.tar.gz]
+[2024-04-04 12:58:23] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 12:58:23] INFO root fetch - main [MainThread]: Store serial: [22618808]
