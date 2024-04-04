@@ -24380,3 +24380,83 @@
 [2024-04-04 14:22:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
 [2024-04-04 14:22:21] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2024-04-04 14:22:21] INFO root fetch - main [MainThread]: Store serial: [22619735]
+[2024-04-04 14:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619735]
+[2024-04-04 14:24:30] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdo-sdk-python
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quicktune
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-future
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeinterpreterapi
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mo-imports
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: repo-ast-builder
+[2024-04-04 14:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: homa
+[2024-04-04 14:24:30] INFO root fetch - processPackages [repo-ast-builder]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [mo-future]: New version: [7.584.24095] Old Version: [7.546.24057]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [mo-imports]: New version: [7.584.24095] Old Version: [7.546.24057]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [quicktune]: New version: [0.0.5.dev3] Old Version: [0.0.4]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [homa]: New version: [0.21] Old Version: [0.14]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [codeinterpreterapi]: New version: [0.1.16] Old Version: [0.1.15]
+[2024-04-04 14:24:30] INFO root fetch - processPackages [repo-ast-builder]: Downloading https://files.pythonhosted.org/packages/08/84/3ba7f9cc5fb17818690684395ce07f81b52e76109950c2ff9cf032c9b059/repo-ast-builder-0.0.6.tar.gz
+[2024-04-04 14:24:30] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-04 14:24:30] INFO root fetch - processPackages [quicktune]: Downloading https://files.pythonhosted.org/packages/6d/18/06d977eabadecc206d835f3ad8a5e2f0d7a8c7248f52068b49d2d269c626/quicktune-0.0.4.tar.gz
+[2024-04-04 14:24:30] INFO root fetch - processPackages [homa]: Downloading https://files.pythonhosted.org/packages/16/ca/ec82cabc29b99222b16341ce40cb02df5f20fc7b8ccb6224caf42c26c3ee/homa-0.14.tar.gz
+[2024-04-04 14:24:30] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/a0/44/b80fa0847587c9de6e8743c86d48c2f98e8e9f52fc7d7e159f9625a39253/mo-future-7.546.24057.tar.gz
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [repo-ast-builder]: Timeout reached during download
+[2024-04-04 14:24:30] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/13/a6/40f67b12656df35591d3bbcdf574f72e1a52858fd12ad7c0c8849ccb1c42/mo-imports-7.546.24057.tar.gz
+[2024-04-04 14:24:30] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/b4/62/1c201d1b1c867fc311c858f296a1cb91019903a41325a4d83d657928e5db/codeinterpreterapi-0.1.15.tar.gz
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [quicktune]: Timeout reached during download
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [homa]: Timeout reached during download
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [mo-imports]: Timeout reached during download
+[2024-04-04 14:24:30] WARNING root fetch - processPackages [mo-future]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [repo-ast-builder]: Downloading https://files.pythonhosted.org/packages/e4/9f/4d59a8e512a4c536e6574316f3665e7a70210a371a0529f99c1651340f65/repo-ast-builder-0.0.7.tar.gz
+[2024-04-04 14:24:31] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [codeinterpreterapi]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [quicktune]: Downloading https://files.pythonhosted.org/packages/45/78/186ccaba45f4bb9339bb3d912ac52939e9c3238bf29576319da882fe066b/quicktune-0.0.5.dev3.tar.gz
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-future]: Downloading https://files.pythonhosted.org/packages/2f/36/b2148f8a07e7f7d8a3a4b1ee3d923a9c7400a68f73a2856a85ae43ddc2de/mo-future-7.584.24095.tar.gz
+[2024-04-04 14:24:31] INFO root fetch - processPackages [homa]: Downloading https://files.pythonhosted.org/packages/dc/62/d71fb4e95a9cce6ab425e59338743afd2bafc3dc7e8d4104a0a821332c4a/homa-0.21.tar.gz
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-imports]: Downloading https://files.pythonhosted.org/packages/c5/fb/7dec5013e0936edd665a576be4bd99b378e15eef51eb2e3de09223c88ce9/mo-imports-7.584.24095.tar.gz
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [repo-ast-builder]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [repo-ast-builder]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [repo-ast-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repo-ast-builder-0.0.6.tar.gz tmp/repo-ast-builder-0.0.7.tar.gz --markdown 20240404/r/repo-ast-builder/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240404/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [mo-future]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-future]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-future-7.546.24057.tar.gz tmp/mo-future-7.584.24095.tar.gz --markdown 20240404/m/mo-future/7.546.24057-7.584.24095/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [homa]: Timeout reached during download
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [mo-imports]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [homa]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [homa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homa-0.14.tar.gz tmp/homa-0.21.tar.gz --markdown 20240404/h/homa/0.14-0.21/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-imports]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [mo-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-imports-7.546.24057.tar.gz tmp/mo-imports-7.584.24095.tar.gz --markdown 20240404/m/mo-imports/7.546.24057-7.584.24095/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] INFO root fetch - processPackages [codeinterpreterapi]: Downloading https://files.pythonhosted.org/packages/4e/87/2b84825ae6066b31423774f13bd8bcd0641b4faedcf3cb35999ae618ed87/codeinterpreterapi-0.1.16.tar.gz
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [quicktune]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [quicktune]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [quicktune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quicktune-0.0.4.tar.gz tmp/quicktune-0.0.5.dev3.tar.gz --markdown 20240404/q/quicktune/0.0.4-0.0.5.dev3/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] WARNING root fetch - processPackages [codeinterpreterapi]: Timeout reached during download
+[2024-04-04 14:24:31] INFO root fetch - processPackages [codeinterpreterapi]: executing diffoscope
+[2024-04-04 14:24:31] INFO root fetch - processPackages [codeinterpreterapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeinterpreterapi-0.1.15.tar.gz tmp/codeinterpreterapi-0.1.16.tar.gz --markdown 20240404/c/codeinterpreterapi/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2024-04-04 14:24:31] INFO root fetch - processPackages [repo-ast-builder]: Remove: archive file [/home/abi/fetcher/tmp/repo-ast-builder-0.0.6.tar.gz]
+[2024-04-04 14:24:31] INFO root fetch - processPackages [repo-ast-builder]: Remove: archive file [/home/abi/fetcher/tmp/repo-ast-builder-0.0.7.tar.gz]
+[2024-04-04 14:24:31] INFO root fetch - main [MainThread]: End processing [repo-ast-builder]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo-future-7.546.24057.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [mo-future]: Remove: archive file [/home/abi/fetcher/tmp/mo-future-7.584.24095.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [mo-future]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [homa]: Remove: archive file [/home/abi/fetcher/tmp/homa-0.14.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [homa]: Remove: archive file [/home/abi/fetcher/tmp/homa-0.21.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [homa]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo-imports-7.546.24057.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [mo-imports]: Remove: archive file [/home/abi/fetcher/tmp/mo-imports-7.584.24095.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [mo-imports]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [quicktune]: Remove: archive file [/home/abi/fetcher/tmp/quicktune-0.0.4.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [quicktune]: Remove: archive file [/home/abi/fetcher/tmp/quicktune-0.0.5.dev3.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [quicktune]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.1.15.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.1.16.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi]: success
+[2024-04-04 14:24:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-04 14:24:32] INFO root fetch - main [MainThread]: Store serial: [22619756]
