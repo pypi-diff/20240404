@@ -4134,3 +4134,71 @@
 [2024-04-04 02:38:04] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
 [2024-04-04 02:38:04] INFO root fetch - main [MainThread]: End processing [metamist]: success
 [2024-04-04 02:38:04] INFO root fetch - main [MainThread]: Store serial: [22612952]
+[2024-04-04 02:40:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612952]
+[2024-04-04 02:40:13] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferramentas-basicas-pln
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: adpipwfwconst
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langgraph
+[2024-04-04 02:40:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: srt-trans
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712190591] Old Version: [0.0.11a1712190576]
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [adpipwfwconst]: Skipping, unable to determine old version
+[2024-04-04 02:40:14] INFO root fetch - processPackages [ferramentas-basicas-pln]: New version: [0.9.9.1] Old Version: [0.9.9]
+[2024-04-04 02:40:14] INFO root fetch - main [MainThread]: End processing [adpipwfwconst] error
+[2024-04-04 02:40:14] INFO root fetch - processPackages [srt-trans]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 02:40:14] INFO root fetch - processPackages [langgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712190591] Old Version: [0.0.11a1712190576]
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712190591] Old Version: [0.0.11a1712190576]
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/43/e0/fd6985322a0472552da54ef76b38606e34adab4b7f05c2115bb426828ab4/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/43/e0/fd6985322a0472552da54ef76b38606e34adab4b7f05c2115bb426828ab4/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/ea/c2/5a442fab92e0254fbd82f75c05533ac42e3f6055d70c633d148965a23410/srt_trans-0.1.0.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/43/e0/fd6985322a0472552da54ef76b38606e34adab4b7f05c2115bb426828ab4/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [ferramentas-basicas-pln]: Downloading https://files.pythonhosted.org/packages/ca/6b/3b47463c588613b766f52222763e76d56ac85d64e328aae508b9ad54bb06/ferramentas-basicas-pln-0.9.9.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/c3/4c/9b4e9602b53407f902478465aed68d9de3c50e5d87e57689b587d47b3da7/langgraph-0.0.8.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [srt-trans]: Downloading https://files.pythonhosted.org/packages/9f/68/96eed814d7896e260c0873b21e8db6ed7569cd2f607ba34a26c1a15ba25f/srt_trans-0.1.1.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/d5/3a/88e33568d204080642165876f42db179d67f1a2064942fb4fe2edfff65e3/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [langgraph]: Timeout reached during download
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [ferramentas-basicas-pln]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/d5/3a/88e33568d204080642165876f42db179d67f1a2064942fb4fe2edfff65e3/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/d5/3a/88e33568d204080642165876f42db179d67f1a2064942fb4fe2edfff65e3/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [srt-trans]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [srt-trans]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [srt-trans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/srt_trans-0.1.0.tar.gz tmp/srt_trans-0.1.1.tar.gz --markdown 20240404/s/srt-trans/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz --markdown 20240404/p/pulumi-kubernetes-the-hard-way/0.0.11a1712190576-0.0.11a1712190591/diff.md --exclude *.pyd
+[2024-04-04 02:40:14] INFO root fetch - processPackages [ferramentas-basicas-pln]: Downloading https://files.pythonhosted.org/packages/ff/b0/7cad89781e511387832793ab9a3f1a6c12d79bbd435b779ed4ca8f120181/ferramentas-basicas-pln-0.9.9.1.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz --markdown 20240404/p/pulumi-kubernetes-the-hard-way/0.0.11a1712190576-0.0.11a1712190591/diff.md --exclude *.pyd
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz --markdown 20240404/p/pulumi-kubernetes-the-hard-way/0.0.11a1712190576-0.0.11a1712190591/diff.md --exclude *.pyd
+[2024-04-04 02:40:14] INFO root fetch - processPackages [langgraph]: Downloading https://files.pythonhosted.org/packages/f4/a0/daf7cdeb4d1bf5e82dbc320b0a09159087efca3e06f23971c0144e7114f0/langgraph-0.0.9.tar.gz
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [ferramentas-basicas-pln]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [ferramentas-basicas-pln]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [ferramentas-basicas-pln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferramentas-basicas-pln-0.9.9.tar.gz tmp/ferramentas-basicas-pln-0.9.9.1.tar.gz --markdown 20240404/f/ferramentas-basicas-pln/0.9.9-0.9.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:40:14] WARNING root fetch - processPackages [langgraph]: Timeout reached during download
+[2024-04-04 02:40:14] INFO root fetch - processPackages [langgraph]: executing diffoscope
+[2024-04-04 02:40:14] INFO root fetch - processPackages [langgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langgraph-0.0.8.tar.gz tmp/langgraph-0.0.9.tar.gz --markdown 20240404/l/langgraph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 02:40:15] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-0.1.0.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - processPackages [srt-trans]: Remove: archive file [/home/abi/fetcher/tmp/srt_trans-0.1.1.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [srt-trans]: success
+[2024-04-04 02:40:15] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190576.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-04 02:40:15] INFO root fetch - processPackages [ferramentas-basicas-pln]: Remove: archive file [/home/abi/fetcher/tmp/ferramentas-basicas-pln-0.9.9.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - processPackages [ferramentas-basicas-pln]: Remove: archive file [/home/abi/fetcher/tmp/ferramentas-basicas-pln-0.9.9.1.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [ferramentas-basicas-pln]: success
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-04 02:40:15] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.8.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - processPackages [langgraph]: Remove: archive file [/home/abi/fetcher/tmp/langgraph-0.0.9.tar.gz]
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: End processing [langgraph]: success
+[2024-04-04 02:40:15] INFO root fetch - main [MainThread]: Store serial: [22612976]
