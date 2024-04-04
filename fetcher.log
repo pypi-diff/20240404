@@ -13698,3 +13698,48 @@
 [2024-04-04 07:39:59] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/DragonLog-1.0.tar.gz]
 [2024-04-04 07:39:59] INFO root fetch - main [MainThread]: End processing [DragonLog]: success
 [2024-04-04 07:39:59] INFO root fetch - main [MainThread]: Store serial: [22615925]
+[2024-04-04 07:42:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615925]
+[2024-04-04 07:42:07] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 07:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-rma
+[2024-04-04 07:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-rma
+[2024-04-04 07:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-rma
+[2024-04-04 07:42:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: automation-tools
+[2024-04-04 07:42:07] INFO root fetch - processPackages [automation-tools]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-04 07:42:07] INFO root fetch - processPackages [odoo14-addon-rma]: New version: [14.0.3.2.9.dev8] Old Version: [14.0.3.2.9.dev7]
+[2024-04-04 07:42:07] INFO root fetch - processPackages [odoo-addon-rma]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-04 07:42:07] INFO root fetch - processPackages [odoo-addon-rma]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0.1]
+[2024-04-04 07:42:07] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/47/27/ce4e1a4bf4a881448688cb8fce9b31730374966ec6b4165993f07d454ad1/automation_tools-1.0.5.tar.gz
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/6b/9c/203d7474566afca906e61502e07988ef239c01a28dd6011b46323a5af155/odoo_addon_rma-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/6b/9c/203d7474566afca906e61502e07988ef239c01a28dd6011b46323a5af155/odoo_addon_rma-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/47/ec/5f09f7ca62654e4cc62852f589642a0d509467489c09984b71f56335c000/odoo14_addon_rma-14.0.3.2.9.dev7-py3-none-any.whl
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/2f/e9/78f0213ae233a1783de56bce112fcf7237b1e1a9174972d586a0f5509936/automation_tools-1.0.6.tar.gz
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo14-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/b3/fd/8899b8f395f1d6828cc2120babf604cb5903efd26e0dc73f3242fdef65db/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [automation-tools]: executing diffoscope
+[2024-04-04 07:42:08] INFO root fetch - processPackages [automation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_tools-1.0.5.tar.gz tmp/automation_tools-1.0.6.tar.gz --markdown 20240404/a/automation-tools/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: Downloading https://files.pythonhosted.org/packages/b3/fd/8899b8f395f1d6828cc2120babf604cb5903efd26e0dc73f3242fdef65db/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo14-addon-rma]: Downloading https://files.pythonhosted.org/packages/2f/c8/392fd2ed35248ee87d018839fa607f8e4c230f18b6ccf767ccd665e3b610/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-rma/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: executing diffoscope
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_rma-16.0.1.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-rma/16.0.1.2.0.1-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2024-04-04 07:42:08] WARNING root fetch - processPackages [odoo14-addon-rma]: Timeout reached during download
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo14-addon-rma]: executing diffoscope
+[2024-04-04 07:42:08] INFO root fetch - processPackages [odoo14-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_rma-14.0.3.2.9.dev7-py3-none-any.whl.zip tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-rma/14.0.3.2.9.dev7-14.0.3.2.9.dev8/diff.md --exclude *.pyd
+[2024-04-04 07:42:09] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.5.tar.gz]
+[2024-04-04 07:42:09] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.6.tar.gz]
+[2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [automation-tools]: success
+[2024-04-04 07:42:09] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-04 07:42:09] INFO root fetch - processPackages [odoo-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_rma-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2024-04-04 07:42:09] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev7-py3-none-any.whl.zip]
+[2024-04-04 07:42:09] INFO root fetch - processPackages [odoo14-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_rma-14.0.3.2.9.dev8-py3-none-any.whl.zip]
+[2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [odoo14-addon-rma]: success
+[2024-04-04 07:42:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-rma]: success
+[2024-04-04 07:42:09] INFO root fetch - main [MainThread]: Store serial: [22615934]
