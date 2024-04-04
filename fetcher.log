@@ -13999,3 +13999,50 @@
 [2024-04-04 07:55:21] INFO root fetch - processPackages [cybersource-rest-client-python]: Remove: archive file [/home/abi/fetcher/tmp/cybersource-rest-client-python-0.0.9.tar.gz]
 [2024-04-04 07:55:21] INFO root fetch - main [MainThread]: End processing [cybersource-rest-client-python]: success
 [2024-04-04 07:55:21] INFO root fetch - main [MainThread]: Store serial: [22616011]
+[2024-04-04 07:57:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616011]
+[2024-04-04 07:57:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: georaptor
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: okntool
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: list-flatten-z
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vios
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-tools
+[2024-04-04 07:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OCRIsource
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [list-flatten-z]: Skipping, unable to determine old version
+[2024-04-04 07:57:31] INFO root fetch - main [MainThread]: End processing [list-flatten-z] error
+[2024-04-04 07:57:31] INFO root fetch - processPackages [okntool]: New version: [8.2.0] Old Version: [8.1.1]
+[2024-04-04 07:57:31] INFO root fetch - processPackages [georaptor]: New version: [3.0.0] Old Version: [2.0.3]
+[2024-04-04 07:57:31] INFO root fetch - processPackages [sirji-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 07:57:31] INFO root fetch - processPackages [vios]: New version: [2.2.7] Old Version: [2.2.6]
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [OCRIsource]: Skipping, unable to determine old version
+[2024-04-04 07:57:31] INFO root fetch - main [MainThread]: End processing [OCRIsource] error
+[2024-04-04 07:57:31] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/e3/d5/177813124e88bd2191b974f78f7b8c5f7c8fb8d619a7d79099d0a3748420/sirji-tools-0.0.2.tar.gz
+[2024-04-04 07:57:31] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/23/1f/22cb4b5c12a6d2fea1f578c06dd1ce42c7bc5f93ef37bf1bbe21908f2515/vios-2.2.6-py3-none-any.whl
+[2024-04-04 07:57:31] INFO root fetch - processPackages [okntool]: Downloading https://files.pythonhosted.org/packages/90/a7/6a23229d5931bf9516bd09dca55b41c859c18ed3d9d803ed1ef749e0a45a/okntool-8.1.1.tar.gz
+[2024-04-04 07:57:31] INFO root fetch - processPackages [georaptor]: Downloading https://files.pythonhosted.org/packages/da/24/4eea1c1d5f119330309294df3abf0095e76fcc54fe9dabf0ef95570e9b29/georaptor-2.0.3.tar.gz
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [sirji-tools]: Timeout reached during download
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [okntool]: Skipping package: exceeds size limit 99170453>=10485760
+[2024-04-04 07:57:31] INFO root fetch - main [MainThread]: End processing [okntool] error
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [georaptor]: Timeout reached during download
+[2024-04-04 07:57:31] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/1e/08/ba146fdc9b2293fb3d4feaf52b7ca6f7abf19082347ebf65340bb7d0817d/vios-2.2.7-py3-none-any.whl
+[2024-04-04 07:57:31] INFO root fetch - processPackages [sirji-tools]: Downloading https://files.pythonhosted.org/packages/ff/3e/ac525055ecb7090a446cec0e77072f6a66d348768a2f4c064c396c3d6f3f/sirji-tools-0.0.3.tar.gz
+[2024-04-04 07:57:31] INFO root fetch - processPackages [georaptor]: Downloading https://files.pythonhosted.org/packages/31/06/1474ffd82dd0145b4941e074ea22614a11cee40dca7f67e11e3c1505e29b/georaptor-3.0.0.tar.gz
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-04 07:57:31] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-04 07:57:31] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.6-py3-none-any.whl.zip tmp/vios-2.2.7-py3-none-any.whl.zip --markdown 20240404/v/vios/2.2.6-2.2.7/diff.md --exclude *.pyd
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [georaptor]: Timeout reached during download
+[2024-04-04 07:57:31] INFO root fetch - processPackages [georaptor]: executing diffoscope
+[2024-04-04 07:57:31] INFO root fetch - processPackages [georaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/georaptor-2.0.3.tar.gz tmp/georaptor-3.0.0.tar.gz --markdown 20240404/g/georaptor/2.0.3-3.0.0/diff.md --exclude *.pyd
+[2024-04-04 07:57:31] WARNING root fetch - processPackages [sirji-tools]: Timeout reached during download
+[2024-04-04 07:57:31] INFO root fetch - processPackages [sirji-tools]: executing diffoscope
+[2024-04-04 07:57:31] INFO root fetch - processPackages [sirji-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-tools-0.0.2.tar.gz tmp/sirji-tools-0.0.3.tar.gz --markdown 20240404/s/sirji-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 07:57:32] INFO root fetch - processPackages [georaptor]: Remove: archive file [/home/abi/fetcher/tmp/georaptor-2.0.3.tar.gz]
+[2024-04-04 07:57:32] INFO root fetch - processPackages [georaptor]: Remove: archive file [/home/abi/fetcher/tmp/georaptor-3.0.0.tar.gz]
+[2024-04-04 07:57:32] INFO root fetch - main [MainThread]: End processing [georaptor]: success
+[2024-04-04 07:57:32] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.6-py3-none-any.whl.zip]
+[2024-04-04 07:57:32] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.7-py3-none-any.whl.zip]
+[2024-04-04 07:57:32] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-04 07:57:32] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.2.tar.gz]
+[2024-04-04 07:57:32] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.3.tar.gz]
+[2024-04-04 07:57:32] INFO root fetch - main [MainThread]: End processing [sirji-tools]: success
+[2024-04-04 07:57:32] INFO root fetch - main [MainThread]: Store serial: [22616040]
