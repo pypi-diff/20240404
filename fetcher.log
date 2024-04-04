@@ -18033,3 +18033,42 @@
 [2024-04-04 10:39:16] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.929.tar.gz]
 [2024-04-04 10:39:16] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
 [2024-04-04 10:39:16] INFO root fetch - main [MainThread]: Store serial: [22617278]
+[2024-04-04 10:41:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617278]
+[2024-04-04 10:41:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cubicweb-tsfacets
+[2024-04-04 10:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubicweb-rq
+[2024-04-04 10:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shapeshifter-uftp
+[2024-04-04 10:41:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperhdr-py-redux
+[2024-04-04 10:41:25] INFO root fetch - processPackages [cubicweb-rq]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 10:41:25] INFO root fetch - processPackages [shapeshifter-uftp]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-04 10:41:25] WARNING root fetch - processPackages [hyperhdr-py-redux]: Skipping, unable to determine old version
+[2024-04-04 10:41:25] INFO root fetch - main [MainThread]: End processing [hyperhdr-py-redux] error
+[2024-04-04 10:41:25] INFO root fetch - processPackages [cubicweb-tsfacets]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-04 10:41:25] INFO root fetch - processPackages [cubicweb-tsfacets]: Downloading https://files.pythonhosted.org/packages/24/03/8b8489e4c007fd1d46f364949c685496c5b12769b482dccafb3520f5ce9c/cubicweb-tsfacets-0.6.1.tar.gz
+[2024-04-04 10:41:25] INFO root fetch - processPackages [shapeshifter-uftp]: Downloading https://files.pythonhosted.org/packages/18/c1/068ae8cec7305861cc1e0296129009361d76d9f755493afa8860051824a4/shapeshifter-uftp-1.1.2.tar.gz
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-rq]: Downloading https://files.pythonhosted.org/packages/48/6c/0142bec933f3a09f2a585c4dab1b52910b5d9fe7341a5ed58d64b4cedc46/cubicweb-rq-0.1.0.tar.gz
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [cubicweb-tsfacets]: Timeout reached during download
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [shapeshifter-uftp]: Timeout reached during download
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [cubicweb-rq]: Timeout reached during download
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-tsfacets]: Downloading https://files.pythonhosted.org/packages/69/de/11fa920f8bb18480843c6a5ef6e82506dfc63564d806e0ca2e9523ef3b31/cubicweb-tsfacets-0.7.0.tar.gz
+[2024-04-04 10:41:26] INFO root fetch - processPackages [shapeshifter-uftp]: Downloading https://files.pythonhosted.org/packages/b3/e9/6d8f85f6b88bd4a8143c046c696ba8ee72d19dfc3a2ebb415ff228487adb/shapeshifter-uftp-1.2.0.tar.gz
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-rq]: Downloading https://files.pythonhosted.org/packages/86/1c/f5fe2032c760ac903b4f5b575bdf37cd762a7d6feb9620d61637341927ad/cubicweb-rq-0.1.1.tar.gz
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [cubicweb-tsfacets]: Timeout reached during download
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-tsfacets]: executing diffoscope
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-tsfacets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-tsfacets-0.6.1.tar.gz tmp/cubicweb-tsfacets-0.7.0.tar.gz --markdown 20240404/c/cubicweb-tsfacets/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [cubicweb-rq]: Timeout reached during download
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-rq]: executing diffoscope
+[2024-04-04 10:41:26] INFO root fetch - processPackages [cubicweb-rq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-rq-0.1.0.tar.gz tmp/cubicweb-rq-0.1.1.tar.gz --markdown 20240404/c/cubicweb-rq/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 10:41:26] WARNING root fetch - processPackages [shapeshifter-uftp]: Timeout reached during download
+[2024-04-04 10:41:26] INFO root fetch - processPackages [shapeshifter-uftp]: executing diffoscope
+[2024-04-04 10:41:26] INFO root fetch - processPackages [shapeshifter-uftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeshifter-uftp-1.1.2.tar.gz tmp/shapeshifter-uftp-1.2.0.tar.gz --markdown 20240404/s/shapeshifter-uftp/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2024-04-04 10:41:27] INFO root fetch - processPackages [cubicweb-tsfacets]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-tsfacets-0.6.1.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - processPackages [cubicweb-tsfacets]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-tsfacets-0.7.0.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - main [MainThread]: End processing [cubicweb-tsfacets]: success
+[2024-04-04 10:41:27] INFO root fetch - processPackages [shapeshifter-uftp]: Remove: archive file [/home/abi/fetcher/tmp/shapeshifter-uftp-1.1.2.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - processPackages [shapeshifter-uftp]: Remove: archive file [/home/abi/fetcher/tmp/shapeshifter-uftp-1.2.0.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - main [MainThread]: End processing [shapeshifter-uftp]: success
+[2024-04-04 10:41:27] INFO root fetch - processPackages [cubicweb-rq]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-rq-0.1.0.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - processPackages [cubicweb-rq]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-rq-0.1.1.tar.gz]
+[2024-04-04 10:41:27] INFO root fetch - main [MainThread]: End processing [cubicweb-rq]: success
+[2024-04-04 10:41:27] INFO root fetch - main [MainThread]: Store serial: [22617291]
