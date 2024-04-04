@@ -11412,3 +11412,17 @@
 [2024-04-04 05:38:45] INFO root fetch - processPackages [blastpipe]: Remove: archive file [/home/abi/fetcher/tmp/blastpipe-2024.0.3.tar.gz]
 [2024-04-04 05:38:45] INFO root fetch - main [MainThread]: End processing [blastpipe]: success
 [2024-04-04 05:38:45] INFO root fetch - main [MainThread]: Store serial: [22615189]
+[2024-04-04 05:40:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615189]
+[2024-04-04 05:40:54] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 05:40:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manga-scrape
+[2024-04-04 05:40:54] INFO root fetch - processPackages [manga-scrape]: New version: [4.9.0] Old Version: [4.8.0]
+[2024-04-04 05:40:54] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/bd/f8/0b1c4e019f16b186ed6cc5e5d90e416c4c610bdffb21fae5a0c787b18513/manga_scrape-4.8.0.tar.gz
+[2024-04-04 05:40:54] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:40:54] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/2b/c5/ce06b355f4b6a9087524a466a76eb5a124e0fe06d2a3d0326e3693d1f160/manga_scrape-4.9.0.tar.gz
+[2024-04-04 05:40:54] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:40:54] INFO root fetch - processPackages [manga-scrape]: executing diffoscope
+[2024-04-04 05:40:54] INFO root fetch - processPackages [manga-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga_scrape-4.8.0.tar.gz tmp/manga_scrape-4.9.0.tar.gz --markdown 20240404/m/manga-scrape/4.8.0-4.9.0/diff.md --exclude *.pyd
+[2024-04-04 05:40:55] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
+[2024-04-04 05:40:55] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.9.0.tar.gz]
+[2024-04-04 05:40:55] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
+[2024-04-04 05:40:55] INFO root fetch - main [MainThread]: Store serial: [22615192]
