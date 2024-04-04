@@ -10150,3 +10150,50 @@
 [2024-04-04 04:17:09] INFO root fetch - processPackages [datadreamer.dev]: Remove: archive file [/home/abi/fetcher/tmp/datadreamer_dev-0.9.0.tar.gz]
 [2024-04-04 04:17:09] INFO root fetch - main [MainThread]: End processing [datadreamer.dev]: success
 [2024-04-04 04:17:09] INFO root fetch - main [MainThread]: Store serial: [22614774]
+[2024-04-04 04:19:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614774]
+[2024-04-04 04:19:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autopipeline
+[2024-04-04 04:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shaq
+[2024-04-04 04:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iam-actions
+[2024-04-04 04:19:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: danbi
+[2024-04-04 04:19:18] INFO root fetch - processPackages [danbi]: New version: [0.2.184] Old Version: [0.2.183]
+[2024-04-04 04:19:18] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 04:19:18] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20240403] Old Version: [1.2.20240402]
+[2024-04-04 04:19:18] INFO root fetch - processPackages [shaq]: New version: [0.0.2] Old Version: [0.0.1rc1]
+[2024-04-04 04:19:18] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 04:19:19] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/eb/4c/2051693d1b8e3c4faa0d57223b268222e8a8c50a93b13356b946ef0e5301/danbi-0.2.183.tar.gz
+[2024-04-04 04:19:19] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/0b/48/d23afd13ff98a66287c43817385cc7e78e27e70d1bdcbe34d6a307479702/iam_actions-1.2.20240402.tar.gz
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [shaq]: Downloading https://files.pythonhosted.org/packages/c6/3a/7077b8eefc609021dd1c7be49c69b4907675ff04a483d4758f4ce198e764/shaq-0.0.1rc1.tar.gz
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [shaq]: Timeout reached during download
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 04:19:19] INFO root fetch - processPackages [shaq]: Downloading https://files.pythonhosted.org/packages/da/d6/6779f02ee3d9c4b1ce5cc60233e04515c0c1fd5cbf01b8224bc4408a192b/shaq-0.0.2.tar.gz
+[2024-04-04 04:19:19] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/4e/c1/5b1df9e2cc1351d5e9a009ceb2fb8366c35c3943afea796f28145fd54a43/iam_actions-1.2.20240403.tar.gz
+[2024-04-04 04:19:19] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/74/20/2cd589792f18f80900423a6c0e4a0b25ffe4f9aab9b3e6d1b3d46f79498c/danbi-0.2.184.tar.gz
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 04:19:19] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [shaq]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [shaq]: executing diffoscope
+[2024-04-04 04:19:19] INFO root fetch - processPackages [shaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaq-0.0.1rc1.tar.gz tmp/shaq-0.0.2.tar.gz --markdown 20240404/s/shaq/0.0.1rc1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 04:19:19] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.183.tar.gz tmp/danbi-0.2.184.tar.gz --markdown 20240404/d/danbi/0.2.183-0.2.184/diff.md --exclude *.pyd
+[2024-04-04 04:19:19] WARNING root fetch - processPackages [iam-actions]: Timeout reached during download
+[2024-04-04 04:19:19] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2024-04-04 04:19:19] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20240402.tar.gz tmp/iam_actions-1.2.20240403.tar.gz --markdown 20240404/i/iam-actions/1.2.20240402-1.2.20240403/diff.md --exclude *.pyd
+[2024-04-04 04:19:20] INFO root fetch - processPackages [shaq]: Remove: archive file [/home/abi/fetcher/tmp/shaq-0.0.1rc1.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - processPackages [shaq]: Remove: archive file [/home/abi/fetcher/tmp/shaq-0.0.2.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - main [MainThread]: End processing [shaq]: success
+[2024-04-04 04:19:20] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 04:19:20] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.183.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.184.tar.gz]
+[2024-04-04 04:19:20] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 04:19:24] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240402.tar.gz]
+[2024-04-04 04:19:24] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240403.tar.gz]
+[2024-04-04 04:19:24] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2024-04-04 04:19:24] INFO root fetch - main [MainThread]: Store serial: [22614787]
