@@ -10480,3 +10480,31 @@
 [2024-04-04 04:37:51] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
 [2024-04-04 04:37:51] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
 [2024-04-04 04:37:51] INFO root fetch - main [MainThread]: Store serial: [22614869]
+[2024-04-04 04:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614869]
+[2024-04-04 04:40:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LayerupSecurity
+[2024-04-04 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-financial-report
+[2024-04-04 04:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: batch-framework
+[2024-04-04 04:40:01] INFO root fetch - processPackages [LayerupSecurity]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-04 04:40:01] WARNING root fetch - processPackages [batch-framework]: Skipping, unable to determine old version
+[2024-04-04 04:40:01] INFO root fetch - main [MainThread]: End processing [batch-framework] error
+[2024-04-04 04:40:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: New version: [16.0.1.5.4.2] Old Version: [16.0.1.5.4.1]
+[2024-04-04 04:40:01] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/19/89/c92951680d84482c362ddeacadd6b0db923eddee0d6c6242caaeb1f95e32/odoo_addon_account_financial_report-16.0.1.5.4.1-py3-none-any.whl
+[2024-04-04 04:40:01] INFO root fetch - processPackages [LayerupSecurity]: Downloading https://files.pythonhosted.org/packages/2c/86/baa00e22acf9b7314176a0a9e725b3e2b57deba01ff54c7621093c9c082a/LayerupSecurity-1.2.0.tar.gz
+[2024-04-04 04:40:02] WARNING root fetch - processPackages [LayerupSecurity]: Timeout reached during download
+[2024-04-04 04:40:02] WARNING root fetch - processPackages [odoo-addon-account-financial-report]: Timeout reached during download
+[2024-04-04 04:40:02] INFO root fetch - processPackages [LayerupSecurity]: Downloading https://files.pythonhosted.org/packages/54/92/08357f376fb88b5ae5b601f27f4c05cb3922aed94405bed9a3775fd8f596/LayerupSecurity-1.2.1.tar.gz
+[2024-04-04 04:40:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Downloading https://files.pythonhosted.org/packages/7f/74/a9425f9d56ffb9b34d4cdd2c73d2acaed76977f32841b6a95f1b68bd3e7f/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl
+[2024-04-04 04:40:02] WARNING root fetch - processPackages [LayerupSecurity]: Timeout reached during download
+[2024-04-04 04:40:02] INFO root fetch - processPackages [LayerupSecurity]: executing diffoscope
+[2024-04-04 04:40:02] INFO root fetch - processPackages [LayerupSecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LayerupSecurity-1.2.0.tar.gz tmp/LayerupSecurity-1.2.1.tar.gz --markdown 20240404/L/LayerupSecurity/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 04:40:02] WARNING root fetch - processPackages [odoo-addon-account-financial-report]: Timeout reached during download
+[2024-04-04 04:40:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: executing diffoscope
+[2024-04-04 04:40:02] INFO root fetch - processPackages [odoo-addon-account-financial-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_financial_report-16.0.1.5.4.1-py3-none-any.whl.zip tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-account-financial-report/16.0.1.5.4.1-16.0.1.5.4.2/diff.md --exclude *.pyd
+[2024-04-04 04:40:02] INFO root fetch - processPackages [LayerupSecurity]: Remove: archive file [/home/abi/fetcher/tmp/LayerupSecurity-1.2.0.tar.gz]
+[2024-04-04 04:40:02] INFO root fetch - processPackages [LayerupSecurity]: Remove: archive file [/home/abi/fetcher/tmp/LayerupSecurity-1.2.1.tar.gz]
+[2024-04-04 04:40:02] INFO root fetch - main [MainThread]: End processing [LayerupSecurity]: success
+[2024-04-04 04:40:03] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.1-py3-none-any.whl.zip]
+[2024-04-04 04:40:03] INFO root fetch - processPackages [odoo-addon-account-financial-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_financial_report-16.0.1.5.4.2-py3-none-any.whl.zip]
+[2024-04-04 04:40:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-financial-report]: success
+[2024-04-04 04:40:03] INFO root fetch - main [MainThread]: Store serial: [22614878]
