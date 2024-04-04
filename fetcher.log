@@ -9289,3 +9289,9 @@
 [2024-04-04 03:22:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
 [2024-04-04 03:22:00] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
 [2024-04-04 03:22:00] INFO root fetch - main [MainThread]: Store serial: [22614148]
+[2024-04-04 03:24:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614148]
+[2024-04-04 03:24:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 03:24:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeSimpleGUI
+[2024-04-04 03:24:09] WARNING root fetch - processPackages [FreeSimpleGUI]: Skipping, unable to determine old version
+[2024-04-04 03:24:09] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUI] error
+[2024-04-04 03:24:09] INFO root fetch - main [MainThread]: Store serial: [22614215]
