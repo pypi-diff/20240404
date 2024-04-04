@@ -20913,3 +20913,94 @@
 [2024-04-04 12:17:46] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.853.tar.gz]
 [2024-04-04 12:17:46] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
 [2024-04-04 12:17:46] INFO root fetch - main [MainThread]: Store serial: [22618316]
+[2024-04-04 12:19:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618316]
+[2024-04-04 12:19:55] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbh15
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-workflow-sdk
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycspr
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: path
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyFaceCrop
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyquocca
+[2024-04-04 12:19:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jupyter-kernels
+[2024-04-04 12:19:55] INFO root fetch - processPackages [PyFaceCrop]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [lbh15]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [pycspr]: New version: [1.2.0] Old Version: [1.1.3]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [pyquocca]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [path]: New version: [16.9.0] Old Version: [16.8.0]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [jupyter-kernels]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [lusid-workflow-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-04 12:19:55] INFO root fetch - processPackages [kcli]: New version: [99.0.202404041018] Old Version: [99.0.202404031846]
+[2024-04-04 12:19:56] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/75/8b/2add7d5e1c1ba1a96562a97731209b203de0e84d788e566262a2df473712/path-16.8.0.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/8c/f9/8cfbb2da79fd51b54eb2702cea29d012106af5c3489e90eec70c60c5fd48/pyquocca-0.0.7.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/05/15/860c70d363cddff4357a84f4044a8d0a50d65951660f0efa4b9e3c46a770/lusid_workflow_sdk-2.0.8.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/0a/08/b62aede518206f12aabc0df3ef640e1c83807274abd30eb07be11c8ef84d/PyFaceCrop-0.0.3.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [jupyter-kernels]: Downloading https://files.pythonhosted.org/packages/01/71/f06ebfe399e9dcace1901ea5e813c16d092b6719a1188d37ff4fd2787a82/jupyter_kernels-1.0.1-py3-none-any.whl
+[2024-04-04 12:19:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a4/b4/63dcb1c23164490b3ca09c148bfe4a0ac8f238a079c6959f43290e3aedc3/kcli-99.0.202404031846.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lbh15]: Downloading https://files.pythonhosted.org/packages/11/ef/78d3f2f0d63609bf084e81f8a95ca6020dc35cdefae9a9af0c45a8091769/lbh15-2.0.0.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pycspr]: Downloading https://files.pythonhosted.org/packages/39/b1/950938812c9ba1a32eff047db5f31f94b8cc8f9e3c5e945ef9ce581a86ce/pycspr-1.1.3.tar.gz
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [lbh15]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [lusid-workflow-sdk]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [pycspr]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/b7/23/9fbba236ee6772bde48998c7fac3ff874b2d6e5ca3b52fa29a25d5e795fa/PyFaceCrop-0.0.4.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [path]: Downloading https://files.pythonhosted.org/packages/8d/50/2a1a3287715c87d135dd1dcbd9f7bca4200302cfcc8c28ced1a8035d7894/path-16.9.0.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lusid-workflow-sdk]: Downloading https://files.pythonhosted.org/packages/81/bf/841003b23903d9eecb53937becd36a0eeddd2e875be64696804f2671b482/lusid_workflow_sdk-2.0.9.tar.gz
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lbh15]: Downloading https://files.pythonhosted.org/packages/a2/2f/4330d9c774808cd1c53181cbdf3150db2fc732a108f052d02aab778b5b71/lbh15-2.1.0.tar.gz
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pycspr]: Downloading https://files.pythonhosted.org/packages/f4/7d/e9974fe4571ee0ff21ffdb58750d25fab682c98f6b290067fe6646f33e21/pycspr-1.2.0.tar.gz
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [PyFaceCrop]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [PyFaceCrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFaceCrop-0.0.3.tar.gz tmp/PyFaceCrop-0.0.4.tar.gz --markdown 20240404/P/PyFaceCrop/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.7.tar.gz tmp/pyquocca-0.0.8.tar.gz --markdown 20240404/p/pyquocca/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 12:19:56] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7b/b8/6cad52ed1c25fead66f7d68d4a4f83c39a32ad7a8028affbf12961877627/kcli-99.0.202404041018.tar.gz
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [lbh15]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lbh15]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lbh15]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbh15-2.0.0.tar.gz tmp/lbh15-2.1.0.tar.gz --markdown 20240404/l/lbh15/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [lusid-workflow-sdk]: Timeout reached during download
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [jupyter-kernels]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lusid-workflow-sdk]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [lusid-workflow-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_workflow_sdk-2.0.8.tar.gz tmp/lusid_workflow_sdk-2.0.9.tar.gz --markdown 20240404/l/lusid-workflow-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [path]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [path]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/path-16.8.0.tar.gz tmp/path-16.9.0.tar.gz --markdown 20240404/p/path/16.8.0-16.9.0/diff.md --exclude *.pyd
+[2024-04-04 12:19:56] WARNING root fetch - processPackages [pycspr]: Timeout reached during download
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pycspr]: executing diffoscope
+[2024-04-04 12:19:56] INFO root fetch - processPackages [pycspr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycspr-1.1.3.tar.gz tmp/pycspr-1.2.0.tar.gz --markdown 20240404/p/pycspr/1.1.3-1.2.0/diff.md --exclude *.pyd
+[2024-04-04 12:19:57] INFO root fetch - processPackages [jupyter-kernels]: Downloading https://files.pythonhosted.org/packages/e0/4f/c72ff26b2a08fcd774cc4ff9f127f9d13c7b336ca71caa7d46eb81c47490/jupyter_kernels-1.0.2-py3-none-any.whl
+[2024-04-04 12:19:57] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.3.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.4.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - main [MainThread]: End processing [PyFaceCrop]: success
+[2024-04-04 12:19:57] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.7.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-04 12:19:57] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-04 12:19:57] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-04 12:19:57] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404031846.tar.gz tmp/kcli-99.0.202404041018.tar.gz --markdown 20240404/k/kcli/99.0.202404031846-99.0.202404041018/diff.md --exclude *.pyd
+[2024-04-04 12:19:57] WARNING root fetch - processPackages [jupyter-kernels]: Timeout reached during download
+[2024-04-04 12:19:57] INFO root fetch - processPackages [jupyter-kernels]: executing diffoscope
+[2024-04-04 12:19:57] INFO root fetch - processPackages [jupyter-kernels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter_kernels-1.0.1-py3-none-any.whl.zip tmp/jupyter_kernels-1.0.2-py3-none-any.whl.zip --markdown 20240404/j/jupyter-kernels/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 12:19:57] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.8.0.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - processPackages [path]: Remove: archive file [/home/abi/fetcher/tmp/path-16.9.0.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - main [MainThread]: End processing [path]: success
+[2024-04-04 12:19:57] INFO root fetch - processPackages [lbh15]: Remove: archive file [/home/abi/fetcher/tmp/lbh15-2.0.0.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - processPackages [lbh15]: Remove: archive file [/home/abi/fetcher/tmp/lbh15-2.1.0.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - main [MainThread]: End processing [lbh15]: success
+[2024-04-04 12:19:57] INFO root fetch - processPackages [pycspr]: Remove: archive file [/home/abi/fetcher/tmp/pycspr-1.1.3.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - processPackages [pycspr]: Remove: archive file [/home/abi/fetcher/tmp/pycspr-1.2.0.tar.gz]
+[2024-04-04 12:19:57] INFO root fetch - main [MainThread]: End processing [pycspr]: success
+[2024-04-04 12:19:58] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.0.8.tar.gz]
+[2024-04-04 12:19:58] INFO root fetch - processPackages [lusid-workflow-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_workflow_sdk-2.0.9.tar.gz]
+[2024-04-04 12:19:58] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk]: success
+[2024-04-04 12:19:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404031846.tar.gz]
+[2024-04-04 12:19:59] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404041018.tar.gz]
+[2024-04-04 12:19:59] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-04 12:20:03] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.0.1-py3-none-any.whl.zip]
+[2024-04-04 12:20:03] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.0.2-py3-none-any.whl.zip]
+[2024-04-04 12:20:03] INFO root fetch - main [MainThread]: End processing [jupyter-kernels]: success
+[2024-04-04 12:20:03] INFO root fetch - main [MainThread]: Store serial: [22618338]
