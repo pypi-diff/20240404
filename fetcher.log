@@ -12241,3 +12241,17 @@
 [2024-04-04 06:29:08] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240404.1712204855.tar.gz]
 [2024-04-04 06:29:08] INFO root fetch - main [MainThread]: End processing [gink]: success
 [2024-04-04 06:29:08] INFO root fetch - main [MainThread]: Store serial: [22615453]
+[2024-04-04 06:31:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615453]
+[2024-04-04 06:31:16] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 06:31:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-04 06:31:16] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-04 06:31:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-04 06:31:17] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-04 06:31:17] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-04 06:31:17] WARNING root fetch - processPackages [litellm]: Timeout reached during download
+[2024-04-04 06:31:17] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-04 06:31:17] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240404/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-04 06:31:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-04 06:31:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-04 06:31:19] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-04 06:31:19] INFO root fetch - main [MainThread]: Store serial: [22615456]
