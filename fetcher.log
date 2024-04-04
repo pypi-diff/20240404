@@ -10897,3 +10897,50 @@
 [2024-04-04 05:06:12] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-04 05:06:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
 [2024-04-04 05:06:12] INFO root fetch - main [MainThread]: Store serial: [22615044]
+[2024-04-04 05:08:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615044]
+[2024-04-04 05:08:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skdir
+[2024-04-04 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-commission
+[2024-04-04 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentence-store
+[2024-04-04 05:08:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hmtaiga
+[2024-04-04 05:08:21] INFO root fetch - processPackages [sentence-store]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-04 05:08:21] INFO root fetch - processPackages [skdir]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-04 05:08:21] INFO root fetch - processPackages [hmtaiga]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-04 05:08:21] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.2.2.1.1] Old Version: [16.0.2.2.1]
+[2024-04-04 05:08:21] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/16/bf/273b045a842521bf7de2b89654bfbb08b4e13ddbc11c402dfec3a3053ca1/odoo_addon_account_commission-16.0.2.2.1-py3-none-any.whl
+[2024-04-04 05:08:21] INFO root fetch - processPackages [skdir]: Downloading https://files.pythonhosted.org/packages/bc/ba/2f8798142e2520cf2f8c7d4e48713a4e870949c17a72a2ad0282a4e155a6/skdir-0.1.3.tar.gz
+[2024-04-04 05:08:21] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/89/e2/5fa93e4a1946fb13823deba9ada886e6ec9f8f8b6df4e28510c1061b0b66/hmtaiga-0.1.7.tar.gz
+[2024-04-04 05:08:21] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/a7/08/44875295143a47fe961e05153f0e883246d31a2206a61134a790f2854b2d/sentence_store-0.3.0.tar.gz
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [skdir]: Timeout reached during download
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [odoo-addon-account-commission]: Timeout reached during download
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:08:21] INFO root fetch - processPackages [hmtaiga]: Downloading https://files.pythonhosted.org/packages/4b/05/c5c0a7cbd12c48ff227d542a5a6202e6855c33e94a3199a996f7d5605fdb/hmtaiga-0.1.8.tar.gz
+[2024-04-04 05:08:21] INFO root fetch - processPackages [skdir]: Downloading https://files.pythonhosted.org/packages/66/3a/b4a576c90c6a435d9ba3b449f40dbe8e32e197efbbc0a268cbfc2d3e995c/skdir-0.1.4.tar.gz
+[2024-04-04 05:08:21] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/2b/cd/a029cdd9776fb0cfa0bcaea7ec377262d2f03c35901ce94dcb85703fdafc/odoo_addon_account_commission-16.0.2.2.1.1-py3-none-any.whl
+[2024-04-04 05:08:21] INFO root fetch - processPackages [sentence-store]: Downloading https://files.pythonhosted.org/packages/f6/ac/fcd67eb28d42bb6cb8ba63f4879f5bc74712b71f7f55cf668506d56314a4/sentence_store-0.4.0.tar.gz
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [hmtaiga]: Timeout reached during download
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [skdir]: Timeout reached during download
+[2024-04-04 05:08:21] INFO root fetch - processPackages [hmtaiga]: executing diffoscope
+[2024-04-04 05:08:21] INFO root fetch - processPackages [hmtaiga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmtaiga-0.1.7.tar.gz tmp/hmtaiga-0.1.8.tar.gz --markdown 20240404/h/hmtaiga/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-04 05:08:21] INFO root fetch - processPackages [skdir]: executing diffoscope
+[2024-04-04 05:08:21] INFO root fetch - processPackages [skdir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skdir-0.1.3.tar.gz tmp/skdir-0.1.4.tar.gz --markdown 20240404/s/skdir/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [odoo-addon-account-commission]: Timeout reached during download
+[2024-04-04 05:08:21] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-04-04 05:08:21] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.2.2.1-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.2.2.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-account-commission/16.0.2.2.1-16.0.2.2.1.1/diff.md --exclude *.pyd
+[2024-04-04 05:08:21] WARNING root fetch - processPackages [sentence-store]: Timeout reached during download
+[2024-04-04 05:08:21] INFO root fetch - processPackages [sentence-store]: executing diffoscope
+[2024-04-04 05:08:21] INFO root fetch - processPackages [sentence-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentence_store-0.3.0.tar.gz tmp/sentence_store-0.4.0.tar.gz --markdown 20240404/s/sentence-store/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 05:08:22] INFO root fetch - processPackages [skdir]: Remove: archive file [/home/abi/fetcher/tmp/skdir-0.1.3.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - processPackages [skdir]: Remove: archive file [/home/abi/fetcher/tmp/skdir-0.1.4.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - main [MainThread]: End processing [skdir]: success
+[2024-04-04 05:08:22] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.7.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - processPackages [hmtaiga]: Remove: archive file [/home/abi/fetcher/tmp/hmtaiga-0.1.8.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - main [MainThread]: End processing [hmtaiga]: success
+[2024-04-04 05:08:22] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.3.0.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - processPackages [sentence-store]: Remove: archive file [/home/abi/fetcher/tmp/sentence_store-0.4.0.tar.gz]
+[2024-04-04 05:08:22] INFO root fetch - main [MainThread]: End processing [sentence-store]: success
+[2024-04-04 05:08:22] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.2.1-py3-none-any.whl.zip]
+[2024-04-04 05:08:22] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.2.1.1-py3-none-any.whl.zip]
+[2024-04-04 05:08:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-04-04 05:08:22] INFO root fetch - main [MainThread]: Store serial: [22615054]
