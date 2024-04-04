@@ -24073,3 +24073,88 @@
 [2024-04-04 14:11:19] INFO root fetch - processPackages [Resiliparse]: Remove: archive file [/home/abi/fetcher/tmp/Resiliparse-0.9.0.tar.gz]
 [2024-04-04 14:11:19] INFO root fetch - main [MainThread]: End processing [Resiliparse]: success
 [2024-04-04 14:11:19] INFO root fetch - main [MainThread]: Store serial: [22619586]
+[2024-04-04 14:13:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619586]
+[2024-04-04 14:13:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fse.torii
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: backend.ai-krunner-alpine
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stcog
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: btcs-crypto-systems
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: backend.ai-krunner-static-gnu
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libecalc
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-chikari-economy
+[2024-04-04 14:13:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nwb4fp
+[2024-04-04 14:13:28] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: New version: [4.2.0rc1] Old Version: [4.2.0]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [backend.ai-krunner-alpine]: New version: [5.2.0rc1] Old Version: [5.2.0]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [libecalc]: New version: [8.9.0] Old Version: [8.8.0]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [stcog]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [nwb4fp]: New version: [0.5.9.3] Old Version: [0.5.9.2]
+[2024-04-04 14:13:28] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Downloading https://files.pythonhosted.org/packages/b0/52/0091fa9afc23353ef047fee375556002cce449544ac528fb0f74d9064840/backend.ai-krunner-alpine-5.2.0.tar.gz
+[2024-04-04 14:13:28] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: Downloading https://files.pythonhosted.org/packages/5c/7e/564dbe5383b57992c0a17521caa38f7e189d894c51458070b11755f739b0/backend.ai-krunner-static-gnu-4.2.0.tar.gz
+[2024-04-04 14:13:28] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/d0/52/825c523da9e5751d66102f5ad1a28387836af898d37157d586121e00b4e1/btcs_crypto_systems-0.0.8.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/55/54/b2cbeb5c2fe5cceca26e828436b65e74a4b1a20a9b9d1969bfe76b04baf4/nonebot_plugin_chikari_economy-0.0.2.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [stcog]: Downloading https://files.pythonhosted.org/packages/36/c4/79f1847e3c871a724ae85115e3574673b6af8f6c2ef504714d9965ee95b1/stcog-0.0.2.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/57/b9/a94fea1336d3c94477deb71122866e55aa0ad57db8318cf6bbb3e8dacb77/nwb4fp-0.5.9.2.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [libecalc]: Downloading https://files.pythonhosted.org/packages/51/a2/8520612a4baf1a899fba5e8b0ee63b32bd73c2ba905fa5d3ae5fe2a1ed90/libecalc-8.8.0.tar.gz
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [fse.torii]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [stcog]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [backend.ai-krunner-static-gnu]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [libecalc]: Skipping package: exceeds size limit 28339411>=10485760
+[2024-04-04 14:13:29] INFO root fetch - main [MainThread]: End processing [libecalc] error
+[2024-04-04 14:13:29] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/2f/bb/c85a6de36a6477d33e1444efd2a328c4a29a7e9918a901fd0f6404d3ddb2/btcs_crypto_systems-0.0.9.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-04-04 14:13:29] INFO root fetch - processPackages [stcog]: Downloading https://files.pythonhosted.org/packages/f5/a2/b9ea94843caabbdebc625321870a34ee8a1c793dcba96a546897f348d60b/stcog-0.0.3.tar.gz
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: Downloading https://files.pythonhosted.org/packages/36/5f/87dc00ae11863547f43e2f2c8d06bbacf9f23dcdc3e88346b406165bba91/backend.ai-krunner-static-gnu-4.2.0rc1.tar.gz
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [backend.ai-krunner-alpine]: Timeout reached during download
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.8.tar.gz tmp/btcs_crypto_systems-0.0.9.tar.gz --markdown 20240404/b/btcs-crypto-systems/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/fa/91/b981fe8f2d6ac6c7a8366a805135d081eaf189c7b8a259531dc406566218/nonebot_plugin_chikari_economy-0.0.3.tar.gz
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [fse.torii]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240404/f/fse.torii/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [stcog]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [stcog]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [stcog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stcog-0.0.2.tar.gz tmp/stcog-0.0.3.tar.gz --markdown 20240404/s/stcog/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nwb4fp]: Downloading https://files.pythonhosted.org/packages/10/6d/a7a21f369ae333ed6815f2b800791532d0fd1c0a81491828ddae3c440b31/nwb4fp-0.5.9.3.tar.gz
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [backend.ai-krunner-static-gnu]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-krunner-static-gnu-4.2.0.tar.gz tmp/backend.ai-krunner-static-gnu-4.2.0rc1.tar.gz --markdown 20240404/b/backend.ai-krunner-static-gnu/4.2.0-4.2.0rc1/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Downloading https://files.pythonhosted.org/packages/80/1f/b9774943901c0121f7cc0bddbed44bb7850df51b0d47316b61e5a8dc4e1f/backend.ai-krunner-alpine-5.2.0rc1.tar.gz
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chikari_economy-0.0.2.tar.gz tmp/nonebot_plugin_chikari_economy-0.0.3.tar.gz --markdown 20240404/n/nonebot-plugin-chikari-economy/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [nwb4fp]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nwb4fp]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [nwb4fp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwb4fp-0.5.9.2.tar.gz tmp/nwb4fp-0.5.9.3.tar.gz --markdown 20240404/n/nwb4fp/0.5.9.2-0.5.9.3/diff.md --exclude *.pyd
+[2024-04-04 14:13:29] WARNING root fetch - processPackages [backend.ai-krunner-alpine]: Timeout reached during download
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-alpine]: executing diffoscope
+[2024-04-04 14:13:29] INFO root fetch - processPackages [backend.ai-krunner-alpine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/backend.ai-krunner-alpine-5.2.0.tar.gz tmp/backend.ai-krunner-alpine-5.2.0rc1.tar.gz --markdown 20240404/b/backend.ai-krunner-alpine/5.2.0-5.2.0rc1/diff.md --exclude *.pyd
+[2024-04-04 14:13:30] INFO root fetch - processPackages [stcog]: Remove: archive file [/home/abi/fetcher/tmp/stcog-0.0.2.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.8.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [stcog]: Remove: archive file [/home/abi/fetcher/tmp/stcog-0.0.3.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.9.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [stcog]: success
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2024-04-04 14:13:30] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-static-gnu-4.2.0.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [backend.ai-krunner-static-gnu]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-static-gnu-4.2.0rc1.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [backend.ai-krunner-static-gnu]: success
+[2024-04-04 14:13:30] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-04-04 14:13:30] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.2.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.3.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chikari-economy]: success
+[2024-04-04 14:13:30] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.2.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [nwb4fp]: Remove: archive file [/home/abi/fetcher/tmp/nwb4fp-0.5.9.3.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [nwb4fp]: success
+[2024-04-04 14:13:30] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-alpine-5.2.0.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - processPackages [backend.ai-krunner-alpine]: Remove: archive file [/home/abi/fetcher/tmp/backend.ai-krunner-alpine-5.2.0rc1.tar.gz]
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: End processing [backend.ai-krunner-alpine]: success
+[2024-04-04 14:13:30] INFO root fetch - main [MainThread]: Store serial: [22619620]
