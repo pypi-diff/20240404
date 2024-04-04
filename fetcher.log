@@ -10861,3 +10861,39 @@
 [2024-04-04 05:04:01] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.7.1.tar.gz]
 [2024-04-04 05:04:01] INFO root fetch - main [MainThread]: End processing [qianfan]: success
 [2024-04-04 05:04:01] INFO root fetch - main [MainThread]: Store serial: [22615038]
+[2024-04-04 05:06:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615038]
+[2024-04-04 05:06:10] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 05:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixlr-private-api
+[2024-04-04 05:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-business-requirement
+[2024-04-04 05:06:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentify
+[2024-04-04 05:06:10] INFO root fetch - processPackages [odoo-addon-business-requirement]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.7]
+[2024-04-04 05:06:10] INFO root fetch - processPackages [pixlr-private-api]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 05:06:10] INFO root fetch - processPackages [sentify]: New version: [0.8.1] Old Version: [0.7.5]
+[2024-04-04 05:06:10] INFO root fetch - processPackages [pixlr-private-api]: Downloading https://files.pythonhosted.org/packages/53/8b/ddb2edd6c597344e5def18db590f5ac4b8cf5102723c9a913ce32b51e0e9/pixlr_private_api-0.1.0.tar.gz
+[2024-04-04 05:06:10] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/25/bd/a374eee6ca20ad5028eeed49fd0a3ac46075d01f1bc423d8e1dc5843a2db/odoo_addon_business_requirement-16.0.1.0.0.7-py3-none-any.whl
+[2024-04-04 05:06:10] INFO root fetch - processPackages [sentify]: Downloading https://files.pythonhosted.org/packages/90/55/b7e8d3ebd6b0b75532f6196b67c9a8ec2842be354de859c1e50fcada3d04/sentify-0.7.5.tar.gz
+[2024-04-04 05:06:10] WARNING root fetch - processPackages [pixlr-private-api]: Timeout reached during download
+[2024-04-04 05:06:10] WARNING root fetch - processPackages [sentify]: Timeout reached during download
+[2024-04-04 05:06:10] INFO root fetch - processPackages [pixlr-private-api]: Downloading https://files.pythonhosted.org/packages/86/80/6f13695edadeed50d3b242a44fd891c04ff04d54c0ba4a664e31bc4b0972/pixlr_private_api-0.1.1.tar.gz
+[2024-04-04 05:06:10] WARNING root fetch - processPackages [odoo-addon-business-requirement]: Timeout reached during download
+[2024-04-04 05:06:11] WARNING root fetch - processPackages [pixlr-private-api]: Timeout reached during download
+[2024-04-04 05:06:11] INFO root fetch - processPackages [pixlr-private-api]: executing diffoscope
+[2024-04-04 05:06:11] INFO root fetch - processPackages [pixlr-private-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixlr_private_api-0.1.0.tar.gz tmp/pixlr_private_api-0.1.1.tar.gz --markdown 20240404/p/pixlr-private-api/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 05:06:11] INFO root fetch - processPackages [sentify]: Downloading https://files.pythonhosted.org/packages/4d/a7/67fcb246539c1d11a812449fa8385d1a48f66dbb1ce316a77d0427a74510/sentify-0.8.1.tar.gz
+[2024-04-04 05:06:11] INFO root fetch - processPackages [odoo-addon-business-requirement]: Downloading https://files.pythonhosted.org/packages/6e/a4/9e96d05a61a7d900a77cb7f43cce5c87cce81a4f48f7c6fa6232980ab8b6/odoo_addon_business_requirement-16.0.1.0.0.9-py3-none-any.whl
+[2024-04-04 05:06:11] WARNING root fetch - processPackages [sentify]: Timeout reached during download
+[2024-04-04 05:06:11] INFO root fetch - processPackages [sentify]: executing diffoscope
+[2024-04-04 05:06:11] INFO root fetch - processPackages [sentify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentify-0.7.5.tar.gz tmp/sentify-0.8.1.tar.gz --markdown 20240404/s/sentify/0.7.5-0.8.1/diff.md --exclude *.pyd
+[2024-04-04 05:06:11] WARNING root fetch - processPackages [odoo-addon-business-requirement]: Timeout reached during download
+[2024-04-04 05:06:11] INFO root fetch - processPackages [odoo-addon-business-requirement]: executing diffoscope
+[2024-04-04 05:06:11] INFO root fetch - processPackages [odoo-addon-business-requirement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_business_requirement-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_business_requirement-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-business-requirement/16.0.1.0.0.7-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2024-04-04 05:06:11] INFO root fetch - processPackages [pixlr-private-api]: Remove: archive file [/home/abi/fetcher/tmp/pixlr_private_api-0.1.0.tar.gz]
+[2024-04-04 05:06:11] INFO root fetch - processPackages [pixlr-private-api]: Remove: archive file [/home/abi/fetcher/tmp/pixlr_private_api-0.1.1.tar.gz]
+[2024-04-04 05:06:11] INFO root fetch - main [MainThread]: End processing [pixlr-private-api]: success
+[2024-04-04 05:06:11] INFO root fetch - processPackages [sentify]: Remove: archive file [/home/abi/fetcher/tmp/sentify-0.7.5.tar.gz]
+[2024-04-04 05:06:11] INFO root fetch - processPackages [sentify]: Remove: archive file [/home/abi/fetcher/tmp/sentify-0.8.1.tar.gz]
+[2024-04-04 05:06:11] INFO root fetch - main [MainThread]: End processing [sentify]: success
+[2024-04-04 05:06:12] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-04 05:06:12] INFO root fetch - processPackages [odoo-addon-business-requirement]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_business_requirement-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2024-04-04 05:06:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-business-requirement]: success
+[2024-04-04 05:06:12] INFO root fetch - main [MainThread]: Store serial: [22615044]
