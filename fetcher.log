@@ -22591,3 +22591,61 @@
 [2024-04-04 13:16:05] INFO root fetch - processPackages [signxai]: Remove: archive file [/home/abi/fetcher/tmp/signxai-1.1.6.tar.gz]
 [2024-04-04 13:16:05] INFO root fetch - main [MainThread]: End processing [signxai]: success
 [2024-04-04 13:16:05] INFO root fetch - main [MainThread]: Store serial: [22618988]
+[2024-04-04 13:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618988]
+[2024-04-04 13:18:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdh
+[2024-04-04 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: stigg-api-client
+[2024-04-04 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pre5g
+[2024-04-04 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stigg-api-client-v2
+[2024-04-04 13:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pineboo
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pre5g]: New version: [1.0] Old Version: [0.99]
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pdh]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-04 13:18:14] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.9] Old Version: [0.99.81.8]
+[2024-04-04 13:18:14] INFO root fetch - processPackages [stigg-api-client]: New version: [1.98.1] Old Version: [1.98.0]
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/1c/4c/e854ee7efb757f3fd03cf46965eae5d6b59be9009819e5eb24de487fb747/pre5g-0.99.tar.gz
+[2024-04-04 13:18:14] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/9e/ad/1fefc56e33c405d4aa0b5a382414f77d27efc7861a1cedce255c72c8f7d7/stigg_api_client_v2-1.98.0.tar.gz
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9c/b7/3be4b93bdb42cf8e4577b6a5424555cdf77d5abd237d740480f6d495fa52/pineboo-0.99.81.8.tar.gz
+[2024-04-04 13:18:14] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/98/38/1422eb2135687adff8e0844dc4afcdcdd3c44140b3b89335819f7a678037/stigg_api_client-1.98.0.tar.gz
+[2024-04-04 13:18:14] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/77/da/d5d322cdb77937a81a5e6c57a9e119ee7c0a2cec7587b7aeaf301bbbcf65/pdh-0.3.8.tar.gz
+[2024-04-04 13:18:14] WARNING root fetch - processPackages [pre5g]: Timeout reached during download
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [pdh]: Timeout reached during download
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/c0/4d/df591224753a769d0e43b61bb704c5d746145d49719e21868af751b85099/pre5g-1.0.tar.gz
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/da/d2/6b7a0c4e4205896d09042773fe56913ad646e6493900cc11613eabb26e05/stigg_api_client-1.98.1.tar.gz
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pdh]: Downloading https://files.pythonhosted.org/packages/07/57/186b6555aefed78ca93f2e9f74cd13292562c79c9ed0e66c2f4185a3f4f3/pdh-0.3.9.tar.gz
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/e4/6e/6806296621be882a70042a1d47ba321aad0c99c69b0e1a5f16346a41b4b5/stigg_api_client_v2-1.98.1.tar.gz
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [stigg-api-client]: Timeout reached during download
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-1.98.0.tar.gz tmp/stigg_api_client-1.98.1.tar.gz --markdown 20240404/s/stigg-api-client/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [pre5g]: Timeout reached during download
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.99.tar.gz tmp/pre5g-1.0.tar.gz --markdown 20240404/p/pre5g/0.99-1.0/diff.md --exclude *.pyd
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [pdh]: Timeout reached during download
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pdh]: executing diffoscope
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pdh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdh-0.3.8.tar.gz tmp/pdh-0.3.9.tar.gz --markdown 20240404/p/pdh/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:18:15] WARNING root fetch - processPackages [stigg-api-client-v2]: Timeout reached during download
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2024-04-04 13:18:15] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-1.98.0.tar.gz tmp/stigg_api_client_v2-1.98.1.tar.gz --markdown 20240404/s/stigg-api-client-v2/1.98.0-1.98.1/diff.md --exclude *.pyd
+[2024-04-04 13:18:15] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ff/50/87775691723da3f9e064c08195196296b4854a665f9ed79f579caf49283d/pineboo-0.99.81.9.tar.gz
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.99.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-1.0.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.8.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pdh]: Remove: archive file [/home/abi/fetcher/tmp/pdh-0.3.9.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - main [MainThread]: End processing [pdh]: success
+[2024-04-04 13:18:16] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.0.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-1.98.1.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2024-04-04 13:18:16] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 13:18:16] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.8.tar.gz tmp/pineboo-0.99.81.9.tar.gz --markdown 20240404/p/pineboo/0.99.81.8-0.99.81.9/diff.md --exclude *.pyd
+[2024-04-04 13:18:16] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.0.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-1.98.1.tar.gz]
+[2024-04-04 13:18:16] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2024-04-04 13:18:19] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.8.tar.gz]
+[2024-04-04 13:18:19] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
+[2024-04-04 13:18:19] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 13:18:19] INFO root fetch - main [MainThread]: Store serial: [22619005]
