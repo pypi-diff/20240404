@@ -4514,3 +4514,17 @@
 [2024-04-04 02:56:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-04 02:56:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-04 02:56:15] INFO root fetch - main [MainThread]: Store serial: [22613107]
+[2024-04-04 02:58:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613107]
+[2024-04-04 02:58:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 02:58:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-agave
+[2024-04-04 02:58:24] INFO root fetch - processPackages [fast-agave]: New version: [0.9.0.dev1] Old Version: [0.9.0.dev0]
+[2024-04-04 02:58:25] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/ca/78/5091fccfab34df4a319ce47800e8b8e49b4cb0e5649eff74dbbb6cd712e7/fast_agave-0.9.0.dev0.tar.gz
+[2024-04-04 02:58:25] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-04 02:58:25] INFO root fetch - processPackages [fast-agave]: Downloading https://files.pythonhosted.org/packages/a1/b9/9e6ecc020a77e7843d135b6b022307632bce7238fcf17e41676ef3a26a02/fast_agave-0.9.0.dev1.tar.gz
+[2024-04-04 02:58:25] WARNING root fetch - processPackages [fast-agave]: Timeout reached during download
+[2024-04-04 02:58:25] INFO root fetch - processPackages [fast-agave]: executing diffoscope
+[2024-04-04 02:58:25] INFO root fetch - processPackages [fast-agave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_agave-0.9.0.dev0.tar.gz tmp/fast_agave-0.9.0.dev1.tar.gz --markdown 20240404/f/fast-agave/0.9.0.dev0-0.9.0.dev1/diff.md --exclude *.pyd
+[2024-04-04 02:58:26] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev0.tar.gz]
+[2024-04-04 02:58:26] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
+[2024-04-04 02:58:26] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
+[2024-04-04 02:58:26] INFO root fetch - main [MainThread]: Store serial: [22613111]
