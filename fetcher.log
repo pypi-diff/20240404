@@ -9661,3 +9661,33 @@
 [2024-04-04 03:46:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-04 03:46:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-04 03:46:31] INFO root fetch - main [MainThread]: Store serial: [22614596]
+[2024-04-04 03:48:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614596]
+[2024-04-04 03:48:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 03:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-tele
+[2024-04-04 03:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: autopipeline
+[2024-04-04 03:48:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: matplotlib
+[2024-04-04 03:48:41] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.9.2] Old Version: [0.0.4.9.9.1]
+[2024-04-04 03:48:41] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 03:48:41] INFO root fetch - processPackages [matplotlib]: New version: [3.8.4] Old Version: [3.8.3]
+[2024-04-04 03:48:41] INFO root fetch - processPackages [matplotlib]: Downloading https://files.pythonhosted.org/packages/9a/aa/607a121331d5323b164f1c0696016ccc9d956a256771c4d91e311a302f13/matplotlib-3.8.3.tar.gz
+[2024-04-04 03:48:41] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 03:48:41] WARNING root fetch - processPackages [matplotlib]: Skipping package: exceeds size limit 35879872>=10485760
+[2024-04-04 03:48:41] INFO root fetch - main [MainThread]: End processing [matplotlib] error
+[2024-04-04 03:48:41] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/07/de/79ca547733e3e96f6d18f14435fd687afadfca1fac13ba2a0bd529a4deab/test_tele-0.0.4.9.9.1.tar.gz
+[2024-04-04 03:48:41] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:48:41] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 03:48:41] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 03:48:41] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/f3/9e/f27610d81528b41547da83262c5a9efcd2f5a3f7e30d6dcae64bd252c034/test_tele-0.0.4.9.9.2.tar.gz
+[2024-04-04 03:48:41] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:48:41] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 03:48:41] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 03:48:41] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 03:48:41] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-04 03:48:41] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.9.1.tar.gz tmp/test_tele-0.0.4.9.9.2.tar.gz --markdown 20240404/t/test-tele/0.0.4.9.9.1-0.0.4.9.9.2/diff.md --exclude *.pyd
+[2024-04-04 03:48:42] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 03:48:42] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 03:48:42] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 03:48:42] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.1.tar.gz]
+[2024-04-04 03:48:42] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.2.tar.gz]
+[2024-04-04 03:48:42] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-04 03:48:42] INFO root fetch - main [MainThread]: Store serial: [22614610]
