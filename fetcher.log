@@ -4059,3 +4059,42 @@
 [2024-04-04 02:33:42] WARNING root fetch - processPackages [securedf]: Skipping, unable to determine old version
 [2024-04-04 02:33:42] INFO root fetch - main [MainThread]: End processing [securedf] error
 [2024-04-04 02:33:42] INFO root fetch - main [MainThread]: Store serial: [22612932]
+[2024-04-04 02:35:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612932]
+[2024-04-04 02:35:51] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 02:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: batchalign
+[2024-04-04 02:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-04 02:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mahdi-env
+[2024-04-04 02:35:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akello
+[2024-04-04 02:35:51] INFO root fetch - processPackages [batchalign]: New version: [0.7.0b1] Old Version: [0.7.0b0]
+[2024-04-04 02:35:51] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 02:35:51] WARNING root fetch - processPackages [mahdi-env]: Skipping, unable to determine old version
+[2024-04-04 02:35:51] INFO root fetch - main [MainThread]: End processing [mahdi-env] error
+[2024-04-04 02:35:51] INFO root fetch - processPackages [akello]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-04-04 02:35:52] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/3c/e1/c630da25cee2479b8dfe64c25ab59affd1cc68d47cf03a7264890de4ba46/batchalign-0.7.0b0.tar.gz
+[2024-04-04 02:35:52] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-04 02:35:52] INFO root fetch - processPackages [akello]: Downloading https://files.pythonhosted.org/packages/b2/70/4f8f42ee36596908ded87cfa68345e2bb04b6e0661f01fafba67f9d8fbef/akello-0.0.19.tar.gz
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [batchalign]: Timeout reached during download
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-04 02:35:52] INFO root fetch - processPackages [batchalign]: Downloading https://files.pythonhosted.org/packages/dc/6e/4d85bc3c59c861f5ca05d7a8c63c138b08d605dc64a7255ea4d7b93708c0/batchalign-0.7.0b1.tar.gz
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [akello]: Timeout reached during download
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [batchalign]: Timeout reached during download
+[2024-04-04 02:35:52] INFO root fetch - processPackages [batchalign]: executing diffoscope
+[2024-04-04 02:35:52] INFO root fetch - processPackages [batchalign]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchalign-0.7.0b0.tar.gz tmp/batchalign-0.7.0b1.tar.gz --markdown 20240404/b/batchalign/0.7.0b0-0.7.0b1/diff.md --exclude *.pyd
+[2024-04-04 02:35:52] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-04 02:35:52] INFO root fetch - processPackages [akello]: Downloading https://files.pythonhosted.org/packages/69/5b/3e76d7ac0ef828d71a3e8d37854695bdd7a8c6615e08f7ceb5f754aa32b2/akello-0.0.20.tar.gz
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [state-machine-semaphore]: Timeout reached during download
+[2024-04-04 02:35:52] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-04 02:35:52] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240404/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 02:35:52] WARNING root fetch - processPackages [akello]: Timeout reached during download
+[2024-04-04 02:35:52] INFO root fetch - processPackages [akello]: executing diffoscope
+[2024-04-04 02:35:52] INFO root fetch - processPackages [akello]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akello-0.0.19.tar.gz tmp/akello-0.0.20.tar.gz --markdown 20240404/a/akello/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2024-04-04 02:35:53] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-04 02:35:53] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.0b0.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - processPackages [batchalign]: Remove: archive file [/home/abi/fetcher/tmp/batchalign-0.7.0b1.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - main [MainThread]: End processing [batchalign]: success
+[2024-04-04 02:35:53] INFO root fetch - processPackages [akello]: Remove: archive file [/home/abi/fetcher/tmp/akello-0.0.19.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - processPackages [akello]: Remove: archive file [/home/abi/fetcher/tmp/akello-0.0.20.tar.gz]
+[2024-04-04 02:35:53] INFO root fetch - main [MainThread]: End processing [akello]: success
+[2024-04-04 02:35:53] INFO root fetch - main [MainThread]: Store serial: [22612945]
