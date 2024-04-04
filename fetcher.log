@@ -21004,3 +21004,61 @@
 [2024-04-04 12:20:03] INFO root fetch - processPackages [jupyter-kernels]: Remove: archive file [/home/abi/fetcher/tmp/jupyter_kernels-1.0.2-py3-none-any.whl.zip]
 [2024-04-04 12:20:03] INFO root fetch - main [MainThread]: End processing [jupyter-kernels]: success
 [2024-04-04 12:20:03] INFO root fetch - main [MainThread]: Store serial: [22618338]
+[2024-04-04 12:22:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618338]
+[2024-04-04 12:22:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 12:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rulexai
+[2024-04-04 12:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nifti-mrs
+[2024-04-04 12:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shells-cae
+[2024-04-04 12:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2024-04-04 12:22:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyBallMapper
+[2024-04-04 12:22:14] INFO root fetch - processPackages [rulexai]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-04 12:22:14] INFO root fetch - processPackages [shells-cae]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 12:22:14] INFO root fetch - processPackages [nifti-mrs]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-04 12:22:14] INFO root fetch - processPackages [kfish]: New version: [99.0.202404041021] Old Version: [99.0.202404031849]
+[2024-04-04 12:22:14] INFO root fetch - processPackages [pyBallMapper]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-04 12:22:14] INFO root fetch - processPackages [shells-cae]: Downloading https://files.pythonhosted.org/packages/fe/fa/86e886148e47d47df46b34f1418379d1b0ba518e422057f3ca196b9251e9/shells_cae-0.0.8.tar.gz
+[2024-04-04 12:22:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/d4/e2/20a3cbdfb12e2819525410f8af89f80bc31e5904fd230027abf8938b106d/kfish-99.0.202404031849-py3-none-any.whl
+[2024-04-04 12:22:14] INFO root fetch - processPackages [rulexai]: Downloading https://files.pythonhosted.org/packages/38/b8/d6fcb4167a97086c73978069a51aeb3c76c742ac5a393940ca725e7e9769/rulexai-1.0.0.tar.gz
+[2024-04-04 12:22:14] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/f0/20/ff784ff12b1e55a8357ce5768b0c274a4f5d674ed168f82cbc864df97112/nifti_mrs-1.2.0.tar.gz
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [shells-cae]: Timeout reached during download
+[2024-04-04 12:22:14] INFO root fetch - processPackages [pyBallMapper]: Downloading https://files.pythonhosted.org/packages/9c/f6/22043386004e8788a76257addca49cee1f95c197851391cc65e88ddd0831/pyBallMapper-0.3.3.tar.gz
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [nifti-mrs]: Timeout reached during download
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [rulexai]: Timeout reached during download
+[2024-04-04 12:22:14] INFO root fetch - processPackages [shells-cae]: Downloading https://files.pythonhosted.org/packages/ad/24/25d5805d4b557a8d3234012786a55de01a5f61cae14eecc8e3bf1031fb7c/shells_cae-0.0.9.tar.gz
+[2024-04-04 12:22:14] INFO root fetch - processPackages [nifti-mrs]: Downloading https://files.pythonhosted.org/packages/f6/52/6d54b178d483a43565b7e60e90e8668568f55f48fb2225e65d759b4930b7/nifti_mrs-1.2.1.tar.gz
+[2024-04-04 12:22:14] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/29/6b/37c07bf10bb0030f06d5afbe77d5a55ae3b515fdcbaf6a38b1cd46a873ef/kfish-99.0.202404041021-py3-none-any.whl
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [pyBallMapper]: Timeout reached during download
+[2024-04-04 12:22:14] INFO root fetch - processPackages [rulexai]: Downloading https://files.pythonhosted.org/packages/98/d4/6ce99d9fd930fe75125d2e894a79af94b1a257263a473d891cd98e0bbd13/rulexai-1.1.0.tar.gz
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [shells-cae]: Timeout reached during download
+[2024-04-04 12:22:14] INFO root fetch - processPackages [shells-cae]: executing diffoscope
+[2024-04-04 12:22:14] INFO root fetch - processPackages [shells-cae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shells_cae-0.0.8.tar.gz tmp/shells_cae-0.0.9.tar.gz --markdown 20240404/s/shells-cae/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 12:22:14] WARNING root fetch - processPackages [nifti-mrs]: Timeout reached during download
+[2024-04-04 12:22:14] INFO root fetch - processPackages [nifti-mrs]: executing diffoscope
+[2024-04-04 12:22:14] INFO root fetch - processPackages [nifti-mrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifti_mrs-1.2.0.tar.gz tmp/nifti_mrs-1.2.1.tar.gz --markdown 20240404/n/nifti-mrs/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 12:22:15] WARNING root fetch - processPackages [kfish]: Timeout reached during download
+[2024-04-04 12:22:15] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2024-04-04 12:22:15] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202404031849-py3-none-any.whl.zip tmp/kfish-99.0.202404041021-py3-none-any.whl.zip --markdown 20240404/k/kfish/99.0.202404031849-99.0.202404041021/diff.md --exclude *.pyd
+[2024-04-04 12:22:15] WARNING root fetch - processPackages [rulexai]: Timeout reached during download
+[2024-04-04 12:22:15] INFO root fetch - processPackages [rulexai]: executing diffoscope
+[2024-04-04 12:22:15] INFO root fetch - processPackages [rulexai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rulexai-1.0.0.tar.gz tmp/rulexai-1.1.0.tar.gz --markdown 20240404/r/rulexai/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: Downloading https://files.pythonhosted.org/packages/f9/24/6ee346dc8989af3d39fd11e0df45853b791c55c86600b908749cc2a0fdb0/pyBallMapper-0.3.4.tar.gz
+[2024-04-04 12:22:15] WARNING root fetch - processPackages [pyBallMapper]: Timeout reached during download
+[2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: executing diffoscope
+[2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBallMapper-0.3.3.tar.gz tmp/pyBallMapper-0.3.4.tar.gz --markdown 20240404/p/pyBallMapper/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-04 12:22:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404031849-py3-none-any.whl.zip]
+[2024-04-04 12:22:15] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202404041021-py3-none-any.whl.zip]
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2024-04-04 12:22:15] INFO root fetch - processPackages [rulexai]: Remove: archive file [/home/abi/fetcher/tmp/rulexai-1.0.0.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - processPackages [rulexai]: Remove: archive file [/home/abi/fetcher/tmp/rulexai-1.1.0.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [rulexai]: success
+[2024-04-04 12:22:15] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.2.0.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - processPackages [nifti-mrs]: Remove: archive file [/home/abi/fetcher/tmp/nifti_mrs-1.2.1.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [nifti-mrs]: success
+[2024-04-04 12:22:15] INFO root fetch - processPackages [shells-cae]: Remove: archive file [/home/abi/fetcher/tmp/shells_cae-0.0.8.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - processPackages [shells-cae]: Remove: archive file [/home/abi/fetcher/tmp/shells_cae-0.0.9.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [shells-cae]: success
+[2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: Remove: archive file [/home/abi/fetcher/tmp/pyBallMapper-0.3.3.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: Remove: archive file [/home/abi/fetcher/tmp/pyBallMapper-0.3.4.tar.gz]
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [pyBallMapper]: success
+[2024-04-04 12:22:15] INFO root fetch - main [MainThread]: Store serial: [22618352]
