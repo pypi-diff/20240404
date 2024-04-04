@@ -12474,3 +12474,44 @@
 [2024-04-04 06:44:05] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.9.tar.gz]
 [2024-04-04 06:44:05] INFO root fetch - main [MainThread]: End processing [marimo]: success
 [2024-04-04 06:44:05] INFO root fetch - main [MainThread]: Store serial: [22615512]
+[2024-04-04 06:46:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615512]
+[2024-04-04 06:46:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openedx-learning
+[2024-04-04 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: visionone-filesecurity
+[2024-04-04 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: civic-scraper
+[2024-04-04 06:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feedback-xblock
+[2024-04-04 06:46:16] INFO root fetch - processPackages [feedback-xblock]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-04 06:46:16] INFO root fetch - processPackages [civic-scraper]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-04 06:46:16] INFO root fetch - processPackages [visionone-filesecurity]: New version: [1.1.0] Old Version: [1.0.2]
+[2024-04-04 06:46:16] INFO root fetch - processPackages [openedx-learning]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 06:46:16] INFO root fetch - processPackages [civic-scraper]: Downloading https://files.pythonhosted.org/packages/76/71/02536395c290b8d2b3c437ac3d53bb7cfadaea85379fa0e7f14b21e8de8e/civic-scraper-0.2.7.tar.gz
+[2024-04-04 06:46:16] INFO root fetch - processPackages [feedback-xblock]: Downloading https://files.pythonhosted.org/packages/68/07/4d35c2167e61a2938f14367a978a4200502a2534b0bceeed66855598a5b2/feedback-xblock-1.4.0.tar.gz
+[2024-04-04 06:46:16] INFO root fetch - processPackages [visionone-filesecurity]: Downloading https://files.pythonhosted.org/packages/50/d3/36828f367ee14181f56d71f88d60bad05d2e0b608913a09994289c85d189/visionone-filesecurity-1.0.2.tar.gz
+[2024-04-04 06:46:16] INFO root fetch - processPackages [openedx-learning]: Downloading https://files.pythonhosted.org/packages/3c/a0/2ff59d6fd0b8fdc8b1d82ea099310eeedd40fb94b68dc133494ab536fc1a/openedx-learning-0.8.0.tar.gz
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [visionone-filesecurity]: Timeout reached during download
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [feedback-xblock]: Timeout reached during download
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [openedx-learning]: Timeout reached during download
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [civic-scraper]: Skipping package: exceeds size limit 29175934>=10485760
+[2024-04-04 06:46:16] INFO root fetch - main [MainThread]: End processing [civic-scraper] error
+[2024-04-04 06:46:16] INFO root fetch - processPackages [feedback-xblock]: Downloading https://files.pythonhosted.org/packages/a5/c2/633f16913f3223b05dc5b8e35342501df61d5b2e4fc372cdf778ff7cd187/feedback-xblock-1.5.0.tar.gz
+[2024-04-04 06:46:16] INFO root fetch - processPackages [visionone-filesecurity]: Downloading https://files.pythonhosted.org/packages/41/ff/b5e008bc9cb60bb787f24ba1044618d464a67e8a3ec73a0dd952bb181725/visionone-filesecurity-1.1.0.tar.gz
+[2024-04-04 06:46:16] INFO root fetch - processPackages [openedx-learning]: Downloading https://files.pythonhosted.org/packages/9d/93/cf3034b51f3eeb9f670dfcfc544847f34ff0b7ae2f7d5d5a8689dc8bcffd/openedx-learning-0.9.0.tar.gz
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [visionone-filesecurity]: Timeout reached during download
+[2024-04-04 06:46:16] INFO root fetch - processPackages [visionone-filesecurity]: executing diffoscope
+[2024-04-04 06:46:16] INFO root fetch - processPackages [visionone-filesecurity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visionone-filesecurity-1.0.2.tar.gz tmp/visionone-filesecurity-1.1.0.tar.gz --markdown 20240404/v/visionone-filesecurity/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [openedx-learning]: Timeout reached during download
+[2024-04-04 06:46:16] INFO root fetch - processPackages [openedx-learning]: executing diffoscope
+[2024-04-04 06:46:16] INFO root fetch - processPackages [openedx-learning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-learning-0.8.0.tar.gz tmp/openedx-learning-0.9.0.tar.gz --markdown 20240404/o/openedx-learning/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 06:46:16] WARNING root fetch - processPackages [feedback-xblock]: Timeout reached during download
+[2024-04-04 06:46:16] INFO root fetch - processPackages [feedback-xblock]: executing diffoscope
+[2024-04-04 06:46:16] INFO root fetch - processPackages [feedback-xblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feedback-xblock-1.4.0.tar.gz tmp/feedback-xblock-1.5.0.tar.gz --markdown 20240404/f/feedback-xblock/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2024-04-04 06:46:17] INFO root fetch - processPackages [visionone-filesecurity]: Remove: archive file [/home/abi/fetcher/tmp/visionone-filesecurity-1.0.2.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - processPackages [visionone-filesecurity]: Remove: archive file [/home/abi/fetcher/tmp/visionone-filesecurity-1.1.0.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - main [MainThread]: End processing [visionone-filesecurity]: success
+[2024-04-04 06:46:17] INFO root fetch - processPackages [openedx-learning]: Remove: archive file [/home/abi/fetcher/tmp/openedx-learning-0.8.0.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - processPackages [openedx-learning]: Remove: archive file [/home/abi/fetcher/tmp/openedx-learning-0.9.0.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - main [MainThread]: End processing [openedx-learning]: success
+[2024-04-04 06:46:17] INFO root fetch - processPackages [feedback-xblock]: Remove: archive file [/home/abi/fetcher/tmp/feedback-xblock-1.4.0.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - processPackages [feedback-xblock]: Remove: archive file [/home/abi/fetcher/tmp/feedback-xblock-1.5.0.tar.gz]
+[2024-04-04 06:46:17] INFO root fetch - main [MainThread]: End processing [feedback-xblock]: success
+[2024-04-04 06:46:17] INFO root fetch - main [MainThread]: Store serial: [22615524]
