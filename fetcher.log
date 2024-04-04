@@ -18263,3 +18263,66 @@
 [2024-04-04 10:51:33] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.9.tar.gz]
 [2024-04-04 10:51:33] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
 [2024-04-04 10:51:33] INFO root fetch - main [MainThread]: Store serial: [22617386]
+[2024-04-04 10:53:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617386]
+[2024-04-04 10:53:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nb-cli
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tedbuy
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-master
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prowler
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prowler-cloud
+[2024-04-04 10:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemaker-jupyterlab-extension
+[2024-04-04 10:53:42] INFO root fetch - processPackages [nb-cli]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [prowler]: New version: [3.9.0] Old Version: [3.8.2]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [tedbuy]: New version: [0.0rc1] Old Version: [0.0.dev1]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [prowler-cloud]: New version: [3.9.0] Old Version: [3.8.2]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240404.8.52.721303] Old Version: [20240404.7.16.893134]
+[2024-04-04 10:53:42] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/44/22/125b7e4595252669397bac9f422f5018f7031c93f90842ec35ef3e6013ae/certora-cli-alpha-master-20240404.7.16.893134.tar.gz
+[2024-04-04 10:53:42] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/74/0a/3014e076e22c0cb6b585981afc9f08ef123a1d82521c318509407ee61a9f/sagemaker-jupyterlab-extension-0.3.0.tar.gz
+[2024-04-04 10:53:42] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/19/69/65b9aca7266682757a4fdc49bb1760fd2d256763196bb83476bacf1080da/nb_cli-1.4.0.tar.gz
+[2024-04-04 10:53:43] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/c3/3c/64d47bd17ce7babd3611f5e6d63e7e55453d3886a3c23a3d047deafa3b3f/prowler-3.8.2.tar.gz
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14476226>=10485760
+[2024-04-04 10:53:43] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-04 10:53:43] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/00/35/b3251ef929aaf1f0034e780ed1caf12d42cb5c6bb40bd1ae2db8a460755c/tedbuy-0.0.dev1.tar.gz
+[2024-04-04 10:53:43] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/e0/9f/ceeb33d5ae70f51fe5ba646123f620ac1d57a61439185ad01a540bfa5af2/prowler_cloud-3.8.2.tar.gz
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [nb-cli]: Timeout reached during download
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 10:53:43] INFO root fetch - processPackages [nb-cli]: Downloading https://files.pythonhosted.org/packages/94/77/4c5c7ec92820a3bd4c67f6cc15f2ad25a09d03c1d43b376ae8b91da11478/nb_cli-1.4.1.tar.gz
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [prowler]: Timeout reached during download
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [prowler-cloud]: Timeout reached during download
+[2024-04-04 10:53:43] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/36/38/efa7688a92085ab245b8c25f3d84712f9bf5e60f48e68ffe767a2fdf198d/tedbuy-0.0rc1.tar.gz
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [nb-cli]: Timeout reached during download
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [sagemaker-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 10:53:43] INFO root fetch - processPackages [nb-cli]: executing diffoscope
+[2024-04-04 10:53:43] INFO root fetch - processPackages [nb-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nb_cli-1.4.0.tar.gz tmp/nb_cli-1.4.1.tar.gz --markdown 20240404/n/nb-cli/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-04 10:53:43] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 10:53:43] INFO root fetch - processPackages [tedbuy]: executing diffoscope
+[2024-04-04 10:53:43] INFO root fetch - processPackages [tedbuy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tedbuy-0.0.dev1.tar.gz tmp/tedbuy-0.0rc1.tar.gz --markdown 20240404/t/tedbuy/0.0.dev1-0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 10:53:43] INFO root fetch - processPackages [prowler]: Downloading https://files.pythonhosted.org/packages/c9/03/c81571a91b5935b7707d94726f4e2e4f75fd4347da113e047ec02b3c8adb/prowler-3.9.0.tar.gz
+[2024-04-04 10:53:43] INFO root fetch - processPackages [prowler-cloud]: Downloading https://files.pythonhosted.org/packages/80/4a/212ebd63321d3fec86051e3e7494680521ff4796115e195c12cfd4603eb1/prowler_cloud-3.9.0.tar.gz
+[2024-04-04 10:53:43] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/3d/e1/8075f2c0ba0ac848bdd26b49c2964368426ed53d5b1a5a98f39b1392f3b8/sagemaker-jupyterlab-extension-0.3.1.tar.gz
+[2024-04-04 10:53:44] WARNING root fetch - processPackages [prowler-cloud]: Timeout reached during download
+[2024-04-04 10:53:44] INFO root fetch - processPackages [prowler-cloud]: executing diffoscope
+[2024-04-04 10:53:44] INFO root fetch - processPackages [prowler-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler_cloud-3.8.2.tar.gz tmp/prowler_cloud-3.9.0.tar.gz --markdown 20240404/p/prowler-cloud/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:53:44] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0.dev1.tar.gz]
+[2024-04-04 10:53:44] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0rc1.tar.gz]
+[2024-04-04 10:53:44] INFO root fetch - main [MainThread]: End processing [tedbuy]: success
+[2024-04-04 10:53:44] WARNING root fetch - processPackages [prowler]: Timeout reached during download
+[2024-04-04 10:53:44] INFO root fetch - processPackages [prowler]: executing diffoscope
+[2024-04-04 10:53:44] INFO root fetch - processPackages [prowler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prowler-3.8.2.tar.gz tmp/prowler-3.9.0.tar.gz --markdown 20240404/p/prowler/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:53:44] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb_cli-1.4.0.tar.gz]
+[2024-04-04 10:53:44] INFO root fetch - processPackages [nb-cli]: Remove: archive file [/home/abi/fetcher/tmp/nb_cli-1.4.1.tar.gz]
+[2024-04-04 10:53:44] INFO root fetch - main [MainThread]: End processing [nb-cli]: success
+[2024-04-04 10:53:44] WARNING root fetch - processPackages [sagemaker-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 10:53:44] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: executing diffoscope
+[2024-04-04 10:53:44] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-jupyterlab-extension-0.3.0.tar.gz tmp/sagemaker-jupyterlab-extension-0.3.1.tar.gz --markdown 20240404/s/sagemaker-jupyterlab-extension/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-04 10:54:00] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.8.2.tar.gz]
+[2024-04-04 10:54:00] INFO root fetch - processPackages [prowler-cloud]: Remove: archive file [/home/abi/fetcher/tmp/prowler_cloud-3.9.0.tar.gz]
+[2024-04-04 10:54:00] INFO root fetch - main [MainThread]: End processing [prowler-cloud]: success
+[2024-04-04 10:54:00] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.8.2.tar.gz]
+[2024-04-04 10:54:00] INFO root fetch - processPackages [prowler]: Remove: archive file [/home/abi/fetcher/tmp/prowler-3.9.0.tar.gz]
+[2024-04-04 10:54:00] INFO root fetch - main [MainThread]: End processing [prowler]: success
+[2024-04-04 10:54:03] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-jupyterlab-extension-0.3.0.tar.gz]
+[2024-04-04 10:54:03] INFO root fetch - processPackages [sagemaker-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-jupyterlab-extension-0.3.1.tar.gz]
+[2024-04-04 10:54:03] INFO root fetch - main [MainThread]: End processing [sagemaker-jupyterlab-extension]: success
+[2024-04-04 10:54:03] INFO root fetch - main [MainThread]: Store serial: [22617406]
