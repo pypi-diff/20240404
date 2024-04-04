@@ -20603,3 +20603,103 @@
 [2024-04-04 12:06:40] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.3.tar.gz]
 [2024-04-04 12:06:40] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
 [2024-04-04 12:06:40] INFO root fetch - main [MainThread]: Store serial: [22618207]
+[2024-04-04 12:08:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618207]
+[2024-04-04 12:08:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dsms-sdk
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lsst-sphgeom
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fab-react-toolkit
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlx-orm
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: code-loader
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opex-manifest-generator
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thanosql
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tf-keras-nightly
+[2024-04-04 12:08:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlx-orm
+[2024-04-04 12:08:49] INFO root fetch - processPackages [dsms-sdk]: New version: [1.3.3] Old Version: [1.3.2]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [sqlx-orm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [sqlx-orm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [fab-react-toolkit]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [tf-keras-nightly]: New version: [2.17.0.dev2024040309] Old Version: [2.17.0.dev2024040209]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [lsst-sphgeom]: New version: [26.2024.900] Old Version: [26.2024.800]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [code-loader]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [thanosql]: New version: [0.1.0] Old Version: [0.0.2]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [opex-manifest-generator]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-04 12:08:49] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/37/64/5e6a192165d93294046774631cd3f2d1f8fd6c01e2ed072f901905f25f54/tf_keras-nightly-2.17.0.dev2024040209.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/ca/8b/156f9351f965c508e0818623fb8e6fc6142077de7321c60117ec3e990541/sqlx-orm-0.0.1.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/ca/8b/156f9351f965c508e0818623fb8e6fc6142077de7321c60117ec3e990541/sqlx-orm-0.0.1.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/58/d7/6513003042c64f5a22045e0174c3e4585edd8d63b251290f0e3900d5397b/fab-react-toolkit-0.3.1.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/6c/e1/65aae997988a69f578c7fe7daa27068faf5dcde39a973e4aa3f2dd9cbdc9/dsms_sdk-1.3.2.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/59/a7/e4ace106f07639229e1f60fc565349dc9f46d27449a0d6b8b35b38f145ee/lsst-sphgeom-26.2024.800.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/b7/8a/075ebf528f8ec4e3bc82a0550f3371cafd167276eae8eefef1a3b01ccb66/code_loader-1.0.8.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [opex-manifest-generator]: Downloading https://files.pythonhosted.org/packages/e4/70/66584bcbb80dadb96d44e0ee3c643d13934056665dbed5ae44bcab090d5e/opex_manifest_generator-1.0.6.tar.gz
+[2024-04-04 12:08:49] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/ec/9e/823f845236dc10ed1f02e2427ee0ca3ee43701cb1a743df1f9756913cf25/thanosql-0.0.2.tar.gz
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [thanosql]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [code-loader]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [opex-manifest-generator]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [dsms-sdk]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [lsst-sphgeom]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-04 12:08:50] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [thanosql]: Downloading https://files.pythonhosted.org/packages/2c/c7/36ab4488a960d356d93bf900915c7d1e6c0550a10bd4fc3db21bf329cc4b/thanosql-0.1.0.tar.gz
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [opex-manifest-generator]: Downloading https://files.pythonhosted.org/packages/4f/51/e475672fa3a1168f56bd40af557199d3db89808581f578c1245bba99d374/opex_manifest_generator-1.1.0.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [dsms-sdk]: Downloading https://files.pythonhosted.org/packages/85/a6/3b1f086a52a3c1699f38e6d1fcbbacdb88cfbc28e92de0c0ef25d9688134/dsms_sdk-1.3.3.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [fab-react-toolkit]: Downloading https://files.pythonhosted.org/packages/1c/c9/466fecfb485d5911775f75413478976dbd6917f35606f7fac7b8beddf1eb/fab-react-toolkit-0.3.2.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [lsst-sphgeom]: Downloading https://files.pythonhosted.org/packages/ca/b5/36db8ff1eb11875886c2eb41decdca9d62f3fe9a15fc93dd7f8d78426a13/lsst-sphgeom-26.2024.900.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/0c/b1/52ca8c0c8d3e99479e73c598aab170565a28f562ba9ddf18049117e3bfdd/sqlx-orm-0.0.2.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/98/62/895d1cff95b1b883e8fd50a2bbbce647e3a28635beb0fd3061cea2b51ddf/code_loader-1.0.9.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [tf-keras-nightly]: Downloading https://files.pythonhosted.org/packages/0c/df/ed6ed09199f74726ec5645df6ffd5d02f8930b0db52c9b733ca0be178d9e/tf_keras-nightly-2.17.0.dev2024040309.tar.gz
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: Downloading https://files.pythonhosted.org/packages/0c/b1/52ca8c0c8d3e99479e73c598aab170565a28f562ba9ddf18049117e3bfdd/sqlx-orm-0.0.2.tar.gz
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [opex-manifest-generator]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [opex-manifest-generator]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [opex-manifest-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opex_manifest_generator-1.0.6.tar.gz tmp/opex_manifest_generator-1.1.0.tar.gz --markdown 20240404/o/opex-manifest-generator/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [thanosql]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [thanosql]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [thanosql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanosql-0.0.2.tar.gz tmp/thanosql-0.1.0.tar.gz --markdown 20240404/t/thanosql/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [fab-react-toolkit]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [fab-react-toolkit]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [fab-react-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fab-react-toolkit-0.3.1.tar.gz tmp/fab-react-toolkit-0.3.2.tar.gz --markdown 20240404/f/fab-react-toolkit/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [dsms-sdk]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [dsms-sdk]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [dsms-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsms_sdk-1.3.2.tar.gz tmp/dsms_sdk-1.3.3.tar.gz --markdown 20240404/d/dsms-sdk/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [code-loader]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-1.0.8.tar.gz tmp/code_loader-1.0.9.tar.gz --markdown 20240404/c/code-loader/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [lsst-sphgeom]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [lsst-sphgeom]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [lsst-sphgeom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-sphgeom-26.2024.800.tar.gz tmp/lsst-sphgeom-26.2024.900.tar.gz --markdown 20240404/l/lsst-sphgeom/26.2024.800-26.2024.900/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-orm-0.0.1.tar.gz tmp/sqlx-orm-0.0.2.tar.gz --markdown 20240404/s/sqlx-orm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [sqlx-orm]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [sqlx-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-orm-0.0.1.tar.gz tmp/sqlx-orm-0.0.2.tar.gz --markdown 20240404/s/sqlx-orm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 12:08:51] WARNING root fetch - processPackages [tf-keras-nightly]: Timeout reached during download
+[2024-04-04 12:08:51] INFO root fetch - processPackages [tf-keras-nightly]: executing diffoscope
+[2024-04-04 12:08:51] INFO root fetch - processPackages [tf-keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_keras-nightly-2.17.0.dev2024040209.tar.gz tmp/tf_keras-nightly-2.17.0.dev2024040309.tar.gz --markdown 20240404/t/tf-keras-nightly/2.17.0.dev2024040209-2.17.0.dev2024040309/diff.md --exclude *.pyd
+[2024-04-04 12:08:52] INFO root fetch - processPackages [opex-manifest-generator]: Remove: archive file [/home/abi/fetcher/tmp/opex_manifest_generator-1.0.6.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [opex-manifest-generator]: Remove: archive file [/home/abi/fetcher/tmp/opex_manifest_generator-1.1.0.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [opex-manifest-generator]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.1.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [fab-react-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/fab-react-toolkit-0.3.2.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [fab-react-toolkit]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.0.2.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [thanosql]: Remove: archive file [/home/abi/fetcher/tmp/thanosql-0.1.0.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [thanosql]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-1.0.8.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-1.0.9.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.1.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [sqlx-orm]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-orm-0.0.2.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [sqlx-orm]: success
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [sqlx-orm]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.3.2.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [dsms-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dsms_sdk-1.3.3.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [dsms-sdk]: success
+[2024-04-04 12:08:52] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst-sphgeom-26.2024.800.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - processPackages [lsst-sphgeom]: Remove: archive file [/home/abi/fetcher/tmp/lsst-sphgeom-26.2024.900.tar.gz]
+[2024-04-04 12:08:52] INFO root fetch - main [MainThread]: End processing [lsst-sphgeom]: success
+[2024-04-04 12:08:54] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040209.tar.gz]
+[2024-04-04 12:08:54] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040309.tar.gz]
+[2024-04-04 12:08:54] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
+[2024-04-04 12:08:54] INFO root fetch - main [MainThread]: Store serial: [22618251]
