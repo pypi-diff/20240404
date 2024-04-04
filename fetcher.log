@@ -19226,3 +19226,182 @@
 [2024-04-04 11:25:12] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
 [2024-04-04 11:25:12] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
 [2024-04-04 11:25:12] INFO root fetch - main [MainThread]: Store serial: [22617757]
+[2024-04-04 11:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617757]
+[2024-04-04 11:27:22] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: composabl-core-dev
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: composabl-train-dev
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: superlinked
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-cli-dev
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-dataset
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: composabl-dev
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superb-ai-apps
+[2024-04-04 11:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-protos
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-cli-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [superb-ai-apps]: Skipping, unable to determine old version
+[2024-04-04 11:27:22] INFO root fetch - processPackages [superb-ai-apps]: Start processing: odoo-addon-stock-demand-estimate
+[2024-04-04 11:27:22] INFO root fetch - main [MainThread]: End processing [superb-ai-apps] error
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-train-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [superlinked]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: New version: [17.0.1.1.0] Old Version: [17.0.1.0.0.3]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-dev]: New version: [0.8.0.dev9] Old Version: [0.8.0.dev6]
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/d5/b9/11fd9112091b8548d9b8fcbf58f48a6d09c00d9bd49b1c25636873971c2b/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/f7/5e/84d09e0e05b737b135f953e725a7a56acf875659f3a729403902dc51bddf/superlinked-3.9.0.tar.gz
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/19/92/d2cc81d1932bc78afddf0cf92c75659eee58d38d34d9e8471d60b63233f7/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/4a/a0/fae4202dc7e27017437fbafdfdb9257b93f97fc3d65b2bca67f173871cab/composabl_core_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/a7/22/8e80c3a8760feffe43e52d359603759e01ce99bfd20f6eece3d211564d26/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/3f/87/aeed0c05640a655a9f7a9651405c023e800537ac5400c580f59a119cd1bf/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [composabl-core-dev]: Skipping package: exceeds size limit 21365442>=10485760
+[2024-04-04 11:27:22] INFO root fetch - processPackages [composabl-core-dev]: Start processing: nucliadb-sdk
+[2024-04-04 11:27:22] INFO root fetch - main [MainThread]: End processing [composabl-core-dev] error
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [superlinked]: Timeout reached during download
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:27:22] WARNING root fetch - processPackages [composabl-dev]: Timeout reached during download
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [composabl-cli-dev]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [superlinked]: Downloading https://files.pythonhosted.org/packages/8f/6e/416193b22be21ffe493186a65f1f74ccb3521c483e54ad50c3c9f4533119/superlinked-3.9.1.tar.gz
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/a1/f2/4e1924d1039233c3b0c2448b4add74067504cd2e888b319ad5a03135216f/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Downloading https://files.pythonhosted.org/packages/5b/83/6899eca1f64ae90186acb79b6f5059b775e21a9a511d1a6058295320eb50/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb-models]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [superlinked]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-cli-dev]: Downloading https://files.pythonhosted.org/packages/7a/63/cb2a64c643c2bf337f7f624895969ab1444fad77d056db19bebd8ab5a022/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [superlinked]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [superlinked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superlinked-3.9.0.tar.gz tmp/superlinked-3.9.1.tar.gz --markdown 20240404/s/superlinked/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb-dataset]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb-protos]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [odoo-addon-stock-demand-estimate]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: executing diffoscope
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [composabl-dev]: Timeout reached during download
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [composabl-train-dev]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-demand-estimate/17.0.1.0.0.3-17.0.1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240404/c/composabl-dev/0.8.0.dev6-0.8.0.dev9/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-train-dev]: Downloading https://files.pythonhosted.org/packages/95/20/8e2aca4bfa5f684869b85085faa073c8a53504bf7d60833952d33bbdf05a/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [nucliadb-sdk]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:23] WARNING root fetch - processPackages [composabl-cli-dev]: Timeout reached during download
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-cli-dev]: executing diffoscope
+[2024-04-04 11:27:23] INFO root fetch - processPackages [composabl-cli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240404/c/composabl-cli-dev/0.8.0.dev6-0.8.0.dev9/diff.md --exclude *.pyd
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-telemetry
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-models]: Start processing: graas-observability-utility
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post390] Old Version: [2.46.1.post389]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.6] Old Version: [1.5.5]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-protos]: Start processing: nucliadb-utils
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-04 11:27:24] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev6-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.8.0.dev9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [composabl-dev]: Start processing: InfraFair
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2024-04-04 11:27:24] WARNING root fetch - processPackages [composabl-train-dev]: Timeout reached during download
+[2024-04-04 11:27:24] INFO root fetch - processPackages [composabl-train-dev]: executing diffoscope
+[2024-04-04 11:27:24] INFO root fetch - processPackages [composabl-train-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240404/c/composabl-train-dev/0.8.0.dev6-0.8.0.dev9/diff.md --exclude *.pyd
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [InfraFair]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/7a/75/50d186af7c6a5f396b4de717cfbc59cd5edabb64ee1a998e03e97e4bbda8/nucliadb_telemetry-2.46.1.post389-py3-none-any.whl
+[2024-04-04 11:27:24] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.0.tar.gz]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [superlinked]: Remove: archive file [/home/abi/fetcher/tmp/superlinked-3.9.1.tar.gz]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [superlinked]: Start processing: kodexa
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [superlinked]: success
+[2024-04-04 11:27:24] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/01/73/4b0aa94d37eee1eac1f8ced432744a8d00c736396697f4039c81ea5b8b05/graas-observability-utility-1.5.5.tar.gz
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: vairflow-ai
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-04 11:27:24] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-04 11:27:24] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-04 11:27:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - processPackages [odoo-addon-stock-demand-estimate]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_demand_estimate-17.0.1.1.0-py3-none-any.whl.zip]
+[2024-04-04 11:27:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-demand-estimate]: success
+[2024-04-04 11:27:25] INFO root fetch - processPackages [kodexa]: New version: [7.0.8551368104] Old Version: [7.0.8490893071]
+[2024-04-04 11:27:25] INFO root fetch - processPackages [InfraFair]: Downloading https://files.pythonhosted.org/packages/29/aa/3619195b7386f6e60cee911b16f18d05241b009f0f1feeb6bfb157a95dbf/InfraFair-1.0.0.tar.gz
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [vairflow-ai]: Skipping, unable to determine old version
+[2024-04-04 11:27:25] INFO root fetch - main [MainThread]: End processing [vairflow-ai] error
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/de/40/e28bef700da51d8877d798b05ae757a3e24d476cc6737e71e54c8edb0e90/nucliadb_telemetry-2.46.1.post390-py3-none-any.whl
+[2024-04-04 11:27:25] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/fb/c1/434492030c42e0ecf59079e3ce91bda2cab66ae3253f50cc49bfd4a82395/graas-observability-utility-1.5.6.tar.gz
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [InfraFair]: Timeout reached during download
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-04 11:27:25] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/f5/49/0b2e9e215314e66d82ab6d322fa13c489537e64691821917678fcf0df1d3/kodexa-7.0.8490893071.tar.gz
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-04 11:27:25] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-04 11:27:25] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.5.tar.gz tmp/graas-observability-utility-1.5.6.tar.gz --markdown 20240404/g/graas-observability-utility/1.5.5-1.5.6/diff.md --exclude *.pyd
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [nucliadb-utils]: Timeout reached during download
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-04 11:27:25] INFO root fetch - processPackages [InfraFair]: Downloading https://files.pythonhosted.org/packages/3f/e6/60c839619ee981347f61b10ada14c52169521d9b5d65b849b7085bf6822b/InfraFair-1.1.0.tar.gz
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [kodexa]: Timeout reached during download
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [nucliadb-telemetry]: Timeout reached during download
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-04 11:27:25] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post389-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post390-py3-none-any.whl.zip --markdown 20240404/n/nucliadb-telemetry/2.46.1.post389-2.46.1.post390/diff.md --exclude *.pyd
+[2024-04-04 11:27:25] WARNING root fetch - processPackages [InfraFair]: Timeout reached during download
+[2024-04-04 11:27:25] INFO root fetch - processPackages [InfraFair]: executing diffoscope
+[2024-04-04 11:27:25] INFO root fetch - processPackages [InfraFair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InfraFair-1.0.0.tar.gz tmp/InfraFair-1.1.0.tar.gz --markdown 20240404/I/InfraFair/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:27:25] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/77/ac/d2e19432427672cd305be1b5ef259d6ae70b6160510af8d25521fad12438/kodexa-7.0.8551368104.tar.gz
+[2024-04-04 11:27:25] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:25] INFO root fetch - processPackages [composabl-train-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_train_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:25] INFO root fetch - main [MainThread]: End processing [composabl-train-dev]: success
+[2024-04-04 11:27:26] WARNING root fetch - processPackages [kodexa]: Timeout reached during download
+[2024-04-04 11:27:26] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2024-04-04 11:27:26] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-7.0.8490893071.tar.gz tmp/kodexa-7.0.8551368104.tar.gz --markdown 20240404/k/kodexa/7.0.8490893071-7.0.8551368104/diff.md --exclude *.pyd
+[2024-04-04 11:27:26] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.5.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.6.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-04 11:27:26] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-04 11:27:26] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-04 11:27:26] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-04 11:27:26] INFO root fetch - processPackages [InfraFair]: Remove: archive file [/home/abi/fetcher/tmp/InfraFair-1.0.0.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - processPackages [InfraFair]: Remove: archive file [/home/abi/fetcher/tmp/InfraFair-1.1.0.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - main [MainThread]: End processing [InfraFair]: success
+[2024-04-04 11:27:26] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post389-py3-none-any.whl.zip]
+[2024-04-04 11:27:26] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post390-py3-none-any.whl.zip]
+[2024-04-04 11:27:26] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-04 11:27:26] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8490893071.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-7.0.8551368104.tar.gz]
+[2024-04-04 11:27:26] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2024-04-04 11:27:28] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:28] INFO root fetch - processPackages [composabl-cli-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_cli_dev-0.8.0.dev9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-04 11:27:28] INFO root fetch - main [MainThread]: End processing [composabl-cli-dev]: success
+[2024-04-04 11:27:28] INFO root fetch - main [MainThread]: Store serial: [22617832]
