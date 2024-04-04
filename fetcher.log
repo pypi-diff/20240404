@@ -21711,3 +21711,75 @@
 [2024-04-04 12:44:59] INFO root fetch - processPackages [validio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/validio_sdk-0.9.0.tar.gz]
 [2024-04-04 12:44:59] INFO root fetch - main [MainThread]: End processing [validio-sdk]: success
 [2024-04-04 12:44:59] INFO root fetch - main [MainThread]: Store serial: [22618685]
+[2024-04-04 12:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618685]
+[2024-04-04 12:47:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xi-mzidentml-converter
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-to-qrcode
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imio.smartweb.locales
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shareddata
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFaceCrop
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: enum-with-dict
+[2024-04-04 12:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pineboo
+[2024-04-04 12:47:08] INFO root fetch - processPackages [xi-mzidentml-converter]: New version: [0.1.9] Old Version: [0.1.7]
+[2024-04-04 12:47:08] INFO root fetch - processPackages [imio.smartweb.locales]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-04 12:47:08] WARNING root fetch - processPackages [text-to-qrcode]: Skipping, unable to determine old version
+[2024-04-04 12:47:08] INFO root fetch - main [MainThread]: End processing [text-to-qrcode] error
+[2024-04-04 12:47:08] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.7] Old Version: [0.99.81.6]
+[2024-04-04 12:47:08] INFO root fetch - processPackages [enum-with-dict]: New version: [0.7.0] Old Version: [0.6.2]
+[2024-04-04 12:47:08] INFO root fetch - processPackages [PyFaceCrop]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 12:47:08] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-04 12:47:08] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/98/73/adbf70cafb8933c3ef7f0d247795fe815b19b699fa7690354306b8b888e0/enum_with_dict-0.6.2.tar.gz
+[2024-04-04 12:47:08] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/55/8c/a81fe2db982807d1dc6e9c8f6ffd843a57c4251fa19ac18579d6313d8296/PyFaceCrop-0.0.6.tar.gz
+[2024-04-04 12:47:08] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ae/89/5c184b02a65fb705d3e59e1ccf63bbb74c3a2fd3f8edc6df1fdcd0690190/pineboo-0.99.81.6.tar.gz
+[2024-04-04 12:47:08] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/19/90/4f446a445ef80c6d06614622e3fa604e2a8bada9274e05656f709993d42d/imio.smartweb.locales-1.1.8.tar.gz
+[2024-04-04 12:47:08] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/28/0a/9480b05778a6b1f45e2cf7247a442ed3c572b2532795d1844f8963cf7f68/xi-mzidentml-converter-0.1.7.tar.gz
+[2024-04-04 12:47:08] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-04-04 12:47:08] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 12:47:08] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:47:08] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-04 12:47:08] WARNING root fetch - processPackages [imio.smartweb.locales]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/59/3f/00254ce0e607951d81e98e01b1d179339c75d69d27b3f1d7b9efd9a1f17d/PyFaceCrop-0.0.7.tar.gz
+[2024-04-04 12:47:09] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/0e/3d/26a640a3d260ff637cfe52fb8916e436ea5b701b508870ece9a93efda5c0/enum_with_dict-0.7.0.tar.gz
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [shareddata]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [xi-mzidentml-converter]: Downloading https://files.pythonhosted.org/packages/e0/43/70d669ba87d1a4353f3f88e7c0ca551d5b27b3085e7c3b20adde029eceef/xi-mzidentml-converter-0.1.9.tar.gz
+[2024-04-04 12:47:09] INFO root fetch - processPackages [imio.smartweb.locales]: Downloading https://files.pythonhosted.org/packages/5f/14/7f460e501e9015f43323bb17b7ae998582198e7616f8d51354612a02e245/imio.smartweb.locales-1.1.9.tar.gz
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [PyFaceCrop]: executing diffoscope
+[2024-04-04 12:47:09] INFO root fetch - processPackages [PyFaceCrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFaceCrop-0.0.6.tar.gz tmp/PyFaceCrop-0.0.7.tar.gz --markdown 20240404/P/PyFaceCrop/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 12:47:09] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.6.2.tar.gz tmp/enum_with_dict-0.7.0.tar.gz --markdown 20240404/e/enum-with-dict/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 12:47:09] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [xi-mzidentml-converter]: Timeout reached during download
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [xi-mzidentml-converter]: executing diffoscope
+[2024-04-04 12:47:09] INFO root fetch - processPackages [xi-mzidentml-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xi-mzidentml-converter-0.1.7.tar.gz tmp/xi-mzidentml-converter-0.1.9.tar.gz --markdown 20240404/x/xi-mzidentml-converter/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 12:47:09] WARNING root fetch - processPackages [imio.smartweb.locales]: Timeout reached during download
+[2024-04-04 12:47:09] INFO root fetch - processPackages [imio.smartweb.locales]: executing diffoscope
+[2024-04-04 12:47:09] INFO root fetch - processPackages [imio.smartweb.locales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.smartweb.locales-1.1.8.tar.gz tmp/imio.smartweb.locales-1.1.9.tar.gz --markdown 20240404/i/imio.smartweb.locales/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-04 12:47:09] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/6a/4e/067659a32cf3995800f8b1aa7c6967a79130e24bc114f3c1d3eb7aebbb03/pineboo-0.99.81.7.tar.gz
+[2024-04-04 12:47:09] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.6.tar.gz]
+[2024-04-04 12:47:09] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.7.tar.gz]
+[2024-04-04 12:47:09] INFO root fetch - main [MainThread]: End processing [PyFaceCrop]: success
+[2024-04-04 12:47:10] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.2.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.7.0.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 12:47:10] WARNING root fetch - processPackages [shareddata]: Timeout reached during download
+[2024-04-04 12:47:10] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-04-04 12:47:10] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240404/s/shareddata/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2024-04-04 12:47:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.7.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - processPackages [xi-mzidentml-converter]: Remove: archive file [/home/abi/fetcher/tmp/xi-mzidentml-converter-0.1.9.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - main [MainThread]: End processing [xi-mzidentml-converter]: success
+[2024-04-04 12:47:10] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 12:47:10] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 12:47:10] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.6.tar.gz tmp/pineboo-0.99.81.7.tar.gz --markdown 20240404/p/pineboo/0.99.81.6-0.99.81.7/diff.md --exclude *.pyd
+[2024-04-04 12:47:10] INFO root fetch - processPackages [imio.smartweb.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.locales-1.1.8.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - processPackages [imio.smartweb.locales]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.locales-1.1.9.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - main [MainThread]: End processing [imio.smartweb.locales]: success
+[2024-04-04 12:47:10] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-04-04 12:47:10] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-04-04 12:47:13] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.6.tar.gz]
+[2024-04-04 12:47:13] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.7.tar.gz]
+[2024-04-04 12:47:13] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 12:47:13] INFO root fetch - main [MainThread]: Store serial: [22618707]
