@@ -15349,3 +15349,75 @@
 [2024-04-04 08:57:02] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
 [2024-04-04 08:57:02] INFO root fetch - main [MainThread]: End processing [py-pde]: success
 [2024-04-04 08:57:02] INFO root fetch - main [MainThread]: Store serial: [22616435]
+[2024-04-04 08:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616435]
+[2024-04-04 08:59:10] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AlekSIS-Core
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openverse-api-client
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: streamlit-nightly
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: casioplot
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-db2fori
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aixblock-tools
+[2024-04-04 08:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-queue-job-web-notify
+[2024-04-04 08:59:10] INFO root fetch - processPackages [casioplot]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-04-04 08:59:10] INFO root fetch - processPackages [openverse-api-client]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-04 08:59:10] INFO root fetch - processPackages [dbt-db2fori]: New version: [1.7.8] Old Version: [1.7.7]
+[2024-04-04 08:59:10] WARNING root fetch - processPackages [odoo-addon-queue-job-web-notify]: Skipping, unable to determine old version
+[2024-04-04 08:59:10] INFO root fetch - processPackages [aixblock-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 08:59:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job-web-notify] error
+[2024-04-04 08:59:10] INFO root fetch - processPackages [AlekSIS-Core]: New version: [4.0.0.dev6] Old Version: [4.0.0.dev5]
+[2024-04-04 08:59:10] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.32.3.dev20240403] Old Version: [1.32.3.dev20240402]
+[2024-04-04 08:59:10] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/06/57/60cb4bbaf38a7d9c57d3080be729f65c35e6f7296e19088e720f8c3b6f3f/casioplot-3.1.5.tar.gz
+[2024-04-04 08:59:10] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/4c/fc/0233f91e93e3a753ae4ca80564683d0015860abe7cd6e0c63b2c09d4e3a6/dbt_db2fori-1.7.7.tar.gz
+[2024-04-04 08:59:10] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/60/82/fac1d67de7cc9a79de29eb5fafcf0e7a38c53f981379e08cad9f589afad3/aixblock_tools-0.0.4.tar.gz
+[2024-04-04 08:59:10] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/50/04/27dc6372699fbbd10cc4e759152cc770e5075b9a40e15cd45b6f42a1c5d8/streamlit-nightly-1.32.3.dev20240402.tar.gz
+[2024-04-04 08:59:10] INFO root fetch - processPackages [openverse-api-client]: Downloading https://files.pythonhosted.org/packages/d6/db/d25d54eb0190f848dfc1551441df3dbadab846664bd609c33093bbad47f0/openverse_api_client-0.0.1a0.tar.gz
+[2024-04-04 08:59:10] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/7b/79/0d0ae2de97d9927090a9ee06283425967181def4d8ec765b8a7ee3af3515/aleksis_core-4.0.0.dev5.tar.gz
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [openverse-api-client]: Timeout reached during download
+[2024-04-04 08:59:11] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/cd/04/43688e9967f7b64f8181971738adadfb236b5d21b4e6c4a1ece6a0562dcc/casioplot-3.1.6.tar.gz
+[2024-04-04 08:59:11] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/d4/2f/534b7d0fa48a65f2c1a1b667cb50355884e166169fd6178ffb221b80384d/aixblock_tools-0.0.5.tar.gz
+[2024-04-04 08:59:11] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/ef/dd/359bd3615ca78bd4a5f4349353af346cf7a4881beaca45628a38e258f40b/dbt_db2fori-1.7.8.tar.gz
+[2024-04-04 08:59:11] INFO root fetch - processPackages [openverse-api-client]: Downloading https://files.pythonhosted.org/packages/36/74/f38ea59063993be211f23a2ee88f19eb1a562215f19a297b4218c44a809e/openverse_api_client-0.0.1a1.tar.gz
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [casioplot]: Timeout reached during download
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 08:59:11] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-04 08:59:11] INFO root fetch - processPackages [aixblock-tools]: executing diffoscope
+[2024-04-04 08:59:11] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-3.1.5.tar.gz tmp/casioplot-3.1.6.tar.gz --markdown 20240404/c/casioplot/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2024-04-04 08:59:11] INFO root fetch - processPackages [aixblock-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_tools-0.0.4.tar.gz tmp/aixblock_tools-0.0.5.tar.gz --markdown 20240404/a/aixblock-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 08:59:11] INFO root fetch - processPackages [dbt-db2fori]: executing diffoscope
+[2024-04-04 08:59:11] INFO root fetch - processPackages [dbt-db2fori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_db2fori-1.7.7.tar.gz tmp/dbt_db2fori-1.7.8.tar.gz --markdown 20240404/d/dbt-db2fori/1.7.7-1.7.8/diff.md --exclude *.pyd
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [openverse-api-client]: Timeout reached during download
+[2024-04-04 08:59:11] INFO root fetch - processPackages [openverse-api-client]: executing diffoscope
+[2024-04-04 08:59:11] INFO root fetch - processPackages [openverse-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openverse_api_client-0.0.1a0.tar.gz tmp/openverse_api_client-0.0.1a1.tar.gz --markdown 20240404/o/openverse-api-client/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [AlekSIS-Core]: Timeout reached during download
+[2024-04-04 08:59:11] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-04 08:59:12] INFO root fetch - processPackages [AlekSIS-Core]: Downloading https://files.pythonhosted.org/packages/d2/4f/537934ab209425d9d73a4d05a0765c12c5df9b5182218c4c9e22a389f80d/aleksis_core-4.0.0.dev6.tar.gz
+[2024-04-04 08:59:12] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.5.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.1.6.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-04 08:59:12] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/af/bc/30fa8087cab4bf51756e5e8ac65c569a8b7994d5d3e2e3af256fb44916a3/streamlit-nightly-1.32.3.dev20240403.tar.gz
+[2024-04-04 08:59:12] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.4.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.5.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - main [MainThread]: End processing [aixblock-tools]: success
+[2024-04-04 08:59:12] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.7.7.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.7.8.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - main [MainThread]: End processing [dbt-db2fori]: success
+[2024-04-04 08:59:12] INFO root fetch - processPackages [openverse-api-client]: Remove: archive file [/home/abi/fetcher/tmp/openverse_api_client-0.0.1a0.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - processPackages [openverse-api-client]: Remove: archive file [/home/abi/fetcher/tmp/openverse_api_client-0.0.1a1.tar.gz]
+[2024-04-04 08:59:12] INFO root fetch - main [MainThread]: End processing [openverse-api-client]: success
+[2024-04-04 08:59:12] WARNING root fetch - processPackages [AlekSIS-Core]: Timeout reached during download
+[2024-04-04 08:59:12] INFO root fetch - processPackages [AlekSIS-Core]: executing diffoscope
+[2024-04-04 08:59:12] INFO root fetch - processPackages [AlekSIS-Core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_core-4.0.0.dev5.tar.gz tmp/aleksis_core-4.0.0.dev6.tar.gz --markdown 20240404/A/AlekSIS-Core/4.0.0.dev5-4.0.0.dev6/diff.md --exclude *.pyd
+[2024-04-04 08:59:13] WARNING root fetch - processPackages [streamlit-nightly]: Timeout reached during download
+[2024-04-04 08:59:13] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2024-04-04 08:59:13] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.32.3.dev20240402.tar.gz tmp/streamlit-nightly-1.32.3.dev20240403.tar.gz --markdown 20240404/s/streamlit-nightly/1.32.3.dev20240402-1.32.3.dev20240403/diff.md --exclude *.pyd
+[2024-04-04 08:59:16] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev5.tar.gz]
+[2024-04-04 08:59:16] INFO root fetch - processPackages [AlekSIS-Core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-4.0.0.dev6.tar.gz]
+[2024-04-04 08:59:16] INFO root fetch - main [MainThread]: End processing [AlekSIS-Core]: success
+[2024-04-04 08:59:42] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.32.3.dev20240402.tar.gz]
+[2024-04-04 08:59:42] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.32.3.dev20240403.tar.gz]
+[2024-04-04 08:59:42] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2024-04-04 08:59:42] INFO root fetch - main [MainThread]: Store serial: [22616457]
