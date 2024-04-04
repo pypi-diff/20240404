@@ -11748,3 +11748,33 @@
 [2024-04-04 05:58:21] INFO root fetch - processPackages [mo-times]: Remove: archive file [/home/abi/fetcher/tmp/mo-times-5.582.24095.tar.gz]
 [2024-04-04 05:58:21] INFO root fetch - main [MainThread]: End processing [mo-times]: success
 [2024-04-04 05:58:21] INFO root fetch - main [MainThread]: Store serial: [22615296]
+[2024-04-04 06:00:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615296]
+[2024-04-04 06:00:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 06:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seismic-rna
+[2024-04-04 06:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json
+[2024-04-04 06:00:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sturgmap
+[2024-04-04 06:00:29] INFO root fetch - processPackages [sturgmap]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 06:00:29] INFO root fetch - processPackages [mo-json]: New version: [6.582.24095] Old Version: [6.579.24081]
+[2024-04-04 06:00:29] INFO root fetch - processPackages [seismic-rna]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-04 06:00:29] INFO root fetch - processPackages [sturgmap]: Downloading https://files.pythonhosted.org/packages/6f/04/6b9878c06ff4252d32f30463adc7522477389e22971fba5e79506d3a0c9e/sturgmap-0.0.3.tar.gz
+[2024-04-04 06:00:29] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/a7/d1/adf9aa8f8b48316dbe2eb84edce9f7832d6adef329e062e8d34205d1a666/mo-json-6.579.24081.tar.gz
+[2024-04-04 06:00:29] INFO root fetch - processPackages [seismic-rna]: Downloading https://files.pythonhosted.org/packages/53/f2/8420279ae686df28989f0588c8721f9d88b14d4957345c82135aa63930bd/seismic_rna-0.9.7.tar.gz
+[2024-04-04 06:00:30] WARNING root fetch - processPackages [seismic-rna]: Skipping package: exceeds size limit 25833813>=10485760
+[2024-04-04 06:00:30] INFO root fetch - main [MainThread]: End processing [seismic-rna] error
+[2024-04-04 06:00:30] WARNING root fetch - processPackages [mo-json]: Timeout reached during download
+[2024-04-04 06:00:30] WARNING root fetch - processPackages [sturgmap]: Timeout reached during download
+[2024-04-04 06:00:30] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/31/d5/f0c7129b7eef9a183edcc0cbab13465ea2b5e79080fad2ee34cc3b0ce82c/mo-json-6.582.24095.tar.gz
+[2024-04-04 06:00:30] INFO root fetch - processPackages [sturgmap]: Downloading https://files.pythonhosted.org/packages/72/71/9d8a221a35efd191040851be7a2fac6eeb16488b073cbd6e2c5ac7dfd9ef/sturgmap-0.0.4.tar.gz
+[2024-04-04 06:00:30] WARNING root fetch - processPackages [mo-json]: Timeout reached during download
+[2024-04-04 06:00:30] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2024-04-04 06:00:30] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-json-6.579.24081.tar.gz tmp/mo-json-6.582.24095.tar.gz --markdown 20240404/m/mo-json/6.579.24081-6.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:00:30] WARNING root fetch - processPackages [sturgmap]: Timeout reached during download
+[2024-04-04 06:00:30] INFO root fetch - processPackages [sturgmap]: executing diffoscope
+[2024-04-04 06:00:30] INFO root fetch - processPackages [sturgmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sturgmap-0.0.3.tar.gz tmp/sturgmap-0.0.4.tar.gz --markdown 20240404/s/sturgmap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 06:00:31] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo-json-6.579.24081.tar.gz]
+[2024-04-04 06:00:31] INFO root fetch - processPackages [mo-json]: Remove: archive file [/home/abi/fetcher/tmp/mo-json-6.582.24095.tar.gz]
+[2024-04-04 06:00:31] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2024-04-04 06:00:31] INFO root fetch - processPackages [sturgmap]: Remove: archive file [/home/abi/fetcher/tmp/sturgmap-0.0.3.tar.gz]
+[2024-04-04 06:00:31] INFO root fetch - processPackages [sturgmap]: Remove: archive file [/home/abi/fetcher/tmp/sturgmap-0.0.4.tar.gz]
+[2024-04-04 06:00:31] INFO root fetch - main [MainThread]: End processing [sturgmap]: success
+[2024-04-04 06:00:31] INFO root fetch - main [MainThread]: Store serial: [22615305]
