@@ -13199,3 +13199,28 @@
 [2024-04-04 07:18:12] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.7.7.tar.gz]
 [2024-04-04 07:18:12] INFO root fetch - main [MainThread]: End processing [dbt-db2fori]: success
 [2024-04-04 07:18:12] INFO root fetch - main [MainThread]: Store serial: [22615787]
+[2024-04-04 07:20:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615787]
+[2024-04-04 07:20:21] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 07:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythagoras
+[2024-04-04 07:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GraphSL
+[2024-04-04 07:20:21] INFO root fetch - processPackages [GraphSL]: New version: [0.4] Old Version: [0.3]
+[2024-04-04 07:20:21] INFO root fetch - processPackages [pythagoras]: New version: [0.10.42] Old Version: [0.10.41]
+[2024-04-04 07:20:21] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/1c/10/531649e1478e961f5926ff4917fd3f1acf23001c3c4839e0a1e9640bb2b0/GraphSL-0.3.tar.gz
+[2024-04-04 07:20:21] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/84/95/11ff15382bf1e2c25c877326b4591ca214dfb09442b09a36d06368248947/pythagoras-0.10.41.tar.gz
+[2024-04-04 07:20:21] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-04 07:20:21] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/71/53/714cfe7b532ccb481d51b5486a2d4d8b1f97cc16e38d2441086fb2fdeb92/pythagoras-0.10.42.tar.gz
+[2024-04-04 07:20:22] INFO root fetch - processPackages [GraphSL]: Downloading https://files.pythonhosted.org/packages/a7/c6/8439597db89bf7daa1c9fb049f50c1f46f0580f64208e5019693e3f4a1db/GraphSL-0.4.tar.gz
+[2024-04-04 07:20:22] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: executing diffoscope
+[2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythagoras-0.10.41.tar.gz tmp/pythagoras-0.10.42.tar.gz --markdown 20240404/p/pythagoras/0.10.41-0.10.42/diff.md --exclude *.pyd
+[2024-04-04 07:20:22] WARNING root fetch - processPackages [GraphSL]: Timeout reached during download
+[2024-04-04 07:20:22] INFO root fetch - processPackages [GraphSL]: executing diffoscope
+[2024-04-04 07:20:22] INFO root fetch - processPackages [GraphSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphSL-0.3.tar.gz tmp/GraphSL-0.4.tar.gz --markdown 20240404/G/GraphSL/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-04 07:20:22] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.3.tar.gz]
+[2024-04-04 07:20:22] INFO root fetch - processPackages [GraphSL]: Remove: archive file [/home/abi/fetcher/tmp/GraphSL-0.4.tar.gz]
+[2024-04-04 07:20:22] INFO root fetch - main [MainThread]: End processing [GraphSL]: success
+[2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.41.tar.gz]
+[2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.42.tar.gz]
+[2024-04-04 07:20:22] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
+[2024-04-04 07:20:22] INFO root fetch - main [MainThread]: Store serial: [22615794]
