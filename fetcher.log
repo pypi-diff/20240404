@@ -11351,3 +11351,20 @@
 [2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.6.tar.gz]
 [2024-04-04 05:34:25] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
 [2024-04-04 05:34:25] INFO root fetch - main [MainThread]: Store serial: [22615163]
+[2024-04-04 05:36:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615163]
+[2024-04-04 05:36:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 05:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipython-ngql
+[2024-04-04 05:36:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jupyter-nebulagraph
+[2024-04-04 05:36:34] INFO root fetch - processPackages [ipython-ngql]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 05:36:34] WARNING root fetch - processPackages [jupyter-nebulagraph]: Skipping, unable to determine old version
+[2024-04-04 05:36:34] INFO root fetch - main [MainThread]: End processing [jupyter-nebulagraph] error
+[2024-04-04 05:36:34] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/29/8c/9d77f828925990c5c1f92de36b653cbc1ee6e73b634725e3d098b12f8d05/ipython-ngql-0.9.0.tar.gz
+[2024-04-04 05:36:34] WARNING root fetch - processPackages [ipython-ngql]: Timeout reached during download
+[2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: Downloading https://files.pythonhosted.org/packages/85/5b/d739e0d6e616df491f6ad44156d4ac4eb6a9a8f3e125574cf1a49296483b/ipython-ngql-0.9.1.tar.gz
+[2024-04-04 05:36:35] WARNING root fetch - processPackages [ipython-ngql]: Timeout reached during download
+[2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: executing diffoscope
+[2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipython-ngql-0.9.0.tar.gz tmp/ipython-ngql-0.9.1.tar.gz --markdown 20240404/i/ipython-ngql/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.0.tar.gz]
+[2024-04-04 05:36:35] INFO root fetch - processPackages [ipython-ngql]: Remove: archive file [/home/abi/fetcher/tmp/ipython-ngql-0.9.1.tar.gz]
+[2024-04-04 05:36:35] INFO root fetch - main [MainThread]: End processing [ipython-ngql]: success
+[2024-04-04 05:36:35] INFO root fetch - main [MainThread]: Store serial: [22615171]
