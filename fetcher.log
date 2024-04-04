@@ -23573,3 +23573,103 @@
 [2024-04-04 13:58:04] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.0.tar.gz]
 [2024-04-04 13:58:04] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
 [2024-04-04 13:58:04] INFO root fetch - main [MainThread]: Store serial: [22619412]
+[2024-04-04 14:00:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619412]
+[2024-04-04 14:00:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: simplellm
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-openeo
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyunicorn
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fattaholmanan-pyvis
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fattaholmanan-pyvis
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fleece-network
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pbx-cloud-utils
+[2024-04-04 14:00:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alpaca-py
+[2024-04-04 14:00:13] INFO root fetch - processPackages [eodc]: New version: [2024.3.1] Old Version: [2024.2.6]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fleece-network]: New version: [0.2.0rc0] Old Version: [0.1.0]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [pbx-cloud-utils]: New version: [1.2.0a6] Old Version: [1.2.0a5]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [simplellm]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fattaholmanan-pyvis]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.6] Old Version: [2024.4.5]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [alpaca-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [pyunicorn]: New version: [0.7.0] Old Version: [0.6.1]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fattaholmanan-pyvis]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fattaholmanan-pyvis]: Downloading https://files.pythonhosted.org/packages/c7/64/e556f0a3e3049bc023022001c3e98e1619e5d0aab2d3c800ec4108522ac0/fattaholmanan-pyvis-0.1.0.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/41/15/e59c9ebd6b10cf17d3d205d88a150f56281e4a7e37a69e697d63f2907145/eodc_faas_openeo-2024.4.5.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/ce/19/09c8ea49759618ce11c8d74daa053adc8f7e41dd00ddbefe7d432ebbfa09/eodc-2024.2.6.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fattaholmanan-pyvis]: Downloading https://files.pythonhosted.org/packages/c7/64/e556f0a3e3049bc023022001c3e98e1619e5d0aab2d3c800ec4108522ac0/fattaholmanan-pyvis-0.1.0.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-0.8.2.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/3f/91/ea77178d74d837b6838ab7ce2e7ebc64f350ff503338dc8792bd5b938ff8/fleece_network-0.1.0.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/11/66/77a7a69d90808ed4ebebb25df2a4432b1f5c490a977fb0404b963e0cf465/pbx_cloud_utils-1.2.0a5-py3-none-any.whl
+[2024-04-04 14:00:13] INFO root fetch - processPackages [simplellm]: Downloading https://files.pythonhosted.org/packages/12/3e/951b626055e4aa04aa03721ed8882f4a7f0dd960bf8fb94ddb1c5b68f8c3/simplellm-0.0.1.tar.gz
+[2024-04-04 14:00:13] INFO root fetch - processPackages [pyunicorn]: Downloading https://files.pythonhosted.org/packages/97/4a/2b146e06088bffa6249ebc360b16d7c6045401b5d60f1817a68dac40fbda/pyunicorn-0.6.1.tar.gz
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [fleece-network]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [alpaca-py]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [pbx-cloud-utils]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [simplellm]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [eodc]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [fattaholmanan-pyvis]: Timeout reached during download
+[2024-04-04 14:00:13] WARNING root fetch - processPackages [pyunicorn]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/92/bf/2d0a8e11b6526ffb98f5f36b95c34cfa942f486c0b0183794006a29ccb98/fleece_network-0.2.0rc0.tar.gz
+[2024-04-04 14:00:14] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/f0/0d/64596c95696d0c4774ba900e386ec14586cf4f85b8e395258caa1bb90e61/alpaca_py-0.9.0.tar.gz
+[2024-04-04 14:00:14] INFO root fetch - processPackages [simplellm]: Downloading https://files.pythonhosted.org/packages/c3/e1/1a0dbb8916d846ab208f92c27a4b9dd1b568b60321cf429b7d5ecbd60b50/simplellm-0.0.2.tar.gz
+[2024-04-04 14:00:14] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/cb/ca/b1e8e5eea8e4df0ff4e65957e068a1c899ec8d368b0ffb7fd974d474a10f/eodc-2024.3.1.tar.gz
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pbx-cloud-utils]: Downloading https://files.pythonhosted.org/packages/21/2c/a3ff27b6ae97c5e9979f7e704376927bbff08a0d01107d7478ea777c0dfc/pbx_cloud_utils-1.2.0a6-py3-none-any.whl
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: Downloading https://files.pythonhosted.org/packages/95/4f/e686443910ed3792819aacb2309e34488512434b37b23d81e274987f7c2d/fattaholmanan-pyvis-0.2.0.tar.gz
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [fattaholmanan-pyvis]: Timeout reached during download
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [alpaca-py]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [alpaca-py]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [alpaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_py-0.8.2.tar.gz tmp/alpaca_py-0.9.0.tar.gz --markdown 20240404/a/alpaca-py/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [eodc]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2024.2.6.tar.gz tmp/eodc-2024.3.1.tar.gz --markdown 20240404/e/eodc/2024.2.6-2024.3.1/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [fleece-network]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fleece-network]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fleece-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleece_network-0.1.0.tar.gz tmp/fleece_network-0.2.0rc0.tar.gz --markdown 20240404/f/fleece-network/0.1.0-0.2.0rc0/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [pbx-cloud-utils]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pbx-cloud-utils]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pbx-cloud-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbx_cloud_utils-1.2.0a5-py3-none-any.whl.zip tmp/pbx_cloud_utils-1.2.0a6-py3-none-any.whl.zip --markdown 20240404/p/pbx-cloud-utils/1.2.0a5-1.2.0a6/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: Downloading https://files.pythonhosted.org/packages/95/4f/e686443910ed3792819aacb2309e34488512434b37b23d81e274987f7c2d/fattaholmanan-pyvis-0.2.0.tar.gz
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [fattaholmanan-pyvis]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattaholmanan-pyvis-0.1.0.tar.gz tmp/fattaholmanan-pyvis-0.2.0.tar.gz --markdown 20240404/f/fattaholmanan-pyvis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pyunicorn]: Downloading https://files.pythonhosted.org/packages/f8/10/fdb3fdd648afa548f8741203340760c2a95ab87533e67579fa8f9bcb9147/pyunicorn-0.7.0.tar.gz
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [fattaholmanan-pyvis]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [fattaholmanan-pyvis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattaholmanan-pyvis-0.1.0.tar.gz tmp/fattaholmanan-pyvis-0.2.0.tar.gz --markdown 20240404/f/fattaholmanan-pyvis/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 14:00:14] WARNING root fetch - processPackages [pyunicorn]: Timeout reached during download
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pyunicorn]: executing diffoscope
+[2024-04-04 14:00:14] INFO root fetch - processPackages [pyunicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyunicorn-0.6.1.tar.gz tmp/pyunicorn-0.7.0.tar.gz --markdown 20240404/p/pyunicorn/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2024-04-04 14:00:15] WARNING root fetch - processPackages [simplellm]: Timeout reached during download
+[2024-04-04 14:00:15] INFO root fetch - processPackages [simplellm]: executing diffoscope
+[2024-04-04 14:00:15] INFO root fetch - processPackages [simplellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplellm-0.0.1.tar.gz tmp/simplellm-0.0.2.tar.gz --markdown 20240404/s/simplellm/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 14:00:15] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a5-py3-none-any.whl.zip]
+[2024-04-04 14:00:15] INFO root fetch - processPackages [pbx-cloud-utils]: Remove: archive file [/home/abi/fetcher/tmp/pbx_cloud_utils-1.2.0a6-py3-none-any.whl.zip]
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [pbx-cloud-utils]: success
+[2024-04-04 14:00:15] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.2.6.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2024.3.1.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2024-04-04 14:00:15] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.1.0.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.2.0rc0.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [fleece-network]: success
+[2024-04-04 14:00:15] INFO root fetch - processPackages [fattaholmanan-pyvis]: Remove: archive file [/home/abi/fetcher/tmp/fattaholmanan-pyvis-0.1.0.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - processPackages [fattaholmanan-pyvis]: Remove: archive file [/home/abi/fetcher/tmp/fattaholmanan-pyvis-0.2.0.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [fattaholmanan-pyvis]: success
+[2024-04-04 14:00:15] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.8.2.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
+[2024-04-04 14:00:15] INFO root fetch - main [MainThread]: End processing [fattaholmanan-pyvis]: success
+[2024-04-04 14:00:16] INFO root fetch - processPackages [simplellm]: Remove: archive file [/home/abi/fetcher/tmp/simplellm-0.0.1.tar.gz]
+[2024-04-04 14:00:16] INFO root fetch - processPackages [simplellm]: Remove: archive file [/home/abi/fetcher/tmp/simplellm-0.0.2.tar.gz]
+[2024-04-04 14:00:16] INFO root fetch - main [MainThread]: End processing [simplellm]: success
+[2024-04-04 14:00:17] INFO root fetch - processPackages [pyunicorn]: Remove: archive file [/home/abi/fetcher/tmp/pyunicorn-0.6.1.tar.gz]
+[2024-04-04 14:00:17] INFO root fetch - processPackages [pyunicorn]: Remove: archive file [/home/abi/fetcher/tmp/pyunicorn-0.7.0.tar.gz]
+[2024-04-04 14:00:17] INFO root fetch - main [MainThread]: End processing [pyunicorn]: success
+[2024-04-04 14:00:18] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/29/13/256bad74d04548fd6074d97fd58f3a09589da67a28ab5543d905daf17ea6/eodc_faas_openeo-2024.4.6.tar.gz
+[2024-04-04 14:00:19] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 14:00:19] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-04 14:00:19] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.5.tar.gz tmp/eodc_faas_openeo-2024.4.6.tar.gz --markdown 20240404/e/eodc-faas-openeo/2024.4.5-2024.4.6/diff.md --exclude *.pyd
+[2024-04-04 14:00:19] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.5.tar.gz]
+[2024-04-04 14:00:19] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.6.tar.gz]
+[2024-04-04 14:00:19] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-04 14:00:19] INFO root fetch - main [MainThread]: Store serial: [22619439]
