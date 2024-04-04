@@ -17750,3 +17750,64 @@
 [2024-04-04 10:28:18] INFO root fetch - processPackages [images-upload-cli]: Remove: archive file [/home/abi/fetcher/tmp/images_upload_cli-3.0.3rc4.tar.gz]
 [2024-04-04 10:28:18] INFO root fetch - main [MainThread]: End processing [images-upload-cli]: success
 [2024-04-04 10:28:18] INFO root fetch - main [MainThread]: Store serial: [22617200]
+[2024-04-04 10:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617200]
+[2024-04-04 10:30:27] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shells-cae
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nodoc
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: modernpackage_pranas
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-cytomine-client
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub
+[2024-04-04 10:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acryl-datahub-airflow-plugin
+[2024-04-04 10:30:27] INFO root fetch - processPackages [nodoc]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-04 10:30:27] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [modernpackage_pranas]: Skipping, unable to determine old version
+[2024-04-04 10:30:27] INFO root fetch - processPackages [shells-cae]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:30:27] INFO root fetch - main [MainThread]: End processing [modernpackage_pranas] error
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2024-04-04 10:30:27] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/88/b0/c2a2d31c55324239b716b8dfebf926ce7d0fd048a3223b5ccb1e93d7c87d/nodoc-1.0.5.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [shells-cae]: Downloading https://files.pythonhosted.org/packages/fe/fa/86e886148e47d47df46b34f1418379d1b0ba518e422057f3ca196b9251e9/shells_cae-0.0.8.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [acryl-datahub-airflow-plugin]: Timeout reached during download
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [shells-cae]: Timeout reached during download
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [acryl-datahub]: Timeout reached during download
+[2024-04-04 10:30:27] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/29/48/214cddc697387896c19c79ce56ed68fed33485d2a806d3954da0d03a09f1/nodoc-1.0.6.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2024-04-04 10:30:27] INFO root fetch - processPackages [shells-cae]: Downloading https://files.pythonhosted.org/packages/ad/24/25d5805d4b557a8d3234012786a55de01a5f61cae14eecc8e3bf1031fb7c/shells_cae-0.0.9.tar.gz
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:30:27] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:30:27] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.5.tar.gz tmp/nodoc-1.0.6.tar.gz --markdown 20240404/n/nodoc/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [acryl-datahub-airflow-plugin]: Timeout reached during download
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2024-04-04 10:30:27] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20240404/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:30:27] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:30:27] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:30:27] WARNING root fetch - processPackages [shells-cae]: Timeout reached during download
+[2024-04-04 10:30:27] INFO root fetch - processPackages [shells-cae]: executing diffoscope
+[2024-04-04 10:30:27] INFO root fetch - processPackages [shells-cae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shells_cae-0.0.8.tar.gz tmp/shells_cae-0.0.9.tar.gz --markdown 20240404/s/shells-cae/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:30:28] WARNING root fetch - processPackages [acryl-datahub]: Timeout reached during download
+[2024-04-04 10:30:28] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2024-04-04 10:30:28] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20240404/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2024-04-04 10:30:28] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2024-04-04 10:30:28] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:30:28] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.5.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.6.tar.gz]
+[2024-04-04 10:30:28] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:30:29] INFO root fetch - processPackages [shells-cae]: Remove: archive file [/home/abi/fetcher/tmp/shells_cae-0.0.8.tar.gz]
+[2024-04-04 10:30:29] INFO root fetch - processPackages [shells-cae]: Remove: archive file [/home/abi/fetcher/tmp/shells_cae-0.0.9.tar.gz]
+[2024-04-04 10:30:29] INFO root fetch - main [MainThread]: End processing [shells-cae]: success
+[2024-04-04 10:30:30] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2024-04-04 10:30:30] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2024-04-04 10:30:30] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2024-04-04 10:30:30] INFO root fetch - main [MainThread]: Store serial: [22617219]
