@@ -13144,3 +13144,58 @@
 [2024-04-04 07:16:01] INFO root fetch - processPackages [semantic-text-splitter]: Remove: archive file [/home/abi/fetcher/tmp/semantic_text_splitter-0.9.0-cp38-abi3-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2024-04-04 07:16:01] INFO root fetch - main [MainThread]: End processing [semantic-text-splitter]: success
 [2024-04-04 07:16:01] INFO root fetch - main [MainThread]: Store serial: [22615768]
+[2024-04-04 07:18:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615768]
+[2024-04-04 07:18:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-pos-partner-location-abstract
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aixblock-tools
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bisque-metadoc
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libera_utils
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GraphSL
+[2024-04-04 07:18:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-db2fori
+[2024-04-04 07:18:10] WARNING root fetch - processPackages [GraphSL]: Skipping, unable to determine old version
+[2024-04-04 07:18:10] INFO root fetch - main [MainThread]: End processing [GraphSL] error
+[2024-04-04 07:18:10] INFO root fetch - processPackages [libera_utils]: New version: [2.2.2rc1] Old Version: [2.2.1rc1]
+[2024-04-04 07:18:10] INFO root fetch - processPackages [bisque-metadoc]: New version: [0.6.3.34] Old Version: [0.6.3.33]
+[2024-04-04 07:18:10] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-04 07:18:10] INFO root fetch - processPackages [aixblock-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 07:18:10] INFO root fetch - processPackages [dbt-db2fori]: New version: [1.7.7] Old Version: [1.4.5]
+[2024-04-04 07:18:10] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/60/82/fac1d67de7cc9a79de29eb5fafcf0e7a38c53f981379e08cad9f589afad3/aixblock_tools-0.0.4.tar.gz
+[2024-04-04 07:18:10] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/55/4e/e5788d158cbbbfef14ba3c6ed04b147931106e28bf8c2dae2872f2e631b8/libera_utils-2.2.1rc1.tar.gz
+[2024-04-04 07:18:10] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/ee/89/9edeb438022623ae1e2a6e6474180e7bf236d72ad353dbe711178cc23466/bisque_metadoc-0.6.3.33-py3-none-any.whl
+[2024-04-04 07:18:10] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Downloading https://files.pythonhosted.org/packages/f9/9b/9168262ab3d6e897c7daf52e94587ccac641b7310243b32b47ca8315c6fd/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31163193>=10485760
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [bisque-metadoc]: Timeout reached during download
+[2024-04-04 07:18:11] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Timeout reached during download
+[2024-04-04 07:18:11] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/fd/86/e1a40b618d070e04f47b31dc0dc32988d17227f11376ff04954071ab8445/dbt_db2fori-1.4.5.tar.gz
+[2024-04-04 07:18:11] INFO root fetch - processPackages [aixblock-tools]: Downloading https://files.pythonhosted.org/packages/d4/2f/534b7d0fa48a65f2c1a1b667cb50355884e166169fd6178ffb221b80384d/aixblock_tools-0.0.5.tar.gz
+[2024-04-04 07:18:11] INFO root fetch - processPackages [bisque-metadoc]: Downloading https://files.pythonhosted.org/packages/13/4e/edcdf374021b0bfd3891a16574c67eaa57e557940302714ba0120348a04b/bisque_metadoc-0.6.3.34-py3-none-any.whl
+[2024-04-04 07:18:11] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Downloading https://files.pythonhosted.org/packages/99/93/f9f57a672a65e328f9d4cd38cacfe85693c854d0e1d2e9140f298ae1ff41/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [aixblock-tools]: Timeout reached during download
+[2024-04-04 07:18:11] INFO root fetch - processPackages [aixblock-tools]: executing diffoscope
+[2024-04-04 07:18:11] INFO root fetch - processPackages [aixblock-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aixblock_tools-0.0.4.tar.gz tmp/aixblock_tools-0.0.5.tar.gz --markdown 20240404/a/aixblock-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [bisque-metadoc]: Timeout reached during download
+[2024-04-04 07:18:11] INFO root fetch - processPackages [bisque-metadoc]: executing diffoscope
+[2024-04-04 07:18:11] INFO root fetch - processPackages [bisque-metadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bisque_metadoc-0.6.3.33-py3-none-any.whl.zip tmp/bisque_metadoc-0.6.3.34-py3-none-any.whl.zip --markdown 20240404/b/bisque-metadoc/0.6.3.33-0.6.3.34/diff.md --exclude *.pyd
+[2024-04-04 07:18:11] WARNING root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Timeout reached during download
+[2024-04-04 07:18:11] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: executing diffoscope
+[2024-04-04 07:18:11] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-pos-partner-location-abstract/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:18:11] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/4c/fc/0233f91e93e3a753ae4ca80564683d0015860abe7cd6e0c63b2c09d4e3a6/dbt_db2fori-1.7.7.tar.gz
+[2024-04-04 07:18:12] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.33-py3-none-any.whl.zip]
+[2024-04-04 07:18:12] INFO root fetch - processPackages [bisque-metadoc]: Remove: archive file [/home/abi/fetcher/tmp/bisque_metadoc-0.6.3.34-py3-none-any.whl.zip]
+[2024-04-04 07:18:12] INFO root fetch - main [MainThread]: End processing [bisque-metadoc]: success
+[2024-04-04 07:18:12] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:18:12] INFO root fetch - processPackages [odoo-addon-pos-partner-location-abstract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_pos_partner_location_abstract-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:18:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-partner-location-abstract]: success
+[2024-04-04 07:18:12] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 07:18:12] INFO root fetch - processPackages [dbt-db2fori]: executing diffoscope
+[2024-04-04 07:18:12] INFO root fetch - processPackages [dbt-db2fori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_db2fori-1.4.5.tar.gz tmp/dbt_db2fori-1.7.7.tar.gz --markdown 20240404/d/dbt-db2fori/1.4.5-1.7.7/diff.md --exclude *.pyd
+[2024-04-04 07:18:12] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.4.tar.gz]
+[2024-04-04 07:18:12] INFO root fetch - processPackages [aixblock-tools]: Remove: archive file [/home/abi/fetcher/tmp/aixblock_tools-0.0.5.tar.gz]
+[2024-04-04 07:18:12] INFO root fetch - main [MainThread]: End processing [aixblock-tools]: success
+[2024-04-04 07:18:12] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.4.5.tar.gz]
+[2024-04-04 07:18:12] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.7.7.tar.gz]
+[2024-04-04 07:18:12] INFO root fetch - main [MainThread]: End processing [dbt-db2fori]: success
+[2024-04-04 07:18:12] INFO root fetch - main [MainThread]: Store serial: [22615787]
