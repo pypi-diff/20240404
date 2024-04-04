@@ -14301,3 +14301,55 @@
 
 [2024-04-04 08:08:28] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-activity-team] error
 [2024-04-04 08:08:28] INFO root fetch - main [MainThread]: Store serial: [22616111]
+[2024-04-04 08:10:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616111]
+[2024-04-04 08:10:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 08:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libera_utils
+[2024-04-04 08:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mail-tracking
+[2024-04-04 08:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyg-nightly
+[2024-04-04 08:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-openeo
+[2024-04-04 08:10:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-stock-barcodes
+[2024-04-04 08:10:37] INFO root fetch - processPackages [libera_utils]: New version: [2.2.2rc4] Old Version: [2.2.2rc3]
+[2024-04-04 08:10:37] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.3.0.1] Old Version: [15.0.3.0.0.1]
+[2024-04-04 08:10:37] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.42]
+[2024-04-04 08:10:37] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-04 08:10:37] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240404] Old Version: [2.6.0.dev20240403]
+[2024-04-04 08:10:37] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/22/a7/ff4f9aa0e224aba74c9367b1a54febff4e5b331d9900f89457f6b55d1b49/libera_utils-2.2.2rc3.tar.gz
+[2024-04-04 08:10:37] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/a4/5d/9d740ca0fccba944106146d9dd03156e3f8be622ba98b0582d599b768c48/odoo_addon_stock_barcodes-15.0.3.0.0.1-py3-none-any.whl
+[2024-04-04 08:10:37] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/4c/19/ade9cecbe8d6c64dd616ee9cdce99c9c396bcb78c475d48840d2e4f1d64c/eodc_faas_openeo-2024.4.1.tar.gz
+[2024-04-04 08:10:37] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5d/92/2b119e013eb9eea2aa026de00b0f14dcf120a2c706e8089f8a0aeca1e602/pyg_nightly-2.6.0.dev20240403.tar.gz
+[2024-04-04 08:10:37] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31167040>=10485760
+[2024-04-04 08:10:37] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-04 08:10:37] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/f1/86/a9c5eb6d6a94a2c899ee8cab0a8b1cfd94de72c831b99e36dce36ad07cbf/odoo_addon_mail_tracking-16.0.1.0.4.42-py3-none-any.whl
+[2024-04-04 08:10:37] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 08:10:37] WARNING root fetch - processPackages [odoo-addon-stock-barcodes]: Timeout reached during download
+[2024-04-04 08:10:37] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/2e/4a/88b46d85235b0aa87f63f04804c29b637bacdf1d92f23e852616204fdc13/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl
+[2024-04-04 08:10:38] WARNING root fetch - processPackages [odoo-addon-mail-tracking]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/ac/ef/b2251078eb8c656585d14ef74cd17b124458c4350ecee68961c9fe8c0a0d/pyg_nightly-2.6.0.dev20240404.tar.gz
+[2024-04-04 08:10:38] WARNING root fetch - processPackages [odoo-addon-stock-barcodes]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.3.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-barcodes/15.0.3.0.0.1-15.0.3.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:10:38] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/7a/7d/1f76129011674f6ec818960d73a7e4336e8054ab667cbbc7c0f763ab5e19/eodc_faas_openeo-2024.4.2.tar.gz
+[2024-04-04 08:10:38] WARNING root fetch - processPackages [pyg-nightly]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-04 08:10:38] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240403.tar.gz tmp/pyg_nightly-2.6.0.dev20240404.tar.gz --markdown 20240404/p/pyg-nightly/2.6.0.dev20240403-2.6.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 08:10:38] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-04 08:10:38] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.1.tar.gz tmp/eodc_faas_openeo-2024.4.2.tar.gz --markdown 20240404/e/eodc-faas-openeo/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-04-04 08:10:38] WARNING root fetch - processPackages [odoo-addon-mail-tracking]: Timeout reached during download
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.42-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-mail-tracking/16.0.1.0.4.42-16.0.1.0.4.8/diff.md --exclude *.pyd
+[2024-04-04 08:10:38] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.1.tar.gz]
+[2024-04-04 08:10:38] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.2.tar.gz]
+[2024-04-04 08:10:38] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:10:38] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:10:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2024-04-04 08:10:40] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.42-py3-none-any.whl.zip]
+[2024-04-04 08:10:40] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-04-04 08:10:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-04-04 08:10:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240403.tar.gz]
+[2024-04-04 08:10:40] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240404.tar.gz]
+[2024-04-04 08:10:40] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-04 08:10:40] INFO root fetch - main [MainThread]: Store serial: [22616125]
