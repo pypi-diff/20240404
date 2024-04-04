@@ -13510,3 +13510,103 @@
 [2024-04-04 07:33:25] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
 [2024-04-04 07:33:25] INFO root fetch - main [MainThread]: End processing [metricflow]: success
 [2024-04-04 07:33:25] INFO root fetch - main [MainThread]: Store serial: [22615882]
+[2024-04-04 07:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615882]
+[2024-04-04 07:35:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kdp-api-python-client
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-repair-refurbish
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-repair-type-sequence
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-repair-reason
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-repair-type
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-repair-type-refurbish
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-repair-stock-move
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-repair-type
+[2024-04-04 07:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyscail
+[2024-04-04 07:35:34] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.99.0] Old Version: [4.98.0]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.1]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [pyscail]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-reason]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.2]
+[2024-04-04 07:35:34] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/46/b2/68c43660af0fe2c7d53c93038db9ca31ddd128caca21bb57962a6fc78413/kdp-api-python-client-4.98.0.tar.gz
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/20/09/a40fddd7aec3537259ccc81fef4966ed49167956ec37b406940e4b452b3b/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/4c/73/16198d1b59e5f5b16012eef3eb9e4107eeee864fb6ca5e30cb3888038b14/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: Downloading https://files.pythonhosted.org/packages/10/4f/f1aa9c622f8f3a4bd4d713885e9b559f8e42d95e7cb452f6924d52ca6abb/odoo_addon_repair_type_sequence-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/c3/94/092df89b98b8d60d688ca9d6f41eb22ce3e25506490e07b49ae832ea5d99/odoo_addon_repair_stock_move-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/df/0f/9b2275a8ee440fd15aae7a283b740021e6c5433f3d66371cebc3bbaf9704/odoo_addon_repair_type-16.0.1.0.1-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/df/0f/9b2275a8ee440fd15aae7a283b740021e6c5433f3d66371cebc3bbaf9704/odoo_addon_repair_type-16.0.1.0.1-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/d7/37/5654551f6c51590f1192a759c06b68bf9c8ffa0b7e25f35f856e919a768d/pyscail-0.0.8.tar.gz
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-reason]: Downloading https://files.pythonhosted.org/packages/e9/cc/6dc280853465bc4425365dddba95b3e22ec076aead39d7fc1e900d3c608d/odoo_addon_repair_reason-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [kdp-api-python-client]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-type-sequence]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-refurbish]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-stock-move]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-reason]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-type]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [pyscail]: Timeout reached during download
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-type]: Timeout reached during download
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Downloading https://files.pythonhosted.org/packages/d3/92/5082ca336d91915f475ec0b6027c5838cfa2f5500c8db53b8df7f6d6df99/odoo_addon_repair_type_refurbish-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: Downloading https://files.pythonhosted.org/packages/64/80/ab28c7b70d82e1000d73a273413fd6722238d6239e7284028d3499cad7ed/odoo_addon_repair_type_sequence-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-reason]: Downloading https://files.pythonhosted.org/packages/01/1f/8c0625713288238411fba83466e3a851006027eb95cf6da1f5bebd758fd0/odoo_addon_repair_reason-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/10/df/e139683c19dbe53b0109746bec3dc990f3051099839fdf00cf46a309126f/kdp-api-python-client-4.99.0.tar.gz
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Downloading https://files.pythonhosted.org/packages/03/5f/259f8befd12e6578ed1593fb48666ddd9c7122465e820e67515d10e41016/odoo_addon_repair_stock_move-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Downloading https://files.pythonhosted.org/packages/03/4f/82183285cdfe04b899d20ca03d018af2da175d8ade6e024041e845f36e1d/odoo_addon_repair_refurbish-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 07:35:34] WARNING root fetch - processPackages [odoo-addon-repair-type-refurbish]: Timeout reached during download
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: executing diffoscope
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-type-refurbish/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:35:34] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/61/f3/381af6cd02bbd937c0a6fe6ce09fa197dc8cf92576a8bf8ab3eafa2592b0/odoo_addon_repair_type-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type]: Downloading https://files.pythonhosted.org/packages/61/f3/381af6cd02bbd937c0a6fe6ce09fa197dc8cf92576a8bf8ab3eafa2592b0/odoo_addon_repair_type-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-type-sequence]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type_sequence-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_repair_type_sequence-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-type-sequence/16.0.1.0.0.1-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] INFO root fetch - processPackages [pyscail]: Downloading https://files.pythonhosted.org/packages/74/55/3192ec1d6830a7049d153171fa72eefa0fa27ea0f72f14c651a13c023448/pyscail-0.0.9.tar.gz
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-reason]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-reason]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_reason-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_repair_reason-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-reason/16.0.1.0.0.2-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-stock-move]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_stock_move-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_repair_stock_move-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-stock-move/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-refurbish]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_repair_refurbish-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-refurbish/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-type]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_repair_type-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-type/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [kdp-api-python-client]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.98.0.tar.gz tmp/kdp-api-python-client-4.99.0.tar.gz --markdown 20240404/k/kdp-api-python-client/4.98.0-4.99.0/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [odoo-addon-repair-type]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_repair_type-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_repair_type-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-repair-type/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] WARNING root fetch - processPackages [pyscail]: Timeout reached during download
+[2024-04-04 07:35:35] INFO root fetch - processPackages [pyscail]: executing diffoscope
+[2024-04-04 07:35:35] INFO root fetch - processPackages [pyscail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscail-0.0.8.tar.gz tmp/pyscail-0.0.9.tar.gz --markdown 20240404/p/pyscail/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_sequence-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-sequence]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_sequence-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:35:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type-sequence]: success
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:35:35] INFO root fetch - processPackages [odoo-addon-repair-type-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type_refurbish-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:35:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type-refurbish]: success
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_reason-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_reason-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-reason]: success
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_stock_move-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.8.tar.gz]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [pyscail]: Remove: archive file [/home/abi/fetcher/tmp/pyscail-0.0.9.tar.gz]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-stock-move]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_stock_move-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [pyscail]: success
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-stock-move]: success
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_type-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type]: success
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - processPackages [odoo-addon-repair-refurbish]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_repair_refurbish-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-refurbish]: success
+[2024-04-04 07:35:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type]: success
+[2024-04-04 07:35:38] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.98.0.tar.gz]
+[2024-04-04 07:35:38] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
+[2024-04-04 07:35:38] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2024-04-04 07:35:38] INFO root fetch - main [MainThread]: Store serial: [22615902]
