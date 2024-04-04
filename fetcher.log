@@ -10944,3 +10944,53 @@
 [2024-04-04 05:08:22] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.2.1.1-py3-none-any.whl.zip]
 [2024-04-04 05:08:22] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
 [2024-04-04 05:08:22] INFO root fetch - main [MainThread]: Store serial: [22615054]
+[2024-04-04 05:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615054]
+[2024-04-04 05:10:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 05:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dash-swiper
+[2024-04-04 05:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: missim-config
+[2024-04-04 05:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: missim-cli
+[2024-04-04 05:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sashimi-domains
+[2024-04-04 05:10:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openapi-lookup
+[2024-04-04 05:10:30] INFO root fetch - processPackages [missim-config]: New version: [1.7.1] Old Version: [1.6.0]
+[2024-04-04 05:10:30] INFO root fetch - processPackages [openapi-lookup]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 05:10:30] INFO root fetch - processPackages [sashimi-domains]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-04 05:10:30] INFO root fetch - processPackages [missim-cli]: New version: [1.7.1] Old Version: [1.6.0]
+[2024-04-04 05:10:30] WARNING root fetch - processPackages [dash-swiper]: Skipping, unable to determine old version
+[2024-04-04 05:10:30] INFO root fetch - main [MainThread]: End processing [dash-swiper] error
+[2024-04-04 05:10:31] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/f7/f3/cc2b39a2f8ff1ba3493343ff54f1999d6388d39b3254da2d1cdb9cb44708/sashimi_domains-0.9.6.tar.gz
+[2024-04-04 05:10:31] INFO root fetch - processPackages [openapi-lookup]: Downloading https://files.pythonhosted.org/packages/01/d2/77c757c63ac88c16918888ef75e8802b1587a3c33bb1d080b8a4abff3408/openapi_lookup-0.1.0.tar.gz
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/ec/60/9b398491dfa0d643775ebe6399e30afe64a656217352a6934f11b74828e3/missim_cli-1.6.0.tar.gz
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/47/da/bc2178edf905fa6f6df888e2360b9e77fbb56a11316b4c2e118f3f1ead94/missim_config-1.6.0.tar.gz
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [sashimi-domains]: Timeout reached during download
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [openapi-lookup]: Timeout reached during download
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [missim-config]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/80/0a/dcaeb920da3cb7ad07d037dd0fc9278613edc8289ff806934eb690fd511e/sashimi_domains-0.9.7.tar.gz
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [missim-cli]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [openapi-lookup]: Downloading https://files.pythonhosted.org/packages/0a/f2/638d9b5bfde36b627d7f880da0a1789ed3d81fa4358022edf8d257b30b8a/openapi_lookup-0.1.1.tar.gz
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-config]: Downloading https://files.pythonhosted.org/packages/32/1a/a93572aedc8e644cbb18148d035cd2662a130f51b9de85d39bd2f46e3655/missim_config-1.7.1.tar.gz
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [sashimi-domains]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [sashimi-domains]: executing diffoscope
+[2024-04-04 05:10:31] INFO root fetch - processPackages [sashimi-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sashimi_domains-0.9.6.tar.gz tmp/sashimi_domains-0.9.7.tar.gz --markdown 20240404/s/sashimi-domains/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-cli]: Downloading https://files.pythonhosted.org/packages/5e/f2/b7ead060a05d5a77d410e1226041eb0815450cc3c1c842404a4087cde3c8/missim_cli-1.7.1.tar.gz
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [openapi-lookup]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [openapi-lookup]: executing diffoscope
+[2024-04-04 05:10:31] INFO root fetch - processPackages [openapi-lookup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_lookup-0.1.0.tar.gz tmp/openapi_lookup-0.1.1.tar.gz --markdown 20240404/o/openapi-lookup/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [missim-config]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-config]: executing diffoscope
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_config-1.6.0.tar.gz tmp/missim_config-1.7.1.tar.gz --markdown 20240404/m/missim-config/1.6.0-1.7.1/diff.md --exclude *.pyd
+[2024-04-04 05:10:31] WARNING root fetch - processPackages [missim-cli]: Timeout reached during download
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-cli]: executing diffoscope
+[2024-04-04 05:10:31] INFO root fetch - processPackages [missim-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/missim_cli-1.6.0.tar.gz tmp/missim_cli-1.7.1.tar.gz --markdown 20240404/m/missim-cli/1.6.0-1.7.1/diff.md --exclude *.pyd
+[2024-04-04 05:10:32] INFO root fetch - processPackages [openapi-lookup]: Remove: archive file [/home/abi/fetcher/tmp/openapi_lookup-0.1.0.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - processPackages [openapi-lookup]: Remove: archive file [/home/abi/fetcher/tmp/openapi_lookup-0.1.1.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - main [MainThread]: End processing [openapi-lookup]: success
+[2024-04-04 05:10:32] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.6.0.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - processPackages [missim-config]: Remove: archive file [/home/abi/fetcher/tmp/missim_config-1.7.1.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - main [MainThread]: End processing [missim-config]: success
+[2024-04-04 05:10:32] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.6.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.7.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - main [MainThread]: End processing [sashimi-domains]: success
+[2024-04-04 05:10:32] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.6.0.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - processPackages [missim-cli]: Remove: archive file [/home/abi/fetcher/tmp/missim_cli-1.7.1.tar.gz]
+[2024-04-04 05:10:32] INFO root fetch - main [MainThread]: End processing [missim-cli]: success
+[2024-04-04 05:10:32] INFO root fetch - main [MainThread]: Store serial: [22615071]
