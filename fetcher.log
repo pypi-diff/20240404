@@ -12871,3 +12871,32 @@
 [2024-04-04 06:57:12] INFO root fetch - processPackages [youte]: Remove: archive file [/home/abi/fetcher/tmp/youte-2.6.0.tar.gz]
 [2024-04-04 06:57:12] INFO root fetch - main [MainThread]: End processing [youte]: success
 [2024-04-04 06:57:12] INFO root fetch - main [MainThread]: Store serial: [22615619]
+[2024-04-04 06:59:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615619]
+[2024-04-04 06:59:21] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 07:01:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615620]
+[2024-04-04 07:01:26] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 07:03:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615620]
+[2024-04-04 07:03:31] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hrin-msb
+[2024-04-04 07:03:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowdapt_sdk
+[2024-04-04 07:03:31] INFO root fetch - processPackages [flowdapt_sdk]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 07:03:31] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.95] Old Version: [0.2.94]
+[2024-04-04 07:03:31] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/59/fb/4866d615baa3af4d937b61c079817199e3b2f02f5a5d07aeb8fd975c8ef5/flowdapt_sdk-0.1.2-py3-none-any.whl
+[2024-04-04 07:03:31] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/70/42/63b7a08b66eaaa4b41dbb8e4d0696943a3671f5e8ad903eb3df0acb9d9c7/hrin_msb-0.2.94.tar.gz
+[2024-04-04 07:03:31] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-04 07:03:32] INFO root fetch - processPackages [flowdapt_sdk]: Downloading https://files.pythonhosted.org/packages/33/e0/f74f2bf831bde91735763b06bff5ec79de279399bae6baa778f4a9c76dee/flowdapt_sdk-0.1.3-py3-none-any.whl
+[2024-04-04 07:03:32] WARNING root fetch - processPackages [hrin-msb]: Timeout reached during download
+[2024-04-04 07:03:32] WARNING root fetch - processPackages [flowdapt_sdk]: Timeout reached during download
+[2024-04-04 07:03:32] INFO root fetch - processPackages [flowdapt_sdk]: executing diffoscope
+[2024-04-04 07:03:32] INFO root fetch - processPackages [flowdapt_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt_sdk-0.1.2-py3-none-any.whl.zip tmp/flowdapt_sdk-0.1.3-py3-none-any.whl.zip --markdown 20240404/f/flowdapt_sdk/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 07:03:32] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/31/b1/dd3777662333170582961127704a2d7dc005071f617e066c586ed61b1068/hrin_msb-0.2.95.tar.gz
+[2024-04-04 07:03:32] WARNING root fetch - processPackages [hrin-msb]: Timeout reached during download
+[2024-04-04 07:03:32] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2024-04-04 07:03:32] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.94.tar.gz tmp/hrin_msb-0.2.95.tar.gz --markdown 20240404/h/hrin-msb/0.2.94-0.2.95/diff.md --exclude *.pyd
+[2024-04-04 07:03:32] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.2-py3-none-any.whl.zip]
+[2024-04-04 07:03:32] INFO root fetch - processPackages [flowdapt_sdk]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt_sdk-0.1.3-py3-none-any.whl.zip]
+[2024-04-04 07:03:32] INFO root fetch - main [MainThread]: End processing [flowdapt_sdk]: success
+[2024-04-04 07:03:33] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.94.tar.gz]
+[2024-04-04 07:03:33] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.95.tar.gz]
+[2024-04-04 07:03:33] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2024-04-04 07:03:33] INFO root fetch - main [MainThread]: Store serial: [22615628]
