@@ -3708,3 +3708,143 @@
 [2024-04-04 02:20:34] INFO root fetch - processPackages [flytekitplugins-papermill]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-papermill-1.9.1.tar.gz]
 [2024-04-04 02:20:34] INFO root fetch - main [MainThread]: End processing [flytekitplugins-papermill]: success
 [2024-04-04 02:20:34] INFO root fetch - main [MainThread]: Store serial: [22612785]
+[2024-04-04 02:22:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612785]
+[2024-04-04 02:22:42] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flytekitplugins-polars
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flytekitplugins-pydantic
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flytekitplugins-ray
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flytekitplugins-snowflake
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flytekitplugins-spark
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flytekitplugins-sqlalchemy
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flytekitplugins-vaex
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flytekitplugins-whylogs
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk-aurora-globaldatabase
+[2024-04-04 02:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-cr-constructs
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-ray]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-pydantic]: New version: [1.9.0a0] Old Version: [1.12.0b4]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.417] Old Version: [2.1.416]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-vaex]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-whylogs]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-polars]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-snowflake]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-spark]: New version: [1.9.1] Old Version: [1.9.0a0]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-pydantic]: Downloading https://files.pythonhosted.org/packages/30/b2/c0fcecced2e7e593f2374848109a0557633ba3047c88ac932556d7c57412/flytekitplugins-pydantic-1.12.0b4.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-polars]: Downloading https://files.pythonhosted.org/packages/4a/01/fd55b96bdc3cda6351459921c0b226503561fd1d94e62f8b97c284796405/flytekitplugins-polars-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-ray]: Downloading https://files.pythonhosted.org/packages/98/af/1473fba57bd48f9be2b7500115bcf550cbc0cd68265a11f1be5e67975554/flytekitplugins-ray-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/46/e3/fa04130b80e8b1f6fe044b3242c4800790b4a26f2fcb32b819a14e747392/cdk-cr-constructs-2.1.416.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-whylogs]: Downloading https://files.pythonhosted.org/packages/fa/20/bb127e16580b1d55dd92d9fdcb18bc9009766e19de4a8dbd7d2daab0e16a/flytekitplugins-whylogs-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 15084356>=10485760
+[2024-04-04 02:22:43] INFO root fetch - processPackages [cdk-cr-constructs]: Start processing: langsmith
+[2024-04-04 02:22:43] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-vaex]: Downloading https://files.pythonhosted.org/packages/76/5f/dd5e249e6d0e4fa909f045fda85d89b0aff34d8f71034d49e185dcb44f15/flytekitplugins-vaex-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-polars]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ab/23/1d880fc827f4a886de0410600c96439930cabc7e2fb76aa3460157019c45/flytekitplugins-sqlalchemy-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-spark]: Downloading https://files.pythonhosted.org/packages/e3/3d/c54089807669c780b88dfe15a39ad88acaf453e95de200c92e59fbefc168/flytekitplugins-spark-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [langsmith]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 02:22:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-whylogs]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-snowflake]: Downloading https://files.pythonhosted.org/packages/b2/e7/19fabf040b1c98e76c06d1cabc834bfcfc8341651cc4ae9caa285d7fff8b/flytekitplugins-snowflake-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-pydantic]: Timeout reached during download
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-ray]: Timeout reached during download
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-vaex]: Timeout reached during download
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-sqlalchemy]: Timeout reached during download
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-spark]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-polars]: Downloading https://files.pythonhosted.org/packages/3e/7b/6aed769e89b5f5918f907795b388aab5f7a38f35f62200e02c4187568209/flytekitplugins-polars-1.9.1.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/3f/01/93a91da2527bbaa6155f9398417eeff6507ddada0f417560a67e20801455/langsmith-0.1.8.tar.gz
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-snowflake]: Timeout reached during download
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [flytekitplugins-polars]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-polars]: executing diffoscope
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-polars-1.9.0a0.tar.gz tmp/flytekitplugins-polars-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-polars/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:43] WARNING root fetch - processPackages [langsmith]: Timeout reached during download
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-whylogs]: Downloading https://files.pythonhosted.org/packages/be/2c/d96c84e890f35a38beac2ae08661e076e7974682ec4326590eab76dd76a7/flytekitplugins-whylogs-1.9.1.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-pydantic]: Downloading https://files.pythonhosted.org/packages/ad/f3/4bfbd6a13db5884156ffbbc5d8b0e9bd6a47b0d956da11aceb40ce1c8736/flytekitplugins-pydantic-1.9.0a0.tar.gz
+[2024-04-04 02:22:43] INFO root fetch - processPackages [flytekitplugins-ray]: Downloading https://files.pythonhosted.org/packages/41/69/df64ca393caf45ae3fdedcd6bf0a8ca74221c62edba59d605ec1a2d0e48d/flytekitplugins-ray-1.9.1.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-vaex]: Downloading https://files.pythonhosted.org/packages/f9/e2/c9eb70be4de3009454f9bfe0087a009189e1432463e101653134975d7f7f/flytekitplugins-vaex-1.9.1.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ca/55/7fa09cf4430339935616e1b1f01e3e66d4a7df33332ba74d08b5ec85c68d/flytekitplugins-sqlalchemy-1.9.1.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-spark]: Downloading https://files.pythonhosted.org/packages/73/14/072bb81d785a04ec8b96eba8a360b1367df4eba5dd08887e88bd49155601/flytekitplugins-spark-1.9.1.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [langsmith]: Downloading https://files.pythonhosted.org/packages/2f/bd/ae357eeb7736dd31ff704bfdb05c856cd78d6ebcb126b850c2bcdb5830ae/langsmith-0.1.9.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-snowflake]: Downloading https://files.pythonhosted.org/packages/57/ff/9e7a885869c69c71a1ba3e45bb76880a9731c5e41fccf987c1ca953f58ee/flytekitplugins-snowflake-1.9.1.tar.gz
+[2024-04-04 02:22:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-pydantic]: Timeout reached during download
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-whylogs]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-whylogs]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-whylogs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-whylogs-1.9.0a0.tar.gz tmp/flytekitplugins-whylogs-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-whylogs/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-pydantic]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-pydantic-1.12.0b4.tar.gz tmp/flytekitplugins-pydantic-1.9.0a0.tar.gz --markdown 20240404/f/flytekitplugins-pydantic/1.12.0b4-1.9.0a0/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-ray]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-ray]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-ray-1.9.0a0.tar.gz tmp/flytekitplugins-ray-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-ray/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-vaex]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-vaex]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-vaex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-vaex-1.9.0a0.tar.gz tmp/flytekitplugins-vaex-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-vaex/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-sqlalchemy]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-sqlalchemy-1.9.0a0.tar.gz tmp/flytekitplugins-sqlalchemy-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-sqlalchemy/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-spark]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-spark]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-spark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-spark-1.9.0a0.tar.gz tmp/flytekitplugins-spark-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-spark/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [flytekitplugins-snowflake]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-snowflake]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-snowflake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flytekitplugins-snowflake-1.9.0a0.tar.gz tmp/flytekitplugins-snowflake-1.9.1.tar.gz --markdown 20240404/f/flytekitplugins-snowflake/1.9.0a0-1.9.1/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [langsmith]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [langsmith]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [langsmith]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langsmith-0.1.8.tar.gz tmp/langsmith-0.1.9.tar.gz --markdown 20240404/l/langsmith/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-04 02:22:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-04 02:22:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240404/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-polars]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-polars-1.9.0a0.tar.gz]
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-polars]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-polars-1.9.1.tar.gz]
+[2024-04-04 02:22:44] INFO root fetch - processPackages [flytekitplugins-polars]: Start processing: streamlit-ldap-authenticator
+[2024-04-04 02:22:44] INFO root fetch - main [MainThread]: End processing [flytekitplugins-polars]: success
+[2024-04-04 02:22:44] INFO root fetch - processPackages [streamlit-ldap-authenticator]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-vaex]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-vaex-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-vaex]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-vaex-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-vaex]: Start processing: cdk-tweet-queue
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-vaex]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-whylogs]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-whylogs-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-whylogs]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-whylogs-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-whylogs]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Downloading https://files.pythonhosted.org/packages/7b/3d/d394005a6d22773b36b7a697c4e98d8df1a2b42201b81de40b325e07ad55/streamlit-ldap-authenticator-0.2.2.tar.gz
+[2024-04-04 02:22:45] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pydantic-1.12.0b4.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-pydantic-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-pydantic]: success
+[2024-04-04 02:22:45] WARNING root fetch - processPackages [streamlit-ldap-authenticator]: Timeout reached during download
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-sqlalchemy-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-sqlalchemy-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-sqlalchemy]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-ray]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-ray-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-ray]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-ray-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-ray]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-spark]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-spark-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-spark]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-spark-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-spark]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Downloading https://files.pythonhosted.org/packages/5a/9f/5b281f957f1f17b4e18a818656c8906bcf3e41eb17e57705adebce6bd47c/streamlit-ldap-authenticator-0.2.3.tar.gz
+[2024-04-04 02:22:45] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.8.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [langsmith]: Remove: archive file [/home/abi/fetcher/tmp/langsmith-0.1.9.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [langsmith]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-snowflake-1.9.0a0.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [flytekitplugins-snowflake]: Remove: archive file [/home/abi/fetcher/tmp/flytekitplugins-snowflake-1.9.1.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - main [MainThread]: End processing [flytekitplugins-snowflake]: success
+[2024-04-04 02:22:45] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-04 02:22:45] WARNING root fetch - processPackages [streamlit-ldap-authenticator]: Timeout reached during download
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: executing diffoscope
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-ldap-authenticator-0.2.2.tar.gz tmp/streamlit-ldap-authenticator-0.2.3.tar.gz --markdown 20240404/s/streamlit-ldap-authenticator/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 02:22:45] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-04 02:22:45] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-ldap-authenticator-0.2.2.tar.gz]
+[2024-04-04 02:22:45] INFO root fetch - processPackages [streamlit-ldap-authenticator]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-ldap-authenticator-0.2.3.tar.gz]
+[2024-04-04 02:22:46] INFO root fetch - main [MainThread]: End processing [streamlit-ldap-authenticator]: success
+[2024-04-04 02:22:46] WARNING root fetch - processPackages [cdk-tweet-queue]: Timeout reached during download
+[2024-04-04 02:22:46] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-04 02:22:46] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240404/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:22:46] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-04 02:22:46] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-04 02:22:46] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-04 02:22:46] INFO root fetch - main [MainThread]: Store serial: [22612855]
