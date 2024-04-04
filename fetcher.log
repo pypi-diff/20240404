@@ -18172,3 +18172,47 @@
 [2024-04-04 10:47:10] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.5.5a117434-py2.py3-none-any.whl.zip]
 [2024-04-04 10:47:10] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2024-04-04 10:47:10] INFO root fetch - main [MainThread]: Store serial: [22617355]
+[2024-04-04 10:49:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617355]
+[2024-04-04 10:49:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 10:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: beg-cli
+[2024-04-04 10:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jinjamator
+[2024-04-04 10:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mngs
+[2024-04-04 10:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tablite
+[2024-04-04 10:49:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly-cpu
+[2024-04-04 10:49:19] INFO root fetch - processPackages [mngs]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-04 10:49:19] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240404] Old Version: [2.17.0.dev20240403]
+[2024-04-04 10:49:19] WARNING root fetch - processPackages [beg-cli]: Skipping, unable to determine old version
+[2024-04-04 10:49:19] INFO root fetch - main [MainThread]: End processing [beg-cli] error
+[2024-04-04 10:49:19] INFO root fetch - processPackages [jinjamator]: New version: [0.9.99] Old Version: [0.9.98.1]
+[2024-04-04 10:49:19] INFO root fetch - processPackages [tablite]: New version: [2023.9.8] Old Version: [2023.9.7]
+[2024-04-04 10:49:19] INFO root fetch - processPackages [mngs]: Downloading https://files.pythonhosted.org/packages/e1/29/ad4e65a93a5e566a373ed7430b6b392208de89d59c4c0efa799b67c779e4/mngs-1.1.1.tar.gz
+[2024-04-04 10:49:19] INFO root fetch - processPackages [jinjamator]: Downloading https://files.pythonhosted.org/packages/9a/bc/ddc0330ae074b016205f78854cbbeb0732de43c0cc09be04bc09a6165708/jinjamator-0.9.98.1-py3-none-any.whl
+[2024-04-04 10:49:19] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/69/1a/7380abcd1131d63fbfc3f716566dd75131728fab496d42a2a313fe6ba840/tablite-2023.9.7-py3-none-any.whl
+[2024-04-04 10:49:19] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fa/95/3bc46cbcbf8ff0b524a16d4c621c84f39fcfef9d2699dbe11c03ddaafd00/tf_nightly_cpu-2.17.0.dev20240403-cp39-cp39-win_amd64.whl
+[2024-04-04 10:49:19] WARNING root fetch - processPackages [mngs]: Timeout reached during download
+[2024-04-04 10:49:19] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-04 10:49:19] WARNING root fetch - processPackages [jinjamator]: Skipping package: exceeds size limit 10813923>=10485760
+[2024-04-04 10:49:19] INFO root fetch - main [MainThread]: End processing [jinjamator] error
+[2024-04-04 10:49:19] INFO root fetch - processPackages [mngs]: Downloading https://files.pythonhosted.org/packages/1a/e1/fc4c1eb6792b990788052b27fea43b440f003ba8a9a613cb9a838540a6c0/mngs-1.2.0.tar.gz
+[2024-04-04 10:49:19] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/59/84/943dce5f7e1fd4ac9653a4ec6655519f2d1e52a2e9d5c27dae4b97d52759/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl
+[2024-04-04 10:49:19] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-04 10:49:20] WARNING root fetch - processPackages [mngs]: Timeout reached during download
+[2024-04-04 10:49:20] INFO root fetch - processPackages [mngs]: executing diffoscope
+[2024-04-04 10:49:20] INFO root fetch - processPackages [mngs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mngs-1.1.1.tar.gz tmp/mngs-1.2.0.tar.gz --markdown 20240404/m/mngs/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-04 10:49:20] WARNING root fetch - processPackages [tf-nightly-cpu]: Timeout reached during download
+[2024-04-04 10:49:20] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-04 10:49:20] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240403-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip --markdown 20240404/t/tf-nightly-cpu/2.17.0.dev20240403-2.17.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 10:49:20] INFO root fetch - processPackages [tablite]: Downloading https://files.pythonhosted.org/packages/b8/4a/752f66fecda7a2172d5056375800c9d050a5bc79c8c17e507a15a09c09ed/tablite-2023.9.8-py3-none-any.whl
+[2024-04-04 10:49:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240403-cp39-cp39-win_amd64.whl.zip]
+[2024-04-04 10:49:20] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip]
+[2024-04-04 10:49:20] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-04 10:49:20] INFO root fetch - processPackages [mngs]: Remove: archive file [/home/abi/fetcher/tmp/mngs-1.1.1.tar.gz]
+[2024-04-04 10:49:20] INFO root fetch - processPackages [mngs]: Remove: archive file [/home/abi/fetcher/tmp/mngs-1.2.0.tar.gz]
+[2024-04-04 10:49:20] INFO root fetch - main [MainThread]: End processing [mngs]: success
+[2024-04-04 10:49:21] WARNING root fetch - processPackages [tablite]: Timeout reached during download
+[2024-04-04 10:49:21] INFO root fetch - processPackages [tablite]: executing diffoscope
+[2024-04-04 10:49:21] INFO root fetch - processPackages [tablite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablite-2023.9.7-py3-none-any.whl.zip tmp/tablite-2023.9.8-py3-none-any.whl.zip --markdown 20240404/t/tablite/2023.9.7-2023.9.8/diff.md --exclude *.pyd
+[2024-04-04 10:49:21] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.7-py3-none-any.whl.zip]
+[2024-04-04 10:49:21] INFO root fetch - processPackages [tablite]: Remove: archive file [/home/abi/fetcher/tmp/tablite-2023.9.8-py3-none-any.whl.zip]
+[2024-04-04 10:49:21] INFO root fetch - main [MainThread]: End processing [tablite]: success
+[2024-04-04 10:49:21] INFO root fetch - main [MainThread]: Store serial: [22617372]
