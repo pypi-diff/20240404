@@ -12672,3 +12672,42 @@
 [2024-04-04 06:48:30] INFO root fetch - processPackages [invideoquiz-xblock]: Remove: archive file [/home/abi/fetcher/tmp/invideoquiz-xblock-1.6.0.tar.gz]
 [2024-04-04 06:48:30] INFO root fetch - main [MainThread]: End processing [invideoquiz-xblock]: success
 [2024-04-04 06:48:30] INFO root fetch - main [MainThread]: Store serial: [22615567]
+[2024-04-04 06:50:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615567]
+[2024-04-04 06:50:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 06:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-rust-regex
+[2024-04-04 06:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: osscs
+[2024-04-04 06:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-mgmtsystem-nonconformity-repair
+[2024-04-04 06:50:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: quickstart-vdk
+[2024-04-04 06:50:39] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2024-04-04 06:50:39] INFO root fetch - processPackages [osscs]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [py-rust-regex]: Skipping, unable to determine old version
+[2024-04-04 06:50:39] INFO root fetch - main [MainThread]: End processing [py-rust-regex] error
+[2024-04-04 06:50:39] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-04 06:50:39] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Downloading https://files.pythonhosted.org/packages/2c/17/acad6b10e32a2863767a787a2c8430137c28b2e8366c24b852071675d4bc/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-04 06:50:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-04 06:50:39] INFO root fetch - processPackages [osscs]: Downloading https://files.pythonhosted.org/packages/21/8e/1560e543be61218c623d5a55b492efa51cc5c6eec4e302df5c562ab708c0/osscs-0.0.7.tar.gz
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Timeout reached during download
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [osscs]: Timeout reached during download
+[2024-04-04 06:50:39] INFO root fetch - processPackages [osscs]: Downloading https://files.pythonhosted.org/packages/74/39/ee208c63c286508ce0abdb83655e84ea4d009b3b53bb37af85b262c742a8/osscs-0.0.8.tar.gz
+[2024-04-04 06:50:39] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Downloading https://files.pythonhosted.org/packages/7a/c6/7a6c749f180d5600ff4cc11e042ba0da5e1a1a3ba789d8952b98b5f7ce5f/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [osscs]: Timeout reached during download
+[2024-04-04 06:50:39] INFO root fetch - processPackages [osscs]: executing diffoscope
+[2024-04-04 06:50:39] INFO root fetch - processPackages [osscs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osscs-0.0.7.tar.gz tmp/osscs-0.0.8.tar.gz --markdown 20240404/o/osscs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 06:50:39] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Timeout reached during download
+[2024-04-04 06:50:39] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: executing diffoscope
+[2024-04-04 06:50:39] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-mgmtsystem-nonconformity-repair/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2024-04-04 06:50:39] WARNING root fetch - processPackages [quickstart-vdk]: Timeout reached during download
+[2024-04-04 06:50:39] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-04 06:50:39] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240404/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-04 06:50:40] INFO root fetch - processPackages [osscs]: Remove: archive file [/home/abi/fetcher/tmp/osscs-0.0.7.tar.gz]
+[2024-04-04 06:50:40] INFO root fetch - processPackages [osscs]: Remove: archive file [/home/abi/fetcher/tmp/osscs-0.0.8.tar.gz]
+[2024-04-04 06:50:40] INFO root fetch - main [MainThread]: End processing [osscs]: success
+[2024-04-04 06:50:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-04 06:50:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-04 06:50:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-04 06:50:40] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-04 06:50:40] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity_repair-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 06:50:40] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity-repair]: success
+[2024-04-04 06:50:40] INFO root fetch - main [MainThread]: Store serial: [22615579]
