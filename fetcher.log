@@ -4291,3 +4291,28 @@
 [2024-04-04 02:44:38] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds_nightly-4.9.4.dev202404030044-py3-none-any.whl.zip]
 [2024-04-04 02:44:38] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-04 02:44:38] INFO root fetch - main [MainThread]: Store serial: [22613011]
+[2024-04-04 02:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613011]
+[2024-04-04 02:46:46] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 02:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sfkit
+[2024-04-04 02:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TokenProbs
+[2024-04-04 02:46:46] INFO root fetch - processPackages [TokenProbs]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 02:46:46] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-04 02:46:46] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/ca/59/f970232d2b8227042b30f56bd2bad96cab986f0139193f9363b770c328b9/TokenProbs-0.0.6.tar.gz
+[2024-04-04 02:46:46] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/69/8b/9a1f5060e155248ea5b8d75d6b7f8e1c798bf9c3a22c9f96083fb0ebca9e/sfkit-0.0.98-py3-none-any.whl
+[2024-04-04 02:46:47] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 02:46:47] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/e6/ae/04c3817f4a52de26adf6d6fbcb7c4ab4b19b18d8ee1890c2d2a539886072/TokenProbs-0.0.7.tar.gz
+[2024-04-04 02:46:47] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 02:46:47] INFO root fetch - processPackages [TokenProbs]: executing diffoscope
+[2024-04-04 02:46:47] INFO root fetch - processPackages [TokenProbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TokenProbs-0.0.6.tar.gz tmp/TokenProbs-0.0.7.tar.gz --markdown 20240404/T/TokenProbs/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 02:46:47] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.6.tar.gz]
+[2024-04-04 02:46:47] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.7.tar.gz]
+[2024-04-04 02:46:47] INFO root fetch - main [MainThread]: End processing [TokenProbs]: success
+[2024-04-04 02:46:48] WARNING root fetch - processPackages [sfkit]: Timeout reached during download
+[2024-04-04 02:46:48] INFO root fetch - processPackages [sfkit]: Downloading https://files.pythonhosted.org/packages/ec/6a/31917f962eb713dee0e13323371f569ef0aa4a601303df27a62825d946cf/sfkit-0.0.99-py3-none-any.whl
+[2024-04-04 02:46:48] WARNING root fetch - processPackages [sfkit]: Timeout reached during download
+[2024-04-04 02:46:48] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2024-04-04 02:46:48] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20240404/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:46:49] INFO root fetch - processPackages [sfkit]: Remove: archive file [/home/abi/fetcher/tmp/sfkit-0.0.98-py3-none-any.whl.zip]
+[2024-04-04 02:46:49] INFO root fetch - processPackages [sfkit]: Remove: archive file [/home/abi/fetcher/tmp/sfkit-0.0.99-py3-none-any.whl.zip]
+[2024-04-04 02:46:49] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2024-04-04 02:46:49] INFO root fetch - main [MainThread]: Store serial: [22613017]
