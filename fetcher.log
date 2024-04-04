@@ -10441,3 +10441,17 @@
 [2024-04-04 04:32:31] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
 [2024-04-04 04:32:31] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
 [2024-04-04 04:32:31] INFO root fetch - main [MainThread]: Store serial: [22614861]
+[2024-04-04 04:34:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614861]
+[2024-04-04 04:34:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 04:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lbt-dragonfly
+[2024-04-04 04:34:40] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-04 04:34:40] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2024-04-04 04:34:40] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2024-04-04 04:34:41] WARNING root fetch - processPackages [lbt-dragonfly]: Timeout reached during download
+[2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20240404/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2024-04-04 04:34:41] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2024-04-04 04:34:41] INFO root fetch - main [MainThread]: Store serial: [22614864]
