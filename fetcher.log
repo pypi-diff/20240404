@@ -11479,3 +11479,47 @@
 [2024-04-04 05:45:16] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.97.tar.gz]
 [2024-04-04 05:45:16] INFO root fetch - main [MainThread]: End processing [pre5g]: success
 [2024-04-04 05:45:16] INFO root fetch - main [MainThread]: Store serial: [22615206]
+[2024-04-04 05:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615206]
+[2024-04-04 05:47:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 05:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scikit-image
+[2024-04-04 05:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-fieldservice-vehicle-stock-request
+[2024-04-04 05:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mo-dots
+[2024-04-04 05:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-fieldservice-repair
+[2024-04-04 05:47:25] INFO root fetch - processPackages [mo-dots]: New version: [9.578.24081] Old Version: [9.574.24078]
+[2024-04-04 05:47:25] INFO root fetch - processPackages [scikit-image]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-04 05:47:25] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: New version: [12.0.2.0.0.99.dev9] Old Version: [12.0.2.0.0.99.dev8]
+[2024-04-04 05:47:25] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: New version: [12.0.2.0.0.99.dev6] Old Version: [12.0.2.0.0.99.dev5]
+[2024-04-04 05:47:25] WARNING root fetch - processPackages [scikit-image]: fallback to get urls: [0.9.2]
+[2024-04-04 05:47:25] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/8b/6f/e899f06d1b9e26c023a7748c95c6e14bee65d8aa5b375e521e19d2a35ca4/mo-dots-9.574.24078.tar.gz
+[2024-04-04 05:47:25] WARNING root fetch - processPackages [scikit-image]: None
+[2024-04-04 05:47:25] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/8c/5b/95a0ccf49561a938683d10e7ba00c76ec5cc1fd4d5f2a4a41c9768925d81/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev5-py3-none-any.whl
+[2024-04-04 05:47:25] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Downloading https://files.pythonhosted.org/packages/d4/26/d7155b41d789d257c17bd0362a44529ce0dbdff4c171a83a5e0a1c77188f/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev8-py3-none-any.whl
+[2024-04-04 05:47:25] WARNING root fetch - processPackages [scikit-image]: None
+[2024-04-04 05:47:25] WARNING root fetch - processPackages [mo-dots]: Timeout reached during download
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [scikit-image]: unable to get url for both version [0.9.2]
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Timeout reached during download
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [odoo12-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [scikit-image]: None
+[2024-04-04 05:47:26] INFO root fetch - main [MainThread]: End processing [scikit-image] error
+[2024-04-04 05:47:26] INFO root fetch - processPackages [mo-dots]: Downloading https://files.pythonhosted.org/packages/b8/00/4f8900dde498ddad309bbec0ca36a3f98145a2d75418db5daf25afef4ee0/mo-dots-9.578.24081.tar.gz
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [mo-dots]: Timeout reached during download
+[2024-04-04 05:47:26] INFO root fetch - processPackages [mo-dots]: executing diffoscope
+[2024-04-04 05:47:26] INFO root fetch - processPackages [mo-dots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-dots-9.574.24078.tar.gz tmp/mo-dots-9.578.24081.tar.gz --markdown 20240404/m/mo-dots/9.574.24078-9.578.24081/diff.md --exclude *.pyd
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/7b/08/005da89f09577201db9cb303c9b6a37ab00bf36596e6065d96f8bbd135c3/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev6-py3-none-any.whl
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Downloading https://files.pythonhosted.org/packages/7c/04/19dbf870ce33d02ce3d3ebe185c3839ed7a73baca715f165c3e7bef7a462/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev9-py3-none-any.whl
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Timeout reached during download
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: executing diffoscope
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo12-addon-fieldservice-vehicle-stock-request/12.0.2.0.0.99.dev8-12.0.2.0.0.99.dev9/diff.md --exclude *.pyd
+[2024-04-04 05:47:26] WARNING root fetch - processPackages [odoo12-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: executing diffoscope
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev6-py3-none-any.whl.zip --markdown 20240404/o/odoo12-addon-fieldservice-repair/12.0.2.0.0.99.dev5-12.0.2.0.0.99.dev6/diff.md --exclude *.pyd
+[2024-04-04 05:47:26] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo-dots-9.574.24078.tar.gz]
+[2024-04-04 05:47:26] INFO root fetch - processPackages [mo-dots]: Remove: archive file [/home/abi/fetcher/tmp/mo-dots-9.578.24081.tar.gz]
+[2024-04-04 05:47:26] INFO root fetch - main [MainThread]: End processing [mo-dots]: success
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev8-py3-none-any.whl.zip]
+[2024-04-04 05:47:26] INFO root fetch - processPackages [odoo12-addon-fieldservice-vehicle-stock-request]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_vehicle_stock_request-12.0.2.0.0.99.dev9-py3-none-any.whl.zip]
+[2024-04-04 05:47:26] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-vehicle-stock-request]: success
+[2024-04-04 05:47:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev5-py3-none-any.whl.zip]
+[2024-04-04 05:47:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev6-py3-none-any.whl.zip]
+[2024-04-04 05:47:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-repair]: success
+[2024-04-04 05:47:27] INFO root fetch - main [MainThread]: Store serial: [22615232]
