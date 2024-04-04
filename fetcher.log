@@ -4528,3 +4528,31 @@
 [2024-04-04 02:58:26] INFO root fetch - processPackages [fast-agave]: Remove: archive file [/home/abi/fetcher/tmp/fast_agave-0.9.0.dev1.tar.gz]
 [2024-04-04 02:58:26] INFO root fetch - main [MainThread]: End processing [fast-agave]: success
 [2024-04-04 02:58:26] INFO root fetch - main [MainThread]: Store serial: [22613111]
+[2024-04-04 03:00:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613111]
+[2024-04-04 03:00:35] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 03:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TokenProbs
+[2024-04-04 03:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: systembridgemodels
+[2024-04-04 03:00:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2024-04-04 03:00:35] WARNING root fetch - processPackages [TokenProbs]: Skipping, unable to determine old version
+[2024-04-04 03:00:35] INFO root fetch - main [MainThread]: End processing [TokenProbs] error
+[2024-04-04 03:00:35] INFO root fetch - processPackages [systembridgemodels]: New version: [4.1.0] Old Version: [4.0.4.dev0]
+[2024-04-04 03:00:35] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-04 03:00:35] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-04 03:00:35] INFO root fetch - processPackages [systembridgemodels]: Downloading https://files.pythonhosted.org/packages/07/25/1b94b0b14e716a2b1e21a85c84f7e8f7cf1c08c657bbb5a6c6b8aa6054c3/systembridgemodels-4.0.4.dev0.tar.gz
+[2024-04-04 03:00:35] WARNING root fetch - processPackages [chalkpy]: Timeout reached during download
+[2024-04-04 03:00:35] WARNING root fetch - processPackages [systembridgemodels]: Timeout reached during download
+[2024-04-04 03:00:35] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-04 03:00:35] INFO root fetch - processPackages [systembridgemodels]: Downloading https://files.pythonhosted.org/packages/ae/4a/731090a7f675c4d484c05b903cc21924902ac79501305d46c83647b10fb8/systembridgemodels-4.1.0.tar.gz
+[2024-04-04 03:00:35] WARNING root fetch - processPackages [chalkpy]: Timeout reached during download
+[2024-04-04 03:00:35] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-04 03:00:35] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240404/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-04 03:00:36] WARNING root fetch - processPackages [systembridgemodels]: Timeout reached during download
+[2024-04-04 03:00:36] INFO root fetch - processPackages [systembridgemodels]: executing diffoscope
+[2024-04-04 03:00:36] INFO root fetch - processPackages [systembridgemodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgemodels-4.0.4.dev0.tar.gz tmp/systembridgemodels-4.1.0.tar.gz --markdown 20240404/s/systembridgemodels/4.0.4.dev0-4.1.0/diff.md --exclude *.pyd
+[2024-04-04 03:00:36] INFO root fetch - processPackages [systembridgemodels]: Remove: archive file [/home/abi/fetcher/tmp/systembridgemodels-4.0.4.dev0.tar.gz]
+[2024-04-04 03:00:36] INFO root fetch - processPackages [systembridgemodels]: Remove: archive file [/home/abi/fetcher/tmp/systembridgemodels-4.1.0.tar.gz]
+[2024-04-04 03:00:36] INFO root fetch - main [MainThread]: End processing [systembridgemodels]: success
+[2024-04-04 03:00:38] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-04 03:00:38] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-04 03:00:38] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-04 03:00:38] INFO root fetch - main [MainThread]: Store serial: [22613127]
