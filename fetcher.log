@@ -9342,3 +9342,20 @@
 [2024-04-04 03:26:20] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
 [2024-04-04 03:26:20] INFO root fetch - main [MainThread]: End processing [onediff]: success
 [2024-04-04 03:26:20] INFO root fetch - main [MainThread]: Store serial: [22614287]
+[2024-04-04 03:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614287]
+[2024-04-04 03:28:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 03:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zonevu
+[2024-04-04 03:28:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trufflepig-py
+[2024-04-04 03:28:30] INFO root fetch - processPackages [zonevu]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-04 03:28:30] WARNING root fetch - processPackages [trufflepig-py]: Skipping, unable to determine old version
+[2024-04-04 03:28:30] INFO root fetch - main [MainThread]: End processing [trufflepig-py] error
+[2024-04-04 03:28:30] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/dd/78/f8c7f8a8b8fbbeae171f1d2d4483c540feff9344ab4d5f00f2493ea748b0/zonevu-1.1.8-py3-none-any.whl
+[2024-04-04 03:28:31] WARNING root fetch - processPackages [zonevu]: Timeout reached during download
+[2024-04-04 03:28:31] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/3f/95/cbef00c16a0168426c567b557087898b259fe5b0127d3c5a135490c8f18e/zonevu-1.1.9-py3-none-any.whl
+[2024-04-04 03:28:31] WARNING root fetch - processPackages [zonevu]: Timeout reached during download
+[2024-04-04 03:28:31] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-04 03:28:31] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.8-py3-none-any.whl.zip tmp/zonevu-1.1.9-py3-none-any.whl.zip --markdown 20240404/z/zonevu/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-04 03:28:34] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.8-py3-none-any.whl.zip]
+[2024-04-04 03:28:34] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.9-py3-none-any.whl.zip]
+[2024-04-04 03:28:34] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-04 03:28:34] INFO root fetch - main [MainThread]: Store serial: [22614353]
