@@ -12821,3 +12821,53 @@
 [2024-04-04 06:55:01] INFO root fetch - processPackages [odoo14-addon-repair-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_repair_type-14.0.1.0.3.dev8-py3-none-any.whl.zip]
 [2024-04-04 06:55:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-repair-type]: success
 [2024-04-04 06:55:01] INFO root fetch - main [MainThread]: Store serial: [22615602]
+[2024-04-04 06:57:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615602]
+[2024-04-04 06:57:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 06:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-rust-regex
+[2024-04-04 06:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anydata
+[2024-04-04 06:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DreamBrookPy
+[2024-04-04 06:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: youte
+[2024-04-04 06:57:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flowdapt
+[2024-04-04 06:57:10] INFO root fetch - processPackages [flowdapt]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 06:57:10] WARNING root fetch - processPackages [py-rust-regex]: Skipping, unable to determine old version
+[2024-04-04 06:57:10] INFO root fetch - main [MainThread]: End processing [py-rust-regex] error
+[2024-04-04 06:57:10] INFO root fetch - processPackages [anydata]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-04 06:57:10] INFO root fetch - processPackages [DreamBrookPy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 06:57:10] INFO root fetch - processPackages [youte]: New version: [2.6.0] Old Version: [2.5.0]
+[2024-04-04 06:57:10] INFO root fetch - processPackages [anydata]: Downloading https://files.pythonhosted.org/packages/32/9f/a50628ec7090aa4fff6f261be157a600e369d2926eb4ead58b2024ac4351/anydata-0.0.1.tar.gz
+[2024-04-04 06:57:10] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/3c/4e/b066e16bd17697e64038a93c7dc73fb15ca681a0074c9861332bc0a93c30/flowdapt-0.1.6-py3-none-any.whl
+[2024-04-04 06:57:10] INFO root fetch - processPackages [DreamBrookPy]: Downloading https://files.pythonhosted.org/packages/61/0f/97e15325f9284e57c3f300b653aa4f1f2f1ac9dbe3ad756e726a11dcd0f1/DreamBrookPy-0.0.1.tar.gz
+[2024-04-04 06:57:10] WARNING root fetch - processPackages [anydata]: Timeout reached during download
+[2024-04-04 06:57:10] INFO root fetch - processPackages [youte]: Downloading https://files.pythonhosted.org/packages/fc/5f/93ba76624ad74847f49006a4c476a3f5baca16ad4a2e5666bd7b96479548/youte-2.5.0.tar.gz
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [flowdapt]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [anydata]: Downloading https://files.pythonhosted.org/packages/eb/ec/4f12c03c81d3aebaab7fe984d61925d1050f8be6b928ce18f9276441a1f8/anydata-0.1.0.tar.gz
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [DreamBrookPy]: Timeout reached during download
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [youte]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [DreamBrookPy]: Downloading https://files.pythonhosted.org/packages/66/55/a67203da32218b564d155ef98a78d3815c2967d5bf20634320a8367407ae/DreamBrookPy-0.0.2.tar.gz
+[2024-04-04 06:57:11] INFO root fetch - processPackages [flowdapt]: Downloading https://files.pythonhosted.org/packages/0d/f2/6d57cea64a45b8519a1118dff4226e29144c63e1b12767f12417fa2ffa2a/flowdapt-0.1.7-py3-none-any.whl
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [anydata]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [anydata]: executing diffoscope
+[2024-04-04 06:57:11] INFO root fetch - processPackages [anydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anydata-0.0.1.tar.gz tmp/anydata-0.1.0.tar.gz --markdown 20240404/a/anydata/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 06:57:11] INFO root fetch - processPackages [youte]: Downloading https://files.pythonhosted.org/packages/93/c8/0f6d0de4229489704008253da92d633d91a59392108a96de6f79ca923f83/youte-2.6.0.tar.gz
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [DreamBrookPy]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [DreamBrookPy]: executing diffoscope
+[2024-04-04 06:57:11] INFO root fetch - processPackages [DreamBrookPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DreamBrookPy-0.0.1.tar.gz tmp/DreamBrookPy-0.0.2.tar.gz --markdown 20240404/D/DreamBrookPy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [flowdapt]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [flowdapt]: executing diffoscope
+[2024-04-04 06:57:11] INFO root fetch - processPackages [flowdapt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowdapt-0.1.6-py3-none-any.whl.zip tmp/flowdapt-0.1.7-py3-none-any.whl.zip --markdown 20240404/f/flowdapt/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 06:57:11] WARNING root fetch - processPackages [youte]: Timeout reached during download
+[2024-04-04 06:57:11] INFO root fetch - processPackages [youte]: executing diffoscope
+[2024-04-04 06:57:11] INFO root fetch - processPackages [youte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/youte-2.5.0.tar.gz tmp/youte-2.6.0.tar.gz --markdown 20240404/y/youte/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2024-04-04 06:57:12] INFO root fetch - processPackages [anydata]: Remove: archive file [/home/abi/fetcher/tmp/anydata-0.0.1.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - processPackages [anydata]: Remove: archive file [/home/abi/fetcher/tmp/anydata-0.1.0.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - main [MainThread]: End processing [anydata]: success
+[2024-04-04 06:57:12] INFO root fetch - processPackages [DreamBrookPy]: Remove: archive file [/home/abi/fetcher/tmp/DreamBrookPy-0.0.1.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - processPackages [DreamBrookPy]: Remove: archive file [/home/abi/fetcher/tmp/DreamBrookPy-0.0.2.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - main [MainThread]: End processing [DreamBrookPy]: success
+[2024-04-04 06:57:12] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.6-py3-none-any.whl.zip]
+[2024-04-04 06:57:12] INFO root fetch - processPackages [flowdapt]: Remove: archive file [/home/abi/fetcher/tmp/flowdapt-0.1.7-py3-none-any.whl.zip]
+[2024-04-04 06:57:12] INFO root fetch - main [MainThread]: End processing [flowdapt]: success
+[2024-04-04 06:57:12] INFO root fetch - processPackages [youte]: Remove: archive file [/home/abi/fetcher/tmp/youte-2.5.0.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - processPackages [youte]: Remove: archive file [/home/abi/fetcher/tmp/youte-2.6.0.tar.gz]
+[2024-04-04 06:57:12] INFO root fetch - main [MainThread]: End processing [youte]: success
+[2024-04-04 06:57:12] INFO root fetch - main [MainThread]: Store serial: [22615619]
