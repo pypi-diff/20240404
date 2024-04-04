@@ -3980,3 +3980,56 @@
 [2024-04-04 02:27:13] INFO root fetch - processPackages [pytplot-mpl-temp]: Remove: archive file [/home/abi/fetcher/tmp/pytplot-mpl-temp-2.2.9.tar.gz]
 [2024-04-04 02:27:13] INFO root fetch - main [MainThread]: End processing [pytplot-mpl-temp]: success
 [2024-04-04 02:27:13] INFO root fetch - main [MainThread]: Store serial: [22612892]
+[2024-04-04 02:29:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612892]
+[2024-04-04 02:29:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mamba-former
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bifipy
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-gitlab-runner
+[2024-04-04 02:29:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-aurora-globaldatabase
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [bifipy]: Skipping, unable to determine old version
+[2024-04-04 02:29:22] INFO root fetch - main [MainThread]: End processing [bifipy] error
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [mamba-former]: Skipping, unable to determine old version
+[2024-04-04 02:29:22] INFO root fetch - main [MainThread]: End processing [mamba-former] error
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.96] Old Version: [2.4.95]
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.2.99] Old Version: [2.2.98]
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/5a/43/6a3087075fd8e2955514c214dd40f8015ff468cb9344a44e9ccc7e1d88be/cdk-certbot-dns-route53-2.4.95.tar.gz
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/07/29/9f2cc8590770873b6073743e94ff15a2a7913eb0de3e6a4d2fc133008f62/cdk-gitlab-runner-2.2.98.tar.gz
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/b5/0c/5e660fa0008a937989f3a92d3b186ea23efb5ba18178d035adcfec4f6148/cdk-certbot-dns-route53-2.4.96.tar.gz
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-ecs-service-extensions]: Timeout reached during download
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/16/61/e9f00b4e877a6352bd641de360f7577c27548fbcedc3aab19b1cf3852b9a/cdk-gitlab-runner-2.2.99.tar.gz
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-certbot-dns-route53]: Timeout reached during download
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.95.tar.gz tmp/cdk-certbot-dns-route53-2.4.96.tar.gz --markdown 20240404/c/cdk-certbot-dns-route53/2.4.95-2.4.96/diff.md --exclude *.pyd
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-aurora-globaldatabase]: Timeout reached during download
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240404/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-04 02:29:22] WARNING root fetch - processPackages [cdk-gitlab-runner]: Timeout reached during download
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2024-04-04 02:29:22] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.2.98.tar.gz tmp/cdk-gitlab-runner-2.2.99.tar.gz --markdown 20240404/c/cdk-gitlab-runner/2.2.98-2.2.99/diff.md --exclude *.pyd
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-04 02:29:23] WARNING root fetch - processPackages [cdk-ecs-service-extensions]: Timeout reached during download
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240404/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.98.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.2.99.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-04 02:29:23] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-04 02:29:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.95.tar.gz]
+[2024-04-04 02:29:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.96.tar.gz]
+[2024-04-04 02:29:24] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-04 02:29:24] INFO root fetch - main [MainThread]: Store serial: [22612914]
