@@ -14973,3 +14973,20 @@
 [2024-04-04 08:40:54] INFO root fetch - processPackages [hass-nabucasa]: Remove: archive file [/home/abi/fetcher/tmp/hass-nabucasa-0.9.tar.gz]
 [2024-04-04 08:40:54] INFO root fetch - main [MainThread]: End processing [hass-nabucasa]: success
 [2024-04-04 08:40:54] INFO root fetch - main [MainThread]: Store serial: [22616313]
+[2024-04-04 08:42:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616313]
+[2024-04-04 08:43:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 08:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2024-04-04 08:43:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ziyy
+[2024-04-04 08:43:03] INFO root fetch - processPackages [langflow]: New version: [1.0.0a6] Old Version: [1.0.0a5]
+[2024-04-04 08:43:03] WARNING root fetch - processPackages [ziyy]: Skipping, unable to determine old version
+[2024-04-04 08:43:03] INFO root fetch - main [MainThread]: End processing [ziyy] error
+[2024-04-04 08:43:04] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/a9/1d/6731b04b5d995df7b55c8bdcfe73324453375901aa0a4fb43c4ae84a99d2/langflow-1.0.0a5.tar.gz
+[2024-04-04 08:43:04] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-04 08:43:04] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/2f/ce/c5850f073deb055b14b83f164ec91dbf0a93a6e325c3985fd5aa99a899d2/langflow-1.0.0a6.tar.gz
+[2024-04-04 08:43:05] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-04 08:43:05] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-04 08:43:05] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a5.tar.gz tmp/langflow-1.0.0a6.tar.gz --markdown 20240404/l/langflow/1.0.0a5-1.0.0a6/diff.md --exclude *.pyd
+[2024-04-04 08:43:05] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a5.tar.gz]
+[2024-04-04 08:43:05] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a6.tar.gz]
+[2024-04-04 08:43:05] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-04 08:43:05] INFO root fetch - main [MainThread]: Store serial: [22616321]
