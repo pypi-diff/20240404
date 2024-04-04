@@ -23304,3 +23304,53 @@
 [2024-04-04 13:47:02] WARNING root fetch - processPackages [python-rust-json-patch]: Skipping, unable to determine old version
 [2024-04-04 13:47:02] INFO root fetch - main [MainThread]: End processing [python-rust-json-patch] error
 [2024-04-04 13:47:02] INFO root fetch - main [MainThread]: Store serial: [22619281]
+[2024-04-04 13:49:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619281]
+[2024-04-04 13:49:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-04-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vagd
+[2024-04-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fondant
+[2024-04-04 13:49:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplellm
+[2024-04-04 13:49:11] INFO root fetch - processPackages [vagd]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-04 13:49:11] INFO root fetch - processPackages [inoopa_utils]: New version: [2.8.4] Old Version: [2.8.3]
+[2024-04-04 13:49:11] INFO root fetch - processPackages [fondant]: New version: [1.0.0] Old Version: [0.9.dev2]
+[2024-04-04 13:49:11] INFO root fetch - processPackages [kcli]: New version: [99.0.202404041147] Old Version: [99.0.202404041018]
+[2024-04-04 13:49:11] WARNING root fetch - processPackages [simplellm]: Skipping, unable to determine old version
+[2024-04-04 13:49:11] INFO root fetch - main [MainThread]: End processing [simplellm] error
+[2024-04-04 13:49:11] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/b2/7d/4fb768db153be5820dcb608a8d8150176c4f57becd81bd998363275bcb0e/inoopa_utils-2.8.3.tar.gz
+[2024-04-04 13:49:11] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/82/d7/19d94840fd3ed3332c3e6c8db2b6db9d10f4490437f6a61b222bdba0463a/vagd-1.3.0.tar.gz
+[2024-04-04 13:49:11] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7b/b8/6cad52ed1c25fead66f7d68d4a4f83c39a32ad7a8028affbf12961877627/kcli-99.0.202404041018.tar.gz
+[2024-04-04 13:49:11] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/d0/0f/414bfdc7a414d0aad96533c86b622492211a4a23e1723eb204ac29a5b6e2/fondant-0.9.dev2.tar.gz
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [vagd]: Timeout reached during download
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [fondant]: Timeout reached during download
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-04 13:49:13] INFO root fetch - processPackages [vagd]: Downloading https://files.pythonhosted.org/packages/41/ed/03d8d6f1034071baad7ada356074b642cc921486b33a6e38409332cdded6/vagd-1.3.1.tar.gz
+[2024-04-04 13:49:13] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/8e/e5/7fd596e9dd92ecf2ab2cb2b6fd5491fe4b0de4c0b525548087828ca73e27/inoopa_utils-2.8.4.tar.gz
+[2024-04-04 13:49:13] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/81/3c/53ca2350dddd080d65fa7e2a9e486cb120999454870da1cd352ce71396cf/kcli-99.0.202404041147.tar.gz
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [vagd]: Timeout reached during download
+[2024-04-04 13:49:13] INFO root fetch - processPackages [vagd]: executing diffoscope
+[2024-04-04 13:49:13] INFO root fetch - processPackages [vagd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vagd-1.3.0.tar.gz tmp/vagd-1.3.1.tar.gz --markdown 20240404/v/vagd/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-04 13:49:13] INFO root fetch - processPackages [fondant]: Downloading https://files.pythonhosted.org/packages/fb/0c/4375117397a15812c00e00bacc3553b6dcd172b7b37399305e08672be00a/fondant-1.0.0.tar.gz
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:49:13] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 13:49:13] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.8.3.tar.gz tmp/inoopa_utils-2.8.4.tar.gz --markdown 20240404/i/inoopa_utils/2.8.3-2.8.4/diff.md --exclude *.pyd
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [fondant]: Timeout reached during download
+[2024-04-04 13:49:13] INFO root fetch - processPackages [fondant]: executing diffoscope
+[2024-04-04 13:49:13] INFO root fetch - processPackages [fondant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fondant-0.9.dev2.tar.gz tmp/fondant-1.0.0.tar.gz --markdown 20240404/f/fondant/0.9.dev2-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 13:49:13] WARNING root fetch - processPackages [kcli]: Timeout reached during download
+[2024-04-04 13:49:13] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-04 13:49:13] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404041018.tar.gz tmp/kcli-99.0.202404041147.tar.gz --markdown 20240404/k/kcli/99.0.202404041018-99.0.202404041147/diff.md --exclude *.pyd
+[2024-04-04 13:49:14] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-1.3.0.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - processPackages [vagd]: Remove: archive file [/home/abi/fetcher/tmp/vagd-1.3.1.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - main [MainThread]: End processing [vagd]: success
+[2024-04-04 13:49:14] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.3.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.4.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 13:49:14] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-0.9.dev2.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - processPackages [fondant]: Remove: archive file [/home/abi/fetcher/tmp/fondant-1.0.0.tar.gz]
+[2024-04-04 13:49:14] INFO root fetch - main [MainThread]: End processing [fondant]: success
+[2024-04-04 13:49:16] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404041018.tar.gz]
+[2024-04-04 13:49:16] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404041147.tar.gz]
+[2024-04-04 13:49:16] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-04 13:49:16] INFO root fetch - main [MainThread]: Store serial: [22619344]
