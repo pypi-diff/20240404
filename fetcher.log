@@ -9384,3 +9384,64 @@
 [2024-04-04 03:30:47] INFO root fetch - processPackages [swit-core]: Remove: archive file [/home/abi/fetcher/tmp/swit_core-4.0.2.tar.gz]
 [2024-04-04 03:30:47] INFO root fetch - main [MainThread]: End processing [swit-core]: success
 [2024-04-04 03:30:47] INFO root fetch - main [MainThread]: Store serial: [22614422]
+[2024-04-04 03:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614422]
+[2024-04-04 03:32:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FreeSimpleGUIQt
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-kubernetes-the-hard-way
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autopipeline
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zetascale
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: amino.fix.fix
+[2024-04-04 03:32:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: homeassistant-stubs
+[2024-04-04 03:32:57] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: New version: [0.0.11a1712193798] Old Version: [0.0.11a1712190591]
+[2024-04-04 03:32:57] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.7b3] Old Version: [1.0.7b2]
+[2024-04-04 03:32:57] WARNING root fetch - processPackages [FreeSimpleGUIQt]: Skipping, unable to determine old version
+[2024-04-04 03:32:57] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIQt] error
+[2024-04-04 03:32:57] INFO root fetch - processPackages [zetascale]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-04 03:32:57] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2024.4.0b8] Old Version: [2024.4.0b7]
+[2024-04-04 03:32:57] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 03:32:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/d5/3a/88e33568d204080642165876f42db179d67f1a2064942fb4fe2edfff65e3/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz
+[2024-04-04 03:32:58] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/f8/f0/cf5861746cd912dc38b3c0038a4ace204b5436bdc9cb0eb5c5b120c483fd/amino.fix.fix-1.0.7b2.tar.gz
+[2024-04-04 03:32:58] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/d6/be/fcb3773b672d0a7c15451e1f05c978820d1e94ff99ea53180f424ef09613/zetascale-2.2.8.tar.gz
+[2024-04-04 03:32:58] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/17/d3/a187739031e7b4072e2cbe611aa22daa1e3087088794e03c4f74eafc1a57/homeassistant_stubs-2024.4.0b7.tar.gz
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [zetascale]: Timeout reached during download
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [homeassistant-stubs]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Downloading https://files.pythonhosted.org/packages/51/ea/2cbce53fdb6ae864e4f830c08fb3e201fcb944943b30416f4b85e4b01753/pulumi_kubernetes_the_hard_way-0.0.11a1712193798.tar.gz
+[2024-04-04 03:32:58] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/bc/db/3beb22fca2faa53378eaa773afff133ba9dbeb3b26bda0dd0a0d753b60f1/amino.fix.fix-1.0.7b3.tar.gz
+[2024-04-04 03:32:58] INFO root fetch - processPackages [zetascale]: Downloading https://files.pythonhosted.org/packages/60/a9/463b1fa1cf4133c58073eb30ead10b26eb5c497f13a1c3c224023fd3d328/zetascale-2.2.9.tar.gz
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: executing diffoscope
+[2024-04-04 03:32:58] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712193798.tar.gz --markdown 20240404/p/pulumi-kubernetes-the-hard-way/0.0.11a1712190591-0.0.11a1712193798/diff.md --exclude *.pyd
+[2024-04-04 03:32:58] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/f8/2c/29f3eea2b192a1b9c63c059dafdd9323812c2cda48ab01f5fae30748f73e/homeassistant_stubs-2024.4.0b8.tar.gz
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [amino.fix.fix]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-04 03:32:58] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.7b2.tar.gz tmp/amino.fix.fix-1.0.7b3.tar.gz --markdown 20240404/a/amino.fix.fix/1.0.7b2-1.0.7b3/diff.md --exclude *.pyd
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [zetascale]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [zetascale]: executing diffoscope
+[2024-04-04 03:32:58] INFO root fetch - processPackages [zetascale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zetascale-2.2.8.tar.gz tmp/zetascale-2.2.9.tar.gz --markdown 20240404/z/zetascale/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 03:32:58] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [homeassistant-stubs]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2024-04-04 03:32:58] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2024.4.0b7.tar.gz tmp/homeassistant_stubs-2024.4.0b8.tar.gz --markdown 20240404/h/homeassistant-stubs/2024.4.0b7-2024.4.0b8/diff.md --exclude *.pyd
+[2024-04-04 03:32:58] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 03:32:58] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 03:32:58] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 03:32:59] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712190591.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - processPackages [pulumi-kubernetes-the-hard-way]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_kubernetes_the_hard_way-0.0.11a1712193798.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes-the-hard-way]: success
+[2024-04-04 03:32:59] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b2.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.7b3.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-04 03:32:59] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 03:32:59] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 03:33:00] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.8.tar.gz]
+[2024-04-04 03:33:00] INFO root fetch - processPackages [zetascale]: Remove: archive file [/home/abi/fetcher/tmp/zetascale-2.2.9.tar.gz]
+[2024-04-04 03:33:00] INFO root fetch - main [MainThread]: End processing [zetascale]: success
+[2024-04-04 03:33:11] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b7.tar.gz]
+[2024-04-04 03:33:11] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2024.4.0b8.tar.gz]
+[2024-04-04 03:33:11] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2024-04-04 03:33:11] INFO root fetch - main [MainThread]: Store serial: [22614506]
