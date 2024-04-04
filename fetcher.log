@@ -16215,3 +16215,71 @@
 [2024-04-04 09:38:31] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2024-04-04 09:38:31] INFO root fetch - main [MainThread]: End processing [trytond]: success
 [2024-04-04 09:38:31] INFO root fetch - main [MainThread]: Store serial: [22616678]
+[2024-04-04 09:40:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616678]
+[2024-04-04 09:40:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rbstata
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodoc
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tryton
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tryton
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pineboo
+[2024-04-04 09:40:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tryton
+[2024-04-04 09:40:40] INFO root fetch - processPackages [pineboo]: New version: [0.99.81] Old Version: [0.99.80.2]
+[2024-04-04 09:40:40] WARNING root fetch - processPackages [nodoc]: Skipping, unable to determine old version
+[2024-04-04 09:40:40] INFO root fetch - main [MainThread]: End processing [nodoc] error
+[2024-04-04 09:40:40] INFO root fetch - processPackages [trytond]: New version: [7.0.9] Old Version: [7.0.8]
+[2024-04-04 09:40:40] INFO root fetch - processPackages [rbstata]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 09:40:40] INFO root fetch - processPackages [tryton]: New version: [7.0.8] Old Version: [7.0.7]
+[2024-04-04 09:40:40] INFO root fetch - processPackages [tryton]: New version: [7.0.8] Old Version: [7.0.7]
+[2024-04-04 09:40:40] INFO root fetch - processPackages [tryton]: New version: [7.0.8] Old Version: [7.0.7]
+[2024-04-04 09:40:40] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/f6/f2/8ae0ef3b284f99db2838ce64b80c145ef9b8084b20b46c54e5c9ad35a7b1/trytond-7.0.8.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [rbstata]: Downloading https://files.pythonhosted.org/packages/b9/93/3594bdbfbeedc07437941d4042d79f09ffedd51cd36936d2779f2b1efa4c/rbstata-0.1.0.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/51/73/21043a17c20cc7b5cae3a51c77d7fc2bfed7d8f8b41880d8ad36caef1758/pineboo-0.99.80.2.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/eb/6a/90717a92f7950f8daaf36e425823625a785024281d99289602c1e4cfd0d2/tryton-7.0.7.tar.gz
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/eb/6a/90717a92f7950f8daaf36e425823625a785024281d99289602c1e4cfd0d2/tryton-7.0.7.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/eb/6a/90717a92f7950f8daaf36e425823625a785024281d99289602c1e4cfd0d2/tryton-7.0.7.tar.gz
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [rbstata]: Timeout reached during download
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:41] INFO root fetch - processPackages [trytond]: Downloading https://files.pythonhosted.org/packages/16/6e/2edd926c48e095a750e93f910fdeeb314934cde198d2700814ab0c91dd6e/trytond-7.0.9.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [rbstata]: Downloading https://files.pythonhosted.org/packages/a5/da/3dfdf02a307721ee06cb9e8b4fcd48d09b84541c9ce372d2b420735010f8/rbstata-0.1.1.tar.gz
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [rbstata]: Timeout reached during download
+[2024-04-04 09:40:41] INFO root fetch - processPackages [rbstata]: executing diffoscope
+[2024-04-04 09:40:41] INFO root fetch - processPackages [rbstata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rbstata-0.1.0.tar.gz tmp/rbstata-0.1.1.tar.gz --markdown 20240404/r/rbstata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-04 09:40:41] WARNING root fetch - processPackages [trytond]: Timeout reached during download
+[2024-04-04 09:40:41] INFO root fetch - processPackages [trytond]: executing diffoscope
+[2024-04-04 09:40:41] INFO root fetch - processPackages [trytond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond-7.0.8.tar.gz tmp/trytond-7.0.9.tar.gz --markdown 20240404/t/trytond/7.0.8-7.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:40:41] INFO root fetch - processPackages [tryton]: Downloading https://files.pythonhosted.org/packages/93/de/3be5fd478d55d5fc5641d977fa23d33eb666d65887e1134663a47baa89ce/tryton-7.0.8.tar.gz
+[2024-04-04 09:40:42] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.7.tar.gz tmp/tryton-7.0.8.tar.gz --markdown 20240404/t/tryton/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2024-04-04 09:40:42] INFO root fetch - processPackages [rbstata]: Remove: archive file [/home/abi/fetcher/tmp/rbstata-0.1.0.tar.gz]
+[2024-04-04 09:40:42] INFO root fetch - processPackages [rbstata]: Remove: archive file [/home/abi/fetcher/tmp/rbstata-0.1.1.tar.gz]
+[2024-04-04 09:40:42] INFO root fetch - main [MainThread]: End processing [rbstata]: success
+[2024-04-04 09:40:42] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.7.tar.gz tmp/tryton-7.0.8.tar.gz --markdown 20240404/t/tryton/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2024-04-04 09:40:42] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 09:40:42] WARNING root fetch - processPackages [tryton]: Timeout reached during download
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: executing diffoscope
+[2024-04-04 09:40:42] INFO root fetch - processPackages [tryton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tryton-7.0.7.tar.gz tmp/tryton-7.0.8.tar.gz --markdown 20240404/t/tryton/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2024-04-04 09:40:42] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/a5/44/cf6edd2dae2e629349212e0829377595b121313b21416b1eba044180dbfc/pineboo-0.99.81.tar.gz
+[2024-04-04 09:40:43] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 09:40:43] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 09:40:43] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.80.2.tar.gz tmp/pineboo-0.99.81.tar.gz --markdown 20240404/p/pineboo/0.99.80.2-0.99.81/diff.md --exclude *.pyd
+[2024-04-04 09:40:44] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.7.tar.gz]
+[2024-04-04 09:40:44] INFO root fetch - processPackages [tryton]: Remove: archive file [/home/abi/fetcher/tmp/tryton-7.0.8.tar.gz]
+[2024-04-04 09:40:44] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-04 09:40:44] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-04 09:40:44] INFO root fetch - main [MainThread]: End processing [tryton]: success
+[2024-04-04 09:40:44] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.8.tar.gz]
+[2024-04-04 09:40:44] INFO root fetch - processPackages [trytond]: Remove: archive file [/home/abi/fetcher/tmp/trytond-7.0.9.tar.gz]
+[2024-04-04 09:40:44] INFO root fetch - main [MainThread]: End processing [trytond]: success
+[2024-04-04 09:40:46] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.80.2.tar.gz]
+[2024-04-04 09:40:46] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.tar.gz]
+[2024-04-04 09:40:46] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 09:40:46] INFO root fetch - main [MainThread]: Store serial: [22616700]
