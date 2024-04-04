@@ -15271,3 +15271,50 @@
 [2024-04-04 08:52:39] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-04-04 08:52:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
 [2024-04-04 08:52:39] INFO root fetch - main [MainThread]: Store serial: [22616397]
+[2024-04-04 08:54:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616397]
+[2024-04-04 08:54:49] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stsci.imagestats
+[2024-04-04 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eodc-faas-openeo
+[2024-04-04 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-import-async
+[2024-04-04 08:54:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mltraq
+[2024-04-04 08:54:49] INFO root fetch - processPackages [mltraq]: New version: [0.0.67] Old Version: [0.0.66]
+[2024-04-04 08:54:49] INFO root fetch - processPackages [stsci.imagestats]: New version: [1.8.2] Old Version: [1.8.1]
+[2024-04-04 08:54:49] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-04 08:54:49] INFO root fetch - processPackages [odoo-addon-base-import-async]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.5]
+[2024-04-04 08:54:49] INFO root fetch - processPackages [mltraq]: Downloading https://files.pythonhosted.org/packages/19/b0/9a91ca2e48647517e7f9b14618c689023822d74da8a8cda37e577b38b3c1/mltraq-0.0.66.tar.gz
+[2024-04-04 08:54:49] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/fb/9d/a7945f46ba8696217c75a297d0b3544909f68eb85bcf4569fbb5dc2bb69a/eodc_faas_openeo-2024.4.3.tar.gz
+[2024-04-04 08:54:49] INFO root fetch - processPackages [stsci.imagestats]: Downloading https://files.pythonhosted.org/packages/df/ce/5e0bb2985c64d469b9d683b6565a5faf8f10213541c1be906494ddef6caa/stsci.imagestats-1.8.1.tar.gz
+[2024-04-04 08:54:49] WARNING root fetch - processPackages [mltraq]: Timeout reached during download
+[2024-04-04 08:54:49] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 08:54:49] INFO root fetch - processPackages [odoo-addon-base-import-async]: Downloading https://files.pythonhosted.org/packages/f4/ed/298d4906ba860ad6e44c1f600bd13cb826aa73e55b3a2e64b8bb56a9d394/odoo_addon_base_import_async-16.0.1.1.0.5-py3-none-any.whl
+[2024-04-04 08:54:49] WARNING root fetch - processPackages [stsci.imagestats]: Timeout reached during download
+[2024-04-04 08:54:49] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/2f/bc/7c9a78a7212f340ae7a4d58dddb778c3160530df7a7d04a171d7319035f5/eodc_faas_openeo-2024.4.4.tar.gz
+[2024-04-04 08:54:50] INFO root fetch - processPackages [mltraq]: Downloading https://files.pythonhosted.org/packages/d4/4c/842eff0c9e6908dfd88218d833343fd7e7072383608d7a3768657c113c59/mltraq-0.0.67.tar.gz
+[2024-04-04 08:54:50] INFO root fetch - processPackages [stsci.imagestats]: Downloading https://files.pythonhosted.org/packages/bf/af/d09ccbd3ab2c194a77290a68a1feb4277380e43547b20d70c3a914834098/stsci.imagestats-1.8.2.tar.gz
+[2024-04-04 08:54:50] WARNING root fetch - processPackages [odoo-addon-base-import-async]: Timeout reached during download
+[2024-04-04 08:54:50] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 08:54:50] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-04 08:54:50] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.3.tar.gz tmp/eodc_faas_openeo-2024.4.4.tar.gz --markdown 20240404/e/eodc-faas-openeo/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-04 08:54:50] WARNING root fetch - processPackages [mltraq]: Timeout reached during download
+[2024-04-04 08:54:50] INFO root fetch - processPackages [mltraq]: executing diffoscope
+[2024-04-04 08:54:50] INFO root fetch - processPackages [mltraq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltraq-0.0.66.tar.gz tmp/mltraq-0.0.67.tar.gz --markdown 20240404/m/mltraq/0.0.66-0.0.67/diff.md --exclude *.pyd
+[2024-04-04 08:54:50] WARNING root fetch - processPackages [stsci.imagestats]: Timeout reached during download
+[2024-04-04 08:54:50] INFO root fetch - processPackages [stsci.imagestats]: executing diffoscope
+[2024-04-04 08:54:50] INFO root fetch - processPackages [stsci.imagestats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stsci.imagestats-1.8.1.tar.gz tmp/stsci.imagestats-1.8.2.tar.gz --markdown 20240404/s/stsci.imagestats/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: Downloading https://files.pythonhosted.org/packages/14/23/6c94b60506caca7d91062d7f3f1f93d13f17f3092772cc0708c0b24fb4de/odoo_addon_base_import_async-16.0.1.1.1-py3-none-any.whl
+[2024-04-04 08:54:50] WARNING root fetch - processPackages [odoo-addon-base-import-async]: Timeout reached during download
+[2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: executing diffoscope
+[2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_import_async-16.0.1.1.0.5-py3-none-any.whl.zip tmp/odoo_addon_base_import_async-16.0.1.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-base-import-async/16.0.1.1.0.5-16.0.1.1.1/diff.md --exclude *.pyd
+[2024-04-04 08:54:50] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.3.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.4.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-04 08:54:50] INFO root fetch - processPackages [mltraq]: Remove: archive file [/home/abi/fetcher/tmp/mltraq-0.0.66.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - processPackages [mltraq]: Remove: archive file [/home/abi/fetcher/tmp/mltraq-0.0.67.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - main [MainThread]: End processing [mltraq]: success
+[2024-04-04 08:54:50] INFO root fetch - processPackages [stsci.imagestats]: Remove: archive file [/home/abi/fetcher/tmp/stsci.imagestats-1.8.1.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - processPackages [stsci.imagestats]: Remove: archive file [/home/abi/fetcher/tmp/stsci.imagestats-1.8.2.tar.gz]
+[2024-04-04 08:54:50] INFO root fetch - main [MainThread]: End processing [stsci.imagestats]: success
+[2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_async-16.0.1.1.0.5-py3-none-any.whl.zip]
+[2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_async-16.0.1.1.1-py3-none-any.whl.zip]
+[2024-04-04 08:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-import-async]: success
+[2024-04-04 08:54:50] INFO root fetch - main [MainThread]: Store serial: [22616423]
