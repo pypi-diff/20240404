@@ -15894,3 +15894,55 @@
 [2024-04-04 09:25:24] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.9.0.tar.gz]
 [2024-04-04 09:25:24] INFO root fetch - main [MainThread]: End processing [quickfin]: success
 [2024-04-04 09:25:24] INFO root fetch - main [MainThread]: Store serial: [22616594]
+[2024-04-04 09:27:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616594]
+[2024-04-04 09:27:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redhat-qe-cloud-tools
+[2024-04-04 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xpra
+[2024-04-04 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rosa-python-client
+[2024-04-04 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eodc-faas-openeo
+[2024-04-04 09:27:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-wrapper
+[2024-04-04 09:27:33] INFO root fetch - processPackages [redhat-qe-cloud-tools]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 09:27:33] INFO root fetch - processPackages [xpra]: New version: [5.0.8] Old Version: [5.0.7]
+[2024-04-04 09:27:33] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2024-04-04 09:27:33] INFO root fetch - processPackages [eodc-faas-openeo]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-04 09:27:33] INFO root fetch - processPackages [rosa-python-client]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 09:27:33] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9f/52/8943f0836c823ed0ab894348233d99a219025753e654fa494137828358f9/openshift-python-wrapper-4.9.7.12.tar.gz
+[2024-04-04 09:27:33] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/fb/9d/a7945f46ba8696217c75a297d0b3544909f68eb85bcf4569fbb5dc2bb69a/eodc_faas_openeo-2024.4.3.tar.gz
+[2024-04-04 09:27:33] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/bb/ba/b006d094180ea2c9d36260eb23821d2bdf0bc3e11192b77282a510ac39ee/redhat_qe_cloud_tools-1.0.8.tar.gz
+[2024-04-04 09:27:33] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/9d/3d/13a352dc8b1b3b85a795352b1cee6cd40ca9d5cb9e015f6174830f9ffb0e/rosa_python_client-1.0.8.tar.gz
+[2024-04-04 09:27:33] INFO root fetch - processPackages [xpra]: Downloading https://files.pythonhosted.org/packages/76/8e/3aaa8db8a2c0a8f64ddd5c507bfd47a9d39ba7229edaa88d33a7fcbcf300/xpra-5.0.7.tar.gz
+[2024-04-04 09:27:33] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 09:27:33] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-04 09:27:33] WARNING root fetch - processPackages [xpra]: Skipping package: exceeds size limit 16663161>=10485760
+[2024-04-04 09:27:33] INFO root fetch - main [MainThread]: End processing [xpra] error
+[2024-04-04 09:27:33] WARNING root fetch - processPackages [redhat-qe-cloud-tools]: Timeout reached during download
+[2024-04-04 09:27:34] INFO root fetch - processPackages [eodc-faas-openeo]: Downloading https://files.pythonhosted.org/packages/2f/bc/7c9a78a7212f340ae7a4d58dddb778c3160530df7a7d04a171d7319035f5/eodc_faas_openeo-2024.4.4.tar.gz
+[2024-04-04 09:27:34] INFO root fetch - processPackages [openshift-python-wrapper]: Downloading https://files.pythonhosted.org/packages/e7/2c/25381b003b6e49919b5c98f68796af474a0b6fb3e28c46552a6949c6160a/openshift-python-wrapper-4.9.9.12.tar.gz
+[2024-04-04 09:27:34] WARNING root fetch - processPackages [eodc-faas-openeo]: Timeout reached during download
+[2024-04-04 09:27:34] INFO root fetch - processPackages [eodc-faas-openeo]: executing diffoscope
+[2024-04-04 09:27:34] INFO root fetch - processPackages [eodc-faas-openeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_openeo-2024.4.3.tar.gz tmp/eodc_faas_openeo-2024.4.4.tar.gz --markdown 20240404/e/eodc-faas-openeo/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-04 09:27:34] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-04 09:27:34] WARNING root fetch - processPackages [openshift-python-wrapper]: Timeout reached during download
+[2024-04-04 09:27:34] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2024-04-04 09:27:34] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20240404/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2024-04-04 09:27:34] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Downloading https://files.pythonhosted.org/packages/73/ee/78f15b2144832b2da8cfd67c1d7f49253a5bbeabe351e94adf1af190017c/redhat_qe_cloud_tools-1.0.9.tar.gz
+[2024-04-04 09:27:34] WARNING root fetch - processPackages [redhat-qe-cloud-tools]: Timeout reached during download
+[2024-04-04 09:27:34] INFO root fetch - processPackages [redhat-qe-cloud-tools]: executing diffoscope
+[2024-04-04 09:27:34] INFO root fetch - processPackages [redhat-qe-cloud-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redhat_qe_cloud_tools-1.0.8.tar.gz tmp/redhat_qe_cloud_tools-1.0.9.tar.gz --markdown 20240404/r/redhat-qe-cloud-tools/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:27:34] INFO root fetch - processPackages [rosa-python-client]: Downloading https://files.pythonhosted.org/packages/57/71/77aa94783e126449ad00cda27a853d3161809a6117e0e34f7ab67ade9050/rosa_python_client-1.0.9.tar.gz
+[2024-04-04 09:27:34] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.3.tar.gz]
+[2024-04-04 09:27:34] INFO root fetch - processPackages [eodc-faas-openeo]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_openeo-2024.4.4.tar.gz]
+[2024-04-04 09:27:34] INFO root fetch - main [MainThread]: End processing [eodc-faas-openeo]: success
+[2024-04-04 09:27:34] WARNING root fetch - processPackages [rosa-python-client]: Timeout reached during download
+[2024-04-04 09:27:34] INFO root fetch - processPackages [rosa-python-client]: executing diffoscope
+[2024-04-04 09:27:34] INFO root fetch - processPackages [rosa-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rosa_python_client-1.0.8.tar.gz tmp/rosa_python_client-1.0.9.tar.gz --markdown 20240404/r/rosa-python-client/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 09:27:34] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.8.tar.gz]
+[2024-04-04 09:27:34] INFO root fetch - processPackages [redhat-qe-cloud-tools]: Remove: archive file [/home/abi/fetcher/tmp/redhat_qe_cloud_tools-1.0.9.tar.gz]
+[2024-04-04 09:27:34] INFO root fetch - main [MainThread]: End processing [redhat-qe-cloud-tools]: success
+[2024-04-04 09:27:35] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.7.12.tar.gz]
+[2024-04-04 09:27:35] INFO root fetch - processPackages [openshift-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-wrapper-4.9.9.12.tar.gz]
+[2024-04-04 09:27:35] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2024-04-04 09:27:35] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.8.tar.gz]
+[2024-04-04 09:27:35] INFO root fetch - processPackages [rosa-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rosa_python_client-1.0.9.tar.gz]
+[2024-04-04 09:27:35] INFO root fetch - main [MainThread]: End processing [rosa-python-client]: success
+[2024-04-04 09:27:35] INFO root fetch - main [MainThread]: Store serial: [22616606]
