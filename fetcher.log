@@ -16283,3 +16283,28 @@
 [2024-04-04 09:40:46] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.tar.gz]
 [2024-04-04 09:40:46] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 09:40:46] INFO root fetch - main [MainThread]: Store serial: [22616700]
+[2024-04-04 09:42:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616700]
+[2024-04-04 09:42:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 09:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: list-flatten-z
+[2024-04-04 09:42:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fdk-rdf-parser
+[2024-04-04 09:42:55] INFO root fetch - processPackages [list-flatten-z]: New version: [0.5] Old Version: [0.4]
+[2024-04-04 09:42:55] INFO root fetch - processPackages [fdk-rdf-parser]: New version: [2.7.0] Old Version: [2.6.0]
+[2024-04-04 09:42:55] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/c9/af/9e8e5fb81f7406556c6c6d1575786021823d90d434c9a5ef11f790ca2e61/list_flatten_z-0.4.tar.gz
+[2024-04-04 09:42:55] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 09:42:55] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/2d/67/6fcce5c9bfaec34dce4ad00e64d0ffda0ecd8ba23bf68a3bc936fbca4e18/fdk_rdf_parser-2.6.0.tar.gz
+[2024-04-04 09:42:55] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/f0/e2/f62630e7ac7c0e857c0b394376b7a1e55b8b0a5151284a2e8f4a56b73be1/list_flatten_z-0.5.tar.gz
+[2024-04-04 09:42:56] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 09:42:56] WARNING root fetch - processPackages [fdk-rdf-parser]: Timeout reached during download
+[2024-04-04 09:42:56] INFO root fetch - processPackages [list-flatten-z]: executing diffoscope
+[2024-04-04 09:42:56] INFO root fetch - processPackages [list-flatten-z]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_flatten_z-0.4.tar.gz tmp/list_flatten_z-0.5.tar.gz --markdown 20240404/l/list-flatten-z/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-04 09:42:56] INFO root fetch - processPackages [fdk-rdf-parser]: Downloading https://files.pythonhosted.org/packages/87/35/bccfe5796799d9f79d3ca7a2bdb0cde4cd6e800d14396246d0bb5b41ae2e/fdk_rdf_parser-2.7.0.tar.gz
+[2024-04-04 09:42:56] WARNING root fetch - processPackages [fdk-rdf-parser]: Timeout reached during download
+[2024-04-04 09:42:56] INFO root fetch - processPackages [fdk-rdf-parser]: executing diffoscope
+[2024-04-04 09:42:56] INFO root fetch - processPackages [fdk-rdf-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fdk_rdf_parser-2.6.0.tar.gz tmp/fdk_rdf_parser-2.7.0.tar.gz --markdown 20240404/f/fdk-rdf-parser/2.6.0-2.7.0/diff.md --exclude *.pyd
+[2024-04-04 09:42:56] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.4.tar.gz]
+[2024-04-04 09:42:56] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.5.tar.gz]
+[2024-04-04 09:42:56] INFO root fetch - main [MainThread]: End processing [list-flatten-z]: success
+[2024-04-04 09:42:57] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.6.0.tar.gz]
+[2024-04-04 09:42:57] INFO root fetch - processPackages [fdk-rdf-parser]: Remove: archive file [/home/abi/fetcher/tmp/fdk_rdf_parser-2.7.0.tar.gz]
+[2024-04-04 09:42:57] INFO root fetch - main [MainThread]: End processing [fdk-rdf-parser]: success
+[2024-04-04 09:42:57] INFO root fetch - main [MainThread]: Store serial: [22616706]
