@@ -22321,3 +22321,47 @@
 [2024-04-04 13:05:05] INFO root fetch - processPackages [mite]: Remove: archive file [/home/abi/fetcher/tmp/mite-2.0.0.tar.gz]
 [2024-04-04 13:05:05] INFO root fetch - main [MainThread]: End processing [mite]: success
 [2024-04-04 13:05:05] INFO root fetch - main [MainThread]: Store serial: [22618909]
+[2024-04-04 13:07:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618909]
+[2024-04-04 13:07:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyEvALL
+[2024-04-04 13:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esbmc-ai
+[2024-04-04 13:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fontbakery
+[2024-04-04 13:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encord
+[2024-04-04 13:07:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: forta-bot-sdk
+[2024-04-04 13:07:16] INFO root fetch - processPackages [PyEvALL]: New version: [0.1.60] Old Version: [0.1.56]
+[2024-04-04 13:07:16] INFO root fetch - processPackages [esbmc-ai]: New version: [0.5.0.dev9] Old Version: [0.5.0.dev8]
+[2024-04-04 13:07:16] INFO root fetch - processPackages [fontbakery]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-04 13:07:16] WARNING root fetch - processPackages [forta-bot-sdk]: Skipping, unable to determine old version
+[2024-04-04 13:07:16] INFO root fetch - main [MainThread]: End processing [forta-bot-sdk] error
+[2024-04-04 13:07:16] INFO root fetch - processPackages [encord]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 13:07:16] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/36/30/e30b91a77fd374f0ad0cf539698065b79fc11be9694bab23a8ce5aaed061/esbmc_ai-0.5.0.dev8.tar.gz
+[2024-04-04 13:07:16] INFO root fetch - processPackages [PyEvALL]: Downloading https://files.pythonhosted.org/packages/66/4b/aa1522d75bac8cf4dd6f5ce214d16e9a713964482f6a190db49be3e8b48a/PyEvALL-0.1.56.tar.gz
+[2024-04-04 13:07:16] INFO root fetch - processPackages [fontbakery]: Downloading https://files.pythonhosted.org/packages/61/2a/1074b9ef350844f61b0a710e0c72351b8e5ca58e6ed1c4ec019dded4f9a3/fontbakery-0.9.1.tar.gz
+[2024-04-04 13:07:16] WARNING root fetch - processPackages [fontbakery]: Skipping package: exceeds size limit 47042783>=10485760
+[2024-04-04 13:07:16] INFO root fetch - main [MainThread]: End processing [fontbakery] error
+[2024-04-04 13:07:16] WARNING root fetch - processPackages [PyEvALL]: Timeout reached during download
+[2024-04-04 13:07:16] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-04 13:07:17] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/f0/34/d6ab4f7213dd4dd42f226ed7b328ac3ff55006a7b5ce96d4012adeedb08d/encord-0.1.98.tar.gz
+[2024-04-04 13:07:17] INFO root fetch - processPackages [PyEvALL]: Downloading https://files.pythonhosted.org/packages/4c/f6/f6f33e41113c24998d99839a4cea045c78a1f315cef85af03b33ed42f551/PyEvALL-0.1.60.tar.gz
+[2024-04-04 13:07:17] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/74/da/eac40d57fd19dad5f1e592b4e8548c83575a82dbf8941777d4d80588872e/esbmc_ai-0.5.0.dev9.tar.gz
+[2024-04-04 13:07:17] WARNING root fetch - processPackages [encord]: Timeout reached during download
+[2024-04-04 13:07:17] WARNING root fetch - processPackages [PyEvALL]: Timeout reached during download
+[2024-04-04 13:07:17] INFO root fetch - processPackages [PyEvALL]: executing diffoscope
+[2024-04-04 13:07:17] INFO root fetch - processPackages [PyEvALL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyEvALL-0.1.56.tar.gz tmp/PyEvALL-0.1.60.tar.gz --markdown 20240404/P/PyEvALL/0.1.56-0.1.60/diff.md --exclude *.pyd
+[2024-04-04 13:07:17] WARNING root fetch - processPackages [esbmc-ai]: Timeout reached during download
+[2024-04-04 13:07:17] INFO root fetch - processPackages [esbmc-ai]: executing diffoscope
+[2024-04-04 13:07:17] INFO root fetch - processPackages [esbmc-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmc_ai-0.5.0.dev8.tar.gz tmp/esbmc_ai-0.5.0.dev9.tar.gz --markdown 20240404/e/esbmc-ai/0.5.0.dev8-0.5.0.dev9/diff.md --exclude *.pyd
+[2024-04-04 13:07:17] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/ec/62/9a0b4770d9ee7f4e82c28b9f55065be20b0b96007b04c6c9c226ceffa842/encord-0.1.99.tar.gz
+[2024-04-04 13:07:17] WARNING root fetch - processPackages [encord]: Timeout reached during download
+[2024-04-04 13:07:17] INFO root fetch - processPackages [encord]: executing diffoscope
+[2024-04-04 13:07:17] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.98.tar.gz tmp/encord-0.1.99.tar.gz --markdown 20240404/e/encord/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 13:07:17] INFO root fetch - processPackages [PyEvALL]: Remove: archive file [/home/abi/fetcher/tmp/PyEvALL-0.1.56.tar.gz]
+[2024-04-04 13:07:17] INFO root fetch - processPackages [PyEvALL]: Remove: archive file [/home/abi/fetcher/tmp/PyEvALL-0.1.60.tar.gz]
+[2024-04-04 13:07:17] INFO root fetch - main [MainThread]: End processing [PyEvALL]: success
+[2024-04-04 13:07:18] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev8.tar.gz]
+[2024-04-04 13:07:18] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.5.0.dev9.tar.gz]
+[2024-04-04 13:07:18] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
+[2024-04-04 13:07:18] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.98.tar.gz]
+[2024-04-04 13:07:18] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
+[2024-04-04 13:07:18] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2024-04-04 13:07:18] INFO root fetch - main [MainThread]: Store serial: [22618925]
