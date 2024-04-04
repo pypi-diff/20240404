@@ -21496,3 +21496,86 @@
 [2024-04-04 12:38:17] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.7.tar.gz]
 [2024-04-04 12:38:17] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 12:38:17] INFO root fetch - main [MainThread]: Store serial: [22618606]
+[2024-04-04 12:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618606]
+[2024-04-04 12:40:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-grpc-read-db
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python_dev_utils
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: parsee-core
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemgpt-nightly
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: th2-grpc-read-db
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openstef
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyFaceCrop
+[2024-04-04 12:40:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: codist
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8553264298]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [PyFaceCrop]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [python_dev_utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [parsee-core]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: New version: [0.0.8rc1] Old Version: [0.0.8.dev8553264298]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [openstef]: New version: [3.4.9] Old Version: [3.4.8]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.8.dev20240404103859] Old Version: [0.3.8.dev20240403201053]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/b7/df/f1ad7838e3c314d5895faeb3e7ebc3a0a3fe22d8e47274faf30bb3c6dcff/PyFaceCrop-0.0.5.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [codist]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/b3/e4/d6370081129071a402917f9e92cf45b5a4cfd85b425a0ebc1cf4926e62d4/th2_grpc_read_db-0.0.8.dev8553264298.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/b3/e4/d6370081129071a402917f9e92cf45b5a4cfd85b425a0ebc1cf4926e62d4/th2_grpc_read_db-0.0.8.dev8553264298.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/8e/c5/6c3d056374878b819787d47e97b844914983a152f7e5b17861c1360e5bc7/pymemgpt_nightly-0.3.8.dev20240403201053.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/ee/e3/19c17c826729575f6331256e80546cabadfa95355b34c32289c6944e970d/python_dev_utils-0.1.0.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [openstef]: Downloading https://files.pythonhosted.org/packages/a9/ca/0ab178d9f50ee4260fdc377d915b49d57bce978b56773f1c26bfbb1f800f/openstef-3.4.8.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/68/ac/af5b7d90808e26719a57a01d358eb6610c1a876602dc406b4c73010fa771/parsee_core-0.1.3.8.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [openstef]: Skipping package: exceeds size limit 62278984>=10485760
+[2024-04-04 12:40:26] INFO root fetch - main [MainThread]: End processing [openstef] error
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/55/8c/a81fe2db982807d1dc6e9c8f6ffd843a57c4251fa19ac18579d6313d8296/PyFaceCrop-0.0.6.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/6e/db/48ce2964faee848142cc61a4c39b686a1f7c35b9333f99062b61b942c3dd/codist-0.0.1.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [parsee-core]: Timeout reached during download
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [python_dev_utils]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: Downloading https://files.pythonhosted.org/packages/04/44/e9b4bb65a8c860bb70bf2385d9571804292028e0e0da1a8dcc6223dc81ba/th2_grpc_read_db-0.0.8rc1.tar.gz
+[2024-04-04 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/a9/e8/6e43fded23fdb87e620cc2b53010338085584acae52dfdd4dfa3564e917c/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [python_dev_utils]: Downloading https://files.pythonhosted.org/packages/4d/14/3d6ca4552a038997a04d01c3df434cc8ac6c03b7abf89ae5296dc6fef4f2/python_dev_utils-0.1.1.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [PyFaceCrop]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [PyFaceCrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFaceCrop-0.0.5.tar.gz tmp/PyFaceCrop-0.0.6.tar.gz --markdown 20240404/P/PyFaceCrop/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8553264298.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240404/t/th2-grpc-read-db/0.0.8.dev8553264298-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] INFO root fetch - processPackages [parsee-core]: Downloading https://files.pythonhosted.org/packages/a1/8a/4364b9dc0275821114a9492f360f6a97683a9e25d30a522bd4e24c3b3cc6/parsee_core-0.1.3.9.tar.gz
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [th2-grpc-read-db]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [th2-grpc-read-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_read_db-0.0.8.dev8553264298.tar.gz tmp/th2_grpc_read_db-0.0.8rc1.tar.gz --markdown 20240404/t/th2-grpc-read-db/0.0.8.dev8553264298-0.0.8rc1/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [python_dev_utils]: Timeout reached during download
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [parsee-core]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [parsee-core]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [parsee-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsee_core-0.1.3.8.tar.gz tmp/parsee_core-0.1.3.9.tar.gz --markdown 20240404/p/parsee-core/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] INFO root fetch - processPackages [python_dev_utils]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [python_dev_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_dev_utils-0.1.0.tar.gz tmp/python_dev_utils-0.1.1.tar.gz --markdown 20240404/p/python_dev_utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] WARNING root fetch - processPackages [pymemgpt-nightly]: Timeout reached during download
+[2024-04-04 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-04 12:40:26] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.8.dev20240403201053.tar.gz tmp/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz --markdown 20240404/p/pymemgpt-nightly/0.3.8.dev20240403201053-0.3.8.dev20240404103859/diff.md --exclude *.pyd
+[2024-04-04 12:40:26] INFO root fetch - processPackages [codist]: Downloading https://files.pythonhosted.org/packages/fa/36/f88969d395aa78097ff42dbd503864ba7430fa0ea6799911de8a48767d79/codist-0.1.0.tar.gz
+[2024-04-04 12:40:27] WARNING root fetch - processPackages [codist]: Timeout reached during download
+[2024-04-04 12:40:27] INFO root fetch - processPackages [codist]: executing diffoscope
+[2024-04-04 12:40:27] INFO root fetch - processPackages [codist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codist-0.0.1.tar.gz tmp/codist-0.1.0.tar.gz --markdown 20240404/c/codist/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:40:27] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.5.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.6.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - main [MainThread]: End processing [PyFaceCrop]: success
+[2024-04-04 12:40:27] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8.dev8553264298.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - processPackages [th2-grpc-read-db]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_read_db-0.0.8rc1.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-04 12:40:27] INFO root fetch - main [MainThread]: End processing [th2-grpc-read-db]: success
+[2024-04-04 12:40:27] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-0.1.0.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - processPackages [python_dev_utils]: Remove: archive file [/home/abi/fetcher/tmp/python_dev_utils-0.1.1.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - main [MainThread]: End processing [python_dev_utils]: success
+[2024-04-04 12:40:27] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.0.1.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - processPackages [codist]: Remove: archive file [/home/abi/fetcher/tmp/codist-0.1.0.tar.gz]
+[2024-04-04 12:40:27] INFO root fetch - main [MainThread]: End processing [codist]: success
+[2024-04-04 12:40:28] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.3.8.tar.gz]
+[2024-04-04 12:40:28] INFO root fetch - processPackages [parsee-core]: Remove: archive file [/home/abi/fetcher/tmp/parsee_core-0.1.3.9.tar.gz]
+[2024-04-04 12:40:28] INFO root fetch - main [MainThread]: End processing [parsee-core]: success
+[2024-04-04 12:40:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240403201053.tar.gz]
+[2024-04-04 12:40:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz]
+[2024-04-04 12:40:33] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-04 12:40:33] INFO root fetch - main [MainThread]: Store serial: [22618632]
