@@ -10369,3 +10369,58 @@
 [2024-04-04 04:28:10] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.1.9-py3-none-any.whl.zip]
 [2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [fovus]: success
 [2024-04-04 04:28:10] INFO root fetch - main [MainThread]: Store serial: [22614835]
+[2024-04-04 04:30:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614835]
+[2024-04-04 04:30:19] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graas-observability-utility
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gink
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cleanvoice
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autopipeline
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ModBububugti
+[2024-04-04 04:30:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: specklia
+[2024-04-04 04:30:19] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.5] Old Version: [1.5.4]
+[2024-04-04 04:30:19] WARNING root fetch - processPackages [ModBububugti]: Skipping, unable to determine old version
+[2024-04-04 04:30:19] INFO root fetch - main [MainThread]: End processing [ModBububugti] error
+[2024-04-04 04:30:19] INFO root fetch - processPackages [cleanvoice]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 04:30:19] INFO root fetch - processPackages [gink]: New version: [0.20240404.1712197692] Old Version: [0.20240403.1712115567]
+[2024-04-04 04:30:19] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-04 04:30:19] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 04:30:20] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/7c/13/31721123c58dd7b0c734d287d88484afd8ed0bc607ff437c78783ea01815/graas-observability-utility-1.5.4.tar.gz
+[2024-04-04 04:30:20] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [cleanvoice]: Downloading https://files.pythonhosted.org/packages/22/f5/d273ca9d6d95d1550e405d977544515fc844c5cbe3837dea02f0d2414ff9/cleanvoice-0.0.1.tar.gz
+[2024-04-04 04:30:20] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/9a/12/fe3704c32bd05bebef3470dec899a6938b9e929d14326cd6e2b1618bb73b/gink-0.20240403.1712115567.tar.gz
+[2024-04-04 04:30:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [cleanvoice]: Skipping package: exceeds size limit 18368790>=10485760
+[2024-04-04 04:30:20] INFO root fetch - main [MainThread]: End processing [cleanvoice] error
+[2024-04-04 04:30:20] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/01/73/4b0aa94d37eee1eac1f8ced432744a8d00c736396697f4039c81ea5b8b05/graas-observability-utility-1.5.5.tar.gz
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [graas-observability-utility]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-04 04:30:20] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.4.tar.gz tmp/graas-observability-utility-1.5.5.tar.gz --markdown 20240404/g/graas-observability-utility/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 04:30:20] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 04:30:20] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/7a/b6/ad0b8f3a0937955c2c5499c84b5817052919a3e209ced9272dc531e92ee9/gink-0.20240404.1712197692.tar.gz
+[2024-04-04 04:30:20] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-04-04 04:30:20] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240403.1712115567.tar.gz tmp/gink-0.20240404.1712197692.tar.gz --markdown 20240404/g/gink/0.20240403.1712115567-0.20240404.1712197692/diff.md --exclude *.pyd
+[2024-04-04 04:30:20] WARNING root fetch - processPackages [specklia]: Timeout reached during download
+[2024-04-04 04:30:20] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-04 04:30:20] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240404/s/specklia/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-04 04:30:21] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.4.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.5.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-04 04:30:21] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 04:30:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-04 04:30:21] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240403.1712115567.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240404.1712197692.tar.gz]
+[2024-04-04 04:30:21] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-04-04 04:30:21] INFO root fetch - main [MainThread]: Store serial: [22614853]
