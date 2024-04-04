@@ -21062,3 +21062,50 @@
 [2024-04-04 12:22:15] INFO root fetch - processPackages [pyBallMapper]: Remove: archive file [/home/abi/fetcher/tmp/pyBallMapper-0.3.4.tar.gz]
 [2024-04-04 12:22:15] INFO root fetch - main [MainThread]: End processing [pyBallMapper]: success
 [2024-04-04 12:22:15] INFO root fetch - main [MainThread]: Store serial: [22618352]
+[2024-04-04 12:24:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618352]
+[2024-04-04 12:24:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 12:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aibridge-test
+[2024-04-04 12:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tsflex
+[2024-04-04 12:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydumpling
+[2024-04-04 12:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tokengeex
+[2024-04-04 12:24:24] INFO root fetch - processPackages [pydumpling]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 12:24:24] INFO root fetch - processPackages [tsflex]: New version: [0.4.0] Old Version: [0.3rc0]
+[2024-04-04 12:24:24] INFO root fetch - processPackages [aibridge-test]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 12:24:24] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/77/5a/168bbd69e603833c690f6b9ce82eedd5d78424e51112fa481724fc6e97b0/aibridge_test-0.2.2.tar.gz
+[2024-04-04 12:24:24] INFO root fetch - processPackages [tokengeex]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-04 12:24:24] INFO root fetch - processPackages [tsflex]: Downloading https://files.pythonhosted.org/packages/21/82/14f442ccf92f08fdd1460a241cd946a582c2c813ad661dc6fd60e4ade0ea/tsflex-0.3rc0.tar.gz
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [pydumpling]: Downloading https://files.pythonhosted.org/packages/2f/fb/61a6a7ea56eb79d295d96d63cca86f68b5979f6915501d7781fde4a40728/pydumpling-0.1.5.tar.gz
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [tsflex]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/16/98/2ad034d0f235946c94525c4f52a5ef74150699851aaf32cb409db7dfe6b2/aibridge_test-0.2.3.tar.gz
+[2024-04-04 12:24:25] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/d6/7d/d8fabe4e16e65a53e1e082d22b29edf30e8f632d17c963ef885f268776a7/tokengeex-0.7.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [pydumpling]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [tsflex]: Downloading https://files.pythonhosted.org/packages/11/04/ad8957cead467cd53efc39d53b388046029d5bde3fd992c99b263df9e132/tsflex-0.4.0.tar.gz
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-04 12:24:25] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.2.2.tar.gz tmp/aibridge_test-0.2.3.tar.gz --markdown 20240404/a/aibridge-test/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 12:24:25] INFO root fetch - processPackages [pydumpling]: Downloading https://files.pythonhosted.org/packages/6b/ac/df8f831c0b4cf4b74c4bb016c568a3d0a18525859328c70552db42b80561/pydumpling-0.1.6.tar.gz
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [tokengeex]: Timeout reached during download
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [tsflex]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [tsflex]: executing diffoscope
+[2024-04-04 12:24:25] INFO root fetch - processPackages [tsflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsflex-0.3rc0.tar.gz tmp/tsflex-0.4.0.tar.gz --markdown 20240404/t/tsflex/0.3rc0-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 12:24:25] WARNING root fetch - processPackages [pydumpling]: Timeout reached during download
+[2024-04-04 12:24:25] INFO root fetch - processPackages [pydumpling]: executing diffoscope
+[2024-04-04 12:24:25] INFO root fetch - processPackages [pydumpling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydumpling-0.1.5.tar.gz tmp/pydumpling-0.1.6.tar.gz --markdown 20240404/p/pydumpling/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 12:24:25] INFO root fetch - processPackages [tokengeex]: Downloading https://files.pythonhosted.org/packages/53/f9/071e6c7929103a31c674eae5fa2b048055dbfb45b788e2d6462b8481e555/tokengeex-0.7.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-04 12:24:26] WARNING root fetch - processPackages [tokengeex]: Timeout reached during download
+[2024-04-04 12:24:26] INFO root fetch - processPackages [tokengeex]: executing diffoscope
+[2024-04-04 12:24:26] INFO root fetch - processPackages [tokengeex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tokengeex-0.7.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip tmp/tokengeex-0.7.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240404/t/tokengeex/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-04 12:24:26] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.2.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.3.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-04 12:24:26] INFO root fetch - processPackages [tsflex]: Remove: archive file [/home/abi/fetcher/tmp/tsflex-0.3rc0.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - processPackages [tsflex]: Remove: archive file [/home/abi/fetcher/tmp/tsflex-0.4.0.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - main [MainThread]: End processing [tsflex]: success
+[2024-04-04 12:24:26] INFO root fetch - processPackages [pydumpling]: Remove: archive file [/home/abi/fetcher/tmp/pydumpling-0.1.5.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - processPackages [pydumpling]: Remove: archive file [/home/abi/fetcher/tmp/pydumpling-0.1.6.tar.gz]
+[2024-04-04 12:24:26] INFO root fetch - main [MainThread]: End processing [pydumpling]: success
+[2024-04-04 12:24:40] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-0.7.0-pp39-pypy39_pp73-musllinux_1_1_x86_64.whl.zip]
+[2024-04-04 12:24:40] INFO root fetch - processPackages [tokengeex]: Remove: archive file [/home/abi/fetcher/tmp/tokengeex-0.7.1-cp310-cp310-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-04 12:24:40] INFO root fetch - main [MainThread]: End processing [tokengeex]: success
+[2024-04-04 12:24:40] INFO root fetch - main [MainThread]: Store serial: [22618381]
