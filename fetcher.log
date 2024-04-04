@@ -10708,3 +10708,59 @@
 [2024-04-04 04:55:17] INFO root fetch - processPackages [FreeSimpleGUIQt]: Remove: archive file [/home/abi/fetcher/tmp/FreeSimpleGUIQt-1.0.0rc1.tar.gz]
 [2024-04-04 04:55:17] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUIQt]: success
 [2024-04-04 04:55:17] INFO root fetch - main [MainThread]: Store serial: [22614939]
+[2024-04-04 04:57:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614939]
+[2024-04-04 04:57:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 04:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: curlquest
+[2024-04-04 04:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-move-so-import
+[2024-04-04 04:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hspylib-clitt
+[2024-04-04 04:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: curlquest
+[2024-04-04 04:57:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qdx-py
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-04 04:57:28] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: New version: [16.0.1.0.0.1] Old Version: [16.0.1.0.0]
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: New version: [0.1.0] Old Version: [0.0.3]
+[2024-04-04 04:57:28] INFO root fetch - processPackages [qdx-py]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-04 04:57:28] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.98] Old Version: [0.9.97]
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/32/ff/41423eb236a4e656a1e40aaeb38f9675fd0e62f0ffadaf6593068a87193d/curlquest-0.0.3.tar.gz
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/32/ff/41423eb236a4e656a1e40aaeb38f9675fd0e62f0ffadaf6593068a87193d/curlquest-0.0.3.tar.gz
+[2024-04-04 04:57:28] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/a5/6e/770851279a1231e6148aa2efce49324900cc1156ecb1b6d0e9b3a83e241b/hspylib-clitt-0.9.97.tar.gz
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 04:57:28] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/9b/be/0a06abc30b456cf6bfcea4f6028fa3b5acaef4a59cd9a7cabe0ac6d44f47/qdx_py-0.7.1.tar.gz
+[2024-04-04 04:57:28] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/9a/7d/43c37dc122b061148f615950447dd31f12dae2c566f0e565a4ff86b762ed/odoo_addon_account_move_so_import-16.0.1.0.0-py3-none-any.whl
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [hspylib-clitt]: Timeout reached during download
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/88/78/220357049ca4dc4bf12fca7aecc8db278bb02c80d6fb2070bb6417e0e577/curlquest-0.1.0.tar.gz
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/88/78/220357049ca4dc4bf12fca7aecc8db278bb02c80d6fb2070bb6417e0e577/curlquest-0.1.0.tar.gz
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [odoo-addon-account-move-so-import]: Timeout reached during download
+[2024-04-04 04:57:28] INFO root fetch - processPackages [hspylib-clitt]: Downloading https://files.pythonhosted.org/packages/b2/48/af5284ac733b0c159a82940a2b450546c61b54d0aec3768dd58557b3542d/hspylib-clitt-0.9.98.tar.gz
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: executing diffoscope
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curlquest-0.0.3.tar.gz tmp/curlquest-0.1.0.tar.gz --markdown 20240404/c/curlquest/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 04:57:28] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: executing diffoscope
+[2024-04-04 04:57:28] INFO root fetch - processPackages [curlquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curlquest-0.0.3.tar.gz tmp/curlquest-0.1.0.tar.gz --markdown 20240404/c/curlquest/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 04:57:29] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/42/ee/eaaaf2a73a6e514d9e8f98b81c6d9be5110632bb5bf37f49df0af6fc727f/qdx_py-0.8.0.tar.gz
+[2024-04-04 04:57:29] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Downloading https://files.pythonhosted.org/packages/c8/cf/679f5a0dc5b1fbf6ef98477962446e5459a31ef07735caf101dc7c606413/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-04 04:57:29] WARNING root fetch - processPackages [hspylib-clitt]: Timeout reached during download
+[2024-04-04 04:57:29] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2024-04-04 04:57:29] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.97.tar.gz tmp/hspylib-clitt-0.9.98.tar.gz --markdown 20240404/h/hspylib-clitt/0.9.97-0.9.98/diff.md --exclude *.pyd
+[2024-04-04 04:57:29] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-04 04:57:29] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-04 04:57:29] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.7.1.tar.gz tmp/qdx_py-0.8.0.tar.gz --markdown 20240404/q/qdx-py/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-04 04:57:29] WARNING root fetch - processPackages [odoo-addon-account-move-so-import]: Timeout reached during download
+[2024-04-04 04:57:29] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: executing diffoscope
+[2024-04-04 04:57:29] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_move_so_import-16.0.1.0.0-py3-none-any.whl.zip tmp/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-account-move-so-import/16.0.1.0.0-16.0.1.0.0.1/diff.md --exclude *.pyd
+[2024-04-04 04:57:29] INFO root fetch - processPackages [curlquest]: Remove: archive file [/home/abi/fetcher/tmp/curlquest-0.0.3.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - processPackages [curlquest]: Remove: archive file [/home/abi/fetcher/tmp/curlquest-0.1.0.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: End processing [curlquest]: success
+[2024-04-04 04:57:29] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.7.1.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.0.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: End processing [curlquest]: success
+[2024-04-04 04:57:29] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0-py3-none-any.whl.zip]
+[2024-04-04 04:57:29] INFO root fetch - processPackages [odoo-addon-account-move-so-import]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_move_so_import-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-move-so-import]: success
+[2024-04-04 04:57:29] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.97.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.98.tar.gz]
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2024-04-04 04:57:29] INFO root fetch - main [MainThread]: Store serial: [22614955]
