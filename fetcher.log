@@ -14046,3 +14046,33 @@
 [2024-04-04 07:57:32] INFO root fetch - processPackages [sirji-tools]: Remove: archive file [/home/abi/fetcher/tmp/sirji-tools-0.0.3.tar.gz]
 [2024-04-04 07:57:32] INFO root fetch - main [MainThread]: End processing [sirji-tools]: success
 [2024-04-04 07:57:32] INFO root fetch - main [MainThread]: Store serial: [22616040]
+[2024-04-04 07:59:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616040]
+[2024-04-04 07:59:40] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 07:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymobiledevice3
+[2024-04-04 07:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirji-agents
+[2024-04-04 07:59:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fast-test-database
+[2024-04-04 07:59:41] INFO root fetch - processPackages [sirji-agents]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 07:59:41] INFO root fetch - processPackages [pymobiledevice3]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-04 07:59:41] INFO root fetch - processPackages [fast-test-database]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-04 07:59:41] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/84/08/956e8d95d060ab04ad4d5a3abebee09cb87565ceed7b757e51a533bfd3f0/pymobiledevice3-3.1.0.tar.gz
+[2024-04-04 07:59:41] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/2b/c3/180ffa9d34d93e7e14af4569d070734230a9c0e3e1e1bdce78e35eaaec53/sirji-agents-0.0.2.tar.gz
+[2024-04-04 07:59:41] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31538619>=10485760
+[2024-04-04 07:59:41] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-04 07:59:41] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-04 07:59:41] INFO root fetch - processPackages [fast-test-database]: Downloading https://files.pythonhosted.org/packages/d5/17/1f664b08ac768f5106e83baa7e8960a08bfa90fa759afe05ad9763ef825b/fast_test_database-0.2.1.tar.gz
+[2024-04-04 07:59:41] WARNING root fetch - processPackages [fast-test-database]: Timeout reached during download
+[2024-04-04 07:59:41] INFO root fetch - processPackages [sirji-agents]: Downloading https://files.pythonhosted.org/packages/9d/5a/40a19bc5981ff07e50bb19b4e0de9b52e50a71362d03dc68bdb91d902e0b/sirji-agents-0.0.3.tar.gz
+[2024-04-04 07:59:41] WARNING root fetch - processPackages [sirji-agents]: Timeout reached during download
+[2024-04-04 07:59:41] INFO root fetch - processPackages [sirji-agents]: executing diffoscope
+[2024-04-04 07:59:41] INFO root fetch - processPackages [sirji-agents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-agents-0.0.2.tar.gz tmp/sirji-agents-0.0.3.tar.gz --markdown 20240404/s/sirji-agents/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 07:59:41] INFO root fetch - processPackages [fast-test-database]: Downloading https://files.pythonhosted.org/packages/0b/e4/79c0adfbfe234ad1bbebec6febd02ef1b919e47eb7f30cfb9fea288211c1/fast_test_database-0.2.2.tar.gz
+[2024-04-04 07:59:41] WARNING root fetch - processPackages [fast-test-database]: Timeout reached during download
+[2024-04-04 07:59:41] INFO root fetch - processPackages [fast-test-database]: executing diffoscope
+[2024-04-04 07:59:41] INFO root fetch - processPackages [fast-test-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_test_database-0.2.1.tar.gz tmp/fast_test_database-0.2.2.tar.gz --markdown 20240404/f/fast-test-database/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-04 07:59:42] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.2.tar.gz]
+[2024-04-04 07:59:42] INFO root fetch - processPackages [sirji-agents]: Remove: archive file [/home/abi/fetcher/tmp/sirji-agents-0.0.3.tar.gz]
+[2024-04-04 07:59:42] INFO root fetch - main [MainThread]: End processing [sirji-agents]: success
+[2024-04-04 07:59:42] INFO root fetch - processPackages [fast-test-database]: Remove: archive file [/home/abi/fetcher/tmp/fast_test_database-0.2.1.tar.gz]
+[2024-04-04 07:59:42] INFO root fetch - processPackages [fast-test-database]: Remove: archive file [/home/abi/fetcher/tmp/fast_test_database-0.2.2.tar.gz]
+[2024-04-04 07:59:42] INFO root fetch - main [MainThread]: End processing [fast-test-database]: success
+[2024-04-04 07:59:42] INFO root fetch - main [MainThread]: Store serial: [22616049]
