@@ -12216,3 +12216,28 @@
 [2024-04-04 06:26:58] WARNING root fetch - processPackages [bifipy]: Skipping, unable to determine old version
 [2024-04-04 06:26:58] INFO root fetch - main [MainThread]: End processing [bifipy] error
 [2024-04-04 06:26:58] INFO root fetch - main [MainThread]: Store serial: [22615447]
+[2024-04-04 06:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615447]
+[2024-04-04 06:29:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 06:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defect-detection
+[2024-04-04 06:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gink
+[2024-04-04 06:29:06] INFO root fetch - processPackages [defect-detection]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 06:29:06] INFO root fetch - processPackages [gink]: New version: [0.20240404.1712204855] Old Version: [0.20240404.1712197692]
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: Downloading https://files.pythonhosted.org/packages/06/ce/2cf9a0ebda363967dc73e372b60b46346e1ebcb3242ab910856e9e6d4d0e/defect_detection-0.2.2.tar.gz
+[2024-04-04 06:29:07] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/7a/b6/ad0b8f3a0937955c2c5499c84b5817052919a3e209ced9272dc531e92ee9/gink-0.20240404.1712197692.tar.gz
+[2024-04-04 06:29:07] WARNING root fetch - processPackages [defect-detection]: Timeout reached during download
+[2024-04-04 06:29:07] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: Downloading https://files.pythonhosted.org/packages/52/3f/095d065cfca79a55508c86ec92993cca3129a9eef124a2921982dedc4aef/defect_detection-0.2.3.tar.gz
+[2024-04-04 06:29:07] INFO root fetch - processPackages [gink]: Downloading https://files.pythonhosted.org/packages/5d/08/4389a2cd104be3a3167215662524a9ceb3fb3301bcd31368d17fd76ae9d4/gink-0.20240404.1712204855.tar.gz
+[2024-04-04 06:29:07] WARNING root fetch - processPackages [defect-detection]: Timeout reached during download
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: executing diffoscope
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defect_detection-0.2.2.tar.gz tmp/defect_detection-0.2.3.tar.gz --markdown 20240404/d/defect-detection/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 06:29:07] WARNING root fetch - processPackages [gink]: Timeout reached during download
+[2024-04-04 06:29:07] INFO root fetch - processPackages [gink]: executing diffoscope
+[2024-04-04 06:29:07] INFO root fetch - processPackages [gink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gink-0.20240404.1712197692.tar.gz tmp/gink-0.20240404.1712204855.tar.gz --markdown 20240404/g/gink/0.20240404.1712197692-0.20240404.1712204855/diff.md --exclude *.pyd
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: Remove: archive file [/home/abi/fetcher/tmp/defect_detection-0.2.2.tar.gz]
+[2024-04-04 06:29:07] INFO root fetch - processPackages [defect-detection]: Remove: archive file [/home/abi/fetcher/tmp/defect_detection-0.2.3.tar.gz]
+[2024-04-04 06:29:07] INFO root fetch - main [MainThread]: End processing [defect-detection]: success
+[2024-04-04 06:29:08] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240404.1712197692.tar.gz]
+[2024-04-04 06:29:08] INFO root fetch - processPackages [gink]: Remove: archive file [/home/abi/fetcher/tmp/gink-0.20240404.1712204855.tar.gz]
+[2024-04-04 06:29:08] INFO root fetch - main [MainThread]: End processing [gink]: success
+[2024-04-04 06:29:08] INFO root fetch - main [MainThread]: Store serial: [22615453]
