@@ -13646,3 +13646,55 @@
 [2024-04-04 07:37:48] INFO root fetch - processPackages [inspeqai]: Remove: archive file [/home/abi/fetcher/tmp/inspeqai-1.0.9.tar.gz]
 [2024-04-04 07:37:48] INFO root fetch - main [MainThread]: End processing [inspeqai]: success
 [2024-04-04 07:37:48] INFO root fetch - main [MainThread]: Store serial: [22615911]
+[2024-04-04 07:39:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615911]
+[2024-04-04 07:39:57] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DragonLog
+[2024-04-04 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libre-fastapi-jwt
+[2024-04-04 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiotgm
+[2024-04-04 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymobiledevice3
+[2024-04-04 07:39:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-rma
+[2024-04-04 07:39:57] INFO root fetch - processPackages [aiotgm]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-04 07:39:57] INFO root fetch - processPackages [DragonLog]: New version: [1.0] Old Version: [0.8.1]
+[2024-04-04 07:39:57] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.21.5] Old Version: [0.21.4]
+[2024-04-04 07:39:57] INFO root fetch - processPackages [pymobiledevice3]: New version: [3.1.0] Old Version: [3.0.3]
+[2024-04-04 07:39:57] INFO root fetch - processPackages [odoo12-addon-rma]: New version: [12.0.2.6.0.99.dev9] Old Version: [12.0.2.6.0.99.dev8]
+[2024-04-04 07:39:57] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/db/ae/16bf8033062cdf07e3736d36250b417ad4d12bc9b1f49ac9e249395580f8/aiotgm-0.3.2.tar.gz
+[2024-04-04 07:39:57] INFO root fetch - processPackages [DragonLog]: Downloading https://files.pythonhosted.org/packages/18/1f/d9d423feb9fb9115e9f88dfd354855071ece97a38b0c30c0e5eed710473b/DragonLog-0.8.1.tar.gz
+[2024-04-04 07:39:57] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/b7/5f/79ba49098ed2a7fd0952e61d50ba9a12b587f309b37cef6d328f2e238dd6/libre_fastapi_jwt-0.21.4.tar.gz
+[2024-04-04 07:39:57] INFO root fetch - processPackages [pymobiledevice3]: Downloading https://files.pythonhosted.org/packages/6f/6b/78caf7eee90c30e769d6e05a4cea45b39b0913c75306a44d2b48d6551565/pymobiledevice3-3.0.3.tar.gz
+[2024-04-04 07:39:57] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/fa/e8/85f798f4ad4c605d500e23bcbd84d35e21e0886b828f0f2d73b2718b0286/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl
+[2024-04-04 07:39:57] WARNING root fetch - processPackages [pymobiledevice3]: Skipping package: exceeds size limit 31538452>=10485760
+[2024-04-04 07:39:57] INFO root fetch - main [MainThread]: End processing [pymobiledevice3] error
+[2024-04-04 07:39:57] WARNING root fetch - processPackages [aiotgm]: Timeout reached during download
+[2024-04-04 07:39:57] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 07:39:57] WARNING root fetch - processPackages [odoo12-addon-rma]: Timeout reached during download
+[2024-04-04 07:39:58] WARNING root fetch - processPackages [DragonLog]: Timeout reached during download
+[2024-04-04 07:39:58] INFO root fetch - processPackages [aiotgm]: Downloading https://files.pythonhosted.org/packages/ba/63/c08f91c0f65ac7a7c3bbfb44ddd4e2bf20663e5351185e3b3913b126dba0/aiotgm-0.3.3.tar.gz
+[2024-04-04 07:39:58] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/5d/af/07756308b7b3647a5ecf5ec94445cb2f699c823e2fa53b5c2483e3465e2a/libre_fastapi_jwt-0.21.5.tar.gz
+[2024-04-04 07:39:58] INFO root fetch - processPackages [DragonLog]: Downloading https://files.pythonhosted.org/packages/db/b7/a7f02b0e1b75084f2973c928f6e1105291b10820baec80b0457a3f2a63ef/DragonLog-1.0.tar.gz
+[2024-04-04 07:39:58] WARNING root fetch - processPackages [aiotgm]: Timeout reached during download
+[2024-04-04 07:39:58] INFO root fetch - processPackages [aiotgm]: executing diffoscope
+[2024-04-04 07:39:58] INFO root fetch - processPackages [aiotgm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotgm-0.3.2.tar.gz tmp/aiotgm-0.3.3.tar.gz --markdown 20240404/a/aiotgm/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-04 07:39:58] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 07:39:58] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2024-04-04 07:39:58] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.21.4.tar.gz tmp/libre_fastapi_jwt-0.21.5.tar.gz --markdown 20240404/l/libre-fastapi-jwt/0.21.4-0.21.5/diff.md --exclude *.pyd
+[2024-04-04 07:39:58] INFO root fetch - processPackages [odoo12-addon-rma]: Downloading https://files.pythonhosted.org/packages/ff/6b/807cd5cc8b55054db429d0cca4c01ba905e18261081cd6df7b9cfc2c8981/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl
+[2024-04-04 07:39:58] WARNING root fetch - processPackages [DragonLog]: Timeout reached during download
+[2024-04-04 07:39:58] INFO root fetch - processPackages [DragonLog]: executing diffoscope
+[2024-04-04 07:39:58] INFO root fetch - processPackages [DragonLog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DragonLog-0.8.1.tar.gz tmp/DragonLog-1.0.tar.gz --markdown 20240404/D/DragonLog/0.8.1-1.0/diff.md --exclude *.pyd
+[2024-04-04 07:39:58] WARNING root fetch - processPackages [odoo12-addon-rma]: Timeout reached during download
+[2024-04-04 07:39:58] INFO root fetch - processPackages [odoo12-addon-rma]: executing diffoscope
+[2024-04-04 07:39:58] INFO root fetch - processPackages [odoo12-addon-rma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo12-addon-rma/12.0.2.6.0.99.dev8-12.0.2.6.0.99.dev9/diff.md --exclude *.pyd
+[2024-04-04 07:39:58] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.21.4.tar.gz]
+[2024-04-04 07:39:58] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.21.5.tar.gz]
+[2024-04-04 07:39:58] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2024-04-04 07:39:59] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.2.tar.gz]
+[2024-04-04 07:39:59] INFO root fetch - processPackages [aiotgm]: Remove: archive file [/home/abi/fetcher/tmp/aiotgm-0.3.3.tar.gz]
+[2024-04-04 07:39:59] INFO root fetch - main [MainThread]: End processing [aiotgm]: success
+[2024-04-04 07:39:59] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev8-py3-none-any.whl.zip]
+[2024-04-04 07:39:59] INFO root fetch - processPackages [odoo12-addon-rma]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_rma-12.0.2.6.0.99.dev9-py3-none-any.whl.zip]
+[2024-04-04 07:39:59] INFO root fetch - main [MainThread]: End processing [odoo12-addon-rma]: success
+[2024-04-04 07:39:59] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/DragonLog-0.8.1.tar.gz]
+[2024-04-04 07:39:59] INFO root fetch - processPackages [DragonLog]: Remove: archive file [/home/abi/fetcher/tmp/DragonLog-1.0.tar.gz]
+[2024-04-04 07:39:59] INFO root fetch - main [MainThread]: End processing [DragonLog]: success
+[2024-04-04 07:39:59] INFO root fetch - main [MainThread]: Store serial: [22615925]
