@@ -17916,3 +17916,42 @@
 [2024-04-04 10:34:54] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
 [2024-04-04 10:34:54] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
 [2024-04-04 10:34:54] INFO root fetch - main [MainThread]: Store serial: [22617248]
+[2024-04-04 10:36:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617248]
+[2024-04-04 10:37:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anyh
+[2024-04-04 10:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: undertext
+[2024-04-04 10:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaxsim
+[2024-04-04 10:37:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nodoc
+[2024-04-04 10:37:03] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-04 10:37:03] INFO root fetch - processPackages [nodoc]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-04 10:37:03] WARNING root fetch - processPackages [anyh]: Skipping, unable to determine old version
+[2024-04-04 10:37:03] INFO root fetch - main [MainThread]: End processing [anyh] error
+[2024-04-04 10:37:03] INFO root fetch - processPackages [undertext]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-04 10:37:03] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-04 10:37:03] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/29/48/214cddc697387896c19c79ce56ed68fed33485d2a806d3954da0d03a09f1/nodoc-1.0.6.tar.gz
+[2024-04-04 10:37:03] INFO root fetch - processPackages [undertext]: Downloading https://files.pythonhosted.org/packages/9e/73/9a8abc5381ce32d2d74150cb4e40ba86c3dfa3ebc869fb0591578e84659b/undertext-0.2.0.tar.gz
+[2024-04-04 10:37:03] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:37:03] WARNING root fetch - processPackages [jaxsim]: Timeout reached during download
+[2024-04-04 10:37:03] WARNING root fetch - processPackages [undertext]: Timeout reached during download
+[2024-04-04 10:37:04] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/19/b4/c3830df7b99828cf1c3edc3b74cd76e348f66b2b22faf9957dca13413496/nodoc-1.0.7.tar.gz
+[2024-04-04 10:37:04] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-04 10:37:04] INFO root fetch - processPackages [undertext]: Downloading https://files.pythonhosted.org/packages/74/89/19afcda0e50f40ecaf02f0b36cb3292128bdd061ea377e991e89437f846e/undertext-0.3.0.tar.gz
+[2024-04-04 10:37:04] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:37:04] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:37:04] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.6.tar.gz tmp/nodoc-1.0.7.tar.gz --markdown 20240404/n/nodoc/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-04 10:37:04] WARNING root fetch - processPackages [jaxsim]: Timeout reached during download
+[2024-04-04 10:37:04] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-04 10:37:04] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240404/j/jaxsim/0.2.dev87-0.2.dev92/diff.md --exclude *.pyd
+[2024-04-04 10:37:04] WARNING root fetch - processPackages [undertext]: Timeout reached during download
+[2024-04-04 10:37:04] INFO root fetch - processPackages [undertext]: executing diffoscope
+[2024-04-04 10:37:04] INFO root fetch - processPackages [undertext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undertext-0.2.0.tar.gz tmp/undertext-0.3.0.tar.gz --markdown 20240404/u/undertext/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 10:37:04] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.6.tar.gz]
+[2024-04-04 10:37:04] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.7.tar.gz]
+[2024-04-04 10:37:04] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:37:04] INFO root fetch - processPackages [undertext]: Remove: archive file [/home/abi/fetcher/tmp/undertext-0.2.0.tar.gz]
+[2024-04-04 10:37:04] INFO root fetch - processPackages [undertext]: Remove: archive file [/home/abi/fetcher/tmp/undertext-0.3.0.tar.gz]
+[2024-04-04 10:37:04] INFO root fetch - main [MainThread]: End processing [undertext]: success
+[2024-04-04 10:37:05] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-04 10:37:05] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-04 10:37:05] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-04 10:37:05] INFO root fetch - main [MainThread]: Store serial: [22617258]
