@@ -20805,3 +20805,50 @@
 [2024-04-04 12:13:23] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.1.0.tar.gz]
 [2024-04-04 12:13:23] INFO root fetch - main [MainThread]: End processing [DebugInfo]: success
 [2024-04-04 12:13:23] INFO root fetch - main [MainThread]: Store serial: [22618280]
+[2024-04-04 12:15:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618280]
+[2024-04-04 12:15:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ydb
+[2024-04-04 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyFaceCrop
+[2024-04-04 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: monthify
+[2024-04-04 12:15:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vvm-lib
+[2024-04-04 12:15:33] INFO root fetch - processPackages [vvm-lib]: New version: [0.2] Old Version: [0.1]
+[2024-04-04 12:15:33] INFO root fetch - processPackages [monthify]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-04 12:15:33] INFO root fetch - processPackages [ydb]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-04 12:15:33] INFO root fetch - processPackages [PyFaceCrop]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 12:15:33] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/cf/a9/d05fba20d4899ae94eba4f8941373fa6739b7ee5dbc7a810e79b24e27b84/vvm_lib-0.1.tar.gz
+[2024-04-04 12:15:33] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/0a/3c/f249f5dc2632358cc6844385da7407d3be48c04cedc402aef957a58ca929/PyFaceCrop-0.0.2.tar.gz
+[2024-04-04 12:15:34] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/22/2b/e63e7ab27d09bb5aa541ce3a6eaded5f840b150a15e16d692b255d41a4b2/ydb-3.9.0.tar.gz
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [vvm-lib]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/da/89/1e62d53876052231007e9d62f8b9a907503442c8163c67a066b6ce192e88/monthify-0.4.8.tar.gz
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [ydb]: Timeout reached during download
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [monthify]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/0a/08/b62aede518206f12aabc0df3ef640e1c83807274abd30eb07be11c8ef84d/PyFaceCrop-0.0.3.tar.gz
+[2024-04-04 12:15:34] INFO root fetch - processPackages [vvm-lib]: Downloading https://files.pythonhosted.org/packages/2a/e0/6e469c8ba5e240355dc8358f5a776b3ece5c63a88c13bff13e5f61ca8cf0/vvm_lib-0.2.tar.gz
+[2024-04-04 12:15:34] INFO root fetch - processPackages [monthify]: Downloading https://files.pythonhosted.org/packages/a3/ba/353b9036e6bff2a5c6b1652fe703884d7797d72bacdb540c9a85731488e6/monthify-0.4.9.tar.gz
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [PyFaceCrop]: executing diffoscope
+[2024-04-04 12:15:34] INFO root fetch - processPackages [PyFaceCrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFaceCrop-0.0.2.tar.gz tmp/PyFaceCrop-0.0.3.tar.gz --markdown 20240404/P/PyFaceCrop/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 12:15:34] INFO root fetch - processPackages [ydb]: Downloading https://files.pythonhosted.org/packages/8a/b2/3fe260eb753c63f41a7c1da4478185d8d2a7eee1b69da77fb5277d1e45a5/ydb-3.9.1.tar.gz
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [vvm-lib]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [vvm-lib]: executing diffoscope
+[2024-04-04 12:15:34] INFO root fetch - processPackages [vvm-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vvm_lib-0.1.tar.gz tmp/vvm_lib-0.2.tar.gz --markdown 20240404/v/vvm-lib/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [monthify]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [monthify]: executing diffoscope
+[2024-04-04 12:15:34] INFO root fetch - processPackages [monthify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monthify-0.4.8.tar.gz tmp/monthify-0.4.9.tar.gz --markdown 20240404/m/monthify/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-04 12:15:34] WARNING root fetch - processPackages [ydb]: Timeout reached during download
+[2024-04-04 12:15:34] INFO root fetch - processPackages [ydb]: executing diffoscope
+[2024-04-04 12:15:34] INFO root fetch - processPackages [ydb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydb-3.9.0.tar.gz tmp/ydb-3.9.1.tar.gz --markdown 20240404/y/ydb/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-04 12:15:34] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.2.tar.gz]
+[2024-04-04 12:15:34] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.3.tar.gz]
+[2024-04-04 12:15:34] INFO root fetch - main [MainThread]: End processing [PyFaceCrop]: success
+[2024-04-04 12:15:35] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-0.1.tar.gz]
+[2024-04-04 12:15:35] INFO root fetch - processPackages [vvm-lib]: Remove: archive file [/home/abi/fetcher/tmp/vvm_lib-0.2.tar.gz]
+[2024-04-04 12:15:35] INFO root fetch - main [MainThread]: End processing [vvm-lib]: success
+[2024-04-04 12:15:35] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.4.8.tar.gz]
+[2024-04-04 12:15:35] INFO root fetch - processPackages [monthify]: Remove: archive file [/home/abi/fetcher/tmp/monthify-0.4.9.tar.gz]
+[2024-04-04 12:15:35] INFO root fetch - main [MainThread]: End processing [monthify]: success
+[2024-04-04 12:15:36] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.0.tar.gz]
+[2024-04-04 12:15:36] INFO root fetch - processPackages [ydb]: Remove: archive file [/home/abi/fetcher/tmp/ydb-3.9.1.tar.gz]
+[2024-04-04 12:15:36] INFO root fetch - main [MainThread]: End processing [ydb]: success
+[2024-04-04 12:15:36] INFO root fetch - main [MainThread]: Store serial: [22618292]
