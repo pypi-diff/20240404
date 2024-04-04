@@ -4033,3 +4033,20 @@
 [2024-04-04 02:29:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.96.tar.gz]
 [2024-04-04 02:29:24] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
 [2024-04-04 02:29:24] INFO root fetch - main [MainThread]: Store serial: [22612914]
+[2024-04-04 02:31:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612914]
+[2024-04-04 02:31:32] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aeppl-nightly
+[2024-04-04 02:31:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: srt-trans
+[2024-04-04 02:31:32] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240404] Old Version: [0.1.5.dev20240403]
+[2024-04-04 02:31:32] WARNING root fetch - processPackages [srt-trans]: Skipping, unable to determine old version
+[2024-04-04 02:31:32] INFO root fetch - main [MainThread]: End processing [srt-trans] error
+[2024-04-04 02:31:33] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/03/ce/7bce5f7e4d0290cdf6a5c484b07e99b36fad456ed714e7c2bb215fd6d071/aeppl-nightly-0.1.5.dev20240403.tar.gz
+[2024-04-04 02:31:33] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-04 02:31:33] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/1e/48/99deb6c7a6f593f989385ea96d68050dcbaf4d66a9eb11e31c3d1480f3fb/aeppl-nightly-0.1.5.dev20240404.tar.gz
+[2024-04-04 02:31:33] WARNING root fetch - processPackages [aeppl-nightly]: Timeout reached during download
+[2024-04-04 02:31:33] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-04 02:31:33] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240403.tar.gz tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz --markdown 20240404/a/aeppl-nightly/0.1.5.dev20240403-0.1.5.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240403.tar.gz]
+[2024-04-04 02:31:34] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240404.tar.gz]
+[2024-04-04 02:31:34] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-04 02:31:34] INFO root fetch - main [MainThread]: Store serial: [22612921]
