@@ -13867,3 +13867,77 @@
 [2024-04-04 07:48:47] INFO root fetch - processPackages [tm-devices]: Remove: archive file [/home/abi/fetcher/tmp/tm_devices-1.3.0.tar.gz]
 [2024-04-04 07:48:47] INFO root fetch - main [MainThread]: End processing [tm-devices]: success
 [2024-04-04 07:48:47] INFO root fetch - main [MainThread]: Store serial: [22615966]
+[2024-04-04 07:50:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615966]
+[2024-04-04 07:50:56] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 07:52:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615966]
+[2024-04-04 07:53:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shopyo
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vector-vault
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tendril-structures-imageset
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dj-userlog
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-db2fori
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pynxtools-mpes
+[2024-04-04 07:53:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: danbi
+[2024-04-04 07:53:02] INFO root fetch - processPackages [tendril-structures-imageset]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 07:53:02] INFO root fetch - processPackages [shopyo]: New version: [4.9.4] Old Version: [4.9.3]
+[2024-04-04 07:53:02] INFO root fetch - processPackages [danbi]: New version: [0.2.188] Old Version: [0.2.187]
+[2024-04-04 07:53:02] INFO root fetch - processPackages [dbt-db2fori]: New version: [1.7.7] Old Version: [1.4.5]
+[2024-04-04 07:53:02] INFO root fetch - processPackages [vector-vault]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-04-04 07:53:02] INFO root fetch - processPackages [pynxtools-mpes]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [dj-userlog]: Skipping, unable to determine old version
+[2024-04-04 07:53:02] INFO root fetch - main [MainThread]: End processing [dj-userlog] error
+[2024-04-04 07:53:02] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/10/82/5b02611d9e21b13339000c71ddca8801ddf77ec73a62f507bf0bdc4f64ca/tendril-structures-imageset-0.1.2.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/76/95/09dcff46de8650b252bb4baf3217005b3689de6eb410169c2634b9d4bf15/danbi-0.2.187.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [shopyo]: Downloading https://files.pythonhosted.org/packages/b5/b2/10978c89c76bc9ccceec35f55c2dd2f0431823d088adafc923cc09220567/shopyo-4.9.3.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/44/41/9b023562620011701a0ae97d16d68ba2272ba84f0b18da71156e5cc3af4c/vector_vault-4.3.0.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/fd/86/e1a40b618d070e04f47b31dc0dc32988d17227f11376ff04954071ab8445/dbt_db2fori-1.4.5.tar.gz
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [pynxtools-mpes]: Downloading https://files.pythonhosted.org/packages/0c/f6/b8f647b37ecf8e908cb3905a279b13728c70853b15a85d08d016bfd92d2a/pynxtools-mpes-0.0.1.tar.gz
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/81/85/c1ec73bbe5a85c78a4b700173a0735b7646b29d8a7194a648615d38b56bd/danbi-0.2.188.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [tendril-structures-imageset]: Downloading https://files.pythonhosted.org/packages/4d/28/bddbb4ecf1b050a1df0083cb4ef50d7e7f40baa718ba0d08cfba6b143f04/tendril-structures-imageset-0.1.3.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/d1/ff/e495da4d9b187e51dc7713e34b0acb0d97135ac17c50208828264ba300fb/vector_vault-4.3.1.tar.gz
+[2024-04-04 07:53:02] INFO root fetch - processPackages [dbt-db2fori]: Downloading https://files.pythonhosted.org/packages/4c/fc/0233f91e93e3a753ae4ca80564683d0015860abe7cd6e0c63b2c09d4e3a6/dbt_db2fori-1.7.7.tar.gz
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-04 07:53:02] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.3.0.tar.gz tmp/vector_vault-4.3.1.tar.gz --markdown 20240404/v/vector-vault/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 07:53:02] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.187.tar.gz tmp/danbi-0.2.188.tar.gz --markdown 20240404/d/danbi/0.2.187-0.2.188/diff.md --exclude *.pyd
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [tendril-structures-imageset]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [tendril-structures-imageset]: executing diffoscope
+[2024-04-04 07:53:02] INFO root fetch - processPackages [tendril-structures-imageset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-structures-imageset-0.1.2.tar.gz tmp/tendril-structures-imageset-0.1.3.tar.gz --markdown 20240404/t/tendril-structures-imageset/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 07:53:02] WARNING root fetch - processPackages [dbt-db2fori]: Timeout reached during download
+[2024-04-04 07:53:02] INFO root fetch - processPackages [dbt-db2fori]: executing diffoscope
+[2024-04-04 07:53:02] INFO root fetch - processPackages [dbt-db2fori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_db2fori-1.4.5.tar.gz tmp/dbt_db2fori-1.7.7.tar.gz --markdown 20240404/d/dbt-db2fori/1.4.5-1.7.7/diff.md --exclude *.pyd
+[2024-04-04 07:53:03] WARNING root fetch - processPackages [shopyo]: Timeout reached during download
+[2024-04-04 07:53:03] INFO root fetch - processPackages [shopyo]: Downloading https://files.pythonhosted.org/packages/41/ed/58bd2043f23b678bd30a009b928480505ddcaa1f2676f9208b8c1946365b/shopyo-4.9.4.tar.gz
+[2024-04-04 07:53:03] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.0.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.1.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-04 07:53:03] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.2.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - processPackages [tendril-structures-imageset]: Remove: archive file [/home/abi/fetcher/tmp/tendril-structures-imageset-0.1.3.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - main [MainThread]: End processing [tendril-structures-imageset]: success
+[2024-04-04 07:53:03] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.4.5.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - processPackages [dbt-db2fori]: Remove: archive file [/home/abi/fetcher/tmp/dbt_db2fori-1.7.7.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - main [MainThread]: End processing [dbt-db2fori]: success
+[2024-04-04 07:53:03] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.187.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.188.tar.gz]
+[2024-04-04 07:53:03] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 07:53:04] WARNING root fetch - processPackages [shopyo]: Timeout reached during download
+[2024-04-04 07:53:04] INFO root fetch - processPackages [shopyo]: executing diffoscope
+[2024-04-04 07:53:04] INFO root fetch - processPackages [shopyo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shopyo-4.9.3.tar.gz tmp/shopyo-4.9.4.tar.gz --markdown 20240404/s/shopyo/4.9.3-4.9.4/diff.md --exclude *.pyd
+[2024-04-04 07:53:04] WARNING root fetch - processPackages [pynxtools-mpes]: Timeout reached during download
+[2024-04-04 07:53:04] INFO root fetch - processPackages [pynxtools-mpes]: Downloading https://files.pythonhosted.org/packages/a3/22/a7ee7af736da3483d94f01d68a3f0f107eb0d8242552e199590294a116cf/pynxtools-mpes-0.0.2.tar.gz
+[2024-04-04 07:53:05] WARNING root fetch - processPackages [pynxtools-mpes]: Timeout reached during download
+[2024-04-04 07:53:05] INFO root fetch - processPackages [pynxtools-mpes]: executing diffoscope
+[2024-04-04 07:53:05] INFO root fetch - processPackages [pynxtools-mpes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynxtools-mpes-0.0.1.tar.gz tmp/pynxtools-mpes-0.0.2.tar.gz --markdown 20240404/p/pynxtools-mpes/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 07:53:05] INFO root fetch - processPackages [shopyo]: Remove: archive file [/home/abi/fetcher/tmp/shopyo-4.9.3.tar.gz]
+[2024-04-04 07:53:05] INFO root fetch - processPackages [shopyo]: Remove: archive file [/home/abi/fetcher/tmp/shopyo-4.9.4.tar.gz]
+[2024-04-04 07:53:05] INFO root fetch - main [MainThread]: End processing [shopyo]: success
+[2024-04-04 07:53:05] INFO root fetch - processPackages [pynxtools-mpes]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-mpes-0.0.1.tar.gz]
+[2024-04-04 07:53:05] INFO root fetch - processPackages [pynxtools-mpes]: Remove: archive file [/home/abi/fetcher/tmp/pynxtools-mpes-0.0.2.tar.gz]
+[2024-04-04 07:53:05] INFO root fetch - main [MainThread]: End processing [pynxtools-mpes]: success
+[2024-04-04 07:53:05] INFO root fetch - main [MainThread]: Store serial: [22615993]
