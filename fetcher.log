@@ -17594,3 +17594,50 @@
 [2024-04-04 10:19:30] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
 [2024-04-04 10:19:30] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-04-04 10:19:30] INFO root fetch - main [MainThread]: Store serial: [22617117]
+[2024-04-04 10:21:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617117]
+[2024-04-04 10:21:39] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 10:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyams-scheduler
+[2024-04-04 10:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: custom-cytomine-client
+[2024-04-04 10:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-04 10:21:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: charmcord
+[2024-04-04 10:21:39] INFO root fetch - processPackages [pyams-scheduler]: New version: [2.4.7] Old Version: [2.4.6]
+[2024-04-04 10:21:39] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 10:21:39] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 10:21:39] INFO root fetch - processPackages [charmcord]: New version: [0.24.2] Old Version: [0.24.1]
+[2024-04-04 10:21:40] INFO root fetch - processPackages [charmcord]: Downloading https://files.pythonhosted.org/packages/02/a8/0568dad71e46584e645b83a943759ce02c062ff1b534ac2fd82d946e0cb1/charmcord-0.24.1.tar.gz
+[2024-04-04 10:21:40] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/7d/5c/8a3d910280165305c75031f08c79cf82349086b2254bae64fbae59a405f9/custom_cytomine_client-0.0.6.tar.gz
+[2024-04-04 10:21:40] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-04 10:21:40] INFO root fetch - processPackages [pyams-scheduler]: Downloading https://files.pythonhosted.org/packages/62/bd/a19e4a73cfc76fac3a62a7f81276a9d1635a1e2f033c3001db71bdfb843d/pyams_scheduler-2.4.6.tar.gz
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [charmcord]: Timeout reached during download
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:21:40] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/cc/4a/e57bbcff788cd6790d5f54d0a212b486364fb4e6f705f5de77eef5b1135c/custom_cytomine_client-0.0.7.tar.gz
+[2024-04-04 10:21:40] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-04 10:21:40] INFO root fetch - processPackages [charmcord]: Downloading https://files.pythonhosted.org/packages/70/d0/5e005cd16d15161eb659fdd7eae062e69500c3613ac3ef695d5360b132c4/charmcord-0.24.2.tar.gz
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [pyams-scheduler]: Timeout reached during download
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:21:40] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:21:40] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.6.tar.gz tmp/custom_cytomine_client-0.0.7.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 10:21:40] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-04 10:21:40] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240404/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [charmcord]: Timeout reached during download
+[2024-04-04 10:21:40] INFO root fetch - processPackages [charmcord]: executing diffoscope
+[2024-04-04 10:21:40] INFO root fetch - processPackages [charmcord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charmcord-0.24.1.tar.gz tmp/charmcord-0.24.2.tar.gz --markdown 20240404/c/charmcord/0.24.1-0.24.2/diff.md --exclude *.pyd
+[2024-04-04 10:21:40] INFO root fetch - processPackages [pyams-scheduler]: Downloading https://files.pythonhosted.org/packages/e8/3b/46fef544757eeabc5e172aa8fc37fff983358e848f8abc7051577fda26fd/pyams_scheduler-2.4.7.tar.gz
+[2024-04-04 10:21:40] WARNING root fetch - processPackages [pyams-scheduler]: Timeout reached during download
+[2024-04-04 10:21:40] INFO root fetch - processPackages [pyams-scheduler]: executing diffoscope
+[2024-04-04 10:21:40] INFO root fetch - processPackages [pyams-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyams_scheduler-2.4.6.tar.gz tmp/pyams_scheduler-2.4.7.tar.gz --markdown 20240404/p/pyams-scheduler/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2024-04-04 10:21:41] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.6.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.7.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:21:41] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-04 10:21:41] INFO root fetch - processPackages [charmcord]: Remove: archive file [/home/abi/fetcher/tmp/charmcord-0.24.1.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - processPackages [charmcord]: Remove: archive file [/home/abi/fetcher/tmp/charmcord-0.24.2.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - main [MainThread]: End processing [charmcord]: success
+[2024-04-04 10:21:41] INFO root fetch - processPackages [pyams-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/pyams_scheduler-2.4.6.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - processPackages [pyams-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/pyams_scheduler-2.4.7.tar.gz]
+[2024-04-04 10:21:41] INFO root fetch - main [MainThread]: End processing [pyams-scheduler]: success
+[2024-04-04 10:21:41] INFO root fetch - main [MainThread]: Store serial: [22617130]
