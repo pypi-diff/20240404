@@ -10197,3 +10197,28 @@
 [2024-04-04 04:19:24] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20240403.tar.gz]
 [2024-04-04 04:19:24] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2024-04-04 04:19:24] INFO root fetch - main [MainThread]: Store serial: [22614787]
+[2024-04-04 04:21:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614787]
+[2024-04-04 04:21:34] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 04:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytypeworks
+[2024-04-04 04:21:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyvsc-dataclasses
+[2024-04-04 04:21:34] INFO root fetch - processPackages [pytypeworks]: New version: [0.1.0.8548343949] Old Version: [0.1.0.6515122072]
+[2024-04-04 04:21:34] INFO root fetch - processPackages [pyvsc-dataclasses]: New version: [0.0.1.8548344824] Old Version: [0.0.1.8360400915]
+[2024-04-04 04:21:34] INFO root fetch - processPackages [pytypeworks]: Downloading https://files.pythonhosted.org/packages/ca/25/b135493cf232c5dcb3e421b421da33b54c219c4dc60ddd36dc276b793e00/pytypeworks-0.1.0.6515122072-py2.py3-none-any.whl
+[2024-04-04 04:21:34] INFO root fetch - processPackages [pyvsc-dataclasses]: Downloading https://files.pythonhosted.org/packages/2a/02/3f4bce20c669f4a6fb2c655165f29c6d4c16b76db02ceb932523ca298f6f/pyvsc_dataclasses-0.0.1.8360400915-py2.py3-none-any.whl
+[2024-04-04 04:21:34] WARNING root fetch - processPackages [pytypeworks]: Timeout reached during download
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pytypeworks]: Downloading https://files.pythonhosted.org/packages/7f/f3/cc09cbf8bba364fda006554a43263d47757f6fbf7b60bd5164abdb83c60b/pytypeworks-0.1.0.8548343949-py2.py3-none-any.whl
+[2024-04-04 04:21:35] WARNING root fetch - processPackages [pyvsc-dataclasses]: Timeout reached during download
+[2024-04-04 04:21:35] WARNING root fetch - processPackages [pytypeworks]: Timeout reached during download
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pytypeworks]: executing diffoscope
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pytypeworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytypeworks-0.1.0.6515122072-py2.py3-none-any.whl.zip tmp/pytypeworks-0.1.0.8548343949-py2.py3-none-any.whl.zip --markdown 20240404/p/pytypeworks/0.1.0.6515122072-0.1.0.8548343949/diff.md --exclude *.pyd
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pyvsc-dataclasses]: Downloading https://files.pythonhosted.org/packages/ee/0d/f63a4fd742f252cb354ec03f2c2679fcac5905e242e223eed96b2ac99bc4/pyvsc_dataclasses-0.0.1.8548344824-py2.py3-none-any.whl
+[2024-04-04 04:21:35] WARNING root fetch - processPackages [pyvsc-dataclasses]: Timeout reached during download
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pyvsc-dataclasses]: executing diffoscope
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pyvsc-dataclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvsc_dataclasses-0.0.1.8360400915-py2.py3-none-any.whl.zip tmp/pyvsc_dataclasses-0.0.1.8548344824-py2.py3-none-any.whl.zip --markdown 20240404/p/pyvsc-dataclasses/0.0.1.8360400915-0.0.1.8548344824/diff.md --exclude *.pyd
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pytypeworks]: Remove: archive file [/home/abi/fetcher/tmp/pytypeworks-0.1.0.6515122072-py2.py3-none-any.whl.zip]
+[2024-04-04 04:21:35] INFO root fetch - processPackages [pytypeworks]: Remove: archive file [/home/abi/fetcher/tmp/pytypeworks-0.1.0.8548343949-py2.py3-none-any.whl.zip]
+[2024-04-04 04:21:35] INFO root fetch - main [MainThread]: End processing [pytypeworks]: success
+[2024-04-04 04:21:36] INFO root fetch - processPackages [pyvsc-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/pyvsc_dataclasses-0.0.1.8360400915-py2.py3-none-any.whl.zip]
+[2024-04-04 04:21:36] INFO root fetch - processPackages [pyvsc-dataclasses]: Remove: archive file [/home/abi/fetcher/tmp/pyvsc_dataclasses-0.0.1.8548344824-py2.py3-none-any.whl.zip]
+[2024-04-04 04:21:36] INFO root fetch - main [MainThread]: End processing [pyvsc-dataclasses]: success
+[2024-04-04 04:21:36] INFO root fetch - main [MainThread]: Store serial: [22614791]
