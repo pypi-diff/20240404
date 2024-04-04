@@ -15224,3 +15224,50 @@
 [2024-04-04 08:50:27] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
 [2024-04-04 08:50:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
 [2024-04-04 08:50:27] INFO root fetch - main [MainThread]: Store serial: [22616387]
+[2024-04-04 08:52:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616387]
+[2024-04-04 08:52:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 08:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-base-import-async
+[2024-04-04 08:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scraperapi-sdk
+[2024-04-04 08:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-creartramas
+[2024-04-04 08:52:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-queue-job
+[2024-04-04 08:52:37] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.2] Old Version: [2.1.0]
+[2024-04-04 08:52:37] INFO root fetch - processPackages [scraperapi-sdk]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-04 08:52:37] INFO root fetch - processPackages [odoo13-addon-base-import-async]: New version: [13.0.2.0.1.dev1] Old Version: [13.0.2.0.1]
+[2024-04-04 08:52:37] INFO root fetch - processPackages [odoo-addon-queue-job]: New version: [17.0.1.0.1] Old Version: [17.0.1.0.0.6]
+[2024-04-04 08:52:37] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/1a/e2/2e57d967b1e54edc8faa076ed539cd71f6efa8e4c386bcdf5dead06ccfc0/robotframework_creartramas-2.1.0.tar.gz
+[2024-04-04 08:52:37] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/f2/3d/5215d3cc09027d8e5419cdc3e50be4a68a42ed6639e8ba3841ba2e628813/scraperapi_sdk-1.0.0.tar.gz
+[2024-04-04 08:52:37] INFO root fetch - processPackages [odoo13-addon-base-import-async]: Downloading https://files.pythonhosted.org/packages/5d/d3/df1799b96fd1cf8002eb6dcf000b91e42671e1b815cba620949817b0b4ab/odoo13_addon_base_import_async-13.0.2.0.1-py3-none-any.whl
+[2024-04-04 08:52:37] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/2e/92/734c26c5e37ad6e3b5e5bc01c60c44cbf56fe166f4eefd39186f324d9a8b/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl
+[2024-04-04 08:52:37] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-04 08:52:37] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-04 08:52:37] WARNING root fetch - processPackages [odoo13-addon-base-import-async]: Timeout reached during download
+[2024-04-04 08:52:38] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-04 08:52:38] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/ae/48/7383dd1f613117eabdfcd567c44ba2b09b1b75495677667a0d6cc17bdbda/robotframework_creartramas-2.1.2.tar.gz
+[2024-04-04 08:52:38] INFO root fetch - processPackages [scraperapi-sdk]: Downloading https://files.pythonhosted.org/packages/03/10/bfa60023f356d0dbd90ab3ee9463d36bb97a7d65ba74f7c6e953d5c6004b/scraperapi_sdk-1.1.0.tar.gz
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo13-addon-base-import-async]: Downloading https://files.pythonhosted.org/packages/69/f8/a1ee80be00dd07950fa213d040ae20a06d43542b01ea662956b1294f5764/odoo13_addon_base_import_async-13.0.2.0.1.dev1-py3-none-any.whl
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo-addon-queue-job]: Downloading https://files.pythonhosted.org/packages/d4/fe/d4d32b00106d864e2c65ab6a5ce66b50beda3394e7bd28287fdabe2cfb33/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl
+[2024-04-04 08:52:38] WARNING root fetch - processPackages [robotframework-creartramas]: Timeout reached during download
+[2024-04-04 08:52:38] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-04 08:52:38] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.0.tar.gz tmp/robotframework_creartramas-2.1.2.tar.gz --markdown 20240404/r/robotframework-creartramas/2.1.0-2.1.2/diff.md --exclude *.pyd
+[2024-04-04 08:52:38] WARNING root fetch - processPackages [scraperapi-sdk]: Timeout reached during download
+[2024-04-04 08:52:38] INFO root fetch - processPackages [scraperapi-sdk]: executing diffoscope
+[2024-04-04 08:52:38] INFO root fetch - processPackages [scraperapi-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scraperapi_sdk-1.0.0.tar.gz tmp/scraperapi_sdk-1.1.0.tar.gz --markdown 20240404/s/scraperapi-sdk/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 08:52:38] WARNING root fetch - processPackages [odoo13-addon-base-import-async]: Timeout reached during download
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo13-addon-base-import-async]: executing diffoscope
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo13-addon-base-import-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_base_import_async-13.0.2.0.1-py3-none-any.whl.zip tmp/odoo13_addon_base_import_async-13.0.2.0.1.dev1-py3-none-any.whl.zip --markdown 20240404/o/odoo13-addon-base-import-async/13.0.2.0.1-13.0.2.0.1.dev1/diff.md --exclude *.pyd
+[2024-04-04 08:52:38] WARNING root fetch - processPackages [odoo-addon-queue-job]: Timeout reached during download
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo-addon-queue-job]: executing diffoscope
+[2024-04-04 08:52:38] INFO root fetch - processPackages [odoo-addon-queue-job]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-queue-job/17.0.1.0.0.6-17.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:52:39] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.0.tar.gz]
+[2024-04-04 08:52:39] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.2.tar.gz]
+[2024-04-04 08:52:39] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-04 08:52:39] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.0.0.tar.gz]
+[2024-04-04 08:52:39] INFO root fetch - processPackages [scraperapi-sdk]: Remove: archive file [/home/abi/fetcher/tmp/scraperapi_sdk-1.1.0.tar.gz]
+[2024-04-04 08:52:39] INFO root fetch - processPackages [odoo13-addon-base-import-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_import_async-13.0.2.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:52:39] INFO root fetch - main [MainThread]: End processing [scraperapi-sdk]: success
+[2024-04-04 08:52:39] INFO root fetch - processPackages [odoo13-addon-base-import-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_base_import_async-13.0.2.0.1.dev1-py3-none-any.whl.zip]
+[2024-04-04 08:52:39] INFO root fetch - main [MainThread]: End processing [odoo13-addon-base-import-async]: success
+[2024-04-04 08:52:39] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.0.6-py3-none-any.whl.zip]
+[2024-04-04 08:52:39] INFO root fetch - processPackages [odoo-addon-queue-job]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_queue_job-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:52:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-queue-job]: success
+[2024-04-04 08:52:39] INFO root fetch - main [MainThread]: Store serial: [22616397]
