@@ -15318,3 +15318,34 @@
 [2024-04-04 08:54:50] INFO root fetch - processPackages [odoo-addon-base-import-async]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_import_async-16.0.1.1.1-py3-none-any.whl.zip]
 [2024-04-04 08:54:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-import-async]: success
 [2024-04-04 08:54:50] INFO root fetch - main [MainThread]: Store serial: [22616423]
+[2024-04-04 08:56:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616423]
+[2024-04-04 08:56:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datarobot-model-metrics
+[2024-04-04 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: list-flatten-z
+[2024-04-04 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-queue-job-web-notify
+[2024-04-04 08:56:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-pde
+[2024-04-04 08:56:59] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.5.4] Old Version: [0.5.0]
+[2024-04-04 08:56:59] WARNING root fetch - processPackages [list-flatten-z]: Skipping, unable to determine old version
+[2024-04-04 08:56:59] INFO root fetch - main [MainThread]: End processing [list-flatten-z] error
+[2024-04-04 08:56:59] WARNING root fetch - processPackages [odoo13-addon-queue-job-web-notify]: Skipping, unable to determine old version
+[2024-04-04 08:56:59] INFO root fetch - main [MainThread]: End processing [odoo13-addon-queue-job-web-notify] error
+[2024-04-04 08:56:59] INFO root fetch - processPackages [py-pde]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-04 08:57:00] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/10/fa/959fdad4d597d13192438852d47fd14afe68e6e2780161ed2a326dda2e84/datarobot_model_metrics-0.5.0-py2.py3-none-any.whl
+[2024-04-04 08:57:00] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/78/72/71526c622bd1fa8fc1bcf587b85c4b07042f25cfcfe62187fb88826ac730/py-pde-0.9.3.tar.gz
+[2024-04-04 08:57:00] WARNING root fetch - processPackages [datarobot-model-metrics]: Timeout reached during download
+[2024-04-04 08:57:00] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/e4/6c/5aaffc36906d76dfeb832b8326c1645b25ae045d6e9ff3efffac97dd6439/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl
+[2024-04-04 08:57:00] WARNING root fetch - processPackages [py-pde]: Timeout reached during download
+[2024-04-04 08:57:00] WARNING root fetch - processPackages [datarobot-model-metrics]: Timeout reached during download
+[2024-04-04 08:57:00] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2024-04-04 08:57:00] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.5.0-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl.zip --markdown 20240404/d/datarobot-model-metrics/0.5.0-0.5.4/diff.md --exclude *.pyd
+[2024-04-04 08:57:00] INFO root fetch - processPackages [py-pde]: Downloading https://files.pythonhosted.org/packages/69/86/702c3ff65158b6594b800bfa103b9a219bcc1cb270a17634266044af2efa/py-pde-0.9.4.tar.gz
+[2024-04-04 08:57:01] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.0-py2.py3-none-any.whl.zip]
+[2024-04-04 08:57:01] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.5.4-py2.py3-none-any.whl.zip]
+[2024-04-04 08:57:01] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2024-04-04 08:57:01] WARNING root fetch - processPackages [py-pde]: Timeout reached during download
+[2024-04-04 08:57:01] INFO root fetch - processPackages [py-pde]: executing diffoscope
+[2024-04-04 08:57:01] INFO root fetch - processPackages [py-pde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-pde-0.9.3.tar.gz tmp/py-pde-0.9.4.tar.gz --markdown 20240404/p/py-pde/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-04 08:57:02] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.3.tar.gz]
+[2024-04-04 08:57:02] INFO root fetch - processPackages [py-pde]: Remove: archive file [/home/abi/fetcher/tmp/py-pde-0.9.4.tar.gz]
+[2024-04-04 08:57:02] INFO root fetch - main [MainThread]: End processing [py-pde]: success
+[2024-04-04 08:57:02] INFO root fetch - main [MainThread]: Store serial: [22616435]
