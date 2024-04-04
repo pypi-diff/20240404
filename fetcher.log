@@ -10261,3 +10261,50 @@
 [2024-04-04 04:23:49] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2024-04-04 04:23:49] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2024-04-04 04:23:49] INFO root fetch - main [MainThread]: Store serial: [22614804]
+[2024-04-04 04:25:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614804]
+[2024-04-04 04:25:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wmill-pg
+[2024-04-04 04:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: danbi
+[2024-04-04 04:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkl-python
+[2024-04-04 04:25:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opus-protobuf
+[2024-04-04 04:25:58] INFO root fetch - processPackages [opus-protobuf]: New version: [1.0.54] Old Version: [1.0.47]
+[2024-04-04 04:25:58] INFO root fetch - processPackages [danbi]: New version: [0.2.186] Old Version: [0.2.185]
+[2024-04-04 04:25:58] INFO root fetch - processPackages [pkl-python]: New version: [0.1.11] Old Version: [0.1.10]
+[2024-04-04 04:25:58] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-04 04:25:58] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/3d/1e/0467e056b42aa88270203f691895b4ae0e7f7006eaea403439b4da6995b5/danbi-0.2.185.tar.gz
+[2024-04-04 04:25:58] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2024-04-04 04:25:58] INFO root fetch - processPackages [opus-protobuf]: Downloading https://files.pythonhosted.org/packages/43/1c/4a15b12eb28ec091b440333ef7d65e3501b5419c0bb34c8a6b964bf2eb7b/opus_protobuf-1.0.47.tar.gz
+[2024-04-04 04:25:58] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 04:25:58] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/cd/ab/9b50c1b10410ffaa509239e7b50ee513d13e0f4040fa505ba77e94256da3/pkl-python-0.1.10.tar.gz
+[2024-04-04 04:25:58] WARNING root fetch - processPackages [wmill-pg]: Timeout reached during download
+[2024-04-04 04:25:58] WARNING root fetch - processPackages [opus-protobuf]: Timeout reached during download
+[2024-04-04 04:25:58] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-04 04:25:58] INFO root fetch - processPackages [danbi]: Downloading https://files.pythonhosted.org/packages/20/b3/629b6a532a23f41e84529bc298eef0d5c5086bb56c5c6c7c8479ac5700fc/danbi-0.2.186.tar.gz
+[2024-04-04 04:25:58] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2024-04-04 04:25:59] INFO root fetch - processPackages [pkl-python]: Downloading https://files.pythonhosted.org/packages/8c/ac/d39eebbd3e2657de14430b40d0681d955cd06e9617dcebadffe881a08e03/pkl-python-0.1.11.tar.gz
+[2024-04-04 04:25:59] WARNING root fetch - processPackages [danbi]: Timeout reached during download
+[2024-04-04 04:25:59] INFO root fetch - processPackages [danbi]: executing diffoscope
+[2024-04-04 04:25:59] INFO root fetch - processPackages [danbi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/danbi-0.2.185.tar.gz tmp/danbi-0.2.186.tar.gz --markdown 20240404/d/danbi/0.2.185-0.2.186/diff.md --exclude *.pyd
+[2024-04-04 04:25:59] WARNING root fetch - processPackages [wmill-pg]: Timeout reached during download
+[2024-04-04 04:25:59] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2024-04-04 04:25:59] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20240404/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: Downloading https://files.pythonhosted.org/packages/02/43/8ace8c2c9c27d262541ab27fda4446ccde9aff749c9f7f7503335995b583/opus_protobuf-1.0.54.tar.gz
+[2024-04-04 04:25:59] WARNING root fetch - processPackages [pkl-python]: Timeout reached during download
+[2024-04-04 04:25:59] INFO root fetch - processPackages [pkl-python]: executing diffoscope
+[2024-04-04 04:25:59] INFO root fetch - processPackages [pkl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkl-python-0.1.10.tar.gz tmp/pkl-python-0.1.11.tar.gz --markdown 20240404/p/pkl-python/0.1.10-0.1.11/diff.md --exclude *.pyd
+[2024-04-04 04:25:59] WARNING root fetch - processPackages [opus-protobuf]: Timeout reached during download
+[2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: executing diffoscope
+[2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opus_protobuf-1.0.47.tar.gz tmp/opus_protobuf-1.0.54.tar.gz --markdown 20240404/o/opus-protobuf/1.0.47-1.0.54/diff.md --exclude *.pyd
+[2024-04-04 04:25:59] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2024-04-04 04:25:59] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.185.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - processPackages [danbi]: Remove: archive file [/home/abi/fetcher/tmp/danbi-0.2.186.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - main [MainThread]: End processing [danbi]: success
+[2024-04-04 04:25:59] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.10.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - processPackages [pkl-python]: Remove: archive file [/home/abi/fetcher/tmp/pkl-python-0.1.11.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - main [MainThread]: End processing [pkl-python]: success
+[2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/opus_protobuf-1.0.47.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/opus_protobuf-1.0.54.tar.gz]
+[2024-04-04 04:25:59] INFO root fetch - main [MainThread]: End processing [opus-protobuf]: success
+[2024-04-04 04:25:59] INFO root fetch - main [MainThread]: Store serial: [22614816]
