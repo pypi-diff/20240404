@@ -12980,3 +12980,67 @@
 [2024-04-04 07:06:09] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.2.tar.gz]
 [2024-04-04 07:06:09] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-04-04 07:06:09] INFO root fetch - main [MainThread]: Store serial: [22615669]
+[2024-04-04 07:08:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615669]
+[2024-04-04 07:08:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-homeassistant-custom-component
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spectrum-image
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vector-vault
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyrustaudit
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: naicskit
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mesop
+[2024-04-04 07:08:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hoppr-cop
+[2024-04-04 07:08:18] INFO root fetch - processPackages [spectrum-image]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-04 07:08:18] WARNING root fetch - processPackages [naicskit]: Skipping, unable to determine old version
+[2024-04-04 07:08:18] INFO root fetch - main [MainThread]: End processing [naicskit] error
+[2024-04-04 07:08:18] INFO root fetch - processPackages [hoppr-cop]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-04 07:08:18] ERROR root fetch - processPackages [pyrustaudit]: Unable to get metadata: No such project 'pyrustaudit'
+[2024-04-04 07:08:18] INFO root fetch - main [MainThread]: End processing [pyrustaudit] error
+[2024-04-04 07:08:18] INFO root fetch - processPackages [mesop]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-04 07:08:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 07:08:18] INFO root fetch - processPackages [vector-vault]: New version: [4.2.8] Old Version: [4.2.7]
+[2024-04-04 07:08:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/ee/ec/0f91d12c8d48afe4d2f1739adab36e7b39bef052aa33ade2f95443d767fa/vector_vault-4.2.7.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/6e/28/96c811c3a75772373385c35cbcbdd6ccef68711de1c2a30716758eb900bd/spectrum_image-0.2.3.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [hoppr-cop]: Downloading https://files.pythonhosted.org/packages/b3/29/cf0a2cffc695caa63137bcf39852c1ec5e4055d77330df8e0dfc1f74073c/hoppr_cop-1.3.0.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/ab/4f/063768dad2629b2f7ce72fde7d15d15d7b79d3e59517246c85b079ff5932/mesop-0.4.0-py3-none-any.whl
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [pytest-homeassistant-custom-component]: Timeout reached during download
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [spectrum-image]: Timeout reached during download
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [hoppr-cop]: Timeout reached during download
+[2024-04-04 07:08:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [spectrum-image]: Downloading https://files.pythonhosted.org/packages/c3/19/cba26073f7a81662ae34b43f311b3e0ac3ebf1a5d3a2089f22c841adeff0/spectrum_image-0.2.4.tar.gz
+[2024-04-04 07:08:19] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/99/65/d04d92dc05b8675f7ef8ee62b029740976a086c0e634a1a6427d4c399fe3/vector_vault-4.2.8.tar.gz
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [pytest-homeassistant-custom-component]: Timeout reached during download
+[2024-04-04 07:08:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2024-04-04 07:08:19] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20240404/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [spectrum-image]: Timeout reached during download
+[2024-04-04 07:08:19] INFO root fetch - processPackages [spectrum-image]: executing diffoscope
+[2024-04-04 07:08:19] INFO root fetch - processPackages [spectrum-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrum_image-0.2.3.tar.gz tmp/spectrum_image-0.2.4.tar.gz --markdown 20240404/s/spectrum-image/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:08:19] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-04 07:08:19] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.2.7.tar.gz tmp/vector_vault-4.2.8.tar.gz --markdown 20240404/v/vector-vault/4.2.7-4.2.8/diff.md --exclude *.pyd
+[2024-04-04 07:08:19] INFO root fetch - processPackages [hoppr-cop]: Downloading https://files.pythonhosted.org/packages/d9/41/a4b816c1390c9ef1f72f4db09b870870d6d0bdbf2e28a9c2cfcd65d3afae/hoppr_cop-1.3.1.tar.gz
+[2024-04-04 07:08:19] WARNING root fetch - processPackages [hoppr-cop]: Timeout reached during download
+[2024-04-04 07:08:19] INFO root fetch - processPackages [hoppr-cop]: executing diffoscope
+[2024-04-04 07:08:19] INFO root fetch - processPackages [hoppr-cop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoppr_cop-1.3.0.tar.gz tmp/hoppr_cop-1.3.1.tar.gz --markdown 20240404/h/hoppr-cop/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-04 07:08:20] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.3.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - processPackages [spectrum-image]: Remove: archive file [/home/abi/fetcher/tmp/spectrum_image-0.2.4.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - main [MainThread]: End processing [spectrum-image]: success
+[2024-04-04 07:08:20] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2024-04-04 07:08:20] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.7.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.8.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-04 07:08:20] INFO root fetch - processPackages [hoppr-cop]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_cop-1.3.0.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - processPackages [hoppr-cop]: Remove: archive file [/home/abi/fetcher/tmp/hoppr_cop-1.3.1.tar.gz]
+[2024-04-04 07:08:20] INFO root fetch - main [MainThread]: End processing [hoppr-cop]: success
+[2024-04-04 07:08:20] WARNING root fetch - processPackages [mesop]: Timeout reached during download
+[2024-04-04 07:08:20] INFO root fetch - processPackages [mesop]: Downloading https://files.pythonhosted.org/packages/e7/2f/2e1ae7b118136aed0f7442b65e742c26705569859e5466153c1ef54ad7bf/mesop-0.4.1-py3-none-any.whl
+[2024-04-04 07:08:21] WARNING root fetch - processPackages [mesop]: Timeout reached during download
+[2024-04-04 07:08:21] INFO root fetch - processPackages [mesop]: executing diffoscope
+[2024-04-04 07:08:21] INFO root fetch - processPackages [mesop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mesop-0.4.0-py3-none-any.whl.zip tmp/mesop-0.4.1-py3-none-any.whl.zip --markdown 20240404/m/mesop/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-04 07:09:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.0-py3-none-any.whl.zip]
+[2024-04-04 07:09:02] INFO root fetch - processPackages [mesop]: Remove: archive file [/home/abi/fetcher/tmp/mesop-0.4.1-py3-none-any.whl.zip]
+[2024-04-04 07:09:02] INFO root fetch - main [MainThread]: End processing [mesop]: success
+[2024-04-04 07:09:02] INFO root fetch - main [MainThread]: Store serial: [22615720]
