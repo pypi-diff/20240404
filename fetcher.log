@@ -16453,3 +16453,74 @@
 [2024-04-04 09:47:21] INFO root fetch - processPackages [trytond-stock]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock-7.0.4.tar.gz]
 [2024-04-04 09:47:21] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
 [2024-04-04 09:47:21] INFO root fetch - main [MainThread]: Store serial: [22616741]
+[2024-04-04 09:49:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616741]
+[2024-04-04 09:49:31] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trytond-stock
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: trytond-stock
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ft-jwt
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pineboo
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scim-client
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trytond-sale
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pypanter
+[2024-04-04 09:49:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: trytond-sale
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-stock]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-04-04 09:49:31] WARNING root fetch - processPackages [ft-jwt]: Skipping, unable to determine old version
+[2024-04-04 09:49:31] INFO root fetch - main [MainThread]: End processing [ft-jwt] error
+[2024-04-04 09:49:31] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.2] Old Version: [0.99.81.1]
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-stock]: New version: [7.0.4] Old Version: [7.0.3]
+[2024-04-04 09:49:31] INFO root fetch - processPackages [scim-client]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-sale]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-sale]: New version: [7.0.2] Old Version: [7.0.1]
+[2024-04-04 09:49:31] WARNING root fetch - processPackages [pypanter]: Skipping, unable to determine old version
+[2024-04-04 09:49:31] INFO root fetch - main [MainThread]: End processing [pypanter] error
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/6c/7d/1be4ca69ae5a549c1d6ed73a0176272d4b92acd8122c508866f64f400f5a/trytond_stock-7.0.3.tar.gz
+[2024-04-04 09:49:31] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/b8/66/02d893ffd20b5c7b335858f9bc6df3f88d20507fbc3f7f5b0cda3961f6ab/pineboo-0.99.81.1.tar.gz
+[2024-04-04 09:49:31] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/6c/7d/1be4ca69ae5a549c1d6ed73a0176272d4b92acd8122c508866f64f400f5a/trytond_stock-7.0.3.tar.gz
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-stock]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/38/8b/978a9027d2bab2fa8761cda2cdf03c405b83be91b0c4f6091f194901bbd7/scim_client-0.1.6.tar.gz
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-stock]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/cc/6c/903e6a078f81d8a1b27e833731a94f6bcde2eb2d920f232ea859a85007a0/trytond_sale-7.0.1.tar.gz
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/cc/6c/903e6a078f81d8a1b27e833731a94f6bcde2eb2d920f232ea859a85007a0/trytond_sale-7.0.1.tar.gz
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [scim-client]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/f4/ed/e6ed34c6962ec05b8be6f606348788ef6afc8b1264aec7f3469d0324cf3f/trytond_stock-7.0.4.tar.gz
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: Downloading https://files.pythonhosted.org/packages/f4/ed/e6ed34c6962ec05b8be6f606348788ef6afc8b1264aec7f3469d0324cf3f/trytond_stock-7.0.4.tar.gz
+[2024-04-04 09:49:32] INFO root fetch - processPackages [scim-client]: Downloading https://files.pythonhosted.org/packages/d7/04/72633d158649ebe4b10df4219e83958a7357402cfa96a05e908cb1f4e555/scim_client-0.1.7.tar.gz
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-sale]: Timeout reached during download
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-sale]: Timeout reached during download
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-stock]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: executing diffoscope
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock-7.0.3.tar.gz tmp/trytond_stock-7.0.4.tar.gz --markdown 20240404/t/trytond-stock/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [trytond-stock]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: executing diffoscope
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-stock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_stock-7.0.3.tar.gz tmp/trytond_stock-7.0.4.tar.gz --markdown 20240404/t/trytond-stock/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2024-04-04 09:49:32] WARNING root fetch - processPackages [scim-client]: Timeout reached during download
+[2024-04-04 09:49:32] INFO root fetch - processPackages [scim-client]: executing diffoscope
+[2024-04-04 09:49:32] INFO root fetch - processPackages [scim-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scim_client-0.1.6.tar.gz tmp/scim_client-0.1.7.tar.gz --markdown 20240404/s/scim-client/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/8e/a7/8dbdfdfda7adba5827dde26db4fa5f5ce8df3b87a2020793793d2273fc90/trytond_sale-7.0.2.tar.gz
+[2024-04-04 09:49:32] INFO root fetch - processPackages [trytond-sale]: Downloading https://files.pythonhosted.org/packages/8e/a7/8dbdfdfda7adba5827dde26db4fa5f5ce8df3b87a2020793793d2273fc90/trytond_sale-7.0.2.tar.gz
+[2024-04-04 09:49:33] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 09:49:33] WARNING root fetch - processPackages [trytond-sale]: Timeout reached during download
+[2024-04-04 09:49:33] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-04-04 09:49:33] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.0.1.tar.gz tmp/trytond_sale-7.0.2.tar.gz --markdown 20240404/t/trytond-sale/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:49:33] WARNING root fetch - processPackages [trytond-sale]: Timeout reached during download
+[2024-04-04 09:49:33] INFO root fetch - processPackages [trytond-sale]: executing diffoscope
+[2024-04-04 09:49:33] INFO root fetch - processPackages [trytond-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trytond_sale-7.0.1.tar.gz tmp/trytond_sale-7.0.2.tar.gz --markdown 20240404/t/trytond-sale/7.0.1-7.0.2/diff.md --exclude *.pyd
+[2024-04-04 09:49:33] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/6b/c3/5b2676c4eca1f15814fcc7cc0d2cbf987222c1240cb0594dd491a41b3d9e/pineboo-0.99.81.2.tar.gz
+[2024-04-04 09:49:33] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.6.tar.gz]
+[2024-04-04 09:49:33] INFO root fetch - processPackages [scim-client]: Remove: archive file [/home/abi/fetcher/tmp/scim_client-0.1.7.tar.gz]
+[2024-04-04 09:49:33] INFO root fetch - main [MainThread]: End processing [scim-client]: success
+[2024-04-04 09:49:33] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 09:49:33] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 09:49:33] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.1.tar.gz tmp/pineboo-0.99.81.2.tar.gz --markdown 20240404/p/pineboo/0.99.81.1-0.99.81.2/diff.md --exclude *.pyd
+[2024-04-04 09:49:34] INFO root fetch - processPackages [trytond-stock]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock-7.0.3.tar.gz]
+[2024-04-04 09:49:34] INFO root fetch - processPackages [trytond-stock]: Remove: archive file [/home/abi/fetcher/tmp/trytond_stock-7.0.4.tar.gz]
+[2024-04-04 09:49:34] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
+[2024-04-04 09:49:34] INFO root fetch - main [MainThread]: End processing [trytond-stock]: success
+[2024-04-04 09:49:34] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.0.1.tar.gz]
+[2024-04-04 09:49:34] INFO root fetch - processPackages [trytond-sale]: Remove: archive file [/home/abi/fetcher/tmp/trytond_sale-7.0.2.tar.gz]
+[2024-04-04 09:49:34] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-04-04 09:49:34] INFO root fetch - main [MainThread]: End processing [trytond-sale]: success
+[2024-04-04 09:49:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.1.tar.gz]
+[2024-04-04 09:49:37] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.2.tar.gz]
+[2024-04-04 09:49:37] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 09:49:37] INFO root fetch - main [MainThread]: Store serial: [22616768]
