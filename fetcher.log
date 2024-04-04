@@ -21579,3 +21579,77 @@
 [2024-04-04 12:40:33] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.8.dev20240404103859.tar.gz]
 [2024-04-04 12:40:33] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
 [2024-04-04 12:40:33] INFO root fetch - main [MainThread]: Store serial: [22618632]
+[2024-04-04 12:42:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618632]
+[2024-04-04 12:42:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skypilot-nightly
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aibridge-test
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: so-ml-tools
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepeval
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vdk-test-utils
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: catasta
+[2024-04-04 12:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: villas-node
+[2024-04-04 12:42:43] INFO root fetch - processPackages [so-ml-tools]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [catasta]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [vdk-test-utils]: New version: [0.2.948436673] Old Version: [0.2.911997964]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [aibridge-test]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [villas-node]: New version: [0.9.0] Old Version: [0.6.5]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 12:42:43] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240404] Old Version: [1.0.0.dev20240403]
+[2024-04-04 12:42:44] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/fc/30/cfb5b7cf1b6c3d4b7759e52aaf120234d88b23cda57cfa671f342c8928d9/so-ml-tools-0.1.98.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/16/98/2ad034d0f235946c94525c4f52a5ef74150699851aaf32cb409db7dfe6b2/aibridge_test-0.2.3.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [villas-node]: Downloading https://files.pythonhosted.org/packages/94/7d/dd363491be9839d9f68bf2e742d7147a9c11a3496c35dd925c1f76943360/villas-node-0.6.5.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [catasta]: Downloading https://files.pythonhosted.org/packages/05/26/3a8176f4b9526b5d4ed8a82740f9ababc86b95df36d8ffe996d6527cfafe/catasta-0.1.0.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/6b/9c/d736efeaf988fb4e3409c6b504f402fe7fbc93e7da3b87cb1c367bebbdd2/vdk-test-utils-0.2.911997964.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/8b/9b/74810a40277b95f32d1422a56c1e0190761ba15dc896e7883f66100ed899/skypilot-nightly-1.0.0.dev20240403.tar.gz
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [villas-node]: Timeout reached during download
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [deepeval]: Timeout reached during download
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [vdk-test-utils]: Timeout reached during download
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [catasta]: Skipping package: exceeds size limit 22922470>=10485760
+[2024-04-04 12:42:44] INFO root fetch - main [MainThread]: End processing [catasta] error
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [villas-node]: Downloading https://files.pythonhosted.org/packages/35/b5/1da79ca42a1b71e908de40cfb05df2181690f01964df59bf8e3752f98d70/villas-node-0.9.0.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [so-ml-tools]: Downloading https://files.pythonhosted.org/packages/81/44/0ba41cd45b341c34829d9698a1a7295a871d04bec34718944a8d469046a7/so-ml-tools-0.1.99.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [aibridge-test]: Downloading https://files.pythonhosted.org/packages/86/0d/5eb49c6f43580fdde8fd2f82c7ecd4f1ba043652a0efc919e31bb0efd443/aibridge_test-0.2.4.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/df/36/ff08815c1f136d79faf1b6b69df22371754e9620b4393206464de01701df/skypilot-nightly-1.0.0.dev20240404.tar.gz
+[2024-04-04 12:42:44] INFO root fetch - processPackages [vdk-test-utils]: Downloading https://files.pythonhosted.org/packages/75/6c/bcd4ae57a34850f55f47c812b0443898bf9e56a5bc07d0fa1db0c54982e0/vdk-test-utils-0.2.948436673.tar.gz
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [villas-node]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [villas-node]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [villas-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/villas-node-0.6.5.tar.gz tmp/villas-node-0.9.0.tar.gz --markdown 20240404/v/villas-node/0.6.5-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [deepeval]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240404/d/deepeval/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [so-ml-tools]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [so-ml-tools]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [so-ml-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/so-ml-tools-0.1.98.tar.gz tmp/so-ml-tools-0.1.99.tar.gz --markdown 20240404/s/so-ml-tools/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [aibridge-test]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [aibridge-test]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [aibridge-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aibridge_test-0.2.3.tar.gz tmp/aibridge_test-0.2.4.tar.gz --markdown 20240404/a/aibridge-test/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [vdk-test-utils]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [vdk-test-utils]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [vdk-test-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-test-utils-0.2.911997964.tar.gz tmp/vdk-test-utils-0.2.948436673.tar.gz --markdown 20240404/v/vdk-test-utils/0.2.911997964-0.2.948436673/diff.md --exclude *.pyd
+[2024-04-04 12:42:44] WARNING root fetch - processPackages [skypilot-nightly]: Timeout reached during download
+[2024-04-04 12:42:44] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-04 12:42:44] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240403.tar.gz tmp/skypilot-nightly-1.0.0.dev20240404.tar.gz --markdown 20240404/s/skypilot-nightly/1.0.0.dev20240403-1.0.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 12:42:45] INFO root fetch - processPackages [villas-node]: Remove: archive file [/home/abi/fetcher/tmp/villas-node-0.6.5.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - processPackages [villas-node]: Remove: archive file [/home/abi/fetcher/tmp/villas-node-0.9.0.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - main [MainThread]: End processing [villas-node]: success
+[2024-04-04 12:42:45] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.98.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - processPackages [so-ml-tools]: Remove: archive file [/home/abi/fetcher/tmp/so-ml-tools-0.1.99.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - main [MainThread]: End processing [so-ml-tools]: success
+[2024-04-04 12:42:45] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.911997964.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - processPackages [vdk-test-utils]: Remove: archive file [/home/abi/fetcher/tmp/vdk-test-utils-0.2.948436673.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - main [MainThread]: End processing [vdk-test-utils]: success
+[2024-04-04 12:42:45] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-04 12:42:45] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.3.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - processPackages [aibridge-test]: Remove: archive file [/home/abi/fetcher/tmp/aibridge_test-0.2.4.tar.gz]
+[2024-04-04 12:42:45] INFO root fetch - main [MainThread]: End processing [aibridge-test]: success
+[2024-04-04 12:42:46] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240403.tar.gz]
+[2024-04-04 12:42:46] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240404.tar.gz]
+[2024-04-04 12:42:46] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-04 12:42:46] INFO root fetch - main [MainThread]: Store serial: [22618656]
