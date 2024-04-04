@@ -12113,3 +12113,17 @@
 [2024-04-04 06:15:52] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
 [2024-04-04 06:15:52] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
 [2024-04-04 06:15:52] INFO root fetch - main [MainThread]: Store serial: [22615415]
+[2024-04-04 06:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615415]
+[2024-04-04 06:18:01] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jx-python
+[2024-04-04 06:18:01] INFO root fetch - processPackages [jx-python]: New version: [4.582.24095] Old Version: [4.579.24081]
+[2024-04-04 06:18:02] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/a4/57/078cdab580ff6046660c50b17dac9771669766675b3e870b5b47bd0abd04/jx-python-4.579.24081.tar.gz
+[2024-04-04 06:18:02] WARNING root fetch - processPackages [jx-python]: Timeout reached during download
+[2024-04-04 06:18:02] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/87/54/ccba9e1d19e7e3733422a3ad5471eaf7abb591a056e9d6abc8b449181917/jx-python-4.582.24095.tar.gz
+[2024-04-04 06:18:02] WARNING root fetch - processPackages [jx-python]: Timeout reached during download
+[2024-04-04 06:18:02] INFO root fetch - processPackages [jx-python]: executing diffoscope
+[2024-04-04 06:18:02] INFO root fetch - processPackages [jx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx-python-4.579.24081.tar.gz tmp/jx-python-4.582.24095.tar.gz --markdown 20240404/j/jx-python/4.579.24081-4.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:18:03] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.579.24081.tar.gz]
+[2024-04-04 06:18:03] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.582.24095.tar.gz]
+[2024-04-04 06:18:03] INFO root fetch - main [MainThread]: End processing [jx-python]: success
+[2024-04-04 06:18:03] INFO root fetch - main [MainThread]: Store serial: [22615418]
