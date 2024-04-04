@@ -11523,3 +11523,67 @@
 [2024-04-04 05:47:27] INFO root fetch - processPackages [odoo12-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_fieldservice_repair-12.0.2.0.0.99.dev6-py3-none-any.whl.zip]
 [2024-04-04 05:47:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice-repair]: success
 [2024-04-04 05:47:27] INFO root fetch - main [MainThread]: Store serial: [22615232]
+[2024-04-04 05:49:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615232]
+[2024-04-04 05:49:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbprint
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flylog-extra
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo14-addon-fieldservice-repair
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-fieldservice-repair
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esdbclient
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mo-kwargs
+[2024-04-04 05:49:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adamw-bf16
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2024-04-04 05:49:36] INFO root fetch - processPackages [nbprint]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: New version: [15.0.1.0.0.8] Old Version: [15.0.1.0.0.7]
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [adamw-bf16]: Skipping, unable to determine old version
+[2024-04-04 05:49:36] INFO root fetch - main [MainThread]: End processing [adamw-bf16] error
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [flylog-extra]: Skipping, unable to determine old version
+[2024-04-04 05:49:36] INFO root fetch - main [MainThread]: End processing [flylog-extra] error
+[2024-04-04 05:49:36] INFO root fetch - processPackages [mo-kwargs]: New version: [7.582.24095] Old Version: [7.578.24081]
+[2024-04-04 05:49:36] INFO root fetch - processPackages [esdbclient]: New version: [1.0b4] Old Version: [1.0b3]
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/c9/3f/350f972112f08aed4dd12d9af2a1e6d1a8c599035d98e6cf28a03a37ac87/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev8-py3-none-any.whl
+[2024-04-04 05:49:36] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/e3/4a/c61c059ce64eebda631e67914ae4758c3e623f36a2fbef7880c2c06ffa9c/nbprint-0.1.5.tar.gz
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/eb/50/1bfa8cc9be0bb0d82d49218421afe8838ceb600903056349ab4505389564/odoo_addon_fieldservice_repair-15.0.1.0.0.7-py3-none-any.whl
+[2024-04-04 05:49:36] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/66/e0/2c56d778d6b49023172dc405b1f51d6a37e18fe9d37e8ec5238858ec0f0f/mo-kwargs-7.578.24081.tar.gz
+[2024-04-04 05:49:36] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/93/30/573ab738ea9798ed8d6ce6c943047922a3706e9dd85661fd8c246f37859c/esdbclient-1.0b3.tar.gz
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [odoo14-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [odoo-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [mo-kwargs]: Timeout reached during download
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [esdbclient]: Timeout reached during download
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/69/a6/9196df6721b26dc6238abbffbd6fa7af325aa94962efa71cd73c231121cf/odoo_addon_fieldservice_repair-15.0.1.0.0.8-py3-none-any.whl
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: Downloading https://files.pythonhosted.org/packages/4b/b2/418a8b270e09ddaef593303464a0b0181c90928f1447b0ac751721f4e7f9/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev9-py3-none-any.whl
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [odoo-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [nbprint]: Timeout reached during download
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: executing diffoscope
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_repair-15.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_repair-15.0.1.0.0.8-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-fieldservice-repair/15.0.1.0.0.7-15.0.1.0.0.8/diff.md --exclude *.pyd
+[2024-04-04 05:49:36] INFO root fetch - processPackages [mo-kwargs]: Downloading https://files.pythonhosted.org/packages/58/88/8ce4c94ee780167529506d41032446e94dccada37c57cab30a7e3f718f45/mo-kwargs-7.582.24095.tar.gz
+[2024-04-04 05:49:36] INFO root fetch - processPackages [esdbclient]: Downloading https://files.pythonhosted.org/packages/00/e6/2c6c9d30544b5bffbf82f0bba485a240220d8d5daa8b72c19905b1ccddaf/esdbclient-1.0b4.tar.gz
+[2024-04-04 05:49:36] WARNING root fetch - processPackages [odoo14-addon-fieldservice-repair]: Timeout reached during download
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: executing diffoscope
+[2024-04-04 05:49:36] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20240404/o/odoo14-addon-fieldservice-repair/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2024-04-04 05:49:36] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/27/18/9d963c44733a2ebeccefd9b1e2e771756d82fc801e0b3ddc1f55f0ff5df9/nbprint-0.1.6.tar.gz
+[2024-04-04 05:49:37] WARNING root fetch - processPackages [mo-kwargs]: Timeout reached during download
+[2024-04-04 05:49:37] INFO root fetch - processPackages [mo-kwargs]: executing diffoscope
+[2024-04-04 05:49:37] INFO root fetch - processPackages [mo-kwargs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-kwargs-7.578.24081.tar.gz tmp/mo-kwargs-7.582.24095.tar.gz --markdown 20240404/m/mo-kwargs/7.578.24081-7.582.24095/diff.md --exclude *.pyd
+[2024-04-04 05:49:37] WARNING root fetch - processPackages [esdbclient]: Timeout reached during download
+[2024-04-04 05:49:37] INFO root fetch - processPackages [esdbclient]: executing diffoscope
+[2024-04-04 05:49:37] INFO root fetch - processPackages [esdbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esdbclient-1.0b3.tar.gz tmp/esdbclient-1.0b4.tar.gz --markdown 20240404/e/esdbclient/1.0b3-1.0b4/diff.md --exclude *.pyd
+[2024-04-04 05:49:37] WARNING root fetch - processPackages [nbprint]: Timeout reached during download
+[2024-04-04 05:49:37] INFO root fetch - processPackages [nbprint]: executing diffoscope
+[2024-04-04 05:49:37] INFO root fetch - processPackages [nbprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbprint-0.1.5.tar.gz tmp/nbprint-0.1.6.tar.gz --markdown 20240404/n/nbprint/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-04 05:49:37] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_repair-15.0.1.0.0.7-py3-none-any.whl.zip]
+[2024-04-04 05:49:37] INFO root fetch - processPackages [odoo-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_repair-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2024-04-04 05:49:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-repair]: success
+[2024-04-04 05:49:37] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo-kwargs-7.578.24081.tar.gz]
+[2024-04-04 05:49:37] INFO root fetch - processPackages [mo-kwargs]: Remove: archive file [/home/abi/fetcher/tmp/mo-kwargs-7.582.24095.tar.gz]
+[2024-04-04 05:49:37] INFO root fetch - main [MainThread]: End processing [mo-kwargs]: success
+[2024-04-04 05:49:37] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev8-py3-none-any.whl.zip]
+[2024-04-04 05:49:37] INFO root fetch - processPackages [odoo14-addon-fieldservice-repair]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fieldservice_repair-14.0.1.0.1.dev9-py3-none-any.whl.zip]
+[2024-04-04 05:49:37] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fieldservice-repair]: success
+[2024-04-04 05:49:37] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b3.tar.gz]
+[2024-04-04 05:49:37] INFO root fetch - processPackages [esdbclient]: Remove: archive file [/home/abi/fetcher/tmp/esdbclient-1.0b4.tar.gz]
+[2024-04-04 05:49:37] INFO root fetch - main [MainThread]: End processing [esdbclient]: success
+[2024-04-04 05:49:38] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.5.tar.gz]
+[2024-04-04 05:49:38] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.6.tar.gz]
+[2024-04-04 05:49:38] INFO root fetch - main [MainThread]: End processing [nbprint]: success
+[2024-04-04 05:49:38] INFO root fetch - main [MainThread]: Store serial: [22615251]
