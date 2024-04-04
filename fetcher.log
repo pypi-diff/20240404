@@ -22866,3 +22866,50 @@
 [2024-04-04 13:27:16] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
 [2024-04-04 13:27:16] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 13:27:16] INFO root fetch - main [MainThread]: Store serial: [22619082]
+[2024-04-04 13:29:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619082]
+[2024-04-04 13:29:24] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixpeek
+[2024-04-04 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qarray
+[2024-04-04 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CureQ
+[2024-04-04 13:29:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: html-text
+[2024-04-04 13:29:25] INFO root fetch - processPackages [qarray]: New version: [1.0.0] Old Version: [0.0.1]
+[2024-04-04 13:29:25] INFO root fetch - processPackages [html-text]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-04 13:29:25] INFO root fetch - processPackages [mixpeek]: New version: [1.7] Old Version: [0.6.7]
+[2024-04-04 13:29:25] INFO root fetch - processPackages [CureQ]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 13:29:25] INFO root fetch - processPackages [html-text]: Downloading https://files.pythonhosted.org/packages/4f/e6/f056f7269d36088a5e9674c50b6db3c7dccef5b9c7481eec6f40f06420ce/html_text-0.5.1.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/20/df/55a2efc552a31c7a8c4e88a1cac479dab62d8a43c98c47342862b7013dfd/mixpeek-0.6.7.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/13/70/d93fb62f8d2c8618d9193054468911ddf2b62955052890869e1b497c86b9/CureQ-0.1.0.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/15/b5/d4bb1723c17f774f08ea79af89f1c9b1283dd958353e854019ab09fbd3f3/qarray-0.0.1.tar.gz
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [html-text]: Timeout reached during download
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [CureQ]: Timeout reached during download
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-04 13:29:25] INFO root fetch - processPackages [html-text]: Downloading https://files.pythonhosted.org/packages/de/f0/d18ac3ea1eeee089bb99b7abf64b8de774ebb31f73977a1fc3f6bfad8566/html_text-0.5.2.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/e9/ce/c851653cda72d988783e9351e16689c514ac5c364172b62e967bd9877d5f/CureQ-0.1.1.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [mixpeek]: Downloading https://files.pythonhosted.org/packages/4e/28/65883295a5dbdc3f5d384b7bfe1a5dd6004d59f0fed02f20b02e32bd7646/mixpeek-1.7.tar.gz
+[2024-04-04 13:29:25] INFO root fetch - processPackages [qarray]: Downloading https://files.pythonhosted.org/packages/ff/2c/e43a7130a71a0b938f10102f3ba1fa968bca6f651160d8601c2f072f2a7e/qarray-1.0.0.tar.gz
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [html-text]: Timeout reached during download
+[2024-04-04 13:29:25] INFO root fetch - processPackages [html-text]: executing diffoscope
+[2024-04-04 13:29:25] INFO root fetch - processPackages [html-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html_text-0.5.1.tar.gz tmp/html_text-0.5.2.tar.gz --markdown 20240404/h/html-text/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [mixpeek]: Timeout reached during download
+[2024-04-04 13:29:25] INFO root fetch - processPackages [mixpeek]: executing diffoscope
+[2024-04-04 13:29:25] INFO root fetch - processPackages [mixpeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixpeek-0.6.7.tar.gz tmp/mixpeek-1.7.tar.gz --markdown 20240404/m/mixpeek/0.6.7-1.7/diff.md --exclude *.pyd
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [CureQ]: Timeout reached during download
+[2024-04-04 13:29:25] INFO root fetch - processPackages [CureQ]: executing diffoscope
+[2024-04-04 13:29:25] INFO root fetch - processPackages [CureQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CureQ-0.1.0.tar.gz tmp/CureQ-0.1.1.tar.gz --markdown 20240404/C/CureQ/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 13:29:25] WARNING root fetch - processPackages [qarray]: Timeout reached during download
+[2024-04-04 13:29:25] INFO root fetch - processPackages [qarray]: executing diffoscope
+[2024-04-04 13:29:25] INFO root fetch - processPackages [qarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qarray-0.0.1.tar.gz tmp/qarray-1.0.0.tar.gz --markdown 20240404/q/qarray/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 13:29:26] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-0.6.7.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - processPackages [mixpeek]: Remove: archive file [/home/abi/fetcher/tmp/mixpeek-1.7.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - main [MainThread]: End processing [mixpeek]: success
+[2024-04-04 13:29:26] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-0.0.1.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - processPackages [qarray]: Remove: archive file [/home/abi/fetcher/tmp/qarray-1.0.0.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - main [MainThread]: End processing [qarray]: success
+[2024-04-04 13:29:26] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.1.0.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.1.1.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - main [MainThread]: End processing [CureQ]: success
+[2024-04-04 13:29:26] INFO root fetch - processPackages [html-text]: Remove: archive file [/home/abi/fetcher/tmp/html_text-0.5.1.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - processPackages [html-text]: Remove: archive file [/home/abi/fetcher/tmp/html_text-0.5.2.tar.gz]
+[2024-04-04 13:29:26] INFO root fetch - main [MainThread]: End processing [html-text]: success
+[2024-04-04 13:29:26] INFO root fetch - main [MainThread]: Store serial: [22619102]
