@@ -12380,3 +12380,97 @@
 [2024-04-04 06:40:07] INFO root fetch - processPackages [feffery-utils-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_utils_components-0.2.0rc9.tar.gz]
 [2024-04-04 06:40:07] INFO root fetch - main [MainThread]: End processing [feffery-utils-components]: success
 [2024-04-04 06:40:07] INFO root fetch - main [MainThread]: Store serial: [22615488]
+[2024-04-04 06:42:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615488]
+[2024-04-04 06:42:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-payment-order-confirming-sabadell
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delayed
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-l10n-es-facturae
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-es-vat-book
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-es-facturae-face
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edx-event-bus-redis
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-allianceutils
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-temp-3
+[2024-04-04 06:42:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: marimo
+[2024-04-04 06:42:16] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: New version: [16.0.1.8.0.3] Old Version: [16.0.1.8.0.2]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [django-allianceutils]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [delayed]: New version: [1.2.0b2] Old Version: [1.2.0b1]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-04-04 06:42:16] INFO root fetch - processPackages [edx-event-bus-redis]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-04 06:42:16] WARNING root fetch - processPackages [py-temp-3]: Skipping, unable to determine old version
+[2024-04-04 06:42:16] INFO root fetch - main [MainThread]: End processing [py-temp-3] error
+[2024-04-04 06:42:16] INFO root fetch - processPackages [marimo]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Downloading https://files.pythonhosted.org/packages/23/87/9a9825c897ba77580774a92816766c8c2a7e8e4a471ab2a6cf51843f6b4f/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/cb/f7/549ea752e911cb37f6f60457c8322ed102a0ca94896c6300879b6f82ebd5/odoo_addon_l10n_es_facturae-16.0.1.8.0.2-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [delayed]: Downloading https://files.pythonhosted.org/packages/0d/3f/804003c0f5e21cf0bed1580c8cacf2d23db4162f6e5b9aaa6b04f55779d2/delayed-1.2.0b1.tar.gz
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/2d/32/21ff930f51ed1ee0f82e5811082a3758952762b4a89f18d60bf592d3c95a/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/0a/65/966b085bf5453cb69846ed5ce4413970be5c04f8dc8e4387699c34ff787b/django_allianceutils-3.0.0.tar.gz
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Downloading https://files.pythonhosted.org/packages/b7/af/048344fb7f57ff857c0dce903abc8885fbdb3cae60f8a3582fa7dcea201e/odoo_addon_l10n_es_facturae_face-16.0.1.2.0-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/bd/ec/77a6bdaea62205e5285e3a18a03b8cb298324139039580f651a6844a6353/edx_event_bus_redis-0.4.0.tar.gz
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [delayed]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-facturae]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/e8/66/92dde37e6bbf554b0d525e5e5e9c7a75055291d604fa709929fb08eb8492/marimo-0.3.8.tar.gz
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [django-allianceutils]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [edx-event-bus-redis]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [delayed]: Downloading https://files.pythonhosted.org/packages/04/c4/aa6808c623c4b2e6974d9be624fbb29d42d551e9c7ba7939b2748e407ae4/delayed-1.2.0b2.tar.gz
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Downloading https://files.pythonhosted.org/packages/1a/9f/adc23140e47aa73f89534dc3e79e1df2fa84b4743a7b21b30617a7417288/odoo_addon_l10n_es_facturae-16.0.1.8.0.3-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Downloading https://files.pythonhosted.org/packages/4b/7f/44cd72d9805b386046e177c29a689267fad0bb7e35025438a10294b3ccf1/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Downloading https://files.pythonhosted.org/packages/e9/22/66f3645bd80a3f54a0d295327685b5aef4690997018d61c4d66ddc51f0c9/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl
+[2024-04-04 06:42:17] INFO root fetch - processPackages [django-allianceutils]: Downloading https://files.pythonhosted.org/packages/5c/7c/134026e207fe7f9bda71c1d2ce2e3e1bcf034e88672c120414434a54716d/django_allianceutils-4.0.0.tar.gz
+[2024-04-04 06:42:17] INFO root fetch - processPackages [edx-event-bus-redis]: Downloading https://files.pythonhosted.org/packages/34/14/abebc9eec2c1c8cced9bb28ae689341b6fc383dcd2030cefdcefe375a426/edx_event_bus_redis-0.5.0.tar.gz
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Downloading https://files.pythonhosted.org/packages/cf/ee/a8671e57dce10839a677a9bcc02315e5ae2ca40ee59c68ef621a056898a8/odoo_addon_l10n_es_facturae_face-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-facturae]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_facturae-16.0.1.8.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_facturae-16.0.1.8.0.3-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-es-facturae/16.0.1.8.0.2-16.0.1.8.0.3/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-es-payment-order-confirming-sabadell/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [django-allianceutils]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [django-allianceutils]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [django-allianceutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_allianceutils-3.0.0.tar.gz tmp/django_allianceutils-4.0.0.tar.gz --markdown 20240404/d/django-allianceutils/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-es-vat-book/16.0.1.4.0.1-16.0.1.4.0.2/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [delayed]: Timeout reached during download
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [edx-event-bus-redis]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [delayed]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [delayed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delayed-1.2.0b1.tar.gz tmp/delayed-1.2.0b2.tar.gz --markdown 20240404/d/delayed/1.2.0b1-1.2.0b2/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] INFO root fetch - processPackages [edx-event-bus-redis]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [edx-event-bus-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx_event_bus_redis-0.4.0.tar.gz tmp/edx_event_bus_redis-0.5.0.tar.gz --markdown 20240404/e/edx-event-bus-redis/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 06:42:17] WARNING root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Timeout reached during download
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: executing diffoscope
+[2024-04-04 06:42:17] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_facturae_face-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_facturae_face-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-l10n-es-facturae-face/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2024-04-04 06:42:18] WARNING root fetch - processPackages [marimo]: Timeout reached during download
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-payment-order-confirming-sabadell]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_payment_order_confirming_sabadell-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-payment-order-confirming-sabadell]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [marimo]: Downloading https://files.pythonhosted.org/packages/d1/3e/cd8ef9f6faa59843ce698c7b1cc4eef8af5f2abcf674fd8b5b58f9ccbe89/marimo-0.3.9.tar.gz
+[2024-04-04 06:42:18] INFO root fetch - processPackages [edx-event-bus-redis]: Remove: archive file [/home/abi/fetcher/tmp/edx_event_bus_redis-0.4.0.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [edx-event-bus-redis]: Remove: archive file [/home/abi/fetcher/tmp/edx_event_bus_redis-0.5.0.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [edx-event-bus-redis]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [delayed]: Remove: archive file [/home/abi/fetcher/tmp/delayed-1.2.0b1.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [delayed]: Remove: archive file [/home/abi/fetcher/tmp/delayed-1.2.0b2.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [delayed]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae_face-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae-face]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae_face-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae-face]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-vat-book]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_vat_book-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-vat-book]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django_allianceutils-3.0.0.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [django-allianceutils]: Remove: archive file [/home/abi/fetcher/tmp/django_allianceutils-4.0.0.tar.gz]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [django-allianceutils]: success
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.8.0.2-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - processPackages [odoo-addon-l10n-es-facturae]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_facturae-16.0.1.8.0.3-py3-none-any.whl.zip]
+[2024-04-04 06:42:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-facturae]: success
+[2024-04-04 06:42:19] WARNING root fetch - processPackages [marimo]: Timeout reached during download
+[2024-04-04 06:42:19] INFO root fetch - processPackages [marimo]: executing diffoscope
+[2024-04-04 06:42:19] INFO root fetch - processPackages [marimo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marimo-0.3.8.tar.gz tmp/marimo-0.3.9.tar.gz --markdown 20240404/m/marimo/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-04 06:44:05] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.8.tar.gz]
+[2024-04-04 06:44:05] INFO root fetch - processPackages [marimo]: Remove: archive file [/home/abi/fetcher/tmp/marimo-0.3.9.tar.gz]
+[2024-04-04 06:44:05] INFO root fetch - main [MainThread]: End processing [marimo]: success
+[2024-04-04 06:44:05] INFO root fetch - main [MainThread]: Store serial: [22615512]
