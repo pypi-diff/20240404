@@ -11113,3 +11113,42 @@
 [2024-04-04 05:21:22] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
 [2024-04-04 05:21:22] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
 [2024-04-04 05:21:22] INFO root fetch - main [MainThread]: Store serial: [22615103]
+[2024-04-04 05:23:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615103]
+[2024-04-04 05:23:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 05:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manga-scrape
+[2024-04-04 05:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-crm-salesperson-planner
+[2024-04-04 05:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clipkit
+[2024-04-04 05:23:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythagoras
+[2024-04-04 05:23:30] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-04 05:23:30] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-04 05:23:30] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: New version: [16.0.2.0.0.3] Old Version: [16.0.2.0.0.2]
+[2024-04-04 05:23:30] INFO root fetch - processPackages [manga-scrape]: New version: [4.8.0] Old Version: [4.7.1]
+[2024-04-04 05:23:31] INFO root fetch - processPackages [clipkit]: New version: [2.2.5] Old Version: [2.2.4]
+[2024-04-04 05:23:31] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/4d/8d/95fd38b0a5a7c2945034df231598a066e44442e6ad4a88df741a18fc3100/manga_scrape-4.7.1.tar.gz
+[2024-04-04 05:23:31] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/e2/b6/42a70119bdcb8f6de666fced5b07e41202ae158c45e1fa3f9e99836046bd/odoo_addon_crm_salesperson_planner-16.0.2.0.0.2-py3-none-any.whl
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:23:31] INFO root fetch - processPackages [clipkit]: Downloading https://files.pythonhosted.org/packages/18/44/56940ba75eb0d7dcf2168623516b7f39b49230af5392f8ba1a46c657826d/clipkit-2.2.4.tar.gz
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Timeout reached during download
+[2024-04-04 05:23:31] INFO root fetch - processPackages [manga-scrape]: Downloading https://files.pythonhosted.org/packages/bd/f8/0b1c4e019f16b186ed6cc5e5d90e416c4c610bdffb21fae5a0c787b18513/manga_scrape-4.8.0.tar.gz
+[2024-04-04 05:23:31] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Downloading https://files.pythonhosted.org/packages/db/c3/a32f38aab5030da4f582d0d9c78a689eed3797839704991219711dbe6bb3/odoo_addon_crm_salesperson_planner-16.0.2.0.0.3-py3-none-any.whl
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [manga-scrape]: Timeout reached during download
+[2024-04-04 05:23:31] INFO root fetch - processPackages [manga-scrape]: executing diffoscope
+[2024-04-04 05:23:31] INFO root fetch - processPackages [manga-scrape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manga_scrape-4.7.1.tar.gz tmp/manga_scrape-4.8.0.tar.gz --markdown 20240404/m/manga-scrape/4.7.1-4.8.0/diff.md --exclude *.pyd
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [clipkit]: Timeout reached during download
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Timeout reached during download
+[2024-04-04 05:23:31] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: executing diffoscope
+[2024-04-04 05:23:31] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_crm_salesperson_planner-16.0.2.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_crm_salesperson_planner-16.0.2.0.0.3-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-crm-salesperson-planner/16.0.2.0.0.2-16.0.2.0.0.3/diff.md --exclude *.pyd
+[2024-04-04 05:23:31] INFO root fetch - processPackages [clipkit]: Downloading https://files.pythonhosted.org/packages/94/b0/811c4e08dbb10029970e9ce6b9764b515e3ab649651757b2fa2125b4f8d3/clipkit-2.2.5.tar.gz
+[2024-04-04 05:23:31] WARNING root fetch - processPackages [clipkit]: Timeout reached during download
+[2024-04-04 05:23:31] INFO root fetch - processPackages [clipkit]: executing diffoscope
+[2024-04-04 05:23:31] INFO root fetch - processPackages [clipkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clipkit-2.2.4.tar.gz tmp/clipkit-2.2.5.tar.gz --markdown 20240404/c/clipkit/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2024-04-04 05:23:32] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.7.1.tar.gz]
+[2024-04-04 05:23:32] INFO root fetch - processPackages [manga-scrape]: Remove: archive file [/home/abi/fetcher/tmp/manga_scrape-4.8.0.tar.gz]
+[2024-04-04 05:23:32] INFO root fetch - main [MainThread]: End processing [manga-scrape]: success
+[2024-04-04 05:23:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-16.0.2.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 05:23:32] INFO root fetch - processPackages [odoo-addon-crm-salesperson-planner]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_crm_salesperson_planner-16.0.2.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 05:23:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-crm-salesperson-planner]: success
+[2024-04-04 05:23:32] INFO root fetch - processPackages [clipkit]: Remove: archive file [/home/abi/fetcher/tmp/clipkit-2.2.4.tar.gz]
+[2024-04-04 05:23:32] INFO root fetch - processPackages [clipkit]: Remove: archive file [/home/abi/fetcher/tmp/clipkit-2.2.5.tar.gz]
+[2024-04-04 05:23:32] INFO root fetch - main [MainThread]: End processing [clipkit]: success
+[2024-04-04 05:23:32] INFO root fetch - main [MainThread]: Store serial: [22615113]
