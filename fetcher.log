@@ -11972,3 +11972,61 @@
 [2024-04-04 06:09:19] INFO root fetch - processPackages [eodatasets3]: Remove: archive file [/home/abi/fetcher/tmp/eodatasets3-0.9.3.tar.gz]
 [2024-04-04 06:09:19] INFO root fetch - main [MainThread]: End processing [eodatasets3]: success
 [2024-04-04 06:09:19] INFO root fetch - main [MainThread]: Store serial: [22615356]
+[2024-04-04 06:11:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615356]
+[2024-04-04 06:11:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 06:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyTOUGH
+[2024-04-04 06:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-json-config
+[2024-04-04 06:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aic-tools-alpaca
+[2024-04-04 06:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-pubsub
+[2024-04-04 06:11:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vcorelib
+[2024-04-04 06:11:28] INFO root fetch - processPackages [aic-tools-alpaca]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-04 06:11:28] INFO root fetch - processPackages [PyTOUGH]: New version: [1.6.2] Old Version: [1.6.1]
+[2024-04-04 06:11:28] INFO root fetch - processPackages [mo-json-config]: New version: [4.582.24095] Old Version: [4.579.24081]
+[2024-04-04 06:11:28] INFO root fetch - processPackages [vcorelib]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-04 06:11:28] INFO root fetch - processPackages [google-cloud-pubsub]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-04 06:11:28] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/4b/7b/445445ff46c8bad24f75bbf8712d27b506f11c115d56d97c8899a1accb32/vcorelib-3.2.1.tar.gz
+[2024-04-04 06:11:28] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/70/b1/a3fb0ff5d57b25d93370c74b193665f7d02725f39458479b6baa077fb387/google-cloud-pubsub-2.8.0.tar.gz
+[2024-04-04 06:11:28] INFO root fetch - processPackages [aic-tools-alpaca]: Downloading https://files.pythonhosted.org/packages/89/bb/d98f8e07af6c95d8f3fa5e4fa3711cb857d3f2b6fa8a6cbca4f0c2a4bd5b/aic_tools_alpaca-0.0.2.tar.gz
+[2024-04-04 06:11:28] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/88/54/4250bcf5ebfc3d280dfb8bdd05138ac09939f134629eb54a9bb69c2f34a2/mo-json-config-4.579.24081.tar.gz
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [vcorelib]: Timeout reached during download
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [aic-tools-alpaca]: Timeout reached during download
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [google-cloud-pubsub]: Timeout reached during download
+[2024-04-04 06:11:28] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/23/4a/1e95eeaf035924e20851fbe0acfe13e20ecbad3a5cd169c8ddcfd8afd7ca/vcorelib-3.2.2-py3-none-any.whl
+[2024-04-04 06:11:28] INFO root fetch - processPackages [PyTOUGH]: Downloading https://files.pythonhosted.org/packages/0d/fe/b49484f626616b821e229c887b19e9cb5ca575a9a6fc82e1fc858adbfe02/PyTOUGH-1.6.1.tar.gz
+[2024-04-04 06:11:28] INFO root fetch - processPackages [aic-tools-alpaca]: Downloading https://files.pythonhosted.org/packages/12/2f/8cd4b5f98ef27ece2906c12379c23d9d2eef06f5d1019693a92b18134e1c/aic_tools_alpaca-0.0.3.tar.gz
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [mo-json-config]: Timeout reached during download
+[2024-04-04 06:11:28] INFO root fetch - processPackages [google-cloud-pubsub]: Downloading https://files.pythonhosted.org/packages/e3/d6/8cde40432cac31c8f811cee72044adf491e66a2af9ded4d1774ca1ee4825/google-cloud-pubsub-2.9.0.tar.gz
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [aic-tools-alpaca]: Timeout reached during download
+[2024-04-04 06:11:28] INFO root fetch - processPackages [aic-tools-alpaca]: executing diffoscope
+[2024-04-04 06:11:28] INFO root fetch - processPackages [aic-tools-alpaca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aic_tools_alpaca-0.0.2.tar.gz tmp/aic_tools_alpaca-0.0.3.tar.gz --markdown 20240404/a/aic-tools-alpaca/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [PyTOUGH]: Timeout reached during download
+[2024-04-04 06:11:28] INFO root fetch - processPackages [mo-json-config]: Downloading https://files.pythonhosted.org/packages/e2/3d/645a10cb697cd5fe8b280a57d5de640f89f3e87b042f7c8d8f8ddfb4db94/mo-json-config-4.582.24095.tar.gz
+[2024-04-04 06:11:28] WARNING root fetch - processPackages [vcorelib]: Timeout reached during download
+[2024-04-04 06:11:28] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2024-04-04 06:11:28] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-3.2.1.tar.gz tmp/vcorelib-3.2.2-py3-none-any.whl.zip --markdown 20240404/v/vcorelib/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2024-04-04 06:11:29] WARNING root fetch - processPackages [google-cloud-pubsub]: Timeout reached during download
+[2024-04-04 06:11:29] INFO root fetch - processPackages [google-cloud-pubsub]: executing diffoscope
+[2024-04-04 06:11:29] INFO root fetch - processPackages [google-cloud-pubsub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-pubsub-2.8.0.tar.gz tmp/google-cloud-pubsub-2.9.0.tar.gz --markdown 20240404/g/google-cloud-pubsub/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-04 06:11:29] INFO root fetch - processPackages [PyTOUGH]: Downloading https://files.pythonhosted.org/packages/2b/d3/d618d265e594f92ed2a66766ecbc8f0a4907754ed10ebc23cde3eda249bb/PyTOUGH-1.6.2.tar.gz
+[2024-04-04 06:11:29] WARNING root fetch - processPackages [mo-json-config]: Timeout reached during download
+[2024-04-04 06:11:29] INFO root fetch - processPackages [mo-json-config]: executing diffoscope
+[2024-04-04 06:11:29] INFO root fetch - processPackages [mo-json-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-json-config-4.579.24081.tar.gz tmp/mo-json-config-4.582.24095.tar.gz --markdown 20240404/m/mo-json-config/4.579.24081-4.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:11:29] WARNING root fetch - processPackages [PyTOUGH]: Timeout reached during download
+[2024-04-04 06:11:29] INFO root fetch - processPackages [PyTOUGH]: executing diffoscope
+[2024-04-04 06:11:29] INFO root fetch - processPackages [PyTOUGH]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyTOUGH-1.6.1.tar.gz tmp/PyTOUGH-1.6.2.tar.gz --markdown 20240404/P/PyTOUGH/1.6.1-1.6.2/diff.md --exclude *.pyd
+[2024-04-04 06:11:29] INFO root fetch - processPackages [aic-tools-alpaca]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_alpaca-0.0.2.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - processPackages [aic-tools-alpaca]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools_alpaca-0.0.3.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - main [MainThread]: End processing [aic-tools-alpaca]: success
+[2024-04-04 06:11:29] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-3.2.1.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-3.2.2-py3-none-any.whl.zip]
+[2024-04-04 06:11:29] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2024-04-04 06:11:29] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo-json-config-4.579.24081.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - processPackages [mo-json-config]: Remove: archive file [/home/abi/fetcher/tmp/mo-json-config-4.582.24095.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - main [MainThread]: End processing [mo-json-config]: success
+[2024-04-04 06:11:29] INFO root fetch - processPackages [PyTOUGH]: Remove: archive file [/home/abi/fetcher/tmp/PyTOUGH-1.6.1.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - processPackages [PyTOUGH]: Remove: archive file [/home/abi/fetcher/tmp/PyTOUGH-1.6.2.tar.gz]
+[2024-04-04 06:11:29] INFO root fetch - main [MainThread]: End processing [PyTOUGH]: success
+[2024-04-04 06:11:30] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.8.0.tar.gz]
+[2024-04-04 06:11:30] INFO root fetch - processPackages [google-cloud-pubsub]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-pubsub-2.9.0.tar.gz]
+[2024-04-04 06:11:30] INFO root fetch - main [MainThread]: End processing [google-cloud-pubsub]: success
+[2024-04-04 06:11:30] INFO root fetch - main [MainThread]: Store serial: [22615372]
