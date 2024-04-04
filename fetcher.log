@@ -22974,3 +22974,90 @@
 [2024-04-04 13:31:37] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-24.8.0.tar.gz]
 [2024-04-04 13:31:37] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
 [2024-04-04 13:31:37] INFO root fetch - main [MainThread]: Store serial: [22619119]
+[2024-04-04 13:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619119]
+[2024-04-04 13:33:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magpylib-material-response
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyquocca
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wivi-graph-client-py
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: droid-metapatch
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-core-xe
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aries-cloudcontroller
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2024-04-04 13:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: specmatic
+[2024-04-04 13:33:46] INFO root fetch - processPackages [pyquocca]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [magpylib-material-response]: New version: [0.2.0a0] Old Version: [0.1.0a6]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [droid-metapatch]: Skipping, unable to determine old version
+[2024-04-04 13:33:46] INFO root fetch - main [MainThread]: End processing [droid-metapatch] error
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [wivi-graph-client-py]: New version: [2.1.2] Old Version: [2.1.1]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240404] Old Version: [2.5.0b20240403]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.9.0.post2] Old Version: [0.9.0.post1]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/d3/ee/0df9cc749a20ee73217971a4a8accba6e5ae58832d346d23f9bdf85661bb/pyquocca-0.0.8.tar.gz
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/66/75/b43b962ad679b1db9662d9d315d87744f2a39401cfc05563cf75f8ef6a3f/torch_model_archiver_nightly-2024.4.2-py3-none-any.whl
+[2024-04-04 13:33:46] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-04 13:33:46] INFO root fetch - processPackages [wivi-graph-client-py]: Downloading https://files.pythonhosted.org/packages/2b/14/eb1d4cd2d2f064599768c668171aa937333380ca15ac43e300161f275107/wivi_graph_client_py-2.1.1.tar.gz
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/59/2d/80d097f7c46b75fe665b49fd9fe8d50238746c4f934afdc1dc92c00ca4dd/torchserve_nightly-2024.4.2-py3-none-any.whl
+[2024-04-04 13:33:46] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/57/58/6eddb4d0c5aa15e90bcccb3a6f7381d1286236a75a96de6183034a955f08/aries_cloudcontroller-0.9.0.post1.tar.gz
+[2024-04-04 13:33:46] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/95/43/3d38047ea51d0b0da79b6500e3375064ee9c277ec38b0b4f45db0f828077/bigdl_core_xe-2.5.0b20240403-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-04 13:33:46] INFO root fetch - processPackages [magpylib-material-response]: Downloading https://files.pythonhosted.org/packages/0a/f9/79dbbd35be4ad892f0ece29533b6e419d0928f1d1b453b90d4dd962f565f/magpylib-material-response-0.1.0a6.tar.gz
+[2024-04-04 13:33:46] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/ba/bb/7de483fcf6e301b42eb1540ed5f52073f75c4de379e67021054466a74213/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24331917>=10485760
+[2024-04-04 13:33:46] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 95049672>=10485760
+[2024-04-04 13:33:46] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [torch-model-archiver-nightly]: Timeout reached during download
+[2024-04-04 13:33:46] WARNING root fetch - processPackages [wivi-graph-client-py]: Timeout reached during download
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [torch-workflow-archiver-nightly]: Timeout reached during download
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [magpylib-material-response]: Timeout reached during download
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [aries-cloudcontroller]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-04-04 13:33:47] INFO root fetch - processPackages [pyquocca]: Downloading https://files.pythonhosted.org/packages/14/91/ed05b4a616e1d9c0b20ad8d5ad80c7c832df545d142d03d9d7c56970298d/pyquocca-0.0.9.tar.gz
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-04-04 13:33:47] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9b/c3/2d30ad7627aeb05ffaf1fa8f174cc5a666db8a2518262d3f0e2521a77714/torch_model_archiver_nightly-2024.4.3-py3-none-any.whl
+[2024-04-04 13:33:47] INFO root fetch - processPackages [wivi-graph-client-py]: Downloading https://files.pythonhosted.org/packages/a5/02/e98b0a376ae898770180ca49e35662c3392bc57984731dba5c28ec92dd22/wivi_graph_client_py-2.1.2.tar.gz
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9c/03/e72c8d5c22a6c5cc296681563be6eb509b9ab89db9d704cd19be61d66be4/torch_workflow_archiver_nightly-2024.4.3-py3-none-any.whl
+[2024-04-04 13:33:47] INFO root fetch - processPackages [magpylib-material-response]: Downloading https://files.pythonhosted.org/packages/d7/78/50e4674793f966de68e2824d61d7c4094bb4453b97126792b0d6526ac16e/magpylib-material-response-0.2.0a0.tar.gz
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [pyquocca]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [pyquocca]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [pyquocca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquocca-0.0.8.tar.gz tmp/pyquocca-0.0.9.tar.gz --markdown 20240404/p/pyquocca/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 13:33:47] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/ff/e8/72596cbf2395e14ebe7b8b564e849df6e0cc60a3e4ecd567c391f164e708/aries_cloudcontroller-0.9.0.post2.tar.gz
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [wivi-graph-client-py]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [wivi-graph-client-py]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [wivi-graph-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wivi_graph_client_py-2.1.1.tar.gz tmp/wivi_graph_client_py-2.1.2.tar.gz --markdown 20240404/w/wivi-graph-client-py/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [torch-model-archiver-nightly]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.4.2-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.3-py3-none-any.whl.zip --markdown 20240404/t/torch-model-archiver-nightly/2024.4.2-2024.4.3/diff.md --exclude *.pyd
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [torch-workflow-archiver-nightly]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.3-py3-none-any.whl.zip --markdown 20240404/t/torch-workflow-archiver-nightly/2024.4.2-2024.4.3/diff.md --exclude *.pyd
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [magpylib-material-response]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [magpylib-material-response]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [magpylib-material-response]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magpylib-material-response-0.1.0a6.tar.gz tmp/magpylib-material-response-0.2.0a0.tar.gz --markdown 20240404/m/magpylib-material-response/0.1.0a6-0.2.0a0/diff.md --exclude *.pyd
+[2024-04-04 13:33:47] WARNING root fetch - processPackages [aries-cloudcontroller]: Timeout reached during download
+[2024-04-04 13:33:47] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2024-04-04 13:33:47] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.9.0.post1.tar.gz tmp/aries_cloudcontroller-0.9.0.post2.tar.gz --markdown 20240404/a/aries-cloudcontroller/0.9.0.post1-0.9.0.post2/diff.md --exclude *.pyd
+[2024-04-04 13:33:48] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.8.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - processPackages [pyquocca]: Remove: archive file [/home/abi/fetcher/tmp/pyquocca-0.0.9.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - main [MainThread]: End processing [pyquocca]: success
+[2024-04-04 13:33:48] INFO root fetch - processPackages [wivi-graph-client-py]: Remove: archive file [/home/abi/fetcher/tmp/wivi_graph_client_py-2.1.1.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - processPackages [wivi-graph-client-py]: Remove: archive file [/home/abi/fetcher/tmp/wivi_graph_client_py-2.1.2.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - main [MainThread]: End processing [wivi-graph-client-py]: success
+[2024-04-04 13:33:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.2-py3-none-any.whl.zip]
+[2024-04-04 13:33:48] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.3-py3-none-any.whl.zip]
+[2024-04-04 13:33:48] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-04 13:33:48] INFO root fetch - processPackages [magpylib-material-response]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-material-response-0.1.0a6.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - processPackages [magpylib-material-response]: Remove: archive file [/home/abi/fetcher/tmp/magpylib-material-response-0.2.0a0.tar.gz]
+[2024-04-04 13:33:48] INFO root fetch - main [MainThread]: End processing [magpylib-material-response]: success
+[2024-04-04 13:33:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl.zip]
+[2024-04-04 13:33:48] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.3-py3-none-any.whl.zip]
+[2024-04-04 13:33:48] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-04 13:33:50] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post1.tar.gz]
+[2024-04-04 13:33:50] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
+[2024-04-04 13:33:50] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2024-04-04 13:33:50] INFO root fetch - main [MainThread]: Store serial: [22619145]
