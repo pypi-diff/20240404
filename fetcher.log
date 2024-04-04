@@ -24302,3 +24302,81 @@
 [2024-04-04 14:20:07] INFO root fetch - processPackages [vdk-impala]: Remove: archive file [/home/abi/fetcher/tmp/vdk-impala-0.4.975814598.tar.gz]
 [2024-04-04 14:20:07] INFO root fetch - main [MainThread]: End processing [vdk-impala]: success
 [2024-04-04 14:20:07] INFO root fetch - main [MainThread]: Store serial: [22619709]
+[2024-04-04 14:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619709]
+[2024-04-04 14:22:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mm-sdk
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sbcli-dev
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: akshare
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meteoFrance-data
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yurumikuji
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fd58
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-chikari-economy
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asmu
+[2024-04-04 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdo-sdk-python
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [fd58]: Skipping, unable to determine old version
+[2024-04-04 14:22:17] INFO root fetch - main [MainThread]: End processing [fd58] error
+[2024-04-04 14:22:17] INFO root fetch - processPackages [yurumikuji]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-04 14:22:17] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [meteoFrance-data]: Skipping, unable to determine old version
+[2024-04-04 14:22:17] INFO root fetch - main [MainThread]: End processing [meteoFrance-data] error
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [asmu]: Skipping, unable to determine old version
+[2024-04-04 14:22:17] INFO root fetch - main [MainThread]: End processing [asmu] error
+[2024-04-04 14:22:17] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 14:22:17] INFO root fetch - processPackages [sbcli-dev]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-04 14:22:17] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.374] Old Version: [0.1.371]
+[2024-04-04 14:22:17] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2024-04-04 14:22:17] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-04 14:22:17] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/fa/91/b981fe8f2d6ac6c7a8366a805135d081eaf189c7b8a259531dc406566218/nonebot_plugin_chikari_economy-0.0.3.tar.gz
+[2024-04-04 14:22:17] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/2a/d7/4f1511f16be5ed5d56e755c39ebc3a773315890d09e22f274f9d02252692/yurumikuji-0.3.0.tar.gz
+[2024-04-04 14:22:17] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/80/c4/202bbcdda69b6564726b6569b4c71832436fa064c9537ffd9715f17f3b60/sbcli-dev-2.0.6.zip
+[2024-04-04 14:22:17] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/ed/b6/6a85c75e2d3d177e2acf7da32e83074c030a4befa92fd9b2bf0152236b11/mm_sdk-0.1.371.tar.gz
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:22:17] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-04 14:22:17] INFO root fetch - processPackages [yurumikuji]: Downloading https://files.pythonhosted.org/packages/25/fa/415817ae95df2dcf4bd3061fcee219855b1bae27ce29e388bb8400a195c6/yurumikuji-0.4.0.tar.gz
+[2024-04-04 14:22:17] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-04 14:22:17] WARNING root fetch - processPackages [mm-sdk]: Timeout reached during download
+[2024-04-04 14:22:17] INFO root fetch - processPackages [sbcli-dev]: Downloading https://files.pythonhosted.org/packages/1d/cc/321706545382259c4858cf1cef729c3ebdf6f64a8e6633431f747799ce49/sbcli-dev-2.0.7.zip
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/d6/58/a0b13d91580400826d22f448993feb77ee49840f1948bce16f043c08d630/nonebot_plugin_chikari_economy-0.0.4.tar.gz
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [yurumikuji]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [yurumikuji]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [yurumikuji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yurumikuji-0.3.0.tar.gz tmp/yurumikuji-0.4.0.tar.gz --markdown 20240404/y/yurumikuji/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 14:22:18] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/07/04/f396da62789a4c7835a46f5161ff7da8e3d3ea20198de64e7393ed4a3d2a/mm_sdk-0.1.374.tar.gz
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [cdo-sdk-python]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240404/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chikari_economy-0.0.3.tar.gz tmp/nonebot_plugin_chikari_economy-0.0.4.tar.gz --markdown 20240404/n/nonebot-plugin-chikari-economy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [sbcli-dev]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [sbcli-dev]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [sbcli-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sbcli-dev-2.0.6.zip tmp/sbcli-dev-2.0.7.zip --markdown 20240404/s/sbcli-dev/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2024-04-04 14:22:18] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [mm-sdk]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.371.tar.gz tmp/mm_sdk-0.1.374.tar.gz --markdown 20240404/m/mm-sdk/0.1.371-0.1.374/diff.md --exclude *.pyd
+[2024-04-04 14:22:18] WARNING root fetch - processPackages [akshare]: Timeout reached during download
+[2024-04-04 14:22:18] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2024-04-04 14:22:18] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20240404/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2024-04-04 14:22:19] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.3.0.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - processPackages [yurumikuji]: Remove: archive file [/home/abi/fetcher/tmp/yurumikuji-0.4.0.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - main [MainThread]: End processing [yurumikuji]: success
+[2024-04-04 14:22:19] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.3.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.4.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chikari-economy]: success
+[2024-04-04 14:22:19] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.371.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - processPackages [mm-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mm_sdk-0.1.374.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2024-04-04 14:22:19] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.6.zip]
+[2024-04-04 14:22:19] INFO root fetch - processPackages [sbcli-dev]: Remove: archive file [/home/abi/fetcher/tmp/sbcli-dev-2.0.7.zip]
+[2024-04-04 14:22:19] INFO root fetch - main [MainThread]: End processing [sbcli-dev]: success
+[2024-04-04 14:22:19] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-04 14:22:19] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-04 14:22:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2024-04-04 14:22:21] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2024-04-04 14:22:21] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2024-04-04 14:22:21] INFO root fetch - main [MainThread]: Store serial: [22619735]
