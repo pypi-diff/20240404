@@ -16948,3 +16948,28 @@
 [2024-04-04 10:01:58] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240404-cp39-cp39-win_amd64.whl.zip]
 [2024-04-04 10:01:58] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
 [2024-04-04 10:01:58] INFO root fetch - main [MainThread]: Store serial: [22616916]
+[2024-04-04 10:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616916]
+[2024-04-04 10:04:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nodoc
+[2024-04-04 10:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kodexa-cli
+[2024-04-04 10:04:06] INFO root fetch - processPackages [nodoc]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 10:04:06] INFO root fetch - processPackages [kodexa-cli]: New version: [7.0.8550032308] Old Version: [7.0.8549709945]
+[2024-04-04 10:04:06] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/83/59/776f4c99770d400b32ae9dd01ae7c6d61e2f8da8109aed0ed27e1ea49049/nodoc-1.0.3.tar.gz
+[2024-04-04 10:04:06] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/33/6a/a4b29e933e97b165dedb75211b6ec3c530ff474f59290e6520307b85ca04/kodexa_cli-7.0.8549709945.tar.gz
+[2024-04-04 10:04:06] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:04:06] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 10:04:06] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/80/46/909b0ec0a46ad50cdc38994390db279736ee6628a36bec2271f0299d4d49/nodoc-1.0.4.tar.gz
+[2024-04-04 10:04:06] INFO root fetch - processPackages [kodexa-cli]: Downloading https://files.pythonhosted.org/packages/7d/1e/0a44d4daae6c498f3ca46ae759b06e9b762ca2a000e2b61cbec28b7b91d9/kodexa_cli-7.0.8550032308.tar.gz
+[2024-04-04 10:04:06] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:04:06] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:04:06] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.3.tar.gz tmp/nodoc-1.0.4.tar.gz --markdown 20240404/n/nodoc/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 10:04:06] WARNING root fetch - processPackages [kodexa-cli]: Timeout reached during download
+[2024-04-04 10:04:06] INFO root fetch - processPackages [kodexa-cli]: executing diffoscope
+[2024-04-04 10:04:06] INFO root fetch - processPackages [kodexa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa_cli-7.0.8549709945.tar.gz tmp/kodexa_cli-7.0.8550032308.tar.gz --markdown 20240404/k/kodexa-cli/7.0.8549709945-7.0.8550032308/diff.md --exclude *.pyd
+[2024-04-04 10:04:07] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8549709945.tar.gz]
+[2024-04-04 10:04:07] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8550032308.tar.gz]
+[2024-04-04 10:04:07] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
+[2024-04-04 10:04:07] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.3.tar.gz]
+[2024-04-04 10:04:07] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.4.tar.gz]
+[2024-04-04 10:04:07] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:04:07] INFO root fetch - main [MainThread]: Store serial: [22616919]
