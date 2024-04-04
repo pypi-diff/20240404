@@ -23061,3 +23061,55 @@
 [2024-04-04 13:33:50] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.9.0.post2.tar.gz]
 [2024-04-04 13:33:50] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
 [2024-04-04 13:33:50] INFO root fetch - main [MainThread]: Store serial: [22619145]
+[2024-04-04 13:35:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619145]
+[2024-04-04 13:35:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specmatic
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ftw.recipe.solr
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparse
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: finbourne-horizon-sdk
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simple-notifications
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ftw.recipe.solr]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-04 13:35:59] INFO root fetch - processPackages [specmatic]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-04 13:35:59] INFO root fetch - processPackages [sparse]: New version: [0.9.1] Old Version: [0.8.0]
+[2024-04-04 13:35:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 13:35:59] INFO root fetch - processPackages [simple-notifications]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 13:35:59] INFO root fetch - processPackages [specmatic]: Downloading https://files.pythonhosted.org/packages/69/6e/484653e35ca218114964e0212bcaa4236cb2768173d1ffe05f47c33fa9fb/specmatic-1.3.8.tar.gz
+[2024-04-04 13:35:59] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-04 13:35:59] WARNING root fetch - processPackages [specmatic]: Skipping package: exceeds size limit 58401368>=10485760
+[2024-04-04 13:35:59] INFO root fetch - main [MainThread]: End processing [specmatic] error
+[2024-04-04 13:35:59] INFO root fetch - processPackages [ftw.recipe.solr]: Downloading https://files.pythonhosted.org/packages/96/4c/a7c2f98dd8c23b93a20b73eda2e36bb3dc5ce991a4acab66c3d28896edd1/ftw.recipe.solr-1.3.8.tar.gz
+[2024-04-04 13:35:59] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/8e/da/cba8e6d14869c1e62251d587332eafec3c92fea9f041e0d5491a634b80d1/sparse-0.8.0.tar.gz
+[2024-04-04 13:35:59] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-04 13:35:59] INFO root fetch - processPackages [simple-notifications]: Downloading https://files.pythonhosted.org/packages/9e/50/fb3cbe18fd1a7eba81f63b9b963a9893eb2393b72719e26a8469a54819cd/simple-notifications-0.1.2.tar.gz
+[2024-04-04 13:35:59] WARNING root fetch - processPackages [ftw.recipe.solr]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-04 13:36:00] INFO root fetch - processPackages [ftw.recipe.solr]: Downloading https://files.pythonhosted.org/packages/19/19/8818dbf1aeab544af492d3d17ce11f33a63c7bbe11a15e47da31cbd28c1c/ftw.recipe.solr-1.3.9.tar.gz
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [simple-notifications]: Timeout reached during download
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [finbourne-horizon-sdk]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-04 13:36:00] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240404/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [sparse]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [simple-notifications]: Downloading https://files.pythonhosted.org/packages/dc/bd/56e02f7c73ce878f47864f907768490e7e734ee18568572595218da3db38/simple_notifications-0.1.3-py3-none-any.whl
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [ftw.recipe.solr]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [ftw.recipe.solr]: executing diffoscope
+[2024-04-04 13:36:00] INFO root fetch - processPackages [ftw.recipe.solr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftw.recipe.solr-1.3.8.tar.gz tmp/ftw.recipe.solr-1.3.9.tar.gz --markdown 20240404/f/ftw.recipe.solr/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-04 13:36:00] INFO root fetch - processPackages [sparse]: Downloading https://files.pythonhosted.org/packages/34/99/52ebc6bd4198f1e61e66f04ff1947a27aa8723b974e5d79fde0bb60e784f/sparse-0.9.1.tar.gz
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [simple-notifications]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [simple-notifications]: executing diffoscope
+[2024-04-04 13:36:00] INFO root fetch - processPackages [simple-notifications]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-notifications-0.1.2.tar.gz tmp/simple_notifications-0.1.3-py3-none-any.whl.zip --markdown 20240404/s/simple-notifications/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 13:36:00] WARNING root fetch - processPackages [sparse]: Timeout reached during download
+[2024-04-04 13:36:00] INFO root fetch - processPackages [sparse]: executing diffoscope
+[2024-04-04 13:36:00] INFO root fetch - processPackages [sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparse-0.8.0.tar.gz tmp/sparse-0.9.1.tar.gz --markdown 20240404/s/sparse/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 13:36:00] INFO root fetch - processPackages [ftw.recipe.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.recipe.solr-1.3.8.tar.gz]
+[2024-04-04 13:36:00] INFO root fetch - processPackages [ftw.recipe.solr]: Remove: archive file [/home/abi/fetcher/tmp/ftw.recipe.solr-1.3.9.tar.gz]
+[2024-04-04 13:36:00] INFO root fetch - main [MainThread]: End processing [ftw.recipe.solr]: success
+[2024-04-04 13:36:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-04 13:36:01] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-04 13:36:01] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-04 13:36:01] INFO root fetch - processPackages [simple-notifications]: Remove: archive file [/home/abi/fetcher/tmp/simple-notifications-0.1.2.tar.gz]
+[2024-04-04 13:36:01] INFO root fetch - processPackages [simple-notifications]: Remove: archive file [/home/abi/fetcher/tmp/simple_notifications-0.1.3-py3-none-any.whl.zip]
+[2024-04-04 13:36:01] INFO root fetch - main [MainThread]: End processing [simple-notifications]: success
+[2024-04-04 13:36:01] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.8.0.tar.gz]
+[2024-04-04 13:36:01] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
+[2024-04-04 13:36:01] INFO root fetch - main [MainThread]: End processing [sparse]: success
+[2024-04-04 13:36:01] INFO root fetch - main [MainThread]: Store serial: [22619158]
