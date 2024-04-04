@@ -23113,3 +23113,44 @@
 [2024-04-04 13:36:01] INFO root fetch - processPackages [sparse]: Remove: archive file [/home/abi/fetcher/tmp/sparse-0.9.1.tar.gz]
 [2024-04-04 13:36:01] INFO root fetch - main [MainThread]: End processing [sparse]: success
 [2024-04-04 13:36:01] INFO root fetch - main [MainThread]: Store serial: [22619158]
+[2024-04-04 13:38:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619158]
+[2024-04-04 13:38:10] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: numerous
+[2024-04-04 13:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hcube
+[2024-04-04 13:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pineboo
+[2024-04-04 13:38:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: glances-api
+[2024-04-04 13:38:10] INFO root fetch - processPackages [glances-api]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-04 13:38:10] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 13:38:10] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.9] Old Version: [0.99.81.8]
+[2024-04-04 13:38:10] INFO root fetch - processPackages [hcube]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 13:38:10] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-04 13:38:10] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9c/b7/3be4b93bdb42cf8e4577b6a5424555cdf77d5abd237d740480f6d495fa52/pineboo-0.99.81.8.tar.gz
+[2024-04-04 13:38:10] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/d4/32/dab2d0a8836b704fb9df494509f11d63afdbd7c12b7bed6360e875974902/hcube-0.9.0.tar.gz
+[2024-04-04 13:38:10] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-04 13:38:10] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-04 13:38:10] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/27/40/b7dd7d360022ef73e3398c804c9769259ee095a413c2ad9c09c86b7e2fbf/glances_api-0.5.1.tar.gz
+[2024-04-04 13:38:10] WARNING root fetch - processPackages [hcube]: Timeout reached during download
+[2024-04-04 13:38:10] WARNING root fetch - processPackages [glances-api]: Timeout reached during download
+[2024-04-04 13:38:10] INFO root fetch - processPackages [hcube]: Downloading https://files.pythonhosted.org/packages/59/e7/fc9c125b16a046449ffe988acfb8c3006fb90d98239cf77603c795723620/hcube-0.9.1.tar.gz
+[2024-04-04 13:38:10] INFO root fetch - processPackages [glances-api]: Downloading https://files.pythonhosted.org/packages/02/2a/8319c1cb77c49cb73f989906592f795c83731802f5988f8125487fbac188/glances_api-0.6.0.tar.gz
+[2024-04-04 13:38:10] WARNING root fetch - processPackages [hcube]: Timeout reached during download
+[2024-04-04 13:38:10] INFO root fetch - processPackages [hcube]: executing diffoscope
+[2024-04-04 13:38:10] INFO root fetch - processPackages [hcube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcube-0.9.0.tar.gz tmp/hcube-0.9.1.tar.gz --markdown 20240404/h/hcube/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 13:38:11] WARNING root fetch - processPackages [glances-api]: Timeout reached during download
+[2024-04-04 13:38:11] INFO root fetch - processPackages [glances-api]: executing diffoscope
+[2024-04-04 13:38:11] INFO root fetch - processPackages [glances-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glances_api-0.5.1.tar.gz tmp/glances_api-0.6.0.tar.gz --markdown 20240404/g/glances-api/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-04 13:38:11] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:38:11] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ff/50/87775691723da3f9e064c08195196296b4854a665f9ed79f579caf49283d/pineboo-0.99.81.9.tar.gz
+[2024-04-04 13:38:11] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.0.tar.gz]
+[2024-04-04 13:38:11] INFO root fetch - processPackages [hcube]: Remove: archive file [/home/abi/fetcher/tmp/hcube-0.9.1.tar.gz]
+[2024-04-04 13:38:11] INFO root fetch - main [MainThread]: End processing [hcube]: success
+[2024-04-04 13:38:11] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.5.1.tar.gz]
+[2024-04-04 13:38:11] INFO root fetch - processPackages [glances-api]: Remove: archive file [/home/abi/fetcher/tmp/glances_api-0.6.0.tar.gz]
+[2024-04-04 13:38:11] INFO root fetch - main [MainThread]: End processing [glances-api]: success
+[2024-04-04 13:38:12] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:38:12] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 13:38:12] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.8.tar.gz tmp/pineboo-0.99.81.9.tar.gz --markdown 20240404/p/pineboo/0.99.81.8-0.99.81.9/diff.md --exclude *.pyd
+[2024-04-04 13:38:15] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.8.tar.gz]
+[2024-04-04 13:38:15] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
+[2024-04-04 13:38:15] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 13:38:15] INFO root fetch - main [MainThread]: Store serial: [22619169]
