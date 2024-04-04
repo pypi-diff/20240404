@@ -22696,3 +22696,79 @@
 [2024-04-04 13:20:32] INFO root fetch - processPackages [vasprocar]: Remove: archive file [/home/abi/fetcher/tmp/vasprocar-1.1.18.48.tar.gz]
 [2024-04-04 13:20:32] INFO root fetch - main [MainThread]: End processing [vasprocar]: success
 [2024-04-04 13:20:32] INFO root fetch - main [MainThread]: Store serial: [22619025]
+[2024-04-04 13:22:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619025]
+[2024-04-04 13:22:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: trex-apis
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbformat
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qontract-reconcile
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dckit
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: satella
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: causadb
+[2024-04-04 13:22:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: viktor
+[2024-04-04 13:22:43] INFO root fetch - processPackages [causadb]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [trex-apis]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [dckit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [nbformat]: New version: [5.9.2] Old Version: [5.9.1]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [satella]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [viktor]: New version: [14.9.0] Old Version: [14.8.0rc1]
+[2024-04-04 13:22:43] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/47/d0/b1a3de53f540bda45c39cfe80512f7b51ec995a586f57e8a810c20a73058/causadb-1.5.0.tar.gz
+[2024-04-04 13:22:43] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2024-04-04 13:22:43] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/79/e6/ca5113169e7bf5fc8575928e23922fe290c78b8961efca985581e2c7ef5b/trex-apis-1.3.5.tar.gz
+[2024-04-04 13:22:43] INFO root fetch - processPackages [dckit]: Downloading https://files.pythonhosted.org/packages/3a/a9/9306233b5dc9268631a2ef58bf17ab264396521ee9c504bfbefbd09d39d0/dckit-0.9.0.tar.gz
+[2024-04-04 13:22:43] INFO root fetch - processPackages [satella]: Downloading https://files.pythonhosted.org/packages/74/56/f30ea8e653f033ca3d7985a63f407f587857f85bebdca42aabd1a52db3bd/satella-2.9.8-py2.py3-none-any.whl
+[2024-04-04 13:22:43] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/80/3e/392d1ab3196574ba6818874ec50d419bced99e7fde8b58c77b803675d8bf/nbformat-5.9.1.tar.gz
+[2024-04-04 13:22:44] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/65/71/1e3795e6bfbd98faab7ebef19d2c8aa72e9a833250f5427adad908d3cd38/viktor-14.8.0rc1-cp39-cp39-win_amd64.whl
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [trex-apis]: Timeout reached during download
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [dckit]: Timeout reached during download
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [causadb]: Timeout reached during download
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [nbformat]: Timeout reached during download
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [satella]: Timeout reached during download
+[2024-04-04 13:22:44] INFO root fetch - processPackages [trex-apis]: Downloading https://files.pythonhosted.org/packages/ba/a0/c0e1e2fe181f5f6e47ebd812473ef88853e2f6b8caffd6db12233220d7fb/trex-apis-1.3.6.tar.gz
+[2024-04-04 13:22:44] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2024-04-04 13:22:44] INFO root fetch - processPackages [causadb]: Downloading https://files.pythonhosted.org/packages/cf/2e/3b7df8bbc7ed3fea5a5a1407a309b80b2369b22dd4d248798791a0d52a42/causadb-1.5.1.tar.gz
+[2024-04-04 13:22:44] INFO root fetch - processPackages [nbformat]: Downloading https://files.pythonhosted.org/packages/54/d8/31dceef56952da6ea2c43405a83c9759a22a86cb530197988cfa8599b178/nbformat-5.9.2.tar.gz
+[2024-04-04 13:22:44] INFO root fetch - processPackages [dckit]: Downloading https://files.pythonhosted.org/packages/c6/12/217a7d8086b011629ad3ab395d37d556e7aade8d4d93f1b7c4dcdf1ad59c/dckit-0.9.1.tar.gz
+[2024-04-04 13:22:44] WARNING root fetch - processPackages [trex-apis]: Timeout reached during download
+[2024-04-04 13:22:44] INFO root fetch - processPackages [trex-apis]: executing diffoscope
+[2024-04-04 13:22:44] INFO root fetch - processPackages [trex-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trex-apis-1.3.5.tar.gz tmp/trex-apis-1.3.6.tar.gz --markdown 20240404/t/trex-apis/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2024-04-04 13:22:45] WARNING root fetch - processPackages [nbformat]: Timeout reached during download
+[2024-04-04 13:22:45] INFO root fetch - processPackages [nbformat]: executing diffoscope
+[2024-04-04 13:22:45] INFO root fetch - processPackages [nbformat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbformat-5.9.1.tar.gz tmp/nbformat-5.9.2.tar.gz --markdown 20240404/n/nbformat/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2024-04-04 13:22:45] WARNING root fetch - processPackages [dckit]: Timeout reached during download
+[2024-04-04 13:22:45] INFO root fetch - processPackages [satella]: Downloading https://files.pythonhosted.org/packages/12/ba/d56fda1238f9681db3f7dc04ec25b80e950a770ecacb518cb5c77cf2ccdc/satella-2.9.9-py2.py3-none-any.whl
+[2024-04-04 13:22:45] INFO root fetch - processPackages [dckit]: executing diffoscope
+[2024-04-04 13:22:45] INFO root fetch - processPackages [dckit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dckit-0.9.0.tar.gz tmp/dckit-0.9.1.tar.gz --markdown 20240404/d/dckit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-04 13:22:45] WARNING root fetch - processPackages [qontract-reconcile]: Timeout reached during download
+[2024-04-04 13:22:45] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2024-04-04 13:22:45] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20240404/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2024-04-04 13:22:45] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.3.5.tar.gz]
+[2024-04-04 13:22:45] INFO root fetch - processPackages [trex-apis]: Remove: archive file [/home/abi/fetcher/tmp/trex-apis-1.3.6.tar.gz]
+[2024-04-04 13:22:45] INFO root fetch - main [MainThread]: End processing [trex-apis]: success
+[2024-04-04 13:22:45] WARNING root fetch - processPackages [causadb]: Timeout reached during download
+[2024-04-04 13:22:45] INFO root fetch - processPackages [causadb]: executing diffoscope
+[2024-04-04 13:22:45] INFO root fetch - processPackages [causadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causadb-1.5.0.tar.gz tmp/causadb-1.5.1.tar.gz --markdown 20240404/c/causadb/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-04 13:22:46] WARNING root fetch - processPackages [satella]: Timeout reached during download
+[2024-04-04 13:22:46] INFO root fetch - processPackages [satella]: executing diffoscope
+[2024-04-04 13:22:46] INFO root fetch - processPackages [satella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satella-2.9.8-py2.py3-none-any.whl.zip tmp/satella-2.9.9-py2.py3-none-any.whl.zip --markdown 20240404/s/satella/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-04 13:22:46] INFO root fetch - processPackages [dckit]: Remove: archive file [/home/abi/fetcher/tmp/dckit-0.9.0.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - processPackages [dckit]: Remove: archive file [/home/abi/fetcher/tmp/dckit-0.9.1.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - main [MainThread]: End processing [dckit]: success
+[2024-04-04 13:22:46] INFO root fetch - processPackages [nbformat]: Remove: archive file [/home/abi/fetcher/tmp/nbformat-5.9.1.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - processPackages [nbformat]: Remove: archive file [/home/abi/fetcher/tmp/nbformat-5.9.2.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - main [MainThread]: End processing [nbformat]: success
+[2024-04-04 13:22:46] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.5.0.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - processPackages [causadb]: Remove: archive file [/home/abi/fetcher/tmp/causadb-1.5.1.tar.gz]
+[2024-04-04 13:22:46] INFO root fetch - main [MainThread]: End processing [causadb]: success
+[2024-04-04 13:22:46] INFO root fetch - processPackages [satella]: Remove: archive file [/home/abi/fetcher/tmp/satella-2.9.8-py2.py3-none-any.whl.zip]
+[2024-04-04 13:22:46] INFO root fetch - processPackages [satella]: Remove: archive file [/home/abi/fetcher/tmp/satella-2.9.9-py2.py3-none-any.whl.zip]
+[2024-04-04 13:22:46] INFO root fetch - main [MainThread]: End processing [satella]: success
+[2024-04-04 13:22:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2024-04-04 13:22:47] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2024-04-04 13:22:47] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2024-04-04 13:22:49] WARNING root fetch - processPackages [viktor]: Timeout reached during download
+[2024-04-04 13:22:49] INFO root fetch - processPackages [viktor]: Downloading https://files.pythonhosted.org/packages/b7/98/6f410f413ef29049ead08c1c297223df1bc42d400b43ece6e8397456b7df/viktor-14.9.0-cp311-cp311-manylinux2014_x86_64.whl
+[2024-04-04 13:22:50] WARNING root fetch - processPackages [viktor]: Skipping package: exceeds size limit 34060458>=10485760
+[2024-04-04 13:22:50] INFO root fetch - main [MainThread]: End processing [viktor] error
+[2024-04-04 13:22:50] INFO root fetch - main [MainThread]: Store serial: [22619044]
