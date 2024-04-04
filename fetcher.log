@@ -24460,3 +24460,72 @@
 [2024-04-04 14:24:32] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
 [2024-04-04 14:24:32] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
 [2024-04-04 14:24:32] INFO root fetch - main [MainThread]: Store serial: [22619756]
+[2024-04-04 14:26:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619756]
+[2024-04-04 14:26:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangoldp-contact
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: botl
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stcog
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-research
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-template-partials
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: igz-mgmt
+[2024-04-04 14:26:43] INFO root fetch - processPackages [botl]: New version: [106] Old Version: [105]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [stcog]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [djangoldp-contact]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [igz-mgmt]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [django-template-partials]: New version: [24.1] Old Version: [23.4]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [ml-research]: New version: [0.5.0] Old Version: [0.4a2]
+[2024-04-04 14:26:43] INFO root fetch - processPackages [stcog]: Downloading https://files.pythonhosted.org/packages/f5/a2/b9ea94843caabbdebc625321870a34ee8a1c793dcba96a546897f348d60b/stcog-0.0.3.tar.gz
+[2024-04-04 14:26:43] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/8c/46/13ad673e1ad65cbd420fac43aa3e7f94c94cfc9897d62b5d2f4f3f8a3fb4/botl-105.tar.gz
+[2024-04-04 14:26:43] INFO root fetch - processPackages [djangoldp-contact]: Downloading https://files.pythonhosted.org/packages/cf/4f/cad9c27c2ec7c8326f0c351b834484358352239e7b96fdddd8395ac02789/djangoldp_contact-3.1.1.tar.gz
+[2024-04-04 14:26:43] INFO root fetch - processPackages [django-template-partials]: Downloading https://files.pythonhosted.org/packages/07/2f/5090d03447cc15417392248490d024b140c5fd332e90e209004302445d9d/django-template-partials-23.4.tar.gz
+[2024-04-04 14:26:43] WARNING root fetch - processPackages [stcog]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/ad/44/3ff6cf6c0917b952eaa72823c727d6a23659fb18c0a70a847283ae438cc8/igz_mgmt-0.1.0.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [botl]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [ml-research]: Downloading https://files.pythonhosted.org/packages/a9/d3/ffe0939b701ac53d6a5b23a054745f7ed71d7e3927a541af925d90caef0c/ml-research-0.4a2.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [djangoldp-contact]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [stcog]: Downloading https://files.pythonhosted.org/packages/79/ee/1dbcac499090c8626761f1b061d5e72b5dc1fe121c9cd2e1d9a16255f761/stcog-0.0.4.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [igz-mgmt]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/cb/34/511a1d98424f67d26b235fd4a2986ac2c1839385fe4797e94d47e1b487c4/botl-106.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [django-template-partials]: Timeout reached during download
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [ml-research]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [djangoldp-contact]: Downloading https://files.pythonhosted.org/packages/47/c4/b1742dadd4f2f372b67374a9e7aeab6084b489f948fa8274b45f55e2e18e/djangoldp_contact-3.1.2.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [stcog]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [stcog]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [stcog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stcog-0.0.3.tar.gz tmp/stcog-0.0.4.tar.gz --markdown 20240404/s/stcog/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] INFO root fetch - processPackages [ml-research]: Downloading https://files.pythonhosted.org/packages/33/6d/c410fdced6809d2e6a6bfcf527df33860c25471bd539b3a0e30500eb8d2e/ml-research-0.5.0.tar.gz
+[2024-04-04 14:26:44] INFO root fetch - processPackages [django-template-partials]: Downloading https://files.pythonhosted.org/packages/ac/2a/32c39ddb873f25a555efa130c6700304ae63e17c94368217d4c3d4d2a29f/django-template-partials-24.1.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [botl]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [botl]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [botl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botl-105.tar.gz tmp/botl-106.tar.gz --markdown 20240404/b/botl/105-106/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [djangoldp-contact]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [djangoldp-contact]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [djangoldp-contact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_contact-3.1.1.tar.gz tmp/djangoldp_contact-3.1.2.tar.gz --markdown 20240404/d/djangoldp-contact/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] INFO root fetch - processPackages [igz-mgmt]: Downloading https://files.pythonhosted.org/packages/d7/1a/58984347aef735b8d7f5c6ee4bd5dbd4eaa9a0d3b7f4c6b636984cb04353/igz_mgmt-0.1.1.tar.gz
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [ml-research]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [ml-research]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [ml-research]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-research-0.4a2.tar.gz tmp/ml-research-0.5.0.tar.gz --markdown 20240404/m/ml-research/0.4a2-0.5.0/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [django-template-partials]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [django-template-partials]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [django-template-partials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-template-partials-23.4.tar.gz tmp/django-template-partials-24.1.tar.gz --markdown 20240404/d/django-template-partials/23.4-24.1/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] WARNING root fetch - processPackages [igz-mgmt]: Timeout reached during download
+[2024-04-04 14:26:44] INFO root fetch - processPackages [igz-mgmt]: executing diffoscope
+[2024-04-04 14:26:44] INFO root fetch - processPackages [igz-mgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igz_mgmt-0.1.0.tar.gz tmp/igz_mgmt-0.1.1.tar.gz --markdown 20240404/i/igz-mgmt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 14:26:44] INFO root fetch - processPackages [stcog]: Remove: archive file [/home/abi/fetcher/tmp/stcog-0.0.3.tar.gz]
+[2024-04-04 14:26:44] INFO root fetch - processPackages [stcog]: Remove: archive file [/home/abi/fetcher/tmp/stcog-0.0.4.tar.gz]
+[2024-04-04 14:26:44] INFO root fetch - main [MainThread]: End processing [stcog]: success
+[2024-04-04 14:26:45] INFO root fetch - processPackages [djangoldp-contact]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_contact-3.1.1.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - processPackages [djangoldp-contact]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_contact-3.1.2.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [djangoldp-contact]: success
+[2024-04-04 14:26:45] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-105.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-106.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [botl]: success
+[2024-04-04 14:26:45] INFO root fetch - processPackages [django-template-partials]: Remove: archive file [/home/abi/fetcher/tmp/django-template-partials-23.4.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - processPackages [django-template-partials]: Remove: archive file [/home/abi/fetcher/tmp/django-template-partials-24.1.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [django-template-partials]: success
+[2024-04-04 14:26:45] INFO root fetch - processPackages [ml-research]: Remove: archive file [/home/abi/fetcher/tmp/ml-research-0.4a2.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - processPackages [ml-research]: Remove: archive file [/home/abi/fetcher/tmp/ml-research-0.5.0.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.1.0.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [ml-research]: success
+[2024-04-04 14:26:45] INFO root fetch - processPackages [igz-mgmt]: Remove: archive file [/home/abi/fetcher/tmp/igz_mgmt-0.1.1.tar.gz]
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: End processing [igz-mgmt]: success
+[2024-04-04 14:26:45] INFO root fetch - main [MainThread]: Store serial: [22619773]
