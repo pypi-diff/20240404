@@ -15678,3 +15678,61 @@
 [2024-04-04 09:12:22] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.2.0.tar.gz]
 [2024-04-04 09:12:22] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
 [2024-04-04 09:12:22] INFO root fetch - main [MainThread]: Store serial: [22616527]
+[2024-04-04 09:14:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616527]
+[2024-04-04 09:14:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 09:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-stock-available-to-promise-release
+[2024-04-04 09:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: list-flatten-z
+[2024-04-04 09:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imjoy-jupyterlab-extension
+[2024-04-04 09:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: urllib3-future
+[2024-04-04 09:14:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsvenv
+[2024-04-04 09:14:31] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: New version: [16.0.3.1.0.3] Old Version: [16.0.3.0.0]
+[2024-04-04 09:14:31] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-04 09:14:31] INFO root fetch - processPackages [list-flatten-z]: New version: [0.4] Old Version: [0.3]
+[2024-04-04 09:14:31] INFO root fetch - processPackages [dsvenv]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-04 09:14:31] INFO root fetch - processPackages [urllib3-future]: New version: [2.7.903] Old Version: [2.7.902]
+[2024-04-04 09:14:31] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/26/28/87b99297988322bda5db525ffe2db1660c08cf77bd918b48e9404a91469b/imjoy_jupyterlab_extension-0.2.2.tar.gz
+[2024-04-04 09:14:31] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/0d/4b/dd4741efd95269ef718a5a68f8df7cb4ee093203160d35b3ebf4ce3c0947/list_flatten_z-0.3.tar.gz
+[2024-04-04 09:14:31] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/12/b6/c80c2c99d973434a91d7951f1551125c3552cb7a02f5968c431c430a9b63/urllib3_future-2.7.902.tar.gz
+[2024-04-04 09:14:31] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/f6/d0/1542f246bac4be2e7a3a634e29c0e51bd7fddd2ad968b8d7ed3aef9af9f6/odoo_addon_stock_available_to_promise_release-16.0.3.0.0-py3-none-any.whl
+[2024-04-04 09:14:31] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 09:14:31] INFO root fetch - processPackages [dsvenv]: Downloading https://files.pythonhosted.org/packages/3b/93/0ad74b531a5786a15fbe8b7caaa4e592544f377aef9041f14b1fa6614446/dsvenv-1.2.1-py3-none-any.whl
+[2024-04-04 09:14:31] WARNING root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Timeout reached during download
+[2024-04-04 09:14:31] WARNING root fetch - processPackages [urllib3-future]: Timeout reached during download
+[2024-04-04 09:14:31] WARNING root fetch - processPackages [dsvenv]: Timeout reached during download
+[2024-04-04 09:14:31] INFO root fetch - processPackages [list-flatten-z]: Downloading https://files.pythonhosted.org/packages/c9/af/9e8e5fb81f7406556c6c6d1575786021823d90d434c9a5ef11f790ca2e61/list_flatten_z-0.4.tar.gz
+[2024-04-04 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/b4/d5/c3a9e83b0479075e1a135997a96cc05f30a9c65b63cb02cd3436f1130baf/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl
+[2024-04-04 09:14:32] INFO root fetch - processPackages [urllib3-future]: Downloading https://files.pythonhosted.org/packages/0a/37/51451efa11c44831bcc85b32e45cde2bca63bf6161d137c5cb292e7f6fb5/urllib3_future-2.7.903.tar.gz
+[2024-04-04 09:14:32] WARNING root fetch - processPackages [list-flatten-z]: Timeout reached during download
+[2024-04-04 09:14:32] INFO root fetch - processPackages [list-flatten-z]: executing diffoscope
+[2024-04-04 09:14:32] INFO root fetch - processPackages [list-flatten-z]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/list_flatten_z-0.3.tar.gz tmp/list_flatten_z-0.4.tar.gz --markdown 20240404/l/list-flatten-z/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-04 09:14:32] INFO root fetch - processPackages [dsvenv]: Downloading https://files.pythonhosted.org/packages/55/0f/c41372c288f2224ad534c0cb0755111bcffc0d903923b962bf6ac173236e/dsvenv-2.0.0-py3-none-any.whl
+[2024-04-04 09:14:32] WARNING root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Timeout reached during download
+[2024-04-04 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: executing diffoscope
+[2024-04-04 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release-16.0.3.0.0-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-stock-available-to-promise-release/16.0.3.0.0-16.0.3.1.0.3/diff.md --exclude *.pyd
+[2024-04-04 09:14:32] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 09:14:32] WARNING root fetch - processPackages [dsvenv]: Timeout reached during download
+[2024-04-04 09:14:32] INFO root fetch - processPackages [dsvenv]: executing diffoscope
+[2024-04-04 09:14:32] INFO root fetch - processPackages [dsvenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsvenv-1.2.1-py3-none-any.whl.zip tmp/dsvenv-2.0.0-py3-none-any.whl.zip --markdown 20240404/d/dsvenv/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-04 09:14:32] WARNING root fetch - processPackages [urllib3-future]: Timeout reached during download
+[2024-04-04 09:14:32] INFO root fetch - processPackages [urllib3-future]: executing diffoscope
+[2024-04-04 09:14:32] INFO root fetch - processPackages [urllib3-future]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/urllib3_future-2.7.902.tar.gz tmp/urllib3_future-2.7.903.tar.gz --markdown 20240404/u/urllib3-future/2.7.902-2.7.903/diff.md --exclude *.pyd
+[2024-04-04 09:14:32] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/b5/e6/226f5cb9bfd5286d0173616155356983969ef807f0483e027377f108f1cc/imjoy_jupyterlab_extension-0.2.3.tar.gz
+[2024-04-04 09:14:32] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.3.tar.gz]
+[2024-04-04 09:14:32] INFO root fetch - processPackages [list-flatten-z]: Remove: archive file [/home/abi/fetcher/tmp/list_flatten_z-0.4.tar.gz]
+[2024-04-04 09:14:32] INFO root fetch - main [MainThread]: End processing [list-flatten-z]: success
+[2024-04-04 09:14:32] INFO root fetch - processPackages [dsvenv]: Remove: archive file [/home/abi/fetcher/tmp/dsvenv-1.2.1-py3-none-any.whl.zip]
+[2024-04-04 09:14:32] INFO root fetch - processPackages [dsvenv]: Remove: archive file [/home/abi/fetcher/tmp/dsvenv-2.0.0-py3-none-any.whl.zip]
+[2024-04-04 09:14:32] INFO root fetch - main [MainThread]: End processing [dsvenv]: success
+[2024-04-04 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.0.0-py3-none-any.whl.zip]
+[2024-04-04 09:14:32] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.3.1.0.3-py3-none-any.whl.zip]
+[2024-04-04 09:14:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release]: success
+[2024-04-04 09:14:33] WARNING root fetch - processPackages [imjoy-jupyterlab-extension]: Timeout reached during download
+[2024-04-04 09:14:33] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: executing diffoscope
+[2024-04-04 09:14:33] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imjoy_jupyterlab_extension-0.2.2.tar.gz tmp/imjoy_jupyterlab_extension-0.2.3.tar.gz --markdown 20240404/i/imjoy-jupyterlab-extension/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 09:14:33] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.902.tar.gz]
+[2024-04-04 09:14:33] INFO root fetch - processPackages [urllib3-future]: Remove: archive file [/home/abi/fetcher/tmp/urllib3_future-2.7.903.tar.gz]
+[2024-04-04 09:14:33] INFO root fetch - main [MainThread]: End processing [urllib3-future]: success
+[2024-04-04 09:14:34] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.2.tar.gz]
+[2024-04-04 09:14:34] INFO root fetch - processPackages [imjoy-jupyterlab-extension]: Remove: archive file [/home/abi/fetcher/tmp/imjoy_jupyterlab_extension-0.2.3.tar.gz]
+[2024-04-04 09:14:34] INFO root fetch - main [MainThread]: End processing [imjoy-jupyterlab-extension]: success
+[2024-04-04 09:14:34] INFO root fetch - main [MainThread]: Store serial: [22616540]
