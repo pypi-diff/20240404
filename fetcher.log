@@ -9184,3 +9184,108 @@
 [2024-04-04 03:19:48] INFO root fetch - processPackages [botocore-a-la-carte-elbv2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-elbv2-1.34.9.tar.gz]
 [2024-04-04 03:19:48] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-elbv2]: success
 [2024-04-04 03:19:48] INFO root fetch - main [MainThread]: Store serial: [22614060]
+[2024-04-04 03:21:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614060]
+[2024-04-04 03:21:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-autoscaling
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-alexaforbusiness
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-sms-voice
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toomanycells
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-codeguruprofiler
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickfin
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: normalize-companies-names
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TokenProbs
+[2024-04-04 03:21:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chaturbate-poller
+[2024-04-04 03:21:57] INFO root fetch - processPackages [TokenProbs]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [toomanycells]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [quickfin]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-04 03:21:57] WARNING root fetch - processPackages [normalize-companies-names]: Skipping, unable to determine old version
+[2024-04-04 03:21:57] INFO root fetch - main [MainThread]: End processing [normalize-companies-names] error
+[2024-04-04 03:21:57] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-04 03:21:57] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/f5/3f/552d0f2ca9b5d9b5dee0057724885f844c83896f97bec43eb7c0acfafec1/TokenProbs-0.0.8.tar.gz
+[2024-04-04 03:21:57] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/ca/81/f70f552915ba4290240281e89c77a53bf1f92da1924436d856b6c2021228/toomanycells-1.0.8.tar.gz
+[2024-04-04 03:21:57] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/fc/4f/b2fd1fc85ee0f22807dc4b1ac4bee3022d6115e233afa3b92b948ec28997/chaturbate_poller-0.1.4.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: Downloading https://files.pythonhosted.org/packages/5e/20/d3d024d067c39ed2a8e2652a1e8da4ee50eb940cda07c396ce972636a889/botocore-a-la-carte-sms-voice-1.34.8.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/58/18/9ec071d9e79468ec8cba17cae9e96600c2e70e6f0749c7829a9a1eaf5f65/quickfin-1.8.0.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Downloading https://files.pythonhosted.org/packages/63/65/6ada528898fa11da25d5e6ef2153ff74d496e00dad6bea22dcedaff62a15/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: Downloading https://files.pythonhosted.org/packages/0e/c1/4f38f669a1aed8c6f161e192b1f29a567eee201ea7221db3350701b195c4/botocore-a-la-carte-autoscaling-1.34.8.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Downloading https://files.pythonhosted.org/packages/aa/00/b84346c2b847032f5aa8c96ea652ea97f07f54ff4ce4902ff79fbb0ae0ee/botocore-a-la-carte-codeguruprofiler-1.34.8.tar.gz
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [TokenProbs]: Downloading https://files.pythonhosted.org/packages/29/ba/735a795841268a89d2be19af5ef66f193d7169a133194e72569ecf328149/TokenProbs-0.0.9.tar.gz
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [botocore-a-la-carte-sms-voice]: Timeout reached during download
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Timeout reached during download
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [botocore-a-la-carte-autoscaling]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/93/e9/abb2d1e3c266cf33e3928261abaf14d2ffadeb4092939f1284586f323858/toomanycells-1.0.9.tar.gz
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [TokenProbs]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [TokenProbs]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [TokenProbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TokenProbs-0.0.8.tar.gz tmp/TokenProbs-0.0.9.tar.gz --markdown 20240404/T/TokenProbs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: Downloading https://files.pythonhosted.org/packages/7f/9a/3f7b99f7bc0da7a479f2463e16e9d8c45cd070e9e50f6838d6f9635732e7/botocore-a-la-carte-sms-voice-1.34.9.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/f7/81/5611cebce8db0b6121d92bd2ee76f47e49b160d9e5d1bde8f6a81ffd0961/quickfin-1.9.0.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/f2/bb/d8cac44684624f4f3cbd013ac724e73225fc25f4495632a638bfc66de55e/chaturbate_poller-0.2.0.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: Downloading https://files.pythonhosted.org/packages/89/0f/b9e36f37ddc10bdef1a48eb2dd9ae8eab5f87fb67906aaab2950512228e9/botocore-a-la-carte-autoscaling-1.34.9.tar.gz
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [toomanycells]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Downloading https://files.pythonhosted.org/packages/c4/f9/109dfed2510e058d2f3db275c00f04c8153ddeaf3ec25e9a84960cc35c0c/botocore-a-la-carte-codeguruprofiler-1.34.9.tar.gz
+[2024-04-04 03:21:58] INFO root fetch - processPackages [toomanycells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toomanycells-1.0.8.tar.gz tmp/toomanycells-1.0.9.tar.gz --markdown 20240404/t/toomanycells/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [botocore-a-la-carte-sms-voice]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-sms-voice-1.34.8.tar.gz tmp/botocore-a-la-carte-sms-voice-1.34.9.tar.gz --markdown 20240404/b/botocore-a-la-carte-sms-voice/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [quickfin]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.8.0.tar.gz tmp/quickfin-1.9.0.tar.gz --markdown 20240404/q/quickfin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-04 03:21:58] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Downloading https://files.pythonhosted.org/packages/d9/3c/8c2002b5be29c637e9f2bb9adfc0a8db1d86e344d5d918fb043a1d6fe29b/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [chaturbate-poller]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.1.4.tar.gz tmp/chaturbate_poller-0.2.0.tar.gz --markdown 20240404/c/chaturbate-poller/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 03:21:58] WARNING root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Timeout reached during download
+[2024-04-04 03:21:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-04 03:21:58] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240404/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 03:21:59] WARNING root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Timeout reached during download
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: executing diffoscope
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codeguruprofiler-1.34.8.tar.gz tmp/botocore-a-la-carte-codeguruprofiler-1.34.9.tar.gz --markdown 20240404/b/botocore-a-la-carte-codeguruprofiler/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:59] WARNING root fetch - processPackages [botocore-a-la-carte-autoscaling]: Timeout reached during download
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: executing diffoscope
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-autoscaling-1.34.8.tar.gz tmp/botocore-a-la-carte-autoscaling-1.34.9.tar.gz --markdown 20240404/b/botocore-a-la-carte-autoscaling/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:59] WARNING root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Timeout reached during download
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: executing diffoscope
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz tmp/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz --markdown 20240404/b/botocore-a-la-carte-alexaforbusiness/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-04 03:21:59] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.8.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [TokenProbs]: Remove: archive file [/home/abi/fetcher/tmp/TokenProbs-0.0.9.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [TokenProbs]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sms-voice-1.34.8.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-sms-voice]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-sms-voice-1.34.9.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-sms-voice]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.1.4.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.2.0.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-alexaforbusiness]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.8.0.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.9.0.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-autoscaling-1.34.8.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-autoscaling]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-autoscaling-1.34.9.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-autoscaling]: success
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codeguruprofiler-1.34.8.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - processPackages [botocore-a-la-carte-codeguruprofiler]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codeguruprofiler-1.34.9.tar.gz]
+[2024-04-04 03:21:59] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codeguruprofiler]: success
+[2024-04-04 03:22:00] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.8.tar.gz]
+[2024-04-04 03:22:00] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
+[2024-04-04 03:22:00] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
+[2024-04-04 03:22:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-04 03:22:00] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-04 03:22:00] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-04 03:22:00] INFO root fetch - main [MainThread]: Store serial: [22614148]
