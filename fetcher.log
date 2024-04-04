@@ -12210,3 +12210,9 @@
 [2024-04-04 06:24:49] INFO root fetch - processPackages [utils-base-nuuuwan]: Remove: archive file [/home/abi/fetcher/tmp/utils_base-nuuuwan-1.0.9.tar.gz]
 [2024-04-04 06:24:49] INFO root fetch - main [MainThread]: End processing [utils-base-nuuuwan]: success
 [2024-04-04 06:24:49] INFO root fetch - main [MainThread]: Store serial: [22615443]
+[2024-04-04 06:26:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615443]
+[2024-04-04 06:26:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 06:26:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bifipy
+[2024-04-04 06:26:58] WARNING root fetch - processPackages [bifipy]: Skipping, unable to determine old version
+[2024-04-04 06:26:58] INFO root fetch - main [MainThread]: End processing [bifipy] error
+[2024-04-04 06:26:58] INFO root fetch - main [MainThread]: Store serial: [22615447]
