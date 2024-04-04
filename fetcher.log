@@ -17847,3 +17847,72 @@
 [2024-04-04 10:32:43] INFO root fetch - processPackages [spotGUI]: Remove: archive file [/home/abi/fetcher/tmp/spotGUI-0.4.9-py3-none-any.whl.zip]
 [2024-04-04 10:32:43] INFO root fetch - main [MainThread]: End processing [spotGUI]: success
 [2024-04-04 10:32:43] INFO root fetch - main [MainThread]: Store serial: [22617230]
+[2024-04-04 10:34:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617230]
+[2024-04-04 10:34:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: custom-cytomine-client
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arion-library
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nodoc
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartboiler
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alpaca-py
+[2024-04-04 10:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lusid-notifications-sdk-preview
+[2024-04-04 10:34:52] INFO root fetch - processPackages [nodoc]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-04 10:34:52] INFO root fetch - processPackages [smartboiler]: New version: [0.0.3.0.0.5.9.2] Old Version: [0.0.3.0.0.5.8.9]
+[2024-04-04 10:34:52] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 10:34:52] INFO root fetch - processPackages [arion-library]: New version: [1.1rc1.dev4] Old Version: [1.1rc1.dev3]
+[2024-04-04 10:34:52] INFO root fetch - processPackages [alpaca-py]: New version: [0.9.0] Old Version: [0.8.2]
+[2024-04-04 10:34:52] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/29/48/214cddc697387896c19c79ce56ed68fed33485d2a806d3954da0d03a09f1/nodoc-1.0.6.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/5c/b7/f9722e8f72095c9e64eb960852986a92949eff5a8ee1f5f68068fef627f5/arion_library-1.1rc1.dev3.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/1b/24/59f033aef7684013eac39d2c65cd9270b703945ec33d80e1507c55fb5e4e/smartboiler-0.0.3.0.0.5.8.9.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.929] Old Version: [0.1.928]
+[2024-04-04 10:34:52] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:34:52] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:34:52] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-04 10:34:52] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/95/9a/c866d3091981080489f14171b69712fa22c65dcb09c2888eca936fa89cd8/alpaca_py-0.8.2.tar.gz
+[2024-04-04 10:34:52] WARNING root fetch - processPackages [smartboiler]: Timeout reached during download
+[2024-04-04 10:34:52] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/19/b4/c3830df7b99828cf1c3edc3b74cd76e348f66b2b22faf9957dca13413496/nodoc-1.0.7.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/e8/28/8ba19c33ff5ca6fe46c094f805535862c39b806f65eb782505d0e8f6facd/custom_cytomine_client-0.0.9.tar.gz
+[2024-04-04 10:34:52] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/c8/6c/7d2502170c1e00fb1bd3b5e76ffbccf35d58dc08c072e60e9dc30d05184b/arion_library-1.1rc1.dev4.tar.gz
+[2024-04-04 10:34:52] WARNING root fetch - processPackages [alpaca-py]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [smartboiler]: Downloading https://files.pythonhosted.org/packages/da/f8/875ef881af1da6aa0b0f2ddc4e448d3fe24214f6a0932e4c03d0c082ca95/smartboiler-0.0.3.0.0.5.9.2.tar.gz
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.6.tar.gz tmp/nodoc-1.0.7.tar.gz --markdown 20240404/n/nodoc/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/c2/9e/7f3d6ad646aa2c27d2cfb6e277fce59d1501fcbbe3c11a64621aa6514f67/lusid-notifications-sdk-preview-0.1.928.tar.gz
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.8.tar.gz tmp/custom_cytomine_client-0.0.9.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [arion-library]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc1.dev3.tar.gz tmp/arion_library-1.1rc1.dev4.tar.gz --markdown 20240404/a/arion-library/1.1rc1.dev3-1.1rc1.dev4/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [lusid-notifications-sdk-preview]: Timeout reached during download
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [smartboiler]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [smartboiler]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [smartboiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartboiler-0.0.3.0.0.5.8.9.tar.gz tmp/smartboiler-0.0.3.0.0.5.9.2.tar.gz --markdown 20240404/s/smartboiler/0.0.3.0.0.5.8.9-0.0.3.0.0.5.9.2/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] INFO root fetch - processPackages [alpaca-py]: Downloading https://files.pythonhosted.org/packages/f0/0d/64596c95696d0c4774ba900e386ec14586cf4f85b8e395258caa1bb90e61/alpaca_py-0.9.0.tar.gz
+[2024-04-04 10:34:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/62/83/93d899e7eb41f2c27a17034f5e34b927d745460d1f271f6efdef3cbd56c5/lusid_notifications_sdk_preview-0.1.929-py3-none-any.whl
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [alpaca-py]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [alpaca-py]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [alpaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaca_py-0.8.2.tar.gz tmp/alpaca_py-0.9.0.tar.gz --markdown 20240404/a/alpaca-py/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] WARNING root fetch - processPackages [lusid-notifications-sdk-preview]: Timeout reached during download
+[2024-04-04 10:34:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2024-04-04 10:34:53] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.928.tar.gz tmp/lusid_notifications_sdk_preview-0.1.929-py3-none-any.whl.zip --markdown 20240404/l/lusid-notifications-sdk-preview/0.1.928-0.1.929/diff.md --exclude *.pyd
+[2024-04-04 10:34:53] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.6.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.7.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:34:53] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc1.dev3.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc1.dev4.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-04 10:34:53] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.9.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:34:53] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.5.8.9.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - processPackages [smartboiler]: Remove: archive file [/home/abi/fetcher/tmp/smartboiler-0.0.3.0.0.5.9.2.tar.gz]
+[2024-04-04 10:34:53] INFO root fetch - main [MainThread]: End processing [smartboiler]: success
+[2024-04-04 10:34:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.928.tar.gz]
+[2024-04-04 10:34:54] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid_notifications_sdk_preview-0.1.929-py3-none-any.whl.zip]
+[2024-04-04 10:34:54] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2024-04-04 10:34:54] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.8.2.tar.gz]
+[2024-04-04 10:34:54] INFO root fetch - processPackages [alpaca-py]: Remove: archive file [/home/abi/fetcher/tmp/alpaca_py-0.9.0.tar.gz]
+[2024-04-04 10:34:54] INFO root fetch - main [MainThread]: End processing [alpaca-py]: success
+[2024-04-04 10:34:54] INFO root fetch - main [MainThread]: Store serial: [22617248]
