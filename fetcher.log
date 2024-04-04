@@ -18866,3 +18866,31 @@
 [2024-04-04 11:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz]
 [2024-04-04 11:11:46] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2024-04-04 11:11:46] INFO root fetch - main [MainThread]: Store serial: [22617572]
+[2024-04-04 11:13:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617572]
+[2024-04-04 11:13:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 11:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vairflow
+[2024-04-04 11:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sentralify
+[2024-04-04 11:13:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: effector
+[2024-04-04 11:13:55] WARNING root fetch - processPackages [vairflow]: Skipping, unable to determine old version
+[2024-04-04 11:13:55] INFO root fetch - main [MainThread]: End processing [vairflow] error
+[2024-04-04 11:13:55] INFO root fetch - processPackages [sentralify]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-04 11:13:55] INFO root fetch - processPackages [effector]: New version: [0.0.269] Old Version: [0.0.267]
+[2024-04-04 11:13:56] INFO root fetch - processPackages [effector]: Downloading https://files.pythonhosted.org/packages/6c/a4/fbd7950df220fe71e025aaa5cbedd8945bcdf6796eb2b1f6927caafd04e4/effector-0.0.267.tar.gz
+[2024-04-04 11:13:56] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/c5/db/c7fc496dba3f39e997de48774040e667b9b620d76f9bea331f177e3ada25/sentralify-1.2.3.tar.gz
+[2024-04-04 11:13:56] WARNING root fetch - processPackages [sentralify]: Timeout reached during download
+[2024-04-04 11:13:56] INFO root fetch - processPackages [sentralify]: Downloading https://files.pythonhosted.org/packages/f2/f2/df145728dee8f004766fa317659e0dd27dad4d6ddc515a79de2d22b362eb/sentralify-1.2.4.tar.gz
+[2024-04-04 11:13:56] WARNING root fetch - processPackages [sentralify]: Timeout reached during download
+[2024-04-04 11:13:56] INFO root fetch - processPackages [sentralify]: executing diffoscope
+[2024-04-04 11:13:56] INFO root fetch - processPackages [sentralify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentralify-1.2.3.tar.gz tmp/sentralify-1.2.4.tar.gz --markdown 20240404/s/sentralify/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-04 11:13:57] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.3.tar.gz]
+[2024-04-04 11:13:57] INFO root fetch - processPackages [sentralify]: Remove: archive file [/home/abi/fetcher/tmp/sentralify-1.2.4.tar.gz]
+[2024-04-04 11:13:57] INFO root fetch - main [MainThread]: End processing [sentralify]: success
+[2024-04-04 11:13:57] WARNING root fetch - processPackages [effector]: Timeout reached during download
+[2024-04-04 11:13:57] INFO root fetch - processPackages [effector]: Downloading https://files.pythonhosted.org/packages/76/5d/3f8bf03b626fed603eadec4a37645ec8ccad03047a5c51bbff9f15716d42/effector-0.0.269.tar.gz
+[2024-04-04 11:13:58] WARNING root fetch - processPackages [effector]: Timeout reached during download
+[2024-04-04 11:13:58] INFO root fetch - processPackages [effector]: executing diffoscope
+[2024-04-04 11:13:58] INFO root fetch - processPackages [effector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effector-0.0.267.tar.gz tmp/effector-0.0.269.tar.gz --markdown 20240404/e/effector/0.0.267-0.0.269/diff.md --exclude *.pyd
+[2024-04-04 11:14:00] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.267.tar.gz]
+[2024-04-04 11:14:00] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.269.tar.gz]
+[2024-04-04 11:14:00] INFO root fetch - main [MainThread]: End processing [effector]: success
+[2024-04-04 11:14:00] INFO root fetch - main [MainThread]: Store serial: [22617585]
