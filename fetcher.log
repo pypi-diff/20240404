@@ -2820,3 +2820,105 @@
 [2024-04-04 02:02:58] INFO root fetch - processPackages [fms-hf-tuning]: Remove: archive file [/home/abi/fetcher/tmp/fms-hf-tuning-1.0.dev3.tar.gz]
 [2024-04-04 02:02:58] INFO root fetch - main [MainThread]: End processing [fms-hf-tuning]: success
 [2024-04-04 02:02:58] INFO root fetch - main [MainThread]: Store serial: [22612569]
+[2024-04-04 02:05:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612569]
+[2024-04-04 02:05:06] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dragonfly-energy
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnxscript
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nobrainer
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: galileo-core
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dragonfly-uwg
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-radiance
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: projectal
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mct-nightly
+[2024-04-04 02:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxkern-nightly
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [galileo-core]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [projectal]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [nobrainer]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240404.424] Old Version: [2.0.0.20240403.423]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240404] Old Version: [0.1.0.dev20240403]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/aa/6e/6ad3a9e39a5d2fdeeea27bfab4350f987e6876a43e0bade26684488647d1/mct-nightly-2.0.0.20240403.423.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/55/f2/7016c0dd438971b71ea46e6e9681c96b50247606cfb1aadf0a220dc328cb/galileo_core-0.3.0.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/04/95/42771b25f17ccb026954d32421ef99697e8f8f30eac34eee44749e41f832/onnxscript-0.1.0.dev20240403.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a2/41/805cddd3de27bfc114d3b54bbf0a558b1d450bb0bc346c8bbfc9f9e1ca04/dragonfly-radiance-0.3.8.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [nobrainer]: Downloading https://files.pythonhosted.org/packages/3f/fe/8a86aa29d8bb28331109416f04dd6e5d36f8dd270953ecbfdda2f5b20756/nobrainer-1.2.0.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/4d/79/e3a51fec48124975d7e8338af401d25572fc45b94e1f458240ebe63e1935/projectal-4.3.0.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [nobrainer]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [galileo-core]: Downloading https://files.pythonhosted.org/packages/04/cc/1c6523221753c516a655a862a887dec514099626b9c70c3491b3270449d5/galileo_core-0.3.1.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/ea/9c/7b964d0d96f021f98b8be9310371d14ab3493577dae65e09355614398baa/mct-nightly-2.0.0.20240404.424.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/a9/93/8933c5c67b8d336f624b3e7f9cb128678c38867dac08b6bb30a824b7cb3d/dragonfly-radiance-0.3.9.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b3/a9/4092933da6d92b3c8e82ba5f4426c950dd0d27e579d8140e85b70ccbe1b2/onnxscript-0.1.0.dev20240404.tar.gz
+[2024-04-04 02:05:07] INFO root fetch - processPackages [nobrainer]: Downloading https://files.pythonhosted.org/packages/fd/6e/602906691c7f12cdd822cf2d6de53f94726ed3f7b1015667e7a60d6c18ab/nobrainer-1.2.1.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [galileo-core]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [galileo-core]: executing diffoscope
+[2024-04-04 02:05:07] INFO root fetch - processPackages [galileo-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galileo_core-0.3.0.tar.gz tmp/galileo_core-0.3.1.tar.gz --markdown 20240404/g/galileo-core/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [projectal]: Timeout reached during download
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-energy]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20240404/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-radiance]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.3.8.tar.gz tmp/dragonfly-radiance-0.3.9.tar.gz --markdown 20240404/d/dragonfly-radiance/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [dragonfly-uwg]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2024-04-04 02:05:07] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20240404/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2024-04-04 02:05:07] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-04 02:05:07] WARNING root fetch - processPackages [nobrainer]: Timeout reached during download
+[2024-04-04 02:05:07] INFO root fetch - processPackages [nobrainer]: executing diffoscope
+[2024-04-04 02:05:07] INFO root fetch - processPackages [nobrainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobrainer-1.2.0.tar.gz tmp/nobrainer-1.2.1.tar.gz --markdown 20240404/n/nobrainer/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-04 02:05:08] WARNING root fetch - processPackages [onnxscript]: Timeout reached during download
+[2024-04-04 02:05:08] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-04 02:05:08] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240403.tar.gz tmp/onnxscript-0.1.0.dev20240404.tar.gz --markdown 20240404/o/onnxscript/0.1.0.dev20240403-0.1.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 02:05:08] INFO root fetch - processPackages [projectal]: Downloading https://files.pythonhosted.org/packages/f6/f9/88ea076d8e9adee48cacd520ebb760620c48c418b3878a4a3dfbc52c9b71/projectal-4.3.1.tar.gz
+[2024-04-04 02:05:08] WARNING root fetch - processPackages [mct-nightly]: Timeout reached during download
+[2024-04-04 02:05:08] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-04 02:05:08] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-2.0.0.20240403.423.tar.gz tmp/mct-nightly-2.0.0.20240404.424.tar.gz --markdown 20240404/m/mct-nightly/2.0.0.20240403.423-2.0.0.20240404.424/diff.md --exclude *.pyd
+[2024-04-04 02:05:08] WARNING root fetch - processPackages [jaxkern-nightly]: Timeout reached during download
+[2024-04-04 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-04 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240404/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2024-04-04 02:05:08] WARNING root fetch - processPackages [projectal]: Timeout reached during download
+[2024-04-04 02:05:08] INFO root fetch - processPackages [projectal]: executing diffoscope
+[2024-04-04 02:05:08] INFO root fetch - processPackages [projectal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projectal-4.3.0.tar.gz tmp/projectal-4.3.1.tar.gz --markdown 20240404/p/projectal/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2024-04-04 02:05:08] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.3.0.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - processPackages [galileo-core]: Remove: archive file [/home/abi/fetcher/tmp/galileo_core-0.3.1.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - main [MainThread]: End processing [galileo-core]: success
+[2024-04-04 02:05:08] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.8.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.3.9.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2024-04-04 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-04 02:05:08] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-04 02:05:09] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2024-04-04 02:05:09] INFO root fetch - processPackages [nobrainer]: Remove: archive file [/home/abi/fetcher/tmp/nobrainer-1.2.0.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - processPackages [nobrainer]: Remove: archive file [/home/abi/fetcher/tmp/nobrainer-1.2.1.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - main [MainThread]: End processing [nobrainer]: success
+[2024-04-04 02:05:09] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2024-04-04 02:05:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240403.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240404.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-04 02:05:09] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.3.0.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - processPackages [projectal]: Remove: archive file [/home/abi/fetcher/tmp/projectal-4.3.1.tar.gz]
+[2024-04-04 02:05:09] INFO root fetch - main [MainThread]: End processing [projectal]: success
+[2024-04-04 02:05:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240403.423.tar.gz]
+[2024-04-04 02:05:10] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240404.424.tar.gz]
+[2024-04-04 02:05:10] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-04 02:05:10] INFO root fetch - main [MainThread]: Store serial: [22612595]
