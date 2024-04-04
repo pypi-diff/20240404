@@ -14688,3 +14688,36 @@
 [2024-04-04 08:23:56] INFO root fetch - processPackages [machinable]: Remove: archive file [/home/abi/fetcher/tmp/machinable-4.9.2.tar.gz]
 [2024-04-04 08:23:56] INFO root fetch - main [MainThread]: End processing [machinable]: success
 [2024-04-04 08:23:56] INFO root fetch - main [MainThread]: Store serial: [22616216]
+[2024-04-04 08:26:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616216]
+[2024-04-04 08:26:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 08:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: IsoOCR
+[2024-04-04 08:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcs-core-model-engine
+[2024-04-04 08:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-survey-xlsx
+[2024-04-04 08:26:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-survey
+[2024-04-04 08:26:05] INFO root fetch - processPackages [odoo-addons-oca-survey]: New version: [16.0.20240403.0] Old Version: [16.0.20230919.0]
+[2024-04-04 08:26:05] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2024-04-04 08:26:05] WARNING root fetch - processPackages [IsoOCR]: Skipping, unable to determine old version
+[2024-04-04 08:26:05] INFO root fetch - main [MainThread]: End processing [IsoOCR] error
+[2024-04-04 08:26:05] INFO root fetch - processPackages [fcs-core-model-engine]: New version: [0.6.3] Old Version: [0.6.2]
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: Downloading https://files.pythonhosted.org/packages/e4/f0/46c6f9205468603f34179155242221f7c87054efd36e79b857bd9e03cdcf/odoo_addon_survey_xlsx-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-04 08:26:06] INFO root fetch - processPackages [fcs-core-model-engine]: Downloading https://files.pythonhosted.org/packages/66/3e/9c8cf4261afcf62edf125354cbeeb0067b02a342c2c85ed8e6a8a3125b1b/fcs_core_model_engine-0.6.2-py3-none-win_amd64.whl
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/ad/47/c6320e0f3d20ce14f92688021c185e612f3f2835b0d8fff02ad365a37571/odoo_addons_oca_survey-16.0.20230919.0-py3-none-any.whl
+[2024-04-04 08:26:06] WARNING root fetch - processPackages [odoo-addon-survey-xlsx]: Timeout reached during download
+[2024-04-04 08:26:06] WARNING root fetch - processPackages [fcs-core-model-engine]: Skipping package: exceeds size limit 25223206>=10485760
+[2024-04-04 08:26:06] INFO root fetch - main [MainThread]: End processing [fcs-core-model-engine] error
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: Downloading https://files.pythonhosted.org/packages/70/de/286448f03e3414c1aa37eb2ea1fa0803c22b0e7bb8fbe12a38812fa354fc/odoo_addon_survey_xlsx-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 08:26:06] WARNING root fetch - processPackages [odoo-addons-oca-survey]: Timeout reached during download
+[2024-04-04 08:26:06] WARNING root fetch - processPackages [odoo-addon-survey-xlsx]: Timeout reached during download
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: executing diffoscope
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_survey_xlsx-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_survey_xlsx-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-survey-xlsx/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-04 08:26:06] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/16/8d/7272f16ed2f46c543a172ab176dea39fcd34c8eecd4d07551d8ece7ea2cd/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl
+[2024-04-04 08:26:07] WARNING root fetch - processPackages [odoo-addons-oca-survey]: Timeout reached during download
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addons-oca-survey]: executing diffoscope
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_survey-16.0.20230919.0-py3-none-any.whl.zip tmp/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addons-oca-survey/16.0.20230919.0-16.0.20240403.0/diff.md --exclude *.pyd
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_xlsx-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addon-survey-xlsx]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_xlsx-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 08:26:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-xlsx]: success
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-16.0.20230919.0-py3-none-any.whl.zip]
+[2024-04-04 08:26:07] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-16.0.20240403.0-py3-none-any.whl.zip]
+[2024-04-04 08:26:07] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-survey]: success
+[2024-04-04 08:26:07] INFO root fetch - main [MainThread]: Store serial: [22616227]
