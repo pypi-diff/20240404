@@ -19000,3 +19000,72 @@
 [2024-04-04 11:18:29] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.270.tar.gz]
 [2024-04-04 11:18:29] INFO root fetch - main [MainThread]: End processing [effector]: success
 [2024-04-04 11:18:29] INFO root fetch - main [MainThread]: Store serial: [22617616]
+[2024-04-04 11:20:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617616]
+[2024-04-04 11:20:38] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gpt-researcher
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ithaca-py
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb-node-binding
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyperhdr-py-redux
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coretex
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecg-gudb-database
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ecg-gudb-database]: New version: [1.1.0] Old Version: [1.0.6]
+[2024-04-04 11:20:38] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 11:20:38] INFO root fetch - processPackages [gpt-researcher]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-04 11:20:38] INFO root fetch - processPackages [coretex]: New version: [1.0.99] Old Version: [1.0.96]
+[2024-04-04 11:20:38] INFO root fetch - processPackages [hyperhdr-py-redux]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-04 11:20:38] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [2.46.1.post1079] Old Version: [2.46.1.post1078]
+[2024-04-04 11:20:39] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/32/a9/be703bf25a277030ef55671c0c06595d0025a1ae21bbc2345fdcdf8b0c98/ithaca_py-0.1.6.tar.gz
+[2024-04-04 11:20:39] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/9f/09/e55da61359a3a923721c8b7dead12ac92c25bfd40fefc4e2588b07cb1d12/gpt-researcher-0.1.0.tar.gz
+[2024-04-04 11:20:39] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/9c/9e/96442e220cdfb0a7de20d94e88cc29d613e1047969cf03065f2d31453bac/coretex-1.0.96.tar.gz
+[2024-04-04 11:20:39] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/2f/14/60a99b5341b05c4d945917fddf49e5a98edfec2a3673705e6a3e543e42ba/nucliadb_node_binding-2.46.1.post1078.tar.gz
+[2024-04-04 11:20:39] INFO root fetch - processPackages [ecg-gudb-database]: Downloading https://files.pythonhosted.org/packages/b0/82/41b221ad21c8b722cae3a79f40969778a6171eb9cccf34402724c9e62e72/ecg_gudb_database-1.0.6.tar.gz
+[2024-04-04 11:20:39] INFO root fetch - processPackages [hyperhdr-py-redux]: Downloading https://files.pythonhosted.org/packages/40/3f/40629daf33c01bdedb4f741dbcc5923c9310b9cac8cce3d4bc9187fdc6c1/hyperhdr_py_redux-0.7.6.tar.gz
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [gpt-researcher]: Timeout reached during download
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [ecg-gudb-database]: Timeout reached during download
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [hyperhdr-py-redux]: Timeout reached during download
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-04 11:20:39] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/11/03/05905f9f4629dfb1870d86fb7aeba8b6a539bf7ed4f965073b195f71c833/ithaca_py-0.1.7.tar.gz
+[2024-04-04 11:20:40] INFO root fetch - processPackages [gpt-researcher]: Downloading https://files.pythonhosted.org/packages/1e/3a/730d381a3d6e76764118c7d64d4a259654848326030607356797d816d2f7/gpt-researcher-0.2.0.tar.gz
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ecg-gudb-database]: Downloading https://files.pythonhosted.org/packages/13/01/2fb9e11567637db75124f5c999a02af6ab29a6481f6f80ae1bed2c6637e6/ecg_gudb_database-1.1.0.tar.gz
+[2024-04-04 11:20:40] INFO root fetch - processPackages [hyperhdr-py-redux]: Downloading https://files.pythonhosted.org/packages/f8/d3/a215b03b1b622360e29ef9a209a143ece8c7725136890af6d814e3c5e2bd/hyperhdr_py_redux-0.7.7.tar.gz
+[2024-04-04 11:20:40] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/35/0f/19a109dc4ec31f790990676e2491f95aa631705ada3ef9669d6992624fc3/coretex-1.0.99.tar.gz
+[2024-04-04 11:20:40] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/d9/d2/c8d30de02d836e95fee752b0f8a5391dd81c3ff5d0eeec6265b5c632c563/nucliadb_node_binding-2.46.1.post1079.tar.gz
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.6.tar.gz tmp/ithaca_py-0.1.7.tar.gz --markdown 20240404/i/ithaca-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [gpt-researcher]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [gpt-researcher]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [gpt-researcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-researcher-0.1.0.tar.gz tmp/gpt-researcher-0.2.0.tar.gz --markdown 20240404/g/gpt-researcher/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [hyperhdr-py-redux]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [hyperhdr-py-redux]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [hyperhdr-py-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperhdr_py_redux-0.7.6.tar.gz tmp/hyperhdr_py_redux-0.7.7.tar.gz --markdown 20240404/h/hyperhdr-py-redux/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [ecg-gudb-database]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ecg-gudb-database]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ecg-gudb-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecg_gudb_database-1.0.6.tar.gz tmp/ecg_gudb_database-1.1.0.tar.gz --markdown 20240404/e/ecg-gudb-database/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [nucliadb-node-binding]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-2.46.1.post1078.tar.gz tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz --markdown 20240404/n/nucliadb-node-binding/2.46.1.post1078-2.46.1.post1079/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] WARNING root fetch - processPackages [coretex]: Timeout reached during download
+[2024-04-04 11:20:40] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2024-04-04 11:20:40] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.96.tar.gz tmp/coretex-1.0.99.tar.gz --markdown 20240404/c/coretex/1.0.96-1.0.99/diff.md --exclude *.pyd
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.6.tar.gz]
+[2024-04-04 11:20:40] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.7.tar.gz]
+[2024-04-04 11:20:40] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-04 11:20:41] INFO root fetch - processPackages [hyperhdr-py-redux]: Remove: archive file [/home/abi/fetcher/tmp/hyperhdr_py_redux-0.7.6.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - processPackages [hyperhdr-py-redux]: Remove: archive file [/home/abi/fetcher/tmp/hyperhdr_py_redux-0.7.7.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - main [MainThread]: End processing [hyperhdr-py-redux]: success
+[2024-04-04 11:20:41] INFO root fetch - processPackages [ecg-gudb-database]: Remove: archive file [/home/abi/fetcher/tmp/ecg_gudb_database-1.0.6.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - processPackages [ecg-gudb-database]: Remove: archive file [/home/abi/fetcher/tmp/ecg_gudb_database-1.1.0.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - main [MainThread]: End processing [ecg-gudb-database]: success
+[2024-04-04 11:20:41] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.1.0.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - processPackages [gpt-researcher]: Remove: archive file [/home/abi/fetcher/tmp/gpt-researcher-0.2.0.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - main [MainThread]: End processing [gpt-researcher]: success
+[2024-04-04 11:20:41] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.96.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.99.tar.gz]
+[2024-04-04 11:20:41] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2024-04-04 11:20:42] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1078.tar.gz]
+[2024-04-04 11:20:42] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-2.46.1.post1079.tar.gz]
+[2024-04-04 11:20:42] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2024-04-04 11:20:42] INFO root fetch - main [MainThread]: Store serial: [22617651]
