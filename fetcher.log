@@ -23542,3 +23542,34 @@
 [2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_extension-0.1.0a3-py3-none-any.whl.zip]
 [2024-04-04 13:55:52] INFO root fetch - main [MainThread]: End processing [pyconfig-extension]: success
 [2024-04-04 13:55:52] INFO root fetch - main [MainThread]: Store serial: [22619394]
+[2024-04-04 13:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619394]
+[2024-04-04 13:58:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-chikari-economy
+[2024-04-04 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amirispy
+[2024-04-04 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rwmapeditor-exgcdwu
+[2024-04-04 13:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prediction-market-agent-tooling
+[2024-04-04 13:58:02] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 13:58:02] WARNING root fetch - processPackages [rwmapeditor-exgcdwu]: Skipping, unable to determine old version
+[2024-04-04 13:58:02] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Skipping, unable to determine old version
+[2024-04-04 13:58:02] INFO root fetch - main [MainThread]: End processing [rwmapeditor-exgcdwu] error
+[2024-04-04 13:58:02] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chikari-economy] error
+[2024-04-04 13:58:02] INFO root fetch - processPackages [amirispy]: New version: [2.0.0] Old Version: [1.3]
+[2024-04-04 13:58:03] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/c6/19/521bd000021aea057a2b3b4a1be1bbcac72f5eb74a6b935850230ebe733b/prediction_market_agent_tooling-0.8.0.tar.gz
+[2024-04-04 13:58:03] INFO root fetch - processPackages [amirispy]: Downloading https://files.pythonhosted.org/packages/00/c6/6f3e8b8a9b1a4814ad8247e06f856c9728d48159e8dfedc2cae1b7209490/amirispy-1.3.tar.gz
+[2024-04-04 13:58:03] WARNING root fetch - processPackages [amirispy]: Timeout reached during download
+[2024-04-04 13:58:03] WARNING root fetch - processPackages [prediction-market-agent-tooling]: Timeout reached during download
+[2024-04-04 13:58:03] INFO root fetch - processPackages [amirispy]: Downloading https://files.pythonhosted.org/packages/8e/d8/7893edccbf8f4071aad5429a5e6b18fd5640d4eb9edc5bc6a9659c2e0217/amirispy-2.0.0.tar.gz
+[2024-04-04 13:58:03] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/85/7f/a236d43a8cb1743ae46c5cbc1c8c328187dee82192682092c57c75cf5c9a/prediction_market_agent_tooling-0.9.0.tar.gz
+[2024-04-04 13:58:03] WARNING root fetch - processPackages [amirispy]: Timeout reached during download
+[2024-04-04 13:58:03] INFO root fetch - processPackages [amirispy]: executing diffoscope
+[2024-04-04 13:58:03] INFO root fetch - processPackages [amirispy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amirispy-1.3.tar.gz tmp/amirispy-2.0.0.tar.gz --markdown 20240404/a/amirispy/1.3-2.0.0/diff.md --exclude *.pyd
+[2024-04-04 13:58:03] WARNING root fetch - processPackages [prediction-market-agent-tooling]: Timeout reached during download
+[2024-04-04 13:58:03] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-04 13:58:03] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.8.0.tar.gz tmp/prediction_market_agent_tooling-0.9.0.tar.gz --markdown 20240404/p/prediction-market-agent-tooling/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 13:58:04] INFO root fetch - processPackages [amirispy]: Remove: archive file [/home/abi/fetcher/tmp/amirispy-1.3.tar.gz]
+[2024-04-04 13:58:04] INFO root fetch - processPackages [amirispy]: Remove: archive file [/home/abi/fetcher/tmp/amirispy-2.0.0.tar.gz]
+[2024-04-04 13:58:04] INFO root fetch - main [MainThread]: End processing [amirispy]: success
+[2024-04-04 13:58:04] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.8.0.tar.gz]
+[2024-04-04 13:58:04] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.9.0.tar.gz]
+[2024-04-04 13:58:04] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-04 13:58:04] INFO root fetch - main [MainThread]: Store serial: [22619412]
