@@ -4098,3 +4098,39 @@
 [2024-04-04 02:35:53] INFO root fetch - processPackages [akello]: Remove: archive file [/home/abi/fetcher/tmp/akello-0.0.20.tar.gz]
 [2024-04-04 02:35:53] INFO root fetch - main [MainThread]: End processing [akello]: success
 [2024-04-04 02:35:53] INFO root fetch - main [MainThread]: Store serial: [22612945]
+[2024-04-04 02:37:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612945]
+[2024-04-04 02:38:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 02:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metamist
+[2024-04-04 02:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rayoptics
+[2024-04-04 02:38:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BO4E-Python-Generator
+[2024-04-04 02:38:02] INFO root fetch - processPackages [BO4E-Python-Generator]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 02:38:02] INFO root fetch - processPackages [metamist]: New version: [6.9.0] Old Version: [6.8.0]
+[2024-04-04 02:38:02] INFO root fetch - processPackages [rayoptics]: New version: [0.8.7] Old Version: [0.8.6]
+[2024-04-04 02:38:02] INFO root fetch - processPackages [BO4E-Python-Generator]: Downloading https://files.pythonhosted.org/packages/8b/04/19478f1472a33d1af433cf96d4be4fde9e101d27baa73e007b891eeb1b8d/bo4e_python_generator-0.0.8.tar.gz
+[2024-04-04 02:38:02] INFO root fetch - processPackages [rayoptics]: Downloading https://files.pythonhosted.org/packages/dd/36/ec8de30910a09f2163d498f2c21ffb217d540def592fc58f9375067393c9/rayoptics-0.8.6.tar.gz
+[2024-04-04 02:38:02] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/70/49/094ab27042fed855ba1edbbcb03dbaffa484960c9702ddede5f2f7c8d360/metamist-6.8.0.tar.gz
+[2024-04-04 02:38:02] WARNING root fetch - processPackages [BO4E-Python-Generator]: Timeout reached during download
+[2024-04-04 02:38:02] WARNING root fetch - processPackages [metamist]: Timeout reached during download
+[2024-04-04 02:38:03] INFO root fetch - processPackages [metamist]: Downloading https://files.pythonhosted.org/packages/29/55/77615bacd555115a0485aa104e8f1d14957ee9a495478067bd37f6b142bc/metamist-6.9.0.tar.gz
+[2024-04-04 02:38:03] INFO root fetch - processPackages [BO4E-Python-Generator]: Downloading https://files.pythonhosted.org/packages/44/89/46bebe11646f42092f887cfae9a89c4dab6ae84981ec6a55df9a69aec3c2/bo4e_python_generator-0.0.9.tar.gz
+[2024-04-04 02:38:03] WARNING root fetch - processPackages [rayoptics]: Timeout reached during download
+[2024-04-04 02:38:03] WARNING root fetch - processPackages [metamist]: Timeout reached during download
+[2024-04-04 02:38:03] INFO root fetch - processPackages [metamist]: executing diffoscope
+[2024-04-04 02:38:03] INFO root fetch - processPackages [metamist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metamist-6.8.0.tar.gz tmp/metamist-6.9.0.tar.gz --markdown 20240404/m/metamist/6.8.0-6.9.0/diff.md --exclude *.pyd
+[2024-04-04 02:38:03] WARNING root fetch - processPackages [BO4E-Python-Generator]: Timeout reached during download
+[2024-04-04 02:38:03] INFO root fetch - processPackages [BO4E-Python-Generator]: executing diffoscope
+[2024-04-04 02:38:03] INFO root fetch - processPackages [BO4E-Python-Generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e_python_generator-0.0.8.tar.gz tmp/bo4e_python_generator-0.0.9.tar.gz --markdown 20240404/B/BO4E-Python-Generator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 02:38:03] INFO root fetch - processPackages [rayoptics]: Downloading https://files.pythonhosted.org/packages/99/cb/25ac823624255d63a76d554a1e708513879004a1acab08a76b2775aa36e7/rayoptics-0.8.7-py3-none-any.whl
+[2024-04-04 02:38:03] WARNING root fetch - processPackages [rayoptics]: Timeout reached during download
+[2024-04-04 02:38:03] INFO root fetch - processPackages [rayoptics]: executing diffoscope
+[2024-04-04 02:38:03] INFO root fetch - processPackages [rayoptics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayoptics-0.8.6.tar.gz tmp/rayoptics-0.8.7-py3-none-any.whl.zip --markdown 20240404/r/rayoptics/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2024-04-04 02:38:03] INFO root fetch - processPackages [BO4E-Python-Generator]: Remove: archive file [/home/abi/fetcher/tmp/bo4e_python_generator-0.0.8.tar.gz]
+[2024-04-04 02:38:03] INFO root fetch - processPackages [BO4E-Python-Generator]: Remove: archive file [/home/abi/fetcher/tmp/bo4e_python_generator-0.0.9.tar.gz]
+[2024-04-04 02:38:03] INFO root fetch - main [MainThread]: End processing [BO4E-Python-Generator]: success
+[2024-04-04 02:38:04] INFO root fetch - processPackages [rayoptics]: Remove: archive file [/home/abi/fetcher/tmp/rayoptics-0.8.6.tar.gz]
+[2024-04-04 02:38:04] INFO root fetch - processPackages [rayoptics]: Remove: archive file [/home/abi/fetcher/tmp/rayoptics-0.8.7-py3-none-any.whl.zip]
+[2024-04-04 02:38:04] INFO root fetch - main [MainThread]: End processing [rayoptics]: success
+[2024-04-04 02:38:04] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.8.0.tar.gz]
+[2024-04-04 02:38:04] INFO root fetch - processPackages [metamist]: Remove: archive file [/home/abi/fetcher/tmp/metamist-6.9.0.tar.gz]
+[2024-04-04 02:38:04] INFO root fetch - main [MainThread]: End processing [metamist]: success
+[2024-04-04 02:38:04] INFO root fetch - main [MainThread]: Store serial: [22612952]
