@@ -9295,3 +9295,50 @@
 [2024-04-04 03:24:09] WARNING root fetch - processPackages [FreeSimpleGUI]: Skipping, unable to determine old version
 [2024-04-04 03:24:09] INFO root fetch - main [MainThread]: End processing [FreeSimpleGUI] error
 [2024-04-04 03:24:09] INFO root fetch - main [MainThread]: Store serial: [22614215]
+[2024-04-04 03:26:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614215]
+[2024-04-04 03:26:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 03:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-tele
+[2024-04-04 03:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typedllm
+[2024-04-04 03:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediff
+[2024-04-04 03:26:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onediffx
+[2024-04-04 03:26:18] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.9.1] Old Version: [0.0.4.9.9]
+[2024-04-04 03:26:18] INFO root fetch - processPackages [typedllm]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 03:26:18] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404030124] Old Version: [0.13.0.dev202404020126]
+[2024-04-04 03:26:18] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 03:26:18] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/d4/24/1f7275f4ef1def76b269b530417c038dba346d358a9c7c6166c68512e7d5/test_tele-0.0.4.9.9.tar.gz
+[2024-04-04 03:26:19] INFO root fetch - processPackages [typedllm]: Downloading https://files.pythonhosted.org/packages/db/74/ef46c7db39ee6aba6c3377fca66886507c9746a470d89657bcdf9db896bb/typedllm-0.1.1.tar.gz
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/25/5c/89e3fbec23e7dca385f3758fd08ad2e04b0798d91e7981def4aae68a3d7c/onediffx-0.13.0.dev202404020126.tar.gz
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [typedllm]: Timeout reached during download
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/07/de/79ca547733e3e96f6d18f14435fd687afadfca1fac13ba2a0bd529a4deab/test_tele-0.0.4.9.9.1.tar.gz
+[2024-04-04 03:26:19] INFO root fetch - processPackages [typedllm]: Downloading https://files.pythonhosted.org/packages/7e/d2/c62a3bbe6fcedc2ff154376106370cb0ecdac0c18c5fd4ec61825e3b778d/typedllm-0.1.2.tar.gz
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-04 03:26:19] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.9.tar.gz tmp/test_tele-0.0.4.9.9.1.tar.gz --markdown 20240404/t/test-tele/0.0.4.9.9-0.0.4.9.9.1/diff.md --exclude *.pyd
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/d8/58/a091a6699ee125c97bddc1e67b27c2810558f3fcae7b98599e8b4344ebab/onediffx-0.13.0.dev202404030124.tar.gz
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [typedllm]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [typedllm]: executing diffoscope
+[2024-04-04 03:26:19] INFO root fetch - processPackages [typedllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedllm-0.1.1.tar.gz tmp/typedllm-0.1.2.tar.gz --markdown 20240404/t/typedllm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [onediffx]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404020126.tar.gz tmp/onediffx-0.13.0.dev202404030124.tar.gz --markdown 20240404/o/onediffx/0.13.0.dev202404020126-0.13.0.dev202404030124/diff.md --exclude *.pyd
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-04 03:26:19] WARNING root fetch - processPackages [onediff]: Timeout reached during download
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-04 03:26:19] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240404/o/onediff/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 03:26:20] INFO root fetch - processPackages [typedllm]: Remove: archive file [/home/abi/fetcher/tmp/typedllm-0.1.1.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - processPackages [typedllm]: Remove: archive file [/home/abi/fetcher/tmp/typedllm-0.1.2.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - main [MainThread]: End processing [typedllm]: success
+[2024-04-04 03:26:20] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404020126.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404030124.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-04 03:26:20] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.1.tar.gz]
+[2024-04-04 03:26:20] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-04 03:26:20] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-04 03:26:20] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-04 03:26:20] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-04 03:26:20] INFO root fetch - main [MainThread]: Store serial: [22614287]
