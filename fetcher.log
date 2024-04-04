@@ -9803,3 +9803,28 @@
 [2024-04-04 03:59:38] INFO root fetch - processPackages [cardex]: Remove: archive file [/home/abi/fetcher/tmp/cardex-0.2.0.dev9.tar.gz]
 [2024-04-04 03:59:38] INFO root fetch - main [MainThread]: End processing [cardex]: success
 [2024-04-04 03:59:38] INFO root fetch - main [MainThread]: Store serial: [22614670]
+[2024-04-04 04:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614670]
+[2024-04-04 04:01:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: toomanycells
+[2024-04-04 04:01:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybershuttle-tune
+[2024-04-04 04:01:47] INFO root fetch - processPackages [toomanycells]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 04:01:47] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/ca/81/f70f552915ba4290240281e89c77a53bf1f92da1924436d856b6c2021228/toomanycells-1.0.8.tar.gz
+[2024-04-04 04:01:47] INFO root fetch - processPackages [cybershuttle-tune]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 04:01:47] INFO root fetch - processPackages [cybershuttle-tune]: Downloading https://files.pythonhosted.org/packages/31/f7/12981553c5dbdbb765a51d366dd90bd17f42cc35bde587aa1131a0095ee9/cybershuttle_tune-0.1.2.tar.gz
+[2024-04-04 04:01:47] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 04:01:48] INFO root fetch - processPackages [toomanycells]: Downloading https://files.pythonhosted.org/packages/93/e9/abb2d1e3c266cf33e3928261abaf14d2ffadeb4092939f1284586f323858/toomanycells-1.0.9.tar.gz
+[2024-04-04 04:01:48] WARNING root fetch - processPackages [cybershuttle-tune]: Timeout reached during download
+[2024-04-04 04:01:48] INFO root fetch - processPackages [cybershuttle-tune]: Downloading https://files.pythonhosted.org/packages/89/3e/316c7dc6c29954a5364de0ea5b7a1afe4ae0bc22dcede16a81d1665d4abe/cybershuttle_tune-0.1.3.tar.gz
+[2024-04-04 04:01:48] WARNING root fetch - processPackages [toomanycells]: Timeout reached during download
+[2024-04-04 04:01:48] INFO root fetch - processPackages [toomanycells]: executing diffoscope
+[2024-04-04 04:01:48] INFO root fetch - processPackages [toomanycells]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toomanycells-1.0.8.tar.gz tmp/toomanycells-1.0.9.tar.gz --markdown 20240404/t/toomanycells/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 04:01:48] WARNING root fetch - processPackages [cybershuttle-tune]: Timeout reached during download
+[2024-04-04 04:01:48] INFO root fetch - processPackages [cybershuttle-tune]: executing diffoscope
+[2024-04-04 04:01:48] INFO root fetch - processPackages [cybershuttle-tune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybershuttle_tune-0.1.2.tar.gz tmp/cybershuttle_tune-0.1.3.tar.gz --markdown 20240404/c/cybershuttle-tune/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-04 04:01:49] INFO root fetch - processPackages [cybershuttle-tune]: Remove: archive file [/home/abi/fetcher/tmp/cybershuttle_tune-0.1.2.tar.gz]
+[2024-04-04 04:01:49] INFO root fetch - processPackages [cybershuttle-tune]: Remove: archive file [/home/abi/fetcher/tmp/cybershuttle_tune-0.1.3.tar.gz]
+[2024-04-04 04:01:49] INFO root fetch - main [MainThread]: End processing [cybershuttle-tune]: success
+[2024-04-04 04:01:49] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.8.tar.gz]
+[2024-04-04 04:01:49] INFO root fetch - processPackages [toomanycells]: Remove: archive file [/home/abi/fetcher/tmp/toomanycells-1.0.9.tar.gz]
+[2024-04-04 04:01:49] INFO root fetch - main [MainThread]: End processing [toomanycells]: success
+[2024-04-04 04:01:49] INFO root fetch - main [MainThread]: Store serial: [22614676]
