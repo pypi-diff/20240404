@@ -18827,3 +18827,42 @@
 [2024-04-04 11:09:27] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.2.tar.gz]
 [2024-04-04 11:09:27] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 11:09:27] INFO root fetch - main [MainThread]: Store serial: [22617558]
+[2024-04-04 11:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617558]
+[2024-04-04 11:11:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sawsi
+[2024-04-04 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ajax-datatable
+[2024-04-04 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easy-encryption-tool
+[2024-04-04 11:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openmetadata-ingestion
+[2024-04-04 11:11:37] WARNING root fetch - processPackages [easy-encryption-tool]: Skipping, unable to determine old version
+[2024-04-04 11:11:37] INFO root fetch - main [MainThread]: End processing [easy-encryption-tool] error
+[2024-04-04 11:11:37] INFO root fetch - processPackages [django-ajax-datatable]: New version: [4.5.0] Old Version: [4.4.5]
+[2024-04-04 11:11:37] INFO root fetch - processPackages [sawsi]: New version: [9.9] Old Version: [9.8]
+[2024-04-04 11:11:37] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.3.2.0rc3] Old Version: [1.3.2.0rc2]
+[2024-04-04 11:11:38] INFO root fetch - processPackages [django-ajax-datatable]: Downloading https://files.pythonhosted.org/packages/8b/db/c6ead14cc5eb1ebf32f148bab04323dee23405da7f7297b4f566d045947c/django_ajax_datatable-4.4.5-py2.py3-none-any.whl
+[2024-04-04 11:11:38] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/a5/89/e5230b963c36d9342bd53c4174b8b4f9595f77c5aa510614cf80ac5315a0/sawsi-9.8.tar.gz
+[2024-04-04 11:11:38] WARNING root fetch - processPackages [django-ajax-datatable]: Timeout reached during download
+[2024-04-04 11:11:38] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-04 11:11:38] INFO root fetch - processPackages [django-ajax-datatable]: Downloading https://files.pythonhosted.org/packages/13/9f/e1f1ebe5d2b86345145074fef106621be5cc4aa6119e30cbad1c2e23fe08/django_ajax_datatable-4.5.0-py2.py3-none-any.whl
+[2024-04-04 11:11:38] INFO root fetch - processPackages [sawsi]: Downloading https://files.pythonhosted.org/packages/69/c2/e945385340121de75cca5d00aa9ac99f3d874c5977239a7d7efe5e969e17/sawsi-9.9.tar.gz
+[2024-04-04 11:11:38] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/c1/f7/b4a1241bc025ca45042504c4088e79d7e026d6adf180aaf36075e3d4e715/openmetadata-ingestion-1.3.2.0rc2.tar.gz
+[2024-04-04 11:11:38] WARNING root fetch - processPackages [django-ajax-datatable]: Timeout reached during download
+[2024-04-04 11:11:38] INFO root fetch - processPackages [django-ajax-datatable]: executing diffoscope
+[2024-04-04 11:11:38] INFO root fetch - processPackages [django-ajax-datatable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_ajax_datatable-4.4.5-py2.py3-none-any.whl.zip tmp/django_ajax_datatable-4.5.0-py2.py3-none-any.whl.zip --markdown 20240404/d/django-ajax-datatable/4.4.5-4.5.0/diff.md --exclude *.pyd
+[2024-04-04 11:11:38] WARNING root fetch - processPackages [sawsi]: Timeout reached during download
+[2024-04-04 11:11:38] INFO root fetch - processPackages [sawsi]: executing diffoscope
+[2024-04-04 11:11:38] INFO root fetch - processPackages [sawsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sawsi-9.8.tar.gz tmp/sawsi-9.9.tar.gz --markdown 20240404/s/sawsi/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-04 11:11:39] WARNING root fetch - processPackages [openmetadata-ingestion]: Timeout reached during download
+[2024-04-04 11:11:39] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/79/ad/88441d3f003261f37e9b4040223e4cca35b1b108e6d92bcca7e0c0e66012/openmetadata-ingestion-1.3.2.0rc3.tar.gz
+[2024-04-04 11:11:39] INFO root fetch - processPackages [django-ajax-datatable]: Remove: archive file [/home/abi/fetcher/tmp/django_ajax_datatable-4.4.5-py2.py3-none-any.whl.zip]
+[2024-04-04 11:11:39] INFO root fetch - processPackages [django-ajax-datatable]: Remove: archive file [/home/abi/fetcher/tmp/django_ajax_datatable-4.5.0-py2.py3-none-any.whl.zip]
+[2024-04-04 11:11:39] INFO root fetch - main [MainThread]: End processing [django-ajax-datatable]: success
+[2024-04-04 11:11:39] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.8.tar.gz]
+[2024-04-04 11:11:39] INFO root fetch - processPackages [sawsi]: Remove: archive file [/home/abi/fetcher/tmp/sawsi-9.9.tar.gz]
+[2024-04-04 11:11:39] INFO root fetch - main [MainThread]: End processing [sawsi]: success
+[2024-04-04 11:11:39] WARNING root fetch - processPackages [openmetadata-ingestion]: Timeout reached during download
+[2024-04-04 11:11:39] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2024-04-04 11:11:39] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.3.2.0rc2.tar.gz tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz --markdown 20240404/o/openmetadata-ingestion/1.3.2.0rc2-1.3.2.0rc3/diff.md --exclude *.pyd
+[2024-04-04 11:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.2.0rc2.tar.gz]
+[2024-04-04 11:11:46] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.3.2.0rc3.tar.gz]
+[2024-04-04 11:11:46] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2024-04-04 11:11:46] INFO root fetch - main [MainThread]: Store serial: [22617572]
