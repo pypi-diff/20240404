@@ -23877,3 +23877,72 @@
 [2024-04-04 14:04:40] INFO root fetch - processPackages [ephios]: Remove: archive file [/home/abi/fetcher/tmp/ephios-0.9.3.tar.gz]
 [2024-04-04 14:04:40] INFO root fetch - main [MainThread]: End processing [ephios]: success
 [2024-04-04 14:04:40] INFO root fetch - main [MainThread]: Store serial: [22619490]
+[2024-04-04 14:06:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619490]
+[2024-04-04 14:06:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-rigetti
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jx-python
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asmu
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-chikari-economy
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepeval
+[2024-04-04 14:06:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vy-lambda-tools
+[2024-04-04 14:06:50] INFO root fetch - processPackages [jx-python]: New version: [4.583.24095] Old Version: [4.582.24095]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [vy-lambda-tools]: New version: [0.4.0b0] Old Version: [0.3.0]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [asmu]: New version: [0.0.1a0] Old Version: [0.0.1]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [deepeval]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240404120310] Old Version: [1.4.0.dev20240404010536]
+[2024-04-04 14:06:50] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/87/54/ccba9e1d19e7e3733422a3ad5471eaf7abb591a056e9d6abc8b449181917/jx-python-4.582.24095.tar.gz
+[2024-04-04 14:06:50] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/9f/a7/d5b0966dcffee3d0f0d0ef14a701ea903b08d0dd206a320f81212e2ab7c4/vy_lambda_tools-0.3.0.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/8b/4e/74892f0e4e740898d3d9bbcb8e3e22adc9d2ca430699cb8a78a8b5e2697b/deepeval-0.9.8.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/73/f8/2ba7ee3dc4fa30e2361c132d79f3bd25040c04222066ea061a702b7e76aa/nonebot_plugin_chikari_economy-0.0.1.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [asmu]: Downloading https://files.pythonhosted.org/packages/22/5f/ef0494cfe8ccb21ce0be2eb7ee3d841c5e99c5c1639f580da3f38e8109b8/asmu-0.0.1.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/07/ce/9b67dc4f630ace1a90dfb64961fcadf24322cdf450c0d8b5509db6fdfe33/cirq_rigetti-1.4.0.dev20240404010536-py3-none-any.whl
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [jx-python]: Timeout reached during download
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [deepeval]: Timeout reached during download
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [asmu]: Timeout reached during download
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [vy-lambda-tools]: Downloading https://files.pythonhosted.org/packages/e0/d0/4faa446edc1ac14fe51be0d2a50c11026da246e6eed24ed6b2096e3a3c91/vy_lambda_tools-0.4.0b0.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [jx-python]: Downloading https://files.pythonhosted.org/packages/ea/a3/0a56aa3a72461783eed9ff052effe026ecbbc8fe40fd9b863fefcf3f7248/jx-python-4.583.24095.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [deepeval]: Downloading https://files.pythonhosted.org/packages/79/cd/f07ea4ba3fa8fae91bc1bdecc3a7fc8882146f65614215058425221ac2e8/deepeval-0.9.9.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Downloading https://files.pythonhosted.org/packages/55/54/b2cbeb5c2fe5cceca26e828436b65e74a4b1a20a9b9d1969bfe76b04baf4/nonebot_plugin_chikari_economy-0.0.2.tar.gz
+[2024-04-04 14:06:51] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/cb/f9/e131cd871bbc3a2b9433eaeec194c7399ea743b474aeef630ae6474b7500/cirq_rigetti-1.4.0.dev20240404120310-py3-none-any.whl
+[2024-04-04 14:06:51] INFO root fetch - processPackages [asmu]: Downloading https://files.pythonhosted.org/packages/26/f3/cbeb5ecaae1d4205d62b38fbefc45f4262b68f04fc99fca9e072e9485f32/asmu-0.0.1a0.tar.gz
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [vy-lambda-tools]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [vy-lambda-tools]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [vy-lambda-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vy_lambda_tools-0.3.0.tar.gz tmp/vy_lambda_tools-0.4.0b0.tar.gz --markdown 20240404/v/vy-lambda-tools/0.3.0-0.4.0b0/diff.md --exclude *.pyd
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [deepeval]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [deepeval]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [deepeval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepeval-0.9.8.tar.gz tmp/deepeval-0.9.9.tar.gz --markdown 20240404/d/deepeval/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [jx-python]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [jx-python]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [jx-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jx-python-4.582.24095.tar.gz tmp/jx-python-4.583.24095.tar.gz --markdown 20240404/j/jx-python/4.582.24095-4.583.24095/diff.md --exclude *.pyd
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [cirq-rigetti]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240404010536-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240404120310-py3-none-any.whl.zip --markdown 20240404/c/cirq-rigetti/1.4.0.dev20240404010536-1.4.0.dev20240404120310/diff.md --exclude *.pyd
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [asmu]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [asmu]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [asmu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asmu-0.0.1.tar.gz tmp/asmu-0.0.1a0.tar.gz --markdown 20240404/a/asmu/0.0.1-0.0.1a0/diff.md --exclude *.pyd
+[2024-04-04 14:06:51] WARNING root fetch - processPackages [nonebot-plugin-chikari-economy]: Timeout reached during download
+[2024-04-04 14:06:51] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: executing diffoscope
+[2024-04-04 14:06:51] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_chikari_economy-0.0.1.tar.gz tmp/nonebot_plugin_chikari_economy-0.0.2.tar.gz --markdown 20240404/n/nonebot-plugin-chikari-economy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-04 14:06:52] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.1.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - processPackages [nonebot-plugin-chikari-economy]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_chikari_economy-0.0.2.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-chikari-economy]: success
+[2024-04-04 14:06:52] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.3.0.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - processPackages [vy-lambda-tools]: Remove: archive file [/home/abi/fetcher/tmp/vy_lambda_tools-0.4.0b0.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - main [MainThread]: End processing [vy-lambda-tools]: success
+[2024-04-04 14:06:52] INFO root fetch - processPackages [asmu]: Remove: archive file [/home/abi/fetcher/tmp/asmu-0.0.1.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - processPackages [asmu]: Remove: archive file [/home/abi/fetcher/tmp/asmu-0.0.1a0.tar.gz]
+[2024-04-04 14:06:52] INFO root fetch - main [MainThread]: End processing [asmu]: success
+[2024-04-04 14:06:52] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240404010536-py3-none-any.whl.zip]
+[2024-04-04 14:06:52] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240404120310-py3-none-any.whl.zip]
+[2024-04-04 14:06:52] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-04-04 14:06:53] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.8.tar.gz]
+[2024-04-04 14:06:53] INFO root fetch - processPackages [deepeval]: Remove: archive file [/home/abi/fetcher/tmp/deepeval-0.9.9.tar.gz]
+[2024-04-04 14:06:53] INFO root fetch - main [MainThread]: End processing [deepeval]: success
+[2024-04-04 14:06:53] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.582.24095.tar.gz]
+[2024-04-04 14:06:53] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.583.24095.tar.gz]
+[2024-04-04 14:06:53] INFO root fetch - main [MainThread]: End processing [jx-python]: success
+[2024-04-04 14:06:53] INFO root fetch - main [MainThread]: Store serial: [22619517]
