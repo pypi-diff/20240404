@@ -12127,3 +12127,28 @@
 [2024-04-04 06:18:03] INFO root fetch - processPackages [jx-python]: Remove: archive file [/home/abi/fetcher/tmp/jx-python-4.582.24095.tar.gz]
 [2024-04-04 06:18:03] INFO root fetch - main [MainThread]: End processing [jx-python]: success
 [2024-04-04 06:18:03] INFO root fetch - main [MainThread]: Store serial: [22615418]
+[2024-04-04 06:20:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615418]
+[2024-04-04 06:20:12] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 06:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sqlite
+[2024-04-04 06:20:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enum-with-dict
+[2024-04-04 06:20:12] INFO root fetch - processPackages [enum-with-dict]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-04 06:20:12] INFO root fetch - processPackages [mo-sqlite]: New version: [2.582.24095] Old Version: [2.579.24081]
+[2024-04-04 06:20:12] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/1c/11/db55b5002b473cf4223f6f3e4cdd2e9dbd5925379d6c96273006beae8579/enum_with_dict-0.6.1.tar.gz
+[2024-04-04 06:20:13] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 06:20:13] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/74/9e/a2f05880a43cc7e5b1b4c973d1dcd95724989db72b69f65307a4f5447d7b/mo-sqlite-2.579.24081.tar.gz
+[2024-04-04 06:20:13] WARNING root fetch - processPackages [mo-sqlite]: Timeout reached during download
+[2024-04-04 06:20:13] INFO root fetch - processPackages [enum-with-dict]: Downloading https://files.pythonhosted.org/packages/98/73/adbf70cafb8933c3ef7f0d247795fe815b19b699fa7690354306b8b888e0/enum_with_dict-0.6.2.tar.gz
+[2024-04-04 06:20:13] INFO root fetch - processPackages [mo-sqlite]: Downloading https://files.pythonhosted.org/packages/88/07/ff178046f3a65b8e0b1a3af530a36c651cd692a9c7675c68311f7448288f/mo-sqlite-2.582.24095.tar.gz
+[2024-04-04 06:20:13] WARNING root fetch - processPackages [enum-with-dict]: Timeout reached during download
+[2024-04-04 06:20:13] INFO root fetch - processPackages [enum-with-dict]: executing diffoscope
+[2024-04-04 06:20:13] INFO root fetch - processPackages [enum-with-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enum_with_dict-0.6.1.tar.gz tmp/enum_with_dict-0.6.2.tar.gz --markdown 20240404/e/enum-with-dict/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-04 06:20:13] WARNING root fetch - processPackages [mo-sqlite]: Timeout reached during download
+[2024-04-04 06:20:13] INFO root fetch - processPackages [mo-sqlite]: executing diffoscope
+[2024-04-04 06:20:13] INFO root fetch - processPackages [mo-sqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sqlite-2.579.24081.tar.gz tmp/mo-sqlite-2.582.24095.tar.gz --markdown 20240404/m/mo-sqlite/2.579.24081-2.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:20:13] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.1.tar.gz]
+[2024-04-04 06:20:13] INFO root fetch - processPackages [enum-with-dict]: Remove: archive file [/home/abi/fetcher/tmp/enum_with_dict-0.6.2.tar.gz]
+[2024-04-04 06:20:13] INFO root fetch - main [MainThread]: End processing [enum-with-dict]: success
+[2024-04-04 06:20:14] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo-sqlite-2.579.24081.tar.gz]
+[2024-04-04 06:20:14] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo-sqlite-2.582.24095.tar.gz]
+[2024-04-04 06:20:14] INFO root fetch - main [MainThread]: End processing [mo-sqlite]: success
+[2024-04-04 06:20:14] INFO root fetch - main [MainThread]: Store serial: [22615425]
