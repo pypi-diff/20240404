@@ -11920,3 +11920,55 @@
 [2024-04-04 06:07:03] INFO root fetch - processPackages [odoo-addon-iot-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_iot_oca-16.0.1.0.0.9-py3-none-any.whl.zip]
 [2024-04-04 06:07:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-iot-oca]: success
 [2024-04-04 06:07:03] INFO root fetch - main [MainThread]: Store serial: [22615343]
+[2024-04-04 06:09:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615343]
+[2024-04-04 06:09:11] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-sql
+[2024-04-04 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qbraid-qir
+[2024-04-04 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendp
+[2024-04-04 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qbraid
+[2024-04-04 06:09:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodatasets3
+[2024-04-04 06:09:12] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240403001]
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid]: New version: [0.6.0.dev20240404040745] Old Version: [0.5.3.dev20240312235736]
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid-qir]: New version: [0.2.0.dev20240404040722] Old Version: [0.2.0.dev20240329154415]
+[2024-04-04 06:09:12] INFO root fetch - processPackages [eodatasets3]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-04 06:09:12] INFO root fetch - processPackages [mo-sql]: New version: [4.582.24095] Old Version: [4.579.24081]
+[2024-04-04 06:09:12] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/35/3b/837bfa9b2b257c766f19d30ad7e94b9fb90ca8cc6c34bfa2786d56e3f226/opendp-0.9.2a20240403001-py3-none-any.whl
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36112340>=10485760
+[2024-04-04 06:09:12] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-04 06:09:12] INFO root fetch - processPackages [eodatasets3]: Downloading https://files.pythonhosted.org/packages/e9/2e/5b821e5d77e46af27d66d95db5beb8f96e3b858b396d02222b4dcaa8c3a4/eodatasets3-0.9.2.tar.gz
+[2024-04-04 06:09:12] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/1f/4a/86f8e4a14487532ebf9b77e57934727c8873bed9bbd126ab6f85be33c687/mo-sql-4.579.24081.tar.gz
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/f7/1f/65006f616b5653012c789b28411c1c920cd0f891635882681d38915546f2/qbraid-0.5.3.dev20240312235736.tar.gz
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid-qir]: Downloading https://files.pythonhosted.org/packages/2f/30/abee32dcf54c5ee1c53fc2b7f4daca306dca5b4630d914d5e1989c2a22c3/qbraid-qir-0.2.0.dev20240329154415.tar.gz
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [mo-sql]: Timeout reached during download
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [qbraid-qir]: Timeout reached during download
+[2024-04-04 06:09:12] INFO root fetch - processPackages [mo-sql]: Downloading https://files.pythonhosted.org/packages/dc/84/e575341ebc4ffef8e9d35337e5eb6e5c3eec13657987502558deee6e7ded/mo-sql-4.582.24095.tar.gz
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid-qir]: Downloading https://files.pythonhosted.org/packages/d9/af/d6051eb8abcb39128000122100200e7c0077a243448a01f3625bf643114b/qbraid-qir-0.2.0.dev20240404040722.tar.gz
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [mo-sql]: Timeout reached during download
+[2024-04-04 06:09:12] INFO root fetch - processPackages [mo-sql]: executing diffoscope
+[2024-04-04 06:09:12] INFO root fetch - processPackages [mo-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-sql-4.579.24081.tar.gz tmp/mo-sql-4.582.24095.tar.gz --markdown 20240404/m/mo-sql/4.579.24081-4.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [qbraid]: Timeout reached during download
+[2024-04-04 06:09:12] WARNING root fetch - processPackages [qbraid-qir]: Timeout reached during download
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid-qir]: executing diffoscope
+[2024-04-04 06:09:12] INFO root fetch - processPackages [qbraid-qir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-qir-0.2.0.dev20240329154415.tar.gz tmp/qbraid-qir-0.2.0.dev20240404040722.tar.gz --markdown 20240404/q/qbraid-qir/0.2.0.dev20240329154415-0.2.0.dev20240404040722/diff.md --exclude *.pyd
+[2024-04-04 06:09:13] INFO root fetch - processPackages [qbraid]: Downloading https://files.pythonhosted.org/packages/00/19/c726b621b2792d84ba16bcbb32c83202ae6bd72f50e29e8b3c8007c268bf/qbraid-0.6.0.dev20240404040745.tar.gz
+[2024-04-04 06:09:13] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-4.579.24081.tar.gz]
+[2024-04-04 06:09:13] INFO root fetch - processPackages [mo-sql]: Remove: archive file [/home/abi/fetcher/tmp/mo-sql-4.582.24095.tar.gz]
+[2024-04-04 06:09:13] INFO root fetch - main [MainThread]: End processing [mo-sql]: success
+[2024-04-04 06:09:13] WARNING root fetch - processPackages [qbraid]: Timeout reached during download
+[2024-04-04 06:09:13] INFO root fetch - processPackages [qbraid]: executing diffoscope
+[2024-04-04 06:09:13] INFO root fetch - processPackages [qbraid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbraid-0.5.3.dev20240312235736.tar.gz tmp/qbraid-0.6.0.dev20240404040745.tar.gz --markdown 20240404/q/qbraid/0.5.3.dev20240312235736-0.6.0.dev20240404040745/diff.md --exclude *.pyd
+[2024-04-04 06:09:13] INFO root fetch - processPackages [qbraid-qir]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-qir-0.2.0.dev20240329154415.tar.gz]
+[2024-04-04 06:09:13] INFO root fetch - processPackages [qbraid-qir]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-qir-0.2.0.dev20240404040722.tar.gz]
+[2024-04-04 06:09:13] INFO root fetch - main [MainThread]: End processing [qbraid-qir]: success
+[2024-04-04 06:09:14] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.5.3.dev20240312235736.tar.gz]
+[2024-04-04 06:09:14] INFO root fetch - processPackages [qbraid]: Remove: archive file [/home/abi/fetcher/tmp/qbraid-0.6.0.dev20240404040745.tar.gz]
+[2024-04-04 06:09:14] INFO root fetch - main [MainThread]: End processing [qbraid]: success
+[2024-04-04 06:09:14] WARNING root fetch - processPackages [eodatasets3]: Timeout reached during download
+[2024-04-04 06:09:14] INFO root fetch - processPackages [eodatasets3]: Downloading https://files.pythonhosted.org/packages/c8/f2/a8f171e330000d57954ff698226d46c0e8c6492738ce8f49bc2b25f5cef5/eodatasets3-0.9.3.tar.gz
+[2024-04-04 06:09:17] WARNING root fetch - processPackages [eodatasets3]: Timeout reached during download
+[2024-04-04 06:09:17] INFO root fetch - processPackages [eodatasets3]: executing diffoscope
+[2024-04-04 06:09:17] INFO root fetch - processPackages [eodatasets3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodatasets3-0.9.2.tar.gz tmp/eodatasets3-0.9.3.tar.gz --markdown 20240404/e/eodatasets3/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-04 06:09:19] INFO root fetch - processPackages [eodatasets3]: Remove: archive file [/home/abi/fetcher/tmp/eodatasets3-0.9.2.tar.gz]
+[2024-04-04 06:09:19] INFO root fetch - processPackages [eodatasets3]: Remove: archive file [/home/abi/fetcher/tmp/eodatasets3-0.9.3.tar.gz]
+[2024-04-04 06:09:19] INFO root fetch - main [MainThread]: End processing [eodatasets3]: success
+[2024-04-04 06:09:19] INFO root fetch - main [MainThread]: Store serial: [22615356]
