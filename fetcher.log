@@ -13075,3 +13075,28 @@
 [2024-04-04 07:11:40] INFO root fetch - processPackages [kodexa-cli]: Remove: archive file [/home/abi/fetcher/tmp/kodexa_cli-7.0.8549588423.tar.gz]
 [2024-04-04 07:11:40] INFO root fetch - main [MainThread]: End processing [kodexa-cli]: success
 [2024-04-04 07:11:40] INFO root fetch - main [MainThread]: Store serial: [22615736]
+[2024-04-04 07:13:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615736]
+[2024-04-04 07:13:48] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 07:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: encommon
+[2024-04-04 07:13:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scikit-gmsh
+[2024-04-04 07:13:48] INFO root fetch - processPackages [encommon]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-04 07:13:48] INFO root fetch - processPackages [scikit-gmsh]: New version: [0.1.dev0] Old Version: [0.1.0]
+[2024-04-04 07:13:49] INFO root fetch - processPackages [scikit-gmsh]: Downloading https://files.pythonhosted.org/packages/92/5d/c14aeb59db9ed9201d5c83b34c7c34909276c444bfea12ab148f4852c6ff/scikit-gmsh-0.1.0.tar.gz
+[2024-04-04 07:13:49] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/2d/40/bab6cb1ba31fa908505605a4a93e55412ae3e2d114cf9503786c39416178/encommon-0.7.2.tar.gz
+[2024-04-04 07:13:49] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-04 07:13:49] WARNING root fetch - processPackages [scikit-gmsh]: Timeout reached during download
+[2024-04-04 07:13:49] INFO root fetch - processPackages [encommon]: Downloading https://files.pythonhosted.org/packages/b2/ee/08f6f7b97908470b6a609af79f727bb196cd579209d2dd5dce8778abb6db/encommon-0.7.3.tar.gz
+[2024-04-04 07:13:49] INFO root fetch - processPackages [scikit-gmsh]: Downloading https://files.pythonhosted.org/packages/a6/cd/2a6cd873921a54c0f08030672ce5c9d289c48244e247f253a51011a3cd7c/scikit-gmsh-0.1.dev0.tar.gz
+[2024-04-04 07:13:49] WARNING root fetch - processPackages [encommon]: Timeout reached during download
+[2024-04-04 07:13:49] INFO root fetch - processPackages [encommon]: executing diffoscope
+[2024-04-04 07:13:49] INFO root fetch - processPackages [encommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encommon-0.7.2.tar.gz tmp/encommon-0.7.3.tar.gz --markdown 20240404/e/encommon/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2024-04-04 07:13:49] WARNING root fetch - processPackages [scikit-gmsh]: Timeout reached during download
+[2024-04-04 07:13:49] INFO root fetch - processPackages [scikit-gmsh]: executing diffoscope
+[2024-04-04 07:13:49] INFO root fetch - processPackages [scikit-gmsh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-gmsh-0.1.0.tar.gz tmp/scikit-gmsh-0.1.dev0.tar.gz --markdown 20240404/s/scikit-gmsh/0.1.0-0.1.dev0/diff.md --exclude *.pyd
+[2024-04-04 07:13:50] INFO root fetch - processPackages [scikit-gmsh]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gmsh-0.1.0.tar.gz]
+[2024-04-04 07:13:50] INFO root fetch - processPackages [scikit-gmsh]: Remove: archive file [/home/abi/fetcher/tmp/scikit-gmsh-0.1.dev0.tar.gz]
+[2024-04-04 07:13:50] INFO root fetch - main [MainThread]: End processing [scikit-gmsh]: success
+[2024-04-04 07:13:50] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.2.tar.gz]
+[2024-04-04 07:13:50] INFO root fetch - processPackages [encommon]: Remove: archive file [/home/abi/fetcher/tmp/encommon-0.7.3.tar.gz]
+[2024-04-04 07:13:50] INFO root fetch - main [MainThread]: End processing [encommon]: success
+[2024-04-04 07:13:50] INFO root fetch - main [MainThread]: Store serial: [22615742]
