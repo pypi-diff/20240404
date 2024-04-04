@@ -13478,3 +13478,35 @@
 [2024-04-04 07:29:07] INFO root fetch - processPackages [qgridtrusted]: Remove: archive file [/home/abi/fetcher/tmp/qgridtrusted-0.0.9.tar.gz]
 [2024-04-04 07:29:07] INFO root fetch - main [MainThread]: End processing [qgridtrusted]: success
 [2024-04-04 07:29:07] INFO root fetch - main [MainThread]: Store serial: [22615873]
+[2024-04-04 07:31:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615873]
+[2024-04-04 07:31:15] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-04 07:33:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615873]
+[2024-04-04 07:33:21] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 07:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: utf-queue-client
+[2024-04-04 07:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libera_utils
+[2024-04-04 07:33:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: metricflow
+[2024-04-04 07:33:21] INFO root fetch - processPackages [utf-queue-client]: New version: [1.9.5] Old Version: [1.9.4]
+[2024-04-04 07:33:21] INFO root fetch - processPackages [libera_utils]: New version: [2.2.2rc2] Old Version: [2.2.2rc1]
+[2024-04-04 07:33:21] INFO root fetch - processPackages [metricflow]: New version: [0.93.0] Old Version: [0.92.1]
+[2024-04-04 07:33:21] INFO root fetch - processPackages [libera_utils]: Downloading https://files.pythonhosted.org/packages/ed/a8/5e97261520c8e22bb0831772b18affcc589f715bef86cf9cdb63307c4bf1/libera_utils-2.2.2rc1.tar.gz
+[2024-04-04 07:33:21] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/f4/a5/7ea326c15a63e6a631add51034113cad6b2b131bdc771cba0cfc78faccb5/utf-queue-client-1.9.4.tar.gz
+[2024-04-04 07:33:22] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/48/c0/df3a23893e69af35d2b44f7a54b4a898409d3b807860016dcad92e38c96e/metricflow-0.92.1.tar.gz
+[2024-04-04 07:33:22] WARNING root fetch - processPackages [utf-queue-client]: Timeout reached during download
+[2024-04-04 07:33:22] WARNING root fetch - processPackages [libera_utils]: Skipping package: exceeds size limit 31166825>=10485760
+[2024-04-04 07:33:22] INFO root fetch - main [MainThread]: End processing [libera_utils] error
+[2024-04-04 07:33:22] WARNING root fetch - processPackages [metricflow]: Timeout reached during download
+[2024-04-04 07:33:22] INFO root fetch - processPackages [utf-queue-client]: Downloading https://files.pythonhosted.org/packages/73/f9/0049a0f247e6d022e33ae04053deb8dc492d53e2adfb5c83ff1687889346/utf-queue-client-1.9.5.tar.gz
+[2024-04-04 07:33:22] WARNING root fetch - processPackages [utf-queue-client]: Timeout reached during download
+[2024-04-04 07:33:22] INFO root fetch - processPackages [utf-queue-client]: executing diffoscope
+[2024-04-04 07:33:22] INFO root fetch - processPackages [utf-queue-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utf-queue-client-1.9.4.tar.gz tmp/utf-queue-client-1.9.5.tar.gz --markdown 20240404/u/utf-queue-client/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2024-04-04 07:33:22] INFO root fetch - processPackages [metricflow]: Downloading https://files.pythonhosted.org/packages/03/68/180ac09742d18eded44eac796173d6979f94ea672b47f02ceae672167dfa/metricflow-0.93.0.tar.gz
+[2024-04-04 07:33:22] WARNING root fetch - processPackages [metricflow]: Timeout reached during download
+[2024-04-04 07:33:22] INFO root fetch - processPackages [metricflow]: executing diffoscope
+[2024-04-04 07:33:22] INFO root fetch - processPackages [metricflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metricflow-0.92.1.tar.gz tmp/metricflow-0.93.0.tar.gz --markdown 20240404/m/metricflow/0.92.1-0.93.0/diff.md --exclude *.pyd
+[2024-04-04 07:33:22] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.4.tar.gz]
+[2024-04-04 07:33:22] INFO root fetch - processPackages [utf-queue-client]: Remove: archive file [/home/abi/fetcher/tmp/utf-queue-client-1.9.5.tar.gz]
+[2024-04-04 07:33:22] INFO root fetch - main [MainThread]: End processing [utf-queue-client]: success
+[2024-04-04 07:33:25] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.92.1.tar.gz]
+[2024-04-04 07:33:25] INFO root fetch - processPackages [metricflow]: Remove: archive file [/home/abi/fetcher/tmp/metricflow-0.93.0.tar.gz]
+[2024-04-04 07:33:25] INFO root fetch - main [MainThread]: End processing [metricflow]: success
+[2024-04-04 07:33:25] INFO root fetch - main [MainThread]: Store serial: [22615882]
