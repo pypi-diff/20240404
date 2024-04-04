@@ -14422,3 +14422,67 @@
 [2024-04-04 08:12:53] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.1.1-py3-none-any.whl.zip]
 [2024-04-04 08:12:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
 [2024-04-04 08:12:53] INFO root fetch - main [MainThread]: Store serial: [22616139]
+[2024-04-04 08:14:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616139]
+[2024-04-04 08:15:02] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tableland
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tasteful
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-shipment-advice
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydoit-nb
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ip2vulns
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libre-fastapi-jwt
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: IsoOCR
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ip2vulns]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-04 08:15:02] INFO root fetch - processPackages [libre-fastapi-jwt]: New version: [0.22.0] Old Version: [0.21.5]
+[2024-04-04 08:15:02] WARNING root fetch - processPackages [tasteful]: Skipping, unable to determine old version
+[2024-04-04 08:15:02] INFO root fetch - main [MainThread]: End processing [tasteful] error
+[2024-04-04 08:15:02] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.4.1.1] Old Version: [16.0.1.4.1]
+[2024-04-04 08:15:02] INFO root fetch - processPackages [tableland]: New version: [0.0.1] Old Version: [0.0.0rc0]
+[2024-04-04 08:15:02] INFO root fetch - processPackages [pydoit-nb]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-04 08:15:02] WARNING root fetch - processPackages [IsoOCR]: Skipping, unable to determine old version
+[2024-04-04 08:15:02] INFO root fetch - main [MainThread]: End processing [IsoOCR] error
+[2024-04-04 08:15:02] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/0b/71/11254f5cc4d27cc186b4236a93393d5121a80b7fa6f650c72e047547a81d/ip2vulns-1.0.5.tar.gz
+[2024-04-04 08:15:02] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/5d/af/07756308b7b3647a5ecf5ec94445cb2f699c823e2fa53b5c2483e3465e2a/libre_fastapi_jwt-0.21.5.tar.gz
+[2024-04-04 08:15:02] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/a7/bf/c408530a9161061e044848622e6f9fb398ba0cafc84b7582853846d774e7/tableland-0.0.0rc0.tar.gz
+[2024-04-04 08:15:02] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/67/d3/dcae8c1bb35032d9f3906b9e50e14a496f31a9e4a99556eafa04055086ed/odoo_addon_shipment_advice-16.0.1.4.1-py3-none-any.whl
+[2024-04-04 08:15:02] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-04 08:15:02] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 08:15:02] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:15:02] INFO root fetch - processPackages [pydoit-nb]: Downloading https://files.pythonhosted.org/packages/b6/41/2a52279e72a700947651916f89a8a5d4f640bda0e79f6b0ccbd10c45cea7/pydoit_nb-0.3.3.tar.gz
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [odoo-addon-shipment-advice]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [libre-fastapi-jwt]: Downloading https://files.pythonhosted.org/packages/97/7a/1c824c210de593139575953019307f6f22e98b14ae74c346fddf10a3c83a/libre_fastapi_jwt-0.22.0.tar.gz
+[2024-04-04 08:15:03] INFO root fetch - processPackages [ip2vulns]: Downloading https://files.pythonhosted.org/packages/a3/69/a50a4f983cd383f04de83cad483d029d56014e93efbb55d9150fd5e1bacf/ip2vulns-1.0.6.tar.gz
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [pydoit-nb]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [tableland]: Downloading https://files.pythonhosted.org/packages/9c/05/fff374e7f7680b0d464da73dc7370c2ef6ac3241a9e392fcda0804f1d51b/tableland-0.0.1.tar.gz
+[2024-04-04 08:15:03] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/ab/1d/33bb7a7d966864f6407bbfb0ed1c8e41503270964a3414bfcd361eb36995/odoo_addon_shipment_advice-16.0.1.4.1.1-py3-none-any.whl
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [libre-fastapi-jwt]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [libre-fastapi-jwt]: executing diffoscope
+[2024-04-04 08:15:03] INFO root fetch - processPackages [libre-fastapi-jwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libre_fastapi_jwt-0.21.5.tar.gz tmp/libre_fastapi_jwt-0.22.0.tar.gz --markdown 20240404/l/libre-fastapi-jwt/0.21.5-0.22.0/diff.md --exclude *.pyd
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [ip2vulns]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [ip2vulns]: executing diffoscope
+[2024-04-04 08:15:03] INFO root fetch - processPackages [ip2vulns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip2vulns-1.0.5.tar.gz tmp/ip2vulns-1.0.6.tar.gz --markdown 20240404/i/ip2vulns/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [tableland]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [tableland]: executing diffoscope
+[2024-04-04 08:15:03] INFO root fetch - processPackages [tableland]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableland-0.0.0rc0.tar.gz tmp/tableland-0.0.1.tar.gz --markdown 20240404/t/tableland/0.0.0rc0-0.0.1/diff.md --exclude *.pyd
+[2024-04-04 08:15:03] INFO root fetch - processPackages [pydoit-nb]: Downloading https://files.pythonhosted.org/packages/47/87/49405809329ffc1544f154177118f2f304d89170892875f004d10717eb52/pydoit_nb-0.3.4.tar.gz
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [odoo-addon-shipment-advice]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2024-04-04 08:15:03] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.4.1-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.4.1.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-shipment-advice/16.0.1.4.1-16.0.1.4.1.1/diff.md --exclude *.pyd
+[2024-04-04 08:15:03] WARNING root fetch - processPackages [pydoit-nb]: Timeout reached during download
+[2024-04-04 08:15:03] INFO root fetch - processPackages [pydoit-nb]: executing diffoscope
+[2024-04-04 08:15:03] INFO root fetch - processPackages [pydoit-nb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoit_nb-0.3.3.tar.gz tmp/pydoit_nb-0.3.4.tar.gz --markdown 20240404/p/pydoit-nb/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-04 08:15:03] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.0rc0.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - processPackages [tableland]: Remove: archive file [/home/abi/fetcher/tmp/tableland-0.0.1.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - main [MainThread]: End processing [tableland]: success
+[2024-04-04 08:15:03] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.21.5.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - processPackages [libre-fastapi-jwt]: Remove: archive file [/home/abi/fetcher/tmp/libre_fastapi_jwt-0.22.0.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - main [MainThread]: End processing [libre-fastapi-jwt]: success
+[2024-04-04 08:15:03] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.5.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - processPackages [ip2vulns]: Remove: archive file [/home/abi/fetcher/tmp/ip2vulns-1.0.6.tar.gz]
+[2024-04-04 08:15:03] INFO root fetch - main [MainThread]: End processing [ip2vulns]: success
+[2024-04-04 08:15:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.4.1-py3-none-any.whl.zip]
+[2024-04-04 08:15:04] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.4.1.1-py3-none-any.whl.zip]
+[2024-04-04 08:15:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2024-04-04 08:15:04] INFO root fetch - processPackages [pydoit-nb]: Remove: archive file [/home/abi/fetcher/tmp/pydoit_nb-0.3.3.tar.gz]
+[2024-04-04 08:15:04] INFO root fetch - processPackages [pydoit-nb]: Remove: archive file [/home/abi/fetcher/tmp/pydoit_nb-0.3.4.tar.gz]
+[2024-04-04 08:15:04] INFO root fetch - main [MainThread]: End processing [pydoit-nb]: success
+[2024-04-04 08:15:04] INFO root fetch - main [MainThread]: Store serial: [22616163]
