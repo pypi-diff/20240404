@@ -23506,3 +23506,39 @@
 [2024-04-04 13:53:42] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.2.tar.gz]
 [2024-04-04 13:53:42] INFO root fetch - main [MainThread]: End processing [sommify]: success
 [2024-04-04 13:53:42] INFO root fetch - main [MainThread]: Store serial: [22619386]
+[2024-04-04 13:55:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619386]
+[2024-04-04 13:55:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 13:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syncmodels
+[2024-04-04 13:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wordview
+[2024-04-04 13:55:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyconfig-extension
+[2024-04-04 13:55:51] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 13:55:51] INFO root fetch - processPackages [wordview]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-04 13:55:51] INFO root fetch - processPackages [pyconfig-extension]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2024-04-04 13:55:51] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-04 13:55:51] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-04 13:55:51] INFO root fetch - processPackages [pyconfig-extension]: Downloading https://files.pythonhosted.org/packages/f3/cd/72e9e111b69abce0b7809338a0fae69d39d1d19f2e8865ad83ec5fc1fa2a/pyconfig_extension-0.1.0a2-py3-none-any.whl
+[2024-04-04 13:55:51] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/d6/77/bf963b16d05075517971fc6b4a23c74c09db7dccb75cb212fb020148b58a/wordview-1.2.0.tar.gz
+[2024-04-04 13:55:51] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-04 13:55:51] WARNING root fetch - processPackages [pyconfig-extension]: Timeout reached during download
+[2024-04-04 13:55:51] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-04 13:55:51] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-04 13:55:51] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240404/s/syncmodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 13:55:51] WARNING root fetch - processPackages [wordview]: Timeout reached during download
+[2024-04-04 13:55:52] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/d4/d8/37a5f345e6b3cc02de1e0486a5ed39505417a059420501383ddce16c1162/wordview-1.3.0.tar.gz
+[2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: Downloading https://files.pythonhosted.org/packages/32/ba/da212801d35097037099ffecf375fafdd71a058d385881a3d76f799d5571/pyconfig_extension-0.1.0a3-py3-none-any.whl
+[2024-04-04 13:55:52] WARNING root fetch - processPackages [wordview]: Timeout reached during download
+[2024-04-04 13:55:52] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2024-04-04 13:55:52] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-1.2.0.tar.gz tmp/wordview-1.3.0.tar.gz --markdown 20240404/w/wordview/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-04 13:55:52] WARNING root fetch - processPackages [pyconfig-extension]: Timeout reached during download
+[2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: executing diffoscope
+[2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyconfig_extension-0.1.0a2-py3-none-any.whl.zip tmp/pyconfig_extension-0.1.0a3-py3-none-any.whl.zip --markdown 20240404/p/pyconfig-extension/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2024-04-04 13:55:52] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-04 13:55:52] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-04 13:55:52] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-04 13:55:52] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-1.2.0.tar.gz]
+[2024-04-04 13:55:52] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-1.3.0.tar.gz]
+[2024-04-04 13:55:52] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_extension-0.1.0a2-py3-none-any.whl.zip]
+[2024-04-04 13:55:52] INFO root fetch - processPackages [pyconfig-extension]: Remove: archive file [/home/abi/fetcher/tmp/pyconfig_extension-0.1.0a3-py3-none-any.whl.zip]
+[2024-04-04 13:55:52] INFO root fetch - main [MainThread]: End processing [pyconfig-extension]: success
+[2024-04-04 13:55:52] INFO root fetch - main [MainThread]: Store serial: [22619394]
