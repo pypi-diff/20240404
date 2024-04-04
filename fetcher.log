@@ -3218,3 +3218,39 @@
 [2024-04-04 02:16:06] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-04 02:16:06] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-04 02:16:06] INFO root fetch - main [MainThread]: Store serial: [22612682]
+[2024-04-04 02:18:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612682]
+[2024-04-04 02:18:14] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 02:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentql
+[2024-04-04 02:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-hyperledger-fabric-network
+[2024-04-04 02:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: continuing-education
+[2024-04-04 02:18:15] INFO root fetch - processPackages [agentql]: New version: [0.4.0] Old Version: [0.3.1]
+[2024-04-04 02:18:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: New version: [0.8.99] Old Version: [0.8.98]
+[2024-04-04 02:18:15] INFO root fetch - processPackages [continuing-education]: New version: [0.0.3a1] Old Version: [0.0.2a4]
+[2024-04-04 02:18:15] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/88/aa/b2d72e2aa7df7fa5bf7c60c850851246f4db572a9fa9225556301ea8a2bb/agentql-0.3.1.tar.gz
+[2024-04-04 02:18:15] WARNING root fetch - processPackages [agentql]: Timeout reached during download
+[2024-04-04 02:18:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/9b/c8/ddb4d2575b42b36bf1ebf5daccec9c3c53a9ac9cadaeffb66bed93dc3bab/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz
+[2024-04-04 02:18:15] INFO root fetch - processPackages [agentql]: Downloading https://files.pythonhosted.org/packages/3d/30/3ae8e10e8c4da64bdc3494917ed253dd9646ba52c0fe5fdad50f22c6ded7/agentql-0.4.0.tar.gz
+[2024-04-04 02:18:15] INFO root fetch - processPackages [continuing-education]: Downloading https://files.pythonhosted.org/packages/d2/b4/5817911de5089f246fa4a0558bd8bac28d65e3ea8e6d469047d82bbf9958/continuing_education-0.0.2a4.tar.gz
+[2024-04-04 02:18:15] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-04 02:18:15] WARNING root fetch - processPackages [continuing-education]: Timeout reached during download
+[2024-04-04 02:18:15] WARNING root fetch - processPackages [agentql]: Timeout reached during download
+[2024-04-04 02:18:15] INFO root fetch - processPackages [agentql]: executing diffoscope
+[2024-04-04 02:18:15] INFO root fetch - processPackages [agentql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentql-0.3.1.tar.gz tmp/agentql-0.4.0.tar.gz --markdown 20240404/a/agentql/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 02:18:15] INFO root fetch - processPackages [continuing-education]: Downloading https://files.pythonhosted.org/packages/8a/55/2e97b12d4d7f740ee7b70446d5ffc86d59446017b720f69fd2833172dbb5/continuing_education-0.0.3a1.tar.gz
+[2024-04-04 02:18:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Downloading https://files.pythonhosted.org/packages/56/40/cbf52f4213018f2d82f0aad0f2fa90e69c2923704c1905bd7e090d3accf2/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz
+[2024-04-04 02:18:15] WARNING root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Timeout reached during download
+[2024-04-04 02:18:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: executing diffoscope
+[2024-04-04 02:18:15] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz --markdown 20240404/c/cdklabs.cdk-hyperledger-fabric-network/0.8.98-0.8.99/diff.md --exclude *.pyd
+[2024-04-04 02:18:16] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.3.1.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - processPackages [agentql]: Remove: archive file [/home/abi/fetcher/tmp/agentql-0.4.0.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - main [MainThread]: End processing [agentql]: success
+[2024-04-04 02:18:16] WARNING root fetch - processPackages [continuing-education]: Timeout reached during download
+[2024-04-04 02:18:16] INFO root fetch - processPackages [continuing-education]: executing diffoscope
+[2024-04-04 02:18:16] INFO root fetch - processPackages [continuing-education]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/continuing_education-0.0.2a4.tar.gz tmp/continuing_education-0.0.3a1.tar.gz --markdown 20240404/c/continuing-education/0.0.2a4-0.0.3a1/diff.md --exclude *.pyd
+[2024-04-04 02:18:16] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.98.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - processPackages [cdklabs.cdk-hyperledger-fabric-network]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-hyperledger-fabric-network-0.8.99.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-hyperledger-fabric-network]: success
+[2024-04-04 02:18:16] INFO root fetch - processPackages [continuing-education]: Remove: archive file [/home/abi/fetcher/tmp/continuing_education-0.0.2a4.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - processPackages [continuing-education]: Remove: archive file [/home/abi/fetcher/tmp/continuing_education-0.0.3a1.tar.gz]
+[2024-04-04 02:18:16] INFO root fetch - main [MainThread]: End processing [continuing-education]: success
+[2024-04-04 02:18:16] INFO root fetch - main [MainThread]: Store serial: [22612690]
