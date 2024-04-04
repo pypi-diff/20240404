@@ -14835,3 +14835,116 @@
 [2024-04-04 08:36:32] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.19.tar.gz]
 [2024-04-04 08:36:32] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-04-04 08:36:32] INFO root fetch - main [MainThread]: Store serial: [22616266]
+[2024-04-04 08:38:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616266]
+[2024-04-04 08:38:42] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyqqq
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cryptoowl
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alita-tools
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-components
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: btcs-crypto-systems
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AppWrapper
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipe
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PYield
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qdx-py
+[2024-04-04 08:38:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-web
+[2024-04-04 08:38:42] INFO root fetch - processPackages [alita-tools]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [cryptoowl]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [qdx-py]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [django-components]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [pyqqq]: New version: [0.6.7] Old Version: [0.6.6]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [PYield]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [odoo-addons-oca-web]: New version: [16.0.20240322.0] Old Version: [16.0.20240309.1]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [pipe]: New version: [2.2] Old Version: [2.1]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 08:38:42] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/6b/90/9669905680edec7a27de58ee5f44b9b6acda9cb0ac37297e9afd4252d9de/cryptoowl-0.0.8.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/92/4f/78d85423edb22755fddded7c708b364986eb0c82589f944e2f4d7ab775e5/pyield-0.4.0.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/9d/8e/a3bcba69cac5d9c87baa5b0fda1771861a3822575204811c74934cd87499/qdx_py-0.8.1.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/5e/d3/e35d5f0cc976fdac22170eeb2e9eac692e9c8d2ae267028a409e962593a1/AppWrapper-0.2.8.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/e6/00/4cd353f2377299a3a19884d4a31fbc3b29babdc7e8dafcd10c3fcbeaf6b8/pyqqq-0.6.6.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/82/ae/9e548174953c80ec527a05f46b0c37aba1dab5602276cc15dfbd5bfcfb61/alita_tools-0.0.4.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/d9/a9/0e17dfb6bc2c9ffafac974b36a0078d0df2730d82373e45392b15ca26fe1/django_components-0.9.1.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/e3/1b/52902d9f7dff88ca18ec11d65fe543317480d816c1249fe3b5c12954d8c1/odoo_addons_oca_web-16.0.20240309.1-py3-none-any.whl
+[2024-04-04 08:38:42] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/d0/52/825c523da9e5751d66102f5ad1a28387836af898d37157d586121e00b4e1/btcs_crypto_systems-0.0.8.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [pipe]: Downloading https://files.pythonhosted.org/packages/09/af/6ca64f081f6b2b4a8c1ac997738b97bc17a3a6278940431514f9a10890e5/pipe-2.1.tar.gz
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [PYield]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [alita-tools]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [django-components]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [odoo-addons-oca-web]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [pipe]: Timeout reached during download
+[2024-04-04 08:38:42] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 08:38:42] INFO root fetch - processPackages [cryptoowl]: Downloading https://files.pythonhosted.org/packages/1d/40/11d113acf86f23dec5aafa5d29e5f60eaa369e24b5d1eb6c1b50e886cac0/cryptoowl-0.0.9.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [qdx-py]: Downloading https://files.pythonhosted.org/packages/d6/76/2e9ed5e871f61d2cf0f2752298072ffd87643605382378de43271acd8bbc/qdx_py-0.8.2.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/3c/90/e8a6fd73a87723a7a01a7f041118c60d3e7feb9f9a532bd3fef08398d6ae/pyield-0.4.1.tar.gz
+[2024-04-04 08:38:42] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/79/a0/6bf35da1d22d8fb26cc1802bf2ebdc48752b724a5ebf36fe503099ad959e/AppWrapper-0.2.9.tar.gz
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/a8/fd/26d73898b96030441b0c600d240191c34f7517c23cebd4bc07016817796a/pyqqq-0.6.7.tar.gz
+[2024-04-04 08:38:43] INFO root fetch - processPackages [alita-tools]: Downloading https://files.pythonhosted.org/packages/61/87/c3c85f54d2783b70c2efd001b32387792498e174abf87904319034f6ae63/alita_tools-0.0.5.tar.gz
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pipe]: Downloading https://files.pythonhosted.org/packages/53/37/aef2cba01787ad8bd266705a95c23db0e9d0b7cd0e01582c969143892655/pipe-2.2.tar.gz
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [qdx-py]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [qdx-py]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [qdx-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdx_py-0.8.1.tar.gz tmp/qdx_py-0.8.2.tar.gz --markdown 20240404/q/qdx-py/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [cryptoowl]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [cryptoowl]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [cryptoowl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryptoowl-0.0.8.tar.gz tmp/cryptoowl-0.0.9.tar.gz --markdown 20240404/c/cryptoowl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [PYield]: Timeout reached during download
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [AppWrapper]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.4.0.tar.gz tmp/pyield-0.4.1.tar.gz --markdown 20240404/P/PYield/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] INFO root fetch - processPackages [django-components]: Downloading https://files.pythonhosted.org/packages/01/b6/7465ad9480fe781bc5c56d355a7b96cc21758c50d747830e87dcac29a4db/django_components-0.9.2.tar.gz
+[2024-04-04 08:38:43] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.8.tar.gz tmp/AppWrapper-0.2.9.tar.gz --markdown 20240404/A/AppWrapper/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/2f/bb/c85a6de36a6477d33e1444efd2a328c4a29a7e9918a901fd0f6404d3ddb2/btcs_crypto_systems-0.0.9.tar.gz
+[2024-04-04 08:38:43] INFO root fetch - processPackages [odoo-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/41/45/2d26383462884e4072c6b553bf051da610b7e8ac60e0bbc3a973a1132b0f/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [alita-tools]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [alita-tools]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [alita-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_tools-0.0.4.tar.gz tmp/alita_tools-0.0.5.tar.gz --markdown 20240404/a/alita-tools/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [pyqqq]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.6.6.tar.gz tmp/pyqqq-0.6.7.tar.gz --markdown 20240404/p/pyqqq/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [pipe]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pipe]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipe-2.1.tar.gz tmp/pipe-2.2.tar.gz --markdown 20240404/p/pipe/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [django-components]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [django-components]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [django-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_components-0.9.1.tar.gz tmp/django_components-0.9.2.tar.gz --markdown 20240404/d/django-components/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.8.tar.gz tmp/btcs_crypto_systems-0.0.9.tar.gz --markdown 20240404/b/btcs-crypto-systems/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:38:43] WARNING root fetch - processPackages [odoo-addons-oca-web]: Timeout reached during download
+[2024-04-04 08:38:43] INFO root fetch - processPackages [odoo-addons-oca-web]: executing diffoscope
+[2024-04-04 08:38:43] INFO root fetch - processPackages [odoo-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_web-16.0.20240309.1-py3-none-any.whl.zip tmp/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl.zip --markdown 20240404/o/odoo-addons-oca-web/16.0.20240309.1-16.0.20240322.0/diff.md --exclude *.pyd
+[2024-04-04 08:38:44] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.8.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.1.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [qdx-py]: Remove: archive file [/home/abi/fetcher/tmp/qdx_py-0.8.2.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [qdx-py]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.4.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [alita-tools]: Remove: archive file [/home/abi/fetcher/tmp/alita_tools-0.0.5.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [alita-tools]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [pipe]: Remove: archive file [/home/abi/fetcher/tmp/pipe-2.1.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [pipe]: Remove: archive file [/home/abi/fetcher/tmp/pipe-2.2.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [pipe]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.8.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.9.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.6.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.6.7.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20240309.1-py3-none-any.whl.zip]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [odoo-addons-oca-web]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_web-16.0.20240322.0-py3-none-any.whl.zip]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-web]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.4.0.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.4.1.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.8.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.9.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-04 08:38:44] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.1.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - processPackages [django-components]: Remove: archive file [/home/abi/fetcher/tmp/django_components-0.9.2.tar.gz]
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: End processing [django-components]: success
+[2024-04-04 08:38:44] INFO root fetch - main [MainThread]: Store serial: [22616302]
