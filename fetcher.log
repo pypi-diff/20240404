@@ -13224,3 +13224,99 @@
 [2024-04-04 07:20:22] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.42.tar.gz]
 [2024-04-04 07:20:22] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
 [2024-04-04 07:20:22] INFO root fetch - main [MainThread]: Store serial: [22615794]
+[2024-04-04 07:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615794]
+[2024-04-04 07:22:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-configurator
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inigo-py
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: VizAble
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-purchase-product-pack
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chalkpy
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: automation-tools
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Dynamojo
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: negmas
+[2024-04-04 07:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-product-variant-configurator
+[2024-04-04 07:22:31] INFO root fetch - processPackages [odoo-addon-product-configurator]: New version: [16.0.1.0.0.14] Old Version: [16.0.1.0.0.13]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [VizAble]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [inigo-py]: New version: [0.30.0] Old Version: [0.29.5]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [Dynamojo]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: New version: [16.0.1.0.3.1] Old Version: [16.0.1.0.3]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [negmas]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [chalkpy]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [automation-tools]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 07:22:31] INFO root fetch - processPackages [Dynamojo]: Downloading https://files.pythonhosted.org/packages/f1/e6/6dc2aee6636af24a895d2b13dca47018115b9c1ea5c0020ad4d15c40037b/dynamojo-1.0.1.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-configurator]: Downloading https://files.pythonhosted.org/packages/12/e0/397af05596b9e671a23f2d8be618a8fb5d3c4b44c22e40d52f562d739d08/odoo_addon_product_configurator-16.0.1.0.0.13-py3-none-any.whl
+[2024-04-04 07:22:32] INFO root fetch - processPackages [inigo-py]: Downloading https://files.pythonhosted.org/packages/b7/0b/379bde7102954835abbcac9c0ef6813adbd082e3541bee78fae6fb063de3/inigo_py-0.29.5.tar.gz
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [Dynamojo]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/37/52/5c69a74a70d94d61d88e81cf17862496f7cd9ebd0725d75f357f252f3052/chalkpy-2.9.8.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: Downloading https://files.pythonhosted.org/packages/37/42/95e333e49476089184669918bb55c74f1db62c321176d21cd17c6564d87f/odoo_addon_purchase_product_pack-16.0.1.0.0.2-py3-none-any.whl
+[2024-04-04 07:22:32] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/55/4d/12d4d90514e438dba2040b80d468260af14ae2271e4d4d5d504544067c19/vizable-0.7.0.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [negmas]: Downloading https://files.pythonhosted.org/packages/7e/53/7b09f55cab8ce7355078c43b5974e49669949f096cc7540e09b3c7ecb30c/negmas-0.9.7.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/9c/32/ef9489ade056e7f096e255828651c77311c9e3f429463147ef25290b3f3c/odoo_addon_product_variant_configurator-16.0.1.0.3-py3-none-any.whl
+[2024-04-04 07:22:32] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/cb/95/a9e610ef6e0c3e79bc7cc5bd9965acff413ea56e7624f4ba1f81beb777fd/automation_tools-1.0.3.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [Dynamojo]: Downloading https://files.pythonhosted.org/packages/17/a3/e6ec0897fb34443ab9deb3a1ceb683a3d4817d93f9e7c24526a65e83f8c7/dynamojo-1.0.2.tar.gz
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [chalkpy]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [VizAble]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [odoo-addon-purchase-product-pack]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [odoo-addon-product-variant-configurator]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [negmas]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [Dynamojo]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [Dynamojo]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [Dynamojo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamojo-1.0.1.tar.gz tmp/dynamojo-1.0.2.tar.gz --markdown 20240404/D/Dynamojo/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [odoo-addon-product-configurator]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f1/ff/9cdb492bac7076766dffbc16bbff1773bfc5635cfb81b130f720883912c7/chalkpy-2.9.9.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [VizAble]: Downloading https://files.pythonhosted.org/packages/18/8d/d2ba6b0ca25a73926dd99be55778e8cb683131ad342a25f56f6c92849f18/vizable-0.8.0.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: Downloading https://files.pythonhosted.org/packages/79/63/9806ac92351b4958415b2db8ec2abe212b47343fd73c4f7824895be0cd5a/odoo_addon_purchase_product_pack-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-04 07:22:32] INFO root fetch - processPackages [automation-tools]: Downloading https://files.pythonhosted.org/packages/91/66/60cded98bc34f7529e418f25f45c9eab54b4420c2c2063e91c3e2321bd4c/automation_tools-1.0.4.tar.gz
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/6b/8b/a089571d2fb245bc3e900769e0f76085d378852286476e27477b716a54e8/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [chalkpy]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.8.tar.gz tmp/chalkpy-2.9.9.tar.gz --markdown 20240404/c/chalkpy/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-configurator]: Downloading https://files.pythonhosted.org/packages/b0/b9/f569a7b55aa2dbf7f63feeb36f78de9e5bc161ee77ebf6784dc0ccc8ebe8/odoo_addon_product_configurator-16.0.1.0.0.14-py3-none-any.whl
+[2024-04-04 07:22:32] INFO root fetch - processPackages [negmas]: Downloading https://files.pythonhosted.org/packages/b4/78/d40938b19d85dddea58e8fe11a4d16397d9662f8b9a737af3b43f0e76785/negmas-0.9.8.tar.gz
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [odoo-addon-product-variant-configurator]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_variant_configurator-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-product-variant-configurator/16.0.1.0.3-16.0.1.0.3.1/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [odoo-addon-purchase-product-pack]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_product_pack-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-purchase-product-pack/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [automation-tools]: Timeout reached during download
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [VizAble]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [automation-tools]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [automation-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_tools-1.0.3.tar.gz tmp/automation_tools-1.0.4.tar.gz --markdown 20240404/a/automation-tools/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] INFO root fetch - processPackages [VizAble]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [VizAble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vizable-0.7.0.tar.gz tmp/vizable-0.8.0.tar.gz --markdown 20240404/V/VizAble/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-04 07:22:32] WARNING root fetch - processPackages [negmas]: Timeout reached during download
+[2024-04-04 07:22:32] INFO root fetch - processPackages [negmas]: executing diffoscope
+[2024-04-04 07:22:32] INFO root fetch - processPackages [negmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/negmas-0.9.7.tar.gz tmp/negmas-0.9.8.tar.gz --markdown 20240404/n/negmas/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-04 07:22:33] INFO root fetch - processPackages [Dynamojo]: Remove: archive file [/home/abi/fetcher/tmp/dynamojo-1.0.1.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - processPackages [Dynamojo]: Remove: archive file [/home/abi/fetcher/tmp/dynamojo-1.0.2.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - main [MainThread]: End processing [Dynamojo]: success
+[2024-04-04 07:22:33] WARNING root fetch - processPackages [odoo-addon-product-configurator]: Timeout reached during download
+[2024-04-04 07:22:33] INFO root fetch - processPackages [odoo-addon-product-configurator]: executing diffoscope
+[2024-04-04 07:22:33] INFO root fetch - processPackages [odoo-addon-product-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_configurator-16.0.1.0.0.13-py3-none-any.whl.zip tmp/odoo_addon_product_configurator-16.0.1.0.0.14-py3-none-any.whl.zip --markdown 20240404/o/odoo-addon-product-configurator/16.0.1.0.0.13-16.0.1.0.0.14/diff.md --exclude *.pyd
+[2024-04-04 07:22:33] WARNING root fetch - processPackages [inigo-py]: Skipping package: exceeds size limit 63708839>=10485760
+[2024-04-04 07:22:33] INFO root fetch - main [MainThread]: End processing [inigo-py] error
+[2024-04-04 07:22:33] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.7.0.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - processPackages [VizAble]: Remove: archive file [/home/abi/fetcher/tmp/vizable-0.8.0.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - main [MainThread]: End processing [VizAble]: success
+[2024-04-04 07:22:33] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.3.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - processPackages [automation-tools]: Remove: archive file [/home/abi/fetcher/tmp/automation_tools-1.0.4.tar.gz]
+[2024-04-04 07:22:33] INFO root fetch - main [MainThread]: End processing [automation-tools]: success
+[2024-04-04 07:22:33] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-04 07:22:33] INFO root fetch - processPackages [odoo-addon-purchase-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_product_pack-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:22:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-product-pack]: success
+[2024-04-04 07:22:34] INFO root fetch - processPackages [odoo-addon-product-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_configurator-16.0.1.0.0.13-py3-none-any.whl.zip]
+[2024-04-04 07:22:34] INFO root fetch - processPackages [odoo-addon-product-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_configurator-16.0.1.0.0.14-py3-none-any.whl.zip]
+[2024-04-04 07:22:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-configurator]: success
+[2024-04-04 07:22:34] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-04 07:22:34] INFO root fetch - processPackages [odoo-addon-product-variant-configurator]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_variant_configurator-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2024-04-04 07:22:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-variant-configurator]: success
+[2024-04-04 07:22:34] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.8.tar.gz]
+[2024-04-04 07:22:34] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
+[2024-04-04 07:22:34] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2024-04-04 07:22:34] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.7.tar.gz]
+[2024-04-04 07:22:34] INFO root fetch - processPackages [negmas]: Remove: archive file [/home/abi/fetcher/tmp/negmas-0.9.8.tar.gz]
+[2024-04-04 07:22:34] INFO root fetch - main [MainThread]: End processing [negmas]: success
+[2024-04-04 07:22:34] INFO root fetch - main [MainThread]: Store serial: [22615821]
