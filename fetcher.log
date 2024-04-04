@@ -11337,3 +11337,17 @@
 [2024-04-04 05:32:15] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040403.tar.gz]
 [2024-04-04 05:32:15] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-04 05:32:15] INFO root fetch - main [MainThread]: Store serial: [22615160]
+[2024-04-04 05:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615160]
+[2024-04-04 05:34:24] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 05:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Giraffe-View
+[2024-04-04 05:34:24] INFO root fetch - processPackages [Giraffe-View]: New version: [0.1.0.6] Old Version: [0.1.0.5]
+[2024-04-04 05:34:24] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/03/0b/75e7482e652304f9df3cac7f9f697aaa01653211afbddb02143856327a24/Giraffe_View-0.1.0.5.tar.gz
+[2024-04-04 05:34:24] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: Downloading https://files.pythonhosted.org/packages/ec/52/4549deb8c7d35e5fec73f41988b664d039eac0254d5478c12aa2eff92f7a/Giraffe_View-0.1.0.6.tar.gz
+[2024-04-04 05:34:25] WARNING root fetch - processPackages [Giraffe-View]: Timeout reached during download
+[2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: executing diffoscope
+[2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Giraffe_View-0.1.0.5.tar.gz tmp/Giraffe_View-0.1.0.6.tar.gz --markdown 20240404/G/Giraffe-View/0.1.0.5-0.1.0.6/diff.md --exclude *.pyd
+[2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.5.tar.gz]
+[2024-04-04 05:34:25] INFO root fetch - processPackages [Giraffe-View]: Remove: archive file [/home/abi/fetcher/tmp/Giraffe_View-0.1.0.6.tar.gz]
+[2024-04-04 05:34:25] INFO root fetch - main [MainThread]: End processing [Giraffe-View]: success
+[2024-04-04 05:34:25] INFO root fetch - main [MainThread]: Store serial: [22615163]
