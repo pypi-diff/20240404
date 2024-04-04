@@ -21830,3 +21830,39 @@
 [2024-04-04 12:49:40] INFO root fetch - processPackages [pulumi-oci]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_oci-1.9.0a1693981063.tar.gz]
 [2024-04-04 12:49:40] INFO root fetch - main [MainThread]: End processing [pulumi-oci]: success
 [2024-04-04 12:49:40] INFO root fetch - main [MainThread]: Store serial: [22618734]
+[2024-04-04 12:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618734]
+[2024-04-04 12:51:49] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jp2rt
+[2024-04-04 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shareddata
+[2024-04-04 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ithaca-py
+[2024-04-04 12:51:50] INFO root fetch - processPackages [ithaca-py]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-04 12:51:50] INFO root fetch - processPackages [jp2rt]: New version: [0.2.3] Old Version: [0.2.2a1]
+[2024-04-04 12:51:50] INFO root fetch - processPackages [shareddata]: New version: [4.8.1] Old Version: [4.8.0]
+[2024-04-04 12:51:50] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/32/a9/be703bf25a277030ef55671c0c06595d0025a1ae21bbc2345fdcdf8b0c98/ithaca_py-0.1.6.tar.gz
+[2024-04-04 12:51:50] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/2a/58/c520979023190b895758bbc47d2ac3878b955c2553f080d3a5b8152c4219/shareddata-4.8.0.tar.gz
+[2024-04-04 12:51:50] INFO root fetch - processPackages [jp2rt]: Downloading https://files.pythonhosted.org/packages/dc/ff/41e3f59cba6600d133ad4b8a917d774b0c9ce232f135262e547e31c6203e/jp2rt-0.2.2a1.tar.gz
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [shareddata]: Timeout reached during download
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [jp2rt]: Timeout reached during download
+[2024-04-04 12:51:50] INFO root fetch - processPackages [ithaca-py]: Downloading https://files.pythonhosted.org/packages/11/03/05905f9f4629dfb1870d86fb7aeba8b6a539bf7ed4f965073b195f71c833/ithaca_py-0.1.7.tar.gz
+[2024-04-04 12:51:50] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/47/e9/657e2c170c3c1d33047258b43f2ffcf2fe4a8022e3593f723df226416ea9/shareddata-4.8.1.tar.gz
+[2024-04-04 12:51:50] INFO root fetch - processPackages [jp2rt]: Downloading https://files.pythonhosted.org/packages/df/8a/5af1e546dbf8f240a5cad4d3fbd428fa7fe7b928906e4e0ef760b4311027/jp2rt-0.2.3.tar.gz
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [ithaca-py]: Timeout reached during download
+[2024-04-04 12:51:50] INFO root fetch - processPackages [ithaca-py]: executing diffoscope
+[2024-04-04 12:51:50] INFO root fetch - processPackages [ithaca-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ithaca_py-0.1.6.tar.gz tmp/ithaca_py-0.1.7.tar.gz --markdown 20240404/i/ithaca-py/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [shareddata]: Timeout reached during download
+[2024-04-04 12:51:50] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2024-04-04 12:51:50] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-4.8.0.tar.gz tmp/shareddata-4.8.1.tar.gz --markdown 20240404/s/shareddata/4.8.0-4.8.1/diff.md --exclude *.pyd
+[2024-04-04 12:51:50] WARNING root fetch - processPackages [jp2rt]: Timeout reached during download
+[2024-04-04 12:51:50] INFO root fetch - processPackages [jp2rt]: executing diffoscope
+[2024-04-04 12:51:50] INFO root fetch - processPackages [jp2rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jp2rt-0.2.2a1.tar.gz tmp/jp2rt-0.2.3.tar.gz --markdown 20240404/j/jp2rt/0.2.2a1-0.2.3/diff.md --exclude *.pyd
+[2024-04-04 12:51:51] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.6.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - processPackages [ithaca-py]: Remove: archive file [/home/abi/fetcher/tmp/ithaca_py-0.1.7.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - main [MainThread]: End processing [ithaca-py]: success
+[2024-04-04 12:51:51] INFO root fetch - processPackages [jp2rt]: Remove: archive file [/home/abi/fetcher/tmp/jp2rt-0.2.2a1.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - processPackages [jp2rt]: Remove: archive file [/home/abi/fetcher/tmp/jp2rt-0.2.3.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - main [MainThread]: End processing [jp2rt]: success
+[2024-04-04 12:51:51] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.0.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
+[2024-04-04 12:51:51] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2024-04-04 12:51:51] INFO root fetch - main [MainThread]: Store serial: [22618742]
