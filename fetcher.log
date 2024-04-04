@@ -10564,3 +10564,31 @@
 [2024-04-04 04:44:24] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
 [2024-04-04 04:44:24] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
 [2024-04-04 04:44:24] INFO root fetch - main [MainThread]: Store serial: [22614897]
+[2024-04-04 04:46:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614897]
+[2024-04-04 04:46:32] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: smaht-submitr
+[2024-04-04 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-tele
+[2024-04-04 04:46:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GraphSL
+[2024-04-04 04:46:32] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.9.5] Old Version: [0.0.4.9.9.4]
+[2024-04-04 04:46:32] INFO root fetch - processPackages [smaht-submitr]: New version: [0.7.0.1b9] Old Version: [0.7.0.1b75]
+[2024-04-04 04:46:32] WARNING root fetch - processPackages [GraphSL]: Skipping, unable to determine old version
+[2024-04-04 04:46:32] INFO root fetch - main [MainThread]: End processing [GraphSL] error
+[2024-04-04 04:46:33] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/a2/7f/c6bf16f611e62a9acb58ef459d26dd72108c3538a235da81943274b8aa4d/test_tele-0.0.4.9.9.4.tar.gz
+[2024-04-04 04:46:33] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/6d/2c/f5a3edf9f5dfae9ba6e35545699222312289137bb26f33c8c931656dd028/smaht_submitr-0.7.0.1b75.tar.gz
+[2024-04-04 04:46:33] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-04 04:46:33] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 04:46:33] INFO root fetch - processPackages [smaht-submitr]: Downloading https://files.pythonhosted.org/packages/ff/84/cead0681f1d3b22d8c2cc55c431321aa00039b758129671d6e752101a732/smaht_submitr-0.7.0.1b9.tar.gz
+[2024-04-04 04:46:33] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/e5/a3/a856afa082f5ab9bea1662fc2cc73147e27b6121f4fd9e6c5ce1fe3d2a71/test_tele-0.0.4.9.9.5.tar.gz
+[2024-04-04 04:46:33] WARNING root fetch - processPackages [smaht-submitr]: Timeout reached during download
+[2024-04-04 04:46:33] INFO root fetch - processPackages [smaht-submitr]: executing diffoscope
+[2024-04-04 04:46:33] INFO root fetch - processPackages [smaht-submitr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smaht_submitr-0.7.0.1b75.tar.gz tmp/smaht_submitr-0.7.0.1b9.tar.gz --markdown 20240404/s/smaht-submitr/0.7.0.1b75-0.7.0.1b9/diff.md --exclude *.pyd
+[2024-04-04 04:46:33] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 04:46:33] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-04 04:46:33] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.9.4.tar.gz tmp/test_tele-0.0.4.9.9.5.tar.gz --markdown 20240404/t/test-tele/0.0.4.9.9.4-0.0.4.9.9.5/diff.md --exclude *.pyd
+[2024-04-04 04:46:34] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.4.tar.gz]
+[2024-04-04 04:46:34] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.5.tar.gz]
+[2024-04-04 04:46:34] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-04 04:46:34] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b75.tar.gz]
+[2024-04-04 04:46:34] INFO root fetch - processPackages [smaht-submitr]: Remove: archive file [/home/abi/fetcher/tmp/smaht_submitr-0.7.0.1b9.tar.gz]
+[2024-04-04 04:46:34] INFO root fetch - main [MainThread]: End processing [smaht-submitr]: success
+[2024-04-04 04:46:34] INFO root fetch - main [MainThread]: Store serial: [22614907]
