@@ -4413,3 +4413,61 @@
 [2024-04-04 02:51:32] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.7.0.2.1.tar.gz]
 [2024-04-04 02:51:32] INFO root fetch - main [MainThread]: End processing [quickstats]: success
 [2024-04-04 02:51:32] INFO root fetch - main [MainThread]: Store serial: [22613082]
+[2024-04-04 02:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613082]
+[2024-04-04 02:53:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 02:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scale-llm-engine
+[2024-04-04 02:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Tasmanian
+[2024-04-04 02:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mimesis
+[2024-04-04 02:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: livekit-protocol
+[2024-04-04 02:53:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-lambda-layer-curl
+[2024-04-04 02:53:42] INFO root fetch - processPackages [Tasmanian]: New version: [8.1b2] Old Version: [8.1b1]
+[2024-04-04 02:53:42] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2024-04-04 02:53:42] INFO root fetch - processPackages [mimesis]: New version: [9.0.0] Old Version: [8.0.0]
+[2024-04-04 02:53:42] INFO root fetch - processPackages [livekit-protocol]: New version: [0.4.0] Old Version: [0.3.2]
+[2024-04-04 02:53:42] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 02:53:43] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2024-04-04 02:53:43] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/fb/97/c85f5efd96d4cf46b74e7d9aeee78e3299ae83ab8ba90ed1f0dea226e8b2/scale_llm_engine-0.0.0b8.tar.gz
+[2024-04-04 02:53:43] INFO root fetch - processPackages [Tasmanian]: Downloading https://files.pythonhosted.org/packages/95/37/585a68c46744433d08870c04f14ad0582f7086f96526ee68de44f0a1b33f/Tasmanian-8.1b1.tar.gz
+[2024-04-04 02:53:43] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/11/c3/63f9ae346af2a23876aba1aab2b65934ac4b9c65ddf6af5e89c93c492cf4/mimesis-8.0.0.tar.gz
+[2024-04-04 02:53:43] WARNING root fetch - processPackages [Tasmanian]: Timeout reached during download
+[2024-04-04 02:53:44] INFO root fetch - processPackages [livekit-protocol]: Downloading https://files.pythonhosted.org/packages/b1/6d/63dd6d7737b717670de1716c691bb322522b12f239a9037613faf80a13c7/livekit-protocol-0.3.2.tar.gz
+[2024-04-04 02:53:44] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-04 02:53:44] WARNING root fetch - processPackages [scale-llm-engine]: Timeout reached during download
+[2024-04-04 02:53:44] INFO root fetch - processPackages [Tasmanian]: Downloading https://files.pythonhosted.org/packages/4e/6e/2f08555613038c19b7a6a5d909c00b3164528c823aa53fdd21fc1d9abc53/Tasmanian-8.1b2.tar.gz
+[2024-04-04 02:53:44] WARNING root fetch - processPackages [livekit-protocol]: Timeout reached during download
+[2024-04-04 02:53:44] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2024-04-04 02:53:44] WARNING root fetch - processPackages [Tasmanian]: Timeout reached during download
+[2024-04-04 02:53:44] INFO root fetch - processPackages [Tasmanian]: executing diffoscope
+[2024-04-04 02:53:44] INFO root fetch - processPackages [Tasmanian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tasmanian-8.1b1.tar.gz tmp/Tasmanian-8.1b2.tar.gz --markdown 20240404/T/Tasmanian/8.1b1-8.1b2/diff.md --exclude *.pyd
+[2024-04-04 02:53:44] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/21/17/83b298f2430c5d10a7fc4660bf179b03a02f710dea09ccc884a8266b93f4/scale_llm_engine-0.0.0b9.tar.gz
+[2024-04-04 02:53:44] INFO root fetch - processPackages [livekit-protocol]: Downloading https://files.pythonhosted.org/packages/8a/53/0f1bf017f03954cb7d9fb38c4ec6c70df50a7cc1ce4b204718395da7daac/livekit-protocol-0.4.0.tar.gz
+[2024-04-04 02:53:45] WARNING root fetch - processPackages [livekit-protocol]: Timeout reached during download
+[2024-04-04 02:53:45] INFO root fetch - processPackages [livekit-protocol]: executing diffoscope
+[2024-04-04 02:53:45] INFO root fetch - processPackages [livekit-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/livekit-protocol-0.3.2.tar.gz tmp/livekit-protocol-0.4.0.tar.gz --markdown 20240404/l/livekit-protocol/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2024-04-04 02:53:45] WARNING root fetch - processPackages [cdk-lambda-layer-curl]: Timeout reached during download
+[2024-04-04 02:53:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2024-04-04 02:53:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20240404/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:53:45] WARNING root fetch - processPackages [scale-llm-engine]: Timeout reached during download
+[2024-04-04 02:53:45] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2024-04-04 02:53:45] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b8.tar.gz tmp/scale_llm_engine-0.0.0b9.tar.gz --markdown 20240404/s/scale-llm-engine/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2024-04-04 02:53:45] INFO root fetch - processPackages [livekit-protocol]: Remove: archive file [/home/abi/fetcher/tmp/livekit-protocol-0.3.2.tar.gz]
+[2024-04-04 02:53:45] INFO root fetch - processPackages [livekit-protocol]: Remove: archive file [/home/abi/fetcher/tmp/livekit-protocol-0.4.0.tar.gz]
+[2024-04-04 02:53:45] INFO root fetch - main [MainThread]: End processing [livekit-protocol]: success
+[2024-04-04 02:53:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2024-04-04 02:53:45] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2024-04-04 02:53:45] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2024-04-04 02:53:46] WARNING root fetch - processPackages [mimesis]: Timeout reached during download
+[2024-04-04 02:53:46] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b8.tar.gz]
+[2024-04-04 02:53:46] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b9.tar.gz]
+[2024-04-04 02:53:46] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2024-04-04 02:53:46] INFO root fetch - processPackages [mimesis]: Downloading https://files.pythonhosted.org/packages/74/f4/34b8f193a24f5ed60e1c38836a3d3ff7fc7f321c0a3e00340f7070ea1a5c/mimesis-9.0.0.tar.gz
+[2024-04-04 02:53:46] INFO root fetch - processPackages [Tasmanian]: Remove: archive file [/home/abi/fetcher/tmp/Tasmanian-8.1b1.tar.gz]
+[2024-04-04 02:53:46] INFO root fetch - processPackages [Tasmanian]: Remove: archive file [/home/abi/fetcher/tmp/Tasmanian-8.1b2.tar.gz]
+[2024-04-04 02:53:46] INFO root fetch - main [MainThread]: End processing [Tasmanian]: success
+[2024-04-04 02:53:47] WARNING root fetch - processPackages [mimesis]: Timeout reached during download
+[2024-04-04 02:53:47] INFO root fetch - processPackages [mimesis]: executing diffoscope
+[2024-04-04 02:53:47] INFO root fetch - processPackages [mimesis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimesis-8.0.0.tar.gz tmp/mimesis-9.0.0.tar.gz --markdown 20240404/m/mimesis/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2024-04-04 02:53:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-8.0.0.tar.gz]
+[2024-04-04 02:53:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
+[2024-04-04 02:53:48] INFO root fetch - main [MainThread]: End processing [mimesis]: success
+[2024-04-04 02:53:48] INFO root fetch - main [MainThread]: Store serial: [22613096]
