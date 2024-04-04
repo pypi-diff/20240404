@@ -18072,3 +18072,59 @@
 [2024-04-04 10:41:27] INFO root fetch - processPackages [cubicweb-rq]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-rq-0.1.1.tar.gz]
 [2024-04-04 10:41:27] INFO root fetch - main [MainThread]: End processing [cubicweb-rq]: success
 [2024-04-04 10:41:27] INFO root fetch - main [MainThread]: Store serial: [22617291]
+[2024-04-04 10:43:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617291]
+[2024-04-04 10:43:35] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mydatatest
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: piwiPre
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kuzu
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nodoc
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secret-key-database
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-gemini-api
+[2024-04-04 10:43:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spark-scaffolder-transforms-tools
+[2024-04-04 10:43:35] WARNING root fetch - processPackages [secret-key-database]: Skipping, unable to determine old version
+[2024-04-04 10:43:35] INFO root fetch - main [MainThread]: End processing [secret-key-database] error
+[2024-04-04 10:43:35] INFO root fetch - processPackages [piwiPre]: New version: [0.8.5] Old Version: [0.8.4]
+[2024-04-04 10:43:35] INFO root fetch - processPackages [nodoc]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 10:43:35] WARNING root fetch - processPackages [mydatatest]: Skipping, unable to determine old version
+[2024-04-04 10:43:35] INFO root fetch - main [MainThread]: End processing [mydatatest] error
+[2024-04-04 10:43:35] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2024-04-04 10:43:35] INFO root fetch - processPackages [python-gemini-api]: New version: [2.4.2] Old Version: [2.4.1]
+[2024-04-04 10:43:35] WARNING root fetch - processPackages [spark-scaffolder-transforms-tools]: Skipping, unable to determine old version
+[2024-04-04 10:43:35] INFO root fetch - main [MainThread]: End processing [spark-scaffolder-transforms-tools] error
+[2024-04-04 10:43:36] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/4c/d1/8b9aa7fc6079375d39e4c528d339a014438130e763c7270344c15002a321/nodoc-1.0.8.tar.gz
+[2024-04-04 10:43:36] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/ad/fc/9cf4c3c37cd2895067bd93495f09c783b2a9d4650f43ea0506b7b50e1f67/piwiPre-0.8.4.tar.gz
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:43:36] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fa/ff/4af98fccfdf1938d3969ca49d52576d2858e4425725e85e84a82dc858cb1/kuzu-0.3.3.dev8.tar.gz
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-04 10:43:36] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/85/f5/33106bbc4eb1ebffb1778c6af30bcaf9ab91fedf6ac710d8f19399f1e838/python-gemini-api-2.4.1.tar.gz
+[2024-04-04 10:43:36] INFO root fetch - processPackages [nodoc]: Downloading https://files.pythonhosted.org/packages/c3/01/365275f65437bdcd49fb8054d4dd45304b5a0f8ee40ef9cdaf3d0fa5ad12/nodoc-1.0.9.tar.gz
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [python-gemini-api]: Timeout reached during download
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [nodoc]: Timeout reached during download
+[2024-04-04 10:43:36] INFO root fetch - processPackages [nodoc]: executing diffoscope
+[2024-04-04 10:43:36] INFO root fetch - processPackages [nodoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodoc-1.0.8.tar.gz tmp/nodoc-1.0.9.tar.gz --markdown 20240404/n/nodoc/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 10:43:36] INFO root fetch - processPackages [piwiPre]: Downloading https://files.pythonhosted.org/packages/e7/59/c5cfd3133f61e11e92c5834c1ac8dde4bd134a5d7fb13d632d1efa6ef294/piwiPre-0.8.5.tar.gz
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [piwiPre]: Timeout reached during download
+[2024-04-04 10:43:36] INFO root fetch - processPackages [piwiPre]: executing diffoscope
+[2024-04-04 10:43:36] INFO root fetch - processPackages [piwiPre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piwiPre-0.8.4.tar.gz tmp/piwiPre-0.8.5.tar.gz --markdown 20240404/p/piwiPre/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2024-04-04 10:43:36] INFO root fetch - processPackages [python-gemini-api]: Downloading https://files.pythonhosted.org/packages/4c/93/7e521a45a08871bb74f6c710bd11ae1fbec8c4fcb3f3e226ba22da8ceb2a/python_gemini_api-2.4.2-py3-none-any.whl
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-04 10:43:36] WARNING root fetch - processPackages [python-gemini-api]: Timeout reached during download
+[2024-04-04 10:43:36] INFO root fetch - processPackages [python-gemini-api]: executing diffoscope
+[2024-04-04 10:43:36] INFO root fetch - processPackages [python-gemini-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gemini-api-2.4.1.tar.gz tmp/python_gemini_api-2.4.2-py3-none-any.whl.zip --markdown 20240404/p/python-gemini-api/2.4.1-2.4.2/diff.md --exclude *.pyd
+[2024-04-04 10:43:37] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.8.tar.gz]
+[2024-04-04 10:43:37] INFO root fetch - processPackages [nodoc]: Remove: archive file [/home/abi/fetcher/tmp/nodoc-1.0.9.tar.gz]
+[2024-04-04 10:43:37] INFO root fetch - main [MainThread]: End processing [nodoc]: success
+[2024-04-04 10:43:37] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a2/67/22a60ceaa7cc3d03784a4c12db350f0f9d0b05181256e6007a55f7308e73/kuzu-0.3.3.dev9.tar.gz
+[2024-04-04 10:43:37] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.4.tar.gz]
+[2024-04-04 10:43:37] INFO root fetch - processPackages [piwiPre]: Remove: archive file [/home/abi/fetcher/tmp/piwiPre-0.8.5.tar.gz]
+[2024-04-04 10:43:37] INFO root fetch - main [MainThread]: End processing [piwiPre]: success
+[2024-04-04 10:43:37] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gemini-api-2.4.1.tar.gz]
+[2024-04-04 10:43:37] INFO root fetch - processPackages [python-gemini-api]: Remove: archive file [/home/abi/fetcher/tmp/python_gemini_api-2.4.2-py3-none-any.whl.zip]
+[2024-04-04 10:43:37] INFO root fetch - main [MainThread]: End processing [python-gemini-api]: success
+[2024-04-04 10:43:37] WARNING root fetch - processPackages [kuzu]: Timeout reached during download
+[2024-04-04 10:43:37] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-04 10:43:37] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev8.tar.gz tmp/kuzu-0.3.3.dev9.tar.gz --markdown 20240404/k/kuzu/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-04 10:43:43] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev8.tar.gz]
+[2024-04-04 10:43:43] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
+[2024-04-04 10:43:43] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-04 10:43:43] INFO root fetch - main [MainThread]: Store serial: [22617340]
