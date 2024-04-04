@@ -9912,3 +9912,50 @@
 [2024-04-04 04:06:10] INFO root fetch - processPackages [DebugInfo]: Remove: archive file [/home/abi/fetcher/tmp/DebugInfo-9.1.0.tar.gz]
 [2024-04-04 04:06:10] INFO root fetch - main [MainThread]: End processing [DebugInfo]: success
 [2024-04-04 04:06:10] INFO root fetch - main [MainThread]: Store serial: [22614709]
+[2024-04-04 04:08:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614709]
+[2024-04-04 04:08:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: screenshotct
+[2024-04-04 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-service-screener
+[2024-04-04 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polytomic
+[2024-04-04 04:08:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-tele
+[2024-04-04 04:08:20] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.9.3] Old Version: [0.0.4.9.9.2]
+[2024-04-04 04:08:20] INFO root fetch - processPackages [polytomic]: New version: [0.1.2] Old Version: [0.1.0]
+[2024-04-04 04:08:20] INFO root fetch - processPackages [screenshotct]: New version: [0.11] Old Version: [0.10]
+[2024-04-04 04:08:20] INFO root fetch - processPackages [aws-service-screener]: New version: [2.0.0a0] Old Version: [2.0.0]
+[2024-04-04 04:08:20] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/f3/9e/f27610d81528b41547da83262c5a9efcd2f5a3f7e30d6dcae64bd252c034/test_tele-0.0.4.9.9.2.tar.gz
+[2024-04-04 04:08:20] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/4e/45/ef669216f461d024170d2add7540ea4480de2ad7ec038040d6b0f4e5319f/aws_service_screener-2.0.0.tar.gz
+[2024-04-04 04:08:20] INFO root fetch - processPackages [screenshotct]: Downloading https://files.pythonhosted.org/packages/23/d8/c94018972690557a9abd0bb8b034d4239b4d6ef15a83df8c1a501415d216/screenshotct-0.10.tar.gz
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [polytomic]: Downloading https://files.pythonhosted.org/packages/49/cc/7f0aebcae3562ce1f91f0d3c2d1cf9724d5ee8201f09b38ade8603339487/polytomic-0.1.0.tar.gz
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [screenshotct]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/fc/07/33c849b66833530e8faacf30767146ab3d932acebdc6fcbef3c4bcb87bdb/test_tele-0.0.4.9.9.3.tar.gz
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [polytomic]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [screenshotct]: Downloading https://files.pythonhosted.org/packages/b2/ca/3dd21f18267a1c308c7f6b811768a38565255b54704fecb52f37615d17e2/screenshotct-0.11.tar.gz
+[2024-04-04 04:08:20] INFO root fetch - processPackages [polytomic]: Downloading https://files.pythonhosted.org/packages/23/25/1903dfb663ac9f88d1133ac9f7df2f9814525380289b2f1f81b686f02422/polytomic-0.1.2.tar.gz
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [screenshotct]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [screenshotct]: executing diffoscope
+[2024-04-04 04:08:20] INFO root fetch - processPackages [screenshotct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screenshotct-0.10.tar.gz tmp/screenshotct-0.11.tar.gz --markdown 20240404/s/screenshotct/0.10-0.11/diff.md --exclude *.pyd
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [polytomic]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [polytomic]: executing diffoscope
+[2024-04-04 04:08:20] INFO root fetch - processPackages [polytomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polytomic-0.1.0.tar.gz tmp/polytomic-0.1.2.tar.gz --markdown 20240404/p/polytomic/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 04:08:20] INFO root fetch - processPackages [aws-service-screener]: Downloading https://files.pythonhosted.org/packages/9f/6d/7979d03567af3b1c9ad27a71f99e9e5a4df3c1fea5eff68f94091b1846ab/aws_service_screener-2.0.0a0.tar.gz
+[2024-04-04 04:08:20] WARNING root fetch - processPackages [test-tele]: Timeout reached during download
+[2024-04-04 04:08:20] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-04 04:08:20] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.9.2.tar.gz tmp/test_tele-0.0.4.9.9.3.tar.gz --markdown 20240404/t/test-tele/0.0.4.9.9.2-0.0.4.9.9.3/diff.md --exclude *.pyd
+[2024-04-04 04:08:21] WARNING root fetch - processPackages [aws-service-screener]: Timeout reached during download
+[2024-04-04 04:08:21] INFO root fetch - processPackages [aws-service-screener]: executing diffoscope
+[2024-04-04 04:08:21] INFO root fetch - processPackages [aws-service-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_service_screener-2.0.0.tar.gz tmp/aws_service_screener-2.0.0a0.tar.gz --markdown 20240404/a/aws-service-screener/2.0.0-2.0.0a0/diff.md --exclude *.pyd
+[2024-04-04 04:08:21] INFO root fetch - processPackages [screenshotct]: Remove: archive file [/home/abi/fetcher/tmp/screenshotct-0.10.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - processPackages [screenshotct]: Remove: archive file [/home/abi/fetcher/tmp/screenshotct-0.11.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - main [MainThread]: End processing [screenshotct]: success
+[2024-04-04 04:08:21] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.2.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.9.3.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-04 04:08:21] INFO root fetch - processPackages [polytomic]: Remove: archive file [/home/abi/fetcher/tmp/polytomic-0.1.0.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - processPackages [polytomic]: Remove: archive file [/home/abi/fetcher/tmp/polytomic-0.1.2.tar.gz]
+[2024-04-04 04:08:21] INFO root fetch - main [MainThread]: End processing [polytomic]: success
+[2024-04-04 04:08:22] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.0.tar.gz]
+[2024-04-04 04:08:22] INFO root fetch - processPackages [aws-service-screener]: Remove: archive file [/home/abi/fetcher/tmp/aws_service_screener-2.0.0a0.tar.gz]
+[2024-04-04 04:08:22] INFO root fetch - main [MainThread]: End processing [aws-service-screener]: success
+[2024-04-04 04:08:22] INFO root fetch - main [MainThread]: Store serial: [22614721]
