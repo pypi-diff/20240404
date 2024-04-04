@@ -22772,3 +22772,50 @@
 [2024-04-04 13:22:50] WARNING root fetch - processPackages [viktor]: Skipping package: exceeds size limit 34060458>=10485760
 [2024-04-04 13:22:50] INFO root fetch - main [MainThread]: End processing [viktor] error
 [2024-04-04 13:22:50] INFO root fetch - main [MainThread]: Store serial: [22619044]
+[2024-04-04 13:24:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619044]
+[2024-04-04 13:25:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: inoopa_utils
+[2024-04-04 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: emlearn
+[2024-04-04 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inwx-domrobot
+[2024-04-04 13:25:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Temperatur-Nu
+[2024-04-04 13:25:00] INFO root fetch - processPackages [inwx-domrobot]: New version: [3.2.0] Old Version: [3.1.0]
+[2024-04-04 13:25:00] INFO root fetch - processPackages [emlearn]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-04 13:25:00] INFO root fetch - processPackages [Temperatur-Nu]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 13:25:00] INFO root fetch - processPackages [inoopa_utils]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-04 13:25:01] INFO root fetch - processPackages [emlearn]: Downloading https://files.pythonhosted.org/packages/10/7a/bc4f241a34dfc608d1ec1259b8fe5cc5d588e58a43be06e2475cf66863c3/emlearn-0.8.0.tar.gz
+[2024-04-04 13:25:01] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/1b/af/9124ef52be0c2d725cea3b47d373ed62401c9884cb06280c179b6b5b62a6/Temperatur_Nu-0.0.7.tar.gz
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/ae/52/41e8de4f12e418d477b10abeec98b22f3efeb71e09a510ee634034de1863/inoopa_utils-2.8.0.tar.gz
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inwx-domrobot]: Downloading https://files.pythonhosted.org/packages/0e/99/b7e28311d5336ea0326ae3cc1d858e11092be202657277d5a6b70db9492a/inwx-domrobot-3.1.0.tar.gz
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [emlearn]: Timeout reached during download
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [inwx-domrobot]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [Temperatur-Nu]: Downloading https://files.pythonhosted.org/packages/73/84/cf895ca9fe4413ca77d6b65325c5b338a61af853f6ef619694e703c567af/Temperatur_Nu-0.0.8.tar.gz
+[2024-04-04 13:25:01] INFO root fetch - processPackages [emlearn]: Downloading https://files.pythonhosted.org/packages/db/f4/4b63b598b9744662857eba9f8486bace31054ad0f81890f8d3b94afc55e0/emlearn-0.8.1.tar.gz
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inwx-domrobot]: Downloading https://files.pythonhosted.org/packages/c2/59/7a4bbcc7028967a2431c34b6e0c5598fe6f8d1a426a102fcea569a9f160f/inwx-domrobot-3.2.0.tar.gz
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [Temperatur-Nu]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [Temperatur-Nu]: executing diffoscope
+[2024-04-04 13:25:01] INFO root fetch - processPackages [Temperatur-Nu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Temperatur_Nu-0.0.7.tar.gz tmp/Temperatur_Nu-0.0.8.tar.gz --markdown 20240404/T/Temperatur-Nu/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [emlearn]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [emlearn]: executing diffoscope
+[2024-04-04 13:25:01] INFO root fetch - processPackages [emlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emlearn-0.8.0.tar.gz tmp/emlearn-0.8.1.tar.gz --markdown 20240404/e/emlearn/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [inwx-domrobot]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inwx-domrobot]: executing diffoscope
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inwx-domrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inwx-domrobot-3.1.0.tar.gz tmp/inwx-domrobot-3.2.0.tar.gz --markdown 20240404/i/inwx-domrobot/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/bf/05/01bf4f4f36985c49242c646c233e89db06a14471014ec63ce6763eef616b/inoopa_utils-2.8.1.tar.gz
+[2024-04-04 13:25:01] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 13:25:01] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.8.0.tar.gz tmp/inoopa_utils-2.8.1.tar.gz --markdown 20240404/i/inoopa_utils/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2024-04-04 13:25:02] INFO root fetch - processPackages [inwx-domrobot]: Remove: archive file [/home/abi/fetcher/tmp/inwx-domrobot-3.1.0.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - processPackages [inwx-domrobot]: Remove: archive file [/home/abi/fetcher/tmp/inwx-domrobot-3.2.0.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - main [MainThread]: End processing [inwx-domrobot]: success
+[2024-04-04 13:25:02] INFO root fetch - processPackages [emlearn]: Remove: archive file [/home/abi/fetcher/tmp/emlearn-0.8.0.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - processPackages [emlearn]: Remove: archive file [/home/abi/fetcher/tmp/emlearn-0.8.1.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - main [MainThread]: End processing [emlearn]: success
+[2024-04-04 13:25:02] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.7.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - processPackages [Temperatur-Nu]: Remove: archive file [/home/abi/fetcher/tmp/Temperatur_Nu-0.0.8.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu]: success
+[2024-04-04 13:25:02] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.0.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.1.tar.gz]
+[2024-04-04 13:25:02] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 13:25:02] INFO root fetch - main [MainThread]: Store serial: [22619063]
