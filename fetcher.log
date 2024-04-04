@@ -12152,3 +12152,47 @@
 [2024-04-04 06:20:14] INFO root fetch - processPackages [mo-sqlite]: Remove: archive file [/home/abi/fetcher/tmp/mo-sqlite-2.582.24095.tar.gz]
 [2024-04-04 06:20:14] INFO root fetch - main [MainThread]: End processing [mo-sqlite]: success
 [2024-04-04 06:20:14] INFO root fetch - main [MainThread]: Store serial: [22615425]
+[2024-04-04 06:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615425]
+[2024-04-04 06:22:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-aws
+[2024-04-04 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vios
+[2024-04-04 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythagoras
+[2024-04-04 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: confitti
+[2024-04-04 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: layermesh
+[2024-04-04 06:22:22] INFO root fetch - processPackages [layermesh]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-04 06:22:22] INFO root fetch - processPackages [confitti]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-04 06:22:22] WARNING root fetch - processPackages [pythagoras]: Skipping, unable to determine old version
+[2024-04-04 06:22:22] INFO root fetch - main [MainThread]: End processing [pythagoras] error
+[2024-04-04 06:22:22] INFO root fetch - processPackages [vios]: New version: [2.2.6] Old Version: [2.2.5]
+[2024-04-04 06:22:22] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-04 06:22:22] INFO root fetch - processPackages [confitti]: Downloading https://files.pythonhosted.org/packages/f8/60/352f83f2fecd5a1a988876b76eec8016fb3d830295759bd5be7f32513667/confitti-0.1.2.tar.gz
+[2024-04-04 06:22:22] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-04 06:22:22] WARNING root fetch - processPackages [confitti]: Skipping package: exceeds size limit 12909512>=10485760
+[2024-04-04 06:22:22] INFO root fetch - main [MainThread]: End processing [confitti] error
+[2024-04-04 06:22:22] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/d8/60/9a6095d4e864e79a8a13cf2a8292fdadeeb0ebf89565d018eadf6e785378/vios-2.2.5-py3-none-any.whl
+[2024-04-04 06:22:22] INFO root fetch - processPackages [layermesh]: Downloading https://files.pythonhosted.org/packages/31/4e/4874c451267efdb8d7e663179fc846d7cd3be7599140b93927155b50f6d6/layermesh-0.4.0.tar.gz
+[2024-04-04 06:22:23] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-04 06:22:23] WARNING root fetch - processPackages [layermesh]: Timeout reached during download
+[2024-04-04 06:22:23] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/23/1f/22cb4b5c12a6d2fea1f578c06dd1ce42c7bc5f93ef37bf1bbe21908f2515/vios-2.2.6-py3-none-any.whl
+[2024-04-04 06:22:23] INFO root fetch - processPackages [layermesh]: Downloading https://files.pythonhosted.org/packages/4c/87/73320e7fb047ca5bdb95f5a538002966b5be2c3581f9f6abea5db8ec2d2f/layermesh-0.4.1.tar.gz
+[2024-04-04 06:22:23] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-04 06:22:23] WARNING root fetch - processPackages [vios]: Timeout reached during download
+[2024-04-04 06:22:23] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-04 06:22:23] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.5-py3-none-any.whl.zip tmp/vios-2.2.6-py3-none-any.whl.zip --markdown 20240404/v/vios/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2024-04-04 06:22:23] WARNING root fetch - processPackages [layermesh]: Timeout reached during download
+[2024-04-04 06:22:23] INFO root fetch - processPackages [layermesh]: executing diffoscope
+[2024-04-04 06:22:23] INFO root fetch - processPackages [layermesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layermesh-0.4.0.tar.gz tmp/layermesh-0.4.1.tar.gz --markdown 20240404/l/layermesh/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-04 06:22:23] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-04 06:22:24] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.5-py3-none-any.whl.zip]
+[2024-04-04 06:22:24] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.6-py3-none-any.whl.zip]
+[2024-04-04 06:22:24] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-04 06:22:24] INFO root fetch - processPackages [layermesh]: Remove: archive file [/home/abi/fetcher/tmp/layermesh-0.4.0.tar.gz]
+[2024-04-04 06:22:24] INFO root fetch - processPackages [layermesh]: Remove: archive file [/home/abi/fetcher/tmp/layermesh-0.4.1.tar.gz]
+[2024-04-04 06:22:24] INFO root fetch - main [MainThread]: End processing [layermesh]: success
+[2024-04-04 06:22:24] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-04 06:22:24] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-04 06:22:24] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240404/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/diff.md --exclude *.pyd
+[2024-04-04 06:22:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-04 06:22:40] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-04 06:22:40] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-04 06:22:40] INFO root fetch - main [MainThread]: Store serial: [22615439]
