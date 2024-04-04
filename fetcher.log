@@ -18894,3 +18894,70 @@
 [2024-04-04 11:14:00] INFO root fetch - processPackages [effector]: Remove: archive file [/home/abi/fetcher/tmp/effector-0.0.269.tar.gz]
 [2024-04-04 11:14:00] INFO root fetch - main [MainThread]: End processing [effector]: success
 [2024-04-04 11:14:00] INFO root fetch - main [MainThread]: Store serial: [22617585]
+[2024-04-04 11:16:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617585]
+[2024-04-04 11:16:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PAGETools
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spanishconjugator
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: supercut
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PAGETools
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cluster_tools
+[2024-04-04 11:16:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webknossos
+[2024-04-04 11:16:09] INFO root fetch - processPackages [PAGETools]: New version: [0.5.2a0] Old Version: [0.5.1]
+[2024-04-04 11:16:09] INFO root fetch - processPackages [supercut]: New version: [0.3.0] Old Version: [0.2.2]
+[2024-04-04 11:16:09] INFO root fetch - processPackages [PAGETools]: New version: [0.5.2a0] Old Version: [0.5.1]
+[2024-04-04 11:16:09] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 11:16:09] INFO root fetch - processPackages [cluster_tools]: New version: [1.61] Old Version: [1.60]
+[2024-04-04 11:16:09] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/86/46/165cafd3bc5d01628fa035780ada8263fefadf869f216d3659959634687b/PAGETools-0.5.1.tar.gz
+[2024-04-04 11:16:09] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/86/46/165cafd3bc5d01628fa035780ada8263fefadf869f216d3659959634687b/PAGETools-0.5.1.tar.gz
+[2024-04-04 11:16:09] INFO root fetch - processPackages [supercut]: Downloading https://files.pythonhosted.org/packages/8e/81/45340c11ec87827391c588f69a58524f10fba7cb4c215a2589c20419701c/supercut-0.2.2.tar.gz
+[2024-04-04 11:16:09] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2024-04-04 11:16:09] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2024-04-04 11:16:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [cluster_tools]: Timeout reached during download
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [webknossos]: Timeout reached during download
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [supercut]: Timeout reached during download
+[2024-04-04 11:16:10] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/d1/5b/3f1cb7efa2994dfea60c11398f421dccaff26e7902b79a0a04c3de1863f3/PAGETools-0.5.2a0.tar.gz
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/d1/5b/3f1cb7efa2994dfea60c11398f421dccaff26e7902b79a0a04c3de1863f3/PAGETools-0.5.2a0.tar.gz
+[2024-04-04 11:16:10] INFO root fetch - processPackages [supercut]: Downloading https://files.pythonhosted.org/packages/9f/61/20f4eb786c63a4a29fd74cc49574c956aeeac7f70c57799f3749b3b1f30b/supercut-0.3.0.tar.gz
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-04 11:16:10] INFO root fetch - processPackages [cluster_tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2024-04-04 11:16:10] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: executing diffoscope
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PAGETools-0.5.1.tar.gz tmp/PAGETools-0.5.2a0.tar.gz --markdown 20240404/P/PAGETools/0.5.1-0.5.2a0/diff.md --exclude *.pyd
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: executing diffoscope
+[2024-04-04 11:16:10] INFO root fetch - processPackages [PAGETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PAGETools-0.5.1.tar.gz tmp/PAGETools-0.5.2a0.tar.gz --markdown 20240404/P/PAGETools/0.5.1-0.5.2a0/diff.md --exclude *.pyd
+[2024-04-04 11:16:10] WARNING root fetch - processPackages [supercut]: Timeout reached during download
+[2024-04-04 11:16:10] INFO root fetch - processPackages [supercut]: executing diffoscope
+[2024-04-04 11:16:10] INFO root fetch - processPackages [supercut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supercut-0.2.2.tar.gz tmp/supercut-0.3.0.tar.gz --markdown 20240404/s/supercut/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2024-04-04 11:16:11] WARNING root fetch - processPackages [cluster_tools]: Timeout reached during download
+[2024-04-04 11:16:11] INFO root fetch - processPackages [cluster_tools]: executing diffoscope
+[2024-04-04 11:16:11] INFO root fetch - processPackages [cluster_tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20240404/c/cluster_tools/1.60-1.61/diff.md --exclude *.pyd
+[2024-04-04 11:16:11] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-04 11:16:11] WARNING root fetch - processPackages [webknossos]: Timeout reached during download
+[2024-04-04 11:16:11] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2024-04-04 11:16:11] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20240404/w/webknossos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 11:16:11] WARNING root fetch - processPackages [spanishconjugator]: Timeout reached during download
+[2024-04-04 11:16:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-04 11:16:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240404/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-04 11:16:11] INFO root fetch - processPackages [supercut]: Remove: archive file [/home/abi/fetcher/tmp/supercut-0.2.2.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - processPackages [supercut]: Remove: archive file [/home/abi/fetcher/tmp/supercut-0.3.0.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - main [MainThread]: End processing [supercut]: success
+[2024-04-04 11:16:11] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.1.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.2a0.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - main [MainThread]: End processing [PAGETools]: success
+[2024-04-04 11:16:11] INFO root fetch - main [MainThread]: End processing [PAGETools]: success
+[2024-04-04 11:16:11] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - processPackages [cluster_tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2024-04-04 11:16:11] INFO root fetch - main [MainThread]: End processing [cluster_tools]: success
+[2024-04-04 11:16:12] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-04 11:16:12] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-04 11:16:12] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-04 11:16:12] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2024-04-04 11:16:12] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2024-04-04 11:16:12] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2024-04-04 11:16:12] INFO root fetch - main [MainThread]: Store serial: [22617605]
