@@ -11628,3 +11628,17 @@
 [2024-04-04 05:51:50] INFO root fetch - processPackages [swcgeom]: Remove: archive file [/home/abi/fetcher/tmp/swcgeom-0.9.0.tar.gz]
 [2024-04-04 05:51:50] INFO root fetch - main [MainThread]: End processing [swcgeom]: success
 [2024-04-04 05:51:50] INFO root fetch - main [MainThread]: Store serial: [22615263]
+[2024-04-04 05:53:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615263]
+[2024-04-04 05:53:59] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 05:53:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mo-logs
+[2024-04-04 05:53:59] INFO root fetch - processPackages [mo-logs]: New version: [8.582.24095] Old Version: [8.579.24081]
+[2024-04-04 05:53:59] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/a5/c8/0f02c5236eb092291eb91407438d7e7fedc7c18907032cb9dd345bf7d5a7/mo-logs-8.579.24081.tar.gz
+[2024-04-04 05:53:59] WARNING root fetch - processPackages [mo-logs]: Timeout reached during download
+[2024-04-04 05:53:59] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/4f/60/caf5b565ae27ef4ed2b8b431ac735c30b7772d893d270603082a017727b4/mo-logs-8.582.24095.tar.gz
+[2024-04-04 05:53:59] WARNING root fetch - processPackages [mo-logs]: Timeout reached during download
+[2024-04-04 05:53:59] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2024-04-04 05:53:59] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-logs-8.579.24081.tar.gz tmp/mo-logs-8.582.24095.tar.gz --markdown 20240404/m/mo-logs/8.579.24081-8.582.24095/diff.md --exclude *.pyd
+[2024-04-04 05:54:00] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo-logs-8.579.24081.tar.gz]
+[2024-04-04 05:54:00] INFO root fetch - processPackages [mo-logs]: Remove: archive file [/home/abi/fetcher/tmp/mo-logs-8.582.24095.tar.gz]
+[2024-04-04 05:54:00] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2024-04-04 05:54:00] INFO root fetch - main [MainThread]: Store serial: [22615266]
