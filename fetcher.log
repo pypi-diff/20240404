@@ -4471,3 +4471,46 @@
 [2024-04-04 02:53:48] INFO root fetch - processPackages [mimesis]: Remove: archive file [/home/abi/fetcher/tmp/mimesis-9.0.0.tar.gz]
 [2024-04-04 02:53:48] INFO root fetch - main [MainThread]: End processing [mimesis]: success
 [2024-04-04 02:53:48] INFO root fetch - main [MainThread]: Store serial: [22613096]
+[2024-04-04 02:55:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22613096]
+[2024-04-04 02:55:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 02:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dg-face-tracking
+[2024-04-04 02:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-04-04 02:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pycde
+[2024-04-04 02:55:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicds
+[2024-04-04 02:55:57] INFO root fetch - processPackages [dg-face-tracking]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 02:55:57] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-04 02:55:57] INFO root fetch - processPackages [pycde]: New version: [0.3.1.dev847] Old Version: [0.3.1.dev843]
+[2024-04-04 02:55:57] INFO root fetch - processPackages [atomicds]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-04 02:55:58] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-04 02:55:58] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/36/7e/58f161f18ac725f17024e0bf29589d260b7b7b1f20821f97a04476b9dd7e/pycde-0.3.1.dev843-cp39-cp39-win_amd64.whl
+[2024-04-04 02:55:58] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/a9/81/7ced5721b89b6ea73a259100c95f16272ed298f4ba61e9ad32ac7c0e0d72/dg_face_tracking-0.0.6-py3-none-any.whl
+[2024-04-04 02:55:58] INFO root fetch - processPackages [atomicds]: Downloading https://files.pythonhosted.org/packages/22/68/e6b74720f0e0c75f9c01da7b716afef4d058bd026bda83370cd0340b0a64/atomicds-0.0.4.tar.gz
+[2024-04-04 02:55:58] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-04 02:55:58] WARNING root fetch - processPackages [atomicds]: Timeout reached during download
+[2024-04-04 02:55:58] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-04 02:55:58] INFO root fetch - processPackages [dg-face-tracking]: Downloading https://files.pythonhosted.org/packages/07/b8/1963d9ee34ddcec8413a7b1c03596d276380fe5ab31fd1da601aeff80b72/dg_face_tracking-0.0.7-py3-none-any.whl
+[2024-04-04 02:55:58] INFO root fetch - processPackages [atomicds]: Downloading https://files.pythonhosted.org/packages/61/b5/96620e66a7c8f4a22116be3cb9bc6887d206dc937cc129742c5c22f264c6/atomicds-0.0.5.tar.gz
+[2024-04-04 02:55:58] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-04 02:55:58] WARNING root fetch - processPackages [dg-face-tracking]: Timeout reached during download
+[2024-04-04 02:55:58] INFO root fetch - processPackages [dg-face-tracking]: executing diffoscope
+[2024-04-04 02:55:58] INFO root fetch - processPackages [dg-face-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dg_face_tracking-0.0.6-py3-none-any.whl.zip tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip --markdown 20240404/d/dg-face-tracking/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 02:55:58] WARNING root fetch - processPackages [atomicds]: Timeout reached during download
+[2024-04-04 02:55:58] INFO root fetch - processPackages [atomicds]: executing diffoscope
+[2024-04-04 02:55:58] INFO root fetch - processPackages [atomicds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicds-0.0.4.tar.gz tmp/atomicds-0.0.5.tar.gz --markdown 20240404/a/atomicds/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-04 02:55:59] WARNING root fetch - processPackages [pulumi-aws]: Timeout reached during download
+[2024-04-04 02:55:59] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-04 02:55:59] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240404/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/diff.md --exclude *.pyd
+[2024-04-04 02:55:59] INFO root fetch - processPackages [atomicds]: Remove: archive file [/home/abi/fetcher/tmp/atomicds-0.0.4.tar.gz]
+[2024-04-04 02:55:59] INFO root fetch - processPackages [atomicds]: Remove: archive file [/home/abi/fetcher/tmp/atomicds-0.0.5.tar.gz]
+[2024-04-04 02:55:59] INFO root fetch - main [MainThread]: End processing [atomicds]: success
+[2024-04-04 02:55:59] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.6-py3-none-any.whl.zip]
+[2024-04-04 02:55:59] INFO root fetch - processPackages [dg-face-tracking]: Remove: archive file [/home/abi/fetcher/tmp/dg_face_tracking-0.0.7-py3-none-any.whl.zip]
+[2024-04-04 02:55:59] INFO root fetch - main [MainThread]: End processing [dg-face-tracking]: success
+[2024-04-04 02:56:00] WARNING root fetch - processPackages [pycde]: Timeout reached during download
+[2024-04-04 02:56:00] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/30/cc/681f8fc27b33d69136232a645de9538fea181c2d9e608dbb2635765e5b57/pycde-0.3.1.dev847-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-04 02:56:01] WARNING root fetch - processPackages [pycde]: Skipping package: exceeds size limit 22075464>=10485760
+[2024-04-04 02:56:01] INFO root fetch - main [MainThread]: End processing [pycde] error
+[2024-04-04 02:56:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-04 02:56:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-04 02:56:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-04 02:56:15] INFO root fetch - main [MainThread]: Store serial: [22613107]
