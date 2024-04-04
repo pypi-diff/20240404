@@ -10814,3 +10814,50 @@
 [2024-04-04 05:01:50] INFO root fetch - processPackages [cloudmesh-vpn]: Remove: archive file [/home/abi/fetcher/tmp/cloudmesh-vpn-5.0.9.tar.gz]
 [2024-04-04 05:01:50] INFO root fetch - main [MainThread]: End processing [cloudmesh-vpn]: success
 [2024-04-04 05:01:50] INFO root fetch - main [MainThread]: Store serial: [22615026]
+[2024-04-04 05:03:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615026]
+[2024-04-04 05:03:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 05:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qianfan
+[2024-04-04 05:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hltv-async-api
+[2024-04-04 05:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: curlquest
+[2024-04-04 05:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: devon-agent
+[2024-04-04 05:03:59] INFO root fetch - processPackages [curlquest]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-04 05:03:59] INFO root fetch - processPackages [devon-agent]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-04 05:03:59] INFO root fetch - processPackages [qianfan]: New version: [0.3.7.1] Old Version: [0.3.7]
+[2024-04-04 05:03:59] INFO root fetch - processPackages [hltv-async-api]: New version: [0.4.0b0] Old Version: [0.3.1]
+[2024-04-04 05:03:59] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/88/78/220357049ca4dc4bf12fca7aecc8db278bb02c80d6fb2070bb6417e0e577/curlquest-0.1.0.tar.gz
+[2024-04-04 05:03:59] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/49/95/9c23ea92f6e7076225c15e0619b3b0b10762c6724014fad5c2ed43c7db2b/devon_agent-0.0.6.tar.gz
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 05:03:59] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/d1/92/b3dcab789e25d42b31ae3b26196011e3b6fc60326b585f8612c40aba8c6a/hltv_async_api-0.3.1.tar.gz
+[2024-04-04 05:03:59] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/89/58/02e40d9ca9966e5ce88c82d549a59407a10c8dabedebd778226b7276d5b2/qianfan-0.3.7.tar.gz
+[2024-04-04 05:03:59] INFO root fetch - processPackages [curlquest]: Downloading https://files.pythonhosted.org/packages/6d/14/e1d8fa87a823ef7e0179618c625c10deb0a502919f5a2d29952bd5e0a4f9/curlquest-0.1.1.tar.gz
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-04 05:03:59] INFO root fetch - processPackages [devon-agent]: Downloading https://files.pythonhosted.org/packages/20/4c/3455ac193b5603ce22a725a18837e0f3c38a62b515e10f1a94ab28a4577e/devon_agent-0.0.7.tar.gz
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [qianfan]: Timeout reached during download
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [curlquest]: Timeout reached during download
+[2024-04-04 05:03:59] INFO root fetch - processPackages [curlquest]: executing diffoscope
+[2024-04-04 05:03:59] INFO root fetch - processPackages [curlquest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curlquest-0.1.0.tar.gz tmp/curlquest-0.1.1.tar.gz --markdown 20240404/c/curlquest/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-04 05:03:59] INFO root fetch - processPackages [hltv-async-api]: Downloading https://files.pythonhosted.org/packages/f3/03/31aec40dbcd27b04d67979dafe36cac6a799a95c2b406238ee5668856f2c/hltv_async_api-0.4.0b0.tar.gz
+[2024-04-04 05:03:59] WARNING root fetch - processPackages [devon-agent]: Timeout reached during download
+[2024-04-04 05:03:59] INFO root fetch - processPackages [devon-agent]: executing diffoscope
+[2024-04-04 05:03:59] INFO root fetch - processPackages [devon-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devon_agent-0.0.6.tar.gz tmp/devon_agent-0.0.7.tar.gz --markdown 20240404/d/devon-agent/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-04 05:04:00] INFO root fetch - processPackages [qianfan]: Downloading https://files.pythonhosted.org/packages/c3/e5/dd928d0527b24c15daa6846841333315ac7e192d83a5ac2262ea9cd0b205/qianfan-0.3.7.1.tar.gz
+[2024-04-04 05:04:00] WARNING root fetch - processPackages [hltv-async-api]: Timeout reached during download
+[2024-04-04 05:04:00] INFO root fetch - processPackages [hltv-async-api]: executing diffoscope
+[2024-04-04 05:04:00] INFO root fetch - processPackages [hltv-async-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hltv_async_api-0.3.1.tar.gz tmp/hltv_async_api-0.4.0b0.tar.gz --markdown 20240404/h/hltv-async-api/0.3.1-0.4.0b0/diff.md --exclude *.pyd
+[2024-04-04 05:04:00] WARNING root fetch - processPackages [qianfan]: Timeout reached during download
+[2024-04-04 05:04:00] INFO root fetch - processPackages [qianfan]: executing diffoscope
+[2024-04-04 05:04:00] INFO root fetch - processPackages [qianfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qianfan-0.3.7.tar.gz tmp/qianfan-0.3.7.1.tar.gz --markdown 20240404/q/qianfan/0.3.7-0.3.7.1/diff.md --exclude *.pyd
+[2024-04-04 05:04:00] INFO root fetch - processPackages [curlquest]: Remove: archive file [/home/abi/fetcher/tmp/curlquest-0.1.0.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - processPackages [curlquest]: Remove: archive file [/home/abi/fetcher/tmp/curlquest-0.1.1.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - main [MainThread]: End processing [curlquest]: success
+[2024-04-04 05:04:00] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.6.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - processPackages [devon-agent]: Remove: archive file [/home/abi/fetcher/tmp/devon_agent-0.0.7.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - main [MainThread]: End processing [devon-agent]: success
+[2024-04-04 05:04:00] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.3.1.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - processPackages [hltv-async-api]: Remove: archive file [/home/abi/fetcher/tmp/hltv_async_api-0.4.0b0.tar.gz]
+[2024-04-04 05:04:00] INFO root fetch - main [MainThread]: End processing [hltv-async-api]: success
+[2024-04-04 05:04:01] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.7.tar.gz]
+[2024-04-04 05:04:01] INFO root fetch - processPackages [qianfan]: Remove: archive file [/home/abi/fetcher/tmp/qianfan-0.3.7.1.tar.gz]
+[2024-04-04 05:04:01] INFO root fetch - main [MainThread]: End processing [qianfan]: success
+[2024-04-04 05:04:01] INFO root fetch - main [MainThread]: Store serial: [22615038]
