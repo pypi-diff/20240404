@@ -19540,3 +19540,105 @@
 [2024-04-04 11:32:05] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.9.tar.gz]
 [2024-04-04 11:32:05] INFO root fetch - main [MainThread]: End processing [deploymodel]: success
 [2024-04-04 11:32:05] INFO root fetch - main [MainThread]: Store serial: [22617879]
+[2024-04-04 11:34:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617879]
+[2024-04-04 11:34:14] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tedbuy
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pu-utils
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: labml-app
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easy-configer
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genice2
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PAGETools
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkmavrykchain
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: blueapi
+[2024-04-04 11:34:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: agricore_sp_models
+[2024-04-04 11:34:14] INFO root fetch - processPackages [tedbuy]: New version: [0.0rc1] Old Version: [0.0.dev1]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [easy-configer]: New version: [2.3.1] Old Version: [2.3.0]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [pu-utils]: New version: [0.0.8.dev2] Old Version: [0.0.8.dev1]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [blueapi]: New version: [0.4.1a1] Old Version: [0.4.0]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [PAGETools]: New version: [0.5.2a1] Old Version: [0.5.1]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [labml-app]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [mkmavrykchain]: New version: [6.25.4] Old Version: [6.25.3]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [genice2]: New version: [2.2.5.6] Old Version: [2.2.5.5]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [agricore_sp_models]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-04 11:34:14] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/63/f9/35dcce3daefd72e0b7ad937b61fc83bfa2a788735eae40d7ffaa927a17cc/easy_configer-2.3.0.tar.gz
+[2024-04-04 11:34:14] INFO root fetch - processPackages [pu-utils]: Downloading https://files.pythonhosted.org/packages/5a/ff/0121de4c7554a97f4c73bf35ac49c41322efcdb8b69f7d112de48a4bb767/pu_utils-0.0.8.dev1-py3-none-any.whl
+[2024-04-04 11:34:14] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/86/46/165cafd3bc5d01628fa035780ada8263fefadf869f216d3659959634687b/PAGETools-0.5.1.tar.gz
+[2024-04-04 11:34:14] INFO root fetch - processPackages [labml-app]: Downloading https://files.pythonhosted.org/packages/1f/17/a1658b4bd6a426ebe0648dca8df39d9c5120e36d2a4cc18b202dbe272f0e/labml_app-0.5.2.tar.gz
+[2024-04-04 11:34:14] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/00/35/b3251ef929aaf1f0034e780ed1caf12d42cb5c6bb40bd1ae2db8a460755c/tedbuy-0.0.dev1.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [easy-configer]: Timeout reached during download
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [pu-utils]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/16/b6/601a6d62a5909664770d80135165be8645744a507f8dd8fb9cef916a9996/mkmavrykchain-6.25.3-py3-none-any.whl
+[2024-04-04 11:34:15] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/e3/17/2c96ac62eaa769740e9acf8f8a7c0a7a30046916b00cc9f659882ff27fc1/blueapi-0.4.0.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [genice2]: Downloading https://files.pythonhosted.org/packages/32/76/b2aca8c262c621db003a218d506f3657dae0754e504c39e82fc9669ef08f/genice2-2.2.5.5.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [labml-app]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/99/3b/b1847ba262596ccdb2f2745d722aa75dade6d77edde9077aa24e0867d5f0/agricore_sp_models-0.5.8.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [mkmavrykchain]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [pu-utils]: Downloading https://files.pythonhosted.org/packages/7d/12/b8f5c244402e005d39fd4f0a22c7f0b2a00c5448091c74fff8a798f05c08/pu_utils-0.0.8.dev2-py3-none-any.whl
+[2024-04-04 11:34:15] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/72/47/84811f5327b48d4d1f064084129543319f9eb636c632ea552ecf5f0ded57/easy_configer-2.3.1.tar.gz
+[2024-04-04 11:34:15] INFO root fetch - processPackages [PAGETools]: Downloading https://files.pythonhosted.org/packages/65/25/e3e1ee729b0a8db5dd4fb2f549966851c0f3975a130fa5561b974f1c86ff/PAGETools-0.5.2a1-py3-none-any.whl
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [agricore_sp_models]: Timeout reached during download
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [genice2]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [labml-app]: Downloading https://files.pythonhosted.org/packages/af/ac/be124dba89ba8f59da89a554ef2e6ad7edc139e72c2a7a838891e2170dd9/labml_app-0.5.3.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [blueapi]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [mkmavrykchain]: Downloading https://files.pythonhosted.org/packages/e6/b3/efd5946c776369ce5275d28f7f4acf5ed284e96b1bb568046f31ea86d8e3/mkmavrykchain-6.25.4-py3-none-any.whl
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [easy-configer]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-2.3.0.tar.gz tmp/easy_configer-2.3.1.tar.gz --markdown 20240404/e/easy-configer/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] INFO root fetch - processPackages [genice2]: Downloading https://files.pythonhosted.org/packages/4c/5a/ac9005756707a30507866c3fd7401cd33a8eb28f500ad1808b220cf5b522/genice2-2.2.5.6-py3-none-any.whl
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [pu-utils]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [pu-utils]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [pu-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pu_utils-0.0.8.dev1-py3-none-any.whl.zip tmp/pu_utils-0.0.8.dev2-py3-none-any.whl.zip --markdown 20240404/p/pu-utils/0.0.8.dev1-0.0.8.dev2/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [labml-app]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [tedbuy]: Downloading https://files.pythonhosted.org/packages/36/38/efa7688a92085ab245b8c25f3d84712f9bf5e60f48e68ffe767a2fdf198d/tedbuy-0.0rc1.tar.gz
+[2024-04-04 11:34:15] INFO root fetch - processPackages [labml-app]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [labml-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labml_app-0.5.2.tar.gz tmp/labml_app-0.5.3.tar.gz --markdown 20240404/l/labml-app/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [PAGETools]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [PAGETools]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [PAGETools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PAGETools-0.5.1.tar.gz tmp/PAGETools-0.5.2a1-py3-none-any.whl.zip --markdown 20240404/P/PAGETools/0.5.1-0.5.2a1/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] INFO root fetch - processPackages [blueapi]: Downloading https://files.pythonhosted.org/packages/80/dc/371be1493c31055da0cdfa61a8031e0a60859760c671766fe479486ec211/blueapi-0.4.1a1.tar.gz
+[2024-04-04 11:34:15] INFO root fetch - processPackages [agricore_sp_models]: Downloading https://files.pythonhosted.org/packages/4f/c3/15dc30bfa86b2dc97f35cb28d8ef45f99d8a64f480013f5b15c7b47dde11/agricore_sp_models-0.5.9.tar.gz
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [tedbuy]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [tedbuy]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [tedbuy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tedbuy-0.0.dev1.tar.gz tmp/tedbuy-0.0rc1.tar.gz --markdown 20240404/t/tedbuy/0.0.dev1-0.0rc1/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [agricore_sp_models]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [agricore_sp_models]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [agricore_sp_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agricore_sp_models-0.5.8.tar.gz tmp/agricore_sp_models-0.5.9.tar.gz --markdown 20240404/a/agricore_sp_models/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [genice2]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [genice2]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [genice2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2-2.2.5.5.tar.gz tmp/genice2-2.2.5.6-py3-none-any.whl.zip --markdown 20240404/g/genice2/2.2.5.5-2.2.5.6/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [mkmavrykchain]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [mkmavrykchain]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [mkmavrykchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkmavrykchain-6.25.3-py3-none-any.whl.zip tmp/mkmavrykchain-6.25.4-py3-none-any.whl.zip --markdown 20240404/m/mkmavrykchain/6.25.3-6.25.4/diff.md --exclude *.pyd
+[2024-04-04 11:34:15] WARNING root fetch - processPackages [blueapi]: Timeout reached during download
+[2024-04-04 11:34:15] INFO root fetch - processPackages [blueapi]: executing diffoscope
+[2024-04-04 11:34:15] INFO root fetch - processPackages [blueapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapi-0.4.0.tar.gz tmp/blueapi-0.4.1a1.tar.gz --markdown 20240404/b/blueapi/0.4.0-0.4.1a1/diff.md --exclude *.pyd
+[2024-04-04 11:34:16] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.3.0.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.3.1.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.1.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [PAGETools]: Remove: archive file [/home/abi/fetcher/tmp/PAGETools-0.5.2a1-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [PAGETools]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0.dev1.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [tedbuy]: Remove: archive file [/home/abi/fetcher/tmp/tedbuy-0.0rc1.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [tedbuy]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [pu-utils]: Remove: archive file [/home/abi/fetcher/tmp/pu_utils-0.0.8.dev1-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [pu-utils]: Remove: archive file [/home/abi/fetcher/tmp/pu_utils-0.0.8.dev2-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [pu-utils]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.8.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [agricore_sp_models]: Remove: archive file [/home/abi/fetcher/tmp/agricore_sp_models-0.5.9.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [agricore_sp_models]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.3-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [mkmavrykchain]: Remove: archive file [/home/abi/fetcher/tmp/mkmavrykchain-6.25.4-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [mkmavrykchain]: success
+[2024-04-04 11:34:16] INFO root fetch - processPackages [genice2]: Remove: archive file [/home/abi/fetcher/tmp/genice2-2.2.5.5.tar.gz]
+[2024-04-04 11:34:16] INFO root fetch - processPackages [genice2]: Remove: archive file [/home/abi/fetcher/tmp/genice2-2.2.5.6-py3-none-any.whl.zip]
+[2024-04-04 11:34:16] INFO root fetch - main [MainThread]: End processing [genice2]: success
+[2024-04-04 11:34:17] INFO root fetch - processPackages [blueapi]: Remove: archive file [/home/abi/fetcher/tmp/blueapi-0.4.0.tar.gz]
+[2024-04-04 11:34:17] INFO root fetch - processPackages [blueapi]: Remove: archive file [/home/abi/fetcher/tmp/blueapi-0.4.1a1.tar.gz]
+[2024-04-04 11:34:17] INFO root fetch - main [MainThread]: End processing [blueapi]: success
+[2024-04-04 11:34:20] INFO root fetch - processPackages [labml-app]: Remove: archive file [/home/abi/fetcher/tmp/labml_app-0.5.2.tar.gz]
+[2024-04-04 11:34:20] INFO root fetch - processPackages [labml-app]: Remove: archive file [/home/abi/fetcher/tmp/labml_app-0.5.3.tar.gz]
+[2024-04-04 11:34:20] INFO root fetch - main [MainThread]: End processing [labml-app]: success
+[2024-04-04 11:34:20] INFO root fetch - main [MainThread]: Store serial: [22617909]
