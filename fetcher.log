@@ -10308,3 +10308,64 @@
 [2024-04-04 04:25:59] INFO root fetch - processPackages [opus-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/opus_protobuf-1.0.54.tar.gz]
 [2024-04-04 04:25:59] INFO root fetch - main [MainThread]: End processing [opus-protobuf]: success
 [2024-04-04 04:25:59] INFO root fetch - main [MainThread]: Store serial: [22614816]
+[2024-04-04 04:28:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614816]
+[2024-04-04 04:28:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: llmreader
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fovus
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qtlink
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-rust-regex
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autopipeline
+[2024-04-04 04:28:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: awsconsurl
+[2024-04-04 04:28:09] INFO root fetch - processPackages [awsconsurl]: New version: [24.4.4] Old Version: [24.4.3]
+[2024-04-04 04:28:09] INFO root fetch - processPackages [fovus]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [py-rust-regex]: Skipping, unable to determine old version
+[2024-04-04 04:28:09] INFO root fetch - processPackages [qtlink]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-04 04:28:09] INFO root fetch - processPackages [llmreader]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-04 04:28:09] INFO root fetch - main [MainThread]: End processing [py-rust-regex] error
+[2024-04-04 04:28:09] INFO root fetch - processPackages [autopipeline]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-04 04:28:09] INFO root fetch - processPackages [awsconsurl]: Downloading https://files.pythonhosted.org/packages/95/41/c6b6b008fadf762bf972f39f62992693ee1e9bbdb0276d38e7daee0a9ff6/awsconsurl-24.4.3.tar.gz
+[2024-04-04 04:28:09] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/0f/9eaf209b6d540115afdc9ae31de828df0234756277bceae49a4d1a0ea8b3/autopipeline-0.1.98.tar.gz
+[2024-04-04 04:28:09] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/7e/59/295172e2f247df589c99421e3addafe4485f413ff75acc7979aeb57a19a8/qtlink-1.0.3.tar.gz
+[2024-04-04 04:28:09] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/82/5e/26866f69b176b8661d0440f847a1172196a295ef3a9d01b11dd0125976a5/llmreader-0.2.3.tar.gz
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [awsconsurl]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/f1/c0/a4dd2e0c61704585bdca841ea8725ea766a28aec0b849d1254506e8a65bc/fovus-1.1.8-py3-none-any.whl
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [qtlink]: Timeout reached during download
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [awsconsurl]: Downloading https://files.pythonhosted.org/packages/8f/42/7dc543aa85bcdde195211f014b348c51d2c7f241f3ba4d072b45e37d7294/awsconsurl-24.4.4.tar.gz
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [fovus]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [autopipeline]: Downloading https://files.pythonhosted.org/packages/5f/4a/f3df97d414e0a5e9120459fd5c7ab663092d540df59f7deacc45810deb41/autopipeline-0.1.99.tar.gz
+[2024-04-04 04:28:09] INFO root fetch - processPackages [qtlink]: Downloading https://files.pythonhosted.org/packages/18/1e/784379cdc8753ebe50f7b6aa71377ce17a56d511d517209ac8c1f705e878/qtlink-1.0.4.tar.gz
+[2024-04-04 04:28:09] INFO root fetch - processPackages [llmreader]: Downloading https://files.pythonhosted.org/packages/f6/63/96584bf914eb273f27c883957037cd8d1f1017eedcf660f709c4d39fb06c/llmreader-0.2.4.tar.gz
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [awsconsurl]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [awsconsurl]: executing diffoscope
+[2024-04-04 04:28:09] INFO root fetch - processPackages [awsconsurl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsconsurl-24.4.3.tar.gz tmp/awsconsurl-24.4.4.tar.gz --markdown 20240404/a/awsconsurl/24.4.3-24.4.4/diff.md --exclude *.pyd
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [autopipeline]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [autopipeline]: executing diffoscope
+[2024-04-04 04:28:09] INFO root fetch - processPackages [autopipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autopipeline-0.1.98.tar.gz tmp/autopipeline-0.1.99.tar.gz --markdown 20240404/a/autopipeline/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [qtlink]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [qtlink]: executing diffoscope
+[2024-04-04 04:28:09] INFO root fetch - processPackages [qtlink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtlink-1.0.3.tar.gz tmp/qtlink-1.0.4.tar.gz --markdown 20240404/q/qtlink/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [llmreader]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [llmreader]: executing diffoscope
+[2024-04-04 04:28:09] INFO root fetch - processPackages [llmreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmreader-0.2.3.tar.gz tmp/llmreader-0.2.4.tar.gz --markdown 20240404/l/llmreader/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-04 04:28:09] INFO root fetch - processPackages [fovus]: Downloading https://files.pythonhosted.org/packages/c1/f1/029dd56d05c770d6266c20505b366fc3143f86b85514545e2ef77ededba7/fovus-1.1.9-py3-none-any.whl
+[2024-04-04 04:28:09] WARNING root fetch - processPackages [fovus]: Timeout reached during download
+[2024-04-04 04:28:09] INFO root fetch - processPackages [fovus]: executing diffoscope
+[2024-04-04 04:28:09] INFO root fetch - processPackages [fovus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fovus-1.1.8-py3-none-any.whl.zip tmp/fovus-1.1.9-py3-none-any.whl.zip --markdown 20240404/f/fovus/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-04 04:28:10] INFO root fetch - processPackages [awsconsurl]: Remove: archive file [/home/abi/fetcher/tmp/awsconsurl-24.4.3.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - processPackages [awsconsurl]: Remove: archive file [/home/abi/fetcher/tmp/awsconsurl-24.4.4.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [awsconsurl]: success
+[2024-04-04 04:28:10] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.98.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - processPackages [autopipeline]: Remove: archive file [/home/abi/fetcher/tmp/autopipeline-0.1.99.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [autopipeline]: success
+[2024-04-04 04:28:10] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.3.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - processPackages [llmreader]: Remove: archive file [/home/abi/fetcher/tmp/llmreader-0.2.4.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [llmreader]: success
+[2024-04-04 04:28:10] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.3.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - processPackages [qtlink]: Remove: archive file [/home/abi/fetcher/tmp/qtlink-1.0.4.tar.gz]
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [qtlink]: success
+[2024-04-04 04:28:10] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.1.8-py3-none-any.whl.zip]
+[2024-04-04 04:28:10] INFO root fetch - processPackages [fovus]: Remove: archive file [/home/abi/fetcher/tmp/fovus-1.1.9-py3-none-any.whl.zip]
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: End processing [fovus]: success
+[2024-04-04 04:28:10] INFO root fetch - main [MainThread]: Store serial: [22614835]
