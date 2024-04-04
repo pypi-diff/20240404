@@ -12055,3 +12055,61 @@
 [2024-04-04 06:13:40] INFO root fetch - processPackages [patchwork-cli]: Remove: archive file [/home/abi/fetcher/tmp/patchwork_cli-0.0.3.tar.gz]
 [2024-04-04 06:13:40] INFO root fetch - main [MainThread]: End processing [patchwork-cli]: success
 [2024-04-04 06:13:40] INFO root fetch - main [MainThread]: Store serial: [22615378]
+[2024-04-04 06:15:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615378]
+[2024-04-04 06:15:49] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: snowflake-connector-python-nightly
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mo-streams
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ggml-python
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CodingRider
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ColdTOFU
+[2024-04-04 06:15:49] INFO root fetch - processPackages [CodingRider]: New version: [1.1] Old Version: [0.2]
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ggml-python]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 06:15:49] INFO root fetch - processPackages [mo-streams]: New version: [1.582.24095] Old Version: [1.579.24081]
+[2024-04-04 06:15:49] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ColdTOFU]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-04 06:15:49] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a4/a6/72a3a1b75015aa10fc1a634df9de7395e5ee3098cc8a40b9ad52e9903308/ggml-python-0.0.8.tar.gz
+[2024-04-04 06:15:49] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/2a/62/15942963fa090c01da088f74745f5da494bc542434a3c61af74715a7b2e3/snowflake-connector-python-nightly-2024.4.3.tar.gz
+[2024-04-04 06:15:49] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/ca/7d/29905dfd84806884c761a70c5bdfa9e019d40bb21bc18ab71edfaf2788bc/CodingRider-0.2.tar.gz
+[2024-04-04 06:15:49] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/04/fa/64f6db93bf31070a529612b77db97f9c88911f555e38db96376bbab45b9c/mo-streams-1.579.24081.tar.gz
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Timeout reached during download
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [ggml-python]: Timeout reached during download
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [mo-streams]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ColdTOFU]: Downloading https://files.pythonhosted.org/packages/1b/e4/7536b087d41b4764670c9cd3b4911a4ace2fd142f33da6782f1bb10cea30/ColdTOFU-0.1.1.tar.gz
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [mo-streams]: Downloading https://files.pythonhosted.org/packages/0d/91/5c9923a0eeb6d5e5f4ec1578ebbef936c78635ea5e581ce8acdfd4108d6e/mo-streams-1.582.24095.tar.gz
+[2024-04-04 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/12/c3/4f218d7aee744ff4a81b162500c54788da9c3b3370b16f12d83c186af581/snowflake-connector-python-nightly-2024.4.4.tar.gz
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ggml-python]: Downloading https://files.pythonhosted.org/packages/a0/03/ddddac6caff850b83571ae83647e2da367b79168d84b90d423f01d4e12bc/ggml-python-0.0.9.tar.gz
+[2024-04-04 06:15:50] INFO root fetch - processPackages [CodingRider]: Downloading https://files.pythonhosted.org/packages/79/fe/d19a6e1a22be9807379ff1e23768ae1ba85760123137d738b9bdc7493021/CodingRider-1.1.tar.gz
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [ColdTOFU]: Timeout reached during download
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [mo-streams]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [mo-streams]: executing diffoscope
+[2024-04-04 06:15:50] INFO root fetch - processPackages [mo-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo-streams-1.579.24081.tar.gz tmp/mo-streams-1.582.24095.tar.gz --markdown 20240404/m/mo-streams/1.579.24081-1.582.24095/diff.md --exclude *.pyd
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [CodingRider]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [CodingRider]: executing diffoscope
+[2024-04-04 06:15:50] INFO root fetch - processPackages [CodingRider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodingRider-0.2.tar.gz tmp/CodingRider-1.1.tar.gz --markdown 20240404/C/CodingRider/0.2-1.1/diff.md --exclude *.pyd
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [ggml-python]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ggml-python]: executing diffoscope
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ggml-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggml-python-0.0.8.tar.gz tmp/ggml-python-0.0.9.tar.gz --markdown 20240404/g/ggml-python/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [snowflake-connector-python-nightly]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2024-04-04 06:15:50] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2024.4.3.tar.gz tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz --markdown 20240404/s/snowflake-connector-python-nightly/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ColdTOFU]: Downloading https://files.pythonhosted.org/packages/a7/d3/fac3b390774ec71e0893caa8a999a85ba06bcb613b355fbd1f4809109e24/ColdTOFU-0.1.2.tar.gz
+[2024-04-04 06:15:50] WARNING root fetch - processPackages [ColdTOFU]: Timeout reached during download
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ColdTOFU]: executing diffoscope
+[2024-04-04 06:15:50] INFO root fetch - processPackages [ColdTOFU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColdTOFU-0.1.1.tar.gz tmp/ColdTOFU-0.1.2.tar.gz --markdown 20240404/C/ColdTOFU/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-04 06:15:51] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo-streams-1.579.24081.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - processPackages [mo-streams]: Remove: archive file [/home/abi/fetcher/tmp/mo-streams-1.582.24095.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - main [MainThread]: End processing [mo-streams]: success
+[2024-04-04 06:15:51] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-0.2.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - processPackages [CodingRider]: Remove: archive file [/home/abi/fetcher/tmp/CodingRider-1.1.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - main [MainThread]: End processing [CodingRider]: success
+[2024-04-04 06:15:51] INFO root fetch - processPackages [ColdTOFU]: Remove: archive file [/home/abi/fetcher/tmp/ColdTOFU-0.1.1.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - processPackages [ColdTOFU]: Remove: archive file [/home/abi/fetcher/tmp/ColdTOFU-0.1.2.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - main [MainThread]: End processing [ColdTOFU]: success
+[2024-04-04 06:15:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.3.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2024.4.4.tar.gz]
+[2024-04-04 06:15:51] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2024-04-04 06:15:52] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.8.tar.gz]
+[2024-04-04 06:15:52] INFO root fetch - processPackages [ggml-python]: Remove: archive file [/home/abi/fetcher/tmp/ggml-python-0.0.9.tar.gz]
+[2024-04-04 06:15:52] INFO root fetch - main [MainThread]: End processing [ggml-python]: success
+[2024-04-04 06:15:52] INFO root fetch - main [MainThread]: Store serial: [22615415]
