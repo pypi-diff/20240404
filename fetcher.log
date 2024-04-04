@@ -10455,3 +10455,28 @@
 [2024-04-04 04:34:41] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
 [2024-04-04 04:34:41] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
 [2024-04-04 04:34:41] INFO root fetch - main [MainThread]: Store serial: [22614864]
+[2024-04-04 04:36:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22614864]
+[2024-04-04 04:36:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 04:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yowasp-yosys
+[2024-04-04 04:36:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gvsbuild
+[2024-04-04 04:36:50] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2024-04-04 04:36:50] INFO root fetch - processPackages [gvsbuild]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-04 04:36:50] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2024-04-04 04:36:50] INFO root fetch - processPackages [gvsbuild]: Downloading https://files.pythonhosted.org/packages/52/ae/5ffcb3dc10722cf2d800496752b2da36d169821b45100ed82381e49a7218/gvsbuild-2024.3.1.tar.gz
+[2024-04-04 04:36:50] WARNING root fetch - processPackages [gvsbuild]: Timeout reached during download
+[2024-04-04 04:36:51] INFO root fetch - processPackages [gvsbuild]: Downloading https://files.pythonhosted.org/packages/f2/11/4bdb86745012526ab8accacdbef06be753d9d1e7557105f0232600d692f5/gvsbuild-2024.4.0.tar.gz
+[2024-04-04 04:36:51] WARNING root fetch - processPackages [gvsbuild]: Timeout reached during download
+[2024-04-04 04:36:51] INFO root fetch - processPackages [gvsbuild]: executing diffoscope
+[2024-04-04 04:36:51] INFO root fetch - processPackages [gvsbuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gvsbuild-2024.3.1.tar.gz tmp/gvsbuild-2024.4.0.tar.gz --markdown 20240404/g/gvsbuild/2024.3.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-04 04:36:52] WARNING root fetch - processPackages [yowasp-yosys]: Timeout reached during download
+[2024-04-04 04:36:53] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2024-04-04 04:36:54] WARNING root fetch - processPackages [yowasp-yosys]: Timeout reached during download
+[2024-04-04 04:36:54] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2024-04-04 04:36:54] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20240404/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/diff.md --exclude *.pyd
+[2024-04-04 04:36:56] INFO root fetch - processPackages [gvsbuild]: Remove: archive file [/home/abi/fetcher/tmp/gvsbuild-2024.3.1.tar.gz]
+[2024-04-04 04:36:56] INFO root fetch - processPackages [gvsbuild]: Remove: archive file [/home/abi/fetcher/tmp/gvsbuild-2024.4.0.tar.gz]
+[2024-04-04 04:36:56] INFO root fetch - main [MainThread]: End processing [gvsbuild]: success
+[2024-04-04 04:37:51] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip]
+[2024-04-04 04:37:51] INFO root fetch - processPackages [yowasp-yosys]: Remove: archive file [/home/abi/fetcher/tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip]
+[2024-04-04 04:37:51] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2024-04-04 04:37:51] INFO root fetch - main [MainThread]: Store serial: [22614869]
