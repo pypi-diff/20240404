@@ -3102,3 +3102,119 @@
 [2024-04-04 02:13:55] INFO root fetch - processPackages [substack-api]: Remove: archive file [/home/abi/fetcher/tmp/substack_api-0.1.0.tar.gz]
 [2024-04-04 02:13:55] INFO root fetch - main [MainThread]: End processing [substack-api]: success
 [2024-04-04 02:13:55] INFO root fetch - main [MainThread]: Store serial: [22612649]
+[2024-04-04 02:15:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22612649]
+[2024-04-04 02:16:03] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxflow
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-gitlab-runner
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytorch-ignite
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sopp
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-events-notify
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vuer
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-common
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-nag
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pythagoras
+[2024-04-04 02:16:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: systembridgeconnector
+[2024-04-04 02:16:03] WARNING root fetch - processPackages [dxflow]: Skipping, unable to determine old version
+[2024-04-04 02:16:03] INFO root fetch - processPackages [dxflow]: Start processing: cdk-skylight
+[2024-04-04 02:16:03] INFO root fetch - main [MainThread]: End processing [dxflow] error
+[2024-04-04 02:16:03] INFO root fetch - processPackages [vuer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [pythagoras]: New version: [0.10.38] Old Version: [0.10.37]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [sopp]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [systembridgeconnector]: New version: [5.0.0.dev1] Old Version: [5.0.0.dev0]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.9] Old Version: [2.2.89]
+[2024-04-04 02:16:03] INFO root fetch - processPackages [pytorch-ignite]: New version: [0.6.0.dev20240404] Old Version: [0.6.0.dev20240403]
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/d3/0b/39a2aba7c3b4e06035eff85c0d205d934ff0b291b0f2f7860006932bf943/pythagoras-0.10.37.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/6b/a4/9c6da8ed880f81267484340823b2c45b7f50d110ae8040d6e6a1e3ac22a9/systembridgeconnector-5.0.0.dev0.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [sopp]: Downloading https://files.pythonhosted.org/packages/1a/9c/fcbea427870d7b264aa6cdcc9f51c1a7584c42bdf975af26e68128383ac1/sopp-0.8.0.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/14/ea/4ed23f119eafd70cda97b4911e041767f825880f34f1770da786691d361c/vuer-0.0.8-py3-none-any.whl
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/5f/59/777ecfa9285cf428e609d415e5ad95815977ad05d3c727141c29cb75e528/pytorch-ignite-0.6.0.dev20240403.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [systembridgeconnector]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/0c/d7/e142297345761dd02cb856b6dcd190973789aeb4b1e44e9758bde48e0b9b/cdk-events-notify-2.2.89.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [vuer]: Timeout reached during download
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [sopp]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdktf-gitlab-runner]: Timeout reached during download
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [pytorch-ignite]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [systembridgeconnector]: Downloading https://files.pythonhosted.org/packages/d7/7d/883418504a70235a27ef8526ca75ae6edafe0d04d7b1c3434656e245befa/systembridgeconnector-5.0.0.dev1.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pythagoras]: Downloading https://files.pythonhosted.org/packages/f9/0c/1392fb542389cf4d47916c2fcbe8359d2a0eba6ce3b941107ec31e47d4c9/pythagoras-0.10.38.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [sopp]: Downloading https://files.pythonhosted.org/packages/05/92/809687f520e3e45e3e5e7cda60dc914cf62ad733b71521d1bcce45bf2375/sopp-0.8.1.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdk-skylight]: Timeout reached during download
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdk-nag]: Timeout reached during download
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [systembridgeconnector]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [systembridgeconnector]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [systembridgeconnector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/systembridgeconnector-5.0.0.dev0.tar.gz tmp/systembridgeconnector-5.0.0.dev1.tar.gz --markdown 20240404/s/systembridgeconnector/5.0.0.dev0-5.0.0.dev1/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] INFO root fetch - processPackages [vuer]: Downloading https://files.pythonhosted.org/packages/25/f1/9174198521ef27b8c45231bf0d7003073ba3ae6fb4be3b18c0a18c4ce749/vuer-0.0.9-py3-none-any.whl
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [pythagoras]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pythagoras]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pythagoras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythagoras-0.10.37.tar.gz tmp/pythagoras-0.10.38.tar.gz --markdown 20240404/p/pythagoras/0.10.37-0.10.38/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: Downloading https://files.pythonhosted.org/packages/1e/67/13afa2247f20714c4a8f218b8fb7be284b5549eb798e58d75635ed6b27c9/pytorch-ignite-0.6.0.dev20240404.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a1/0e/5c24157512e0888da0f9517ac3e7fadfeda39580f53c9d502c41814e9212/cdk-events-notify-2.2.9.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [sopp]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [sopp]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [sopp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopp-0.8.0.tar.gz tmp/sopp-0.8.1.tar.gz --markdown 20240404/s/sopp/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [vuer]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [vuer]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [vuer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vuer-0.0.8-py3-none-any.whl.zip tmp/vuer-0.0.9-py3-none-any.whl.zip --markdown 20240404/v/vuer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdk-events-notify]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.89.tar.gz tmp/cdk-events-notify-2.2.9.tar.gz --markdown 20240404/c/cdk-events-notify/2.2.89-2.2.9/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [pytorch-ignite]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [pytorch-ignite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-ignite-0.6.0.dev20240403.tar.gz tmp/pytorch-ignite-0.6.0.dev20240404.tar.gz --markdown 20240404/p/pytorch-ignite/0.6.0.dev20240403-0.6.0.dev20240404/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-04 02:16:04] WARNING root fetch - processPackages [cdktf-gitlab-runner]: Timeout reached during download
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240404/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:16:04] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-04 02:16:05] WARNING root fetch - processPackages [cdk-skylight]: Timeout reached during download
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240404/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2024-04-04 02:16:05] WARNING root fetch - processPackages [cdk-common]: Timeout reached during download
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240404/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-04 02:16:05] WARNING root fetch - processPackages [cdk-nag]: Timeout reached during download
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240404/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2024-04-04 02:16:05] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-5.0.0.dev0.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [systembridgeconnector]: Remove: archive file [/home/abi/fetcher/tmp/systembridgeconnector-5.0.0.dev1.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [systembridgeconnector]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.89.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.9.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.37.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [pythagoras]: Remove: archive file [/home/abi/fetcher/tmp/pythagoras-0.10.38.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [pythagoras]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [sopp]: Remove: archive file [/home/abi/fetcher/tmp/sopp-0.8.0.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [sopp]: Remove: archive file [/home/abi/fetcher/tmp/sopp-0.8.1.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [sopp]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.8-py3-none-any.whl.zip]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [vuer]: Remove: archive file [/home/abi/fetcher/tmp/vuer-0.0.9-py3-none-any.whl.zip]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [vuer]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-04 02:16:05] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-04 02:16:06] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-04 02:16:06] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240403.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - processPackages [pytorch-ignite]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-ignite-0.6.0.dev20240404.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - main [MainThread]: End processing [pytorch-ignite]: success
+[2024-04-04 02:16:06] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-04 02:16:06] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-04 02:16:06] INFO root fetch - main [MainThread]: Store serial: [22612682]
