@@ -13768,3 +13768,39 @@
 [2024-04-04 07:44:20] INFO root fetch - processPackages [cryptoowl]: Remove: archive file [/home/abi/fetcher/tmp/cryptoowl-0.0.9.tar.gz]
 [2024-04-04 07:44:20] INFO root fetch - main [MainThread]: End processing [cryptoowl]: success
 [2024-04-04 07:44:20] INFO root fetch - main [MainThread]: Store serial: [22615938]
+[2024-04-04 07:46:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615938]
+[2024-04-04 07:46:28] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-04 07:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2024-04-04 07:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Python-Algorithm-pyal
+[2024-04-04 07:46:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kdp-python-connector
+[2024-04-04 07:46:28] INFO root fetch - processPackages [Python-Algorithm-pyal]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-04 07:46:28] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.62.0] Old Version: [0.60.0]
+[2024-04-04 07:46:28] INFO root fetch - processPackages [vector-vault]: New version: [4.3.0] Old Version: [4.2.9]
+[2024-04-04 07:46:29] INFO root fetch - processPackages [Python-Algorithm-pyal]: Downloading https://files.pythonhosted.org/packages/ac/56/2da193041d889cda91498c3df4ef61ebbdda89f59da7c39e398005e74873/Python-Algorithm-pyal-1.2.1.tar.gz
+[2024-04-04 07:46:29] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/36/8f/28228bbde235794ae09f339d48bee9c73dd7526cd4afde535b0a2badbc7a/vector_vault-4.2.9.tar.gz
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [Python-Algorithm-pyal]: Timeout reached during download
+[2024-04-04 07:46:29] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/40/81/4d5cd9b2945c0d49ad50373a64dc33292ce57cefe6dab9a2fe980a1a699e/kdp-python-connector-0.60.0.tar.gz
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-04 07:46:29] INFO root fetch - processPackages [Python-Algorithm-pyal]: Downloading https://files.pythonhosted.org/packages/1d/b4/3b57083c5c186de903dfa7b239b9c7dfcc274fd5c7ea49845f26741b3d9b/Python-Algorithm-pyal-1.2.2.tar.gz
+[2024-04-04 07:46:29] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/44/41/9b023562620011701a0ae97d16d68ba2272ba84f0b18da71156e5cc3af4c/vector_vault-4.3.0.tar.gz
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [Python-Algorithm-pyal]: Timeout reached during download
+[2024-04-04 07:46:29] INFO root fetch - processPackages [Python-Algorithm-pyal]: executing diffoscope
+[2024-04-04 07:46:29] INFO root fetch - processPackages [Python-Algorithm-pyal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Python-Algorithm-pyal-1.2.1.tar.gz tmp/Python-Algorithm-pyal-1.2.2.tar.gz --markdown 20240404/P/Python-Algorithm-pyal/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-04 07:46:29] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/6b/19/fc01f3d98ee0192439eeed417c5820637b7b80dff0da97fba0c6ae9db877/kdp-python-connector-0.62.0.tar.gz
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [vector-vault]: Timeout reached during download
+[2024-04-04 07:46:29] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-04 07:46:29] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.2.9.tar.gz tmp/vector_vault-4.3.0.tar.gz --markdown 20240404/v/vector-vault/4.2.9-4.3.0/diff.md --exclude *.pyd
+[2024-04-04 07:46:29] WARNING root fetch - processPackages [kdp-python-connector]: Timeout reached during download
+[2024-04-04 07:46:29] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-04 07:46:29] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.60.0.tar.gz tmp/kdp-python-connector-0.62.0.tar.gz --markdown 20240404/k/kdp-python-connector/0.60.0-0.62.0/diff.md --exclude *.pyd
+[2024-04-04 07:46:30] INFO root fetch - processPackages [Python-Algorithm-pyal]: Remove: archive file [/home/abi/fetcher/tmp/Python-Algorithm-pyal-1.2.1.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - processPackages [Python-Algorithm-pyal]: Remove: archive file [/home/abi/fetcher/tmp/Python-Algorithm-pyal-1.2.2.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - main [MainThread]: End processing [Python-Algorithm-pyal]: success
+[2024-04-04 07:46:30] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.9.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.3.0.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-04 07:46:30] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.60.0.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.62.0.tar.gz]
+[2024-04-04 07:46:30] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-04 07:46:30] INFO root fetch - main [MainThread]: Store serial: [22615948]
