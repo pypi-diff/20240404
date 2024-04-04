@@ -12255,3 +12255,17 @@
 [2024-04-04 06:31:19] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-04 06:31:19] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-04 06:31:19] INFO root fetch - main [MainThread]: Store serial: [22615456]
+[2024-04-04 06:33:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22615456]
+[2024-04-04 06:33:27] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-04 06:33:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suql
+[2024-04-04 06:33:27] INFO root fetch - processPackages [suql]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-04-04 06:33:27] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/de/0c/7cb16d0e3e824067961eb999ffcab9c8fe7cb9f36e055c68d3d8ce3528c1/suql-1.0.0a1.tar.gz
+[2024-04-04 06:33:28] WARNING root fetch - processPackages [suql]: Timeout reached during download
+[2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: Downloading https://files.pythonhosted.org/packages/9b/1b/dd5fb40b1a3c53ee521fd0d30c63d06932a6df97f4c6963f531683c9bab3/suql-1.0.0a2.tar.gz
+[2024-04-04 06:33:28] WARNING root fetch - processPackages [suql]: Timeout reached during download
+[2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: executing diffoscope
+[2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/suql-1.0.0a1.tar.gz tmp/suql-1.0.0a2.tar.gz --markdown 20240404/s/suql/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.0.0a1.tar.gz]
+[2024-04-04 06:33:28] INFO root fetch - processPackages [suql]: Remove: archive file [/home/abi/fetcher/tmp/suql-1.0.0a2.tar.gz]
+[2024-04-04 06:33:28] INFO root fetch - main [MainThread]: End processing [suql]: success
+[2024-04-04 06:33:28] INFO root fetch - main [MainThread]: Store serial: [22615459]
