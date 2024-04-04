@@ -20556,3 +20556,50 @@
 [2024-04-04 12:04:29] INFO root fetch - processPackages [evtx]: Remove: archive file [/home/abi/fetcher/tmp/evtx-0.8.4-cp37-abi3-win_amd64.whl.zip]
 [2024-04-04 12:04:29] INFO root fetch - main [MainThread]: End processing [evtx]: success
 [2024-04-04 12:04:29] INFO root fetch - main [MainThread]: Store serial: [22618193]
+[2024-04-04 12:06:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618193]
+[2024-04-04 12:06:38] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 12:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btcs-crypto-systems
+[2024-04-04 12:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitmat-tl
+[2024-04-04 12:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byma
+[2024-04-04 12:06:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlx-exec
+[2024-04-04 12:06:38] INFO root fetch - processPackages [byma]: New version: [0.1.0] Old Version: [0.0.25]
+[2024-04-04 12:06:38] INFO root fetch - processPackages [bitmat-tl]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-04 12:06:38] INFO root fetch - processPackages [btcs-crypto-systems]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-04 12:06:38] INFO root fetch - processPackages [sqlx-exec]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-04 12:06:38] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/ef/0d/43b93ea91c052bf24c4f6b1a3d995aad5ff75515739d55275cbe28d33961/byma-0.0.25.tar.gz
+[2024-04-04 12:06:38] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/c8/fb/e592910d7514750293d4f2f52bc931434336d53a1cb7733c4be7cabcbc53/bitmat-tl-0.2.7.tar.gz
+[2024-04-04 12:06:38] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/d0/52/825c523da9e5751d66102f5ad1a28387836af898d37157d586121e00b4e1/btcs_crypto_systems-0.0.8.tar.gz
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [byma]: Timeout reached during download
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [bitmat-tl]: Timeout reached during download
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 12:06:38] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/74/29/f2630b222ccb39250b93530b61eedfc7deed0006566fd9013c17ee10c260/bitmat-tl-0.2.8.tar.gz
+[2024-04-04 12:06:38] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/df/15/a6dc73539202f089194e9db0db85573b9d3b93e38ae8cd075fb4c32f0bb0/sqlx-exec-2.3.2.tar.gz
+[2024-04-04 12:06:38] INFO root fetch - processPackages [byma]: Downloading https://files.pythonhosted.org/packages/d7/c6/6b02e208b5cb77b2a452e9ab826e564073708e123fe902f0abf23f0d51de/byma-0.1.0.tar.gz
+[2024-04-04 12:06:38] INFO root fetch - processPackages [btcs-crypto-systems]: Downloading https://files.pythonhosted.org/packages/2f/bb/c85a6de36a6477d33e1444efd2a328c4a29a7e9918a901fd0f6404d3ddb2/btcs_crypto_systems-0.0.9.tar.gz
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [sqlx-exec]: Timeout reached during download
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [bitmat-tl]: Timeout reached during download
+[2024-04-04 12:06:38] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-04 12:06:38] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.2.7.tar.gz tmp/bitmat-tl-0.2.8.tar.gz --markdown 20240404/b/bitmat-tl/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-04 12:06:38] WARNING root fetch - processPackages [byma]: Timeout reached during download
+[2024-04-04 12:06:38] INFO root fetch - processPackages [byma]: executing diffoscope
+[2024-04-04 12:06:38] INFO root fetch - processPackages [byma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/byma-0.0.25.tar.gz tmp/byma-0.1.0.tar.gz --markdown 20240404/b/byma/0.0.25-0.1.0/diff.md --exclude *.pyd
+[2024-04-04 12:06:39] WARNING root fetch - processPackages [btcs-crypto-systems]: Timeout reached during download
+[2024-04-04 12:06:39] INFO root fetch - processPackages [btcs-crypto-systems]: executing diffoscope
+[2024-04-04 12:06:39] INFO root fetch - processPackages [btcs-crypto-systems]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btcs_crypto_systems-0.0.8.tar.gz tmp/btcs_crypto_systems-0.0.9.tar.gz --markdown 20240404/b/btcs-crypto-systems/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-04 12:06:39] INFO root fetch - processPackages [sqlx-exec]: Downloading https://files.pythonhosted.org/packages/40/5e/06d82ab941819b4f486ea1933eccf3ebb1b77f8cf298a5e8d704eb8f5db6/sqlx-exec-2.3.3.tar.gz
+[2024-04-04 12:06:39] WARNING root fetch - processPackages [sqlx-exec]: Timeout reached during download
+[2024-04-04 12:06:39] INFO root fetch - processPackages [sqlx-exec]: executing diffoscope
+[2024-04-04 12:06:39] INFO root fetch - processPackages [sqlx-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlx-exec-2.3.2.tar.gz tmp/sqlx-exec-2.3.3.tar.gz --markdown 20240404/s/sqlx-exec/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2024-04-04 12:06:39] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.8.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - processPackages [btcs-crypto-systems]: Remove: archive file [/home/abi/fetcher/tmp/btcs_crypto_systems-0.0.9.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - main [MainThread]: End processing [btcs-crypto-systems]: success
+[2024-04-04 12:06:39] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.2.7.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.2.8.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-04 12:06:39] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.0.25.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - processPackages [byma]: Remove: archive file [/home/abi/fetcher/tmp/byma-0.1.0.tar.gz]
+[2024-04-04 12:06:39] INFO root fetch - main [MainThread]: End processing [byma]: success
+[2024-04-04 12:06:40] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.2.tar.gz]
+[2024-04-04 12:06:40] INFO root fetch - processPackages [sqlx-exec]: Remove: archive file [/home/abi/fetcher/tmp/sqlx-exec-2.3.3.tar.gz]
+[2024-04-04 12:06:40] INFO root fetch - main [MainThread]: End processing [sqlx-exec]: success
+[2024-04-04 12:06:40] INFO root fetch - main [MainThread]: Store serial: [22618207]
