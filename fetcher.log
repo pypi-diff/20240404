@@ -20325,3 +20325,48 @@
 [2024-04-04 11:53:11] INFO root fetch - processPackages [lsst-daf-butler]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-butler-26.2024.900.tar.gz]
 [2024-04-04 11:53:11] INFO root fetch - main [MainThread]: End processing [lsst-daf-butler]: success
 [2024-04-04 11:53:11] INFO root fetch - main [MainThread]: Store serial: [22618114]
+[2024-04-04 11:55:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618114]
+[2024-04-04 11:55:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 11:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wivi-graph-client-py
+[2024-04-04 11:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aos-prov
+[2024-04-04 11:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: slcode
+[2024-04-04 11:55:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: slcode
+[2024-04-04 11:55:20] INFO root fetch - processPackages [wivi-graph-client-py]: New version: [2.1.1] Old Version: [1.0.0]
+[2024-04-04 11:55:20] INFO root fetch - processPackages [aos-prov]: New version: [4.5.0b9] Old Version: [4.5.0b8]
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: New version: [1.0.0] Old Version: [0.4.1]
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: New version: [1.0.0] Old Version: [0.4.1]
+[2024-04-04 11:55:20] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/e1/51/32d67aa801eda42d9a0c95042c025b4e8aa432a9be4a9630eb32b8f47295/aos_prov-4.5.0b8-py3-none-any.whl
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: Downloading https://files.pythonhosted.org/packages/2b/5d/a3772382cf1f15ca9462d553b19c0d78a51d779ffb3feea3fb92a9ae18fd/slcode-0.4.1.tar.gz
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: Downloading https://files.pythonhosted.org/packages/2b/5d/a3772382cf1f15ca9462d553b19c0d78a51d779ffb3feea3fb92a9ae18fd/slcode-0.4.1.tar.gz
+[2024-04-04 11:55:20] INFO root fetch - processPackages [wivi-graph-client-py]: Downloading https://files.pythonhosted.org/packages/5c/e2/523ecdf8d75c528fac73bf3bd107e13c5edeb2f079e544b9d58ed5805b8d/wivi_graph_client_py-1.0.0.tar.gz
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [wivi-graph-client-py]: Timeout reached during download
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [slcode]: Timeout reached during download
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [slcode]: Timeout reached during download
+[2024-04-04 11:55:20] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/03/89/5d9410ef3bf7d3437825ec29c4d03ef42c4cf197008ff7283abe01fcd15f/aos_prov-4.5.0b9-py3-none-any.whl
+[2024-04-04 11:55:20] INFO root fetch - processPackages [wivi-graph-client-py]: Downloading https://files.pythonhosted.org/packages/2b/14/eb1d4cd2d2f064599768c668171aa937333380ca15ac43e300161f275107/wivi_graph_client_py-2.1.1.tar.gz
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [aos-prov]: Timeout reached during download
+[2024-04-04 11:55:20] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2024-04-04 11:55:20] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip --markdown 20240404/a/aos-prov/4.5.0b8-4.5.0b9/diff.md --exclude *.pyd
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: Downloading https://files.pythonhosted.org/packages/97/de/3bacde73dd75f0401c0537aa5d74a981adda98959cb3e6d7497935c2a6ee/slcode-1.0.0.tar.gz
+[2024-04-04 11:55:20] INFO root fetch - processPackages [slcode]: Downloading https://files.pythonhosted.org/packages/97/de/3bacde73dd75f0401c0537aa5d74a981adda98959cb3e6d7497935c2a6ee/slcode-1.0.0.tar.gz
+[2024-04-04 11:55:20] WARNING root fetch - processPackages [wivi-graph-client-py]: Timeout reached during download
+[2024-04-04 11:55:20] INFO root fetch - processPackages [wivi-graph-client-py]: executing diffoscope
+[2024-04-04 11:55:20] INFO root fetch - processPackages [wivi-graph-client-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wivi_graph_client_py-1.0.0.tar.gz tmp/wivi_graph_client_py-2.1.1.tar.gz --markdown 20240404/w/wivi-graph-client-py/1.0.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-04 11:55:21] WARNING root fetch - processPackages [slcode]: Timeout reached during download
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: executing diffoscope
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcode-0.4.1.tar.gz tmp/slcode-1.0.0.tar.gz --markdown 20240404/s/slcode/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 11:55:21] WARNING root fetch - processPackages [slcode]: Timeout reached during download
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: executing diffoscope
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slcode-0.4.1.tar.gz tmp/slcode-1.0.0.tar.gz --markdown 20240404/s/slcode/0.4.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-04 11:55:21] INFO root fetch - processPackages [wivi-graph-client-py]: Remove: archive file [/home/abi/fetcher/tmp/wivi_graph_client_py-1.0.0.tar.gz]
+[2024-04-04 11:55:21] INFO root fetch - processPackages [wivi-graph-client-py]: Remove: archive file [/home/abi/fetcher/tmp/wivi_graph_client_py-2.1.1.tar.gz]
+[2024-04-04 11:55:21] INFO root fetch - main [MainThread]: End processing [wivi-graph-client-py]: success
+[2024-04-04 11:55:21] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b8-py3-none-any.whl.zip]
+[2024-04-04 11:55:21] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.5.0b9-py3-none-any.whl.zip]
+[2024-04-04 11:55:21] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: Remove: archive file [/home/abi/fetcher/tmp/slcode-0.4.1.tar.gz]
+[2024-04-04 11:55:21] INFO root fetch - processPackages [slcode]: Remove: archive file [/home/abi/fetcher/tmp/slcode-1.0.0.tar.gz]
+[2024-04-04 11:55:21] INFO root fetch - main [MainThread]: End processing [slcode]: success
+[2024-04-04 11:55:21] INFO root fetch - main [MainThread]: End processing [slcode]: success
+[2024-04-04 11:55:21] INFO root fetch - main [MainThread]: Store serial: [22618127]
