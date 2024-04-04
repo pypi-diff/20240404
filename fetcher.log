@@ -21866,3 +21866,48 @@
 [2024-04-04 12:51:51] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-4.8.1.tar.gz]
 [2024-04-04 12:51:51] INFO root fetch - main [MainThread]: End processing [shareddata]: success
 [2024-04-04 12:51:51] INFO root fetch - main [MainThread]: Store serial: [22618742]
+[2024-04-04 12:53:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22618742]
+[2024-04-04 12:54:00] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 12:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PyFaceCrop
+[2024-04-04 12:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: macal
+[2024-04-04 12:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macal
+[2024-04-04 12:54:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: east-tool
+[2024-04-04 12:54:00] INFO root fetch - processPackages [PyFaceCrop]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: New version: [5.0rc9] Old Version: [5.0rc8]
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: New version: [5.0rc9] Old Version: [5.0rc8]
+[2024-04-04 12:54:00] INFO root fetch - processPackages [east-tool]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-04 12:54:00] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/59/3f/00254ce0e607951d81e98e01b1d179339c75d69d27b3f1d7b9efd9a1f17d/PyFaceCrop-0.0.7.tar.gz
+[2024-04-04 12:54:00] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/3d/62/febee651a6d998de61699c6e1c52d4ddeaf38625e2820bc9de62251a8028/macal-5.0rc8.tar.gz
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/3d/62/febee651a6d998de61699c6e1c52d4ddeaf38625e2820bc9de62251a8028/macal-5.0rc8.tar.gz
+[2024-04-04 12:54:00] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/aa/b9/a419d04e61bd48ae734d95f9cd4f958486d35393487838669b55b851e22c/east-tool-0.8.0.tar.gz
+[2024-04-04 12:54:00] INFO root fetch - processPackages [PyFaceCrop]: Downloading https://files.pythonhosted.org/packages/a3/41/3f9778ddb4fecf72e944d16557f983a45d1934c369c71d0c9b7b7c187e22/PyFaceCrop-0.0.8.tar.gz
+[2024-04-04 12:54:00] WARNING root fetch - processPackages [macal]: Timeout reached during download
+[2024-04-04 12:54:00] WARNING root fetch - processPackages [macal]: Timeout reached during download
+[2024-04-04 12:54:00] WARNING root fetch - processPackages [PyFaceCrop]: Timeout reached during download
+[2024-04-04 12:54:00] INFO root fetch - processPackages [PyFaceCrop]: executing diffoscope
+[2024-04-04 12:54:00] INFO root fetch - processPackages [PyFaceCrop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFaceCrop-0.0.7.tar.gz tmp/PyFaceCrop-0.0.8.tar.gz --markdown 20240404/P/PyFaceCrop/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 12:54:00] WARNING root fetch - processPackages [east-tool]: Timeout reached during download
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/df/a3/3e0738e32c723cfa6c03f76570a31856544886d70d0d756720a490b716ab/macal-5.0rc9.tar.gz
+[2024-04-04 12:54:00] INFO root fetch - processPackages [macal]: Downloading https://files.pythonhosted.org/packages/df/a3/3e0738e32c723cfa6c03f76570a31856544886d70d0d756720a490b716ab/macal-5.0rc9.tar.gz
+[2024-04-04 12:54:01] WARNING root fetch - processPackages [macal]: Timeout reached during download
+[2024-04-04 12:54:01] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-04 12:54:01] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.0rc8.tar.gz tmp/macal-5.0rc9.tar.gz --markdown 20240404/m/macal/5.0rc8-5.0rc9/diff.md --exclude *.pyd
+[2024-04-04 12:54:01] WARNING root fetch - processPackages [macal]: Timeout reached during download
+[2024-04-04 12:54:01] INFO root fetch - processPackages [macal]: executing diffoscope
+[2024-04-04 12:54:01] INFO root fetch - processPackages [macal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macal-5.0rc8.tar.gz tmp/macal-5.0rc9.tar.gz --markdown 20240404/m/macal/5.0rc8-5.0rc9/diff.md --exclude *.pyd
+[2024-04-04 12:54:01] INFO root fetch - processPackages [east-tool]: Downloading https://files.pythonhosted.org/packages/9b/6f/2e25b49e9a58602e4dce92b098f9a5e902680457f352224bd59321655dd2/east-tool-0.9.0.tar.gz
+[2024-04-04 12:54:01] WARNING root fetch - processPackages [east-tool]: Timeout reached during download
+[2024-04-04 12:54:01] INFO root fetch - processPackages [east-tool]: executing diffoscope
+[2024-04-04 12:54:01] INFO root fetch - processPackages [east-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/east-tool-0.8.0.tar.gz tmp/east-tool-0.9.0.tar.gz --markdown 20240404/e/east-tool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-04 12:54:01] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.7.tar.gz]
+[2024-04-04 12:54:01] INFO root fetch - processPackages [PyFaceCrop]: Remove: archive file [/home/abi/fetcher/tmp/PyFaceCrop-0.0.8.tar.gz]
+[2024-04-04 12:54:01] INFO root fetch - main [MainThread]: End processing [PyFaceCrop]: success
+[2024-04-04 12:54:02] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.8.0.tar.gz]
+[2024-04-04 12:54:02] INFO root fetch - processPackages [east-tool]: Remove: archive file [/home/abi/fetcher/tmp/east-tool-0.9.0.tar.gz]
+[2024-04-04 12:54:02] INFO root fetch - main [MainThread]: End processing [east-tool]: success
+[2024-04-04 12:54:02] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.0rc8.tar.gz]
+[2024-04-04 12:54:02] INFO root fetch - processPackages [macal]: Remove: archive file [/home/abi/fetcher/tmp/macal-5.0rc9.tar.gz]
+[2024-04-04 12:54:02] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-04 12:54:02] INFO root fetch - main [MainThread]: End processing [macal]: success
+[2024-04-04 12:54:02] INFO root fetch - main [MainThread]: Store serial: [22618754]
