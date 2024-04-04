@@ -23445,3 +23445,64 @@
 [2024-04-04 13:51:31] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.82.tar.gz]
 [2024-04-04 13:51:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2024-04-04 13:51:31] INFO root fetch - main [MainThread]: Store serial: [22619373]
+[2024-04-04 13:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619373]
+[2024-04-04 13:53:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataskillhub
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sommify
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dq-suite-amsterdam
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Temperatur-Nu
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: inmantals
+[2024-04-04 13:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syncmodels
+[2024-04-04 13:53:40] WARNING root fetch - processPackages [Temperatur-Nu]: Skipping, unable to determine old version
+[2024-04-04 13:53:40] INFO root fetch - main [MainThread]: End processing [Temperatur-Nu] error
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dq-suite-amsterdam]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dataskillhub]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-04 13:53:40] INFO root fetch - processPackages [sommify]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-04 13:53:40] INFO root fetch - processPackages [inmantals]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-04 13:53:40] INFO root fetch - processPackages [syncmodels]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/c3/72/27d5dc43f75e7a1684fab5375c3551b240142e28d4dd713ff85e8b835c87/dataskillhub-1.5.0-py3-none-any.whl
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dq-suite-amsterdam]: Downloading https://files.pythonhosted.org/packages/a1/b4/27c352f8246cd6f066b31da671c74e6c695e2896cb82269f886d90294eff/dq-suite-amsterdam-0.2.0.tar.gz
+[2024-04-04 13:53:40] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/ab/1b/182e86e0054abae0c062e5537cb1778d980ef374e039225eb418aa4b3691/sommify-0.8.1.tar.gz
+[2024-04-04 13:53:40] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-04 13:53:40] INFO root fetch - processPackages [inmantals]: Downloading https://files.pythonhosted.org/packages/00/19/9aa4fae43decb53eea42b959e28f528f35319df7406dd91095354164137f/inmantals-1.5.0.tar.gz
+[2024-04-04 13:53:40] WARNING root fetch - processPackages [dq-suite-amsterdam]: Timeout reached during download
+[2024-04-04 13:53:40] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/09/13/db4988a642af43523190154e2a5fc392ebeed8a8fa626973e593b7c6b635/syncmodels-0.1.8-py2.py3-none-any.whl
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/c1/ce/f5d9aa47f83284dc34f750edae7c89b1ac6243b4db0e3042c27ee2fc91c6/dataskillhub-1.5.1-py3-none-any.whl
+[2024-04-04 13:53:40] INFO root fetch - processPackages [dq-suite-amsterdam]: Downloading https://files.pythonhosted.org/packages/5e/80/3d9a1e499a35d7eea21cd701ba92b1effba22727c590c28363886989af30/dq-suite-amsterdam-0.2.1.tar.gz
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [sommify]: Timeout reached during download
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [inmantals]: Timeout reached during download
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [dq-suite-amsterdam]: Timeout reached during download
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dq-suite-amsterdam]: executing diffoscope
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dq-suite-amsterdam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dq-suite-amsterdam-0.2.0.tar.gz tmp/dq-suite-amsterdam-0.2.1.tar.gz --markdown 20240404/d/dq-suite-amsterdam/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-04 13:53:41] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/3b/b5/bd6a3a40adf910cdf4502408b08193952094d83c5d1260ecb784037005d7/sommify-0.8.2.tar.gz
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [dataskillhub]: Timeout reached during download
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.5.0-py3-none-any.whl.zip tmp/dataskillhub-1.5.1-py3-none-any.whl.zip --markdown 20240404/d/dataskillhub/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-04 13:53:41] INFO root fetch - processPackages [inmantals]: Downloading https://files.pythonhosted.org/packages/66/e9/962a30cb8595e3674c824736d60019845f4f4fe93efb7447fea3a40406df/inmantals-1.6.0.tar.gz
+[2024-04-04 13:53:41] INFO root fetch - processPackages [syncmodels]: Downloading https://files.pythonhosted.org/packages/fa/f6/eeeb0b12fc045f5917cfc3967317eddb0f896b12df99ee9cb26dd42b0529/syncmodels-0.1.9-py2.py3-none-any.whl
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [sommify]: Timeout reached during download
+[2024-04-04 13:53:41] INFO root fetch - processPackages [sommify]: executing diffoscope
+[2024-04-04 13:53:41] INFO root fetch - processPackages [sommify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sommify-0.8.1.tar.gz tmp/sommify-0.8.2.tar.gz --markdown 20240404/s/sommify/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [inmantals]: Timeout reached during download
+[2024-04-04 13:53:41] INFO root fetch - processPackages [inmantals]: executing diffoscope
+[2024-04-04 13:53:41] INFO root fetch - processPackages [inmantals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmantals-1.5.0.tar.gz tmp/inmantals-1.6.0.tar.gz --markdown 20240404/i/inmantals/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-04 13:53:41] WARNING root fetch - processPackages [syncmodels]: Timeout reached during download
+[2024-04-04 13:53:41] INFO root fetch - processPackages [syncmodels]: executing diffoscope
+[2024-04-04 13:53:41] INFO root fetch - processPackages [syncmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip --markdown 20240404/s/syncmodels/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dq-suite-amsterdam]: Remove: archive file [/home/abi/fetcher/tmp/dq-suite-amsterdam-0.2.0.tar.gz]
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dq-suite-amsterdam]: Remove: archive file [/home/abi/fetcher/tmp/dq-suite-amsterdam-0.2.1.tar.gz]
+[2024-04-04 13:53:41] INFO root fetch - main [MainThread]: End processing [dq-suite-amsterdam]: success
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.5.0-py3-none-any.whl.zip]
+[2024-04-04 13:53:41] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.5.1-py3-none-any.whl.zip]
+[2024-04-04 13:53:41] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-04 13:53:42] INFO root fetch - processPackages [inmantals]: Remove: archive file [/home/abi/fetcher/tmp/inmantals-1.5.0.tar.gz]
+[2024-04-04 13:53:42] INFO root fetch - processPackages [inmantals]: Remove: archive file [/home/abi/fetcher/tmp/inmantals-1.6.0.tar.gz]
+[2024-04-04 13:53:42] INFO root fetch - main [MainThread]: End processing [inmantals]: success
+[2024-04-04 13:53:42] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.8-py2.py3-none-any.whl.zip]
+[2024-04-04 13:53:42] INFO root fetch - processPackages [syncmodels]: Remove: archive file [/home/abi/fetcher/tmp/syncmodels-0.1.9-py2.py3-none-any.whl.zip]
+[2024-04-04 13:53:42] INFO root fetch - main [MainThread]: End processing [syncmodels]: success
+[2024-04-04 13:53:42] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.1.tar.gz]
+[2024-04-04 13:53:42] INFO root fetch - processPackages [sommify]: Remove: archive file [/home/abi/fetcher/tmp/sommify-0.8.2.tar.gz]
+[2024-04-04 13:53:42] INFO root fetch - main [MainThread]: End processing [sommify]: success
+[2024-04-04 13:53:42] INFO root fetch - main [MainThread]: Store serial: [22619386]
