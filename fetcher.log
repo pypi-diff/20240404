@@ -22819,3 +22819,50 @@
 [2024-04-04 13:25:02] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.1.tar.gz]
 [2024-04-04 13:25:02] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
 [2024-04-04 13:25:02] INFO root fetch - main [MainThread]: Store serial: [22619063]
+[2024-04-04 13:27:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22619063]
+[2024-04-04 13:27:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-04 13:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cg-pytest-reporter
+[2024-04-04 13:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inoopa_utils
+[2024-04-04 13:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: signapse
+[2024-04-04 13:27:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pineboo
+[2024-04-04 13:27:11] INFO root fetch - processPackages [cg-pytest-reporter]: New version: [2024.2.26.1340] Old Version: [2024.1.16.1248]
+[2024-04-04 13:27:11] INFO root fetch - processPackages [signapse]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-04 13:27:11] INFO root fetch - processPackages [pineboo]: New version: [0.99.81.9] Old Version: [0.99.81.8]
+[2024-04-04 13:27:11] INFO root fetch - processPackages [inoopa_utils]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-04 13:27:11] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/25/a6/156172e06e604c2e3dabd0fcde1f8c648a2b07b126d7372ee5949d2b2ca1/signapse-1.0.1.tar.gz
+[2024-04-04 13:27:11] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/bf/05/01bf4f4f36985c49242c646c233e89db06a14471014ec63ce6763eef616b/inoopa_utils-2.8.1.tar.gz
+[2024-04-04 13:27:11] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/9c/b7/3be4b93bdb42cf8e4577b6a5424555cdf77d5abd237d740480f6d495fa52/pineboo-0.99.81.8.tar.gz
+[2024-04-04 13:27:11] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/cf/46/817fbfd31014886aa4cb1d9990ca9b7ea3543dac30137f65b91a41229901/cg_pytest_reporter-2024.1.16.1248.tar.gz
+[2024-04-04 13:27:11] WARNING root fetch - processPackages [signapse]: Timeout reached during download
+[2024-04-04 13:27:11] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:27:11] WARNING root fetch - processPackages [cg-pytest-reporter]: Timeout reached during download
+[2024-04-04 13:27:11] INFO root fetch - processPackages [signapse]: Downloading https://files.pythonhosted.org/packages/86/29/50f870e0a5b9550c0b39d5437911b9749599c8e4dd1b347d3965d97142bd/signapse-1.0.2.tar.gz
+[2024-04-04 13:27:11] INFO root fetch - processPackages [inoopa_utils]: Downloading https://files.pythonhosted.org/packages/4b/4f/6b11f8fc7163d0df7f67de5a004e1f85e5d834a264c0b6d070b78c388da1/inoopa_utils-2.8.2.tar.gz
+[2024-04-04 13:27:11] WARNING root fetch - processPackages [signapse]: Timeout reached during download
+[2024-04-04 13:27:11] INFO root fetch - processPackages [signapse]: executing diffoscope
+[2024-04-04 13:27:11] INFO root fetch - processPackages [signapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signapse-1.0.1.tar.gz tmp/signapse-1.0.2.tar.gz --markdown 20240404/s/signapse/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-04 13:27:12] WARNING root fetch - processPackages [inoopa_utils]: Timeout reached during download
+[2024-04-04 13:27:12] INFO root fetch - processPackages [inoopa_utils]: executing diffoscope
+[2024-04-04 13:27:12] INFO root fetch - processPackages [inoopa_utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inoopa_utils-2.8.1.tar.gz tmp/inoopa_utils-2.8.2.tar.gz --markdown 20240404/i/inoopa_utils/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2024-04-04 13:27:12] INFO root fetch - processPackages [cg-pytest-reporter]: Downloading https://files.pythonhosted.org/packages/65/ee/29484e57aa7d089771269a67a6b347318347663c61cc53514bb9ea3256bd/cg_pytest_reporter-2024.2.26.1340.tar.gz
+[2024-04-04 13:27:12] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:27:12] WARNING root fetch - processPackages [cg-pytest-reporter]: Timeout reached during download
+[2024-04-04 13:27:12] INFO root fetch - processPackages [cg-pytest-reporter]: executing diffoscope
+[2024-04-04 13:27:12] INFO root fetch - processPackages [cg-pytest-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg_pytest_reporter-2024.1.16.1248.tar.gz tmp/cg_pytest_reporter-2024.2.26.1340.tar.gz --markdown 20240404/c/cg-pytest-reporter/2024.1.16.1248-2024.2.26.1340/diff.md --exclude *.pyd
+[2024-04-04 13:27:12] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/ff/50/87775691723da3f9e064c08195196296b4854a665f9ed79f579caf49283d/pineboo-0.99.81.9.tar.gz
+[2024-04-04 13:27:12] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.1.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - processPackages [signapse]: Remove: archive file [/home/abi/fetcher/tmp/signapse-1.0.2.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - main [MainThread]: End processing [signapse]: success
+[2024-04-04 13:27:12] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.1.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - processPackages [inoopa_utils]: Remove: archive file [/home/abi/fetcher/tmp/inoopa_utils-2.8.2.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - main [MainThread]: End processing [inoopa_utils]: success
+[2024-04-04 13:27:12] INFO root fetch - processPackages [cg-pytest-reporter]: Remove: archive file [/home/abi/fetcher/tmp/cg_pytest_reporter-2024.1.16.1248.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - processPackages [cg-pytest-reporter]: Remove: archive file [/home/abi/fetcher/tmp/cg_pytest_reporter-2024.2.26.1340.tar.gz]
+[2024-04-04 13:27:12] INFO root fetch - main [MainThread]: End processing [cg-pytest-reporter]: success
+[2024-04-04 13:27:13] WARNING root fetch - processPackages [pineboo]: Timeout reached during download
+[2024-04-04 13:27:13] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2024-04-04 13:27:13] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-0.99.81.8.tar.gz tmp/pineboo-0.99.81.9.tar.gz --markdown 20240404/p/pineboo/0.99.81.8-0.99.81.9/diff.md --exclude *.pyd
+[2024-04-04 13:27:16] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.8.tar.gz]
+[2024-04-04 13:27:16] INFO root fetch - processPackages [pineboo]: Remove: archive file [/home/abi/fetcher/tmp/pineboo-0.99.81.9.tar.gz]
+[2024-04-04 13:27:16] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2024-04-04 13:27:16] INFO root fetch - main [MainThread]: Store serial: [22619082]
