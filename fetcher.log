@@ -17641,3 +17641,53 @@
 [2024-04-04 10:21:41] INFO root fetch - processPackages [pyams-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/pyams_scheduler-2.4.7.tar.gz]
 [2024-04-04 10:21:41] INFO root fetch - main [MainThread]: End processing [pyams-scheduler]: success
 [2024-04-04 10:21:41] INFO root fetch - main [MainThread]: Store serial: [22617130]
+[2024-04-04 10:23:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22617130]
+[2024-04-04 10:23:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-04 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seacrowd
+[2024-04-04 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataverse
+[2024-04-04 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PatrowlEnginesUtils
+[2024-04-04 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: custom-cytomine-client
+[2024-04-04 10:23:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2024-04-04 10:23:50] INFO root fetch - processPackages [dataverse]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [seacrowd]: Skipping, unable to determine old version
+[2024-04-04 10:23:50] INFO root fetch - processPackages [custom-cytomine-client]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-04 10:23:50] INFO root fetch - main [MainThread]: End processing [seacrowd] error
+[2024-04-04 10:23:50] INFO root fetch - processPackages [PatrowlEnginesUtils]: New version: [1.2.0rc2] Old Version: [1.0.2]
+[2024-04-04 10:23:50] INFO root fetch - processPackages [spotPython]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-04 10:23:50] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/cc/4a/e57bbcff788cd6790d5f54d0a212b486364fb4e6f705f5de77eef5b1135c/custom_cytomine_client-0.0.7.tar.gz
+[2024-04-04 10:23:50] INFO root fetch - processPackages [PatrowlEnginesUtils]: Downloading https://files.pythonhosted.org/packages/63/98/45d13918a5e9316bbae6695be9affea8dcddebc347d822e95b79b9eeea86/PatrowlEnginesUtils-1.0.2.tar.gz
+[2024-04-04 10:23:50] INFO root fetch - processPackages [dataverse]: Downloading https://files.pythonhosted.org/packages/ee/e9/c98fcc99052ca4ec9f1487b1475c7d489e7e8ec7ca65dbfebf409abab7b6/dataverse-1.0.4.tar.gz
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [PatrowlEnginesUtils]: Timeout reached during download
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [dataverse]: Timeout reached during download
+[2024-04-04 10:23:50] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/aa/01/87762fb27b6d307e4614269c8a41952ca3bec4ec77adfc08459351394a0d/spotPython-0.9.8.tar.gz
+[2024-04-04 10:23:50] INFO root fetch - processPackages [custom-cytomine-client]: Downloading https://files.pythonhosted.org/packages/eb/97/67b2259f8b07490c98a4fdfe69831bcd836ec858f54b82f7680b3014ca34/custom_cytomine_client-0.0.8.tar.gz
+[2024-04-04 10:23:50] INFO root fetch - processPackages [PatrowlEnginesUtils]: Downloading https://files.pythonhosted.org/packages/d1/94/4adcdbad14c957cdd7eea48710a2dcf967d984d044453d83e14d855d6492/PatrowlEnginesUtils-1.2.0rc2.tar.gz
+[2024-04-04 10:23:50] INFO root fetch - processPackages [dataverse]: Downloading https://files.pythonhosted.org/packages/81/ac/bdbac16302bf3d70b493b2f6c31b2e30c64838bd93333331e210c99b3b30/dataverse-1.0.5.tar.gz
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [PatrowlEnginesUtils]: Timeout reached during download
+[2024-04-04 10:23:50] INFO root fetch - processPackages [PatrowlEnginesUtils]: executing diffoscope
+[2024-04-04 10:23:50] INFO root fetch - processPackages [PatrowlEnginesUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatrowlEnginesUtils-1.0.2.tar.gz tmp/PatrowlEnginesUtils-1.2.0rc2.tar.gz --markdown 20240404/P/PatrowlEnginesUtils/1.0.2-1.2.0rc2/diff.md --exclude *.pyd
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [custom-cytomine-client]: Timeout reached during download
+[2024-04-04 10:23:50] INFO root fetch - processPackages [custom-cytomine-client]: executing diffoscope
+[2024-04-04 10:23:50] INFO root fetch - processPackages [custom-cytomine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/custom_cytomine_client-0.0.7.tar.gz tmp/custom_cytomine_client-0.0.8.tar.gz --markdown 20240404/c/custom-cytomine-client/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-04 10:23:50] WARNING root fetch - processPackages [dataverse]: Timeout reached during download
+[2024-04-04 10:23:50] INFO root fetch - processPackages [dataverse]: executing diffoscope
+[2024-04-04 10:23:50] INFO root fetch - processPackages [dataverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataverse-1.0.4.tar.gz tmp/dataverse-1.0.5.tar.gz --markdown 20240404/d/dataverse/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-04 10:23:51] INFO root fetch - processPackages [PatrowlEnginesUtils]: Remove: archive file [/home/abi/fetcher/tmp/PatrowlEnginesUtils-1.0.2.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - processPackages [PatrowlEnginesUtils]: Remove: archive file [/home/abi/fetcher/tmp/PatrowlEnginesUtils-1.2.0rc2.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - main [MainThread]: End processing [PatrowlEnginesUtils]: success
+[2024-04-04 10:23:51] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.7.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - processPackages [custom-cytomine-client]: Remove: archive file [/home/abi/fetcher/tmp/custom_cytomine_client-0.0.8.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - main [MainThread]: End processing [custom-cytomine-client]: success
+[2024-04-04 10:23:51] INFO root fetch - processPackages [dataverse]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-1.0.4.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - processPackages [dataverse]: Remove: archive file [/home/abi/fetcher/tmp/dataverse-1.0.5.tar.gz]
+[2024-04-04 10:23:51] INFO root fetch - main [MainThread]: End processing [dataverse]: success
+[2024-04-04 10:23:52] WARNING root fetch - processPackages [spotPython]: Timeout reached during download
+[2024-04-04 10:23:53] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/24/be/283dfbac35854cc80323c97a62b46a4b61ef023695b46910af3abc4b765b/spotPython-0.9.9.tar.gz
+[2024-04-04 10:23:54] WARNING root fetch - processPackages [spotPython]: Timeout reached during download
+[2024-04-04 10:23:54] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2024-04-04 10:23:54] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.9.8.tar.gz tmp/spotPython-0.9.9.tar.gz --markdown 20240404/s/spotPython/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-04 10:23:56] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.8.tar.gz]
+[2024-04-04 10:23:56] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.9.9.tar.gz]
+[2024-04-04 10:23:56] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2024-04-04 10:23:56] INFO root fetch - main [MainThread]: Store serial: [22617149]
