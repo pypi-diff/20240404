@@ -14735,3 +14735,28 @@
 [2024-04-04 08:28:18] INFO root fetch - processPackages [cace]: Remove: archive file [/home/abi/fetcher/tmp/cace-2.1.9.tar.gz]
 [2024-04-04 08:28:18] INFO root fetch - main [MainThread]: End processing [cace]: success
 [2024-04-04 08:28:18] INFO root fetch - main [MainThread]: Store serial: [22616233]
+[2024-04-04 08:30:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22616233]
+[2024-04-04 08:30:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-04 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langflow
+[2024-04-04 08:30:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: subprocess-loop
+[2024-04-04 08:30:27] INFO root fetch - processPackages [subprocess-loop]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-04 08:30:27] INFO root fetch - processPackages [langflow]: New version: [1.0.0a5] Old Version: [1.0.0a4]
+[2024-04-04 08:30:27] INFO root fetch - processPackages [subprocess-loop]: Downloading https://files.pythonhosted.org/packages/87/b6/790f9f75ae491e4e16100e5ea2abd988e156c953606f1713e736ed9763e9/subprocess_loop-1.0.8.tar.gz
+[2024-04-04 08:30:27] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/e2/a3/4001af7aafa984c9af0f0f1e05c01dec644627208910945774c5d8558c45/langflow-1.0.0a4.tar.gz
+[2024-04-04 08:30:27] WARNING root fetch - processPackages [subprocess-loop]: Timeout reached during download
+[2024-04-04 08:30:27] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-04 08:30:28] INFO root fetch - processPackages [subprocess-loop]: Downloading https://files.pythonhosted.org/packages/4a/92/884e48a346335ed51ad5e759e557e0563e3cab410f9b628b039bc40146b5/subprocess_loop-1.0.9.tar.gz
+[2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/a9/1d/6731b04b5d995df7b55c8bdcfe73324453375901aa0a4fb43c4ae84a99d2/langflow-1.0.0a5.tar.gz
+[2024-04-04 08:30:28] WARNING root fetch - processPackages [subprocess-loop]: Timeout reached during download
+[2024-04-04 08:30:28] INFO root fetch - processPackages [subprocess-loop]: executing diffoscope
+[2024-04-04 08:30:28] INFO root fetch - processPackages [subprocess-loop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/subprocess_loop-1.0.8.tar.gz tmp/subprocess_loop-1.0.9.tar.gz --markdown 20240404/s/subprocess-loop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-04 08:30:28] WARNING root fetch - processPackages [langflow]: Timeout reached during download
+[2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240404:/home/abi/fetcher/20240404:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-1.0.0a4.tar.gz tmp/langflow-1.0.0a5.tar.gz --markdown 20240404/l/langflow/1.0.0a4-1.0.0a5/diff.md --exclude *.pyd
+[2024-04-04 08:30:28] INFO root fetch - processPackages [subprocess-loop]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_loop-1.0.8.tar.gz]
+[2024-04-04 08:30:28] INFO root fetch - processPackages [subprocess-loop]: Remove: archive file [/home/abi/fetcher/tmp/subprocess_loop-1.0.9.tar.gz]
+[2024-04-04 08:30:28] INFO root fetch - main [MainThread]: End processing [subprocess-loop]: success
+[2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a4.tar.gz]
+[2024-04-04 08:30:28] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-1.0.0a5.tar.gz]
+[2024-04-04 08:30:28] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2024-04-04 08:30:28] INFO root fetch - main [MainThread]: Store serial: [22616239]
